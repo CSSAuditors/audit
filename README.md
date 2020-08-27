@@ -28,4 +28,5 @@
 24. Run `wallace :url:`, where :url: match data stored in `script/sites.json` file for each site.
 25. Make screenshot. Example file: `reports/premier-league/2020/09/afc-bournemouth/wallace.png`.
 
+> Don't forget to commmit and push the changes often!
 
