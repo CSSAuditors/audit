@@ -53,9 +53,11 @@ const makeDirectory = (dirPath) => {
   }
 };
 
-const saveFile = (filePath, content) => {
+const saveFile = (filePath, content, stringify) => {
   try {
-    fs.writeFileSync(filePath, JSON.stringify(content, null, 2), 'utf-8');
+    const data = stringify === true ? JSON.stringify(content, null, 2) : content
+
+    fs.writeFileSync(filePath, data, 'utf-8');
 
     return true;
   } catch (err) {
