@@ -814,7 +814,7 @@
     },
     {
       "count": 1,
-      "value": "#custom-sponsors div:first-child ul li",
+      "value": "#nav-accessibility ul li a:focus",
       "specificity": {
         "a": 0,
         "b": 1,
@@ -834,7 +834,7 @@
     },
     {
       "count": 1,
-      "value": "#nav-accessibility ul li a:active",
+      "value": "#custom-sponsors div:first-child ul li",
       "specificity": {
         "a": 0,
         "b": 1,
@@ -844,7 +844,7 @@
     },
     {
       "count": 1,
-      "value": "#nav-accessibility ul li a:focus",
+      "value": "#nav-accessibility ul li a:active",
       "specificity": {
         "a": 0,
         "b": 1,
@@ -1857,12 +1857,12 @@
       "count": 1
     },
     {
-      "value": "2em",
-      "count": 2
-    },
-    {
       "value": "32px",
       "count": 5
+    },
+    {
+      "value": "2em",
+      "count": 2
     },
     {
       "value": "2rem",
@@ -1929,24 +1929,24 @@
       "count": 6
     },
     {
-      "value": "18px",
-      "count": 31
-    },
-    {
       "value": "112.5%",
       "count": 1
+    },
+    {
+      "value": "18px",
+      "count": 31
     },
     {
       "value": "1.111111111111111rem",
       "count": 43
     },
     {
-      "value": "1em",
-      "count": 1
-    },
-    {
       "value": "1rem",
       "count": 31
+    },
+    {
+      "value": "1em",
+      "count": 1
     },
     {
       "value": "16px",
@@ -2253,12 +2253,12 @@
       "count": 1
     },
     {
-      "value": "rgba(0,0,0,.5)",
-      "count": 1
-    },
-    {
       "value": "rgba(0,0,0,0.5)",
       "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.5)",
+      "count": 1
     },
     {
       "value": "rgba(0,0,0,0.4)",
@@ -2282,12 +2282,12 @@
     {
       "notations": [
         {
-          "value": "rgba(0,0,0,.5)",
-          "count": 1
-        },
-        {
           "value": "rgba(0,0,0,0.5)",
           "count": 2
+        },
+        {
+          "value": "rgba(0,0,0,.5)",
+          "count": 1
         }
       ],
       "count": 3,
