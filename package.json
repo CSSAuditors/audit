@@ -1,11 +1,14 @@
 {
   "dependencies": {
     "@projectwallace/css-analyzer": "^2.7.1",
+    "beautify": "^0.0.8",
+    "css-validator": "^0.9.0",
     "extract-css-core": "^2.3.0",
     "mkdirp": "^1.0.4",
     "ncp": "^2.0.0",
     "puppeteer": "^5.2.1",
     "specificity-graph": "^0.1.7",
+    "strip-css-comments": "^4.1.0",
     "wappalyzer": "^6.3.0"
   }
 }
