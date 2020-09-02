@@ -67,10 +67,23 @@ const saveFile = (filePath, content, stringify) => {
   }
 };
 
+const getFile = async (filePath) => {
+  try {
+    return fs.readFileSync(filePath, {
+      encoding:'utf8'
+    });
+  } catch (err) {
+    console.error(err);
+
+    return false;
+  }
+}
+
 module.exports = {
   getCurrentDirectoryBase,
   directoryExists,
   makeDirectory,
   fileExists,
   saveFile,
+  getFile
 };
