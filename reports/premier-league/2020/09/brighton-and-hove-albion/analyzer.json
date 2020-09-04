@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 343756,
-  "stylesheets.filesize.uncompressed.totalBytes": 343756,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 47718,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8611864229278907,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 37729,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8902448248176031,
+  "stylesheets.size": 405028,
+  "stylesheets.filesize.uncompressed.totalBytes": 405028,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 51778,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8721619246076815,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 39863,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9015796438764727,
   "stylesheets.simplicity": 0.9203207216236532,
-  "stylesheets.cohesion.average": 2.582357745711952,
+  "stylesheets.cohesion.average": 2.5820854887013343,
   "stylesheets.cohesion.min.count": 23,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -128,10 +128,10 @@
   "stylesheets.cohesion.min.value.selectors": [
     ".main-navigation__sponsor"
   ],
-  "stylesheets.browserhacks.total": 1,
-  "stylesheets.browserhacks.totalUnique": 1,
-  "stylesheets.linesOfCode.total": 2,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14091,
+  "stylesheets.browserhacks.total": 0,
+  "stylesheets.browserhacks.totalUnique": 0,
+  "stylesheets.linesOfCode.total": 18463,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14090,
   "atrules.charsets.total": 1,
   "atrules.charsets.unique": [
     {
@@ -204,15 +204,15 @@
   "atrules.mediaqueries.total": 596,
   "atrules.mediaqueries.unique": [
     {
-      "value": "(-moz-min-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2)",
+      "value": "(-moz-min-device-pixel-ratio:2),\n(-webkit-min-device-pixel-ratio:2)",
       "count": 29
     },
     {
-      "value": "(-ms-high-contrast:none),screen and (-ms-high-contrast:active)",
+      "value": "(-ms-high-contrast:none),\nscreen and (-ms-high-contrast:active)",
       "count": 1
     },
     {
-      "value": "(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi)",
+      "value": "(-webkit-min-device-pixel-ratio:2),\n(min-resolution:192dpi)",
       "count": 25
     },
     {
@@ -244,7 +244,7 @@
       "count": 73
     },
     {
-      "value": "(max-width:25.865em) and (-moz-min-device-pixel-ratio:2),(max-width:25.865em) and (-webkit-min-device-pixel-ratio:2)",
+      "value": "(max-width:25.865em) and (-moz-min-device-pixel-ratio:2),\n(max-width:25.865em) and (-webkit-min-device-pixel-ratio:2)",
       "count": 1
     },
     {
@@ -252,7 +252,7 @@
       "count": 100
     },
     {
-      "value": "(max-width:39.99em) and (-moz-min-device-pixel-ratio:2),(max-width:39.99em) and (-webkit-min-device-pixel-ratio:2)",
+      "value": "(max-width:39.99em) and (-moz-min-device-pixel-ratio:2),\n(max-width:39.99em) and (-webkit-min-device-pixel-ratio:2)",
       "count": 2
     },
     {
@@ -264,7 +264,7 @@
       "count": 130
     },
     {
-      "value": "(max-width:52.49em) and (-moz-min-device-pixel-ratio:2),(max-width:52.49em) and (-webkit-min-device-pixel-ratio:2)",
+      "value": "(max-width:52.49em) and (-moz-min-device-pixel-ratio:2),\n(max-width:52.49em) and (-webkit-min-device-pixel-ratio:2)",
       "count": 1
     },
     {
@@ -280,7 +280,7 @@
       "count": 75
     },
     {
-      "value": "(max-width:64.0525em) and (-moz-min-device-pixel-ratio:2),(max-width:64.0525em) and (-webkit-min-device-pixel-ratio:2)",
+      "value": "(max-width:64.0525em) and (-moz-min-device-pixel-ratio:2),\n(max-width:64.0525em) and (-webkit-min-device-pixel-ratio:2)",
       "count": 3
     },
     {
@@ -462,7 +462,7 @@
       "count": 1
     },
     {
-      "value": ".articleWidget>*",
+      "value": ".articleWidget > *",
       "count": 1
     },
     {
@@ -477,7 +477,17 @@
   "selectors.specificity.top": [
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:hover",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 9,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:hover",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -487,7 +497,7 @@
     },
     {
       "count": 2,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link.is-external-link",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link.is-external-link",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -497,7 +507,7 @@
     },
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:focus",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -507,17 +517,7 @@
     },
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:hover",
-      "specificity": {
-        "a": 0,
-        "b": 0,
-        "c": 9,
-        "d": 0
-      }
-    },
-    {
-      "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:hover",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -534,7 +534,17 @@
   "selectors.specificity.max.selectors": [
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:hover",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 9,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:hover",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -544,7 +554,7 @@
     },
     {
       "count": 2,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link.is-external-link",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link.is-external-link",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -554,7 +564,7 @@
     },
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:focus",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -564,17 +574,7 @@
     },
     {
       "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:hover",
-      "specificity": {
-        "a": 0,
-        "b": 0,
-        "c": 9,
-        "d": 0
-      }
-    },
-    {
-      "count": 1,
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:hover",
       "specificity": {
         "a": 0,
         "b": 0,
@@ -584,50 +584,50 @@
     }
   ],
   "selectors.identifiers.average": 1.9416186419443748,
-  "selectors.identifiers.max.value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:focus",
+  "selectors.identifiers.max.value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
   "selectors.identifiers.max.count": 9,
   "selectors.identifiers.top": [
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
       "count": 9
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:hover",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:hover",
       "count": 9
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link.is-external-link",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link.is-external-link",
       "count": 9
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link.is-external-link",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link.is-external-link",
       "count": 9
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:focus",
       "count": 9
     }
   ],
   "selectors.complexity.max.value": 9,
   "selectors.complexity.max.selectors": [
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
       "count": 1
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown-label:hover",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:hover",
       "count": 1
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link.is-external-link",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link.is-external-link",
       "count": 2
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:focus",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:focus",
       "count": 1
     },
     {
-      "value": ".main-navigation__desktop-list>.linked-list>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__dropdown>.linked-list__item>.linked-list__link:hover",
+      "value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__link:hover",
       "count": 1
     }
   ],
@@ -680,16 +680,12 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 9485,
-  "declarations.totalUnique": 2647,
+  "declarations.total": 9484,
+  "declarations.totalUnique": 2644,
   "declarations.importants.total": 245,
-  "declarations.importants.share": 0.025830258302583026,
-  "properties.total": 9485,
+  "declarations.importants.share": 0.025832981864192323,
+  "properties.total": 9484,
   "properties.unique": [
-    {
-      "value": "*zoom",
-      "count": 1
-    },
     {
       "value": "-moz-appearance",
       "count": 2
@@ -1311,7 +1307,7 @@
       "count": 99
     }
   ],
-  "properties.totalUnique": 156,
+  "properties.totalUnique": 155,
   "properties.prefixed.total": 472,
   "properties.prefixed.unique": [
     {
@@ -1452,16 +1448,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 34,
-  "properties.prefixed.share": 0.049762783342119137,
-  "properties.browserhacks.total": 1,
-  "properties.browserhacks.unique": [
-    {
-      "value": "*zoom",
-      "count": 1
-    }
-  ],
-  "properties.browserhacks.totalUnique": 1,
-  "values.total": 9485,
+  "properties.prefixed.share": 0.04976803036693378,
+  "properties.browserhacks.total": 0,
+  "properties.browserhacks.unique": [],
+  "properties.browserhacks.totalUnique": 0,
+  "values.total": 9484,
   "values.prefixed.total": 180,
   "values.prefixed.unique": [
     {
@@ -1486,7 +1477,7 @@
     }
   ],
   "values.prefixed.totalUnique": 5,
-  "values.prefixed.share": 0.018977332630469163,
+  "values.prefixed.share": 0.018979333614508646,
   "values.fontsizes.total": 443,
   "values.fontsizes.unique": [
     {
@@ -1614,12 +1605,12 @@
       "count": 27
     },
     {
-      "value": "2rem",
-      "count": 7
-    },
-    {
       "value": "2em",
       "count": 1
+    },
+    {
+      "value": "2rem",
+      "count": 7
     },
     {
       "value": "1.9rem",
@@ -1670,12 +1661,12 @@
       "count": 5
     },
     {
-      "value": ".8rem",
-      "count": 3
-    },
-    {
       "value": "80%",
       "count": 1
+    },
+    {
+      "value": ".8rem",
+      "count": 3
     },
     {
       "value": "75%",
@@ -1723,7 +1714,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 6,
-  "values.colors.total": 912,
+  "values.colors.total": 911,
   "values.colors.unique": [
     {
       "value": "#323131",
@@ -1734,12 +1725,12 @@
       "count": 1
     },
     {
-      "value": "#ff2727",
-      "count": 7
-    },
-    {
       "value": "red",
       "count": 1
+    },
+    {
+      "value": "#ff2727",
+      "count": 7
     },
     {
       "value": "#f50403",
@@ -2052,13 +2043,9 @@
     {
       "value": "rgba(0,0,0,.06)",
       "count": 2
-    },
-    {
-      "value": "rgba(0,0,0,0)",
-      "count": 1
     }
   ],
-  "values.colors.totalUnique": 83,
+  "values.colors.totalUnique": 82,
   "values.colors.duplicates.unique": [],
   "values.colors.duplicates.totalUnique": 0,
   "values.colors.duplicates.total": 0,

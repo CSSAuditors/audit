@@ -1,16 +1,17 @@
 const files = require('./files.js')
 const extractCss = require('extract-css-core')
+const CleanCSS = require('clean-css')
 const specificityGraph = require('specificity-graph')
 const analyzer = require('@projectwallace/css-analyzer')
 const Wappalyzer = require('wappalyzer')
 const puppeteer = require('puppeteer')
-const stripComments = require('strip-css-comments');
-const beautify = require('beautify');
-const validator = require('css-validator');
+const stripComments = require('strip-css-comments')
+const beautify = require('beautify')
+const validator = require('css-validator')
 
 const sites = require('./sites.json')
 
-const namify = (name) => name.split(' ').join('-').toLowerCase()
+const namify = (name) => name.split(' ').join('-').replace('&', 'and').toLowerCase()
 
 const getFolder = (site) => {
   const folder = namify(`./reports/${site.category}/${site.year}/${site.month}/${site.title}`)
@@ -22,247 +23,400 @@ const getFolder = (site) => {
   return folder
 }
 
-const generateReport = async (site, cssFile, specificityFile, analyzerFile, wappalyzerFile) => {
-  console.log('')
-  // const css = await files.getFile(cssFile)
-  // console.log('-----------------------------------------')
-  // console.log(css)
-  const specificity = await files.getFile(specificityFile)
-  const specificityData = JSON.parse(specificity)
-  // console.log('-----------------------------------------')
-  // console.log(Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
+const generateReport = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
 
-  const analyzer = await files.getFile(analyzerFile)
-  const analyzerData = JSON.parse(analyzer)
-  console.log('-----------------------------------------')
-  console.log(`[${site.title}] Total selectors: `, analyzerData['selectors.total'])
-  console.log(`[${site.title}] Total unique selectors: `, analyzerData['selectors.totalUnique'])
-  console.log(`[${site.title}] Percent of unique selectors: `, `${parseFloat(analyzerData['selectors.totalUnique'] / analyzerData['selectors.total'] * 100).toFixed(2)}`)
+    const cssFileClean = `${folder}/style-clean.css`
 
-  console.log('')
-  console.log(`[${site.title}] Total Universal selectors: `, analyzerData['selectors.universal.total'])
-  console.log(`[${site.title}] Total unique Universal selectors: `, analyzerData['selectors.universal.totalUnique'])
-  console.log(`[${site.title}] Percent of unique Universal selectors: `, analyzerData['selectors.universal.total'] > 0 ? `${parseFloat(analyzerData['selectors.universal.totalUnique'] / analyzerData['selectors.universal.total'] * 100).toFixed(2)}` : 0)
+    if(!files.fileExists(cssFileClean)) {
+      return false
+    }
 
-  console.log('')
-  console.log(`[${site.title}] Total ID selectors: `, analyzerData['selectors.id.total'])
-  console.log(`[${site.title}] Total unique ID selectors: `, analyzerData['selectors.id.totalUnique'])
-  console.log(`[${site.title}] Percent of unique ID selectors: `, analyzerData['selectors.id.total'] > 0 ? `${parseFloat(analyzerData['selectors.id.totalUnique'] / analyzerData['selectors.id.total'] * 100).toFixed(2)}` : 0)
+    const cssString = await files.getFile(cssFileClean)
 
-  console.log('')
-  console.log(`[${site.title}] Total JavaScript selectors: `, analyzerData['selectors.js.total'])
-  console.log(`[${site.title}] Total unique JavaScript selectors: `, analyzerData['selectors.js.totalUnique'])
-  console.log(`[${site.title}] Percent of unique JavaScript selectors: `, analyzerData['selectors.js.total'] > 0 ? `${parseFloat(analyzerData['selectors.js.totalUnique'] / analyzerData['selectors.js.total'] * 100).toFixed(2)}` : 0)
+    const specificityFolder = `${folder}/specificity`
+    const specificityFile = `${specificityFolder}/specificity.json`
 
-  console.log('')
-  console.log(`[${site.title}] Total Accessibility selectors: `, analyzerData['selectors.accessibility.total'])
-  console.log(`[${site.title}] Total unique Accessibility selectors: `, analyzerData['selectors.accessibility.totalUnique'])
-  console.log(`[${site.title}] Percent of unique Accessibility selectors: `, analyzerData['selectors.accessibility.total'] > 0 ? `${parseFloat(analyzerData['selectors.accessibility.totalUnique'] / analyzerData['selectors.accessibility.total'] * 100).toFixed(2)}` : 0)
+    if(!files.fileExists(specificityFile)) {
+      return false
+    }
 
-  console.log('')
-  console.log(`[${site.title}] Total Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'])
-  console.log(`[${site.title}] Total unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.totalUnique'])
-  console.log(`[${site.title}] Percent of unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'] > 0 ? `${parseFloat(analyzerData['selectors.browserhacks.totalUnique'] / analyzerData['selectors.browserhacks.total'] * 100).toFixed(2)}` : 0)
+    const specificityRaw = await files.getFile(specificityFile)
+    const specificityData = JSON.parse(specificityRaw)
 
-  const regularSelectors = analyzerData['selectors.total'] - (analyzerData['selectors.universal.total'] + analyzerData['selectors.id.total'] + analyzerData['selectors.js.total'] + analyzerData['selectors.accessibility.total'] + analyzerData['selectors.browserhacks.total'])
+    const analyzerFile = `${folder}/analyzer.json`
 
-  console.log('')
-  console.log(`[${site.title}] Total Regular selectors: `, regularSelectors)
-  console.log(`[${site.title}] Percent of Regular selectors: `, `${parseFloat(regularSelectors / analyzerData['selectors.total'] * 100).toFixed(2)}`)
+    if(!files.fileExists(analyzerFile)) {
+      return false
+    }
 
-  // const totalSpecificity = specificityData.reduce((a, b) => a + b.specificity || 0, 0)
-  // console.log(specificityData[0], totalSpecificity, specificityData.length, analyzerData['selectors.total']);
-  // console.log(totalSpecificity/specificityData.length);
+    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerData = JSON.parse(analyzerRaw)
 
-  console.log('')
-  console.log(`[${site.title}] Max specificity: `, `${analyzerData['selectors.specificity.max.value.a']}${analyzerData['selectors.specificity.max.value.b']}${analyzerData['selectors.specificity.max.value.c']}${analyzerData['selectors.specificity.max.value.d']}`)
-  // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+    const wappalyzerFile = `${folder}/wappalyzer.json`
 
-  console.log('')
-  console.log(`[${site.title}] Average identifiers per rule: `, analyzerData['selectors.identifiers.average'])
-  // console.log(`[${site.title}] Max identifiers value: `, analyzerData['selectors.identifiers.max.value'])
-  // console.log(`[${site.title}] Max identifiers count: `, analyzerData['selectors.identifiers.max.count'])
+    if(!files.fileExists(wappalyzerFile)) {
+      return false
+    }
 
-  // console.log('')
-  console.log(`[${site.title}] Average complexity per selector: `, analyzerData['selectors.complexity.average'])
-  // console.log(`[${site.title}] Max complexity value: `, analyzerData['selectors.complexity.max.value'])
-  // console.log(`[${site.title}] Max complexity count: `, analyzerData['selectors.complexity.max.count'])
-  // console.log(`[${site.title}] Max complexity selectors: `, analyzerData['selectors.complexity.max.selectors'])
-  console.log(`[${site.title}] Max complexity: `, analyzerData['selectors.complexity.sum'])
-  // console.log(`[${site.title}] ? Max complexity unique: `, analyzerData['selectors.complexity.unique'])
-  console.log(`[${site.title}] ? Max complexity total unique: `, analyzerData['selectors.complexity.totalUnique'])
-  // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+    const wappalyzerRaw = await files.getFile(wappalyzerFile)
+    const wappalyzerData = JSON.parse(wappalyzerRaw)
 
-  console.log('')
+    console.log('')
+    // const css = await files.getFile(cssFileClean)
+    // console.log('-----------------------------------------')
+    // console.log(css)
+    // console.log('-----------------------------------------')
+    // console.log(Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
 
-  for (const key in analyzerData) {
-    if (analyzerData.hasOwnProperty(key)) {
-      if(key.indexOf('stylesheets.') === 0) {
-        // console.log(key);
+    console.log('-----------------------------------------')
+    console.log(`[${site.title}] Total selectors: `, analyzerData['selectors.total'])
+    console.log(`[${site.title}] Total unique selectors: `, analyzerData['selectors.totalUnique'])
+    console.log(`[${site.title}] Percent of unique selectors: `, `${parseFloat(analyzerData['selectors.totalUnique'] / analyzerData['selectors.total'] * 100).toFixed(2)}`)
+
+    console.log('')
+    console.log(`[${site.title}] Total Universal selectors: `, analyzerData['selectors.universal.total'])
+    console.log(`[${site.title}] Total unique Universal selectors: `, analyzerData['selectors.universal.totalUnique'])
+    console.log(`[${site.title}] Percent of unique Universal selectors: `, analyzerData['selectors.universal.total'] > 0 ? `${parseFloat(analyzerData['selectors.universal.totalUnique'] / analyzerData['selectors.universal.total'] * 100).toFixed(2)}` : 0)
+
+    console.log('')
+    console.log(`[${site.title}] Total ID selectors: `, analyzerData['selectors.id.total'])
+    console.log(`[${site.title}] Total unique ID selectors: `, analyzerData['selectors.id.totalUnique'])
+    console.log(`[${site.title}] Percent of unique ID selectors: `, analyzerData['selectors.id.total'] > 0 ? `${parseFloat(analyzerData['selectors.id.totalUnique'] / analyzerData['selectors.id.total'] * 100).toFixed(2)}` : 0)
+
+    console.log('')
+    console.log(`[${site.title}] Total JavaScript selectors: `, analyzerData['selectors.js.total'])
+    console.log(`[${site.title}] Total unique JavaScript selectors: `, analyzerData['selectors.js.totalUnique'])
+    console.log(`[${site.title}] Percent of unique JavaScript selectors: `, analyzerData['selectors.js.total'] > 0 ? `${parseFloat(analyzerData['selectors.js.totalUnique'] / analyzerData['selectors.js.total'] * 100).toFixed(2)}` : 0)
+
+    console.log('')
+    console.log(`[${site.title}] Total Accessibility selectors: `, analyzerData['selectors.accessibility.total'])
+    console.log(`[${site.title}] Total unique Accessibility selectors: `, analyzerData['selectors.accessibility.totalUnique'])
+    console.log(`[${site.title}] Percent of unique Accessibility selectors: `, analyzerData['selectors.accessibility.total'] > 0 ? `${parseFloat(analyzerData['selectors.accessibility.totalUnique'] / analyzerData['selectors.accessibility.total'] * 100).toFixed(2)}` : 0)
+
+    console.log('')
+    console.log(`[${site.title}] Total Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'])
+    console.log(`[${site.title}] Total unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.totalUnique'])
+    console.log(`[${site.title}] Percent of unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'] > 0 ? `${parseFloat(analyzerData['selectors.browserhacks.totalUnique'] / analyzerData['selectors.browserhacks.total'] * 100).toFixed(2)}` : 0)
+
+    const regularSelectors = analyzerData['selectors.total'] - (analyzerData['selectors.universal.total'] + analyzerData['selectors.id.total'] + analyzerData['selectors.js.total'] + analyzerData['selectors.accessibility.total'] + analyzerData['selectors.browserhacks.total'])
+
+    console.log('')
+    console.log(`[${site.title}] Total Regular selectors: `, regularSelectors)
+    console.log(`[${site.title}] Percent of Regular selectors: `, `${parseFloat(regularSelectors / analyzerData['selectors.total'] * 100).toFixed(2)}`)
+
+    // const totalSpecificity = specificityData.reduce((a, b) => a + b.specificity || 0, 0)
+    // console.log(specificityData[0], totalSpecificity, specificityData.length, analyzerData['selectors.total'])
+    // console.log(totalSpecificity/specificityData.length)
+
+    console.log('')
+    console.log(`[${site.title}] Max specificity: `, `${analyzerData['selectors.specificity.max.value.a']}${analyzerData['selectors.specificity.max.value.b']}${analyzerData['selectors.specificity.max.value.c']}${analyzerData['selectors.specificity.max.value.d']}`)
+    // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+
+    console.log('')
+    console.log(`[${site.title}] Average identifiers per rule: `, analyzerData['selectors.identifiers.average'])
+    // console.log(`[${site.title}] Max identifiers value: `, analyzerData['selectors.identifiers.max.value'])
+    // console.log(`[${site.title}] Max identifiers count: `, analyzerData['selectors.identifiers.max.count'])
+
+    // console.log('')
+    console.log(`[${site.title}] Average complexity per selector: `, analyzerData['selectors.complexity.average'])
+    // console.log(`[${site.title}] Max complexity value: `, analyzerData['selectors.complexity.max.value'])
+    // console.log(`[${site.title}] Max complexity count: `, analyzerData['selectors.complexity.max.count'])
+    // console.log(`[${site.title}] Max complexity selectors: `, analyzerData['selectors.complexity.max.selectors'])
+    console.log(`[${site.title}] Max complexity: `, analyzerData['selectors.complexity.sum'])
+    // console.log(`[${site.title}] ? Max complexity unique: `, analyzerData['selectors.complexity.unique'])
+    console.log(`[${site.title}] ? Max complexity total unique: `, analyzerData['selectors.complexity.totalUnique'])
+    // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+
+    console.log('')
+
+    for (const key in analyzerData) {
+      if (analyzerData.hasOwnProperty(key)) {
+        if(key.indexOf('stylesheets.') === 0) {
+          // console.log(key)
+        }
       }
     }
-  }
 
-  const wappalyzer = await files.getFile(wappalyzerFile)
-  const wappalyzerData = JSON.parse(wappalyzer)
-  const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
+    const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
 
-  console.log('-----------------------------------------')
-  console.log(`[${site.title}] UI frameworks:`)
-  frameworks.length > 0 ? frameworks.map(framework => console.log(framework.name)) : console.log('None');
+    console.log(`[${site.title}] UI frameworks:`)
+    frameworks.length > 0 ? frameworks.map(framework => console.log(framework.name)) : console.log('None')
+
+    resolve()
+  })
 }
 
 const extract = async (site) => {
-  const folder = getFolder(site)
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
 
-  const cssFile = `${folder}/style.css`
-  let cssString = ''
+    const cssFileDirty = `${folder}/style-dirty.css`
+    const cssFileClean = `${folder}/style-clean.css`
+    let cssString = ''
 
-  if(!files.fileExists(cssFile)) {
-    const cssItems = await extractCss(site.url, {
-      origins: 'include'
-    })
+    if(!files.fileExists(cssFileClean)) {
+      const cssItems = await extractCss(site.url, {
+        origins: 'include'
+      })
 
-    cssItems.forEach(cssItem => {
-      if (cssItem.type === 'link-or-import') {
-        cssString += cssItem.css
-      }
-    })
-
-    cssString = beautify(cssString, {
-      format: 'css'
-    })
-
-    cssString = stripComments(cssString, {
-      preserve: false
-    })
-
-    files.saveFile(cssFile, cssString)
-
-    console.log(`CSS file created in ${folder}`)
-  } else {
-    cssString = await files.getFile(cssFile)
-
-    console.log(`CSS file: ${cssFile}`)
-  }
-
-  console.log(cssString.length);
-
-  validator(cssString, (err, data) => {
-    console.log('Object.keys(data)');
-    console.log(err);
-    console.log(Object.keys(data));
-
-    data.errors.forEach(error => {
-      if(error.type === 'parse-error') {
-        console.log(error);
-      }
-    })
-  });
-
-  const specificityFolder = `${folder}/specificity`
-
-  if(!files.directoryExists(specificityFolder)) {
-    files.makeDirectory(specificityFolder)
-  }
-
-  const specificityFile = `${specificityFolder}/specificity.json`
-
-  if(!files.fileExists(specificityFile)) {
-    await specificityGraph(specificityFolder, cssString, function(directory) {
-      directory.forEach(dir => {
-        if(dir) {
-          console.log(`Specificity graph files created in ${dir}.`)
+      cssItems.forEach(cssItem => {
+        if (cssItem.type === 'link-or-import') {
+          cssString += cssItem.css
         }
       })
-    })
-  } else {
-    console.log(`Specificity graph file: ${specificityFile}`)
-  }
 
-  const analyzerFile = `${folder}/analyzer.json`
+      files.saveFile(cssFileDirty, cssString)
 
-  if(!files.fileExists(analyzerFile)) {
-    console.log('-++++++-', analyzerFile, cssString.length);
-    await analyzer(cssString)
-      .then(result => {
-        files.saveFile(`${folder}/analyzer.json`, result, true)
+      const cssClean = new CleanCSS({
+        format: 'beautify'
+      }).minify(cssString)
 
-        console.log(`Analyzer file created in ${folder}`)
 
-        return true
+
+      // console.log(cssString.styles)
+      // console.log(cssString.stats)
+      // console.log(cssString.warnings)
+      // console.log(cssString.errors)
+
+      files.saveFile(cssFileClean, cssClean.styles)
+
+      // cssString = beautify(cssString, {
+      //   format: 'css'
+      // })
+
+      // cssString = stripComments(cssString, {
+      //   preserve: false
+      // })
+
+      console.log(`CSS file created in ${folder}`)
+    } else {
+      cssString = await files.getFile(cssFileClean)
+
+      console.log(`CSS file: ${cssFileClean}`)
+    }
+
+    resolve()
+  })
+}
+
+const validate = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+
+    const cssFileClean = `${folder}/style-clean.css`
+
+    console.log(cssFileClean, !files.fileExists(cssFileClean));
+
+    if(!files.fileExists(cssFileClean)) {
+      return false
+    }
+
+    const cssString = await files.getFile(cssFileClean)
+
+    await validator(cssString, (err, data) => {
+      let errorTypes = []
+
+      data.errors.forEach(error => {
+        const t = error.type || error.errortype
+
+        if(t === 'noexistence-typo') {
+          // console.log(error)
+        }
+
+        if(errorTypes.indexOf(t) === -1) {
+          errorTypes.push(t)
+        }
       })
-      .catch(error => console.error(error))
-  } else {
-    console.log(`-----Analyzer file: ${analyzerFile}`)
-  }
 
-  // const wappalyzerFile = `${folder}/wappalyzer.json`
+      let warningTypes = []
 
-  // if(!files.fileExists(wappalyzerFile)) {
-  //   const wappalyzerConfig = {
-  //     debug: false,
-  //     delay: 500,
-  //     headers: {},
-  //     maxDepth: 3,
-  //     maxUrls: 10,
-  //     maxWait: 5000,
-  //     recursive: true,
-  //     probe: true,
-  //     userAgent: 'Wappalyzer',
-  //     htmlMaxCols: 2000,
-  //     htmlMaxRows: 2000,
-  //   }
+      data.warnings.forEach(warning => {
+        if(warningTypes.indexOf(warning.type) === -1) {
+          warningTypes.push(warning.type)
+        }
+      })
 
-  //   const wappalyzer = new Wappalyzer()
+      // console.log(errorTypes);
+    })
 
-  //   try {
-  //     await wappalyzer.init()
+    resolve()
+  })
+}
 
-  //     // Optionally set additional request headers
-  //     const headers = {}
+const specs = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
 
-  //     const website = wappalyzer.open(site.url, headers)
+    const cssFileClean = `${folder}/style-clean.css`
 
-  //     // Optionally capture and output errors
-  //     website.on('error', console.error)
+    if(!files.fileExists(cssFileClean)) {
+      return false
+    }
 
-  //     const results = await website.analyze()
+    const cssString = await files.getFile(cssFileClean)
 
-  //     files.saveFile(wappalyzerFile, results, true)
+    const specificityFolder = `${folder}/specificity`
 
-  //     console.log(`Wappalyzer file created in ${folder}`)
-  //   } catch (error) {
-  //     console.error(error)
-  //   }
+    if(!files.directoryExists(specificityFolder)) {
+      files.makeDirectory(specificityFolder)
+    }
 
-  //   await wappalyzer.destroy()
-  // } else {
-  //   console.log(`Wappalyzer file: ${wappalyzerFile}`)
-  // }
+    const specificityFile = `${specificityFolder}/specificity.json`
 
-  // (async () => {
-  //   const browser = await puppeteer.launch()
-  //   const page = await browser.newPage()
-  //   await page.goto('https://example.com')
-  //   await page.screenshot({path: 'example.png'})
+    if(!files.fileExists(specificityFile)) {
+      specificityGraph(specificityFolder, cssString, (directory) => {
+        directory.forEach(dir => {
+          if(dir) {
+            console.log(`Specificity graph files created in ${dir}.`)
+          }
+        })
+      })
+    } else {
+      console.log(`Specificity graph file: ${specificityFile}`)
+    }
 
-  //   await browser.close()
-  // })()
+    resolve()
+  })
+}
 
-  // await generateReport(site, cssFile, specificityFile, analyzerFile, wappalyzerFile)
+const wapp = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+    const wappalyzerFile = `${folder}/wappalyzer.json`
 
-  return true
+    if(!files.fileExists(wappalyzerFile)) {
+      const wappalyzerConfig = {
+        debug: false,
+        delay: 500,
+        headers: {},
+        maxDepth: 3,
+        maxUrls: 10,
+        maxWait: 5000,
+        recursive: true,
+        probe: true,
+        userAgent: 'Wappalyzer',
+        htmlMaxCols: 2000,
+        htmlMaxRows: 2000,
+      }
+
+      const wappalyzer = new Wappalyzer()
+
+      try {
+        await wappalyzer.init()
+
+        // Optionally set additional request headers
+        const headers = {}
+
+        const website = wappalyzer.open(site.url, headers)
+
+        // Optionally capture and output errors
+        website.on('error', console.error)
+
+        const results = await website.analyze()
+
+        files.saveFile(wappalyzerFile, results, true)
+
+        console.log(`Wappalyzer file created in ${folder}`)
+      } catch (error) {
+        console.error(error)
+      }
+
+      await wappalyzer.destroy()
+    } else {
+      console.log(`Wappalyzer file: ${wappalyzerFile}`)
+    }
+
+    resolve()
+  })
 }
 
 const analyze = async (site) => {
-  await extract(site)
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+
+    const cssFileClean = `${folder}/style-clean.css`
+
+    if(!files.fileExists(cssFileClean)) {
+      return false
+    }
+
+    const cssString = await files.getFile(cssFileClean)
+
+    const analyzerFile = `${folder}/analyzer.json`
+
+    if(!files.fileExists(analyzerFile)) {
+      analyzer(`${cssString}`)
+        .then(result => {
+          files.saveFile(analyzerFile, result, true)
+
+          console.log(`Analyzer file created in ${folder}`)
+        })
+        .catch(error => console.error(error))
+    } else {
+      console.log(`-----Analyzer file: ${analyzerFile}`)
+    }
+
+    resolve()
+  })
 }
 
-const start = (websites) => {
-  Promise.all(websites.map((site) => {
-    analyze(site)
+const start = async () => {
+  Promise.all(sites.map(async (site) => {
+    await extract(site)
+    await validate(site)
+    await specs(site)
+    await wapp(site)
+    await analyze(site)
+    await generateReport(site)
   }))
 }
 
-start(sites)
+const runExtract = async () => {
+  Promise.all(sites.map(async (site) => {
+    await extract(site)
+  }))
+}
+
+const runValidate = async () => {
+  Promise.all(sites.map(async (site) => {
+    await validate(site)
+  }))
+}
+
+const runSpecs = async () => {
+  Promise.all(sites.map(async (site) => {
+    await specs(site)
+  }))
+}
+
+const runWapp = async () => {
+  Promise.all(sites.map(async (site) => {
+    await wapp(site)
+  }))
+}
+
+const runAnalyses = async () => {
+  Promise.all(sites.map(async (site) => {
+    await analyze(site)
+  }))
+}
+
+const showAnalyses = async () => {
+  Promise.all(sites.map(async (site) => {
+    await generateReport(site)
+  }))
+}
+
+module.exports = {
+  start,
+  runExtract,
+  // runValidate,
+  runSpecs,
+  runWapp,
+  runAnalyses,
+  showAnalyses,
+}
+
+require('make-runnable')
