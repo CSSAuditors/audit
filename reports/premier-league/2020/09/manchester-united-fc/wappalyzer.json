@@ -1,0 +1,206 @@
+{
+  "urls": {
+    "https://www.manutd.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "sap-customer-data-cloud-sign-in",
+      "name": "SAP Customer Data Cloud Sign-in",
+      "confidence": 100,
+      "version": null,
+      "icon": "SAP.png",
+      "website": "https://www.sap.com/uk/acquired-brands/what-is-gigya.html",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 69,
+          "slug": "social-login",
+          "name": "Social login"
+        }
+      ]
+    },
+    {
+      "slug": "videojs",
+      "name": "VideoJS",
+      "confidence": 100,
+      "version": "7.9.2",
+      "icon": "VideoJS.svg",
+      "website": "http://videojs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 14,
+          "slug": "video-players",
+          "name": "Video players"
+        }
+      ]
+    },
+    {
+      "slug": "amp",
+      "name": "AMP",
+      "confidence": 100,
+      "version": null,
+      "icon": "Accelerated-Mobile-Pages.svg",
+      "website": "https://www.amp.dev",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "requirejs",
+      "name": "RequireJS",
+      "confidence": 100,
+      "version": "2.1.22",
+      "icon": "RequireJS.png",
+      "website": "http://requirejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "adobe-experience-platform-identity-service",
+      "name": "Adobe Experience Platform Identity Service",
+      "confidence": 100,
+      "version": null,
+      "icon": "Adobe.svg",
+      "website": "https://docs.adobe.com/content/help/en/id-service/using/home.html",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 61,
+          "slug": "saas",
+          "name": "SaaS"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "doubleclick-for-publishers-dfp",
+      "name": "DoubleClick for Publishers (DFP)",
+      "confidence": 100,
+      "version": null,
+      "icon": "DoubleClick.svg",
+      "website": "http://www.google.com/dfp",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "2.2.1",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.png",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "adobe-dtm",
+      "name": "Adobe DTM",
+      "confidence": 100,
+      "version": null,
+      "icon": "adobedtm.png",
+      "website": "https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "adobe-analytics",
+      "name": "Adobe Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Adobe Analytics.svg",
+      "website": "https://www.adobe.com/analytics/adobe-analytics.html",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        },
+        {
+          "id": 61,
+          "slug": "saas",
+          "name": "SaaS"
+        }
+      ]
+    }
+  ]
+}
