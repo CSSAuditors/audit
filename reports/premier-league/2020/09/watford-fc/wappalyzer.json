@@ -1,0 +1,153 @@
+{
+  "urls": {
+    "https://www.watfordfc.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "varnish",
+      "name": "Varnish",
+      "confidence": 100,
+      "version": null,
+      "icon": "Varnish.svg",
+      "website": "http://www.varnish-cache.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 23,
+          "slug": "caching",
+          "name": "Caching"
+        }
+      ]
+    },
+    {
+      "slug": "vue-js",
+      "name": "Vue.js",
+      "confidence": 100,
+      "version": "2.6.10",
+      "icon": "vue.svg",
+      "website": "https://vuejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "platform-sh",
+      "name": "Platform.sh",
+      "confidence": 100,
+      "version": null,
+      "icon": "platformsh.svg",
+      "website": "https://platform.sh",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "crazy-egg",
+      "name": "Crazy Egg",
+      "confidence": 100,
+      "version": null,
+      "icon": "Crazy Egg.png",
+      "website": "http://crazyegg.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "underscore-js",
+      "name": "Underscore.js",
+      "confidence": 0,
+      "version": "4.17.11",
+      "icon": "Underscore.js.png",
+      "website": "http://underscorejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 100,
+      "version": "4.17.11",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "hotjar",
+      "name": "Hotjar",
+      "confidence": 100,
+      "version": null,
+      "icon": "Hotjar.png",
+      "website": "https://www.hotjar.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.png",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    }
+  ]
+}
