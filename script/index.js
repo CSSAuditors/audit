@@ -139,8 +139,45 @@ const generateReport = async (site) => {
       }
     }
 
+    const errorsFile = `${folder}/errors.json`
+
+    if(!files.fileExists(errorsFile)) {
+      return false
+    }
+
+    const warningsFile = `${folder}/warnings.json`
+
+    if(!files.fileExists(warningsFile)) {
+      return false
+    }
+
+    const errorsRaw = await files.getFile(errorsFile)
+    const errorsData = JSON.parse(errorsRaw)
+    const warningsRaw = await files.getFile(warningsFile)
+    const warningsData = JSON.parse(warningsRaw)
+
+    console.log('')
+
+    const errorsKeys = Object.keys(errorsData)
+    const warningsKeys = Object.keys(warningsData)
+
+    if(errorsKeys.length) {
+      errorsKeys.map(errorsKey => {
+        const errorsValue = Object.values(errorsData[errorsKey])
+        console.log(`[${site.title}] Number or ${errorsKey} errors: `, errorsValue.length)
+      })
+    }
+
+    if(warningsKeys.length) {
+      warningsKeys.map(warningsKey => {
+        const warningsValue = Object.values(warningsData[warningsKey])
+        console.log(`[${site.title}] Number or ${warningsKey} warnings: `, warningsValue.length)
+      })
+    }
+
     const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
 
+    console.log('')
     console.log(`[${site.title}] UI frameworks:`)
     frameworks.length > 0 ? frameworks.map(framework => console.log(framework.name)) : console.log('None')
 
@@ -205,41 +242,59 @@ const validate = async (site) => {
   return new Promise(async (resolve, reject) => {
     const folder = getFolder(site)
 
-    const cssFileClean = `${folder}/style-clean.css`
+    const errorsFile = `${folder}/errors.json`
+    const warningsFile = `${folder}/warnings.json`
 
-    console.log(cssFileClean, !files.fileExists(cssFileClean));
+    if(!files.fileExists(errorsFile) || !files.fileExists(warningsFile)) {
+      const cssFile = `${folder}/style-clean.css`
+      // const cssFile = `${folder}/style-dirty.css`
 
-    if(!files.fileExists(cssFileClean)) {
-      return false
+      if(!files.fileExists(cssFile)) {
+        return false
+      }
+
+      const cssString = await files.getFile(cssFile)
+
+      validator(cssString, (err, data) => {
+        let errorData = {}
+
+        data.errors.forEach(error => {
+          const t = error.type || error.errortype
+
+          if(t === 'noexistence-typo') {
+            // console.log(error)
+          }
+
+          if(!(t in errorData)) {
+            errorData[t] = []
+          }
+
+
+          errorData[t].push(error)
+        })
+
+        let warningData = {}
+
+        data.warnings.forEach(warning => {
+          const t = warning.type || warning.warningtype
+
+          if(!(t in warningData)) {
+            warningData[t] = []
+          }
+
+          warningData[t].push(warning)
+        })
+
+        files.saveFile(errorsFile, errorData);
+        files.saveFile(warningsFile, warningData);
+
+        console.log(`Errors and warnings files created in ${folder}.`)
+      })
+    } else {
+      console.log(`Errors file: ${errorsFile}`)
+      console.log(`Warnings file: ${warningsFile}`)
     }
 
-    const cssString = await files.getFile(cssFileClean)
-
-    await validator(cssString, (err, data) => {
-      let errorTypes = []
-
-      data.errors.forEach(error => {
-        const t = error.type || error.errortype
-
-        if(t === 'noexistence-typo') {
-          // console.log(error)
-        }
-
-        if(errorTypes.indexOf(t) === -1) {
-          errorTypes.push(t)
-        }
-      })
-
-      let warningTypes = []
-
-      data.warnings.forEach(warning => {
-        if(warningTypes.indexOf(warning.type) === -1) {
-          warningTypes.push(warning.type)
-        }
-      })
-
-      // console.log(errorTypes);
-    })
 
     resolve()
   })
@@ -412,7 +467,7 @@ const showAnalyses = async () => {
 module.exports = {
   start,
   runExtract,
-  // runValidate,
+  runValidate,
   runSpecs,
   runWapp,
   runAnalyses,
