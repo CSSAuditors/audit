@@ -37,7 +37,8 @@ const generateSpecificity = async (site) => {
     const specificityData = JSON.parse(specificityRaw)
 
     console.log('')
-    console.log(`[${site.title}] Specificity: `, Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
+    console.log('SPECIFICITY')
+    console.log(`📉[${site.title}] Specificity: `, Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
 
     resolve()
   })
@@ -56,64 +57,65 @@ const generateAnalyzer = async (site) => {
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
+    console.log('ANALYZER')
 
-    console.log(`[${site.title}] Total selectors: `, analyzerData['selectors.total'])
-    console.log(`[${site.title}] Total unique selectors: `, analyzerData['selectors.totalUnique'])
-    console.log(`[${site.title}] Percent of unique selectors: `, `${parseFloat(analyzerData['selectors.totalUnique'] / analyzerData['selectors.total'] * 100).toFixed(2)}`)
-
-    console.log('')
-    console.log(`[${site.title}] Total Universal selectors: `, analyzerData['selectors.universal.total'])
-    console.log(`[${site.title}] Total unique Universal selectors: `, analyzerData['selectors.universal.totalUnique'])
-    console.log(`[${site.title}] Percent of unique Universal selectors: `, analyzerData['selectors.universal.total'] > 0 ? `${parseFloat(analyzerData['selectors.universal.totalUnique'] / analyzerData['selectors.universal.total'] * 100).toFixed(2)}` : 0)
+    console.log(`📉[${site.title}] Total selectors: `, analyzerData['selectors.total'])
+    console.log(`📉[${site.title}] Total unique selectors: `, analyzerData['selectors.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique selectors: `, `${parseFloat(analyzerData['selectors.totalUnique'] / analyzerData['selectors.total'] * 100).toFixed(2)}`)
 
     console.log('')
-    console.log(`[${site.title}] Total ID selectors: `, analyzerData['selectors.id.total'])
-    console.log(`[${site.title}] Total unique ID selectors: `, analyzerData['selectors.id.totalUnique'])
-    console.log(`[${site.title}] Percent of unique ID selectors: `, analyzerData['selectors.id.total'] > 0 ? `${parseFloat(analyzerData['selectors.id.totalUnique'] / analyzerData['selectors.id.total'] * 100).toFixed(2)}` : 0)
+    console.log(`📉[${site.title}] Total Universal selectors: `, analyzerData['selectors.universal.total'])
+    console.log(`📉[${site.title}] Total unique Universal selectors: `, analyzerData['selectors.universal.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique Universal selectors: `, analyzerData['selectors.universal.total'] > 0 ? `${parseFloat(analyzerData['selectors.universal.totalUnique'] / analyzerData['selectors.universal.total'] * 100).toFixed(2)}` : 0)
 
     console.log('')
-    console.log(`[${site.title}] Total JavaScript selectors: `, analyzerData['selectors.js.total'])
-    console.log(`[${site.title}] Total unique JavaScript selectors: `, analyzerData['selectors.js.totalUnique'])
-    console.log(`[${site.title}] Percent of unique JavaScript selectors: `, analyzerData['selectors.js.total'] > 0 ? `${parseFloat(analyzerData['selectors.js.totalUnique'] / analyzerData['selectors.js.total'] * 100).toFixed(2)}` : 0)
+    console.log(`📉[${site.title}] Total ID selectors: `, analyzerData['selectors.id.total'])
+    console.log(`📉[${site.title}] Total unique ID selectors: `, analyzerData['selectors.id.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique ID selectors: `, analyzerData['selectors.id.total'] > 0 ? `${parseFloat(analyzerData['selectors.id.totalUnique'] / analyzerData['selectors.id.total'] * 100).toFixed(2)}` : 0)
 
     console.log('')
-    console.log(`[${site.title}] Total Accessibility selectors: `, analyzerData['selectors.accessibility.total'])
-    console.log(`[${site.title}] Total unique Accessibility selectors: `, analyzerData['selectors.accessibility.totalUnique'])
-    console.log(`[${site.title}] Percent of unique Accessibility selectors: `, analyzerData['selectors.accessibility.total'] > 0 ? `${parseFloat(analyzerData['selectors.accessibility.totalUnique'] / analyzerData['selectors.accessibility.total'] * 100).toFixed(2)}` : 0)
+    console.log(`📉[${site.title}] Total JavaScript selectors: `, analyzerData['selectors.js.total'])
+    console.log(`📉[${site.title}] Total unique JavaScript selectors: `, analyzerData['selectors.js.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique JavaScript selectors: `, analyzerData['selectors.js.total'] > 0 ? `${parseFloat(analyzerData['selectors.js.totalUnique'] / analyzerData['selectors.js.total'] * 100).toFixed(2)}` : 0)
 
     console.log('')
-    console.log(`[${site.title}] Total Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'])
-    console.log(`[${site.title}] Total unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.totalUnique'])
-    console.log(`[${site.title}] Percent of unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'] > 0 ? `${parseFloat(analyzerData['selectors.browserhacks.totalUnique'] / analyzerData['selectors.browserhacks.total'] * 100).toFixed(2)}` : 0)
+    console.log(`📉[${site.title}] Total Accessibility selectors: `, analyzerData['selectors.accessibility.total'])
+    console.log(`📉[${site.title}] Total unique Accessibility selectors: `, analyzerData['selectors.accessibility.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique Accessibility selectors: `, analyzerData['selectors.accessibility.total'] > 0 ? `${parseFloat(analyzerData['selectors.accessibility.totalUnique'] / analyzerData['selectors.accessibility.total'] * 100).toFixed(2)}` : 0)
+
+    console.log('')
+    console.log(`📉[${site.title}] Total Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'])
+    console.log(`📉[${site.title}] Total unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.totalUnique'])
+    console.log(`📉[${site.title}] Percent of unique Browser hacks selectors: `, analyzerData['selectors.browserhacks.total'] > 0 ? `${parseFloat(analyzerData['selectors.browserhacks.totalUnique'] / analyzerData['selectors.browserhacks.total'] * 100).toFixed(2)}` : 0)
 
     const regularSelectors = analyzerData['selectors.total'] - (analyzerData['selectors.universal.total'] + analyzerData['selectors.id.total'] + analyzerData['selectors.js.total'] + analyzerData['selectors.accessibility.total'] + analyzerData['selectors.browserhacks.total'])
 
     console.log('')
-    console.log(`[${site.title}] Total Regular selectors: `, regularSelectors)
-    console.log(`[${site.title}] Percent of Regular selectors: `, `${parseFloat(regularSelectors / analyzerData['selectors.total'] * 100).toFixed(2)}`)
+    console.log(`📉[${site.title}] Total Regular selectors: `, regularSelectors)
+    console.log(`📉[${site.title}] Percent of Regular selectors: `, `${parseFloat(regularSelectors / analyzerData['selectors.total'] * 100).toFixed(2)}`)
 
     // const totalSpecificity = specificityData.reduce((a, b) => a + b.specificity || 0, 0)
     // console.log(specificityData[0], totalSpecificity, specificityData.length, analyzerData['selectors.total'])
     // console.log(totalSpecificity/specificityData.length)
 
     console.log('')
-    console.log(`[${site.title}] Max specificity: `, `${analyzerData['selectors.specificity.max.value.a']}${analyzerData['selectors.specificity.max.value.b']}${analyzerData['selectors.specificity.max.value.c']}${analyzerData['selectors.specificity.max.value.d']}`)
-    // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+    console.log(`📉[${site.title}] Max specificity: `, `${analyzerData['selectors.specificity.max.value.a']}${analyzerData['selectors.specificity.max.value.b']}${analyzerData['selectors.specificity.max.value.c']}${analyzerData['selectors.specificity.max.value.d']}`)
+    // console.log(`📉[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
 
     console.log('')
-    console.log(`[${site.title}] Average identifiers per rule: `, analyzerData['selectors.identifiers.average'])
-    // console.log(`[${site.title}] Max identifiers value: `, analyzerData['selectors.identifiers.max.value'])
-    // console.log(`[${site.title}] Max identifiers count: `, analyzerData['selectors.identifiers.max.count'])
+    console.log(`📉[${site.title}] Average identifiers per rule: `, analyzerData['selectors.identifiers.average'])
+    // console.log(`📉[${site.title}] Max identifiers value: `, analyzerData['selectors.identifiers.max.value'])
+    // console.log(`📉[${site.title}] Max identifiers count: `, analyzerData['selectors.identifiers.max.count'])
 
     // console.log('')
-    console.log(`[${site.title}] Average complexity per selector: `, analyzerData['selectors.complexity.average'])
-    // console.log(`[${site.title}] Max complexity value: `, analyzerData['selectors.complexity.max.value'])
-    // console.log(`[${site.title}] Max complexity count: `, analyzerData['selectors.complexity.max.count'])
-    // console.log(`[${site.title}] Max complexity selectors: `, analyzerData['selectors.complexity.max.selectors'])
-    console.log(`[${site.title}] Max complexity: `, analyzerData['selectors.complexity.sum'])
-    // console.log(`[${site.title}] ? Max complexity unique: `, analyzerData['selectors.complexity.unique'])
-    console.log(`[${site.title}] ? Max complexity total unique: `, analyzerData['selectors.complexity.totalUnique'])
-    // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
+    console.log(`📉[${site.title}] Average complexity per selector: `, analyzerData['selectors.complexity.average'])
+    // console.log(`📉[${site.title}] Max complexity value: `, analyzerData['selectors.complexity.max.value'])
+    // console.log(`📉[${site.title}] Max complexity count: `, analyzerData['selectors.complexity.max.count'])
+    // console.log(`📉[${site.title}] Max complexity selectors: `, analyzerData['selectors.complexity.max.selectors'])
+    console.log(`📉[${site.title}] Max complexity: `, analyzerData['selectors.complexity.sum'])
+    // console.log(`📉[${site.title}] ? Max complexity unique: `, analyzerData['selectors.complexity.unique'])
+    console.log(`📉[${site.title}] ? Max complexity total unique: `, analyzerData['selectors.complexity.totalUnique'])
+    // console.log(`📉[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
 
 
     for (const key in analyzerData) {
@@ -145,7 +147,8 @@ const generateWappalyzer = async (site) => {
     const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
 
     console.log('')
-    console.log(`[${site.title}] UI frameworks:`, frameworksUsed)
+    console.log('WAPPALYZER')
+    console.log(`📉[${site.title}] UI frameworks:`, frameworksUsed)
 
     resolve()
   })
@@ -165,13 +168,14 @@ const generateValidator = async (site) => {
     const errorsData = JSON.parse(errorsRaw)
 
     console.log('')
+    console.log('ERRORS')
 
     const errorsKeys = Object.keys(errorsData)
 
     if(errorsKeys.length) {
       errorsKeys.map(errorsKey => {
         const errorsValue = Object.values(errorsData[errorsKey])
-        console.log(`[${site.title}] Number of ${errorsKey} errors: `, errorsValue.length)
+        console.log(`📉[${site.title}] Number of ${errorsKey} errors: `, errorsValue.length)
       })
     }
 
@@ -185,13 +189,14 @@ const generateValidator = async (site) => {
     const warningsData = JSON.parse(warningsRaw)
 
     console.log('')
+    console.log('WARNINGS')
 
     const warningsKeys = Object.keys(warningsData)
 
     if(warningsKeys.length) {
       warningsKeys.map(warningsKey => {
         const warningsValue = Object.values(warningsData[warningsKey])
-        console.log(`[${site.title}] Number of ${warningsKey} warnings: `, warningsValue.length)
+        console.log(`📉[${site.title}] Number of ${warningsKey} warnings: `, warningsValue.length)
       })
     }
 
@@ -262,11 +267,11 @@ const extract = async (site) => {
       //   preserve: false
       // })
 
-      console.log(`CSS file created in ${folder}`)
+      console.log(`✅ CSS file created in ${folder}`)
     } else {
       cssString = await files.getFile(cssFileClean)
 
-      console.log(`CSS file: ${cssFileClean}`)
+      console.log(`🖌 CSS file: ${cssFileClean}`)
     }
 
     resolve()
@@ -323,11 +328,11 @@ const validate = async (site) => {
         files.saveFile(errorsFile, errorData)
         files.saveFile(warningsFile, warningData)
 
-        console.log(`Errors and warnings files created in ${folder}.`)
+        console.log(`✅ Errors and warnings files created in ${folder}.`)
       })
     } else {
-      console.log(`Errors file: ${errorsFile}`)
-      console.log(`Warnings file: ${warningsFile}`)
+      console.log(`✅ Errors file: ${errorsFile}`)
+      console.log(`⚠️ Warnings file: ${warningsFile}`)
     }
 
 
@@ -364,7 +369,7 @@ const specs = async (site) => {
         })
       })
     } else {
-      console.log(`Specificity graph file: ${specificityFile}`)
+      console.log(`📈 Specificity graph file: ${specificityFile}`)
     }
 
     resolve()
@@ -408,14 +413,14 @@ const wapp = async (site) => {
 
         files.saveFile(wappalyzerFile, results, true)
 
-        console.log(`Wappalyzer file created in ${folder}`)
+        console.log(`✅ Wappalyzer file created in ${folder}`)
       } catch (error) {
         console.error(error)
       }
 
       await wappalyzer.destroy()
     } else {
-      console.log(`Wappalyzer file: ${wappalyzerFile}`)
+      console.log(`📚 Wappalyzer file: ${wappalyzerFile}`)
     }
 
     resolve()
@@ -441,11 +446,70 @@ const analyze = async (site) => {
         .then(result => {
           files.saveFile(analyzerFile, result, true)
 
-          console.log(`Analyzer file created in ${folder}`)
+          console.log(`✅ Analyzer file created in ${folder}`)
         })
         .catch(error => console.error(error))
     } else {
-      console.log(`-----Analyzer file: ${analyzerFile}`)
+      console.log(`🔍 Analyzer file: ${analyzerFile}`)
+    }
+
+    resolve()
+  })
+}
+
+const coverage = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+
+    const coverageFile = `${folder}/coverage.json`
+
+    if(!files.fileExists(coverageFile)) {
+      const browser = await puppeteer.launch()
+      const page = await browser.newPage()
+
+      await page.coverage.startCSSCoverage()
+      await page.goto(site.url)
+      const cssCoverage = await page.coverage.stopCSSCoverage()
+      await browser.close()
+
+      files.saveFile(coverageFile, cssCoverage, true)
+
+      console.log(`✅ Coverage file created in ${folder}`)
+    } else {
+      console.log(`🌖 Coverage file: ${coverageFile}`)
+    }
+
+    resolve()
+  })
+}
+
+const screenshot = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+
+    const screenshotFile = `${folder}/screenshot.jpg`
+
+    if(!files.fileExists(screenshotFile)) {
+      const browser = await puppeteer.launch()
+      const page = await browser.newPage()
+
+      await page.goto(site.url)
+      await page.setViewport({
+        width: 1280,
+        height: 768,
+        deviceScaleFactor: 1
+      })
+      await page.screenshot({
+        // fullPage: true,
+        type: 'jpeg',
+        quality: 90,
+        path: screenshotFile
+      })
+      await browser.close()
+
+      console.log(`✅ Screenshot file created in ${folder}`)
+    } else {
+      console.log(`📸 Screenshot file: ${screenshotFile}`)
     }
 
     resolve()
@@ -454,49 +518,68 @@ const analyze = async (site) => {
 
 const start = async () => {
   Promise.all(sites.map(async (site) => {
-    await extract(site)
-    await validate(site)
-    await specs(site)
-    await wapp(site)
-    await analyze(site)
-    await generateReport(site)
+    await runExtract(site)
+    await runValidate(site)
+    await runSpecs(site)
+    await runWapp(site)
+    await runAnalyses(site)
+    await runPuppeteer(site)
   }))
 }
 
 const runExtract = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await extract(site)
-  }))
+  }
 }
 
 const runValidate = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await validate(site)
-  }))
+  }
 }
 
 const runSpecs = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await specs(site)
-  }))
+  }
 }
 
 const runWapp = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await wapp(site)
-  }))
+  }
 }
 
 const runAnalyses = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await analyze(site)
-  }))
+  }
+}
+
+const runCoverage = async () => {
+  for(const site of sites) {
+    await coverage(site)
+  }
+}
+
+const runScreenshot = async () => {
+  for(const site of sites) {
+    await screenshot(site)
+  }
+}
+
+const runPuppeteer = async () => {
+  for(const site of sites) {
+    await runCoverage(site)
+    await runScreenshot(site)
+  }
 }
 
 const showAnalyses = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await generateReport(site)
-  }))
+  }
 }
 
 module.exports = {
@@ -506,6 +589,7 @@ module.exports = {
   runSpecs,
   runWapp,
   runAnalyses,
+  runPuppeteer,
   showAnalyses,
 }
 
