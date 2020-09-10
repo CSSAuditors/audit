@@ -23,18 +23,9 @@ const getFolder = (site) => {
   return folder
 }
 
-const generateReport = async (site) => {
+const generateSpecificity = async (site) => {
   return new Promise(async (resolve, reject) => {
     const folder = getFolder(site)
-
-    const cssFileClean = `${folder}/style-clean.css`
-
-    if(!files.fileExists(cssFileClean)) {
-      return false
-    }
-
-    const cssString = await files.getFile(cssFileClean)
-
     const specificityFolder = `${folder}/specificity`
     const specificityFile = `${specificityFolder}/specificity.json`
 
@@ -45,6 +36,16 @@ const generateReport = async (site) => {
     const specificityRaw = await files.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
+    console.log('')
+    console.log(`[${site.title}] Specificity: `, Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
+
+    resolve()
+  })
+}
+
+const generateAnalyzer = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
     if(!files.fileExists(analyzerFile)) {
@@ -54,23 +55,8 @@ const generateReport = async (site) => {
     const analyzerRaw = await files.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
-    const wappalyzerFile = `${folder}/wappalyzer.json`
-
-    if(!files.fileExists(wappalyzerFile)) {
-      return false
-    }
-
-    const wappalyzerRaw = await files.getFile(wappalyzerFile)
-    const wappalyzerData = JSON.parse(wappalyzerRaw)
-
     console.log('')
-    // const css = await files.getFile(cssFileClean)
-    // console.log('-----------------------------------------')
-    // console.log(css)
-    // console.log('-----------------------------------------')
-    // console.log(Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
 
-    console.log('-----------------------------------------')
     console.log(`[${site.title}] Total selectors: `, analyzerData['selectors.total'])
     console.log(`[${site.title}] Total unique selectors: `, analyzerData['selectors.totalUnique'])
     console.log(`[${site.title}] Percent of unique selectors: `, `${parseFloat(analyzerData['selectors.totalUnique'] / analyzerData['selectors.total'] * 100).toFixed(2)}`)
@@ -129,7 +115,6 @@ const generateReport = async (site) => {
     console.log(`[${site.title}] ? Max complexity total unique: `, analyzerData['selectors.complexity.totalUnique'])
     // console.log(`[${site.title}] Average specificity: `, `${specificityData.specificity.max.value.a}${selectors.specificity.max.value.b}${selectors.specificity.max.value.c}${selectors.specificity.max.value.d}`)
 
-    console.log('')
 
     for (const key in analyzerData) {
       if (analyzerData.hasOwnProperty(key)) {
@@ -139,10 +124,55 @@ const generateReport = async (site) => {
       }
     }
 
+    resolve()
+  })
+}
+
+const generateWappalyzer = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+    const wappalyzerFile = `${folder}/wappalyzer.json`
+
+    if(!files.fileExists(wappalyzerFile)) {
+      return false
+    }
+
+    const wappalyzerRaw = await files.getFile(wappalyzerFile)
+    const wappalyzerData = JSON.parse(wappalyzerRaw)
+
+    const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
+
+    const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
+
+    console.log('')
+    console.log(`[${site.title}] UI frameworks:`, frameworksUsed)
+
+    resolve()
+  })
+}
+
+const generateValidator = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    const folder = getFolder(site)
+
     const errorsFile = `${folder}/errors.json`
 
     if(!files.fileExists(errorsFile)) {
       return false
+    }
+
+    const errorsRaw = await files.getFile(errorsFile)
+    const errorsData = JSON.parse(errorsRaw)
+
+    console.log('')
+
+    const errorsKeys = Object.keys(errorsData)
+
+    if(errorsKeys.length) {
+      errorsKeys.map(errorsKey => {
+        const errorsValue = Object.values(errorsData[errorsKey])
+        console.log(`[${site.title}] Number of ${errorsKey} errors: `, errorsValue.length)
+      })
     }
 
     const warningsFile = `${folder}/warnings.json`
@@ -151,35 +181,40 @@ const generateReport = async (site) => {
       return false
     }
 
-    const errorsRaw = await files.getFile(errorsFile)
-    const errorsData = JSON.parse(errorsRaw)
     const warningsRaw = await files.getFile(warningsFile)
     const warningsData = JSON.parse(warningsRaw)
 
     console.log('')
 
-    const errorsKeys = Object.keys(errorsData)
     const warningsKeys = Object.keys(warningsData)
-
-    if(errorsKeys.length) {
-      errorsKeys.map(errorsKey => {
-        const errorsValue = Object.values(errorsData[errorsKey])
-        console.log(`[${site.title}] Number or ${errorsKey} errors: `, errorsValue.length)
-      })
-    }
 
     if(warningsKeys.length) {
       warningsKeys.map(warningsKey => {
         const warningsValue = Object.values(warningsData[warningsKey])
-        console.log(`[${site.title}] Number or ${warningsKey} warnings: `, warningsValue.length)
+        console.log(`[${site.title}] Number of ${warningsKey} warnings: `, warningsValue.length)
       })
     }
 
-    const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
+    resolve()
+  })
+}
 
-    console.log('')
-    console.log(`[${site.title}] UI frameworks:`)
-    frameworks.length > 0 ? frameworks.map(framework => console.log(framework.name)) : console.log('None')
+const generateReport = async (site) => {
+  return new Promise(async (resolve, reject) => {
+    // const folder = getFolder(site)
+
+    // const cssFileClean = `${folder}/style-clean.css`
+
+    // if(!files.fileExists(cssFileClean)) {
+    //   return false
+    // }
+
+    // const cssString = await files.getFile(cssFileClean)
+
+    // await generateSpecificity(site)
+    // await generateAnalyzer(site)
+    // await generateWappalyzer(site)
+    await generateValidator(site)
 
     resolve()
   })
@@ -285,8 +320,8 @@ const validate = async (site) => {
           warningData[t].push(warning)
         })
 
-        files.saveFile(errorsFile, errorData);
-        files.saveFile(warningsFile, warningData);
+        files.saveFile(errorsFile, errorData)
+        files.saveFile(warningsFile, warningData)
 
         console.log(`Errors and warnings files created in ${folder}.`)
       })
