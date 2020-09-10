@@ -211,9 +211,9 @@ const generateReport = async (site) => {
 
     // const cssString = await files.getFile(cssFileClean)
 
-    // await generateSpecificity(site)
-    // await generateAnalyzer(site)
-    // await generateWappalyzer(site)
+    await generateSpecificity(site)
+    await generateAnalyzer(site)
+    await generateWappalyzer(site)
     await generateValidator(site)
 
     resolve()
