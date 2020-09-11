@@ -60,7 +60,7 @@ const runAnalyses = async () => {
 }
 
 const start = async () => {
-  Promise.all(sites.map(async (site) => {
+  for(const site of sites) {
     await runExtractor(site)
     await runValidator(site)
     await runCoverage(site)
@@ -68,7 +68,7 @@ const start = async () => {
     await runSpecificity(site)
     await runWappalyzer(site)
     await runAnalyses(site)
-  }))
+  }
 }
 
 const getValidator = async () => {
