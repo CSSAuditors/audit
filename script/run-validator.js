@@ -24,10 +24,6 @@ const validate = async (site) => {
         data.errors.forEach(error => {
           const t = error.type || error.errortype
 
-          if(t === 'noexistence-typo') {
-            // console.log(error)
-          }
-
           if(!(t in errorData)) {
             errorData[t] = []
           }
@@ -47,9 +43,6 @@ const validate = async (site) => {
 
           warningData[t].push(warning)
         })
-
-        console.log(errorData);
-        console.log(warningData);
 
         files.saveFile(errorsFile, errorData, true)
         files.saveFile(warningsFile, warningData, true)
