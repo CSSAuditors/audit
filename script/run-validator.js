@@ -48,8 +48,11 @@ const validate = async (site) => {
           warningData[t].push(warning)
         })
 
-        files.saveFile(errorsFile, errorData)
-        files.saveFile(warningsFile, warningData)
+        console.log(errorData);
+        console.log(warningData);
+
+        files.saveFile(errorsFile, errorData, true)
+        files.saveFile(warningsFile, warningData, true)
 
         console.log(`✅ Errors and warnings files created in ${folder}.`)
       })
