@@ -79,11 +79,24 @@ const getFile = async (filePath) => {
   }
 }
 
+const namify = (name) => name.split(' ').join('-').replace('&', 'and').toLowerCase()
+
+const getFolder = (site) => {
+  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}/${site.title}`)
+
+  if(!directoryExists(folder)) {
+    makeDirectory(folder)
+  }
+
+  return folder
+}
+
 module.exports = {
   getCurrentDirectoryBase,
   directoryExists,
   makeDirectory,
   fileExists,
   saveFile,
-  getFile
+  getFile,
+  getFolder
 };
