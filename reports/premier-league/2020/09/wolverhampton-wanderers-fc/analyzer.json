@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 253828,
-  "stylesheets.filesize.uncompressed.totalBytes": 253828,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 37321,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.852967363726618,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 31159,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8772436453031186,
-  "stylesheets.simplicity": 0.8770424836601307,
-  "stylesheets.cohesion.average": 3.031672100605496,
+  "stylesheets.size": 254718,
+  "stylesheets.filesize.uncompressed.totalBytes": 254718,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 37608,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8523543683603043,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 31394,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8767499744815835,
+  "stylesheets.simplicity": 0.8779894608836644,
+  "stylesheets.cohesion.average": 3.015235457063712,
   "stylesheets.cohesion.min.count": 21,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -120,8 +120,8 @@
   ],
   "stylesheets.browserhacks.total": 2,
   "stylesheets.browserhacks.totalUnique": 1,
-  "stylesheets.linesOfCode.total": 12229,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 9463,
+  "stylesheets.linesOfCode.total": 12299,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 9509,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -303,7 +303,7 @@
   ],
   "atrules.keyframes.prefixed.totalUnique": 10,
   "atrules.keyframes.prefixed.share": 1.9,
-  "atrules.mediaqueries.total": 476,
+  "atrules.mediaqueries.total": 481,
   "atrules.mediaqueries.unique": [
     {
       "value": "$small-desktop-breakpoint",
@@ -315,6 +315,18 @@
     },
     {
       "value": "(max-width:768px)",
+      "count": 2
+    },
+    {
+      "value": "(min-width:1px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:41.25em)",
+      "count": 2
+    },
+    {
+      "value": "(min-width:68.75em)",
       "count": 2
     },
     {
@@ -426,7 +438,7 @@
       "count": 1
     }
   ],
-  "atrules.mediaqueries.totalUnique": 30,
+  "atrules.mediaqueries.totalUnique": 33,
   "atrules.mediaqueries.browserhacks.total": 2,
   "atrules.mediaqueries.browserhacks.unique": [
     {
@@ -447,11 +459,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 2147,
+  "rules.total": 2166,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 12,
-  "rules.selectors.average": 1.1401956217978575,
+  "rules.selectors.average": 1.1389658356417358,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#form-contactForm .error.message"
@@ -471,8 +483,8 @@
     "section",
     "summary"
   ],
-  "selectors.total": 2448,
-  "selectors.totalUnique": 1793,
+  "selectors.total": 2467,
+  "selectors.totalUnique": 1801,
   "selectors.js.total": 13,
   "selectors.js.unique": [
     {
@@ -521,7 +533,7 @@
     }
   ],
   "selectors.js.totalUnique": 11,
-  "selectors.id.total": 65,
+  "selectors.id.total": 79,
   "selectors.id.unique": [
     {
       "value": "#form-contactForm .error.message",
@@ -569,6 +581,30 @@
     },
     {
       "value": "#navigation--overlay",
+      "count": 1
+    },
+    {
+      "value": "#tns1",
+      "count": 4
+    },
+    {
+      "value": "#tns1 > .tns-item",
+      "count": 2
+    },
+    {
+      "value": "#tns1-iw",
+      "count": 1
+    },
+    {
+      "value": "#tns2",
+      "count": 4
+    },
+    {
+      "value": "#tns2 > .tns-item",
+      "count": 2
+    },
+    {
+      "value": "#tns2-iw",
       "count": 1
     },
     {
@@ -748,7 +784,7 @@
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 56,
+  "selectors.id.totalUnique": 62,
   "selectors.universal.total": 13,
   "selectors.universal.unique": [
     {
@@ -922,7 +958,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 2.232843137254902,
+  "selectors.identifiers.average": 2.2253749493311714,
   "selectors.identifiers.max.value": ".blog-heading + .container #main-content #payment-form .col-md-12.has-error .field-error",
   "selectors.identifiers.max.count": 7,
   "selectors.identifiers.top": [
@@ -1035,8 +1071,8 @@
     }
   ],
   "selectors.complexity.max.count": 21,
-  "selectors.complexity.average": 2.2508169934640523,
-  "selectors.complexity.sum": 5510,
+  "selectors.complexity.average": 2.2432103769760845,
+  "selectors.complexity.sum": 5534,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1044,11 +1080,11 @@
     },
     {
       "value": 1,
-      "count": 793
+      "count": 807
     },
     {
       "value": 2,
-      "count": 817
+      "count": 822
     },
     {
       "value": 3,
@@ -1075,11 +1111,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 6509,
-  "declarations.totalUnique": 1983,
+  "declarations.total": 6531,
+  "declarations.totalUnique": 1989,
   "declarations.importants.total": 71,
-  "declarations.importants.share": 0.010907973575049931,
-  "properties.total": 6509,
+  "declarations.importants.share": 0.010871229520747205,
+  "properties.total": 6531,
   "properties.unique": [
     {
       "value": "-khtml-user-select",
@@ -1295,7 +1331,7 @@
     },
     {
       "value": "background-color",
-      "count": 163
+      "count": 164
     },
     {
       "value": "background-image",
@@ -1399,7 +1435,7 @@
     },
     {
       "value": "display",
-      "count": 433
+      "count": 434
     },
     {
       "value": "fill",
@@ -1439,7 +1475,7 @@
     },
     {
       "value": "font-size",
-      "count": 362
+      "count": 366
     },
     {
       "value": "font-style",
@@ -1499,7 +1535,7 @@
     },
     {
       "value": "margin",
-      "count": 185
+      "count": 187
     },
     {
       "value": "margin-bottom",
@@ -1515,7 +1551,7 @@
     },
     {
       "value": "margin-top",
-      "count": 115
+      "count": 116
     },
     {
       "value": "marign-left",
@@ -1543,7 +1579,7 @@
     },
     {
       "value": "opacity",
-      "count": 97
+      "count": 98
     },
     {
       "value": "outline",
@@ -1595,7 +1631,7 @@
     },
     {
       "value": "position",
-      "count": 436
+      "count": 437
     },
     {
       "value": "right",
@@ -1663,7 +1699,7 @@
     },
     {
       "value": "transition-duration",
-      "count": 6
+      "count": 8
     },
     {
       "value": "transition-property",
@@ -1683,7 +1719,7 @@
     },
     {
       "value": "visibility",
-      "count": 19
+      "count": 20
     },
     {
       "value": "white-space",
@@ -1695,7 +1731,7 @@
     },
     {
       "value": "width",
-      "count": 436
+      "count": 444
     },
     {
       "value": "will-change",
@@ -1903,11 +1939,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 46,
-  "properties.prefixed.share": 0.034106621600860344,
+  "properties.prefixed.share": 0.033991731740927886,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 6509,
+  "values.total": 6531,
   "values.prefixed.total": 71,
   "values.prefixed.unique": [
     {
@@ -2104,12 +2140,12 @@
     }
   ],
   "values.prefixed.totalUnique": 48,
-  "values.prefixed.share": 0.010907973575049931,
-  "values.fontsizes.total": 360,
+  "values.prefixed.share": 0.010871229520747205,
+  "values.fontsizes.total": 364,
   "values.fontsizes.unique": [
     {
       "value": "0",
-      "count": 23
+      "count": 25
     },
     {
       "value": "smaller",
@@ -2348,16 +2384,16 @@
       "count": 2
     },
     {
+      "value": "1.25em",
+      "count": 1
+    },
+    {
       "value": "20px",
       "count": 3
     },
     {
       "value": "1.25rem",
       "count": 5
-    },
-    {
-      "value": "1.25em",
-      "count": 1
     },
     {
       "value": "1.2rem",
@@ -2424,6 +2460,10 @@
       "count": 9
     },
     {
+      "value": "medium",
+      "count": 1
+    },
+    {
       "value": "1rem",
       "count": 43
     },
@@ -2432,16 +2472,12 @@
       "count": 2
     },
     {
-      "value": "medium",
+      "value": ".9375em",
       "count": 1
     },
     {
       "value": "15px",
-      "count": 4
-    },
-    {
-      "value": ".9375em",
-      "count": 1
+      "count": 6
     },
     {
       "value": ".933333333333333rem",
@@ -2456,12 +2492,12 @@
       "count": 2
     },
     {
-      "value": "14px",
-      "count": 3
-    },
-    {
       "value": ".875em",
       "count": 2
+    },
+    {
+      "value": "14px",
+      "count": 3
     },
     {
       "value": ".866666rem",
@@ -2484,16 +2520,16 @@
       "count": 1
     },
     {
+      "value": ".75em",
+      "count": 2
+    },
+    {
       "value": "75%",
       "count": 1
     },
     {
       "value": "12px",
       "count": 3
-    },
-    {
-      "value": ".75em",
-      "count": 2
     },
     {
       "value": ".75rem",
@@ -2577,7 +2613,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 9,
-  "values.colors.total": 615,
+  "values.colors.total": 616,
   "values.colors.unique": [
     {
       "value": "#dddcdc",
@@ -2797,7 +2833,7 @@
     },
     {
       "value": "#101010",
-      "count": 5
+      "count": 6
     },
     {
       "value": "#000",
@@ -3074,7 +3110,7 @@
     }
   ],
   "values.zindexes.totalUnique": 30,
-  "values.animations.durations.total": 111,
+  "values.animations.durations.total": 113,
   "values.animations.durations.unique": [
     {
       "value": "0s",
@@ -3114,7 +3150,7 @@
     },
     {
       "value": ".3s",
-      "count": 46
+      "count": 48
     },
     {
       "value": ".35s",

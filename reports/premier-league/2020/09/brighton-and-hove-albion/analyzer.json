@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 405028,
-  "stylesheets.filesize.uncompressed.totalBytes": 405028,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 51778,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8721619246076815,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 39863,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9015796438764727,
-  "stylesheets.simplicity": 0.9203207216236532,
-  "stylesheets.cohesion.average": 2.5820854887013343,
+  "stylesheets.size": 405082,
+  "stylesheets.filesize.uncompressed.totalBytes": 405082,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 51805,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8721123130625404,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 39904,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9014915498590409,
+  "stylesheets.simplicity": 0.9203406813627254,
+  "stylesheets.cohesion.average": 2.581927054980947,
   "stylesheets.cohesion.min.count": 23,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -130,8 +130,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 18463,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14090,
+  "stylesheets.linesOfCode.total": 18467,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14093,
   "atrules.charsets.total": 1,
   "atrules.charsets.unique": [
     {
@@ -421,11 +421,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 3673,
+  "rules.total": 3674,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 14,
-  "rules.selectors.average": 1.0865777293765315,
+  "rules.selectors.average": 1.0865541643984757,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "*"
@@ -447,8 +447,8 @@
     ".s-cms-content table:not([class]) thead tr th",
     ".s-cms-content table:not([class]) tr td"
   ],
-  "selectors.total": 3991,
-  "selectors.totalUnique": 2960,
+  "selectors.total": 3992,
+  "selectors.totalUnique": 2961,
   "selectors.js.total": 0,
   "selectors.js.unique": [],
   "selectors.js.totalUnique": 0,
@@ -583,7 +583,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 1.9416186419443748,
+  "selectors.identifiers.average": 1.941382765531062,
   "selectors.identifiers.max.value": ".main-navigation__desktop-list > .linked-list > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown > .linked-list__item > .linked-list__dropdown-label:focus",
   "selectors.identifiers.max.count": 9,
   "selectors.identifiers.top": [
@@ -632,8 +632,8 @@
     }
   ],
   "selectors.complexity.max.count": 5,
-  "selectors.complexity.average": 1.9501378100726634,
-  "selectors.complexity.sum": 7783,
+  "selectors.complexity.average": 1.9498997995991985,
+  "selectors.complexity.sum": 7784,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -641,7 +641,7 @@
     },
     {
       "value": 1,
-      "count": 1609
+      "count": 1610
     },
     {
       "value": 2,
@@ -680,11 +680,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 9484,
-  "declarations.totalUnique": 2644,
+  "declarations.total": 9486,
+  "declarations.totalUnique": 2646,
   "declarations.importants.total": 245,
-  "declarations.importants.share": 0.025832981864192323,
-  "properties.total": 9484,
+  "declarations.importants.share": 0.02582753531520135,
+  "properties.total": 9486,
   "properties.unique": [
     {
       "value": "-moz-appearance",
@@ -987,6 +987,10 @@
       "count": 2
     },
     {
+      "value": "clip-rule",
+      "count": 1
+    },
+    {
       "value": "color",
       "count": 262
     },
@@ -1005,6 +1009,10 @@
     {
       "value": "fill",
       "count": 63
+    },
+    {
+      "value": "fill-rule",
+      "count": 1
     },
     {
       "value": "filter",
@@ -1307,7 +1315,7 @@
       "count": 99
     }
   ],
-  "properties.totalUnique": 155,
+  "properties.totalUnique": 157,
   "properties.prefixed.total": 472,
   "properties.prefixed.unique": [
     {
@@ -1448,11 +1456,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 34,
-  "properties.prefixed.share": 0.04976803036693378,
+  "properties.prefixed.share": 0.04975753742357158,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 9484,
+  "values.total": 9486,
   "values.prefixed.total": 180,
   "values.prefixed.unique": [
     {
@@ -1477,7 +1485,7 @@
     }
   ],
   "values.prefixed.totalUnique": 5,
-  "values.prefixed.share": 0.018979333614508646,
+  "values.prefixed.share": 0.018975332068311195,
   "values.fontsizes.total": 443,
   "values.fontsizes.unique": [
     {

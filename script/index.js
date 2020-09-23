@@ -7,15 +7,27 @@ const specificityScript = require('./run-specificity')
 const wappalyzerScript = require('./run-wappalyzer')
 const analyzerScript = require('./run-analyzer')
 
+const { extractorReport, extractorsReport } = require('./get-extractor')
 const validatorReport = require('./get-validator')
-const coverageReport = require('./get-coverage')
+const { coverageReport, coveragesReport } = require('./get-coverage')
 const wappalyzerReport = require('./get-wappalyzer')
-const specificityReport = require('./get-specificity')
+const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
-const sites = require('./sites.json')
+let sites = require('./sites.json')
 
 const ret = process.argv.indexOf('ret') !== -1
+
+const site = process.argv.find(arg => arg.indexOf('site=') !== -1)
+
+if(site) {
+  const singleSite = sites.filter(s => site.indexOf(s.title) !== -1)
+
+  if(singleSite) {
+    sites = singleSite
+  }
+}
+
 
 const runExtractor = async () => {
   for(const site of sites) {
@@ -60,15 +72,23 @@ const runAnalyses = async () => {
 }
 
 const start = async () => {
+  await runExtractor()
+  await runValidator()
+  await runCoverage()
+  await runScreenshot()
+  await runSpecificity()
+  await runWappalyzer()
+  await runAnalyses()
+}
+
+const getExtractor = async () => {
   for(const site of sites) {
-    await runExtractor(site)
-    await runValidator(site)
-    await runCoverage(site)
-    await runScreenshot(site)
-    await runSpecificity(site)
-    await runWappalyzer(site)
-    await runAnalyses(site)
+    await extractorReport(site)
   }
+}
+
+const getExtractors = async () => {
+  await extractorsReport(sites)
 }
 
 const getValidator = async () => {
@@ -77,25 +97,14 @@ const getValidator = async () => {
   }
 }
 
-const getCoverages = async (ret) => {
-  const coverages = []
-
+const getCoverage = async () => {
   for(const site of sites) {
-    coverageAmount = await coverageReport(site, ret)
-
-    coverages.push({...site, ...{
-      coverage: coverageAmount
-    }})
-  }
-
-  if(ret) {
-    return coverages
+    coverageAmount = await coverageReport(site)
   }
 }
 
-const averageCoverage = async () => {
-  const coverages = await getCoverages(true)
-  console.log(coverages);
+const getCoverages = async () => {
+  await coveragesReport(sites)
 }
 
 const getWappalyzer = async () => {
@@ -110,28 +119,27 @@ const getSpecificity = async () => {
   }
 }
 
+const getSpecificities = async () => {
+  await specificitiesReport(sites)
+}
+
 const getAnalyzer = async () => {
   for(const site of sites) {
     await analyzerReport(site)
   }
 }
 
-const generateReport = async (site) => {
-  return new Promise(async (resolve, reject) => {
-    await validatorReport(site)
-    await coverageReport(site)
-    await wappalyzerReport(site)
-    await specificityReport(site)
-    await analyzerReport(site)
-
-    resolve()
-  })
+const generateAnalyses = async () => {
+  await getExtractor()
+  await getValidator()
+  await getCoverage()
+  await getWappalyzer()
+  await getSpecificity()
+  await getAnalyzer()
 }
 
-const showAnalyses = async () => {
-  for(const site of sites) {
-    await generateReport(site)
-  }
+const generateReport = async () => {
+
 }
 
 module.exports = {
@@ -143,13 +151,16 @@ module.exports = {
   runSpecificity,
   runWappalyzer,
   runAnalyses,
+  getExtractor,
+  getExtractors,
   getValidator,
+  getCoverage,
   getCoverages,
   getWappalyzer,
   getSpecificity,
+  getSpecificities,
   getAnalyzer,
-  averageCoverage,
-  showAnalyses,
+  generateAnalyses,
 }
 
 require('make-runnable')

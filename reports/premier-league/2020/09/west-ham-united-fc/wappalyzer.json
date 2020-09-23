@@ -70,11 +70,27 @@
       ]
     },
     {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authority",
+          "name": "SSL/TLS certificate authority"
+        }
+      ]
+    },
+    {
       "slug": "bootstrap",
       "name": "Bootstrap",
       "confidence": 100,
       "version": "3.3.6",
-      "icon": "Bootstrap.png",
+      "icon": "Bootstrap.svg",
       "website": "https://getbootstrap.com",
       "cpe": "cpe:/a:getbootstrap:bootstrap",
       "categories": [
@@ -155,8 +171,8 @@
       ]
     },
     {
-      "slug": "acquia-cloud",
-      "name": "Acquia Cloud",
+      "slug": "cloud-platform",
+      "name": "Cloud Platform",
       "confidence": 100,
       "version": null,
       "icon": "acquia-cloud.png",

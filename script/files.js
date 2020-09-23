@@ -1,81 +1,81 @@
-const fs = require('fs');
-const path = require('path');
-const mkdirp = require('mkdirp');
-const ncp = require('ncp');
+const fs = require('fs')
+const path = require('path')
+const mkdirp = require('mkdirp')
+const ncp = require('ncp')
 
-ncp.limit = 16;
+ncp.limit = 16
 
 const getCurrentDirectoryBase = () => {
   try {
-    return path.basename(process.cwd());
+    return path.basename(process.cwd())
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
-};
+}
 
 const fileExists = (filePath) => {
   try {
-    return fs.existsSync(filePath);
+    return fs.existsSync(filePath)
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
-};
+}
 
 const directoryExists = (dirPath) => {
   try {
     if (!fileExists(dirPath)) {
-      return false;
+      return false
     }
 
-    return fs.statSync(dirPath).isDirectory();
+    return fs.statSync(dirPath).isDirectory()
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
-};
+}
 
 const makeDirectory = (dirPath) => {
   try {
     if (!directoryExists(dirPath)) {
-      return mkdirp(dirPath);
+      return mkdirp(dirPath)
     }
 
-    return true;
+    return true
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
-};
+}
 
 const saveFile = (filePath, content, stringify) => {
   try {
     const data = stringify === true ? JSON.stringify(content, null, 2) : content
 
-    fs.writeFileSync(filePath, data, 'utf-8');
+    fs.writeFileSync(filePath, data, 'utf-8')
 
-    return true;
+    return true
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
-};
+}
 
 const getFile = async (filePath) => {
   try {
     return fs.readFileSync(filePath, {
       encoding:'utf8'
-    });
+    })
   } catch (err) {
-    console.error(err);
+    console.error(err)
 
-    return false;
+    return false
   }
 }
 
@@ -99,4 +99,4 @@ module.exports = {
   saveFile,
   getFile,
   getFolder
-};
+}

@@ -173,5 +173,107 @@
       "message": "\n        \n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
       "error": "\n                        "
     }
+  ],
+  "unrecognize": [
+    {
+      "line": "15457",
+      "errortype": "parse-error",
+      "context": ".ppg__fab-circle--shake .ppg__fab-light-dot",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                7s ease 0s infinite normal none running light-that-ppg\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15460",
+      "errortype": "parse-error",
+      "context": ".ppg__fab-circle--shake .ppg__fab-icon",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                7s linear 0s infinite normal none running shake-that-ppg\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16072",
+      "errortype": "parse-error",
+      "context": ".ppg__native-confirm",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                2s ease-in-out 0s infinite normal none running MoveUpDown\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16315",
+      "errortype": "parse-error",
+      "context": ".fb_animate",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.3s ease 0s 1 normal forwards running fb_transform\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16523",
+      "errortype": "parse-error",
+      "context": "#fb_dialog_loader_spinner",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1.2s linear 0s infinite normal none running rotateSpinner\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16684",
+      "errortype": "parse-error",
+      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_bottom",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy_appear_from_bottom\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16687",
+      "errortype": "parse-error",
+      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_top",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy_appear_from_top\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16690",
+      "errortype": "parse-error",
+      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_top",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.25s ease 0s 1 normal forwards running dy_exit_top\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16693",
+      "errortype": "parse-error",
+      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_bottom",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.25s ease 0s 1 normal forwards running dy_exit_bottom\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16790",
+      "errortype": "parse-error",
+      "context": ".dy-modal-container .dy-modal-wrapper .dy-modal-contents",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy-modal-enter\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    }
   ]
 }

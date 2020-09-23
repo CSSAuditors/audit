@@ -6768,6 +6768,20 @@
       "message": "“-ms-transform” is an unknown vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
+    },
+    {
+      "line": "42243",
+      "level": "0",
+      "message": "“-webkit-font-smoothing” is an unknown vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "42831",
+      "level": "0",
+      "message": "“-webkit-appearance” is an unknown vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
     }
   ],
   "vendor-ext-pseudo-class": [
@@ -7167,6 +7181,104 @@
     },
     {
       "line": "23247",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43133",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43450",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43629",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43697",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43877",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43892",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43935",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43956",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "44036",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "44106",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "44164",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "44323",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "45363",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
+      "warning": "\n                        "
+    },
+    {
+      "line": "45401",
       "level": "0",
       "message": "The value “break-word” is deprecated",
       "type": "deprecated",
@@ -7642,6 +7754,83 @@
       "line": "41299",
       "level": "0",
       "message": "“::-webkit-input-placeholder” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43048",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43051",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43474",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-track” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43475",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-track” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43476",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-track” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43479",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43480",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43481",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43484",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43485",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is an unknown vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "43486",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is an unknown vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     }

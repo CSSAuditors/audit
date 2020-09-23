@@ -71,6 +71,16 @@
       "error": "\n                        "
     },
     {
+      "line": "2240",
+      "errortype": "parse-error",
+      "context": ".mc-button--primary-disabled, .mc-button--primary-disabled:hover",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
       "line": "2295",
       "errortype": "parse-error",
       "context": ".mc-tabs-nav",
@@ -78,6 +88,16 @@
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
       "message": "\n        \n                                Property “scrollbar-width” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2489",
+      "errortype": "parse-error",
+      "context": ".mc-tabs-nav--buttony .mc-tabs-nav__item-link--primary-disabled, .mc-tabs-nav--buttony .mc-tabs-nav__item-link--primary-disabled:hover",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
@@ -339,6 +359,46 @@
       "type": "noexistence-at-all",
       "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
+    },
+    {
+      "line": "28271",
+      "errortype": "parse-error",
+      "context": ".i-amphtml-blurry-placeholder",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "28474",
+      "errortype": "parse-error",
+      "context": ".i-amphtml-loading-container",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "28562",
+      "errortype": "parse-error",
+      "context": ".i-amphtml-blurry-placeholder",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "28765",
+      "errortype": "parse-error",
+      "context": ".i-amphtml-loading-container",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
     }
   ],
   "value": [
@@ -449,7 +509,7 @@
       "errortype": "parse-error",
       "context": ".mc-tabs-nav--buttony .mc-tabs-nav__item-link--active--primary-disabled, .mc-tabs-nav--buttony .mc-tabs-nav__item-link--active--primary-disabled:hover, .mc-tabs-nav--buttony .mc-tabs-nav__item-link[aria-selected=\"true\"]",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                ]--primary-disabled,\n.mc-tabs-nav--buttony .mc-tabs-nav__item-link[aria-selected=true]--primary-disabled:hover {\n  color: #696b6d;\n  background-color: #ededed;\n  border: 1px solid #ededed;\n  cursor: not-allowed\n}\n                            ",
+      "skippedstring": "\n                                ]--primary-disabled,\n.mc-tabs-nav--buttony .mc-tabs-nav__item-link[aria-selected=true]--primary-disabled:hover {\n  color: #696b6d;\n  background-color: #ededed;\n  border: 1px solid #ededed;\n  pointer-events: none\n}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n        \n                                Parse Error\n                            ",
       "error": "\n                        "

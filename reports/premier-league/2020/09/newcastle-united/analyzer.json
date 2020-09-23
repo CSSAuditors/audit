@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 540290,
-  "stylesheets.filesize.uncompressed.totalBytes": 540290,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 57475,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8936219437709378,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 40404,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9252179385145015,
-  "stylesheets.simplicity": 0.7638182137217056,
-  "stylesheets.cohesion.average": 2.4291293360900528,
+  "stylesheets.size": 540708,
+  "stylesheets.filesize.uncompressed.totalBytes": 540708,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 57593,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8934859480532931,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 40466,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9251610850958373,
+  "stylesheets.simplicity": 0.7639010699877214,
+  "stylesheets.cohesion.average": 2.4284730195177957,
   "stylesheets.cohesion.min.count": 23,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -133,8 +133,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 21668,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 16769,
+  "stylesheets.linesOfCode.total": 21678,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 16775,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -220,7 +220,7 @@
   "atrules.keyframes.prefixed.unique": [],
   "atrules.keyframes.prefixed.totalUnique": 0,
   "atrules.keyframes.prefixed.share": 0,
-  "atrules.mediaqueries.total": 484,
+  "atrules.mediaqueries.total": 486,
   "atrules.mediaqueries.unique": [
     {
       "value": "(-webkit-min-device-pixel-ratio:2),\n(min-resolution:192dpi)",
@@ -255,6 +255,10 @@
       "count": 31
     },
     {
+      "value": "only screen and (max-width:999px)",
+      "count": 1
+    },
+    {
       "value": "only screen and (max-width:1100px)",
       "count": 7
     },
@@ -265,6 +269,10 @@
     {
       "value": "only screen and (min-width:$breaktwo)",
       "count": 4
+    },
+    {
+      "value": "only screen and (min-width:100px)",
+      "count": 1
     },
     {
       "value": "only screen and (min-width:400px)",
@@ -339,7 +347,7 @@
       "count": 1
     }
   ],
-  "atrules.mediaqueries.totalUnique": 29,
+  "atrules.mediaqueries.totalUnique": 31,
   "atrules.mediaqueries.browserhacks.total": 0,
   "atrules.mediaqueries.browserhacks.unique": [],
   "atrules.mediaqueries.browserhacks.totalUnique": 0,
@@ -355,11 +363,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 4353,
+  "rules.total": 4355,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 45,
-  "rules.selectors.average": 1.3092120376751666,
+  "rules.selectors.average": 1.3090700344431687,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#lively_app"
@@ -412,8 +420,8 @@
     "textarea[disabled]",
     "textarea[readonly]"
   ],
-  "selectors.total": 5699,
-  "selectors.totalUnique": 3764,
+  "selectors.total": 5701,
+  "selectors.totalUnique": 3765,
   "selectors.js.total": 34,
   "selectors.js.unique": [
     {
@@ -867,7 +875,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 2.4377961045797507,
+  "selectors.identifiers.average": 2.4372917032099632,
   "selectors.identifiers.max.value": ".league-table--isPremierLeague .league-table__content table tr:nth-child(4) td",
   "selectors.identifiers.max.count": 6,
   "selectors.identifiers.top": [
@@ -916,8 +924,8 @@
     }
   ],
   "selectors.complexity.max.count": 5,
-  "selectors.complexity.average": 2.4765748376908228,
-  "selectors.complexity.sum": 14114,
+  "selectors.complexity.average": 2.4760568321347134,
+  "selectors.complexity.sum": 14116,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -925,7 +933,7 @@
     },
     {
       "value": 1,
-      "count": 1374
+      "count": 1376
     },
     {
       "value": 2,
@@ -952,11 +960,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 10574,
-  "declarations.totalUnique": 1716,
+  "declarations.total": 10576,
+  "declarations.totalUnique": 1718,
   "declarations.importants.total": 122,
-  "declarations.importants.share": 0.011537734064686968,
-  "properties.total": 10574,
+  "declarations.importants.share": 0.011535552193645991,
+  "properties.total": 10576,
   "properties.unique": [
     {
       "value": "-moz-appearance",
@@ -1088,7 +1096,7 @@
     },
     {
       "value": "background-image",
-      "count": 24
+      "count": 26
     },
     {
       "value": "background-position",
@@ -1528,11 +1536,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 21,
-  "properties.prefixed.share": 0.006714582939285039,
+  "properties.prefixed.share": 0.006713313161875945,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 10574,
+  "values.total": 10576,
   "values.prefixed.total": 6,
   "values.prefixed.unique": [
     {
@@ -1545,7 +1553,7 @@
     }
   ],
   "values.prefixed.totalUnique": 2,
-  "values.prefixed.share": 0.0005674295441649329,
+  "values.prefixed.share": 0.0005673222390317701,
   "values.fontsizes.total": 668,
   "values.fontsizes.unique": [
     {

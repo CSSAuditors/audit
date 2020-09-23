@@ -1,11 +1,4 @@
 const files = require('./files.js')
-const coverage = require('./run-coverage.js')
-const screenshot = require('./run-screenshot.js')
-const analyzer = require('./run-analyzer.js')
-const wappalyzer = require('./run-wappalyzer.js')
-const specificity = require('./run-specificity.js')
-const validator = require('./run-validator.js')
-const extractor = require('./run-extractor.js')
 const extractCss = require('extract-css-core')
 const CleanCSS = require('clean-css')
 
@@ -13,17 +6,22 @@ const extract = async (site) => {
   return new Promise(async (resolve, reject) => {
     const folder = files.getFolder(site)
 
+    const cssFileExtractor = `${folder}/extractor.json`
     const cssFileDirty = `${folder}/style-dirty.css`
     const cssFileClean = `${folder}/style-clean.css`
     let cssString = ''
 
-    if(!files.fileExists(cssFileClean)) {
+    if(!files.fileExists(cssFileExtractor) || !files.fileExists(cssFileDirty) || !files.fileExists(cssFileClean)) {
       const cssItems = await extractCss(site.url, {
-        origins: 'include'
+        origins: 'include',
+        timeout: 60000,
+        waitUntil: 'networkidle2'
       })
 
+      files.saveFile(cssFileExtractor, cssItems, true)
+
       cssItems.forEach(cssItem => {
-        if (cssItem.type === 'link-or-import') {
+        if (cssItem.type === 'link-or-import' || cssItem.type === 'style') {
           cssString += cssItem.css
         }
       })
@@ -34,20 +32,7 @@ const extract = async (site) => {
         format: 'beautify'
       }).minify(cssString)
 
-      // console.log(cssString.styles)
-      // console.log(cssString.stats)
-      // console.log(cssString.warnings)
-      // console.log(cssString.errors)
-
       files.saveFile(cssFileClean, cssClean.styles)
-
-      // cssString = beautify(cssString, {
-      //   format: 'css'
-      // })
-
-      // cssString = stripComments(cssString, {
-      //   preserve: false
-      // })
 
       console.log(`✅ CSS file created in ${folder}`)
     } else {

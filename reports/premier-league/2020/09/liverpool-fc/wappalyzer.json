@@ -6,6 +6,22 @@
   },
   "technologies": [
     {
+      "slug": "aws-certificate-manager",
+      "name": "AWS Certificate Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/certificate-manager/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authority",
+          "name": "SSL/TLS certificate authority"
+        }
+      ]
+    },
+    {
       "slug": "amazon-web-services",
       "name": "Amazon Web Services",
       "confidence": 100,

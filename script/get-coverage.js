@@ -1,6 +1,7 @@
 const files = require('./files')
+const { getMax, getMin, getAverage, getRound } = require('./calc')
 
-const coverage = async (site, ret) => {
+const coverageReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = files.getFolder(site)
 
@@ -30,14 +31,42 @@ const coverage = async (site, ret) => {
 
     const usage = Math.round(((usedBytes / totalBytes * 100) + Number.EPSILON) * 100) / 100
 
-    if(ret !== true) {
+    if(!silent) {
       console.log('')
       console.log('COVERAGE')
-      console.log(`📉[${site.title}] Bytes used: ${usage}%`)
+      console.log(`📉[${site.title}] Percent of bytes used: ${usage}`)
     }
 
     resolve(usage)
   })
 }
 
-module.exports = coverage
+const coveragesReport = async (sites) => {
+  const arr = []
+
+  for(const site of sites) {
+    arr.push({...{usage: await coverageReport(site, true)}, site: site})
+  }
+
+  console.log('')
+  console.log('COVERAGES')
+
+  const maxCoverage = getMax(arr, 'usage')
+  const minCoverage = getMin(arr, 'usage')
+  const avgCoverage = getAverage(arr, 'usage')
+
+  console.log(`📊 Site with largest coverage: ${maxCoverage.site.title} [${getRound(maxCoverage['usage'])}]`)
+  console.log(`📊 Site with smallest coverage: ${minCoverage.site.title} [${getRound(minCoverage['usage'])}]`)
+  console.log(`📊 Average coverage: ${getRound(avgCoverage)}`)
+
+  return {
+    maxCoverage: maxCoverage,
+    minCoverage: minCoverage,
+    avgCoverage: avgCoverage,
+  }
+}
+
+module.exports = {
+  coverageReport,
+  coveragesReport
+}

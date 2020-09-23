@@ -76,20 +76,20 @@
         "end": 386652
       },
       {
-        "start": 387080,
-        "end": 387121
+        "start": 388432,
+        "end": 388475
       },
       {
         "start": 388639,
         "end": 388686
       },
       {
-        "start": 389188,
-        "end": 389231
+        "start": 390617,
+        "end": 390660
       },
       {
-        "start": 390112,
-        "end": 390154
+        "start": 391291,
+        "end": 391333
       },
       {
         "start": 391546,
@@ -569,31 +569,7 @@
       },
       {
         "start": 670988,
-        "end": 671569
-      },
-      {
-        "start": 671647,
-        "end": 671907
-      },
-      {
-        "start": 671936,
-        "end": 671994
-      },
-      {
-        "start": 671995,
-        "end": 672152
-      },
-      {
-        "start": 672657,
-        "end": 672914
-      },
-      {
-        "start": 673098,
-        "end": 673313
-      },
-      {
-        "start": 673501,
-        "end": 674233
+        "end": 671090
       },
       {
         "start": 674449,
@@ -980,6 +956,10 @@
         "end": 1100510
       },
       {
+        "start": 1101928,
+        "end": 1102430
+      },
+      {
         "start": 1106591,
         "end": 1106627
       },
@@ -1013,6 +993,18 @@
       },
       {
         "start": 1108758,
+        "end": 1109054
+      },
+      {
+        "start": 1109141,
+        "end": 1109441
+      },
+      {
+        "start": 1109649,
+        "end": 1109849
+      },
+      {
+        "start": 1109935,
         "end": 1110158
       },
       {
@@ -1072,14 +1064,6 @@
         "end": 1746309
       },
       {
-        "start": 1746485,
-        "end": 1746767
-      },
-      {
-        "start": 1746968,
-        "end": 1747130
-      },
-      {
         "start": 1747327,
         "end": 1747636
       },
@@ -1136,16 +1120,6 @@
     "text": "\n                \t.st0__hero{fill:url(#SVGID_1_);}\n                \t.st1__hero{fill:url(#SVGID_2_);}\n                "
   },
   {
-    "url": "https://sync.ecal.com/button/v1/css/widget.67224b6.css?timestamp=1599731962479",
-    "ranges": [
-      {
-        "start": 0,
-        "end": 263
-      }
-    ],
-    "text": ".ecal-widget-frame {\n  position   : fixed;\n  top        : 0;\n  left       : 0;\n  border     : none;\n  background : transparent;\n  z-index    : 10000000002;\n  width      : 100% !important;\n  height     : 100% !important;\n  overflow   : auto;\n  display    : none;\n}\n\n.ecal-widget-frame.ecal-widget-frame__preview-mode {\n  z-index: 101;\n  display: block;\n  position: relative;\n}\n\n.ecal-widget-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100% !important;\n  height: 100% !important;\n  overflow: auto;\n  display: flex;\n  flex: 1 1 auto;\n  z-index    : 10000000000;\n  align-content: center;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0,0,0,.8);\n}\n\n.ecal-widget-progress-indicator {\n  height: 120px;\n  border: none;\n  background: transparent;\n  overflow: hidden;\n  display: block;\n  position: relative;\n  transform: translateX(-50%);\n  left: 50%;\n  z-index: 10000000001;\n  width: 100%;\n}\n\n.ecal-widget-progress-caption {\n  font-family:\"GothamRounded-Bold\", \"sans-serif\";\n  font-size: 15px;\n  color: white;\n  text-align: center;\n  margin-top: 5px;\n}\n\n.ecal-sync-widget-button:not([data-ecal-no-styling]):not([data-ecal-static-design]) {\n  display: block;\n  border: 0px;\n  margin: 0px;\n  box-shadow: none;\n  padding: 0px;\n  background: transparent;\n  line-height: 0;\n  vertical-align: middle;\n  outline: 0px;\n  cursor: pointer;\n  z-index: 999999;\n  height: auto;\n  width: auto;\n}\n.ecal-sync-widget-button:not([data-ecal-no-styling]):not([data-ecal-static-design]) > [data-ecal-sync-widget-child-ref] {\n  width: auto;\n  border: 0;\n}\n\n.ecal-widget-hide {\n  display: none !important;\n}"
-  },
-  {
     "url": "https://open.spotify.com/embed/playlist/4x7T8AjUHcikyQowTJoxOj",
     "ranges": [
       {
@@ -1166,6 +1140,16 @@
       }
     ],
     "text": "\n        @font-face {\n            font-family: 'spotify-circular';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Light.afd9ab26.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Light.2a78c017.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Light.89e4be2e.ttf\") format('truetype');\n            font-weight: 200;\n            font-style: normal;\n        }\n        @font-face {\n            font-family: 'spotify-circular';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Book.3466e0ec.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Book.ea8d19db.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Book.a357677a.ttf\") format('truetype');\n            font-weight: 400;\n            font-style: normal;\n        }\n        @font-face {\n            font-family: 'spotify-circular';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Bold.8d0a45cc.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Bold.10e93738.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Bold.7eb7d0f7.ttf\") format('truetype');\n            font-weight: 600;\n            font-style: normal;\n        }\n        @font-face {\n            font-family: 'spotify-circular-arabic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Light.dde45e52.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Light.5c7ed8d8.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Light.f0833f3b.otf\") format('opentype');\n            font-weight: 200;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-arabic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Book.aaab109b.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Book.3ad862e2.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Book.f0effcd1.otf\") format('opentype');\n            font-weight: 400;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-arabic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Bold.317e96e5.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Bold.9ddc7126.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIAraOnly-Bold.f97cb921.otf\") format('opentype');\n            font-weight: 600;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-hebrew';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Light.4884da16.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Light.2128eeac.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Light.2e1df62a.otf\") format('opentype');\n            font-weight: 200;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-hebrew';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Book.cb36b6ec.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Book.ad2b13cd.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Book.fae4aece.otf\") format('opentype');\n            font-weight: 400;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-hebrew';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Bold.ef043f44.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Bold.9f406804.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUIHbrOnly-Bold.57b36278.otf\") format('opentype');\n            font-weight: 600;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-cyrillic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Light.55fa9f4a.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Light.034997d0.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Light.b10eb959.otf\") format('opentype');\n            font-weight: 200;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-cyrillic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Book.6a858994.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Book.918c53b8.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Book.15af6ebe.otf\") format('opentype');\n            font-weight: 400;\n            font-style: normal;\n            font-display: swap;\n        }\n        @font-face {\n            font-family: 'spotify-circular-cyrillic';\n            src: url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Bold.30dc9fb2.woff2\") format('woff2'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Bold.909126fc.woff\") format('woff'),\n                url(\"https://open.scdn.co/cdn/fonts/CircularSpUICyrOnly-Bold.67641b90.otf\") format('opentype');\n            font-weight: 600;\n            font-style: normal;\n            font-display: swap;\n        }\n        body {\n            /* IE scrollbar styles */\n            scrollbar-base-color: #181818;\n            scrollbar-face-color: #404040;\n            scrollbar-3dlight-color: #181818;\n            scrollbar-highlight-color: #404040;\n            scrollbar-track-color: #181818;\n            scrollbar-arrow-color: #404040;\n            scrollbar-shadow-color: #181818;\n            scrollbar-darkshadow-color: #181818;\n        }\n        /* Google Chrome (Windows) scrollbar styles */\n        ::-webkit-scrollbar {\n            width: 20px;\n            background: transparent;\n        }\n        ::-webkit-scrollbar-button {\n            display: none;\n        }\n        ::-webkit-scrollbar-track {\n            background: transparent;\n        }\n        ::-webkit-scrollbar-thumb {\n            border-radius: 100px;\n            background: #aaaaaacc;\n            background-clip: content-box;\n            border: solid 8px transparent;\n        }\n    "
+  },
+  {
+    "url": "https://sync.ecal.com/button/v1/css/widget.67224b6.css?timestamp=1599823201775",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 263
+      }
+    ],
+    "text": ".ecal-widget-frame {\n  position   : fixed;\n  top        : 0;\n  left       : 0;\n  border     : none;\n  background : transparent;\n  z-index    : 10000000002;\n  width      : 100% !important;\n  height     : 100% !important;\n  overflow   : auto;\n  display    : none;\n}\n\n.ecal-widget-frame.ecal-widget-frame__preview-mode {\n  z-index: 101;\n  display: block;\n  position: relative;\n}\n\n.ecal-widget-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100% !important;\n  height: 100% !important;\n  overflow: auto;\n  display: flex;\n  flex: 1 1 auto;\n  z-index    : 10000000000;\n  align-content: center;\n  justify-content: center;\n  align-items: center;\n  background-color: rgba(0,0,0,.8);\n}\n\n.ecal-widget-progress-indicator {\n  height: 120px;\n  border: none;\n  background: transparent;\n  overflow: hidden;\n  display: block;\n  position: relative;\n  transform: translateX(-50%);\n  left: 50%;\n  z-index: 10000000001;\n  width: 100%;\n}\n\n.ecal-widget-progress-caption {\n  font-family:\"GothamRounded-Bold\", \"sans-serif\";\n  font-size: 15px;\n  color: white;\n  text-align: center;\n  margin-top: 5px;\n}\n\n.ecal-sync-widget-button:not([data-ecal-no-styling]):not([data-ecal-static-design]) {\n  display: block;\n  border: 0px;\n  margin: 0px;\n  box-shadow: none;\n  padding: 0px;\n  background: transparent;\n  line-height: 0;\n  vertical-align: middle;\n  outline: 0px;\n  cursor: pointer;\n  z-index: 999999;\n  height: auto;\n  width: auto;\n}\n.ecal-sync-widget-button:not([data-ecal-no-styling]):not([data-ecal-static-design]) > [data-ecal-sync-widget-child-ref] {\n  width: auto;\n  border: 0;\n}\n\n.ecal-widget-hide {\n  display: none !important;\n}"
   },
   {
     "url": "/css/ampshared.css",

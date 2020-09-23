@@ -1245,6 +1245,17 @@ body {
 .close-button:hover {
   background-color: #000
 }
+.close-button--inverse {
+  background-color: transparent
+}
+.close-button--inverse:after,
+.close-button--inverse:before {
+  background-color: #000
+}
+.close-button--inverse:focus,
+.close-button--inverse:hover {
+  background-color: transparent
+}
 .open-button {
   background-color: #2c2c2c;
   cursor: pointer;
@@ -3194,6 +3205,9 @@ body .outlined--white:focus {
   margin-bottom: 1rem;
   font-size: .93333333rem
 }
+.form--white .form-label {
+  color: #fff
+}
 .form-input {
   background-color: #fff;
   padding: 1rem;
@@ -3216,6 +3230,8 @@ body .outlined--white:focus {
 .form-input--bordered {
   border-width: 1px
 }
+.form--white .form-input,
+.form--white .form-input--white,
 .form-input--white {
   border-color: #fff;
   color: #fff
@@ -3268,6 +3284,7 @@ body .outlined--white:focus {
   border-color: #000;
   background-color: transparent
 }
+.form--white .form-select,
 .form-select--white {
   border-color: #fff;
   color: #fff
@@ -5512,6 +5529,9 @@ body .multiselect--bordered .multiselect__placeholder {
 .p-30 {
   padding: 2rem
 }
+.p-35 {
+  padding: 2.33333333rem
+}
 .p-50 {
   padding: 3.33333333rem
 }
@@ -6075,6 +6095,9 @@ body .multiselect--bordered .multiselect__placeholder {
 }
 .w-3\/5 {
   width: 60%
+}
+.w-4\/5 {
+  width: 80%
 }
 .w-5\/8 {
   width: 62.5%
@@ -7907,9 +7930,6 @@ body > div#app > header + div.section {
       font-size: 1.13333333rem
     }
   }
-  .md\:border-t-0 {
-    border-top-width: 0
-  }
   .md\:border-l {
     border-left-width: 1px
   }
@@ -7945,6 +7965,11 @@ body > div#app > header + div.section {
     -ms-flex-pack: center;
     justify-content: center
   }
+  .md\:flex-grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+  }
   .md\:flex-no-grow {
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
@@ -7973,6 +7998,9 @@ body > div#app > header + div.section {
   }
   .md\:h-410 {
     height: 27.33333333rem
+  }
+  .md\:h-full {
+    height: 100%
   }
   .md\:mb-0 {
     margin-bottom: 0
@@ -8017,6 +8045,9 @@ body > div#app > header + div.section {
   }
   .md\:pb-40 {
     padding-bottom: 2.66666667rem
+  }
+  .md\:pl-60 {
+    padding-left: 4rem
   }
   .md\:w-339 {
     width: 22.6rem
@@ -22660,4 +22691,2105 @@ _:-ms-fullscreen {
 .Opta.Opta-Normal .Opta_F_TT_N .Opta-TournamentTree-Container {
   margin-right: 10px;
   overflow: hidden
+}
+fieldset[disabled] .multiselect {
+  pointer-events: none
+}
+.multiselect__spinner {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 48px;
+  height: 35px;
+  background: #fff;
+  display: block
+}
+.multiselect__spinner::after,
+.multiselect__spinner::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  margin: -8px 0 0 -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #41b883 transparent transparent;
+  border-image: initial;
+  box-shadow: transparent 0 0 0 1px
+}
+.multiselect__spinner::before {
+  animation: 2.4s cubic-bezier(.41,.26,.2,.62) 0s infinite normal none running spinning
+}
+.multiselect__spinner::after {
+  animation: 2.4s cubic-bezier(.51,.09,.21,.8) 0s infinite normal none running spinning
+}
+.multiselect__loading-enter-active,
+.multiselect__loading-leave-active {
+  transition: opacity .4s ease-in-out 0s;
+  opacity: 1
+}
+.multiselect__loading-enter,
+.multiselect__loading-leave-active {
+  opacity: 0
+}
+.multiselect,
+.multiselect__input,
+.multiselect__single {
+  font-family: inherit;
+  font-size: 16px;
+  touch-action: manipulation
+}
+.multiselect {
+  box-sizing: content-box;
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  text-align: left;
+  color: #35495e
+}
+.multiselect * {
+  box-sizing: border-box
+}
+.multiselect:focus {
+  outline: 0
+}
+.multiselect--disabled {
+  background: #ededed;
+  pointer-events: none;
+  opacity: .6
+}
+.multiselect--active {
+  z-index: 50
+}
+.multiselect--active:not(.multiselect--above) .multiselect__current,
+.multiselect--active:not(.multiselect--above) .multiselect__input,
+.multiselect--active:not(.multiselect--above) .multiselect__tags {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0
+}
+.multiselect--active .multiselect__select {
+  transform: rotate(180deg)
+}
+.multiselect--above.multiselect--active .multiselect__current,
+.multiselect--above.multiselect--active .multiselect__input,
+.multiselect--above.multiselect--active .multiselect__tags {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0
+}
+.multiselect__input,
+.multiselect__single {
+  position: relative;
+  display: inline-block;
+  min-height: 20px;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0 0 0 5px;
+  width: 100%;
+  transition: border .1s ease 0s;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  vertical-align: top
+}
+.multiselect__input::-webkit-input-placeholder {
+  color: #35495e
+}
+.multiselect__input::placeholder {
+  color: #35495e
+}
+.multiselect__tag ~ .multiselect__input,
+.multiselect__tag ~ .multiselect__single {
+  width: auto
+}
+.multiselect__input:hover,
+.multiselect__single:hover {
+  border-color: #cfcfcf
+}
+.multiselect__input:focus,
+.multiselect__single:focus {
+  border-color: #a8a8a8;
+  outline: 0
+}
+.multiselect__single {
+  padding-left: 5px;
+  margin-bottom: 8px
+}
+.multiselect__tags-wrap {
+  display: inline
+}
+.multiselect__tags {
+  min-height: 40px;
+  display: block;
+  padding: 8px 40px 0 8px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  font-size: 14px
+}
+.multiselect__tag {
+  position: relative;
+  display: inline-block;
+  padding: 4px 26px 4px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #fff;
+  line-height: 1;
+  background: #41b883;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis
+}
+.multiselect__tag-icon {
+  cursor: pointer;
+  margin-left: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-style: normal;
+  width: 22px;
+  text-align: center;
+  line-height: 22px;
+  transition: all .2s ease 0s;
+  border-radius: 5px
+}
+.multiselect__tag-icon::after {
+  content: "×";
+  color: #266d4d;
+  font-size: 14px
+}
+.multiselect__tag-icon:focus,
+.multiselect__tag-icon:hover {
+  background: #369a6e
+}
+.multiselect__tag-icon:focus::after,
+.multiselect__tag-icon:hover::after {
+  color: #fff
+}
+.multiselect__current {
+  min-height: 40px;
+  overflow: hidden;
+  padding: 8px 30px 0 12px;
+  white-space: nowrap;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8
+}
+.multiselect__current,
+.multiselect__select {
+  line-height: 16px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer
+}
+.multiselect__select {
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  right: 1px;
+  top: 1px;
+  padding: 4px 8px;
+  text-align: center;
+  transition: transform .2s ease 0s,-webkit-transform .2s ease 0s
+}
+.multiselect__select::before {
+  position: relative;
+  right: 0;
+  top: 65%;
+  color: #999;
+  margin-top: 4px;
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: ""
+}
+.multiselect__placeholder {
+  color: #adadad;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 2px
+}
+.multiselect--active .multiselect__placeholder {
+  display: none
+}
+.multiselect__content-wrapper {
+  position: absolute;
+  display: block;
+  background: #fff;
+  width: 100%;
+  max-height: 240px;
+  overflow: auto;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-image: initial;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 50
+}
+.multiselect__content {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  vertical-align: top
+}
+.multiselect--above .multiselect__content-wrapper {
+  bottom: 100%;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+  border-top: 1px solid #e8e8e8
+}
+.multiselect__element {
+  display: block
+}
+.multiselect__option {
+  display: block;
+  padding: 12px;
+  min-height: 40px;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap
+}
+.multiselect__option::after {
+  top: 0;
+  right: 0;
+  position: absolute;
+  line-height: 40px;
+  padding-right: 12px;
+  padding-left: 20px;
+  font-size: 13px
+}
+.multiselect__option--highlight {
+  background: #41b883;
+  outline: 0;
+  color: #fff
+}
+.multiselect__option--highlight::after {
+  content: attr(data-select);
+  background: #41b883;
+  color: #fff
+}
+.multiselect__option--selected {
+  background: #f3f3f3;
+  color: #35495e;
+  font-weight: 700
+}
+.multiselect__option--selected::after {
+  content: attr(data-selected);
+  color: silver
+}
+.multiselect__option--selected.multiselect__option--highlight {
+  background: #ff6a6a;
+  color: #fff
+}
+.multiselect__option--selected.multiselect__option--highlight::after {
+  background: #ff6a6a;
+  content: attr(data-deselect);
+  color: #fff
+}
+.multiselect--disabled .multiselect__current,
+.multiselect--disabled .multiselect__select {
+  background: #ededed;
+  color: #a6a6a6
+}
+.multiselect__option--disabled {
+  cursor: text;
+  pointer-events: none;
+  background: #ededed!important;
+  color: #a6a6a6!important
+}
+.multiselect__option--group {
+  background: #ededed;
+  color: #35495e
+}
+.multiselect__option--group.multiselect__option--highlight {
+  background: #35495e;
+  color: #fff
+}
+.multiselect__option--group.multiselect__option--highlight::after {
+  background: #35495e
+}
+.multiselect__option--disabled.multiselect__option--highlight {
+  background: #dedede
+}
+.multiselect__option--group-selected.multiselect__option--highlight {
+  background: #ff6a6a;
+  color: #fff
+}
+.multiselect__option--group-selected.multiselect__option--highlight::after {
+  background: #ff6a6a;
+  content: attr(data-deselect);
+  color: #fff
+}
+.multiselect-enter-active,
+.multiselect-leave-active {
+  transition: all .15s ease 0s
+}
+.multiselect-enter,
+.multiselect-leave-active {
+  opacity: 0
+}
+.multiselect__strong {
+  margin-bottom: 8px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: top
+}
+[dir=rtl] .multiselect {
+  text-align: right
+}
+[dir=rtl] .multiselect__select {
+  right: auto;
+  left: 1px
+}
+[dir=rtl] .multiselect__tags {
+  padding: 8px 8px 0 40px
+}
+[dir=rtl] .multiselect__content {
+  text-align: right
+}
+[dir=rtl] .multiselect__option::after {
+  right: auto;
+  left: 0
+}
+[dir=rtl] .multiselect__clear {
+  right: auto;
+  left: 12px
+}
+[dir=rtl] .multiselect__spinner {
+  right: auto;
+  left: 1px
+}
+@-webkit-keyframes spinning {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(2turn)
+  }
+}
+@keyframes spinning {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(2turn)
+  }
+}
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1
+}
+.swiper-container-no-flexbox .swiper-slide {
+  float: left
+}
+.swiper-container-vertical > .swiper-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform,-webkit-transform;
+  box-sizing: content-box
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0,0,0)
+}
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap
+}
+.swiper-container-free-mode > .swiper-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform,-webkit-transform
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden
+}
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto
+}
+.swiper-container-autoheight .swiper-wrapper {
+  -webkit-box-align: start;
+  align-items: flex-start;
+  transition-property: transform,height,-webkit-transform
+}
+.swiper-container-3d {
+  perspective: 1200px
+}
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+  transform-style: preserve-3d
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0))
+}
+.swiper-container-wp8-horizontal,
+.swiper-container-wp8-horizontal > .swiper-wrapper {
+  touch-action: pan-y
+}
+.swiper-container-wp8-vertical,
+.swiper-container-wp8-vertical > .swiper-wrapper {
+  touch-action: pan-x
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center center;
+  background-repeat: no-repeat
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  left: 10px;
+  right: auto
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  right: 10px;
+  left: auto
+}
+.swiper-button-prev.swiper-button-white,
+.swiper-container-rtl .swiper-button-next.swiper-button-white {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+.swiper-button-next.swiper-button-white,
+.swiper-container-rtl .swiper-button-prev.swiper-button-white {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+.swiper-button-prev.swiper-button-black,
+.swiper-container-rtl .swiper-button-next.swiper-button-black {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+.swiper-button-next.swiper-button-black,
+.swiper-container-rtl .swiper-button-prev.swiper-button-black {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+.swiper-button-lock {
+  display: none
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: opacity .3s ease 0s;
+  transform: translate3d(0,0,0);
+  z-index: 10
+}
+.swiper-pagination.swiper-pagination-hidden {
+  opacity: 0
+}
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%
+}
+.swiper-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transform: scale(.33);
+  position: relative
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+  transform: scale(1)
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  transform: scale(1)
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  transform: scale(.66)
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  transform: scale(.33)
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  transform: scale(.66)
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  transform: scale(.33)
+}
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2
+}
+button.swiper-pagination-bullet {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #007aff
+}
+.swiper-container-vertical > .swiper-pagination-bullets {
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0,-50%,0)
+}
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 6px 0;
+  display: block
+}
+.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px
+}
+.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  display: inline-block;
+  transition: transform .2s ease 0s,top .2s ease 0s,-webkit-transform .2s ease 0s
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 4px
+}
+.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap
+}
+.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: transform .2s ease 0s,left .2s ease 0s,-webkit-transform .2s ease 0s
+}
+.swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: transform .2s ease 0s,right .2s ease 0s,-webkit-transform .2s ease 0s
+}
+.swiper-pagination-progressbar {
+  background: rgba(0,0,0,.25);
+  position: absolute
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #007aff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top
+}
+.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  transform-origin: right top
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar,
+.swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 0
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-container-vertical > .swiper-pagination-progressbar {
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0
+}
+.swiper-pagination-white .swiper-pagination-bullet-active {
+  background: #fff
+}
+.swiper-pagination-progressbar.swiper-pagination-white {
+  background: rgba(255,255,255,.25)
+}
+.swiper-pagination-progressbar.swiper-pagination-white .swiper-pagination-progressbar-fill {
+  background: #fff
+}
+.swiper-pagination-black .swiper-pagination-bullet-active {
+  background: #000
+}
+.swiper-pagination-progressbar.swiper-pagination-black {
+  background: rgba(0,0,0,.25)
+}
+.swiper-pagination-progressbar.swiper-pagination-black .swiper-pagination-progressbar-fill {
+  background: #000
+}
+.swiper-pagination-lock {
+  display: none
+}
+.swiper-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  background: rgba(0,0,0,.1)
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%
+}
+.swiper-container-vertical > .swiper-scrollbar {
+  position: absolute;
+  right: 3px;
+  top: 1%;
+  z-index: 50;
+  width: 5px;
+  height: 98%
+}
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  left: 0;
+  top: 0
+}
+.swiper-scrollbar-cursor-drag {
+  cursor: move
+}
+.swiper-scrollbar-lock {
+  display: none
+}
+.swiper-zoom-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center
+}
+.swiper-zoom-container > canvas,
+.swiper-zoom-container > img,
+.swiper-zoom-container > svg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain
+}
+.swiper-slide-zoomed {
+  cursor: move
+}
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  transform-origin: 50% center;
+  animation: 1s steps(12) 0s infinite normal none running swiper-preloader-spin
+}
+.swiper-lazy-preloader::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-position: 50% center;
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+.swiper-lazy-preloader-white::after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")
+}
+@-webkit-keyframes swiper-preloader-spin {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+@keyframes swiper-preloader-spin {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000
+}
+.swiper-container-fade.swiper-container-free-mode .swiper-slide {
+  transition-timing-function: ease-out
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity
+}
+.swiper-container-fade .swiper-slide .swiper-slide {
+  pointer-events: none
+}
+.swiper-container-fade .swiper-slide-active,
+.swiper-container-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto
+}
+.swiper-container-cube {
+  overflow: visible
+}
+.swiper-container-cube .swiper-slide {
+  pointer-events: none;
+  backface-visibility: hidden;
+  z-index: 1;
+  visibility: hidden;
+  transform-origin: 0 0;
+  width: 100%;
+  height: 100%
+}
+.swiper-container-cube .swiper-slide .swiper-slide {
+  pointer-events: none
+}
+.swiper-container-cube.swiper-container-rtl .swiper-slide {
+  transform-origin: 100% 0
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-next,
+.swiper-container-cube .swiper-slide-next + .swiper-slide,
+.swiper-container-cube .swiper-slide-prev {
+  pointer-events: auto;
+  visibility: visible
+}
+.swiper-container-cube .swiper-slide-shadow-bottom,
+.swiper-container-cube .swiper-slide-shadow-left,
+.swiper-container-cube .swiper-slide-shadow-right,
+.swiper-container-cube .swiper-slide-shadow-top {
+  z-index: 0;
+  backface-visibility: hidden
+}
+.swiper-container-cube .swiper-cube-shadow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .6;
+  filter: blur(50px);
+  z-index: 0
+}
+.swiper-container-flip {
+  overflow: visible
+}
+.swiper-container-flip .swiper-slide {
+  pointer-events: none;
+  backface-visibility: hidden;
+  z-index: 1
+}
+.swiper-container-flip .swiper-slide .swiper-slide {
+  pointer-events: none
+}
+.swiper-container-flip .swiper-slide-active,
+.swiper-container-flip .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto
+}
+.swiper-container-flip .swiper-slide-shadow-bottom,
+.swiper-container-flip .swiper-slide-shadow-left,
+.swiper-container-flip .swiper-slide-shadow-right,
+.swiper-container-flip .swiper-slide-shadow-top {
+  z-index: 0;
+  backface-visibility: hidden
+}
+.vue-map-container {
+  position: relative
+}
+.vue-map-container .vue-map {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute
+}
+.vue-map-hidden {
+  display: none
+}
+.vue-street-view-pano-container {
+  position: relative
+}
+.vue-street-view-pano-container .vue-street-view-pano {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute
+}
+input {
+  background-position: 20px center
+}
+[data-v-59b5e10c] .gm-style .gm-style-iw-c {
+  border-radius: 3px;
+  padding: 20px 24px
+}
+[data-v-59b5e10c] .gm-style .gm-style-iw-c .gm-ui-hover-effect {
+  top: 0!important;
+  right: 0!important
+}
+@media (max-width:1559px) and (min-width:1230px) {
+  .map-modal[data-v-566d2c31] .map-search-wrapper {
+    max-width: 100%;
+    padding-left: 177px
+  }
+}
+@media (min-width:1600px) {
+  .map-modal[data-v-566d2c31] .map-search-wrapper {
+    max-width: 100%;
+    padding-left: 177px
+  }
+}
+.embed-container embed,
+.embed-container iframe,
+.embed-container object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.swiper-slide {
+  width: auto
+}
+.expand-enter-active,
+.expand-leave-active {
+  transition: height .6s ease-out 0s;
+  overflow: hidden
+}
+.expand-enter,
+.expand-leave-to {
+  height: 0
+}
+.expand-and-fade-enter-active {
+  transition: height .6s ease-out .6s,opacity .6s ease-out .6s;
+  overflow: hidden
+}
+.expand-and-fade-leave-active {
+  transition: height .6s ease-out 0s,opacity .6s ease-out 0s;
+  overflow: hidden
+}
+.expand-and-fade-enter,
+.expand-and-fade-leave-to {
+  height: 0;
+  opacity: 0
+}
+.expand-enter-active,
+.expand-leave-active {
+  transition: height .6s ease-out 0s;
+  overflow: hidden
+}
+.expand-enter,
+.expand-leave-to {
+  height: 0
+}
+.report-issue-modal[data-v-c1b029ea] {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.7)
+}
+.close-button-container[data-v-c1b029ea] {
+  position: absolute;
+  top: 0;
+  right: 0
+}
+[data-v-2599cd0c] .multiselect__single {
+  background: 0 0;
+  display: flex;
+  margin: 0;
+  -webkit-box-align: center;
+  align-items: center
+}
+[data-v-2599cd0c] .multiselect__option {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center
+}
+[data-v-2599cd0c] .multiselect__option::after {
+  position: relative;
+  margin-left: auto
+}
+.main-carousel-slide-arrow {
+  top: -4px;
+  position: relative
+}
+@media (max-width:1440px) and (min-width:1230px) {
+  .main-carousel-slide-padding {
+    padding-top: 100px
+  }
+}
+#main-carousel-next-button:hover,
+#main-carousel-pause-play-button:hover,
+#main-carousel-previous-button:hover {
+  color: #f01c1b!important
+}
+.mini-carousel-slide[data-v-5d8dd7f4] {
+  margin-top: -30.95%;
+  padding-top: 61.9%
+}
+.gm-style-iw-d {
+  overflow: hidden!important
+}
+.gm-style-iw-d img {
+  display: none
+}
+@media (min-width:500px) {
+  .gm-style-iw-d img {
+    display: block;
+    margin: 0 -1px;
+    width: calc(100% + 2px)
+  }
+}
+.gm-style-iw.gm-style-iw-c {
+  padding: 0
+}
+.gm-ui-hover-effect {
+  background: #fff!important;
+  border-radius: 100%!important;
+  border: 1px solid #d8d8d8!important;
+  top: 5px!important;
+  right: 5px!important;
+  display: flex!important;
+  -webkit-box-align: center!important;
+  align-items: center!important;
+  -webkit-box-pack: center!important;
+  justify-content: center!important;
+  width: 28px!important;
+  height: 28px!important;
+  opacity: 1!important;
+  color: #000!important
+}
+.gm-ui-hover-effect > img {
+  margin: 0!important
+}
+.gm-style-iw-d {
+  overflow: hidden!important
+}
+.gm-style-iw-d img {
+  display: none
+}
+@media (min-width:500px) {
+  .gm-style-iw-d img {
+    display: block;
+    margin: 0 -1px;
+    width: calc(100% + 2px)
+  }
+}
+.gm-style-iw.gm-style-iw-c {
+  padding: 0
+}
+.swiper-slide[data-v-7194f538],
+[data-v-7194f538] .swiper-wrapper {
+  height: auto
+}
+h3[data-v-0383cfb2] {
+  margin-bottom: 1rem
+}
+.form-label[data-v-0383cfb2] {
+  margin-bottom: .533333rem
+}
+.supporter-groups-start-box[data-v-451d101e] {
+  width: 86.6667rem;
+  max-width: calc(100% - 4rem);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: calc(100vh - 4rem)
+}
+@media (min-width:992px) {
+  .supporter-groups-start-box[data-v-451d101e] {
+    height: 43.3333rem;
+    max-height: 90vh
+  }
+}
+.swiper-slide[data-v-adf9cfae],
+[data-v-adf9cfae] .swiper-wrapper {
+  height: auto
+}
+[data-v-adf9cfae] .swiper-pagination-bullets > span {
+  border-radius: 100%;
+  opacity: .2;
+  background-color: #d3d3d3
+}
+[data-v-adf9cfae] .swiper-pagination-bullets > span.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #fff
+}
+.supporter-groups-join-wizard-box-a[data-v-1e24a928] {
+  width: 100rem;
+  max-width: calc(100% - 4rem);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow: hidden auto
+}
+@media (min-width:66.1333333333rem) {
+  .supporter-groups-join-wizard-box-a[data-v-1e24a928] {
+    height: auto;
+    max-height: calc(100vh - 4rem)
+  }
+}
+@media (min-width:66.1333333333rem) {
+  .supporter-groups-join-wizard-box-a__left[data-v-1e24a928] {
+    width: 55%
+  }
+}
+.supporter-groups-join-wizard-box-a__right[data-v-1e24a928] {
+  order: -1;
+  width: 100%;
+  padding-top: 30%!important
+}
+@media (min-width:66.1333333333rem) {
+  .supporter-groups-join-wizard-box-a__right[data-v-1e24a928] {
+    width: 45%;
+    -webkit-box-ordinal-group: unset;
+    order: unset
+  }
+}
+.supporter-groups-join-wizard-box-b[data-v-1e24a928] {
+  width: 61.3333rem;
+  max-width: calc(100% - 4rem);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 100vh;
+  max-height: 75vh
+}
+@media (min-width:66.1333333333rem) {
+  .supporter-groups-join-wizard-box-b[data-v-1e24a928] {
+    height: auto;
+    max-height: calc(100vh - 4rem)
+  }
+}
+.supporter-groups-join-wizard-box-b__inner[data-v-1e24a928] {
+  max-width: 530px;
+  width: 100%
+}
+#watford_player_video {
+  position: absolute!important;
+  overflow: hidden!important;
+  top: 0!important;
+  left: 0!important;
+  width: 100%!important;
+  height: 100%!important
+}
+.Cookie {
+  position: fixed;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column
+}
+.Cookie > * {
+  margin: .9375rem 0;
+  align-self: center
+}
+@media screen and (min-width:48rem) {
+  .Cookie {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row
+  }
+  .Cookie > * {
+    margin: 0
+  }
+}
+.Cookie--top {
+  top: 0;
+  left: 0;
+  right: 0
+}
+.Cookie--bottom {
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+.Cookie__buttons {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column
+}
+.Cookie__buttons > * {
+  margin: .3125rem 0
+}
+@media screen and (min-width:48rem) {
+  .Cookie__buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row
+  }
+  .Cookie__buttons > * {
+    margin: 0 .9375rem
+  }
+}
+.Cookie__button {
+  cursor: pointer;
+  align-self: center;
+  white-space: nowrap
+}
+.Cookie--base {
+  background: #f1f1f1;
+  color: #232323;
+  padding: 1.25em
+}
+.Cookie--base .Cookie__button {
+  background: #97d058;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--base .Cookie__button:hover {
+  background: #7ebf36
+}
+.Cookie--base--rounded {
+  background: #f1f1f1;
+  color: #232323;
+  padding: 1.25em
+}
+.Cookie--base--rounded .Cookie__button {
+  background: #97d058;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--base--rounded .Cookie__button:hover {
+  background: #7ebf36
+}
+.Cookie--blood-orange {
+  background: #424851;
+  color: #fff;
+  padding: 1.25em
+}
+.Cookie--blood-orange .Cookie__button {
+  background: #e76a68;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--blood-orange .Cookie__button:hover {
+  background: #e03f3c
+}
+.Cookie--blood-orange--rounded {
+  background: #424851;
+  color: #fff;
+  padding: 1.25em
+}
+.Cookie--blood-orange--rounded .Cookie__button {
+  background: #e76a68;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--blood-orange--rounded .Cookie__button:hover {
+  background: #e03f3c
+}
+.Cookie--dark-lime {
+  background: #424851;
+  color: #fff;
+  padding: 1.25em
+}
+.Cookie--dark-lime .Cookie__button {
+  background: #97d058;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--dark-lime .Cookie__button:hover {
+  background: #7ebf36
+}
+.Cookie--dark-lime--rounded {
+  background: #424851;
+  color: #fff;
+  padding: 1.25em
+}
+.Cookie--dark-lime--rounded .Cookie__button {
+  background: #97d058;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--dark-lime--rounded .Cookie__button:hover {
+  background: #7ebf36
+}
+.Cookie--royal {
+  background: #fbc227;
+  color: #232323;
+  padding: 1.25em
+}
+.Cookie--royal .Cookie__button {
+  background: #726cea;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--royal .Cookie__button:hover {
+  background: #473fe4
+}
+.Cookie--royal--rounded {
+  background: #fbc227;
+  color: #232323;
+  padding: 1.25em
+}
+.Cookie--royal--rounded .Cookie__button {
+  background: #726cea;
+  padding: .625em 3.125em;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1em
+}
+.Cookie--royal--rounded .Cookie__button:hover {
+  background: #473fe4
+}
+.slideFromTop-enter,
+.slideFromTop-leave-to {
+  transform: translateY(-12.5em)
+}
+.slideFromTop-enter-to,
+.slideFromTop-leave {
+  transform: translate(0)
+}
+.slideFromBottom-enter,
+.slideFromBottom-leave-to {
+  transform: translateY(12.5em)
+}
+.slideFromBottom-enter-to,
+.slideFromBottom-leave {
+  transform: translate(0)
+}
+.slideFromBottom-enter-active,
+.slideFromBottom-leave-active,
+.slideFromTop-enter-active,
+.slideFromTop-leave-active {
+  transition: transform .4s ease-in 0s,-webkit-transform .4s ease-in 0s
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s ease 0s
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-57,
+.opta-team-57-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-57-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ffe401
+}
+.opta-team-57-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-57-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ffe401;
+  fill: #ffe401
+}
+.opta-team-57-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-57-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-57-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #ffe401;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-57,
+.opta-team-57-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-57-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ffe401
+}
+.opta-team-57-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-57-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ffe401;
+  fill: #ffe401
+}
+.opta-team-57-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-57-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-57-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #ffe401;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-3,
+.opta-team-3-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-3-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ef0107
+}
+.opta-team-3-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-3-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ef0107;
+  fill: #ef0107
+}
+.opta-team-3-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-3-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-3-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #ef0107;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-3,
+.opta-team-3-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-3-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ef0107
+}
+.opta-team-3-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-3-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ef0107;
+  fill: #ef0107
+}
+.opta-team-3-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-3-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-3-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #ef0107;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-7,
+.opta-team-7-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-7-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #862d46
+}
+.opta-team-7-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-7-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #862d46;
+  fill: #862d46
+}
+.opta-team-7-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-7-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-7-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #862d46;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-7,
+.opta-team-7-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-7-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #862d46
+}
+.opta-team-7-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-7-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #862d46;
+  fill: #862d46
+}
+.opta-team-7-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-7-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-7-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #862d46;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-91,
+.opta-team-91-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-91-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #d00505
+}
+.opta-team-91-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-91-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #d00505;
+  fill: #d00505
+}
+.opta-team-91-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-91-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-91-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #d00505;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-91,
+.opta-team-91-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-91-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #d00505
+}
+.opta-team-91-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-91-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #d00505;
+  fill: #d00505
+}
+.opta-team-91-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-91-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-91-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #d00505;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-36,
+.opta-team-36-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-36-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #0000fd
+}
+.opta-team-36-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-36-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #0000fd;
+  fill: #0000fd
+}
+.opta-team-36-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-36-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-36-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #0000fd;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-36,
+.opta-team-36-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-36-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #0000fd
+}
+.opta-team-36-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-36-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #0000fd;
+  fill: #0000fd
+}
+.opta-team-36-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-36-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-36-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #0000fd;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-90,
+.opta-team-90-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-90-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #6c1d45
+}
+.opta-team-90-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-90-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #6c1d45;
+  fill: #6c1d45
+}
+.opta-team-90-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-90-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-90-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #6c1d45;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-90,
+.opta-team-90-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-90-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #6c1d45
+}
+.opta-team-90-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-90-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #6c1d45;
+  fill: #6c1d45
+}
+.opta-team-90-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-90-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-90-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #6c1d45;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-8,
+.opta-team-8-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-8-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #0a4595
+}
+.opta-team-8-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-8-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #0a4595;
+  fill: #0a4595
+}
+.opta-team-8-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-8-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-8-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #0a4595;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-8,
+.opta-team-8-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-8-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #0a4595
+}
+.opta-team-8-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-8-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #0a4595;
+  fill: #0a4595
+}
+.opta-team-8-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-8-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-8-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #0a4595;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-31,
+.opta-team-31-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-31-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #292d6b
+}
+.opta-team-31-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-31-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #292d6b;
+  fill: #292d6b
+}
+.opta-team-31-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-31-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-31-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #292d6b;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-31,
+.opta-team-31-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-31-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #292d6b
+}
+.opta-team-31-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-31-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #292d6b;
+  fill: #292d6b
+}
+.opta-team-31-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-31-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-31-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #292d6b;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-11,
+.opta-team-11-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-11-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #039
+}
+.opta-team-11-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-11-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #039;
+  fill: #039
+}
+.opta-team-11-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-11-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-11-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #039;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-11,
+.opta-team-11-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-11-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #039
+}
+.opta-team-11-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-11-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #039;
+  fill: #039
+}
+.opta-team-11-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-11-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-11-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #039;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-13,
+.opta-team-13-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-13-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #003090
+}
+.opta-team-13-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-13-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #003090;
+  fill: #003090
+}
+.opta-team-13-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-13-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-13-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #003090;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-13,
+.opta-team-13-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-13-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #003090
+}
+.opta-team-13-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-13-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #003090;
+  fill: #003090
+}
+.opta-team-13-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-13-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-13-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #003090;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-14,
+.opta-team-14-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-14-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #c8102e
+}
+.opta-team-14-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-14-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #c8102e;
+  fill: #c8102e
+}
+.opta-team-14-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-14-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-14-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #c8102e;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-14,
+.opta-team-14-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-14-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #c8102e
+}
+.opta-team-14-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-14-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #c8102e;
+  fill: #c8102e
+}
+.opta-team-14-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-14-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-14-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #c8102e;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-43,
+.opta-team-43-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-43-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #6cabdd
+}
+.opta-team-43-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-43-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #6cabdd;
+  fill: #6cabdd
+}
+.opta-team-43-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-43-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-43-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #6cabdd;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-43,
+.opta-team-43-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-43-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #6cabdd
+}
+.opta-team-43-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-43-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #6cabdd;
+  fill: #6cabdd
+}
+.opta-team-43-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-43-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-43-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #6cabdd;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-1,
+.opta-team-1-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-1-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #da291c
+}
+.opta-team-1-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-1-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #da291c;
+  fill: #da291c
+}
+.opta-team-1-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-1-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-1-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #da291c;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-1,
+.opta-team-1-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-1-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #da291c
+}
+.opta-team-1-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-1-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #da291c;
+  fill: #da291c
+}
+.opta-team-1-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-1-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-1-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #da291c;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-4,
+.opta-team-4-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-4-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #241f20
+}
+.opta-team-4-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-4-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #241f20;
+  fill: #241f20
+}
+.opta-team-4-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-4-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-4-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #241f20;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-4,
+.opta-team-4-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-4-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #241f20
+}
+.opta-team-4-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-4-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #241f20;
+  fill: #241f20
+}
+.opta-team-4-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-4-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-4-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #241f20;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-45,
+.opta-team-45-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-45-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fffe67
+}
+.opta-team-45-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-45-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fffe67;
+  fill: #fffe67
+}
+.opta-team-45-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-45-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-45-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #fffe67;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-45,
+.opta-team-45-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-45-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fffe67
+}
+.opta-team-45-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-45-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fffe67;
+  fill: #fffe67
+}
+.opta-team-45-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-45-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-45-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #fffe67;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-49,
+.opta-team-49-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-49-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ee2737
+}
+.opta-team-49-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-49-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ee2737;
+  fill: #ee2737
+}
+.opta-team-49-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-49-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-49-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #ee2737;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-49,
+.opta-team-49-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-49-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #ee2737
+}
+.opta-team-49-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-49-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #ee2737;
+  fill: #ee2737
+}
+.opta-team-49-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-49-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-49-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #ee2737;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-20,
+.opta-team-20-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-20-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #d71920
+}
+.opta-team-20-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-20-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #d71920;
+  fill: #d71920
+}
+.opta-team-20-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-20-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-20-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #d71920;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-20,
+.opta-team-20-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-20-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #d71920
+}
+.opta-team-20-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-20-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #d71920;
+  fill: #d71920
+}
+.opta-team-20-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-20-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-20-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #d71920;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-6,
+.opta-team-6-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-6-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fff
+}
+.opta-team-6-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-6-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fff;
+  fill: #fff
+}
+.opta-team-6-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-6-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-6-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #fff;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-6,
+.opta-team-6-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-6-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fff
+}
+.opta-team-6-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-6-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fff;
+  fill: #fff
+}
+.opta-team-6-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-6-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-6-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #fff;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-21,
+.opta-team-21-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-21-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #7a263a
+}
+.opta-team-21-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-21-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #7a263a;
+  fill: #7a263a
+}
+.opta-team-21-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-21-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-21-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #7a263a;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-21,
+.opta-team-21-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-21-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #7a263a
+}
+.opta-team-21-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-21-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #7a263a;
+  fill: #7a263a
+}
+.opta-team-21-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-21-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-21-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #7a263a;
+  color: #fff
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-39,
+.opta-team-39-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-39-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fdb913
+}
+.opta-team-39-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-39-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fdb913;
+  fill: #fdb913
+}
+.opta-team-39-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-39-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-39-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #fdb913;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-39,
+.opta-team-39-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-39-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #fdb913
+}
+.opta-team-39-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-39-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #fdb913;
+  fill: #fdb913
+}
+.opta-team-39-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-39-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-39-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #fdb913;
+  color: #000
+}
+.opta-team-94-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-94-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-94-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  color: #000
+}
+.opta-team-94-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-94-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-94-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-9,
+.opta-team-9-home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team-9-home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #7bf
+}
+.opta-team-9-home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-9-home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #7bf;
+  fill: #7bf
+}
+.opta-team-9-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-9-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-9-home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #7bf;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-9,
+.opta-team-9-away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team-9-away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #7bf
+}
+.opta-team-9-away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team-9-away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #7bf;
+  fill: #7bf
+}
+.opta-team-9-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team-9-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team-9-away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #7bf;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home.Opta-Team-,
+.opta-team--home-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Home,
+.opta-team--home-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #58b2ff
+}
+.opta-team--home-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team--home-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #58b2ff;
+  fill: #58b2ff
+}
+.opta-team--home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Home.Opta-Striped tbody tr.Opta-Name th,
+.opta-team--home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team--home-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:first-child {
+  background-color: #58b2ff;
+  color: #000
+}
+.Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away.Opta-Team-,
+.opta-team--away-colours .Opta .Opta-Stats-Bars .Opta-Bars-Full .Opta-Percent.Opta-Away,
+.opta-team--away-colours .Opta .Opta-Stats-Bars.Opta-Stats-Bars-Simple .Opta-Bar-Track .Opta-Bar-Fill {
+  background-color: #58b2ff
+}
+.opta-team--away-colours .Opta .Opta-Stats-Cross .Opta-Stat circle,
+.opta-team--away-colours .Opta .Opta-Stats-Radial .Opta-Stat path.Opta-Arc {
+  color: #58b2ff;
+  fill: #58b2ff
+}
+.opta-team--away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Away.Opta-Striped tbody tr.Opta-Name th,
+.opta-team--away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L h2 .Opta-Title,
+.opta-team--away-colours .Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_T table.Opta-Stats-Bars td.Opta-Outer:last-child {
+  background-color: #58b2ff;
+  color: #000
 }

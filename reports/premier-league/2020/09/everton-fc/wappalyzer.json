@@ -6,6 +6,22 @@
   },
   "technologies": [
     {
+      "slug": "aws-certificate-manager",
+      "name": "AWS Certificate Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/certificate-manager/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authority",
+          "name": "SSL/TLS certificate authority"
+        }
+      ]
+    },
+    {
       "slug": "amazon-web-services",
       "name": "Amazon Web Services",
       "confidence": 100,
@@ -62,7 +78,7 @@
       "slug": "underscore-js",
       "name": "Underscore.js",
       "confidence": 100,
-      "version": "1.10.2",
+      "version": "1.11.0",
       "icon": "Underscore.js.png",
       "website": "http://underscorejs.org",
       "cpe": null,
@@ -94,7 +110,7 @@
       "slug": "lodash",
       "name": "Lodash",
       "confidence": 0,
-      "version": "1.10.2",
+      "version": "1.11.0",
       "icon": "Lo-dash.png",
       "website": "http://www.lodash.com",
       "cpe": "cpe:/a:lodash:lodash",

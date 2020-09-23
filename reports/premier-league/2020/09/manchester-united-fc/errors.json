@@ -161,9 +161,9 @@
       "error": "\n                        "
     },
     {
-      "line": "43683",
+      "line": "44330",
       "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
+      "context": ".video-js .vjs-time-tooltip",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
@@ -171,9 +171,9 @@
       "error": "\n                        "
     },
     {
-      "line": "43883",
+      "line": "44642",
       "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
+      "context": ".vjs-text-track-display",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
@@ -181,9 +181,9 @@
       "error": "\n                        "
     },
     {
-      "line": "44143",
+      "line": "44684",
       "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
+      "context": ".vjs-playback-rate .vjs-playback-rate-value",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
@@ -191,9 +191,9 @@
       "error": "\n                        "
     },
     {
-      "line": "44343",
+      "line": "45374",
       "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
+      "context": ".bc-player-keoPsmO0E_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-progress-control, .bc-player-keoPsmO0E_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-progress-control, .bc-player-keoPsmO0E_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-progress-control, .bc-player-keoPsmO0E_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control, .bc-player-keoPsmO0E_default.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-progress-control, .bc-player-keoPsmO0E_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
@@ -201,81 +201,11 @@
       "error": "\n                        "
     },
     {
-      "line": "44603",
+      "line": "45467",
       "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
+      "context": ".bc-player-keoPsmO0E_default.vjs-ad-playing.vjs-ad-playing .vjs-progress-control::after",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "44803",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "44891",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "45091",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "45176",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "45376",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "45461",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-blurry-placeholder",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "45661",
-      "errortype": "parse-error",
-      "context": ".i-amphtml-loading-container",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
+      "skippedstring": "\n                                auto\n                            ",
       "type": "noexistence-at-all",
       "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
@@ -653,6 +583,56 @@
       "skippedstring": "\n                                4% 0 40px 4% px\n                            ",
       "type": "unrecognize",
       "message": "\n        \n                                Value Error :  margin (nullbox.html#propdef-margin)\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "44731",
+      "errortype": "parse-error",
+      "context": ".vjs-seeking .vjs-loading-spinner, .vjs-waiting .vjs-loading-spinner",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0s linear 0.3s 1 normal forwards running vjs-spinner-show\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "44752",
+      "errortype": "parse-error",
+      "context": ".vjs-seeking .vjs-loading-spinner::after, .vjs-seeking .vjs-loading-spinner::before, .vjs-waiting .vjs-loading-spinner::after, .vjs-waiting .vjs-loading-spinner::before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1.1s cubic-bezier(0.6,0.2,0,0.8) 0s infinite normal none running vjs-spinner-spin,1.1s linear 0s infinite normal none running vjs-spinner-fade\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "45613",
+      "errortype": "parse-error",
+      "context": ".video-js.vjs-quality-menu .vjs-quality-menu-button-waiting::before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1.1s cubic-bezier(0.6,0.2,0,0.8) 0s infinite normal none running vjs-spinner-spin\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "45734",
+      "errortype": "parse-error",
+      "context": ".fb_animate",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.3s ease 0s 1 normal forwards running fb_transform\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "45942",
+      "errortype": "parse-error",
+      "context": "#fb_dialog_loader_spinner",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1.2s linear 0s infinite normal none running rotateSpinner\n                            ",
+      "type": "unrecognize",
+      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     }
   ]

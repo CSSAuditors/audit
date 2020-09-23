@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 1022577,
-  "stylesheets.filesize.uncompressed.totalBytes": 1022577,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 327299,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.6799272817597111,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 168755,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8349708628298895,
-  "stylesheets.simplicity": 0.7625412800754836,
-  "stylesheets.cohesion.average": 2.266652918127449,
+  "stylesheets.size": 1096532,
+  "stylesheets.filesize.uncompressed.totalBytes": 1096532,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 334742,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.6947266472843474,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 174200,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8411355072172997,
+  "stylesheets.simplicity": 0.7436659589525831,
+  "stylesheets.cohesion.average": 2.279025504377617,
   "stylesheets.cohesion.min.count": 26,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -145,8 +145,8 @@
   ],
   "stylesheets.browserhacks.total": 14,
   "stylesheets.browserhacks.totalUnique": 9,
-  "stylesheets.linesOfCode.total": 22663,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 17530,
+  "stylesheets.linesOfCode.total": 24795,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 19235,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -214,7 +214,7 @@
     }
   ],
   "atrules.imports.totalUnique": 1,
-  "atrules.keyframes.total": 42,
+  "atrules.keyframes.total": 46,
   "atrules.keyframes.unique": [
     {
       "value": "fa-spin",
@@ -363,10 +363,18 @@
     {
       "value": "OptaWideSlideIn",
       "count": 1
+    },
+    {
+      "value": "spinning",
+      "count": 2
+    },
+    {
+      "value": "swiper-preloader-spin",
+      "count": 2
     }
   ],
-  "atrules.keyframes.totalUnique": 37,
-  "atrules.keyframes.prefixed.total": 5,
+  "atrules.keyframes.totalUnique": 39,
+  "atrules.keyframes.prefixed.total": 7,
   "atrules.keyframes.prefixed.unique": [
     {
       "value": "@-webkit-keyframes fa-spin",
@@ -387,14 +395,30 @@
     {
       "value": "@-webkit-keyframes fadeOut",
       "count": 1
+    },
+    {
+      "value": "@-webkit-keyframes spinning",
+      "count": 1
+    },
+    {
+      "value": "@-webkit-keyframes swiper-preloader-spin",
+      "count": 1
     }
   ],
-  "atrules.keyframes.prefixed.totalUnique": 5,
-  "atrules.keyframes.prefixed.share": 8.4,
-  "atrules.mediaqueries.total": 131,
+  "atrules.keyframes.prefixed.totalUnique": 7,
+  "atrules.keyframes.prefixed.share": 6.571428571428571,
+  "atrules.mediaqueries.total": 143,
   "atrules.mediaqueries.unique": [
     {
       "value": "(max-width:576px)",
+      "count": 1
+    },
+    {
+      "value": "(max-width:1440px) and (min-width:1230px)",
+      "count": 1
+    },
+    {
+      "value": "(max-width:1559px) and (min-width:1230px)",
       "count": 1
     },
     {
@@ -410,8 +434,20 @@
       "count": 54
     },
     {
+      "value": "(min-width:66.1333333333rem)",
+      "count": 4
+    },
+    {
       "value": "(min-width:82.00000000rem)",
       "count": 35
+    },
+    {
+      "value": "(min-width:500px)",
+      "count": 2
+    },
+    {
+      "value": "(min-width:992px)",
+      "count": 1
     },
     {
       "value": "(min-width:1400px)",
@@ -419,7 +455,7 @@
     },
     {
       "value": "(min-width:1600px)",
-      "count": 3
+      "count": 4
     },
     {
       "value": "(min-width:1800px)",
@@ -444,9 +480,13 @@
     {
       "value": "screen and (-webkit-min-device-pixel-ratio:0) and (max-device-width:1024px)",
       "count": 1
+    },
+    {
+      "value": "screen and (min-width:48rem)",
+      "count": 2
     }
   ],
-  "atrules.mediaqueries.totalUnique": 13,
+  "atrules.mediaqueries.totalUnique": 19,
   "atrules.mediaqueries.browserhacks.total": 1,
   "atrules.mediaqueries.browserhacks.unique": [
     {
@@ -467,11 +507,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 4849,
+  "rules.total": 5254,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 30,
-  "rules.selectors.average": 1.311404413281089,
+  "rules.selectors.average": 1.344689760182718,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#main-content #voucher-apply-button"
@@ -509,8 +549,8 @@
     ".Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Striped tbody tr:nth-child(8).Opta-Position",
     ".Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_L .Opta-Striped tbody tr:nth-child(9).Opta-Position"
   ],
-  "selectors.total": 6359,
-  "selectors.totalUnique": 5884,
+  "selectors.total": 7065,
+  "selectors.totalUnique": 6544,
   "selectors.js.total": 101,
   "selectors.js.unique": [
     {
@@ -899,8 +939,20 @@
     }
   ],
   "selectors.js.totalUnique": 96,
-  "selectors.id.total": 8,
+  "selectors.id.total": 12,
   "selectors.id.unique": [
+    {
+      "value": "#main-carousel-next-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#main-carousel-pause-play-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#main-carousel-previous-button:hover",
+      "count": 1
+    },
     {
       "value": "#main-content #voucher-apply-button",
       "count": 1
@@ -930,12 +982,16 @@
       "count": 1
     },
     {
+      "value": "#watford_player_video",
+      "count": 1
+    },
+    {
       "value": "body > div#app > header + div.section",
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 8,
-  "selectors.universal.total": 11,
+  "selectors.id.totalUnique": 12,
+  "selectors.universal.total": 16,
   "selectors.universal.unique": [
     {
       "value": "*",
@@ -966,7 +1022,19 @@
       "count": 1
     },
     {
+      "value": ".Cookie > *",
+      "count": 2
+    },
+    {
+      "value": ".Cookie__buttons > *",
+      "count": 2
+    },
+    {
       "value": ".lg\\:circle--extra-large > *",
+      "count": 1
+    },
+    {
+      "value": ".multiselect *",
       "count": 1
     },
     {
@@ -978,7 +1046,7 @@
       "count": 1
     }
   ],
-  "selectors.universal.totalUnique": 10,
+  "selectors.universal.totalUnique": 13,
   "selectors.accessibility.total": 3,
   "selectors.accessibility.unique": [
     {
@@ -1028,7 +1096,7 @@
     },
     {
       "count": 1,
-      "value": "#main-content .h1",
+      "value": "#main-carousel-next-button:hover",
       "specificity": {
         "a": 0,
         "b": 1,
@@ -1038,7 +1106,7 @@
     },
     {
       "count": 1,
-      "value": "#main-content .row",
+      "value": "#main-carousel-pause-play-button:hover",
       "specificity": {
         "a": 0,
         "b": 1,
@@ -1064,7 +1132,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 3.9399276615820096,
+  "selectors.identifiers.average": 4.016843595187544,
   "selectors.identifiers.max.value": ".Opta .Opta_W.Opta_F_M.Opta_F.Opta_F_M_P .Opta-Cf div.Opta-Cf.Opta-Dropdown > .Opta-Nav .Opta-Cf li:nth-child(2n) a[href]:hover",
   "selectors.identifiers.max.count": 16,
   "selectors.identifiers.top": [
@@ -1097,8 +1165,8 @@
     }
   ],
   "selectors.complexity.max.count": 1,
-  "selectors.complexity.average": 3.97939927661582,
-  "selectors.complexity.sum": 25305,
+  "selectors.complexity.average": 4.053361641896673,
+  "selectors.complexity.sum": 28637,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1106,27 +1174,27 @@
     },
     {
       "value": 1,
-      "count": 1210
+      "count": 1341
     },
     {
       "value": 2,
-      "count": 593
+      "count": 751
     },
     {
       "value": 3,
-      "count": 880
+      "count": 933
     },
     {
       "value": 4,
-      "count": 1211
+      "count": 1217
     },
     {
       "value": 5,
-      "count": 1180
+      "count": 1224
     },
     {
       "value": 6,
-      "count": 577
+      "count": 753
     },
     {
       "value": 7,
@@ -1134,7 +1202,7 @@
     },
     {
       "value": 8,
-      "count": 142
+      "count": 188
     },
     {
       "value": 9,
@@ -1146,11 +1214,11 @@
     },
     {
       "value": 11,
-      "count": 54
+      "count": 100
     },
     {
       "value": 12,
-      "count": 27
+      "count": 73
     },
     {
       "value": 13,
@@ -1206,11 +1274,11 @@
     }
   ],
   "selectors.browserhacks.totalUnique": 8,
-  "declarations.total": 10991,
-  "declarations.totalUnique": 2935,
-  "declarations.importants.total": 42,
-  "declarations.importants.share": 0.0038213083431898826,
-  "properties.total": 10991,
+  "declarations.total": 11974,
+  "declarations.totalUnique": 3169,
+  "declarations.importants.total": 71,
+  "declarations.importants.share": 0.005929513946884918,
+  "properties.total": 11974,
   "properties.unique": [
     {
       "value": "-moz-animation",
@@ -1314,7 +1382,7 @@
     },
     {
       "value": "-ms-flex-positive",
-      "count": 21
+      "count": 22
     },
     {
       "value": "-ms-flex-preferred-size",
@@ -1394,7 +1462,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 7
+      "count": 8
     },
     {
       "value": "-webkit-backface-visibility",
@@ -1406,27 +1474,27 @@
     },
     {
       "value": "-webkit-box-align",
-      "count": 13
+      "count": 20
     },
     {
       "value": "-webkit-box-direction",
-      "count": 10
+      "count": 15
     },
     {
       "value": "-webkit-box-flex",
-      "count": 81
+      "count": 82
     },
     {
       "value": "-webkit-box-ordinal-group",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-webkit-box-orient",
-      "count": 11
+      "count": 16
     },
     {
       "value": "-webkit-box-pack",
-      "count": 19
+      "count": 23
     },
     {
       "value": "-webkit-box-shadow",
@@ -1506,15 +1574,15 @@
     },
     {
       "value": "align-items",
-      "count": 36
+      "count": 43
     },
     {
       "value": "align-self",
-      "count": 5
+      "count": 7
     },
     {
       "value": "animation",
-      "count": 25
+      "count": 28
     },
     {
       "value": "animation-delay",
@@ -1546,23 +1614,23 @@
     },
     {
       "value": "backface-visibility",
-      "count": 1
+      "count": 5
     },
     {
       "value": "background",
-      "count": 235
+      "count": 294
     },
     {
       "value": "background-color",
-      "count": 521
+      "count": 615
     },
     {
       "value": "background-image",
-      "count": 60
+      "count": 72
     },
     {
       "value": "background-position",
-      "count": 149
+      "count": 152
     },
     {
       "value": "background-position-x",
@@ -1574,19 +1642,19 @@
     },
     {
       "value": "background-repeat",
-      "count": 23
+      "count": 25
     },
     {
       "value": "background-size",
-      "count": 42
+      "count": 44
     },
     {
       "value": "border",
-      "count": 72
+      "count": 85
     },
     {
       "value": "border-bottom",
-      "count": 51
+      "count": 53
     },
     {
       "value": "border-bottom-color",
@@ -1594,11 +1662,11 @@
     },
     {
       "value": "border-bottom-left-radius",
-      "count": 7
+      "count": 9
     },
     {
       "value": "border-bottom-right-radius",
-      "count": 6
+      "count": 8
     },
     {
       "value": "border-bottom-style",
@@ -1614,11 +1682,15 @@
     },
     {
       "value": "border-color",
-      "count": 131
+      "count": 135
+    },
+    {
+      "value": "border-image",
+      "count": 2
     },
     {
       "value": "border-left",
-      "count": 24
+      "count": 25
     },
     {
       "value": "border-left-color",
@@ -1634,11 +1706,11 @@
     },
     {
       "value": "border-radius",
-      "count": 102
+      "count": 123
     },
     {
       "value": "border-right",
-      "count": 30
+      "count": 31
     },
     {
       "value": "border-right-color",
@@ -1658,11 +1730,11 @@
     },
     {
       "value": "border-style",
-      "count": 11
+      "count": 13
     },
     {
       "value": "border-top",
-      "count": 22
+      "count": 24
     },
     {
       "value": "border-top-color",
@@ -1670,31 +1742,31 @@
     },
     {
       "value": "border-top-left-radius",
-      "count": 7
+      "count": 8
     },
     {
       "value": "border-top-right-radius",
-      "count": 5
+      "count": 6
     },
     {
       "value": "border-top-width",
-      "count": 9
+      "count": 8
     },
     {
       "value": "border-width",
-      "count": 49
+      "count": 51
     },
     {
       "value": "bottom",
-      "count": 19
+      "count": 27
     },
     {
       "value": "box-shadow",
-      "count": 30
+      "count": 32
     },
     {
       "value": "box-sizing",
-      "count": 13
+      "count": 19
     },
     {
       "value": "clear",
@@ -1706,15 +1778,15 @@
     },
     {
       "value": "color",
-      "count": 441
+      "count": 570
     },
     {
       "value": "content",
-      "count": 95
+      "count": 103
     },
     {
       "value": "cursor",
-      "count": 125
+      "count": 135
     },
     {
       "value": "direction",
@@ -1722,7 +1794,7 @@
     },
     {
       "value": "display",
-      "count": 577
+      "count": 611
     },
     {
       "value": "dominant-baseline",
@@ -1730,7 +1802,7 @@
     },
     {
       "value": "fill",
-      "count": 167
+      "count": 211
     },
     {
       "value": "fill-opacity",
@@ -1738,7 +1810,7 @@
     },
     {
       "value": "filter",
-      "count": 11
+      "count": 12
     },
     {
       "value": "flex",
@@ -1750,27 +1822,27 @@
     },
     {
       "value": "flex-direction",
-      "count": 36
+      "count": 40
     },
     {
       "value": "flex-flow",
-      "count": 10
-    },
-    {
-      "value": "flex-grow",
-      "count": 24
-    },
-    {
-      "value": "flex-shrink",
-      "count": 2
-    },
-    {
-      "value": "flex-wrap",
       "count": 11
     },
     {
+      "value": "flex-grow",
+      "count": 25
+    },
+    {
+      "value": "flex-shrink",
+      "count": 3
+    },
+    {
+      "value": "flex-wrap",
+      "count": 12
+    },
+    {
       "value": "float",
-      "count": 250
+      "count": 251
     },
     {
       "value": "fobt-size",
@@ -1782,15 +1854,15 @@
     },
     {
       "value": "font-family",
-      "count": 49
+      "count": 50
     },
     {
       "value": "font-size",
-      "count": 328
+      "count": 341
     },
     {
       "value": "font-style",
-      "count": 6
+      "count": 7
     },
     {
       "value": "font-variant",
@@ -1798,67 +1870,67 @@
     },
     {
       "value": "font-weight",
-      "count": 128
+      "count": 130
     },
     {
       "value": "height",
-      "count": 543
+      "count": 578
     },
     {
       "value": "justify-content",
-      "count": 36
+      "count": 40
     },
     {
       "value": "left",
-      "count": 151
+      "count": 176
     },
     {
       "value": "line-height",
-      "count": 245
+      "count": 252
     },
     {
       "value": "list-style",
-      "count": 7
+      "count": 9
     },
     {
       "value": "margin",
-      "count": 335
+      "count": 351
     },
     {
       "value": "margin-bottom",
-      "count": 224
+      "count": 231
     },
     {
       "value": "margin-left",
-      "count": 117
+      "count": 123
     },
     {
       "value": "margin-right",
-      "count": 108
+      "count": 112
     },
     {
       "value": "margin-top",
-      "count": 146
+      "count": 150
     },
     {
       "value": "max-height",
-      "count": 55
+      "count": 62
     },
     {
       "value": "max-width",
-      "count": 136
+      "count": 144
     },
     {
       "value": "min-height",
-      "count": 74
+      "count": 79
     },
     {
       "value": "min-width",
-      "count": 75
+      "count": 76
     },
     {
       "value": "object-fit",
-      "count": 1
+      "count": 2
     },
     {
       "value": "object-position",
@@ -1866,15 +1938,15 @@
     },
     {
       "value": "opacity",
-      "count": 227
+      "count": 242
     },
     {
       "value": "order",
-      "count": 12
+      "count": 14
     },
     {
       "value": "outline",
-      "count": 19
+      "count": 22
     },
     {
       "value": "outline-color",
@@ -1886,7 +1958,7 @@
     },
     {
       "value": "overflow",
-      "count": 94
+      "count": 110
     },
     {
       "value": "overflow-x",
@@ -1898,7 +1970,7 @@
     },
     {
       "value": "padding",
-      "count": 392
+      "count": 422
     },
     {
       "value": "padding-bottom",
@@ -1906,27 +1978,27 @@
     },
     {
       "value": "padding-left",
-      "count": 133
+      "count": 138
     },
     {
       "value": "padding-right",
-      "count": 114
+      "count": 115
     },
     {
       "value": "padding-top",
-      "count": 128
+      "count": 132
     },
     {
       "value": "perspective",
-      "count": 2
+      "count": 3
     },
     {
       "value": "pointer-events",
-      "count": 6
+      "count": 22
     },
     {
       "value": "position",
-      "count": 287
+      "count": 325
     },
     {
       "value": "resize",
@@ -1934,7 +2006,7 @@
     },
     {
       "value": "right",
-      "count": 62
+      "count": 82
     },
     {
       "value": "stop-color",
@@ -1970,7 +2042,7 @@
     },
     {
       "value": "text-align",
-      "count": 249
+      "count": 256
     },
     {
       "value": "text-anchor",
@@ -1978,7 +2050,7 @@
     },
     {
       "value": "text-decoration",
-      "count": 45
+      "count": 47
     },
     {
       "value": "text-indent",
@@ -1986,7 +2058,7 @@
     },
     {
       "value": "text-overflow",
-      "count": 19
+      "count": 20
     },
     {
       "value": "text-rendering",
@@ -1998,27 +2070,31 @@
     },
     {
       "value": "text-transform",
-      "count": 17
+      "count": 18
     },
     {
       "value": "top",
-      "count": 148
+      "count": 175
+    },
+    {
+      "value": "touch-action",
+      "count": 3
     },
     {
       "value": "transform",
-      "count": 111
+      "count": 135
     },
     {
       "value": "transform-origin",
-      "count": 15
+      "count": 20
     },
     {
       "value": "transform-style",
-      "count": 1
+      "count": 2
     },
     {
       "value": "transition",
-      "count": 49
+      "count": 64
     },
     {
       "value": "transition-delay",
@@ -2030,11 +2106,11 @@
     },
     {
       "value": "transition-property",
-      "count": 3
+      "count": 7
     },
     {
       "value": "transition-timing-function",
-      "count": 3
+      "count": 5
     },
     {
       "value": "user-select",
@@ -2042,19 +2118,19 @@
     },
     {
       "value": "vertical-align",
-      "count": 82
+      "count": 86
     },
     {
       "value": "visibility",
-      "count": 41
+      "count": 44
     },
     {
       "value": "white-space",
-      "count": 46
+      "count": 51
     },
     {
       "value": "width",
-      "count": 839
+      "count": 881
     },
     {
       "value": "will-change",
@@ -2070,11 +2146,11 @@
     },
     {
       "value": "z-index",
-      "count": 83
+      "count": 101
     }
   ],
-  "properties.totalUnique": 215,
-  "properties.prefixed.total": 836,
+  "properties.totalUnique": 217,
+  "properties.prefixed.total": 861,
   "properties.prefixed.unique": [
     {
       "value": "-moz-animation",
@@ -2178,7 +2254,7 @@
     },
     {
       "value": "-ms-flex-positive",
-      "count": 21
+      "count": 22
     },
     {
       "value": "-ms-flex-preferred-size",
@@ -2258,7 +2334,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 7
+      "count": 8
     },
     {
       "value": "-webkit-backface-visibility",
@@ -2270,27 +2346,27 @@
     },
     {
       "value": "-webkit-box-align",
-      "count": 13
+      "count": 20
     },
     {
       "value": "-webkit-box-direction",
-      "count": 10
+      "count": 15
     },
     {
       "value": "-webkit-box-flex",
-      "count": 81
+      "count": 82
     },
     {
       "value": "-webkit-box-ordinal-group",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-webkit-box-orient",
-      "count": 11
+      "count": 16
     },
     {
       "value": "-webkit-box-pack",
-      "count": 19
+      "count": 23
     },
     {
       "value": "-webkit-box-shadow",
@@ -2366,12 +2442,12 @@
     }
   ],
   "properties.prefixed.totalUnique": 72,
-  "properties.prefixed.share": 0.07606223273587481,
+  "properties.prefixed.share": 0.07190579589109737,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 10991,
-  "values.prefixed.total": 124,
+  "values.total": 11974,
+  "values.prefixed.total": 132,
   "values.prefixed.unique": [
     {
       "value": "-moz-available",
@@ -2534,21 +2610,49 @@
       "count": 1
     },
     {
+      "value": "transform .2s ease 0s,-webkit-transform .2s ease 0s",
+      "count": 1
+    },
+    {
+      "value": "transform .2s ease 0s,left .2s ease 0s,-webkit-transform .2s ease 0s",
+      "count": 1
+    },
+    {
+      "value": "transform .2s ease 0s,right .2s ease 0s,-webkit-transform .2s ease 0s",
+      "count": 1
+    },
+    {
+      "value": "transform .2s ease 0s,top .2s ease 0s,-webkit-transform .2s ease 0s",
+      "count": 1
+    },
+    {
       "value": "transform .3s ease-out,-webkit-transform .3s ease-out",
+      "count": 1
+    },
+    {
+      "value": "transform .4s ease-in 0s,-webkit-transform .4s ease-in 0s",
       "count": 1
     },
     {
       "value": "transform .15s ease-out,-webkit-transform .15s ease-out",
       "count": 1
+    },
+    {
+      "value": "transform,-webkit-transform",
+      "count": 2
+    },
+    {
+      "value": "transform,height,-webkit-transform",
+      "count": 1
     }
   ],
-  "values.prefixed.totalUnique": 42,
-  "values.prefixed.share": 0.011281957965608226,
-  "values.fontsizes.total": 325,
+  "values.prefixed.totalUnique": 49,
+  "values.prefixed.share": 0.011023885084349424,
+  "values.fontsizes.total": 338,
   "values.fontsizes.unique": [
     {
       "value": "0",
-      "count": 2
+      "count": 3
     },
     {
       "value": "6rem",
@@ -2672,7 +2776,7 @@
     },
     {
       "value": "1em",
-      "count": 2
+      "count": 10
     },
     {
       "value": "100%",
@@ -2684,7 +2788,7 @@
     },
     {
       "value": "16px",
-      "count": 17
+      "count": 18
     },
     {
       "value": ".93333333rem",
@@ -2696,7 +2800,7 @@
     },
     {
       "value": "14px",
-      "count": 45
+      "count": 47
     },
     {
       "value": ".86666667rem",
@@ -2704,7 +2808,7 @@
     },
     {
       "value": "13px",
-      "count": 11
+      "count": 12
     },
     {
       "value": "80%",
@@ -2812,7 +2916,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 13,
-  "values.colors.total": 1648,
+  "values.colors.total": 1990,
   "values.colors.unique": [
     {
       "value": "#b82222",
@@ -2823,12 +2927,20 @@
       "count": 1
     },
     {
+      "value": "#d00505",
+      "count": 8
+    },
+    {
       "value": "#bd0000",
       "count": 1
     },
     {
+      "value": "#ff6a6a",
+      "count": 4
+    },
+    {
       "value": "#f01c1b",
-      "count": 32
+      "count": 33
     },
     {
       "value": "rgba(240,28,27,.1)",
@@ -2843,12 +2955,24 @@
       "count": 1
     },
     {
+      "value": "#e76a68",
+      "count": 2
+    },
+    {
+      "value": "#e03f3c",
+      "count": 2
+    },
+    {
       "value": "#d74640",
       "count": 3
     },
     {
       "value": "#a5150f",
       "count": 3
+    },
+    {
+      "value": "#da291c",
+      "count": 8
     },
     {
       "value": "#fcd3c1",
@@ -2871,6 +2995,10 @@
       "count": 1
     },
     {
+      "value": "#fdb913",
+      "count": 8
+    },
+    {
       "value": "#bc8f1e",
       "count": 2
     },
@@ -2881,6 +3009,10 @@
     {
       "value": "rgba(225,181,70,.1)",
       "count": 1
+    },
+    {
+      "value": "#fbc227",
+      "count": 2
     },
     {
       "value": "#fbf4e0",
@@ -2897,6 +3029,10 @@
     {
       "value": "#ffcb05",
       "count": 2
+    },
+    {
+      "value": "#ffe401",
+      "count": 8
     },
     {
       "value": "#edd500",
@@ -2935,6 +3071,18 @@
       "count": 1
     },
     {
+      "value": "#fffe67",
+      "count": 8
+    },
+    {
+      "value": "#7ebf36",
+      "count": 4
+    },
+    {
+      "value": "#97d058",
+      "count": 4
+    },
+    {
       "value": "#59ab25",
       "count": 8
     },
@@ -2969,6 +3117,18 @@
     {
       "value": "#4dae52",
       "count": 2
+    },
+    {
+      "value": "#266d4d",
+      "count": 1
+    },
+    {
+      "value": "#41b883",
+      "count": 4
+    },
+    {
+      "value": "#369a6e",
+      "count": 1
     },
     {
       "value": "#132f2f",
@@ -3039,7 +3199,27 @@
       "count": 1
     },
     {
+      "value": "#6cabdd",
+      "count": 8
+    },
+    {
+      "value": "#58b2ff",
+      "count": 8
+    },
+    {
+      "value": "#7bf",
+      "count": 8
+    },
+    {
       "value": "#96999c",
+      "count": 2
+    },
+    {
+      "value": "#35495e",
+      "count": 7
+    },
+    {
+      "value": "#007aff",
       "count": 2
     },
     {
@@ -3051,6 +3231,14 @@
       "count": 3
     },
     {
+      "value": "#0a4595",
+      "count": 8
+    },
+    {
+      "value": "#424851",
+      "count": 4
+    },
+    {
       "value": "#727375",
       "count": 1
     },
@@ -3059,12 +3247,56 @@
       "count": 1
     },
     {
+      "value": "#039",
+      "count": 8
+    },
+    {
+      "value": "#003090",
+      "count": 8
+    },
+    {
+      "value": "#292d6b",
+      "count": 8
+    },
+    {
       "value": "rgba(65,65,125,.75)",
       "count": 2
     },
     {
+      "value": "#0000fd",
+      "count": 8
+    },
+    {
       "value": "rgba(200,200,255,.75)",
       "count": 2
+    },
+    {
+      "value": "#726cea",
+      "count": 2
+    },
+    {
+      "value": "#473fe4",
+      "count": 2
+    },
+    {
+      "value": "#6c1d45",
+      "count": 8
+    },
+    {
+      "value": "#862d46",
+      "count": 8
+    },
+    {
+      "value": "#7a263a",
+      "count": 8
+    },
+    {
+      "value": "#241f20",
+      "count": 8
+    },
+    {
+      "value": "#c8102e",
+      "count": 8
     },
     {
       "value": "#e20023",
@@ -3075,6 +3307,10 @@
       "count": 6
     },
     {
+      "value": "#ee2737",
+      "count": 8
+    },
+    {
       "value": "#ed1c24",
       "count": 4
     },
@@ -3083,8 +3319,16 @@
       "count": 2
     },
     {
+      "value": "#d71920",
+      "count": 8
+    },
+    {
+      "value": "#ef0107",
+      "count": 8
+    },
+    {
       "value": "#fff",
-      "count": 323
+      "count": 391
     },
     {
       "value": "rgba(255,255,255,.95)",
@@ -3115,6 +3359,10 @@
       "count": 3
     },
     {
+      "value": "rgba(255,255,255,.25)",
+      "count": 1
+    },
+    {
       "value": "hsla(0,0%,100%,.1)",
       "count": 2
     },
@@ -3139,12 +3387,24 @@
       "count": 27
     },
     {
+      "value": "#f3f3f3",
+      "count": 1
+    },
+    {
       "value": "#f2f2f2",
       "count": 1
     },
     {
+      "value": "#f1f1f1",
+      "count": 2
+    },
+    {
       "value": "#f0f0f0",
       "count": 3
+    },
+    {
+      "value": "#ededed",
+      "count": 4
     },
     {
       "value": "hsla(0,0%,92.2%,.1)",
@@ -3153,6 +3413,10 @@
     {
       "value": "#ebebeb",
       "count": 23
+    },
+    {
+      "value": "#e8e8e8",
+      "count": 6
     },
     {
       "value": "#e6e6e6",
@@ -3164,6 +3428,10 @@
     },
     {
       "value": "hsla(0,0%,89.8%,.1)",
+      "count": 1
+    },
+    {
+      "value": "#dedede",
       "count": 1
     },
     {
@@ -3183,16 +3451,24 @@
       "count": 1
     },
     {
+      "value": "#d8d8d8",
+      "count": 1
+    },
+    {
       "value": "#d5d5d5",
       "count": 23
     },
     {
       "value": "#d3d3d3",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#d2d2d2",
       "count": 2
+    },
+    {
+      "value": "#cfcfcf",
+      "count": 1
     },
     {
       "value": "#cecece",
@@ -3216,7 +3492,7 @@
     },
     {
       "value": "silver",
-      "count": 3
+      "count": 4
     },
     {
       "value": "rgba(192,192,192,.95)",
@@ -3239,8 +3515,20 @@
       "count": 1
     },
     {
+      "value": "#adadad",
+      "count": 1
+    },
+    {
+      "value": "#a8a8a8",
+      "count": 1
+    },
+    {
+      "value": "#a6a6a6",
+      "count": 2
+    },
+    {
       "value": "#999",
-      "count": 3
+      "count": 5
     },
     {
       "value": "#979797",
@@ -3343,6 +3631,10 @@
       "count": 1
     },
     {
+      "value": "#232323",
+      "count": 4
+    },
+    {
       "value": "#1e1e1e",
       "count": 2
     },
@@ -3368,7 +3660,7 @@
     },
     {
       "value": "#000",
-      "count": 117
+      "count": 139
     },
     {
       "value": "rgba(0,0,0,.85)",
@@ -3384,7 +3676,7 @@
     },
     {
       "value": "rgba(0,0,0,.7)",
-      "count": 3
+      "count": 4
     },
     {
       "value": "rgba(0,0,0,.65)",
@@ -3396,7 +3688,7 @@
     },
     {
       "value": "rgba(0,0,0,.5)",
-      "count": 4
+      "count": 9
     },
     {
       "value": "rgba(0,0,0,.4)",
@@ -3408,7 +3700,7 @@
     },
     {
       "value": "rgba(0,0,0,.25)",
-      "count": 2
+      "count": 4
     },
     {
       "value": "rgba(0,0,0,.2)",
@@ -3420,7 +3712,7 @@
     },
     {
       "value": "rgba(0,0,0,.1)",
-      "count": 15
+      "count": 16
     },
     {
       "value": "rgba(0,0,0,.08)",
@@ -3435,6 +3727,10 @@
       "count": 8
     },
     {
+      "value": "rgba(0,0,0,0)",
+      "count": 4
+    },
+    {
       "value": "rgba(230,230,230,0)",
       "count": 1
     },
@@ -3443,10 +3739,14 @@
       "count": 1
     }
   ],
-  "values.colors.totalUnique": 157,
+  "values.colors.totalUnique": 205,
   "values.colors.duplicates.unique": [
     {
       "notations": [
+        {
+          "value": "rgba(0,0,0,0)",
+          "count": 4
+        },
         {
           "value": "rgba(230,230,230,0)",
           "count": 1
@@ -3456,8 +3756,8 @@
           "count": 1
         }
       ],
-      "count": 2,
-      "value": "rgba(230,230,230,0)"
+      "count": 6,
+      "value": "rgba(0,0,0,0)"
     },
     {
       "notations": [
@@ -3493,7 +3793,7 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 30,
+  "values.boxshadows.total": 31,
   "values.boxshadows.unique": [
     {
       "value": "0 .1333333333rem .1333333333rem 0 rgba(0,0,0,.1)",
@@ -3578,9 +3878,13 @@
     {
       "value": "rgba(0,0,0,.2) 0 2px 3px",
       "count": 1
+    },
+    {
+      "value": "transparent 0 0 0 1px",
+      "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 21,
+  "values.boxshadows.totalUnique": 22,
   "values.textshadows.total": 6,
   "values.textshadows.unique": [
     {
@@ -3601,15 +3905,19 @@
     }
   ],
   "values.textshadows.totalUnique": 4,
-  "values.zindexes.total": 79,
+  "values.zindexes.total": 97,
   "values.zindexes.unique": [
     {
+      "value": -1000,
+      "count": 1
+    },
+    {
       "value": 0,
-      "count": 5
+      "count": 8
     },
     {
       "value": 1,
-      "count": 8
+      "count": 12
     },
     {
       "value": 2,
@@ -3629,7 +3937,7 @@
     },
     {
       "value": 10,
-      "count": 16
+      "count": 20
     },
     {
       "value": 11,
@@ -3661,7 +3969,7 @@
     },
     {
       "value": 50,
-      "count": 2
+      "count": 6
     },
     {
       "value": 99,
@@ -3669,7 +3977,7 @@
     },
     {
       "value": 100,
-      "count": 3
+      "count": 4
     },
     {
       "value": 150,
@@ -3678,10 +3986,14 @@
     {
       "value": 999,
       "count": 1
+    },
+    {
+      "value": 9999,
+      "count": 1
     }
   ],
-  "values.zindexes.totalUnique": 19,
-  "values.animations.durations.total": 118,
+  "values.zindexes.totalUnique": 21,
+  "values.animations.durations.total": 146,
   "values.animations.durations.unique": [
     {
       "value": ".01s",
@@ -3701,23 +4013,23 @@
     },
     {
       "value": ".1s",
-      "count": 3
+      "count": 4
     },
     {
       "value": ".15s",
-      "count": 29
+      "count": 30
     },
     {
       "value": ".2s",
-      "count": 2
+      "count": 14
     },
     {
       "value": ".3s",
-      "count": 16
+      "count": 17
     },
     {
       "value": ".4s",
-      "count": 1
+      "count": 4
     },
     {
       "value": ".425s",
@@ -3725,18 +4037,22 @@
     },
     {
       "value": ".5s",
-      "count": 10
-    },
-    {
-      "value": ".6s",
-      "count": 4
-    },
-    {
-      "value": "1s",
       "count": 11
     },
     {
+      "value": ".6s",
+      "count": 10
+    },
+    {
+      "value": "1s",
+      "count": 12
+    },
+    {
       "value": "2s",
+      "count": 2
+    },
+    {
+      "value": "2.4s",
       "count": 2
     },
     {
@@ -3744,33 +4060,49 @@
       "count": 1
     }
   ],
-  "values.animations.durations.totalUnique": 15,
-  "values.animations.timingFunctions.total": 92,
+  "values.animations.durations.totalUnique": 16,
+  "values.animations.timingFunctions.total": 122,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(.23,1,.32,1)",
       "count": 26
     },
     {
+      "value": "cubic-bezier(.41,.26,.2,.62)",
+      "count": 1
+    },
+    {
+      "value": "cubic-bezier(.51,.09,.21,.8)",
+      "count": 1
+    },
+    {
       "value": "cubic-bezier(.485,-.035,.71,1.4)",
       "count": 2
     },
     {
+      "value": "ease",
+      "count": 16
+    },
+    {
       "value": "ease-in",
-      "count": 5
+      "count": 7
     },
     {
       "value": "ease-in-out",
-      "count": 18
+      "count": 19
     },
     {
       "value": "ease-out",
-      "count": 30
+      "count": 38
     },
     {
       "value": "linear",
       "count": 11
+    },
+    {
+      "value": "steps(12)",
+      "count": 1
     }
   ],
-  "values.animations.timingFunctions.totalUnique": 6
+  "values.animations.timingFunctions.totalUnique": 10
 }

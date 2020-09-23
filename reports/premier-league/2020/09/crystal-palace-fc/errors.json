@@ -3899,6 +3899,56 @@
       "type": "noexistence-at-all",
       "message": "\n        \n                                Property “mask-size” doesn't exist : \n                            ",
       "error": "\n                        "
+    },
+    {
+      "line": "45509",
+      "errortype": "parse-error",
+      "context": "#onetrust-pc-sdk [type=\"checkbox\"]:checked, #onetrust-pc-sdk [type=\"checkbox\"]:not(:checked)",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                initial\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "45514",
+      "errortype": "parse-error",
+      "context": "#onetrust-pc-sdk [type=\"checkbox\"]:disabled + label, #onetrust-pc-sdk [type=\"checkbox\"]:disabled + label::after, #onetrust-pc-sdk [type=\"checkbox\"]:disabled + label::before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "47374",
+      "errortype": "parse-error",
+      "context": "#onetrust-pc-sdk #filter-btn-handler:hover #filter-icon-path",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                #fff\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "48065",
+      "errortype": "parse-error",
+      "context": "#onetrust-pc-sdk .category-switch-handler:checked, #onetrust-pc-sdk .category-switch-handler:not(:checked)",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                initial\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "48334",
+      "errortype": "parse-error",
+      "context": "#onetrust-pc-sdk .ot-active-leg-btn",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
     }
   ],
   "value": [

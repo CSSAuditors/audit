@@ -102,6 +102,22 @@
       ]
     },
     {
+      "slug": "hotjar",
+      "name": "Hotjar",
+      "confidence": 100,
+      "version": null,
+      "icon": "Hotjar.png",
+      "website": "https://www.hotjar.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
       "slug": "google-font-api",
       "name": "Google Font API",
       "confidence": 100,
@@ -169,7 +185,7 @@
       "slug": "typekit",
       "name": "Typekit",
       "confidence": 100,
-      "version": "1.19.4",
+      "version": "1.20.0",
       "icon": "Typekit.png",
       "website": "http://typekit.com",
       "cpe": null,
@@ -210,22 +226,6 @@
           "id": 59,
           "slug": "javascript-libraries",
           "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "hotjar",
-      "name": "Hotjar",
-      "confidence": 100,
-      "version": null,
-      "icon": "Hotjar.png",
-      "website": "https://www.hotjar.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 10,
-          "slug": "analytics",
-          "name": "Analytics"
         }
       ]
     },

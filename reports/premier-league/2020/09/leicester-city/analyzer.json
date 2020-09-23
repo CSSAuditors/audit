@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 664775,
-  "stylesheets.filesize.uncompressed.totalBytes": 664775,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 84190,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8733556466473619,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 62733,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9056327328795457,
-  "stylesheets.simplicity": 0.8715031454959176,
-  "stylesheets.cohesion.average": 2.3457226232529567,
+  "stylesheets.size": 665036,
+  "stylesheets.filesize.uncompressed.totalBytes": 665036,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 84240,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.873330165585021,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 62872,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9054607570116505,
+  "stylesheets.simplicity": 0.8716749097714209,
+  "stylesheets.cohesion.average": 2.343658948014108,
   "stylesheets.cohesion.min.count": 24,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -135,8 +135,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 30945,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 23458,
+  "stylesheets.linesOfCode.total": 30975,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 23478,
   "atrules.charsets.total": 1,
   "atrules.charsets.unique": [
     {
@@ -829,11 +829,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 6511,
+  "rules.total": 6521,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 13,
-  "rules.selectors.average": 1.1474427891260943,
+  "rules.selectors.average": 1.1472166845575833,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#main-content"
@@ -854,8 +854,8 @@
     "section",
     "summary"
   ],
-  "selectors.total": 7471,
-  "selectors.totalUnique": 6124,
+  "selectors.total": 7481,
+  "selectors.totalUnique": 6128,
   "selectors.js.total": 0,
   "selectors.js.unique": [],
   "selectors.js.totalUnique": 0,
@@ -951,7 +951,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 2.0139204925712755,
+  "selectors.identifiers.average": 2.0125651650848817,
   "selectors.identifiers.max.value": ".article__content > .table-scrollable table tr:first-of-type td:first-child",
   "selectors.identifiers.max.count": 7,
   "selectors.identifiers.top": [
@@ -1032,8 +1032,8 @@
     }
   ],
   "selectors.complexity.max.count": 13,
-  "selectors.complexity.average": 2.0176683174943113,
-  "selectors.complexity.sum": 15074,
+  "selectors.complexity.average": 2.0163079802165487,
+  "selectors.complexity.sum": 15084,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1041,7 +1041,7 @@
     },
     {
       "value": 1,
-      "count": 2289
+      "count": 2299
     },
     {
       "value": 2,
@@ -1072,11 +1072,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 15273,
-  "declarations.totalUnique": 3259,
+  "declarations.total": 15283,
+  "declarations.totalUnique": 3264,
   "declarations.importants.total": 85,
-  "declarations.importants.share": 0.005565376808747463,
-  "properties.total": 15273,
+  "declarations.importants.share": 0.0055617352614015575,
+  "properties.total": 15283,
   "properties.unique": [
     {
       "value": "-ms-flex",
@@ -1356,7 +1356,7 @@
     },
     {
       "value": "fill",
-      "count": 24
+      "count": 34
     },
     {
       "value": "filter",
@@ -1760,11 +1760,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 31,
-  "properties.prefixed.share": 0.07509984940745106,
+  "properties.prefixed.share": 0.07505070993914807,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 15273,
+  "values.total": 15283,
   "values.prefixed.total": 577,
   "values.prefixed.unique": [
     {
@@ -1929,7 +1929,7 @@
     }
   ],
   "values.prefixed.totalUnique": 40,
-  "values.prefixed.share": 0.037779087278203366,
+  "values.prefixed.share": 0.03775436759798469,
   "values.fontsizes.total": 559,
   "values.fontsizes.unique": [
     {
@@ -2150,7 +2150,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 7,
-  "values.colors.total": 2121,
+  "values.colors.total": 2131,
   "values.colors.unique": [
     {
       "value": "#a2a0a0",
@@ -2223,6 +2223,18 @@
     {
       "value": "#ffae02",
       "count": 15
+    },
+    {
+      "value": "#f7a800",
+      "count": 1
+    },
+    {
+      "value": "#fdb913",
+      "count": 2
+    },
+    {
+      "value": "#d49f0b",
+      "count": 1
     },
     {
       "value": "#956e00",
@@ -2518,7 +2530,7 @@
     },
     {
       "value": "#003090",
-      "count": 12
+      "count": 14
     },
     {
       "value": "#e9eaec",
@@ -2531,6 +2543,10 @@
     {
       "value": "#3b5998",
       "count": 4
+    },
+    {
+      "value": "#20419a",
+      "count": 1
     },
     {
       "value": "#000b44",
@@ -2614,7 +2630,7 @@
     },
     {
       "value": "#fff",
-      "count": 437
+      "count": 440
     },
     {
       "value": "rgba(255,255,255,.8)",
@@ -2921,7 +2937,7 @@
       "count": 21
     }
   ],
-  "values.colors.totalUnique": 192,
+  "values.colors.totalUnique": 196,
   "values.colors.duplicates.unique": [
     {
       "notations": [

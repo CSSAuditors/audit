@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 624710,
-  "stylesheets.filesize.uncompressed.totalBytes": 624710,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 73321,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8826319412207264,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 53562,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.91426101711194,
-  "stylesheets.simplicity": 0.9036304885002852,
-  "stylesheets.cohesion.average": 3.0866638620109383,
+  "stylesheets.size": 669090,
+  "stylesheets.filesize.uncompressed.totalBytes": 669090,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 79625,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8809950828737539,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 58611,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9124019190243465,
+  "stylesheets.simplicity": 0.8927250308261405,
+  "stylesheets.cohesion.average": 3.0805051302288873,
   "stylesheets.cohesion.min.count": 31,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -170,8 +170,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 28093,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 21622,
+  "stylesheets.linesOfCode.total": 29776,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 22983,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -241,18 +241,22 @@
   "atrules.imports.total": 0,
   "atrules.imports.unique": [],
   "atrules.imports.totalUnique": 0,
-  "atrules.keyframes.total": 4,
+  "atrules.keyframes.total": 5,
   "atrules.keyframes.unique": [
     {
       "value": "a",
       "count": 2
     },
     {
+      "value": "element-queries",
+      "count": 1
+    },
+    {
       "value": "opacity-animation",
       "count": 2
     }
   ],
-  "atrules.keyframes.totalUnique": 2,
+  "atrules.keyframes.totalUnique": 3,
   "atrules.keyframes.prefixed.total": 2,
   "atrules.keyframes.prefixed.unique": [
     {
@@ -265,8 +269,8 @@
     }
   ],
   "atrules.keyframes.prefixed.totalUnique": 2,
-  "atrules.keyframes.prefixed.share": 2,
-  "atrules.mediaqueries.total": 1596,
+  "atrules.keyframes.prefixed.share": 2.5,
+  "atrules.mediaqueries.total": 1602,
   "atrules.mediaqueries.unique": [
     {
       "value": "(-ms-high-contrast:active),\n(-ms-high-contrast:none)",
@@ -473,6 +477,30 @@
       "count": 1
     },
     {
+      "value": "only screen and (min-height:385px) and (min-width:680px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-height:480px) and (min-width:850px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-height:640px) and (min-width:1136px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-height:680px) and (min-width:385px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-height:850px) and (min-width:480px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-height:1136px) and (min-width:640px)",
+      "count": 1
+    },
+    {
       "value": "only screen and (min-width:320px)",
       "count": 1
     },
@@ -497,7 +525,7 @@
       "count": 1
     }
   ],
-  "atrules.mediaqueries.totalUnique": 57,
+  "atrules.mediaqueries.totalUnique": 63,
   "atrules.mediaqueries.browserhacks.total": 0,
   "atrules.mediaqueries.browserhacks.unique": [],
   "atrules.mediaqueries.browserhacks.totalUnique": 0,
@@ -562,14 +590,14 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 4754,
+  "rules.total": 5068,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 8,
-  "rules.selectors.average": 1.106647034076567,
+  "rules.selectors.average": 1.1201657458563536,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
-    "#osc-map div.gm-style div[tabindex=\"0\"] div[style*=\"display: table-cell\"]"
+    "#i-amphtml-wrapper"
   ],
   "rules.selectors.maximum.count": 8,
   "rules.selectors.maximum.value": [
@@ -582,8 +610,8 @@
     ".citytv-all-videos .citytv-videos-list__item:nth-child(5):nth-last-child(-n+5)",
     ".citytv-all-videos .citytv-videos-list__item:nth-child(5):nth-last-child(-n+5) ~ *"
   ],
-  "selectors.total": 5261,
-  "selectors.totalUnique": 3448,
+  "selectors.total": 5677,
+  "selectors.totalUnique": 3740,
   "selectors.js.total": 7,
   "selectors.js.unique": [
     {
@@ -612,8 +640,36 @@
     }
   ],
   "selectors.js.totalUnique": 6,
-  "selectors.id.total": 3,
+  "selectors.id.total": 80,
   "selectors.id.unique": [
+    {
+      "value": "#i-amphtml-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper + body",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper + body .i-amphtml-lightbox-element",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper + body[i-amphtml-lightbox]",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper + body[i-amphtml-lightbox] .i-amphtml-lightbox-element",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper > body",
+      "count": 1
+    },
+    {
+      "value": "#i-amphtml-wrapper.i-amphtml-scroll-disabled",
+      "count": 1
+    },
     {
       "value": "#osc-map div.gm-style div[tabindex=\"0\"] div[style*=\"display: table-cell\"]",
       "count": 1
@@ -625,10 +681,262 @@
     {
       "value": ".osc-join-info #osc-join-error",
       "count": 1
+    },
+    {
+      "value": ".wp-popup #logo.wp-popup-icon",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content .wpiam-img-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button + button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-msg-content",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-msg-content h2",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-msg-content p",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-landscape .wpiam-card-content",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-landscape .wpiam-card-content .wpiam-img-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-landscape .wpiam-card-content section",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-portrait .wpiam-card-content",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-portrait .wpiam-card-content .wpiam-img-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-portrait .wpiam-card-content section",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-landscape",
+      "count": 3
+    },
+    {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-portrait",
+      "count": 3
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-cancel-button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-cancel-button.position-inside",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-cancel-button.position-none",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-card.wpiam-imageonly-card",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-card.wpiam-imageonly-card img",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-imageonly-message.wpiam-message#wpiam-message .wpiam-imageonly-card-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message *",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message .wpiam-card",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message button",
+      "count": 2
+    },
+    {
+      "value": ".wpiam-message#wpiam-message div",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message h2",
+      "count": 2
+    },
+    {
+      "value": ".wpiam-message#wpiam-message p",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message#wpiam-message section",
+      "count": 2
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card .wpiam-banner-content",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card .wpiam-banner-content h2",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card .wpiam-banner-content p",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card .wpiam-banner-picture-frame",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message .wpiam-card.wpiam-banner-card .wpiam-banner-picture-frame.wpiam-landscape",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-message.wpiam-banner-message#wpiam-message.wpiam-banner-message-position-bottom",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-cancel-button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-cancel-button.position-inside",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-cancel-button.position-none",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card .wpiam-modal-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card .wpiam-modal-container button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card .wpiam-modal-container h2",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card .wpiam-modal-container p",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container h2",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container p",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-img-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-portrait .wpiam-modal-container",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-portrait .wpiam-modal-container button",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-portrait .wpiam-modal-container h2",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-portrait .wpiam-modal-container img",
+      "count": 1
+    },
+    {
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-portrait .wpiam-modal-container p",
+      "count": 1
+    },
+    {
+      "value": "html.i-amphtml-ios-embed.i-amphtml-ios-overscroll > #i-amphtml-wrapper",
+      "count": 1
     }
   ],
-  "selectors.id.totalUnique": 3,
-  "selectors.universal.total": 55,
+  "selectors.id.totalUnique": 73,
+  "selectors.universal.total": 68,
   "selectors.universal.unique": [
     {
       "value": "*",
@@ -645,6 +953,10 @@
     {
       "value": "* + .player-stats-category",
       "count": 1
+    },
+    {
+      "value": ".amp-border-box *",
+      "count": 2
     },
     {
       "value": ".article-body__article-text * + h1",
@@ -763,6 +1075,10 @@
       "count": 1
     },
     {
+      "value": ".i-amphtml-notbuilt:not(.i-amphtml-layout-container) > *",
+      "count": 2
+    },
+    {
       "value": ".mc-club-page .sc-primary-info .sc-info-card__container > *",
       "count": 2
     },
@@ -799,12 +1115,32 @@
       "count": 2
     },
     {
+      "value": ".wpiam-message#wpiam-message *",
+      "count": 1
+    },
+    {
+      "value": "[layout]:not([layout=container]):not(.i-amphtml-element) > *",
+      "count": 2
+    },
+    {
+      "value": "[width][height][heights]:not([layout]):not(.i-amphtml-element) > *",
+      "count": 2
+    },
+    {
+      "value": "[width][height][sizes]:not([layout]):not(.i-amphtml-element) > *",
+      "count": 2
+    },
+    {
+      "value": "amp-accordion > section > *",
+      "count": 2
+    },
+    {
       "value": "button *",
       "count": 1
     }
   ],
-  "selectors.universal.totalUnique": 43,
-  "selectors.accessibility.total": 25,
+  "selectors.universal.totalUnique": 50,
+  "selectors.accessibility.total": 26,
   "selectors.accessibility.unique": [
     {
       "value": ".article-authors .amp-carousel-slide[aria-hidden=false]",
@@ -905,83 +1241,101 @@
     {
       "value": ".mc-tabs-nav__item-link[aria-selected=true]:before",
       "count": 1
+    },
+    {
+      "value": "amp-list[diffable] div[role=list]",
+      "count": 1
     }
   ],
-  "selectors.accessibility.totalUnique": 25,
+  "selectors.accessibility.totalUnique": 26,
   "selectors.specificity.top": [
     {
       "count": 1,
-      "value": "#osc-map div.gm-style div[tabindex=\"0\"] div[style*=\"display: table-cell\"]",
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container h2",
       "specificity": {
         "a": 0,
         "b": 1,
-        "c": 3,
-        "d": 3
+        "c": 7,
+        "d": 1
       }
     },
     {
       "count": 1,
-      "value": ".citynow-feed__feed-container #curator-feed",
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container p",
       "specificity": {
         "a": 0,
         "b": 1,
-        "c": 1,
+        "c": 7,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-landscape .wpiam-card-content .wpiam-img-container",
+      "specificity": {
+        "a": 0,
+        "b": 1,
+        "c": 7,
         "d": 0
       }
     },
     {
       "count": 1,
-      "value": ".osc-join-info #osc-join-error",
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card.wpiam-portrait .wpiam-card-content .wpiam-img-container",
       "specificity": {
         "a": 0,
         "b": 1,
-        "c": 1,
+        "c": 7,
         "d": 0
       }
     },
     {
       "count": 1,
-      "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li a:hover",
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container",
       "specificity": {
         "a": 0,
-        "b": 0,
+        "b": 1,
         "c": 7,
-        "d": 2
-      }
-    },
-    {
-      "count": 1,
-      "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li.active a",
-      "specificity": {
-        "a": 0,
-        "b": 0,
-        "c": 7,
-        "d": 2
+        "d": 0
       }
     }
   ],
   "selectors.specificity.max.value.a": 0,
   "selectors.specificity.max.value.b": 1,
-  "selectors.specificity.max.value.c": 3,
-  "selectors.specificity.max.value.d": 3,
-  "selectors.specificity.max.count": 1,
+  "selectors.specificity.max.value.c": 7,
+  "selectors.specificity.max.value.d": 1,
+  "selectors.specificity.max.count": 2,
   "selectors.specificity.max.selectors": [
     {
       "count": 1,
-      "value": "#osc-map div.gm-style div[tabindex=\"0\"] div[style*=\"display: table-cell\"]",
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container h2",
       "specificity": {
         "a": 0,
         "b": 1,
-        "c": 3,
-        "d": 3
+        "c": 7,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": ".wpiam-modal-message.wpiam-message#wpiam-message .wpiam-modal-card-container .wpiam-card.wpiam-landscape .wpiam-modal-container .wpiam-content-container p",
+      "specificity": {
+        "a": 0,
+        "b": 1,
+        "c": 7,
+        "d": 1
       }
     }
   ],
-  "selectors.identifiers.average": 1.730849648355826,
-  "selectors.identifiers.max.value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li a:hover",
-  "selectors.identifiers.max.count": 9,
+  "selectors.identifiers.average": 1.8129293641007573,
+  "selectors.identifiers.max.value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button + button",
+  "selectors.identifiers.max.count": 10,
   "selectors.identifiers.top": [
     {
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button + button",
+      "count": 10
+    },
+    {
       "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li a:hover",
       "count": 9
     },
@@ -994,36 +1348,20 @@
       "count": 9
     },
     {
-      "value": ".article-body__article-text .crt-widget .crt-filter .crt-filter-networks .crt-networks li a:hover",
-      "count": 8
-    },
-    {
-      "value": ".article-body__article-text .crt-widget .crt-filter .crt-filter-networks .crt-networks li.active a",
-      "count": 8
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button",
+      "count": 9
     }
   ],
-  "selectors.complexity.max.value": 9,
+  "selectors.complexity.max.value": 10,
   "selectors.complexity.max.selectors": [
     {
-      "value": "#osc-map div.gm-style div[tabindex=\"0\"] div[style*=\"display: table-cell\"]",
-      "count": 1
-    },
-    {
-      "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li a:hover",
-      "count": 1
-    },
-    {
-      "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li.active a",
-      "count": 1
-    },
-    {
-      "value": ".mc-main-content--obsidian-navy .article-body .crt-widget .crt-filter .crt-filter-networks .crt-networks li.crt-filter-label label",
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button + button",
       "count": 1
     }
   ],
-  "selectors.complexity.max.count": 4,
-  "selectors.complexity.average": 1.7504276753468921,
-  "selectors.complexity.sum": 9209,
+  "selectors.complexity.max.count": 1,
+  "selectors.complexity.average": 1.8349480359344725,
+  "selectors.complexity.sum": 10417,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1031,50 +1369,54 @@
     },
     {
       "value": 1,
-      "count": 2694
+      "count": 2795
     },
     {
       "value": 2,
-      "count": 1655
+      "count": 1773
     },
     {
       "value": 3,
-      "count": 609
+      "count": 694
     },
     {
       "value": 4,
-      "count": 201
+      "count": 241
     },
     {
       "value": 5,
-      "count": 60
+      "count": 91
     },
     {
       "value": 6,
-      "count": 21
+      "count": 32
     },
     {
       "value": 7,
-      "count": 8
+      "count": 20
     },
     {
       "value": 8,
-      "count": 7
+      "count": 19
     },
     {
       "value": 9,
-      "count": 4
+      "count": 9
+    },
+    {
+      "value": 10,
+      "count": 1
     }
   ],
-  "selectors.complexity.totalUnique": 10,
+  "selectors.complexity.totalUnique": 11,
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 14674,
-  "declarations.totalUnique": 2478,
-  "declarations.importants.total": 18,
-  "declarations.importants.share": 0.0012266593975739403,
-  "properties.total": 14674,
+  "declarations.total": 15612,
+  "declarations.totalUnique": 2671,
+  "declarations.importants.total": 200,
+  "declarations.importants.share": 0.012810658467845248,
+  "properties.total": 15612,
   "properties.unique": [
     {
       "value": "-moz-appearance",
@@ -1085,12 +1427,16 @@
       "count": 1
     },
     {
+      "value": "-moz-text-size-adjust",
+      "count": 1
+    },
+    {
       "value": "-moz-user-select",
-      "count": 4
+      "count": 6
     },
     {
       "value": "-ms-flex",
-      "count": 15
+      "count": 17
     },
     {
       "value": "-ms-flex-align",
@@ -1137,12 +1483,16 @@
       "count": 13
     },
     {
-      "value": "-ms-touch-action",
+      "value": "-ms-text-size-adjust",
       "count": 1
     },
     {
+      "value": "-ms-touch-action",
+      "count": 2
+    },
+    {
       "value": "-ms-user-select",
-      "count": 4
+      "count": 6
     },
     {
       "value": "-o-object-fit",
@@ -1266,7 +1616,7 @@
     },
     {
       "value": "-webkit-overflow-scrolling",
-      "count": 11
+      "count": 14
     },
     {
       "value": "-webkit-tap-highlight-color",
@@ -1286,7 +1636,7 @@
     },
     {
       "value": "-webkit-text-size-adjust",
-      "count": 1
+      "count": 2
     },
     {
       "value": "-webkit-touch-callout",
@@ -1322,15 +1672,19 @@
     },
     {
       "value": "-webkit-user-select",
-      "count": 4
+      "count": 6
+    },
+    {
+      "value": "align-content",
+      "count": 3
     },
     {
       "value": "align-items",
-      "count": 178
+      "count": 188
     },
     {
       "value": "align-self",
-      "count": 3
+      "count": 6
     },
     {
       "value": "animation",
@@ -1346,7 +1700,7 @@
     },
     {
       "value": "background",
-      "count": 295
+      "count": 324
     },
     {
       "value": "background-clip",
@@ -1354,30 +1708,42 @@
     },
     {
       "value": "background-color",
-      "count": 124
+      "count": 134
     },
     {
       "value": "background-image",
-      "count": 32
+      "count": 39
+    },
+    {
+      "value": "background-position",
+      "count": 7
     },
     {
       "value": "background-repeat",
-      "count": 4
+      "count": 10
     },
     {
       "value": "background-size",
-      "count": 15
+      "count": 21
     },
     {
       "value": "border",
-      "count": 153
+      "count": 164
     },
     {
       "value": "border-bottom",
-      "count": 101
+      "count": 102
     },
     {
       "value": "border-bottom-color",
+      "count": 2
+    },
+    {
+      "value": "border-bottom-left-radius",
+      "count": 2
+    },
+    {
+      "value": "border-bottom-right-radius",
       "count": 2
     },
     {
@@ -1386,7 +1752,7 @@
     },
     {
       "value": "border-color",
-      "count": 36
+      "count": 37
     },
     {
       "value": "border-left",
@@ -1398,11 +1764,11 @@
     },
     {
       "value": "border-radius",
-      "count": 75
+      "count": 90
     },
     {
       "value": "border-right",
-      "count": 14
+      "count": 16
     },
     {
       "value": "border-right-width",
@@ -1418,10 +1784,18 @@
     },
     {
       "value": "border-top",
-      "count": 88
+      "count": 90
     },
     {
       "value": "border-top-color",
+      "count": 2
+    },
+    {
+      "value": "border-top-left-radius",
+      "count": 2
+    },
+    {
+      "value": "border-top-right-radius",
       "count": 2
     },
     {
@@ -1434,23 +1808,27 @@
     },
     {
       "value": "bottom",
-      "count": 71
+      "count": 88
     },
     {
       "value": "box-shadow",
-      "count": 50
+      "count": 66
     },
     {
       "value": "box-sizing",
-      "count": 22
+      "count": 30
     },
     {
       "value": "caret-color",
       "count": 2
     },
     {
+      "value": "clear",
+      "count": 2
+    },
+    {
       "value": "color",
-      "count": 477
+      "count": 510
     },
     {
       "value": "column-count",
@@ -1458,7 +1836,7 @@
     },
     {
       "value": "content",
-      "count": 95
+      "count": 103
     },
     {
       "value": "counter-increment",
@@ -1470,7 +1848,7 @@
     },
     {
       "value": "cursor",
-      "count": 109
+      "count": 118
     },
     {
       "value": "direction",
@@ -1478,7 +1856,7 @@
     },
     {
       "value": "display",
-      "count": 1717
+      "count": 1828
     },
     {
       "value": "fill",
@@ -1490,27 +1868,27 @@
     },
     {
       "value": "flex",
-      "count": 15
+      "count": 27
     },
     {
       "value": "flex-basis",
-      "count": 2
+      "count": 3
     },
     {
       "value": "flex-direction",
-      "count": 114
+      "count": 128
     },
     {
       "value": "flex-flow",
-      "count": 6
+      "count": 9
     },
     {
       "value": "flex-grow",
-      "count": 16
+      "count": 29
     },
     {
       "value": "flex-shrink",
-      "count": 43
+      "count": 52
     },
     {
       "value": "flex-wrap",
@@ -1518,19 +1896,19 @@
     },
     {
       "value": "float",
-      "count": 7
+      "count": 15
     },
     {
       "value": "font",
-      "count": 12
+      "count": 22
     },
     {
       "value": "font-family",
-      "count": 125
+      "count": 126
     },
     {
       "value": "font-size",
-      "count": 520
+      "count": 536
     },
     {
       "value": "font-stretch",
@@ -1542,27 +1920,27 @@
     },
     {
       "value": "font-weight",
-      "count": 166
+      "count": 171
     },
     {
       "value": "height",
-      "count": 618
+      "count": 652
     },
     {
       "value": "justify-content",
-      "count": 140
+      "count": 149
     },
     {
       "value": "left",
-      "count": 195
+      "count": 226
     },
     {
       "value": "letter-spacing",
-      "count": 116
+      "count": 117
     },
     {
       "value": "line-height",
-      "count": 281
+      "count": 290
     },
     {
       "value": "list-style",
@@ -1574,39 +1952,39 @@
     },
     {
       "value": "margin",
-      "count": 188
+      "count": 209
     },
     {
       "value": "margin-bottom",
-      "count": 444
+      "count": 452
     },
     {
       "value": "margin-left",
-      "count": 302
+      "count": 310
     },
     {
       "value": "margin-right",
-      "count": 355
+      "count": 364
     },
     {
       "value": "margin-top",
-      "count": 625
+      "count": 630
     },
     {
       "value": "max-height",
-      "count": 55
+      "count": 68
     },
     {
       "value": "max-width",
-      "count": 100
+      "count": 119
     },
     {
       "value": "min-height",
-      "count": 62
+      "count": 68
     },
     {
       "value": "min-width",
-      "count": 34
+      "count": 39
     },
     {
       "value": "mix-blend-mode",
@@ -1614,7 +1992,7 @@
     },
     {
       "value": "object-fit",
-      "count": 57
+      "count": 58
     },
     {
       "value": "object-position",
@@ -1622,7 +2000,7 @@
     },
     {
       "value": "opacity",
-      "count": 142
+      "count": 152
     },
     {
       "value": "order",
@@ -1630,7 +2008,7 @@
     },
     {
       "value": "outline",
-      "count": 19
+      "count": 21
     },
     {
       "value": "outline-color",
@@ -1642,23 +2020,23 @@
     },
     {
       "value": "overflow",
-      "count": 115
+      "count": 138
     },
     {
       "value": "overflow-wrap",
-      "count": 1
+      "count": 7
     },
     {
       "value": "overflow-x",
-      "count": 30
+      "count": 35
     },
     {
       "value": "overflow-y",
-      "count": 5
+      "count": 17
     },
     {
       "value": "padding",
-      "count": 314
+      "count": 343
     },
     {
       "value": "padding-bottom",
@@ -1666,11 +2044,11 @@
     },
     {
       "value": "padding-left",
-      "count": 141
+      "count": 142
     },
     {
       "value": "padding-right",
-      "count": 121
+      "count": 122
     },
     {
       "value": "padding-top",
@@ -1678,11 +2056,11 @@
     },
     {
       "value": "pointer-events",
-      "count": 14
+      "count": 21
     },
     {
       "value": "position",
-      "count": 313
+      "count": 379
     },
     {
       "value": "quotes",
@@ -1694,7 +2072,7 @@
     },
     {
       "value": "right",
-      "count": 89
+      "count": 111
     },
     {
       "value": "scrollbar-width",
@@ -1714,7 +2092,7 @@
     },
     {
       "value": "text-align",
-      "count": 99
+      "count": 105
     },
     {
       "value": "text-align-last",
@@ -1722,7 +2100,7 @@
     },
     {
       "value": "text-decoration",
-      "count": 145
+      "count": 150
     },
     {
       "value": "text-decoration-color",
@@ -1742,23 +2120,27 @@
     },
     {
       "value": "text-shadow",
-      "count": 2
+      "count": 16
     },
     {
-      "value": "text-transform",
-      "count": 134
-    },
-    {
-      "value": "top",
-      "count": 164
-    },
-    {
-      "value": "touch-action",
+      "value": "text-size-adjust",
       "count": 1
     },
     {
+      "value": "text-transform",
+      "count": 136
+    },
+    {
+      "value": "top",
+      "count": 196
+    },
+    {
+      "value": "touch-action",
+      "count": 2
+    },
+    {
       "value": "transform",
-      "count": 92
+      "count": 100
     },
     {
       "value": "transform-origin",
@@ -1766,7 +2148,7 @@
     },
     {
       "value": "transition",
-      "count": 198
+      "count": 206
     },
     {
       "value": "transition-delay",
@@ -1786,23 +2168,23 @@
     },
     {
       "value": "user-select",
-      "count": 4
+      "count": 6
     },
     {
       "value": "vertical-align",
-      "count": 27
+      "count": 30
     },
     {
       "value": "visibility",
-      "count": 31
+      "count": 51
     },
     {
       "value": "white-space",
-      "count": 31
+      "count": 34
     },
     {
       "value": "width",
-      "count": 873
+      "count": 900
     },
     {
       "value": "will-change",
@@ -1822,15 +2204,15 @@
     },
     {
       "value": "z-index",
-      "count": 88
+      "count": 99
     },
     {
       "value": "zoom",
       "count": 1
     }
   ],
-  "properties.totalUnique": 188,
-  "properties.prefixed.total": 2365,
+  "properties.totalUnique": 198,
+  "properties.prefixed.total": 2380,
   "properties.prefixed.unique": [
     {
       "value": "-moz-appearance",
@@ -1841,12 +2223,16 @@
       "count": 1
     },
     {
+      "value": "-moz-text-size-adjust",
+      "count": 1
+    },
+    {
       "value": "-moz-user-select",
-      "count": 4
+      "count": 6
     },
     {
       "value": "-ms-flex",
-      "count": 15
+      "count": 17
     },
     {
       "value": "-ms-flex-align",
@@ -1893,12 +2279,16 @@
       "count": 13
     },
     {
-      "value": "-ms-touch-action",
+      "value": "-ms-text-size-adjust",
       "count": 1
     },
     {
+      "value": "-ms-touch-action",
+      "count": 2
+    },
+    {
       "value": "-ms-user-select",
-      "count": 4
+      "count": 6
     },
     {
       "value": "-o-object-fit",
@@ -2022,7 +2412,7 @@
     },
     {
       "value": "-webkit-overflow-scrolling",
-      "count": 11
+      "count": 14
     },
     {
       "value": "-webkit-tap-highlight-color",
@@ -2042,7 +2432,7 @@
     },
     {
       "value": "-webkit-text-size-adjust",
-      "count": 1
+      "count": 2
     },
     {
       "value": "-webkit-touch-callout",
@@ -2078,15 +2468,15 @@
     },
     {
       "value": "-webkit-user-select",
-      "count": 4
+      "count": 6
     }
   ],
-  "properties.prefixed.totalUnique": 62,
-  "properties.prefixed.share": 0.16116941529235382,
+  "properties.prefixed.totalUnique": 64,
+  "properties.prefixed.share": 0.15244683576735843,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 14674,
+  "values.total": 15612,
   "values.prefixed.total": 1163,
   "values.prefixed.unique": [
     {
@@ -2391,8 +2781,8 @@
     }
   ],
   "values.prefixed.totalUnique": 75,
-  "values.prefixed.share": 0.07925582663213848,
-  "values.fontsizes.total": 520,
+  "values.prefixed.share": 0.07449397899052011,
+  "values.fontsizes.total": 546,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -2496,7 +2886,11 @@
     },
     {
       "value": "20px",
-      "count": 41
+      "count": 42
+    },
+    {
+      "value": "125%",
+      "count": 1
     },
     {
       "value": "1.2em",
@@ -2508,7 +2902,11 @@
     },
     {
       "value": "18px",
-      "count": 55
+      "count": 56
+    },
+    {
+      "value": "1.1em",
+      "count": 2
     },
     {
       "value": "17px",
@@ -2516,19 +2914,23 @@
     },
     {
       "value": "16px",
-      "count": 57
+      "count": 60
     },
     {
       "value": "1em",
-      "count": 2
+      "count": 6
     },
     {
       "value": "100%",
       "count": 1
     },
     {
+      "value": "1rem",
+      "count": 1
+    },
+    {
       "value": "15px",
-      "count": 2
+      "count": 6
     },
     {
       "value": "14.5px",
@@ -2540,7 +2942,7 @@
     },
     {
       "value": "13px",
-      "count": 41
+      "count": 42
     },
     {
       "value": "80%",
@@ -2556,7 +2958,7 @@
     },
     {
       "value": "12px",
-      "count": 32
+      "count": 35
     },
     {
       "value": "11px",
@@ -2564,7 +2966,11 @@
     },
     {
       "value": "10px",
-      "count": 11
+      "count": 14
+    },
+    {
+      "value": "60%",
+      "count": 2
     },
     {
       "value": "9px",
@@ -2583,11 +2989,19 @@
       "count": 2
     }
   ],
-  "values.fontsizes.totalUnique": 47,
-  "values.fontfamilies.total": 125,
+  "values.fontsizes.totalUnique": 51,
+  "values.fontfamilies.total": 136,
   "values.fontfamilies.unique": [
     {
+      "value": "\"arial\"",
+      "count": 10
+    },
+    {
       "value": "\"Helvetica\", \"Arial\", sans-serif",
+      "count": 1
+    },
+    {
+      "value": "arial",
       "count": 1
     },
     {
@@ -2623,9 +3037,17 @@
       "count": 1
     }
   ],
-  "values.fontfamilies.totalUnique": 9,
-  "values.colors.total": 1371,
+  "values.fontfamilies.totalUnique": 11,
+  "values.colors.total": 1494,
   "values.colors.unique": [
+    {
+      "value": "#ed2121",
+      "count": 2
+    },
+    {
+      "value": "red",
+      "count": 2
+    },
     {
       "value": "#ea4335",
       "count": 5
@@ -2653,6 +3075,10 @@
     {
       "value": "#cea448",
       "count": 1
+    },
+    {
+      "value": "#4fb845",
+      "count": 2
     },
     {
       "value": "#2fdca5",
@@ -2715,11 +3141,31 @@
       "count": 3
     },
     {
+      "value": "#47a8d8",
+      "count": 4
+    },
+    {
+      "value": "#eceeef",
+      "count": 6
+    },
+    {
       "value": "#0277b5",
       "count": 1
     },
     {
+      "value": "#10acff",
+      "count": 2
+    },
+    {
       "value": "#0070c0",
+      "count": 1
+    },
+    {
+      "value": "rgba(60,64,67,.3)",
+      "count": 1
+    },
+    {
+      "value": "rgba(60,64,67,.15)",
       "count": 1
     },
     {
@@ -2763,12 +3209,24 @@
       "count": 2
     },
     {
+      "value": "#62b3f4",
+      "count": 1
+    },
+    {
       "value": "#72b4e9",
       "count": 2
     },
     {
       "value": "#c1dcf2",
       "count": 4
+    },
+    {
+      "value": "#46a4f3",
+      "count": 1
+    },
+    {
+      "value": "#0486f6",
+      "count": 1
     },
     {
       "value": "#3b5268",
@@ -2825,6 +3283,10 @@
     {
       "value": "#0a1e32",
       "count": 20
+    },
+    {
+      "value": "#1a73e8",
+      "count": 1
     },
     {
       "value": "#eaf3ff",
@@ -2919,12 +3381,28 @@
       "count": 2
     },
     {
+      "value": "#202125",
+      "count": 1
+    },
+    {
       "value": "#f6f6f8",
       "count": 38
     },
     {
       "value": "rgba(246,246,248,.2)",
       "count": 2
+    },
+    {
+      "value": "#eae9ea",
+      "count": 1
+    },
+    {
+      "value": "#eeedee",
+      "count": 1
+    },
+    {
+      "value": "rgba(232,72,95,.5)",
+      "count": 1
     },
     {
       "value": "#ff5268",
@@ -2944,7 +3422,11 @@
     },
     {
       "value": "#fff",
-      "count": 251
+      "count": 270
+    },
+    {
+      "value": "rgba(255,255,255,.5)",
+      "count": 6
     },
     {
       "value": "hsla(0,0%,100%,.4)",
@@ -2955,12 +3437,20 @@
       "count": 4
     },
     {
+      "value": "rgba(255,255,255,.3)",
+      "count": 2
+    },
+    {
       "value": "hsla(0,0%,100%,.2)",
       "count": 13
     },
     {
       "value": "hsla(0,0%,100%,.15)",
       "count": 3
+    },
+    {
+      "value": "#f9f9f9",
+      "count": 2
     },
     {
       "value": "#f6f6f6",
@@ -2972,15 +3462,15 @@
     },
     {
       "value": "#f0f0f0",
-      "count": 4
+      "count": 7
     },
     {
       "value": "#efefef",
-      "count": 2
+      "count": 3
     },
     {
       "value": "#eee",
-      "count": 1
+      "count": 5
     },
     {
       "value": "#ededed",
@@ -2988,6 +3478,14 @@
     },
     {
       "value": "#e5e5e5",
+      "count": 1
+    },
+    {
+      "value": "#e0e0e0",
+      "count": 3
+    },
+    {
+      "value": "#dfdfdf",
       "count": 1
     },
     {
@@ -3011,6 +3509,10 @@
       "count": 1
     },
     {
+      "value": "#d3d3d3",
+      "count": 1
+    },
+    {
       "value": "#ccc",
       "count": 5
     },
@@ -3023,7 +3525,15 @@
       "count": 1
     },
     {
+      "value": "silver",
+      "count": 4
+    },
+    {
       "value": "#b8b8b8",
+      "count": 3
+    },
+    {
+      "value": "#b0b0b0",
       "count": 3
     },
     {
@@ -3035,7 +3545,15 @@
       "count": 2
     },
     {
+      "value": "#aaa",
+      "count": 6
+    },
+    {
       "value": "#a1a1a1",
+      "count": 1
+    },
+    {
+      "value": "#9d9d9d",
       "count": 1
     },
     {
@@ -3052,7 +3570,19 @@
     },
     {
       "value": "#888",
-      "count": 3
+      "count": 5
+    },
+    {
+      "value": "grey",
+      "count": 2
+    },
+    {
+      "value": "#777",
+      "count": 2
+    },
+    {
+      "value": "#757575",
+      "count": 1
     },
     {
       "value": "#4e4e4e",
@@ -3071,6 +3601,14 @@
       "count": 1
     },
     {
+      "value": "#3c3c3c",
+      "count": 2
+    },
+    {
+      "value": "#333",
+      "count": 3
+    },
+    {
       "value": "#1e1e1e",
       "count": 1
     },
@@ -3084,7 +3622,11 @@
     },
     {
       "value": "#000",
-      "count": 3
+      "count": 4
+    },
+    {
+      "value": "rgba(0,0,0,.87)",
+      "count": 1
     },
     {
       "value": "rgba(0,0,0,.85)",
@@ -3092,6 +3634,18 @@
     },
     {
       "value": "rgba(0,0,0,.8)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.75)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.5)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.33)",
       "count": 1
     },
     {
@@ -3104,15 +3658,15 @@
     },
     {
       "value": "rgba(0,0,0,.2)",
-      "count": 2
+      "count": 16
     },
     {
       "value": "rgba(0,0,0,.15)",
-      "count": 4
+      "count": 6
     },
     {
       "value": "rgba(0,0,0,.12)",
-      "count": 6
+      "count": 8
     },
     {
       "value": "rgba(0,0,0,.1)",
@@ -3123,7 +3677,15 @@
       "count": 2
     },
     {
+      "value": "rgba(0,0,0,.05)",
+      "count": 2
+    },
+    {
       "value": "rgba(0,0,0,.037)",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.02)",
       "count": 2
     },
     {
@@ -3155,7 +3717,7 @@
       "count": 2
     }
   ],
-  "values.colors.totalUnique": 132,
+  "values.colors.totalUnique": 169,
   "values.colors.duplicates.unique": [
     {
       "notations": [
@@ -3186,15 +3748,37 @@
       ],
       "count": 37,
       "value": "hsla(0,0%,100%,0)"
+    },
+    {
+      "notations": [
+        {
+          "value": "hsla(0,0%,100%,.3)",
+          "count": 4
+        },
+        {
+          "value": "rgba(255,255,255,.3)",
+          "count": 2
+        }
+      ],
+      "count": 6,
+      "value": "hsla(0,0%,100%,.3)"
     }
   ],
-  "values.colors.duplicates.totalUnique": 1,
-  "values.colors.duplicates.total": 1,
+  "values.colors.duplicates.totalUnique": 2,
+  "values.colors.duplicates.total": 2,
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 42,
+  "values.boxshadows.total": 58,
   "values.boxshadows.unique": [
+    {
+      "value": "#000 0 .2em 2em",
+      "count": 1
+    },
+    {
+      "value": "#888 0 0 20px",
+      "count": 2
+    },
     {
       "value": "0 -1px 0 0 rgba(0,0,0,.1)",
       "count": 1
@@ -3274,10 +3858,38 @@
     {
       "value": "2px 4px 9px 0 rgba(0,40,94,.2)",
       "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.2) -1px 1px 5px",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.02) 0 1px inset",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.2) 1px 1px 5px",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.05) 0 -1px inset,rgba(0,0,0,.05) 0 1px 1px inset",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.12) 0 1px 2px inset,rgba(0,0,0,.15) 0 0 2px inset",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.15) 0 1px 2px inset,rgba(0,0,0,.2) 0 0 3px inset",
+      "count": 2
+    },
+    {
+      "value": "rgba(60,64,67,.3) 0 1px 2px 0,rgba(60,64,67,.15) 0 1px 3px 1px",
+      "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 20,
-  "values.textshadows.total": 2,
+  "values.boxshadows.totalUnique": 29,
+  "values.textshadows.total": 16,
   "values.textshadows.unique": [
     {
       "value": "-1px -1px 0 #0a1e32,1px -1px 0 #0a1e32,-1px 1px 0 #0a1e32,1px 1px 0 #0a1e32,0 0 3px #0a1e32,0 0 3px #0a1e32",
@@ -3286,14 +3898,22 @@
     {
       "value": "1px 0 0 currentColor",
       "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.2) 0 1px",
+      "count": 8
+    },
+    {
+      "value": "rgba(255,255,255,.5) 0 1px",
+      "count": 6
     }
   ],
-  "values.textshadows.totalUnique": 2,
-  "values.zindexes.total": 88,
+  "values.textshadows.totalUnique": 4,
+  "values.zindexes.total": 99,
   "values.zindexes.unique": [
     {
       "value": -1,
-      "count": 13
+      "count": 14
     },
     {
       "value": 0,
@@ -3301,11 +3921,11 @@
     },
     {
       "value": 1,
-      "count": 28
+      "count": 32
     },
     {
       "value": 2,
-      "count": 8
+      "count": 10
     },
     {
       "value": 3,
@@ -3336,12 +3956,20 @@
       "count": 1
     },
     {
+      "value": 1000,
+      "count": 1
+    },
+    {
       "value": 2500,
       "count": 1
     },
     {
       "value": 3000,
       "count": 1
+    },
+    {
+      "value": 10000,
+      "count": 2
     },
     {
       "value": 99992,
@@ -3370,10 +3998,14 @@
     {
       "value": 99999,
       "count": 1
+    },
+    {
+      "value": 2147483646,
+      "count": 1
     }
   ],
-  "values.zindexes.totalUnique": 20,
-  "values.animations.durations.total": 268,
+  "values.zindexes.totalUnique": 23,
+  "values.animations.durations.total": 274,
   "values.animations.durations.unique": [
     {
       "value": "0s",
@@ -3389,7 +4021,7 @@
     },
     {
       "value": ".15s",
-      "count": 5
+      "count": 9
     },
     {
       "value": ".2s",
@@ -3405,7 +4037,7 @@
     },
     {
       "value": ".3s",
-      "count": 21
+      "count": 23
     },
     {
       "value": ".4s",
@@ -3433,7 +4065,7 @@
     }
   ],
   "values.animations.durations.totalUnique": 14,
-  "values.animations.timingFunctions.total": 248,
+  "values.animations.timingFunctions.total": 254,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(.5,0,.14,1)",
@@ -3464,6 +4096,10 @@
       "count": 2
     },
     {
+      "value": "cubic-bezier(0,0,.2,1)",
+      "count": 2
+    },
+    {
       "value": "cubic-bezier(0,0,.25,1)",
       "count": 1
     },
@@ -3485,12 +4121,12 @@
     },
     {
       "value": "ease-out",
-      "count": 27
+      "count": 31
     },
     {
       "value": "linear",
       "count": 3
     }
   ],
-  "values.animations.timingFunctions.totalUnique": 14
+  "values.animations.timingFunctions.totalUnique": 15
 }

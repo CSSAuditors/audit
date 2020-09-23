@@ -6,6 +6,22 @@
   },
   "technologies": [
     {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authority",
+          "name": "SSL/TLS certificate authority"
+        }
+      ]
+    },
+    {
       "slug": "microsoft-asp-net",
       "name": "Microsoft ASP.NET",
       "confidence": 100,

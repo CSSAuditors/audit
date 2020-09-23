@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 907687,
-  "stylesheets.filesize.uncompressed.totalBytes": 907687,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 101321,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8883745167662421,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 78181,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9138678861766225,
-  "stylesheets.simplicity": 0.6915278783490224,
-  "stylesheets.cohesion.average": 2.1164921465968587,
+  "stylesheets.size": 908881,
+  "stylesheets.filesize.uncompressed.totalBytes": 908881,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 101629,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8881822812887495,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 78335,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9138115990982318,
+  "stylesheets.simplicity": 0.6920296403397795,
+  "stylesheets.cohesion.average": 2.1142595978062158,
   "stylesheets.cohesion.min.count": 22,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -125,8 +125,8 @@
   ],
   "stylesheets.browserhacks.total": 16,
   "stylesheets.browserhacks.totalUnique": 11,
-  "stylesheets.linesOfCode.total": 36809,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 27893,
+  "stylesheets.linesOfCode.total": 36866,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 27932,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -142,7 +142,7 @@
         "font-style": "normal",
         "font-weight": "900",
         "font-display": "swap",
-        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5iU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8-BM5iU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -153,7 +153,7 @@
         "font-style": "normal",
         "font-weight": "900",
         "font-display": "swap",
-        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5jU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8-BM5jU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -164,7 +164,7 @@
         "font-style": "normal",
         "font-weight": "900",
         "font-display": "swap",
-        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5tU1ECVZl_.woff2) format('woff2')",
+        "src": "local('Nunito Sans Black'),local('NunitoSans-Black'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8-BM5tU1ECVZl_.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -175,7 +175,7 @@
         "font-style": "normal",
         "font-weight": "700",
         "font-display": "swap",
-        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8GBs5iU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5iU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -186,7 +186,7 @@
         "font-style": "normal",
         "font-weight": "700",
         "font-display": "swap",
-        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8GBs5jU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5jU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -197,7 +197,7 @@
         "font-style": "normal",
         "font-weight": "700",
         "font-display": "swap",
-        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8GBs5tU1ECVZl_.woff2) format('woff2')",
+        "src": "local('Nunito Sans Bold'),local('NunitoSans-Bold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1ECVZl_.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -208,7 +208,7 @@
         "font-style": "normal",
         "font-weight": "800",
         "font-display": "swap",
-        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8aBc5iU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5iU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -219,7 +219,7 @@
         "font-style": "normal",
         "font-weight": "800",
         "font-display": "swap",
-        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8aBc5jU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5jU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -230,7 +230,7 @@
         "font-style": "normal",
         "font-weight": "800",
         "font-display": "swap",
-        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8aBc5tU1ECVZl_.woff2) format('woff2')",
+        "src": "local('Nunito Sans ExtraBold'),local('NunitoSans-ExtraBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1ECVZl_.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -241,7 +241,7 @@
         "font-style": "normal",
         "font-weight": "300",
         "font-display": "swap",
-        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAc5iU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5iU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -252,7 +252,7 @@
         "font-style": "normal",
         "font-weight": "300",
         "font-display": "swap",
-        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAc5jU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5jU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -263,7 +263,7 @@
         "font-style": "normal",
         "font-weight": "300",
         "font-display": "swap",
-        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAc5tU1ECVZl_.woff2) format('woff2')",
+        "src": "local('Nunito Sans Light'),local('NunitoSans-Light'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1ECVZl_.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -274,7 +274,7 @@
         "font-style": "normal",
         "font-weight": "400",
         "font-display": "swap",
-        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2) format('woff2')",
+        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9tAcVwo.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -285,7 +285,7 @@
         "font-style": "normal",
         "font-weight": "400",
         "font-display": "swap",
-        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe0qMImSLYBIv1o4X1M8cceyI9tAcVwob5A.woff2) format('woff2')",
+        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cceyI9tAcVwob5A.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -296,7 +296,7 @@
         "font-style": "normal",
         "font-weight": "400",
         "font-display": "swap",
-        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe0qMImSLYBIv1o4X1M8ccezI9tAcVwob5A.woff2) format('woff2')",
+        "src": "local('Nunito Sans Regular'),local('NunitoSans-Regular'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8ccezI9tAcVwob5A.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -307,7 +307,7 @@
         "font-style": "normal",
         "font-weight": "600",
         "font-display": "swap",
-        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB85iU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB85iU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
       }
     },
@@ -318,7 +318,7 @@
         "font-style": "normal",
         "font-weight": "600",
         "font-display": "swap",
-        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB85jU1ECVZl_86Y.woff2) format('woff2')",
+        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB85jU1ECVZl_86Y.woff2) format('woff2')",
         "unicode-range": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
       }
     },
@@ -329,7 +329,7 @@
         "font-style": "normal",
         "font-weight": "600",
         "font-display": "swap",
-        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB85tU1ECVZl_.woff2) format('woff2')",
+        "src": "local('Nunito Sans SemiBold'),local('NunitoSans-SemiBold'),url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB85tU1ECVZl_.woff2) format('woff2')",
         "unicode-range": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD"
       }
     },
@@ -739,11 +739,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 7640,
+  "rules.total": 7658,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 40,
-  "rules.selectors.average": 1.4460732984293194,
+  "rules.selectors.average": 1.4450248106555237,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#block-westbrom-local-tasks"
@@ -791,8 +791,8 @@
     ".m-subscription-package__actions .m-product-detail__cta-btn a.clear.hollow",
     ".m-subscription-package__actions .m-product-landing__cta-btn a.clear.hollow"
   ],
-  "selectors.total": 11048,
-  "selectors.totalUnique": 8401,
+  "selectors.total": 11066,
+  "selectors.totalUnique": 8407,
   "selectors.js.total": 29,
   "selectors.js.unique": [
     {
@@ -905,7 +905,7 @@
     }
   ],
   "selectors.js.totalUnique": 27,
-  "selectors.id.total": 64,
+  "selectors.id.total": 67,
   "selectors.id.unique": [
     {
       "value": "#block-westbrom-local-tasks",
@@ -958,6 +958,18 @@
     {
       "value": "#i-amphtml-wrapper.i-amphtml-scroll-disabled",
       "count": 4
+    },
+    {
+      "value": "#m-ad-slot-17782",
+      "count": 1
+    },
+    {
+      "value": "#m-ad-slot-17783",
+      "count": 1
+    },
+    {
+      "value": "#m-ad-slot-17784",
+      "count": 1
     },
     {
       "value": ".m-login__form #block-westbrom-local-tasks .tabs",
@@ -1020,7 +1032,7 @@
       "count": 4
     }
   ],
-  "selectors.id.totalUnique": 28,
+  "selectors.id.totalUnique": 31,
   "selectors.universal.total": 58,
   "selectors.universal.unique": [
     {
@@ -1192,7 +1204,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 3.2574221578566256,
+  "selectors.identifiers.average": 3.256641966383517,
   "selectors.identifiers.max.value": ".Opta .Opta_F_PT_N .Opta-Ratings .Opta-Rating-Team .Opta-Striped tbody tr.Opta-FeatureHeader td.Opta-Score .Opta-JS-Score div.Opta-Rating-Key",
   "selectors.identifiers.max.count": 13,
   "selectors.identifiers.top": [
@@ -1225,8 +1237,8 @@
     }
   ],
   "selectors.complexity.max.count": 1,
-  "selectors.complexity.average": 3.289826212889211,
-  "selectors.complexity.sum": 36346,
+  "selectors.complexity.average": 3.2889933128501716,
+  "selectors.complexity.sum": 36396,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1234,7 +1246,7 @@
     },
     {
       "value": 1,
-      "count": 1824
+      "count": 1834
     },
     {
       "value": 2,
@@ -1250,7 +1262,7 @@
     },
     {
       "value": 5,
-      "count": 1635
+      "count": 1643
     },
     {
       "value": 6,
@@ -1322,11 +1334,11 @@
     }
   ],
   "selectors.browserhacks.totalUnique": 8,
-  "declarations.total": 16171,
-  "declarations.totalUnique": 3108,
+  "declarations.total": 16192,
+  "declarations.totalUnique": 3111,
   "declarations.importants.total": 937,
-  "declarations.importants.share": 0.05794323171108775,
-  "properties.total": 16171,
+  "declarations.importants.share": 0.05786808300395257,
+  "properties.total": 16192,
   "properties.unique": [
     {
       "value": "-moz-animation",
@@ -1790,7 +1802,7 @@
     },
     {
       "value": "display",
-      "count": 1110
+      "count": 1118
     },
     {
       "value": "dominant-baseline",
@@ -1798,11 +1810,15 @@
     },
     {
       "value": "fill",
-      "count": 180
+      "count": 183
     },
     {
       "value": "fill-opacity",
       "count": 1
+    },
+    {
+      "value": "fill-rule",
+      "count": 3
     },
     {
       "value": "filter",
@@ -1866,7 +1882,7 @@
     },
     {
       "value": "height",
-      "count": 900
+      "count": 903
     },
     {
       "value": "justify-content",
@@ -2166,7 +2182,7 @@
     },
     {
       "value": "width",
-      "count": 2004
+      "count": 2007
     },
     {
       "value": "will-change",
@@ -2182,10 +2198,10 @@
     },
     {
       "value": "z-index",
-      "count": 121
+      "count": 122
     }
   ],
-  "properties.totalUnique": 214,
+  "properties.totalUnique": 215,
   "properties.prefixed.total": 670,
   "properties.prefixed.unique": [
     {
@@ -2446,11 +2462,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 64,
-  "properties.prefixed.share": 0.04143219343268815,
+  "properties.prefixed.share": 0.04137845849802371,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 16171,
+  "values.total": 16192,
   "values.prefixed.total": 67,
   "values.prefixed.unique": [
     {
@@ -2555,7 +2571,7 @@
     }
   ],
   "values.prefixed.totalUnique": 25,
-  "values.prefixed.share": 0.0041432193432688145,
+  "values.prefixed.share": 0.004137845849802372,
   "values.fontsizes.total": 459,
   "values.fontsizes.unique": [
     {
@@ -2787,12 +2803,12 @@
       "count": 2
     },
     {
-      "value": "14px",
-      "count": 46
-    },
-    {
       "value": ".875em",
       "count": 1
+    },
+    {
+      "value": "14px",
+      "count": 46
     },
     {
       "value": ".875rem",
@@ -2927,12 +2943,12 @@
       "count": 3
     },
     {
-      "value": "#bd0000",
-      "count": 1
-    },
-    {
       "value": "#fff4f4",
       "count": 2
+    },
+    {
+      "value": "#bd0000",
+      "count": 1
     },
     {
       "value": "#e00",
@@ -3849,7 +3865,7 @@
     }
   ],
   "values.textshadows.totalUnique": 3,
-  "values.zindexes.total": 121,
+  "values.zindexes.total": 122,
   "values.zindexes.unique": [
     {
       "value": -2,
@@ -3865,7 +3881,7 @@
     },
     {
       "value": 1,
-      "count": 30
+      "count": 31
     },
     {
       "value": 2,

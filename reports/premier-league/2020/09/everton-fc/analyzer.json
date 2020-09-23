@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 436791,
-  "stylesheets.filesize.uncompressed.totalBytes": 436791,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 58557,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8659381718029905,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 44790,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8974566783656257,
-  "stylesheets.simplicity": 0.9418420457116995,
-  "stylesheets.cohesion.average": 2.6071600192215283,
+  "stylesheets.size": 443319,
+  "stylesheets.filesize.uncompressed.totalBytes": 443319,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 59166,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8665385422235455,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 45209,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.8980215149813114,
+  "stylesheets.simplicity": 0.9428888888888889,
+  "stylesheets.cohesion.average": 2.6007541833608294,
   "stylesheets.cohesion.min.count": 18,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -105,8 +105,8 @@
   ],
   "stylesheets.browserhacks.total": 1,
   "stylesheets.browserhacks.totalUnique": 1,
-  "stylesheets.linesOfCode.total": 20511,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 15782,
+  "stylesheets.linesOfCode.total": 20863,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 16050,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -193,7 +193,7 @@
   "atrules.keyframes.prefixed.unique": [],
   "atrules.keyframes.prefixed.totalUnique": 0,
   "atrules.keyframes.prefixed.share": 0,
-  "atrules.mediaqueries.total": 492,
+  "atrules.mediaqueries.total": 495,
   "atrules.mediaqueries.unique": [
     {
       "value": "(-moz-min-device-pixel-ratio:2),\n(-webkit-min-device-pixel-ratio:2)",
@@ -233,7 +233,7 @@
     },
     {
       "value": "(max-width:52.49em)",
-      "count": 108
+      "count": 109
     },
     {
       "value": "(max-width:58.75em)",
@@ -256,10 +256,6 @@
       "count": 1
     },
     {
-      "value": "(max-width:78.125em)",
-      "count": 1
-    },
-    {
       "value": "(max-width:80em)",
       "count": 1
     },
@@ -277,6 +273,10 @@
     },
     {
       "value": "(max-width:87.125em)",
+      "count": 1
+    },
+    {
+      "value": "(max-width:90.625em)",
       "count": 1
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "value": "(min-width:52.5em)",
-      "count": 96
+      "count": 98
     },
     {
       "value": "(min-width:52.5em) and (max-width:64.0525em)",
@@ -401,11 +401,11 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 4162,
+  "rules.total": 4243,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 13,
-  "rules.selectors.average": 1.0617491590581452,
+  "rules.selectors.average": 1.0605703511666273,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#main-content"
@@ -426,8 +426,8 @@
     "section",
     "summary"
   ],
-  "selectors.total": 4419,
-  "selectors.totalUnique": 3563,
+  "selectors.total": 4500,
+  "selectors.totalUnique": 3598,
   "selectors.js.total": 11,
   "selectors.js.unique": [
     {
@@ -580,7 +580,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 1.8610545372256166,
+  "selectors.identifiers.average": 1.8551111111111112,
   "selectors.identifiers.max.value": ".main-navigation .linked-list > .linked-list__item:not(.has-children) .linked-list__link:not(.is-active):focus:before",
   "selectors.identifiers.max.count": 8,
   "selectors.identifiers.top": [
@@ -617,8 +617,8 @@
     }
   ],
   "selectors.complexity.max.count": 2,
-  "selectors.complexity.average": 1.864448970355284,
-  "selectors.complexity.sum": 8239,
+  "selectors.complexity.average": 1.8584444444444443,
+  "selectors.complexity.sum": 8363,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -626,19 +626,19 @@
     },
     {
       "value": 1,
-      "count": 1657
+      "count": 1709
     },
     {
       "value": 2,
-      "count": 1988
+      "count": 2005
     },
     {
       "value": 3,
-      "count": 556
+      "count": 566
     },
     {
       "value": 4,
-      "count": 166
+      "count": 168
     },
     {
       "value": 5,
@@ -661,11 +661,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 10851,
-  "declarations.totalUnique": 2725,
-  "declarations.importants.total": 214,
-  "declarations.importants.share": 0.019721684637360612,
-  "properties.total": 10851,
+  "declarations.total": 11035,
+  "declarations.totalUnique": 2743,
+  "declarations.importants.total": 217,
+  "declarations.importants.share": 0.0196647032170367,
+  "properties.total": 11035,
   "properties.unique": [
     {
       "value": "-mos-osx-font-smoothing",
@@ -689,7 +689,7 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 133
+      "count": 135
     },
     {
       "value": "-ms-flex-direction",
@@ -813,7 +813,7 @@
     },
     {
       "value": "align-items",
-      "count": 133
+      "count": 135
     },
     {
       "value": "align-self",
@@ -857,7 +857,7 @@
     },
     {
       "value": "background",
-      "count": 276
+      "count": 282
     },
     {
       "value": "background-clip",
@@ -873,7 +873,7 @@
     },
     {
       "value": "background-position",
-      "count": 879
+      "count": 886
     },
     {
       "value": "background-position-x",
@@ -941,11 +941,11 @@
     },
     {
       "value": "border-radius",
-      "count": 175
+      "count": 178
     },
     {
       "value": "border-right",
-      "count": 12
+      "count": 13
     },
     {
       "value": "border-right-color",
@@ -985,11 +985,11 @@
     },
     {
       "value": "bottom",
-      "count": 147
+      "count": 150
     },
     {
       "value": "box-shadow",
-      "count": 97
+      "count": 99
     },
     {
       "value": "box-sizing",
@@ -1005,23 +1005,23 @@
     },
     {
       "value": "color",
-      "count": 355
+      "count": 363
     },
     {
       "value": "content",
-      "count": 136
+      "count": 142
     },
     {
       "value": "cursor",
-      "count": 46
+      "count": 48
     },
     {
       "value": "display",
-      "count": 993
+      "count": 1004
     },
     {
       "value": "fill",
-      "count": 102
+      "count": 148
     },
     {
       "value": "filter",
@@ -1065,11 +1065,11 @@
     },
     {
       "value": "font-family",
-      "count": 164
+      "count": 167
     },
     {
       "value": "font-size",
-      "count": 419
+      "count": 424
     },
     {
       "value": "font-style",
@@ -1077,7 +1077,7 @@
     },
     {
       "value": "font-weight",
-      "count": 176
+      "count": 179
     },
     {
       "value": "grid-column",
@@ -1093,7 +1093,7 @@
     },
     {
       "value": "height",
-      "count": 442
+      "count": 446
     },
     {
       "value": "justify-content",
@@ -1101,7 +1101,7 @@
     },
     {
       "value": "left",
-      "count": 223
+      "count": 229
     },
     {
       "value": "letter-spacing",
@@ -1125,7 +1125,7 @@
     },
     {
       "value": "margin",
-      "count": 241
+      "count": 242
     },
     {
       "value": "margin-bottom",
@@ -1133,11 +1133,11 @@
     },
     {
       "value": "margin-left",
-      "count": 70
+      "count": 72
     },
     {
       "value": "margin-right",
-      "count": 106
+      "count": 107
     },
     {
       "value": "margin-top",
@@ -1145,7 +1145,7 @@
     },
     {
       "value": "max-height",
-      "count": 36
+      "count": 38
     },
     {
       "value": "max-width",
@@ -1157,7 +1157,7 @@
     },
     {
       "value": "min-width",
-      "count": 42
+      "count": 43
     },
     {
       "value": "object-fit",
@@ -1169,7 +1169,7 @@
     },
     {
       "value": "opacity",
-      "count": 133
+      "count": 137
     },
     {
       "value": "order",
@@ -1181,11 +1181,11 @@
     },
     {
       "value": "overflow",
-      "count": 101
+      "count": 103
     },
     {
       "value": "overflow-x",
-      "count": 8
+      "count": 7
     },
     {
       "value": "overflow-y",
@@ -1193,11 +1193,11 @@
     },
     {
       "value": "padding",
-      "count": 407
+      "count": 412
     },
     {
       "value": "padding-bottom",
-      "count": 80
+      "count": 82
     },
     {
       "value": "padding-left",
@@ -1205,7 +1205,7 @@
     },
     {
       "value": "padding-right",
-      "count": 46
+      "count": 47
     },
     {
       "value": "padding-top",
@@ -1221,11 +1221,11 @@
     },
     {
       "value": "position",
-      "count": 518
+      "count": 529
     },
     {
       "value": "right",
-      "count": 132
+      "count": 133
     },
     {
       "value": "stroke",
@@ -1265,15 +1265,15 @@
     },
     {
       "value": "text-transform",
-      "count": 103
+      "count": 105
     },
     {
       "value": "top",
-      "count": 213
+      "count": 217
     },
     {
       "value": "transform",
-      "count": 179
+      "count": 190
     },
     {
       "value": "transform-origin",
@@ -1285,7 +1285,7 @@
     },
     {
       "value": "transition",
-      "count": 130
+      "count": 135
     },
     {
       "value": "transition-delay",
@@ -1301,7 +1301,7 @@
     },
     {
       "value": "visibility",
-      "count": 8
+      "count": 11
     },
     {
       "value": "white-space",
@@ -1309,7 +1309,7 @@
     },
     {
       "value": "width",
-      "count": 792
+      "count": 798
     },
     {
       "value": "will-change",
@@ -1321,7 +1321,7 @@
     },
     {
       "value": "z-index",
-      "count": 143
+      "count": 144
     },
     {
       "value": "zoom",
@@ -1329,7 +1329,7 @@
     }
   ],
   "properties.totalUnique": 165,
-  "properties.prefixed.total": 546,
+  "properties.prefixed.total": 548,
   "properties.prefixed.unique": [
     {
       "value": "-moz-appearance",
@@ -1349,7 +1349,7 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 133
+      "count": 135
     },
     {
       "value": "-ms-flex-direction",
@@ -1469,7 +1469,7 @@
     }
   ],
   "properties.prefixed.totalUnique": 34,
-  "properties.prefixed.share": 0.0503179430467238,
+  "properties.prefixed.share": 0.04966017217942909,
   "properties.browserhacks.total": 1,
   "properties.browserhacks.unique": [
     {
@@ -1478,8 +1478,8 @@
     }
   ],
   "properties.browserhacks.totalUnique": 1,
-  "values.total": 10851,
-  "values.prefixed.total": 234,
+  "values.total": 11035,
+  "values.prefixed.total": 236,
   "values.prefixed.unique": [
     {
       "value": "-moz-fit-content",
@@ -1487,7 +1487,7 @@
     },
     {
       "value": "-ms-flexbox",
-      "count": 219
+      "count": 221
     },
     {
       "value": "-ms-grid",
@@ -1507,8 +1507,8 @@
     }
   ],
   "values.prefixed.totalUnique": 6,
-  "values.prefixed.share": 0.021564832734310202,
-  "values.fontsizes.total": 419,
+  "values.prefixed.share": 0.021386497507929318,
+  "values.fontsizes.total": 424,
   "values.fontsizes.unique": [
     {
       "value": "12",
@@ -1568,7 +1568,7 @@
     },
     {
       "value": "2.4rem",
-      "count": 22
+      "count": 23
     },
     {
       "value": "2.2rem",
@@ -1592,7 +1592,7 @@
     },
     {
       "value": "1.6rem",
-      "count": 48
+      "count": 49
     },
     {
       "value": "1.5rem",
@@ -1600,7 +1600,7 @@
     },
     {
       "value": "1.4rem",
-      "count": 84
+      "count": 85
     },
     {
       "value": "1.3rem",
@@ -1608,7 +1608,7 @@
     },
     {
       "value": "1.2rem",
-      "count": 73
+      "count": 75
     },
     {
       "value": "1.15rem",
@@ -1648,7 +1648,7 @@
     }
   ],
   "values.fontsizes.totalUnique": 34,
-  "values.fontfamilies.total": 164,
+  "values.fontfamilies.total": 167,
   "values.fontfamilies.unique": [
     {
       "value": "\"object-fit: cover; object-position: center\"",
@@ -1672,7 +1672,7 @@
     },
     {
       "value": "LL Brown Pro,Arial,Helvetica,sans-serif",
-      "count": 128
+      "count": 131
     },
     {
       "value": "monospace,monospace",
@@ -1688,7 +1688,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 9,
-  "values.colors.total": 1263,
+  "values.colors.total": 1328,
   "values.colors.unique": [
     {
       "value": "#262525",
@@ -1696,7 +1696,7 @@
     },
     {
       "value": "Brown",
-      "count": 129
+      "count": 132
     },
     {
       "value": "#a70000",
@@ -1796,7 +1796,7 @@
     },
     {
       "value": "#0075e0",
-      "count": 44
+      "count": 45
     },
     {
       "value": "#007ff5",
@@ -1832,7 +1832,7 @@
     },
     {
       "value": "#00369c",
-      "count": 164
+      "count": 169
     },
     {
       "value": "rgba(0,54,156,.9)",
@@ -1868,7 +1868,7 @@
     },
     {
       "value": "#051949",
-      "count": 64
+      "count": 65
     },
     {
       "value": "rgba(5,25,73,.9)",
@@ -1912,7 +1912,7 @@
     },
     {
       "value": "#18191e",
-      "count": 47
+      "count": 48
     },
     {
       "value": "rgba(24,25,30,.8)",
@@ -1956,7 +1956,7 @@
     },
     {
       "value": "#fff",
-      "count": 308
+      "count": 357
     },
     {
       "value": "hsla(0,0%,100%,.9)",
@@ -1976,7 +1976,7 @@
     },
     {
       "value": "hsla(0,0%,100%,.5)",
-      "count": 16
+      "count": 17
     },
     {
       "value": "hsla(0,0%,100%,.4)",
@@ -2000,7 +2000,7 @@
     },
     {
       "value": "#f5f5f5",
-      "count": 13
+      "count": 14
     },
     {
       "value": "#efefef",
@@ -2024,7 +2024,7 @@
     },
     {
       "value": "#e5e5e5",
-      "count": 14
+      "count": 16
     },
     {
       "value": "#dbdbdb",
@@ -2064,7 +2064,7 @@
     },
     {
       "value": "rgba(0,0,0,.5)",
-      "count": 7
+      "count": 8
     },
     {
       "value": "rgba(0,0,0,.4)",
@@ -2145,7 +2145,7 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 77,
+  "values.boxshadows.total": 78,
   "values.boxshadows.unique": [
     {
       "value": "-.2rem .2rem .3rem .1rem rgba(0,0,0,.15)",
@@ -2193,7 +2193,7 @@
     },
     {
       "value": "0 .2rem .4rem 0 rgba(0,0,0,.5)",
-      "count": 4
+      "count": 5
     },
     {
       "value": "0 .2rem .5rem 0 rgba(0,0,0,.2)",
@@ -2293,7 +2293,7 @@
     }
   ],
   "values.textshadows.totalUnique": 1,
-  "values.zindexes.total": 141,
+  "values.zindexes.total": 142,
   "values.zindexes.unique": [
     {
       "value": -20,
@@ -2341,11 +2341,11 @@
     },
     {
       "value": 40,
-      "count": 6
+      "count": 5
     },
     {
       "value": 50,
-      "count": 9
+      "count": 11
     },
     {
       "value": 105,
@@ -2361,7 +2361,7 @@
     }
   ],
   "values.zindexes.totalUnique": 16,
-  "values.animations.durations.total": 174,
+  "values.animations.durations.total": 179,
   "values.animations.durations.unique": [
     {
       "value": ".1s",
@@ -2373,7 +2373,7 @@
     },
     {
       "value": ".2s",
-      "count": 46
+      "count": 49
     },
     {
       "value": ".25s",
@@ -2385,7 +2385,7 @@
     },
     {
       "value": ".4s",
-      "count": 8
+      "count": 9
     },
     {
       "value": ".45s",
@@ -2397,7 +2397,7 @@
     },
     {
       "value": ".6s",
-      "count": 2
+      "count": 3
     },
     {
       "value": ".8s",
@@ -2417,7 +2417,7 @@
     }
   ],
   "values.animations.durations.totalUnique": 13,
-  "values.animations.timingFunctions.total": 158,
+  "values.animations.timingFunctions.total": 163,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(.33,.465,.22,.965)",
@@ -2449,11 +2449,11 @@
     },
     {
       "value": "ease-in-out",
-      "count": 35
+      "count": 36
     },
     {
       "value": "ease-out",
-      "count": 45
+      "count": 49
     },
     {
       "value": "linear",

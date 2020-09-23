@@ -21666,3 +21666,13 @@ a.player-card__wrapper-link:hover .player-card__head__content:after {
   display: block;
   font-weight: 700
 }
+@media only screen and (max-width:999px) {
+  .promo-strip--background {
+    background-image: url(https://www.nufc.co.uk/img/promos/on-this-day.jpg?mode=crop&amp;width=450&amp;height=253&amp;quality=60)
+  }
+}
+@media only screen and (min-width:100px) {
+  .promo-strip--background {
+    background-image: url(https://www.nufc.co.uk/img/promos/on-this-day.jpg?mode=crop&amp;width=450&amp;height=253&amp;quality=75)
+  }
+}

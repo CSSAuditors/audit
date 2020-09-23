@@ -1,6 +1,7 @@
 const files = require('./files')
+const { getMax, getMin } = require('./calc')
 
-const specificity = async (site) => {
+const specificityReport = async (site) => {
   return new Promise(async (resolve, reject) => {
     const folder = files.getFolder(site)
     const specificityFolder = `${folder}/specificity`
@@ -13,12 +14,33 @@ const specificity = async (site) => {
     const specificityRaw = await files.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
+    const maxSpecificity = getMax(specificityData, 'specificity')
+    const minSpecificity = getMin(specificityData, 'specificity')
+    const avgSpecificity = getAverage(specificityData, 'specificity')
+
     console.log('')
     console.log('SPECIFICITY')
-    console.log(`📉[${site.title}] Max specificity: `, Math.max.apply(Math, specificityData.map(spec => spec.specificity)))
+    console.log(`📉[${site.title}] Max specificity: `, maxSpecificity.specificity)
+    console.log(`📉[${site.title}] Min specificity: `, minSpecificity.specificity)
 
-    resolve()
+    resolve({
+      maxSpecificity: maxSpecificity,
+      minSpecificity: minSpecificity,
+    })
   })
 }
 
-module.exports = specificity
+const specificitiesReport = async (sites) => {
+  const arr = []
+
+  for(const site of sites) {
+    arr.push({...{specificity: await specificityReport(site, true)}, site: site})
+  }
+
+  // console.log(arr)
+}
+
+module.exports = {
+  specificityReport,
+  specificitiesReport
+}

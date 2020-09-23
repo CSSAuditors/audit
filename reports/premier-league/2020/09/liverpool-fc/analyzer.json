@@ -1,12 +1,12 @@
 {
-  "stylesheets.size": 1146924,
-  "stylesheets.filesize.uncompressed.totalBytes": 1146924,
-  "stylesheets.filesize.compressed.gzip.totalBytes": 118582,
-  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8966086680547273,
-  "stylesheets.filesize.compressed.brotli.totalBytes": 89727,
-  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9217672661832867,
-  "stylesheets.simplicity": 0.778370557916629,
-  "stylesheets.cohesion.average": 2.52021375464684,
+  "stylesheets.size": 1155424,
+  "stylesheets.filesize.uncompressed.totalBytes": 1155424,
+  "stylesheets.filesize.compressed.gzip.totalBytes": 119967,
+  "stylesheets.filesize.compressed.gzip.compressionRatio": 0.8961705832664026,
+  "stylesheets.filesize.compressed.brotli.totalBytes": 90518,
+  "stylesheets.filesize.compressed.brotli.compressionRatio": 0.9216581964715983,
+  "stylesheets.simplicity": 0.7797143113826251,
+  "stylesheets.cohesion.average": 2.5134232054384147,
   "stylesheets.cohesion.min.count": 20,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -115,8 +115,8 @@
   ],
   "stylesheets.browserhacks.total": 14,
   "stylesheets.browserhacks.totalUnique": 9,
-  "stylesheets.linesOfCode.total": 44487,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 33968,
+  "stylesheets.linesOfCode.total": 44793,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 34180,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -610,11 +610,11 @@
   ],
   "atrules.keyframes.prefixed.totalUnique": 21,
   "atrules.keyframes.prefixed.share": 3,
-  "atrules.mediaqueries.total": 1105,
+  "atrules.mediaqueries.total": 1125,
   "atrules.mediaqueries.unique": [
     {
       "value": "(-webkit-min-device-pixel-ratio:2),\n(min-resolution:192dpi)",
-      "count": 371
+      "count": 374
     },
     {
       "value": "(max-width:39.99em)",
@@ -877,6 +877,10 @@
       "count": 3
     },
     {
+      "value": "only screen and (max-width:380px)",
+      "count": 2
+    },
+    {
       "value": "only screen and (max-width:500px)",
       "count": 1
     },
@@ -885,12 +889,28 @@
       "count": 1
     },
     {
+      "value": "only screen and (max-width:699px)",
+      "count": 2
+    },
+    {
       "value": "only screen and (max-width:700px)",
       "count": 9
     },
     {
+      "value": "only screen and (max-width:975px) and (min-width:775px)",
+      "count": 1
+    },
+    {
       "value": "only screen and (max-width:1000px)",
-      "count": 2
+      "count": 3
+    },
+    {
+      "value": "only screen and (max-width:1090px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-width:551px)",
+      "count": 1
     },
     {
       "value": "only screen and (min-width:700px)",
@@ -966,7 +986,7 @@
     },
     {
       "value": "screen and (max-width:360px)",
-      "count": 1
+      "count": 2
     },
     {
       "value": "screen and (max-width:399px)",
@@ -978,7 +998,7 @@
     },
     {
       "value": "screen and (max-width:499px)",
-      "count": 92
+      "count": 93
     },
     {
       "value": "screen and (max-width:500px)",
@@ -986,7 +1006,7 @@
     },
     {
       "value": "screen and (max-width:519px)",
-      "count": 2
+      "count": 3
     },
     {
       "value": "screen and (max-width:550px)",
@@ -1006,7 +1026,7 @@
     },
     {
       "value": "screen and (max-width:699px)",
-      "count": 60
+      "count": 62
     },
     {
       "value": "screen and (max-width:699px) and (max-width:999px)",
@@ -1066,7 +1086,7 @@
     },
     {
       "value": "screen and (max-width:999px)",
-      "count": 28
+      "count": 29
     },
     {
       "value": "screen and (max-width:1000px)",
@@ -1194,7 +1214,7 @@
     },
     {
       "value": "screen and (min-width:699px)",
-      "count": 3
+      "count": 4
     },
     {
       "value": "screen and (min-width:700px)",
@@ -1322,7 +1342,7 @@
     },
     {
       "value": "screen and (min-width:1000px)",
-      "count": 38
+      "count": 39
     },
     {
       "value": "screen and (min-width:1000px) and (max-width:1140px)",
@@ -1379,9 +1399,13 @@
     {
       "value": "screen\\0",
       "count": 1
+    },
+    {
+      "value": "screen�",
+      "count": 1
     }
   ],
-  "atrules.mediaqueries.totalUnique": 192,
+  "atrules.mediaqueries.totalUnique": 198,
   "atrules.mediaqueries.browserhacks.total": 1,
   "atrules.mediaqueries.browserhacks.unique": [
     {
@@ -1399,23 +1423,23 @@
   "atrules.supports.total": 4,
   "atrules.supports.unique": [
     {
-      "value": "((-webkit-clip-path:polygon(0 0,100% 0,100% 75%,0 100%)) or (clip-path:polygon(0 0,100% 0,100% 75%,0 100%)))",
-      "count": 3
+      "value": "((-o-object-fit:cover) or (object-fit:cover))",
+      "count": 1
     },
     {
-      "value": "(object-fit:cover)",
-      "count": 1
+      "value": "((-webkit-clip-path:polygon(0 0,100% 0,100% 75%,0 100%)) or (clip-path:polygon(0 0,100% 0,100% 75%,0 100%)))",
+      "count": 3
     }
   ],
   "atrules.supports.totalUnique": 2,
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 8608,
+  "rules.total": 8679,
   "rules.empty.total": 0,
   "rules.selectors.min": 1,
   "rules.selectors.max": 40,
-  "rules.selectors.average": 1.2847351301115242,
+  "rules.selectors.average": 1.282521027768176,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#android-app-banner"
@@ -1463,17 +1487,25 @@
     ".Opta_F_GR_N .Opta-Overlay.Opta-Home .Opta-Shirt",
     ".Opta_F_GR_N .Opta-Overlay.Opta-Home h3"
   ],
-  "selectors.total": 11059,
-  "selectors.totalUnique": 7401,
-  "selectors.js.total": 1,
+  "selectors.total": 11131,
+  "selectors.totalUnique": 7432,
+  "selectors.js.total": 3,
   "selectors.js.unique": [
     {
       "value": ".js .site-header .mobile-main-menu",
       "count": 1
+    },
+    {
+      "value": ".video-error__call-to-action a.js-subscribe-button",
+      "count": 1
+    },
+    {
+      "value": ".video-error__call-to-action a.js-subscribe-button:hover",
+      "count": 1
     }
   ],
-  "selectors.js.totalUnique": 1,
-  "selectors.id.total": 703,
+  "selectors.js.totalUnique": 3,
+  "selectors.id.total": 718,
   "selectors.id.unique": [
     {
       "value": "#android-app-banner",
@@ -1750,6 +1782,10 @@
     {
       "value": "#cboxWrapper",
       "count": 1
+    },
+    {
+      "value": "#cms-block-4359 .last-next-match + .last-next-match-background",
+      "count": 2
     },
     {
       "value": "#colorbox",
@@ -2121,6 +2157,10 @@
     },
     {
       "value": "#featured-content a",
+      "count": 1
+    },
+    {
+      "value": "#featured-content::before",
       "count": 1
     },
     {
@@ -2777,7 +2817,7 @@
     },
     {
       "value": "#players-carousel .players-carousel .carousel-item .player-info .name",
-      "count": 2
+      "count": 5
     },
     {
       "value": "#players-carousel .players-carousel .carousel-item .player-info .name .back",
@@ -2789,11 +2829,11 @@
     },
     {
       "value": "#players-carousel .players-carousel .carousel-item .player-info .number",
-      "count": 2
+      "count": 4
     },
     {
       "value": "#players-carousel .players-carousel .carousel-item .player-info .number::before",
-      "count": 2
+      "count": 3
     },
     {
       "value": "#players-carousel .players-carousel .carousel-item .player-info:after",
@@ -2870,6 +2910,10 @@
     {
       "value": "#players-carousel .players-carousel:not(.owl-theme) > :nth-child(-n+4)",
       "count": 2
+    },
+    {
+      "value": "#players-carousel .principle-partners-logos a[title~=AXA] img",
+      "count": 1
     },
     {
       "value": "#players-carousel .slideBtn",
@@ -3049,7 +3093,7 @@
     },
     {
       "value": "#two-col-content-grid .two-col-content-grid-item .media-image-wrap > img",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#two-col-content-grid .two-col-content-grid-item a",
@@ -3104,8 +3148,12 @@
       "count": 1
     },
     {
+      "value": ".home #players-carousel .principle-partners-logos-inner a:nth-child(4) img",
+      "count": 3
+    },
+    {
       "value": ".home #players-carousel .principle-partners-logos-inner img",
-      "count": 2
+      "count": 3
     },
     {
       "value": ".lfcMembershipTable input#direct_debit_payment_dd_acc_sortcode1",
@@ -3380,7 +3428,7 @@
       "count": 7
     }
   ],
-  "selectors.id.totalUnique": 476,
+  "selectors.id.totalUnique": 480,
   "selectors.universal.total": 107,
   "selectors.universal.unique": [
     {
@@ -3568,7 +3616,7 @@
       }
     }
   ],
-  "selectors.identifiers.average": 3.51207161587847,
+  "selectors.identifiers.average": 3.513610636959842,
   "selectors.identifiers.max.value": ".Opta .Opta_F_PT_N .Opta-Ratings .Opta-Rating-Team .Opta-Striped tbody tr.Opta-FeatureHeader td.Opta-Score .Opta-JS-Score div.Opta-Rating-Key",
   "selectors.identifiers.max.count": 13,
   "selectors.identifiers.top": [
@@ -3605,8 +3653,8 @@
     }
   ],
   "selectors.complexity.max.count": 2,
-  "selectors.complexity.average": 3.535401030834614,
-  "selectors.complexity.sum": 39098,
+  "selectors.complexity.average": 3.536968825801815,
+  "selectors.complexity.sum": 39370,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -3614,31 +3662,31 @@
     },
     {
       "value": 1,
-      "count": 1548
+      "count": 1559
     },
     {
       "value": 2,
-      "count": 2142
+      "count": 2150
     },
     {
       "value": 3,
-      "count": 2249
+      "count": 2262
     },
     {
       "value": 4,
-      "count": 1924
+      "count": 1931
     },
     {
       "value": 5,
-      "count": 1620
+      "count": 1641
     },
     {
       "value": 6,
-      "count": 859
+      "count": 870
     },
     {
       "value": 7,
-      "count": 370
+      "count": 371
     },
     {
       "value": 8,
@@ -3702,11 +3750,11 @@
     }
   ],
   "selectors.browserhacks.totalUnique": 8,
-  "declarations.total": 21694,
-  "declarations.totalUnique": 4082,
-  "declarations.importants.total": 1478,
-  "declarations.importants.share": 0.06812943671061122,
-  "properties.total": 21694,
+  "declarations.total": 21814,
+  "declarations.totalUnique": 4104,
+  "declarations.importants.total": 1505,
+  "declarations.importants.share": 0.06899239020812323,
+  "properties.total": 21814,
   "properties.unique": [
     {
       "value": "-khtml-border-radius",
@@ -3893,6 +3941,14 @@
       "count": 3
     },
     {
+      "value": "-o-object-fit",
+      "count": 1
+    },
+    {
+      "value": "-o-object-position",
+      "count": 1
+    },
+    {
       "value": "-o-transform",
       "count": 29
     },
@@ -4050,7 +4106,7 @@
     },
     {
       "value": "background",
-      "count": 522
+      "count": 528
     },
     {
       "value": "background-clip",
@@ -4062,11 +4118,11 @@
     },
     {
       "value": "background-image",
-      "count": 887
+      "count": 896
     },
     {
       "value": "background-position",
-      "count": 570
+      "count": 573
     },
     {
       "value": "background-position-x",
@@ -4078,11 +4134,11 @@
     },
     {
       "value": "background-repeat",
-      "count": 412
+      "count": 416
     },
     {
       "value": "background-size",
-      "count": 457
+      "count": 462
     },
     {
       "value": "border",
@@ -4154,7 +4210,7 @@
     },
     {
       "value": "bottom",
-      "count": 202
+      "count": 204
     },
     {
       "value": "box-shadow",
@@ -4178,11 +4234,11 @@
     },
     {
       "value": "color",
-      "count": 691
+      "count": 694
     },
     {
       "value": "content",
-      "count": 233
+      "count": 234
     },
     {
       "value": "cursor",
@@ -4194,7 +4250,7 @@
     },
     {
       "value": "display",
-      "count": 2033
+      "count": 2057
     },
     {
       "value": "dominant-baseline",
@@ -4258,7 +4314,7 @@
     },
     {
       "value": "font-size",
-      "count": 744
+      "count": 748
     },
     {
       "value": "font-style",
@@ -4270,11 +4326,11 @@
     },
     {
       "value": "font-weight",
-      "count": 228
+      "count": 229
     },
     {
       "value": "height",
-      "count": 1148
+      "count": 1155
     },
     {
       "value": "justify-content",
@@ -4282,7 +4338,7 @@
     },
     {
       "value": "left",
-      "count": 393
+      "count": 395
     },
     {
       "value": "letter-spacing",
@@ -4290,7 +4346,7 @@
     },
     {
       "value": "line-height",
-      "count": 309
+      "count": 311
     },
     {
       "value": "list-style",
@@ -4302,7 +4358,7 @@
     },
     {
       "value": "margin",
-      "count": 784
+      "count": 793
     },
     {
       "value": "margin-bottom",
@@ -4318,7 +4374,7 @@
     },
     {
       "value": "margin-top",
-      "count": 268
+      "count": 270
     },
     {
       "value": "max-height",
@@ -4326,7 +4382,7 @@
     },
     {
       "value": "max-width",
-      "count": 178
+      "count": 179
     },
     {
       "value": "min-height",
@@ -4334,7 +4390,7 @@
     },
     {
       "value": "min-width",
-      "count": 89
+      "count": 90
     },
     {
       "value": "object-fit",
@@ -4378,7 +4434,7 @@
     },
     {
       "value": "padding",
-      "count": 831
+      "count": 833
     },
     {
       "value": "padding-bottom",
@@ -4394,7 +4450,7 @@
     },
     {
       "value": "padding-top",
-      "count": 137
+      "count": 141
     },
     {
       "value": "perspective",
@@ -4406,7 +4462,7 @@
     },
     {
       "value": "position",
-      "count": 878
+      "count": 879
     },
     {
       "value": "resize",
@@ -4414,7 +4470,7 @@
     },
     {
       "value": "right",
-      "count": 265
+      "count": 266
     },
     {
       "value": "scroll-behavior",
@@ -4470,7 +4526,7 @@
     },
     {
       "value": "text-indent",
-      "count": 35
+      "count": 38
     },
     {
       "value": "text-overflow",
@@ -4486,11 +4542,11 @@
     },
     {
       "value": "text-transform",
-      "count": 89
+      "count": 90
     },
     {
       "value": "top",
-      "count": 412
+      "count": 415
     },
     {
       "value": "touch-action",
@@ -4546,7 +4602,7 @@
     },
     {
       "value": "width",
-      "count": 1990
+      "count": 2007
     },
     {
       "value": "will-change",
@@ -4569,8 +4625,8 @@
       "count": 4
     }
   ],
-  "properties.totalUnique": 215,
-  "properties.prefixed.total": 750,
+  "properties.totalUnique": 217,
+  "properties.prefixed.total": 752,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-border-radius",
@@ -4757,6 +4813,14 @@
       "count": 3
     },
     {
+      "value": "-o-object-fit",
+      "count": 1
+    },
+    {
+      "value": "-o-object-position",
+      "count": 1
+    },
+    {
       "value": "-o-transform",
       "count": 29
     },
@@ -4873,12 +4937,12 @@
       "count": 18
     }
   ],
-  "properties.prefixed.totalUnique": 75,
-  "properties.prefixed.share": 0.03457177099658892,
+  "properties.prefixed.totalUnique": 77,
+  "properties.prefixed.share": 0.0344732740441918,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 21694,
+  "values.total": 21814,
   "values.prefixed.total": 44,
   "values.prefixed.unique": [
     {
@@ -4959,8 +5023,8 @@
     }
   ],
   "values.prefixed.totalUnique": 19,
-  "values.prefixed.share": 0.0020282105651332166,
-  "values.fontsizes.total": 742,
+  "values.prefixed.share": 0.0020170532685431374,
+  "values.fontsizes.total": 746,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -5187,6 +5251,10 @@
       "count": 4
     },
     {
+      "value": "1.55rem",
+      "count": 1
+    },
+    {
       "value": "24px",
       "count": 12
     },
@@ -5227,6 +5295,10 @@
       "count": 12
     },
     {
+      "value": "1.33rem",
+      "count": 1
+    },
+    {
       "value": "21px",
       "count": 3
     },
@@ -5252,7 +5324,7 @@
     },
     {
       "value": "1.2rem",
-      "count": 7
+      "count": 8
     },
     {
       "value": "19px",
@@ -5320,7 +5392,7 @@
     },
     {
       "value": ".8em",
-      "count": 12
+      "count": 13
     },
     {
       "value": "80%",
@@ -5399,7 +5471,7 @@
       "count": 2
     }
   ],
-  "values.fontsizes.totalUnique": 109,
+  "values.fontsizes.totalUnique": 111,
   "values.fontfamilies.total": 11,
   "values.fontfamilies.unique": [
     {
@@ -5440,7 +5512,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 9,
-  "values.colors.total": 2257,
+  "values.colors.total": 2265,
   "values.colors.unique": [
     {
       "value": "#d63838",
@@ -5812,7 +5884,7 @@
     },
     {
       "value": "#e31b23",
-      "count": 239
+      "count": 240
     },
     {
       "value": "rgba(227,27,35,.8)",
@@ -5852,7 +5924,7 @@
     },
     {
       "value": "#fff",
-      "count": 510
+      "count": 513
     },
     {
       "value": "rgba(255,255,255,.95)",
@@ -5924,7 +5996,7 @@
     },
     {
       "value": "#e3e3e3",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#e0e0e0",
@@ -5960,7 +6032,7 @@
     },
     {
       "value": "#d2d2d2",
-      "count": 2
+      "count": 3
     },
     {
       "value": "#cdcdcd",
@@ -5968,7 +6040,7 @@
     },
     {
       "value": "#ccc",
-      "count": 76
+      "count": 77
     },
     {
       "value": "#c8c8c8",
@@ -6163,6 +6235,10 @@
       "count": 2
     },
     {
+      "value": "#1a1a1a",
+      "count": 1
+    },
+    {
       "value": "#111",
       "count": 7
     },
@@ -6239,7 +6315,7 @@
       "count": 1
     }
   ],
-  "values.colors.totalUnique": 199,
+  "values.colors.totalUnique": 200,
   "values.colors.duplicates.unique": [
     {
       "notations": [
