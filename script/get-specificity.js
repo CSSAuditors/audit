@@ -14,7 +14,7 @@ const specificityReport = async (site, silent) => {
     const specificityRaw = await files.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
-    const maxSpecificity = getMax(specificityData, 'specificity', false, true)
+    const maxSpecificity = getMax(specificityData, 'specificity')
     const minSpecificity = getMin(specificityData, 'specificity', false, true)
 
     if(!silent) {
@@ -41,7 +41,7 @@ const specificitiesReport = async (sites) => {
   console.log('')
   console.log('SPECIFICITIES')
 
-  const maxSpecificity = getMax(arr, 'specificity', 'maxSpecificity', true)
+  const maxSpecificity = getMax(arr, 'specificity', 'maxSpecificity')
   const minSpecificity = getMin(arr, 'specificity', 'minSpecificity', true)
 
   console.log(`📊 Site with highest specificity: ${maxSpecificity.site.title} [${maxSpecificity['specificity']['maxSpecificity']}]`)

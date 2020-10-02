@@ -1,4 +1,4 @@
-const getMax = (arr, prop1, prop2) => arr.reduce((a, b) => {
+const getMax = (arr, prop1, prop2, prop3) => arr.reduce((a, b) => {
   let c
   let d
 
@@ -15,7 +15,7 @@ const getMax = (arr, prop1, prop2) => arr.reduce((a, b) => {
   return c > d ? a : b
 })
 
-const getMin = (arr, prop1, prop2, zero) => arr.reduce((a, b) => {
+const getMin = (arr, prop1, prop2, prop3, zero) => arr.reduce((a, b) => {
   let c
   let d
 
@@ -34,6 +34,7 @@ const getMin = (arr, prop1, prop2, zero) => arr.reduce((a, b) => {
 
 const getAverage = (arr, prop1, prop2) => {
   let average = 0
+
   arr.map((a) => {
     let b
 
@@ -51,6 +52,26 @@ const getAverage = (arr, prop1, prop2) => {
   return average / arr.length
 }
 
+const getOverall = (arr, prop1, prop2) => {
+  let count = 0
+
+  arr.map((a) => {
+    let b
+
+    if(prop1) {
+      b = a && a.hasOwnProperty(prop1) ? a[prop1] : 0
+    }
+
+    if(prop2) {
+      b = b && b.hasOwnProperty(prop2) ? b[prop2] : 0
+    }
+
+    count += b
+  })
+
+  return count
+}
+
 const getRound = (a) => a.toFixed(2)
 
 const getPercent = (a, b) => getRound((a === 0 || b === 0) ? 0 : parseFloat(a / b * 100))
@@ -59,6 +80,7 @@ module.exports = {
   getMax,
   getMin,
   getAverage,
+  getOverall,
   getRound,
   getPercent
 }
