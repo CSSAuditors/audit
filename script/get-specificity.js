@@ -1,7 +1,7 @@
 const files = require('./files')
 const { getMax, getMin } = require('./calc')
 
-const specificityReport = async (site) => {
+const specificityReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = files.getFolder(site)
     const specificityFolder = `${folder}/specificity`
@@ -14,18 +14,19 @@ const specificityReport = async (site) => {
     const specificityRaw = await files.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
-    const maxSpecificity = getMax(specificityData, 'specificity')
-    const minSpecificity = getMin(specificityData, 'specificity')
-    const avgSpecificity = getAverage(specificityData, 'specificity')
+    const maxSpecificity = getMax(specificityData, 'specificity', false, true)
+    const minSpecificity = getMin(specificityData, 'specificity', false, true)
 
-    console.log('')
-    console.log('SPECIFICITY')
-    console.log(`📉[${site.title}] Max specificity: `, maxSpecificity.specificity)
-    console.log(`📉[${site.title}] Min specificity: `, minSpecificity.specificity)
+    if(!silent) {
+      console.log('')
+      console.log('SPECIFICITY')
+      console.log(`📉[${site.title}] Max specificity: `, maxSpecificity.specificity)
+      console.log(`📉[${site.title}] Min specificity: `, minSpecificity.specificity)
+    }
 
     resolve({
-      maxSpecificity: maxSpecificity,
-      minSpecificity: minSpecificity,
+      maxSpecificity: maxSpecificity.specificity,
+      minSpecificity: minSpecificity.specificity,
     })
   })
 }
@@ -37,7 +38,19 @@ const specificitiesReport = async (sites) => {
     arr.push({...{specificity: await specificityReport(site, true)}, site: site})
   }
 
-  // console.log(arr)
+  console.log('')
+  console.log('SPECIFICITIES')
+
+  const maxSpecificity = getMax(arr, 'specificity', 'maxSpecificity', true)
+  const minSpecificity = getMin(arr, 'specificity', 'minSpecificity', true)
+
+  console.log(`📊 Site with highest specificity: ${maxSpecificity.site.title} [${maxSpecificity['specificity']['maxSpecificity']}]`)
+  console.log(`📊 Site with lowest specificity: ${minSpecificity.site.title} [${minSpecificity['specificity']['minSpecificity']}]`)
+
+  return {
+    maxSpecificity: maxSpecificity,
+    minSpecificity: minSpecificity,
+  }
 }
 
 module.exports = {
