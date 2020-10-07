@@ -42,14 +42,11 @@ const specificitiesReport = async (sites) => {
   console.log('SPECIFICITIES')
 
   const maxSpecificity = getMax(arr, 'specificity', 'maxSpecificity')
-  const minSpecificity = getMin(arr, 'specificity', 'minSpecificity', true)
 
   console.log(`📊 Site with highest specificity: ${maxSpecificity.site.title} [${maxSpecificity['specificity']['maxSpecificity']}]`)
-  console.log(`📊 Site with lowest specificity: ${minSpecificity.site.title} [${minSpecificity['specificity']['minSpecificity']}]`)
 
   return {
-    maxSpecificity: maxSpecificity,
-    minSpecificity: minSpecificity,
+    maxSpecificity: maxSpecificity
   }
 }
 

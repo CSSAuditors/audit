@@ -10,7 +10,7 @@ const analyzerScript = require('./run-analyzer')
 const { extractorReport, extractorsReport } = require('./get-extractor')
 const { validatorReport, validatorsReport } = require('./get-validator')
 const { coverageReport, coveragesReport } = require('./get-coverage')
-const wappalyzerReport = require('./get-wappalyzer')
+const { wappalyzerReport, wappalyzersReport } = require('./get-wappalyzer')
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
@@ -117,6 +117,10 @@ const getWappalyzer = async () => {
   }
 }
 
+const getWappalyzers = async () => {
+  await wappalyzersReport(sites)
+}
+
 const getSpecificity = async () => {
   for(const site of sites) {
     await specificityReport(site)
@@ -162,6 +166,7 @@ module.exports = {
   getCoverage,
   getCoverages,
   getWappalyzer,
+  getWappalyzers,
   getSpecificity,
   getSpecificities,
   getAnalyzer,

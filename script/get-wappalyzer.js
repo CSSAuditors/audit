@@ -1,6 +1,7 @@
 const files = require('./files')
+const { getPercent } = require('./calc')
 
-const wappalyzer = async (site) => {
+const wappalyzerReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = files.getFolder(site)
     const wappalyzerFile = `${folder}/wappalyzer.json`
@@ -16,12 +17,41 @@ const wappalyzer = async (site) => {
 
     const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
 
-    console.log('')
-    console.log('WAPPALYZER')
-    console.log(`📉[${site.title}] UI frameworks:`, frameworksUsed)
 
-    resolve()
+    if(!silent) {
+      console.log('')
+      console.log('WAPPALYZER')
+      console.log(`📉[${site.title}] UI frameworks:`, frameworksUsed)
+    }
+
+    resolve(frameworksUsed)
   })
 }
 
-module.exports = wappalyzer
+const wappalyzersReport = async (sites) => {
+  const arr = []
+
+  for(const site of sites) {
+    arr.push({...{frameworks: await wappalyzerReport(site, true)}, site: site})
+  }
+
+  console.log('')
+  console.log('WAPPALYZERS')
+
+  const frameworks = arr.filter(item => item.frameworks !== 'None')
+
+  frameworks.forEach(framework => {
+    console.log(`📊 ${framework.site.title} uses these UI frameworks: ${framework.frameworks}`)
+  })
+
+  console.log(`📊 Percent of sites that uses UI frameworks: ${getPercent(frameworks.length, arr.length)}`)
+
+  return {
+    frameworks: frameworks
+  }
+}
+
+module.exports = {
+  wappalyzerReport,
+  wappalyzersReport
+}
