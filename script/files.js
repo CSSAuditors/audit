@@ -91,6 +91,12 @@ const getFolder = (site) => {
   return folder
 }
 
+const getParentFolder = (site) => {
+  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}`)
+
+  return folder
+}
+
 module.exports = {
   getCurrentDirectoryBase,
   directoryExists,
@@ -98,5 +104,6 @@ module.exports = {
   fileExists,
   saveFile,
   getFile,
-  getFolder
+  getFolder,
+  getParentFolder,
 }

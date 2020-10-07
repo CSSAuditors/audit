@@ -29,10 +29,15 @@ const getMin = (arr, prop1, prop2, prop3, zero) => arr.reduce((a, b) => {
     d = d && d.hasOwnProperty(prop2) ? d[prop2] : 0
   }
 
+  if(prop3) {
+    c = c && c.hasOwnProperty(prop3) ? c[prop3] : 0
+    d = d && d.hasOwnProperty(prop3) ? d[prop3] : 0
+  }
+
   return zero ? c === 0 ? b : d === 0 ? a : c < d ? a : b : c < d ? a : b
 })
 
-const getAverage = (arr, prop1, prop2) => {
+const getAverage = (arr, prop1, prop2, prop3) => {
   let average = 0
 
   arr.map((a) => {
@@ -44,6 +49,10 @@ const getAverage = (arr, prop1, prop2) => {
 
     if(prop2) {
       b = b && b.hasOwnProperty(prop2) ? b[prop2] : 0
+    }
+
+    if(prop3) {
+      b = b && b.hasOwnProperty(prop3) ? b[prop3] : 0
     }
 
     average += b

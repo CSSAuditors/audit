@@ -28,23 +28,29 @@ const wappalyzerReport = async (site, silent) => {
   })
 }
 
-const wappalyzersReport = async (sites) => {
+const wappalyzersReport = async (sites, silent) => {
   const arr = []
 
+  console.log(silent);
+
   for(const site of sites) {
-    arr.push({...{frameworks: await wappalyzerReport(site, true)}, site: site})
+    arr.push({...{frameworks: await wappalyzerReport(site, silent)}, site: site})
   }
 
-  console.log('')
-  console.log('WAPPALYZERS')
+  if(!silent) {
+    console.log('')
+    console.log('WAPPALYZERS')
+  }
 
   const frameworks = arr.filter(item => item.frameworks !== 'None')
 
-  frameworks.forEach(framework => {
-    console.log(`📊 ${framework.site.title} uses these UI frameworks: ${framework.frameworks}`)
-  })
+  if(!silent) {
+    frameworks.forEach(framework => {
+      console.log(`📊 ${framework.site.title} uses these UI frameworks: ${framework.frameworks}`)
+    })
 
-  console.log(`📊 Percent of sites that uses UI frameworks: ${getPercent(frameworks.length, arr.length)}`)
+    console.log(`📊 Percent of sites that uses UI frameworks: ${getPercent(frameworks.length, arr.length)}`)
+  }
 
   return {
     frameworks: frameworks
