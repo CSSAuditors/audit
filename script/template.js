@@ -8,9 +8,19 @@ const template = (string, data) => {
   return ret;
 }
 
-const wrapLines = (obj, spl, wrap, jn) => obj.split(spl).map(i => i.length > 0 ? `<${wrap}>${i}</${wrap}>` : i).join(jn)
+const wrapLines = (obj, spl, wrap, jn) => obj.split(spl).map(i => i.trim().length > 0 ? `<${wrap}>${i.trim()}</${wrap}>` : i).join(jn)
+
+const generateSites = (sites) => sites.map(i => i.url && i.title ? `<li><a href="${i.url}" target="_blank">${i.title}</a></li>` : i).join('')
+
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+const getMonth = (i) => months[i-1]
+
+const reportDate = (site) => `${site.year}, ${getMonth(site.month)}`
 
 module.exports = {
   template,
   wrapLines,
+  generateSites,
+ reportDate,
 }

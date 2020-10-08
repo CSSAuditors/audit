@@ -1,8 +1,8 @@
 const filesize = require('filesize')
-const files = require('./files')
 const pdf = require('html-pdf')
+const files = require('./files')
 const { getMax, getMin, getAverage, getPercent } = require('./calc')
-const { template, wrapLines } = require('./template')
+const { template, wrapLines, generateSites, reportDate } = require('./template')
 
 const getName = (type) => {
   let name = 'Undefined'
@@ -132,9 +132,10 @@ const getExtractorsReport = async (sites, silent) => {
 }
 
 const generateExtractorsReport = async (sites) => {
+  const folder = files.getReportsFolder(sites[0])
   const report = await getExtractorsReport(sites, true)
 
-  const extractorHTML = `./templates/report.html`
+  const extractorHTML = `./templates/report-sizes.html`
 
   if(!files.fileExists(extractorHTML)) {
     return false
@@ -143,13 +144,19 @@ const generateExtractorsReport = async (sites) => {
   const extractorRaw = await files.getFile(extractorHTML)
 
   const extractorReport = template(extractorRaw, {
-    $htmlReportAll: wrapLines(report.outputAll, '\n', 'p', ''),
-    $htmlReportSingle: wrapLines(report.outputSingle, '\n', 'p', '')
+    $htmlReportAll: `<ul>${wrapLines(report.outputAll, '\n', 'li', '\n')}</ul>`,
+    $htmlReportSingle: `<ul>${wrapLines(report.outputSingle, '\n', 'li', '\n')}</ul>`,
+    $htmlSites: `<ul>${generateSites(sites)}</ul>`,
+    $htmlDate: reportDate(sites[0])
   })
 
-  files.saveFile('./report.html', extractorReport)
+  files.saveFile(`${folder}/report-sizes.html`, extractorReport)
 
-  pdf.create(extractorReport).toFile('./test.pdf', function(err, res) {
+  pdf.create(extractorReport, {
+    format: 'A4',
+    orientation: 'portrait',
+    "border": "1cm"
+  }).toFile(`${folder}/report-sizes.pdf`, function(err, res) {
     if (err) {
       return console.log(err)
     }

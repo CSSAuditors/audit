@@ -91,8 +91,8 @@ const getFolder = (site) => {
   return folder
 }
 
-const getParentFolder = (site) => {
-  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}`)
+const getReportsFolder = (site) => {
+  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}/_reports`)
 
   return folder
 }
@@ -105,5 +105,5 @@ module.exports = {
   saveFile,
   getFile,
   getFolder,
-  getParentFolder,
+  getReportsFolder,
 }
