@@ -11,34 +11,15 @@
       padding: 0;
       margin: 0;
       font-family: 'Josefin Sans', sans-serif;
-      font-size: 15px;
       line-height: 1.5;
       letter-spacing: -0.03ch;
     }
-    header,
-    footer {
-      text-align: center;
-    }
-    header,
-    footer,
+    header div,
+    footer div,
     article {
-      padding: 0 1em;
-    }
-    header,
-    footer,
-    article {
-      max-width: 62ch;
+      max-width: 60ch;
       margin-left: auto;
       margin-right: auto;
-    }
-    footer {
-      margin-top: 1em;
-    }
-    article + article {
-      margin-top: 2rem;
-    }
-    article:last-child {
-      margin-bottom: 2rem;
     }
     h1,
     h2 {
@@ -49,62 +30,126 @@
     a {
       color: #2965F1;
     }
+    @media not print {
+      body {
+        font-size: 20px;
+      }
+      header,
+      footer,
+      section:nth-child(odd) {
+        background-color: #f8f8f8;
+      }
+      header,
+      footer,
+      article {
+        padding: 1px 1em;
+      }
+      header,
+      footer {
+        text-align: center;
+      }
+      header {
+        border-bottom: 1px dashed #2965F1;
+      }
+      footer {
+        border-top: 1px dashed #2965F1;
+      }
+      article {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .just-print {
+        display: none;
+      }
+    }
+    @media print {
+      body {
+        font-size: 13px;
+      }
+      p {
+        page-break-inside: avoid;
+      }
+      .bpp {
+        page-break-before: always;
+      }
+    }
   </style>
   <title>CSS Auditors - File Sizes Report</title>
 </head>
 <body>
   <header>
-    <h1>CSS File Sizes Audit Report</h1>
+    <div>
+      <h1>CSS File Sizes Audit Report</h1>
+    </div>
   </header>
   <main>
-    <article>
-      <h2><span class="blue">#</span>Respect CSS</h2>
-      <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its importance.</p>
-      <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the way CSS could and should be written.</p>
-    </article>
-    <article>
-      <h2>Sizes Report</h2>
-      <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS code is needed to build a site.</p>
-      <p>Sites audited in this report:</p>
-      $htmlSites
-      <p>Date of the audit report: $htmlDate</p>
-    </article>
-    <article>
-      <h2>Tools Used</h2>
-      <p>To generate this report, we used the following tool:</p>
-      <ul>
-        <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
-      </ul>
-      <p>Using this tool, we extracted information about the size of External CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline CSS<sup><a href="#footnote3">3</a></sup>.</p>
-      <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered as such.</p>
-    </article>
-    <article>
-      <h2>The Overall Report</h2>
-      $htmlReportAll
-    </article>
-    <article>
-      <h2>Single Reports</h2>
-      $htmlReportSingle
-    </article>
-    <article>
-      <h2>What We Learned</h2>
-      <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of External CSS code.</p>
-      <p>Style tag CSS is </p>
-      <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by developers of these sites.</p>
-      <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to deliver the least possible amount of code to the end user.</p>
-      <p></p>
-    </article>
-    <article>
-      <h2>Footnotes</h2>
-      <ul>
-        <li id="footnote1"><code>1</code> - External CSS is</li>
-        <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
-        <li id="footnote3"><code>3</code> - Inline CSS is</li>
-      </ul>
-    </article>
+    <section>
+      <article>
+        <h2><span class="blue">#</span>Respect CSS</h2>
+        <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its importance.</p>
+        <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the way CSS could and should be written.</p>
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>Sizes Report</h2>
+        <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS code is needed to build a site.</p>
+        <p>Sites audited in this report:</p>
+        $htmlSites
+        <p>Date of the audit report: $htmlDate</p>
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>Tools Used</h2>
+        <p>To generate this report, we used the following tool:</p>
+        <ul>
+          <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
+        </ul>
+        <p>Using this tool, we extracted information about the size of External CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline CSS<sup><a href="#footnote3">3</a></sup>.</p>
+        <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered as such.</p>
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>The Overall Report</h2>
+        $htmlReportAll
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>Single Reports</h2>
+        $htmlReportSingle
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>What We Learned</h2>
+        <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of External CSS code.</p>
+        <p>Style tag CSS is </p>
+        <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by developers of these sites.</p>
+        <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to deliver the least possible amount of code to the end user.</p>
+        <p></p>
+      </article>
+    </section>
+    <section class="bpp">
+      <article>
+        <h2>Footnotes</h2>
+        <ul>
+          <li id="footnote1"><code>1</code> - External CSS is</li>
+          <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
+          <li id="footnote3"><code>3</code> - Inline CSS is</li>
+        </ul>
+      </article>
+    </section>
   </main>
-  <footer>
-    <p>&copy; 2020 <a href="https://css-auditors.com">CSS Auditors</a>. <span class="blue">#</span>RespectCSS</p>
+  <footer class="bpp">
+    <div>
+      <h2 class="just-print">About CSS Auditors</h2>
+      <p class="just-print">CSS Auditors are a team of expert frontend developers who like to analyse and write CSS code. Using in-depth analyses, experience and knowledge, the team can find possible areas on how to improve and optimise the performance of the CSS code. CSS Auditors are currently <a href="https://www.silvestar.codes" target="_blank">Silvestar Bistrović</a> and <a href="https://smodev.tech/" target="_blank">Ivan Smokrović</a>.</p>
+      <p>&copy; 2020, <a href="https://css-auditors.com">CSS Auditors</a></p>
+      <p><span class="blue">#</span>RespectCSS</p>
+    </div>
   </footer>
 </body>
 </html>

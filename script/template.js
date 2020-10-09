@@ -1,3 +1,9 @@
+const removeEmojis = (string) => {
+  const unified_emoji_ranges = ['\ud83c[\udf00-\udfff]','\ud83d[\udc00-\ude4f]','\ud83d[\ude80-\udeff]']
+  const reg = new RegExp(unified_emoji_ranges.join('|'), 'g')
+
+  return string.replace(reg, '')
+}
 const template = (string, data) => {
   let ret = string
 
@@ -5,7 +11,7 @@ const template = (string, data) => {
     ret = ret.replace(p, data[p]);
   }
 
-  return ret;
+  return removeEmojis(ret);
 }
 
 const wrapLines = (obj, spl, wrap, jn) => obj.split(spl).map(i => i.trim().length > 0 ? `<${wrap}>${i.trim()}</${wrap}>` : i).join(jn)
