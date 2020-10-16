@@ -1,461 +1,862 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      font-family: 'Josefin Sans', sans-serif;
-      line-height: 1.5;
-      letter-spacing: -0.03ch;
-    }
-    header div,
-    footer div,
-    article {
-      max-width: 60ch;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1,
-    h2 {
-      font-family: 'Abril Fatface', cursive;
-      letter-spacing: .1ch;
-    }
-    .blue,
-    a {
-      color: #2965F1;
-    }
-    @media not print {
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <style>
       body {
-        font-size: 20px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.5;
+        letter-spacing: -0.03ch;
       }
-      header,
-      footer,
-      section:nth-child(odd) {
-        background-color: #f8f8f8;
-      }
-      header,
-      footer,
+
+      header div,
+      footer div,
       article {
-        padding: 1px 1em;
+        max-width: 60ch;
+        margin-left: auto;
+        margin-right: auto;
       }
-      header,
-      footer {
-        text-align: center;
+
+      h1,
+      h2 {
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: .1ch;
       }
-      header {
-        border-bottom: 1px dashed #2965F1;
+
+      .blue,
+      a {
+        color: #2965F1;
       }
-      footer {
-        border-top: 1px dashed #2965F1;
+
+      img {
+        max-width: 100%;
+        height: auto;
       }
-      article {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+
+      @media not print {
+        body {
+          font-size: 20px;
+        }
+
+        header,
+        footer,
+        section:nth-child(odd) {
+          background-color: #f8f8f8;
+        }
+
+        header,
+        footer,
+        article {
+          padding: 1px 1em;
+        }
+
+        header,
+        footer {
+          text-align: center;
+        }
+
+        header {
+          border-bottom: 1px dashed #2965F1;
+        }
+
+        footer {
+          border-top: 1px dashed #2965F1;
+        }
+
+        article {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+
+        .just-print {
+          display: none;
+        }
       }
-      .just-print {
-        display: none;
+
+      @media print {
+        body {
+          font-size: 13px;
+        }
+
+        p {
+          page-break-inside: avoid;
+        }
+
+        .bpp {
+          page-break-before: always;
+        }
+
+        .just-web {
+          display: none;
+        }
       }
-    }
-    @media print {
-      body {
-        font-size: 13px;
-      }
-      p {
-        page-break-inside: avoid;
-      }
-      .bpp {
-        page-break-before: always;
-      }
-    }
-  </style>
-  <title>CSS Auditors - File Sizes Report</title>
-</head>
-<body>
-  <header>
-    <div>
-      <h1>CSS File Sizes Audit Report</h1>
-    </div>
-  </header>
-  <main>
-    <section>
-      <article>
-        <h2><span class="blue">#</span>Respect CSS</h2>
-        <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its importance.</p>
-        <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the way CSS could and should be written.</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Sizes Report</h2>
-        <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS code is needed to build a site.</p>
-        <p>Sites audited in this report:</p>
-        <ul><li><a href="https://www.afcb.co.uk/" target="_blank">AFC Bournemouth</a></li><li><a href="https://www.arsenal.com/" target="_blank">Arsenal</a></li><li><a href="https://www.avfc.co.uk/" target="_blank">Aston Villa FC</a></li><li><a href="https://www.brightonandhovealbion.com/" target="_blank">Brighton & Hove Albion</a></li><li><a href="https://www.burnleyfootballclub.com/" target="_blank">Burnley FC</a></li><li><a href="https://www.chelseafc.com/en" target="_blank">Chelsea FC</a></li><li><a href="https://www.cpfc.co.uk/" target="_blank">Crystal Palace FC</a></li><li><a href="https://www.evertonfc.com/home" target="_blank">Everton FC</a></li><li><a href="https://www.lcfc.com/" target="_blank">Leicester City</a></li><li><a href="https://www.liverpoolfc.com/" target="_blank">Liverpool FC</a></li><li><a href="https://www.mancity.com/" target="_blank">Manchester City FC</a></li><li><a href="https://www.manutd.com/" target="_blank">Manchester United FC</a></li><li><a href="https://www.nufc.co.uk/" target="_blank">Newcastle United</a></li><li><a href="https://www.canaries.co.uk/" target="_blank">Norwich FC</a></li><li><a href="https://www.sufc.co.uk/" target="_blank">Sheffield United FC</a></li><li><a href="https://www.southamptonfc.com/" target="_blank">Southampton FC</a></li><li><a href="https://www.tottenhamhotspur.com/" target="_blank">Tottenham Hotspurs</a></li><li><a href="https://www.watfordfc.com/" target="_blank">Watford FC</a></li><li><a href="https://www.whufc.com/" target="_blank">West Ham United FC</a></li><li><a href="https://www.wolves.co.uk/" target="_blank">Wolverhampton Wanderers FC</a></li><li><a href="https://www.brentfordfc.com/" target="_blank">Brentford FC</a></li><li><a href="https://www.fulhamfc.com/" target="_blank">Fulham FC</a></li><li><a href="https://www.leedsunited.com/" target="_blank">Leeds United</a></li><li><a href="https://www.wba.co.uk/" target="_blank">West Bromwich Albion</a></li><li><a href="https://www.premierleague.com/" target="_blank">Premier League site</a></li></ul>
-        <p>Date of the audit report: 2020, September</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Tools Used</h2>
-        <p>To generate this report, we used the following tool:</p>
-        <ul>
-          <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
-        </ul>
-        <p>Using this tool, we extracted information about the size of External CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline CSS<sup><a href="#footnote3">3</a></sup>.</p>
-        <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered as such.</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>The Overall Report</h2>
-        <ul>
-<li> Site with largest External CSS: Premier League site [2.6 MB]</li>
-<li> Site with smallest External CSS: Fulham FC [57.7 kB]</li>
-<li> Average size of External CSS: 930.29 kB</li>
-<li> Site with largest Style tag CSS: Premier League site [63.9 kB]</li>
-<li> Site with smallest Style tag CSS: AFC Bournemouth [0 B]</li>
-<li> Average size of Style tag CSS: 81.22 kB</li>
-<li> Site with largest Inline CSS: Premier League site [922 B]</li>
+
+    </style>
+    <title>CSS Auditors - File Sizes Report</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>CSS File Sizes Audit Report</h1>
+      </div>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2><span class="blue">#</span>Respect CSS</h2>
+          <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its
+            importance.</p>
+          <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the
+            way CSS could and should be written.</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Sizes Report</h2>
+          <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS
+            code is needed to build a site.</p>
+          <p>Sites audited in this report:</p>
+          <ul><li><a href="https://www.afcb.co.uk/" target="_blank">AFC Bournemouth</a></li><li><a href="https://www.arsenal.com/" target="_blank">Arsenal</a></li><li><a href="https://www.avfc.co.uk/" target="_blank">Aston Villa FC</a></li><li><a href="https://www.brightonandhovealbion.com/" target="_blank">Brighton & Hove Albion</a></li><li><a href="https://www.burnleyfootballclub.com/" target="_blank">Burnley FC</a></li><li><a href="https://www.chelseafc.com/en" target="_blank">Chelsea FC</a></li><li><a href="https://www.cpfc.co.uk/" target="_blank">Crystal Palace FC</a></li><li><a href="https://www.evertonfc.com/home" target="_blank">Everton FC</a></li><li><a href="https://www.lcfc.com/" target="_blank">Leicester City</a></li><li><a href="https://www.liverpoolfc.com/" target="_blank">Liverpool FC</a></li><li><a href="https://www.mancity.com/" target="_blank">Manchester City FC</a></li><li><a href="https://www.manutd.com/" target="_blank">Manchester United FC</a></li><li><a href="https://www.nufc.co.uk/" target="_blank">Newcastle United</a></li><li><a href="https://www.canaries.co.uk/" target="_blank">Norwich FC</a></li><li><a href="https://www.sufc.co.uk/" target="_blank">Sheffield United FC</a></li><li><a href="https://www.southamptonfc.com/" target="_blank">Southampton FC</a></li><li><a href="https://www.tottenhamhotspur.com/" target="_blank">Tottenham Hotspurs</a></li><li><a href="https://www.watfordfc.com/" target="_blank">Watford FC</a></li><li><a href="https://www.whufc.com/" target="_blank">West Ham United FC</a></li><li><a href="https://www.wolves.co.uk/" target="_blank">Wolverhampton Wanderers FC</a></li><li><a href="https://www.brentfordfc.com/" target="_blank">Brentford FC</a></li><li><a href="https://www.fulhamfc.com/" target="_blank">Fulham FC</a></li><li><a href="https://www.leedsunited.com/" target="_blank">Leeds United</a></li><li><a href="https://www.wba.co.uk/" target="_blank">West Bromwich Albion</a></li><li><a href="https://www.premierleague.com/" target="_blank">Premier League site</a></li></ul>
+          <p>Date of the audit report: 2020, September</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Tools Used</h2>
+          <p>To generate this report, we used the following tool:</p>
+          <ul>
+            <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
+          </ul>
+          <p>Using this tool, we extracted information about the size of External
+            CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline
+            CSS<sup><a href="#footnote3">3</a></sup>.</p>
+          <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered
+            as such.</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Sizes Report</h2>
+          <ul>
+<li> Site with largest External CSS: Leicester City [2.9 MB/489.57 KB gzipped]</li>
+<li> Site with smallest External CSS: Fulham FC [56.35 KB/25.46 KB gzipped]</li>
+<li> Average size of External CSS: 908.48 KB</li>
+<li> Site with largest Style tag CSS: Chelsea FC [842.44 KB]</li>
+<li> Sites with no Style tag CSS: AFC Bournemouth</li>
+<li> Average size of Style tag CSS: 79.32 KB</li>
+<li> Site with largest Inline CSS: West Ham United FC [9.21 KB]</li>
 <li> Site with smallest Inline CSS: Everton FC [99 B]</li>
-<li> Average size of Inline CSS: 3.62 kB</li>
+<li> Average size of Inline CSS: 3.53 KB</li>
   </ul>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Single Reports</h2>
-        <ul>
+        </article>
+      </section>
+      <section class="bpp just-web">
+        <article>
+          <div id="ReportSizeCombined"></div>
+          <script>
+          Highcharts.chart('ReportSizeCombined', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Sizes Report'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Size [B]'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      plotOptions: {
+          series: {
+              stacking: 'normal'
+          }
+      },
+      series: [{"name":"Gzip CSS","data":[59136,41864,294414,47718,124160,69426,142860,54814,501324,116844,69631,136785,54633,124231,124078,579713,61225,324746,120937,35247,125135,26071,59416,97164,412629]},{"name":"External CSS","data":[524213,313152,1193172,343754,985916,822593,1088590,373551,3045374,1023223,548546,1534022,467144,986463,985140,1627937,337589,954879,987431,213509,985009,57702,457624,796371,2604303]},{"name":"Style tag CSS","data":[0,4938,48595,50,96738,862659,96738,2070,354,5427,26425,75160,413,96776,96738,21950,38625,75959,26710,889,98966,262566,27583,395,63901]},{"name":"Inline CSS","data":[4103,1293,2485,624,2537,3606,4369,99,157,5889,1298,6394,2128,2130,2660,4338,2070,3622,9436,9344,4113,7207,4312,5293,922]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeLink"></div>
+          <script>
+          Highcharts.chart('ReportSizeLink', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'External CSS Sizes'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Size [B]'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"External CSS","data":[524213,313152,1193172,343754,985916,822593,1088590,373551,3045374,1023223,548546,1534022,467144,986463,985140,1627937,337589,954879,987431,213509,985009,57702,457624,796371,2604303]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeGzip"></div>
+          <script>
+          Highcharts.chart('ReportSizeGzip', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Gzip CSS Sizes'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Size [B]'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"Gzip CSS","data":[59136,41864,294414,47718,124160,69426,142860,54814,501324,116844,69631,136785,54633,124231,124078,579713,61225,324746,120937,35247,125135,26071,59416,97164,412629]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeStyle"></div>
+          <script>
+          Highcharts.chart('ReportSizeStyle', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Style tag CSS Sizes'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Size [B]'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"Style tag CSS","data":[0,4938,48595,50,96738,862659,96738,2070,354,5427,26425,75160,413,96776,96738,21950,38625,75959,26710,889,98966,262566,27583,395,63901]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeInline"></div>
+          <script>
+          Highcharts.chart('ReportSizeInline', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Inline CSS Sizes'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Size [B]'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"Inline CSS","data":[4103,1293,2485,624,2537,3606,4369,99,157,5889,1298,6394,2128,2130,2660,4338,2070,3622,9436,9344,4113,7207,4312,5293,922]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Count Report</h2>
+          <ul>
+<li> Site with largest External CSS: West Ham United FC [56]</li>
+<li> Site with smallest External CSS: Newcastle United [1]</li>
+<li> Average size of External CSS: 9</li>
+<li> Site with largest Style tag CSS: Fulham FC [72]</li>
+<li> Sites with no Style tag CSS: AFC Bournemouth</li>
+<li> Average size of Style tag CSS: 12</li>
+<li> Site with largest Inline CSS: West Ham United FC [125]</li>
+<li> Site with smallest Inline CSS: Leicester City [2]</li>
+<li> Average size of Inline CSS: 50</li>
+  </ul>
+        </article>
+      </section>
+      <section class="bpp just-web">
+        <article>
+          <div id="ReportCountCombined"></div>
+          <script>
+          Highcharts.chart('ReportCountCombined', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'External CSS Count'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Count'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      plotOptions: {
+          series: {
+              stacking: 'normal'
+          }
+      },
+      series: [{"name":"External CSS","data":[1,11,11,1,4,37,7,1,4,26,4,1,1,4,4,4,2,2,56,4,5,2,13,13,8]},{"name":"Style tag CSS","data":[0,6,14,1,3,40,3,45,3,6,10,6,1,4,3,16,16,28,10,5,4,72,6,7,4]},{"name":"Inline CSS","data":[80,19,33,6,46,43,68,2,2,109,17,83,43,33,46,41,20,55,125,122,72,64,64,64,16]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountLink"></div>
+          <script>
+          Highcharts.chart('ReportCountLink', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'External CSS Count'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Count'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"External CSS","data":[1,11,11,1,4,37,7,1,4,26,4,1,1,4,4,4,2,2,56,4,5,2,13,13,8]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountStyle"></div>
+          <script>
+          Highcharts.chart('ReportCountStyle', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Style tag CSS Count'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Count'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"Style tag CSS","data":[0,6,14,1,3,40,3,45,3,6,10,6,1,4,3,16,16,28,10,5,4,72,6,7,4]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountInline"></div>
+          <script>
+          Highcharts.chart('ReportCountInline', {
+      chart: {
+        type: 'bar',
+        height: 750
+      },
+      title: {
+        text: 'Inline CSS Count'
+      },
+      xAxis: {
+        categories: ["AFC Bournemouth","Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Leicester City","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Norwich FC","Sheffield United FC","Southampton FC","Tottenham Hotspurs","Watford FC","West Ham United FC","Wolverhampton Wanderers FC","Brentford FC","Fulham FC","Leeds United","West Bromwich Albion","Premier League site"]
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Count'
+        }
+      },
+      legend: {
+          reversed: true
+      },
+      series: [{"name":"Inline CSS","data":[80,19,33,6,46,43,68,2,2,109,17,83,43,33,46,41,20,55,125,122,72,64,64,64,16]}]
+    });
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Single Reports</h2>
+          <ul>
 <li> [AFC Bournemouth] Total count of External CSS: 1</li>
-<li> [AFC Bournemouth] Total size of External CSS: 524.21 kB</li>
-<li> [AFC Bournemouth] Percent of External CSS: 99.22</li>
+<li> [AFC Bournemouth] Total size of External CSS: 511.93 KB</li>
+<li> [AFC Bournemouth] Total gzipped size of External CSS: 57.75 KB</li>
+<li> [AFC Bournemouth] Percent of External CSS: 99</li>
       
 <li> [AFC Bournemouth] Total count of Inline CSS: 80</li>
-<li> [AFC Bournemouth] Total size of Inline CSS: 4.1 kB</li>
-<li> [AFC Bournemouth] Percent of Inline CSS: 0.78</li>
+<li> [AFC Bournemouth] Total size of Inline CSS: 4.01 KB</li>
+<li> [AFC Bournemouth] Total gzipped size of Inline CSS: 389 B</li>
+<li> [AFC Bournemouth] Percent of Inline CSS: 1</li>
       
 <li> [Arsenal] Total count of External CSS: 11</li>
-<li> [Arsenal] Total size of External CSS: 313.15 kB</li>
-<li> [Arsenal] Percent of External CSS: 98.05</li>
+<li> [Arsenal] Total size of External CSS: 305.81 KB</li>
+<li> [Arsenal] Total gzipped size of External CSS: 40.88 KB</li>
+<li> [Arsenal] Percent of External CSS: 98</li>
       
 <li> [Arsenal] Total count of Style tag CSS: 6</li>
-<li> [Arsenal] Total size of Style tag CSS: 4.94 kB</li>
-<li> [Arsenal] Percent of Style tag CSS: 1.55</li>
+<li> [Arsenal] Total size of Style tag CSS: 4.82 KB</li>
+<li> [Arsenal] Total gzipped size of Style tag CSS: 1.08 KB</li>
+<li> [Arsenal] Percent of Style tag CSS: 2</li>
       
 <li> [Arsenal] Total count of Inline CSS: 19</li>
-<li> [Arsenal] Total size of Inline CSS: 1.29 kB</li>
-<li> [Arsenal] Percent of Inline CSS: 0.40</li>
+<li> [Arsenal] Total size of Inline CSS: 1.26 KB</li>
+<li> [Arsenal] Total gzipped size of Inline CSS: 342 B</li>
+<li> [Arsenal] Percent of Inline CSS: 0</li>
       
 <li> [Aston Villa FC] Total count of External CSS: 11</li>
-<li> [Aston Villa FC] Total size of External CSS: 1.19 MB</li>
-<li> [Aston Villa FC] Percent of External CSS: 95.89</li>
+<li> [Aston Villa FC] Total size of External CSS: 1.14 MB</li>
+<li> [Aston Villa FC] Total gzipped size of External CSS: 287.51 KB</li>
+<li> [Aston Villa FC] Percent of External CSS: 96</li>
       
 <li> [Aston Villa FC] Total count of Style tag CSS: 14</li>
-<li> [Aston Villa FC] Total size of Style tag CSS: 48.59 kB</li>
-<li> [Aston Villa FC] Percent of Style tag CSS: 3.91</li>
+<li> [Aston Villa FC] Total size of Style tag CSS: 47.46 KB</li>
+<li> [Aston Villa FC] Total gzipped size of Style tag CSS: 7.65 KB</li>
+<li> [Aston Villa FC] Percent of Style tag CSS: 4</li>
       
 <li> [Aston Villa FC] Total count of Inline CSS: 33</li>
-<li> [Aston Villa FC] Total size of Inline CSS: 2.48 kB</li>
-<li> [Aston Villa FC] Percent of Inline CSS: 0.20</li>
+<li> [Aston Villa FC] Total size of Inline CSS: 2.43 KB</li>
+<li> [Aston Villa FC] Total gzipped size of Inline CSS: 513 B</li>
+<li> [Aston Villa FC] Percent of Inline CSS: 0</li>
       
 <li> [Brighton & Hove Albion] Total count of External CSS: 1</li>
-<li> [Brighton & Hove Albion] Total size of External CSS: 343.75 kB</li>
-<li> [Brighton & Hove Albion] Percent of External CSS: 99.80</li>
+<li> [Brighton & Hove Albion] Total size of External CSS: 335.7 KB</li>
+<li> [Brighton & Hove Albion] Total gzipped size of External CSS: 46.6 KB</li>
+<li> [Brighton & Hove Albion] Percent of External CSS: 100</li>
       
 <li> [Brighton & Hove Albion] Total count of Style tag CSS: 1</li>
 <li> [Brighton & Hove Albion] Total size of Style tag CSS: 50 B</li>
-<li> [Brighton & Hove Albion] Percent of Style tag CSS: 0.01</li>
+<li> [Brighton & Hove Albion] Total gzipped size of Style tag CSS: 56 B</li>
+<li> [Brighton & Hove Albion] Percent of Style tag CSS: 0</li>
       
 <li> [Brighton & Hove Albion] Total count of Inline CSS: 6</li>
 <li> [Brighton & Hove Albion] Total size of Inline CSS: 624 B</li>
-<li> [Brighton & Hove Albion] Percent of Inline CSS: 0.18</li>
+<li> [Brighton & Hove Albion] Total gzipped size of Inline CSS: 223 B</li>
+<li> [Brighton & Hove Albion] Percent of Inline CSS: 0</li>
       
 <li> [Burnley FC] Total count of External CSS: 4</li>
-<li> [Burnley FC] Total size of External CSS: 985.92 kB</li>
-<li> [Burnley FC] Percent of External CSS: 90.85</li>
+<li> [Burnley FC] Total size of External CSS: 962.81 KB</li>
+<li> [Burnley FC] Total gzipped size of External CSS: 121.25 KB</li>
+<li> [Burnley FC] Percent of External CSS: 91</li>
       
 <li> [Burnley FC] Total count of Style tag CSS: 3</li>
-<li> [Burnley FC] Total size of Style tag CSS: 96.74 kB</li>
-<li> [Burnley FC] Percent of Style tag CSS: 8.91</li>
+<li> [Burnley FC] Total size of Style tag CSS: 94.47 KB</li>
+<li> [Burnley FC] Total gzipped size of Style tag CSS: 13.82 KB</li>
+<li> [Burnley FC] Percent of Style tag CSS: 9</li>
       
 <li> [Burnley FC] Total count of Inline CSS: 46</li>
-<li> [Burnley FC] Total size of Inline CSS: 2.54 kB</li>
-<li> [Burnley FC] Percent of Inline CSS: 0.23</li>
+<li> [Burnley FC] Total size of Inline CSS: 2.48 KB</li>
+<li> [Burnley FC] Total gzipped size of Inline CSS: 346 B</li>
+<li> [Burnley FC] Percent of Inline CSS: 0</li>
       
 <li> [Chelsea FC] Total count of External CSS: 37</li>
-<li> [Chelsea FC] Total size of External CSS: 822.59 kB</li>
-<li> [Chelsea FC] Percent of External CSS: 48.71</li>
+<li> [Chelsea FC] Total size of External CSS: 803.31 KB</li>
+<li> [Chelsea FC] Total gzipped size of External CSS: 67.8 KB</li>
+<li> [Chelsea FC] Percent of External CSS: 49</li>
       
 <li> [Chelsea FC] Total count of Style tag CSS: 40</li>
-<li> [Chelsea FC] Total size of Style tag CSS: 862.66 kB</li>
-<li> [Chelsea FC] Percent of Style tag CSS: 51.08</li>
+<li> [Chelsea FC] Total size of Style tag CSS: 842.44 KB</li>
+<li> [Chelsea FC] Total gzipped size of Style tag CSS: 69.01 KB</li>
+<li> [Chelsea FC] Percent of Style tag CSS: 51</li>
       
 <li> [Chelsea FC] Total count of Inline CSS: 43</li>
-<li> [Chelsea FC] Total size of Inline CSS: 3.61 kB</li>
-<li> [Chelsea FC] Percent of Inline CSS: 0.21</li>
+<li> [Chelsea FC] Total size of Inline CSS: 3.52 KB</li>
+<li> [Chelsea FC] Total gzipped size of Inline CSS: 716 B</li>
+<li> [Chelsea FC] Percent of Inline CSS: 0</li>
       
 <li> [Crystal Palace FC] Total count of External CSS: 7</li>
-<li> [Crystal Palace FC] Total size of External CSS: 1.09 MB</li>
-<li> [Crystal Palace FC] Percent of External CSS: 91.50</li>
+<li> [Crystal Palace FC] Total size of External CSS: 1.04 MB</li>
+<li> [Crystal Palace FC] Total gzipped size of External CSS: 139.51 KB</li>
+<li> [Crystal Palace FC] Percent of External CSS: 92</li>
       
 <li> [Crystal Palace FC] Total count of Style tag CSS: 3</li>
-<li> [Crystal Palace FC] Total size of Style tag CSS: 96.74 kB</li>
-<li> [Crystal Palace FC] Percent of Style tag CSS: 8.13</li>
+<li> [Crystal Palace FC] Total size of Style tag CSS: 94.47 KB</li>
+<li> [Crystal Palace FC] Total gzipped size of Style tag CSS: 13.82 KB</li>
+<li> [Crystal Palace FC] Percent of Style tag CSS: 8</li>
       
 <li> [Crystal Palace FC] Total count of Inline CSS: 68</li>
-<li> [Crystal Palace FC] Total size of Inline CSS: 4.37 kB</li>
-<li> [Crystal Palace FC] Percent of Inline CSS: 0.37</li>
+<li> [Crystal Palace FC] Total size of Inline CSS: 4.27 KB</li>
+<li> [Crystal Palace FC] Total gzipped size of Inline CSS: 693 B</li>
+<li> [Crystal Palace FC] Percent of Inline CSS: 0</li>
       
 <li> [Everton FC] Total count of External CSS: 1</li>
-<li> [Everton FC] Total size of External CSS: 373.55 kB</li>
-<li> [Everton FC] Percent of External CSS: 99.42</li>
+<li> [Everton FC] Total size of External CSS: 364.8 KB</li>
+<li> [Everton FC] Total gzipped size of External CSS: 53.53 KB</li>
+<li> [Everton FC] Percent of External CSS: 99</li>
       
 <li> [Everton FC] Total count of Style tag CSS: 45</li>
-<li> [Everton FC] Total size of Style tag CSS: 2.07 kB</li>
-<li> [Everton FC] Percent of Style tag CSS: 0.55</li>
+<li> [Everton FC] Total size of Style tag CSS: 2.02 KB</li>
+<li> [Everton FC] Total gzipped size of Style tag CSS: 78 B</li>
+<li> [Everton FC] Percent of Style tag CSS: 1</li>
       
 <li> [Everton FC] Total count of Inline CSS: 2</li>
 <li> [Everton FC] Total size of Inline CSS: 99 B</li>
-<li> [Everton FC] Percent of Inline CSS: 0.03</li>
+<li> [Everton FC] Total gzipped size of Inline CSS: 89 B</li>
+<li> [Everton FC] Percent of Inline CSS: 0</li>
       
 <li> [Leicester City] Total count of External CSS: 4</li>
-<li> [Leicester City] Total size of External CSS: 3.05 MB</li>
-<li> [Leicester City] Percent of External CSS: 99.98</li>
+<li> [Leicester City] Total size of External CSS: 2.9 MB</li>
+<li> [Leicester City] Total gzipped size of External CSS: 489.57 KB</li>
+<li> [Leicester City] Percent of External CSS: 100</li>
       
 <li> [Leicester City] Total count of Style tag CSS: 3</li>
 <li> [Leicester City] Total size of Style tag CSS: 354 B</li>
-<li> [Leicester City] Percent of Style tag CSS: 0.01</li>
+<li> [Leicester City] Total gzipped size of Style tag CSS: 120 B</li>
+<li> [Leicester City] Percent of Style tag CSS: 0</li>
       
 <li> [Leicester City] Total count of Inline CSS: 2</li>
 <li> [Leicester City] Total size of Inline CSS: 157 B</li>
-<li> [Leicester City] Percent of Inline CSS: 0.01</li>
+<li> [Leicester City] Total gzipped size of Inline CSS: 114 B</li>
+<li> [Leicester City] Percent of Inline CSS: 0</li>
       
 <li> [Liverpool FC] Total count of External CSS: 26</li>
-<li> [Liverpool FC] Total size of External CSS: 1.02 MB</li>
-<li> [Liverpool FC] Percent of External CSS: 98.91</li>
+<li> [Liverpool FC] Total size of External CSS: 999.24 KB</li>
+<li> [Liverpool FC] Total gzipped size of External CSS: 114.11 KB</li>
+<li> [Liverpool FC] Percent of External CSS: 99</li>
       
 <li> [Liverpool FC] Total count of Style tag CSS: 6</li>
-<li> [Liverpool FC] Total size of Style tag CSS: 5.43 kB</li>
-<li> [Liverpool FC] Percent of Style tag CSS: 0.52</li>
+<li> [Liverpool FC] Total size of Style tag CSS: 5.3 KB</li>
+<li> [Liverpool FC] Total gzipped size of Style tag CSS: 1.31 KB</li>
+<li> [Liverpool FC] Percent of Style tag CSS: 1</li>
       
 <li> [Liverpool FC] Total count of Inline CSS: 109</li>
-<li> [Liverpool FC] Total size of Inline CSS: 5.89 kB</li>
-<li> [Liverpool FC] Percent of Inline CSS: 0.57</li>
+<li> [Liverpool FC] Total size of Inline CSS: 5.75 KB</li>
+<li> [Liverpool FC] Total gzipped size of Inline CSS: 471 B</li>
+<li> [Liverpool FC] Percent of Inline CSS: 1</li>
       
 <li> [Manchester City FC] Total count of External CSS: 4</li>
-<li> [Manchester City FC] Total size of External CSS: 548.55 kB</li>
-<li> [Manchester City FC] Percent of External CSS: 95.19</li>
+<li> [Manchester City FC] Total size of External CSS: 535.69 KB</li>
+<li> [Manchester City FC] Total gzipped size of External CSS: 68 KB</li>
+<li> [Manchester City FC] Percent of External CSS: 95</li>
       
 <li> [Manchester City FC] Total count of Style tag CSS: 10</li>
-<li> [Manchester City FC] Total size of Style tag CSS: 26.43 kB</li>
-<li> [Manchester City FC] Percent of Style tag CSS: 4.59</li>
+<li> [Manchester City FC] Total size of Style tag CSS: 25.81 KB</li>
+<li> [Manchester City FC] Total gzipped size of Style tag CSS: 4.54 KB</li>
+<li> [Manchester City FC] Percent of Style tag CSS: 5</li>
       
 <li> [Manchester City FC] Total count of Inline CSS: 17</li>
-<li> [Manchester City FC] Total size of Inline CSS: 1.3 kB</li>
-<li> [Manchester City FC] Percent of Inline CSS: 0.23</li>
+<li> [Manchester City FC] Total size of Inline CSS: 1.27 KB</li>
+<li> [Manchester City FC] Total gzipped size of Inline CSS: 177 B</li>
+<li> [Manchester City FC] Percent of Inline CSS: 0</li>
       
 <li> [Manchester United FC] Total count of External CSS: 1</li>
-<li> [Manchester United FC] Total size of External CSS: 1.53 MB</li>
-<li> [Manchester United FC] Percent of External CSS: 94.95</li>
+<li> [Manchester United FC] Total size of External CSS: 1.46 MB</li>
+<li> [Manchester United FC] Total gzipped size of External CSS: 133.58 KB</li>
+<li> [Manchester United FC] Percent of External CSS: 95</li>
       
 <li> [Manchester United FC] Total count of Style tag CSS: 6</li>
-<li> [Manchester United FC] Total size of Style tag CSS: 75.16 kB</li>
-<li> [Manchester United FC] Percent of Style tag CSS: 4.65</li>
+<li> [Manchester United FC] Total size of Style tag CSS: 73.4 KB</li>
+<li> [Manchester United FC] Total gzipped size of Style tag CSS: 16.33 KB</li>
+<li> [Manchester United FC] Percent of Style tag CSS: 5</li>
       
 <li> [Manchester United FC] Total count of Inline CSS: 83</li>
-<li> [Manchester United FC] Total size of Inline CSS: 6.39 kB</li>
-<li> [Manchester United FC] Percent of Inline CSS: 0.40</li>
+<li> [Manchester United FC] Total size of Inline CSS: 6.24 KB</li>
+<li> [Manchester United FC] Total gzipped size of Inline CSS: 751 B</li>
+<li> [Manchester United FC] Percent of Inline CSS: 0</li>
       
 <li> [Newcastle United] Total count of External CSS: 1</li>
-<li> [Newcastle United] Total size of External CSS: 467.14 kB</li>
-<li> [Newcastle United] Percent of External CSS: 99.46</li>
+<li> [Newcastle United] Total size of External CSS: 456.2 KB</li>
+<li> [Newcastle United] Total gzipped size of External CSS: 53.35 KB</li>
+<li> [Newcastle United] Percent of External CSS: 99</li>
       
 <li> [Newcastle United] Total count of Style tag CSS: 1</li>
 <li> [Newcastle United] Total size of Style tag CSS: 413 B</li>
-<li> [Newcastle United] Percent of Style tag CSS: 0.09</li>
+<li> [Newcastle United] Total gzipped size of Style tag CSS: 206 B</li>
+<li> [Newcastle United] Percent of Style tag CSS: 0</li>
       
 <li> [Newcastle United] Total count of Inline CSS: 43</li>
-<li> [Newcastle United] Total size of Inline CSS: 2.13 kB</li>
-<li> [Newcastle United] Percent of Inline CSS: 0.45</li>
+<li> [Newcastle United] Total size of Inline CSS: 2.08 KB</li>
+<li> [Newcastle United] Total gzipped size of Inline CSS: 237 B</li>
+<li> [Newcastle United] Percent of Inline CSS: 0</li>
       
 <li> [Norwich FC] Total count of External CSS: 4</li>
-<li> [Norwich FC] Total size of External CSS: 986.46 kB</li>
-<li> [Norwich FC] Percent of External CSS: 90.89</li>
+<li> [Norwich FC] Total size of External CSS: 963.34 KB</li>
+<li> [Norwich FC] Total gzipped size of External CSS: 121.32 KB</li>
+<li> [Norwich FC] Percent of External CSS: 91</li>
       
 <li> [Norwich FC] Total count of Style tag CSS: 4</li>
-<li> [Norwich FC] Total size of Style tag CSS: 96.78 kB</li>
-<li> [Norwich FC] Percent of Style tag CSS: 8.92</li>
+<li> [Norwich FC] Total size of Style tag CSS: 94.51 KB</li>
+<li> [Norwich FC] Total gzipped size of Style tag CSS: 13.83 KB</li>
+<li> [Norwich FC] Percent of Style tag CSS: 9</li>
       
 <li> [Norwich FC] Total count of Inline CSS: 33</li>
-<li> [Norwich FC] Total size of Inline CSS: 2.13 kB</li>
-<li> [Norwich FC] Percent of Inline CSS: 0.20</li>
+<li> [Norwich FC] Total size of Inline CSS: 2.08 KB</li>
+<li> [Norwich FC] Total gzipped size of Inline CSS: 424 B</li>
+<li> [Norwich FC] Percent of Inline CSS: 0</li>
       
 <li> [Sheffield United FC] Total count of External CSS: 4</li>
-<li> [Sheffield United FC] Total size of External CSS: 985.14 kB</li>
-<li> [Sheffield United FC] Percent of External CSS: 90.83</li>
+<li> [Sheffield United FC] Total size of External CSS: 962.05 KB</li>
+<li> [Sheffield United FC] Total gzipped size of External CSS: 121.17 KB</li>
+<li> [Sheffield United FC] Percent of External CSS: 91</li>
       
 <li> [Sheffield United FC] Total count of Style tag CSS: 3</li>
-<li> [Sheffield United FC] Total size of Style tag CSS: 96.74 kB</li>
-<li> [Sheffield United FC] Percent of Style tag CSS: 8.92</li>
+<li> [Sheffield United FC] Total size of Style tag CSS: 94.47 KB</li>
+<li> [Sheffield United FC] Total gzipped size of Style tag CSS: 13.82 KB</li>
+<li> [Sheffield United FC] Percent of Style tag CSS: 9</li>
       
 <li> [Sheffield United FC] Total count of Inline CSS: 46</li>
-<li> [Sheffield United FC] Total size of Inline CSS: 2.66 kB</li>
-<li> [Sheffield United FC] Percent of Inline CSS: 0.25</li>
+<li> [Sheffield United FC] Total size of Inline CSS: 2.6 KB</li>
+<li> [Sheffield United FC] Total gzipped size of Inline CSS: 428 B</li>
+<li> [Sheffield United FC] Percent of Inline CSS: 0</li>
       
 <li> [Southampton FC] Total count of External CSS: 4</li>
-<li> [Southampton FC] Total size of External CSS: 1.63 MB</li>
-<li> [Southampton FC] Percent of External CSS: 98.41</li>
+<li> [Southampton FC] Total size of External CSS: 1.55 MB</li>
+<li> [Southampton FC] Total gzipped size of External CSS: 566.13 KB</li>
+<li> [Southampton FC] Percent of External CSS: 98</li>
       
 <li> [Southampton FC] Total count of Style tag CSS: 16</li>
-<li> [Southampton FC] Total size of Style tag CSS: 21.95 kB</li>
-<li> [Southampton FC] Percent of Style tag CSS: 1.33</li>
+<li> [Southampton FC] Total size of Style tag CSS: 21.44 KB</li>
+<li> [Southampton FC] Total gzipped size of Style tag CSS: 4.47 KB</li>
+<li> [Southampton FC] Percent of Style tag CSS: 1</li>
       
 <li> [Southampton FC] Total count of Inline CSS: 41</li>
-<li> [Southampton FC] Total size of Inline CSS: 4.34 kB</li>
-<li> [Southampton FC] Percent of Inline CSS: 0.26</li>
+<li> [Southampton FC] Total size of Inline CSS: 4.24 KB</li>
+<li> [Southampton FC] Total gzipped size of Inline CSS: 963 B</li>
+<li> [Southampton FC] Percent of Inline CSS: 0</li>
       
 <li> [Tottenham Hotspurs] Total count of External CSS: 2</li>
-<li> [Tottenham Hotspurs] Total size of External CSS: 337.59 kB</li>
-<li> [Tottenham Hotspurs] Percent of External CSS: 89.24</li>
+<li> [Tottenham Hotspurs] Total size of External CSS: 329.68 KB</li>
+<li> [Tottenham Hotspurs] Total gzipped size of External CSS: 59.79 KB</li>
+<li> [Tottenham Hotspurs] Percent of External CSS: 89</li>
       
 <li> [Tottenham Hotspurs] Total count of Style tag CSS: 16</li>
-<li> [Tottenham Hotspurs] Total size of Style tag CSS: 38.63 kB</li>
-<li> [Tottenham Hotspurs] Percent of Style tag CSS: 10.21</li>
+<li> [Tottenham Hotspurs] Total size of Style tag CSS: 37.72 KB</li>
+<li> [Tottenham Hotspurs] Total gzipped size of Style tag CSS: 6.88 KB</li>
+<li> [Tottenham Hotspurs] Percent of Style tag CSS: 10</li>
       
 <li> [Tottenham Hotspurs] Total count of Inline CSS: 20</li>
-<li> [Tottenham Hotspurs] Total size of Inline CSS: 2.07 kB</li>
-<li> [Tottenham Hotspurs] Percent of Inline CSS: 0.55</li>
+<li> [Tottenham Hotspurs] Total size of Inline CSS: 2.02 KB</li>
+<li> [Tottenham Hotspurs] Total gzipped size of Inline CSS: 613 B</li>
+<li> [Tottenham Hotspurs] Percent of Inline CSS: 1</li>
       
 <li> [Watford FC] Total count of External CSS: 2</li>
-<li> [Watford FC] Total size of External CSS: 954.88 kB</li>
-<li> [Watford FC] Percent of External CSS: 92.31</li>
+<li> [Watford FC] Total size of External CSS: 932.5 KB</li>
+<li> [Watford FC] Total gzipped size of External CSS: 317.13 KB</li>
+<li> [Watford FC] Percent of External CSS: 92</li>
       
 <li> [Watford FC] Total count of Style tag CSS: 28</li>
-<li> [Watford FC] Total size of Style tag CSS: 75.96 kB</li>
-<li> [Watford FC] Percent of Style tag CSS: 7.34</li>
+<li> [Watford FC] Total size of Style tag CSS: 74.18 KB</li>
+<li> [Watford FC] Total gzipped size of Style tag CSS: 7.71 KB</li>
+<li> [Watford FC] Percent of Style tag CSS: 7</li>
       
 <li> [Watford FC] Total count of Inline CSS: 55</li>
-<li> [Watford FC] Total size of Inline CSS: 3.62 kB</li>
-<li> [Watford FC] Percent of Inline CSS: 0.35</li>
+<li> [Watford FC] Total size of Inline CSS: 3.54 KB</li>
+<li> [Watford FC] Total gzipped size of Inline CSS: 222 B</li>
+<li> [Watford FC] Percent of Inline CSS: 0</li>
       
 <li> [West Ham United FC] Total count of External CSS: 56</li>
-<li> [West Ham United FC] Total size of External CSS: 987.43 kB</li>
-<li> [West Ham United FC] Percent of External CSS: 96.47</li>
+<li> [West Ham United FC] Total size of External CSS: 964.29 KB</li>
+<li> [West Ham United FC] Total gzipped size of External CSS: 118.1 KB</li>
+<li> [West Ham United FC] Percent of External CSS: 96</li>
       
 <li> [West Ham United FC] Total count of Style tag CSS: 10</li>
-<li> [West Ham United FC] Total size of Style tag CSS: 26.71 kB</li>
-<li> [West Ham United FC] Percent of Style tag CSS: 2.61</li>
+<li> [West Ham United FC] Total size of Style tag CSS: 26.08 KB</li>
+<li> [West Ham United FC] Total gzipped size of Style tag CSS: 4.59 KB</li>
+<li> [West Ham United FC] Percent of Style tag CSS: 3</li>
       
 <li> [West Ham United FC] Total count of Inline CSS: 125</li>
-<li> [West Ham United FC] Total size of Inline CSS: 9.44 kB</li>
-<li> [West Ham United FC] Percent of Inline CSS: 0.92</li>
+<li> [West Ham United FC] Total size of Inline CSS: 9.21 KB</li>
+<li> [West Ham United FC] Total gzipped size of Inline CSS: 827 B</li>
+<li> [West Ham United FC] Percent of Inline CSS: 1</li>
       
 <li> [Wolverhampton Wanderers FC] Total count of External CSS: 4</li>
-<li> [Wolverhampton Wanderers FC] Total size of External CSS: 213.51 kB</li>
-<li> [Wolverhampton Wanderers FC] Percent of External CSS: 95.43</li>
+<li> [Wolverhampton Wanderers FC] Total size of External CSS: 208.5 KB</li>
+<li> [Wolverhampton Wanderers FC] Total gzipped size of External CSS: 34.42 KB</li>
+<li> [Wolverhampton Wanderers FC] Percent of External CSS: 95</li>
       
 <li> [Wolverhampton Wanderers FC] Total count of Style tag CSS: 5</li>
 <li> [Wolverhampton Wanderers FC] Total size of Style tag CSS: 889 B</li>
-<li> [Wolverhampton Wanderers FC] Percent of Style tag CSS: 0.40</li>
+<li> [Wolverhampton Wanderers FC] Total gzipped size of Style tag CSS: 342 B</li>
+<li> [Wolverhampton Wanderers FC] Percent of Style tag CSS: 0</li>
       
 <li> [Wolverhampton Wanderers FC] Total count of Inline CSS: 122</li>
-<li> [Wolverhampton Wanderers FC] Total size of Inline CSS: 9.34 kB</li>
-<li> [Wolverhampton Wanderers FC] Percent of Inline CSS: 4.18</li>
+<li> [Wolverhampton Wanderers FC] Total size of Inline CSS: 9.13 KB</li>
+<li> [Wolverhampton Wanderers FC] Total gzipped size of Inline CSS: 806 B</li>
+<li> [Wolverhampton Wanderers FC] Percent of Inline CSS: 4</li>
       
 <li> [Brentford FC] Total count of External CSS: 5</li>
-<li> [Brentford FC] Total size of External CSS: 985.01 kB</li>
-<li> [Brentford FC] Percent of External CSS: 90.53</li>
+<li> [Brentford FC] Total size of External CSS: 961.92 KB</li>
+<li> [Brentford FC] Total gzipped size of External CSS: 122.2 KB</li>
+<li> [Brentford FC] Percent of External CSS: 91</li>
       
 <li> [Brentford FC] Total count of Style tag CSS: 4</li>
-<li> [Brentford FC] Total size of Style tag CSS: 98.97 kB</li>
-<li> [Brentford FC] Percent of Style tag CSS: 9.10</li>
+<li> [Brentford FC] Total size of Style tag CSS: 96.65 KB</li>
+<li> [Brentford FC] Total gzipped size of Style tag CSS: 14.4 KB</li>
+<li> [Brentford FC] Percent of Style tag CSS: 9</li>
       
 <li> [Brentford FC] Total count of Inline CSS: 72</li>
-<li> [Brentford FC] Total size of Inline CSS: 4.11 kB</li>
-<li> [Brentford FC] Percent of Inline CSS: 0.38</li>
+<li> [Brentford FC] Total size of Inline CSS: 4.02 KB</li>
+<li> [Brentford FC] Total gzipped size of Inline CSS: 515 B</li>
+<li> [Brentford FC] Percent of Inline CSS: 0</li>
       
 <li> [Fulham FC] Total count of External CSS: 2</li>
-<li> [Fulham FC] Total size of External CSS: 57.7 kB</li>
-<li> [Fulham FC] Percent of External CSS: 17.62</li>
+<li> [Fulham FC] Total size of External CSS: 56.35 KB</li>
+<li> [Fulham FC] Total gzipped size of External CSS: 25.46 KB</li>
+<li> [Fulham FC] Percent of External CSS: 18</li>
       
 <li> [Fulham FC] Total count of Style tag CSS: 72</li>
-<li> [Fulham FC] Total size of Style tag CSS: 262.57 kB</li>
-<li> [Fulham FC] Percent of Style tag CSS: 80.18</li>
+<li> [Fulham FC] Total size of Style tag CSS: 256.41 KB</li>
+<li> [Fulham FC] Total gzipped size of Style tag CSS: 28.17 KB</li>
+<li> [Fulham FC] Percent of Style tag CSS: 80</li>
       
 <li> [Fulham FC] Total count of Inline CSS: 64</li>
-<li> [Fulham FC] Total size of Inline CSS: 7.21 kB</li>
-<li> [Fulham FC] Percent of Inline CSS: 2.20</li>
+<li> [Fulham FC] Total size of Inline CSS: 7.04 KB</li>
+<li> [Fulham FC] Total gzipped size of Inline CSS: 920 B</li>
+<li> [Fulham FC] Percent of Inline CSS: 2</li>
       
 <li> [Leeds United] Total count of External CSS: 13</li>
-<li> [Leeds United] Total size of External CSS: 457.62 kB</li>
-<li> [Leeds United] Percent of External CSS: 93.48</li>
+<li> [Leeds United] Total size of External CSS: 446.9 KB</li>
+<li> [Leeds United] Total gzipped size of External CSS: 58.02 KB</li>
+<li> [Leeds United] Percent of External CSS: 93</li>
       
 <li> [Leeds United] Total count of Style tag CSS: 6</li>
-<li> [Leeds United] Total size of Style tag CSS: 27.58 kB</li>
-<li> [Leeds United] Percent of Style tag CSS: 5.63</li>
+<li> [Leeds United] Total size of Style tag CSS: 26.94 KB</li>
+<li> [Leeds United] Total gzipped size of Style tag CSS: 5.35 KB</li>
+<li> [Leeds United] Percent of Style tag CSS: 6</li>
       
 <li> [Leeds United] Total count of Inline CSS: 64</li>
-<li> [Leeds United] Total size of Inline CSS: 4.31 kB</li>
-<li> [Leeds United] Percent of Inline CSS: 0.88</li>
+<li> [Leeds United] Total size of Inline CSS: 4.21 KB</li>
+<li> [Leeds United] Total gzipped size of Inline CSS: 640 B</li>
+<li> [Leeds United] Percent of Inline CSS: 1</li>
       
 <li> [West Bromwich Albion] Total count of External CSS: 13</li>
-<li> [West Bromwich Albion] Total size of External CSS: 796.37 kB</li>
-<li> [West Bromwich Albion] Percent of External CSS: 99.29</li>
+<li> [West Bromwich Albion] Total size of External CSS: 777.71 KB</li>
+<li> [West Bromwich Albion] Total gzipped size of External CSS: 94.89 KB</li>
+<li> [West Bromwich Albion] Percent of External CSS: 99</li>
       
 <li> [West Bromwich Albion] Total count of Style tag CSS: 7</li>
 <li> [West Bromwich Albion] Total size of Style tag CSS: 395 B</li>
-<li> [West Bromwich Albion] Percent of Style tag CSS: 0.05</li>
+<li> [West Bromwich Albion] Total gzipped size of Style tag CSS: 154 B</li>
+<li> [West Bromwich Albion] Percent of Style tag CSS: 0</li>
       
 <li> [West Bromwich Albion] Total count of Inline CSS: 64</li>
-<li> [West Bromwich Albion] Total size of Inline CSS: 5.29 kB</li>
-<li> [West Bromwich Albion] Percent of Inline CSS: 0.66</li>
+<li> [West Bromwich Albion] Total size of Inline CSS: 5.17 KB</li>
+<li> [West Bromwich Albion] Total gzipped size of Inline CSS: 459 B</li>
+<li> [West Bromwich Albion] Percent of Inline CSS: 1</li>
       
 <li> [Premier League site] Total count of External CSS: 8</li>
-<li> [Premier League site] Total size of External CSS: 2.6 MB</li>
-<li> [Premier League site] Percent of External CSS: 97.57</li>
+<li> [Premier League site] Total size of External CSS: 2.48 MB</li>
+<li> [Premier League site] Total gzipped size of External CSS: 402.96 KB</li>
+<li> [Premier League site] Percent of External CSS: 98</li>
       
 <li> [Premier League site] Total count of Style tag CSS: 4</li>
-<li> [Premier League site] Total size of Style tag CSS: 63.9 kB</li>
-<li> [Premier League site] Percent of Style tag CSS: 2.39</li>
+<li> [Premier League site] Total size of Style tag CSS: 62.4 KB</li>
+<li> [Premier League site] Total gzipped size of Style tag CSS: 12.63 KB</li>
+<li> [Premier League site] Percent of Style tag CSS: 2</li>
       
 <li> [Premier League site] Total count of Inline CSS: 16</li>
 <li> [Premier League site] Total size of Inline CSS: 922 B</li>
-<li> [Premier League site] Percent of Inline CSS: 0.03</li>
+<li> [Premier League site] Total gzipped size of Inline CSS: 253 B</li>
+<li> [Premier League site] Percent of Inline CSS: 0</li>
       </ul>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>What We Learned</h2>
-        <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of External CSS code.</p>
-        <p>Style tag CSS is </p>
-        <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by developers of these sites.</p>
-        <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to deliver the least possible amount of code to the end user.</p>
-        <p></p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Footnotes</h2>
-        <ul>
-          <li id="footnote1"><code>1</code> - External CSS is</li>
-          <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
-          <li id="footnote3"><code>3</code> - Inline CSS is</li>
-        </ul>
-      </article>
-    </section>
-  </main>
-  <footer class="bpp">
-    <div>
-      <h2 class="just-print">About CSS Auditors</h2>
-      <p class="just-print">CSS Auditors are a team of expert frontend developers who like to analyse and write CSS code. Using in-depth analyses, experience and knowledge, the team can find possible areas on how to improve and optimise the performance of the CSS code. CSS Auditors are currently <a href="https://www.silvestar.codes" target="_blank">Silvestar Bistrović</a> and <a href="https://smodev.tech/" target="_blank">Ivan Smokrović</a>.</p>
-      <p>&copy; 2020, <a href="https://css-auditors.com">CSS Auditors</a></p>
-      <p><span class="blue">#</span>RespectCSS</p>
-    </div>
-  </footer>
-</body>
+        </article>
+      </section>
+      <!-- <section class="bpp">
+        <article>
+          <h2>What We Learned</h2>
+          <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not
+            insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of
+            External CSS code.</p>
+          <p>Style tag CSS is </p>
+          <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get
+            the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by
+            developers of these sites.</p>
+          <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to
+            deliver the least possible amount of code to the end user.</p>
+          <p></p>
+        </article>
+      </section> -->
+      <section class="bpp">
+        <article>
+          <h2>Footnotes</h2>
+          <ul>
+            <li id="footnote1"><code>1</code> - External CSS is</li>
+            <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
+            <li id="footnote3"><code>3</code> - Inline CSS is</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer class="bpp">
+      <div>
+        <h2 class="just-print">About CSS Auditors</h2>
+        <p class="just-print">CSS Auditors are a team of expert frontend developers who like to analyse and write CSS
+          code. Using in-depth analyses, experience and knowledge, the team can find possible areas on how to improve
+          and optimise the performance of the CSS code. CSS Auditors are currently
+          <a href="https://www.silvestar.codes" target="_blank">Silvestar Bistrović</a> and
+          <a href="https://smodev.tech/" target="_blank">Ivan Smokrović</a>.</p>
+        <p>&copy; 2020, <a href="https://css-auditors.com">CSS Auditors</a></p>
+        <p><span class="blue">#</span>RespectCSS</p>
+      </div>
+    </footer>
+  </body>
 </html>

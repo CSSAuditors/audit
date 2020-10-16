@@ -1,155 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      font-family: 'Josefin Sans', sans-serif;
-      line-height: 1.5;
-      letter-spacing: -0.03ch;
-    }
-    header div,
-    footer div,
-    article {
-      max-width: 60ch;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1,
-    h2 {
-      font-family: 'Abril Fatface', cursive;
-      letter-spacing: .1ch;
-    }
-    .blue,
-    a {
-      color: #2965F1;
-    }
-    @media not print {
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <style>
       body {
-        font-size: 20px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.5;
+        letter-spacing: -0.03ch;
       }
-      header,
-      footer,
-      section:nth-child(odd) {
-        background-color: #f8f8f8;
-      }
-      header,
-      footer,
+
+      header div,
+      footer div,
       article {
-        padding: 1px 1em;
+        max-width: 60ch;
+        margin-left: auto;
+        margin-right: auto;
       }
-      header,
-      footer {
-        text-align: center;
+
+      h1,
+      h2 {
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: .1ch;
       }
-      header {
-        border-bottom: 1px dashed #2965F1;
+
+      .blue,
+      a {
+        color: #2965F1;
       }
-      footer {
-        border-top: 1px dashed #2965F1;
+
+      img {
+        max-width: 100%;
+        height: auto;
       }
-      article {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+
+      @media not print {
+        body {
+          font-size: 20px;
+        }
+
+        header,
+        footer,
+        section:nth-child(odd) {
+          background-color: #f8f8f8;
+        }
+
+        header,
+        footer,
+        article {
+          padding: 1px 1em;
+        }
+
+        header,
+        footer {
+          text-align: center;
+        }
+
+        header {
+          border-bottom: 1px dashed #2965F1;
+        }
+
+        footer {
+          border-top: 1px dashed #2965F1;
+        }
+
+        article {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+
+        .just-print {
+          display: none;
+        }
       }
-      .just-print {
-        display: none;
+
+      @media print {
+        body {
+          font-size: 13px;
+        }
+
+        p {
+          page-break-inside: avoid;
+        }
+
+        .bpp {
+          page-break-before: always;
+        }
+
+        .just-web {
+          display: none;
+        }
       }
-    }
-    @media print {
-      body {
-        font-size: 13px;
-      }
-      p {
-        page-break-inside: avoid;
-      }
-      .bpp {
-        page-break-before: always;
-      }
-    }
-  </style>
-  <title>CSS Auditors - File Sizes Report</title>
-</head>
-<body>
-  <header>
-    <div>
-      <h1>CSS File Sizes Audit Report</h1>
-    </div>
-  </header>
-  <main>
-    <section>
-      <article>
-        <h2><span class="blue">#</span>Respect CSS</h2>
-        <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its importance.</p>
-        <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the way CSS could and should be written.</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Sizes Report</h2>
-        <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS code is needed to build a site.</p>
-        <p>Sites audited in this report:</p>
-        $htmlSites
-        <p>Date of the audit report: $htmlDate</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Tools Used</h2>
-        <p>To generate this report, we used the following tool:</p>
-        <ul>
-          <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
-        </ul>
-        <p>Using this tool, we extracted information about the size of External CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline CSS<sup><a href="#footnote3">3</a></sup>.</p>
-        <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered as such.</p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>The Overall Report</h2>
-        $htmlReportAll
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Single Reports</h2>
-        $htmlReportSingle
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>What We Learned</h2>
-        <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of External CSS code.</p>
-        <p>Style tag CSS is </p>
-        <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by developers of these sites.</p>
-        <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to deliver the least possible amount of code to the end user.</p>
-        <p></p>
-      </article>
-    </section>
-    <section class="bpp">
-      <article>
-        <h2>Footnotes</h2>
-        <ul>
-          <li id="footnote1"><code>1</code> - External CSS is</li>
-          <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
-          <li id="footnote3"><code>3</code> - Inline CSS is</li>
-        </ul>
-      </article>
-    </section>
-  </main>
-  <footer class="bpp">
-    <div>
-      <h2 class="just-print">About CSS Auditors</h2>
-      <p class="just-print">CSS Auditors are a team of expert frontend developers who like to analyse and write CSS code. Using in-depth analyses, experience and knowledge, the team can find possible areas on how to improve and optimise the performance of the CSS code. CSS Auditors are currently <a href="https://www.silvestar.codes" target="_blank">Silvestar Bistrović</a> and <a href="https://smodev.tech/" target="_blank">Ivan Smokrović</a>.</p>
-      <p>&copy; 2020, <a href="https://css-auditors.com">CSS Auditors</a></p>
-      <p><span class="blue">#</span>RespectCSS</p>
-    </div>
-  </footer>
-</body>
+
+    </style>
+    <title>CSS Auditors - File Sizes Report</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>CSS File Sizes Audit Report</h1>
+      </div>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2><span class="blue">#</span>Respect CSS</h2>
+          <p>CSS Auditors have one mission: to put the CSS under the spotlight and educate developers about its
+            importance.</p>
+          <p>From file size to usage of particular attributes and values, we try to understand ways how to improve the
+            way CSS could and should be written.</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Sizes Report</h2>
+          <p>In this report we are going to focus on CSS filesize. The aim of this report is to understand how much CSS
+            code is needed to build a site.</p>
+          <p>Sites audited in this report:</p>
+          $htmlSites
+          <p>Date of the audit report: $htmlDate</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Tools Used</h2>
+          <p>To generate this report, we used the following tool:</p>
+          <ul>
+            <li><a href="https://github.com/bartveneman/extract-css-core">extract-css-core</a></li>
+          </ul>
+          <p>Using this tool, we extracted information about the size of External
+            CSS<sup><a href="#footnote1">1</a></sup>, Style tag CSS<sup><a href="#footnote2">2</a></sup>, and Inline
+            CSS<sup><a href="#footnote3">3</a></sup>.</p>
+          <p>Any errors in reports that might be caused by invalid software are not deliberate and should be considered
+            as such.</p>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Sizes Report</h2>
+          $htmlReportSizes
+        </article>
+      </section>
+      <section class="bpp just-web">
+        <article>
+          <div id="ReportSizeCombined"></div>
+          <script>
+          Highcharts.chart('ReportSizeCombined', $htmlReportSizeCombined);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeLink"></div>
+          <script>
+          Highcharts.chart('ReportSizeLink', $htmlReportSizeLink);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeGzip"></div>
+          <script>
+          Highcharts.chart('ReportSizeGzip', $htmlReportSizeGzip);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeStyle"></div>
+          <script>
+          Highcharts.chart('ReportSizeStyle', $htmlReportSizeStyle);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportSizeInline"></div>
+          <script>
+          Highcharts.chart('ReportSizeInline', $htmlReportSizeInline);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Count Report</h2>
+          $htmlReportCount
+        </article>
+      </section>
+      <section class="bpp just-web">
+        <article>
+          <div id="ReportCountCombined"></div>
+          <script>
+          Highcharts.chart('ReportCountCombined', $htmlReportCountCombined);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountLink"></div>
+          <script>
+          Highcharts.chart('ReportCountLink', $htmlReportCountLink);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountStyle"></div>
+          <script>
+          Highcharts.chart('ReportCountStyle', $htmlReportCountStyle);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <div id="ReportCountInline"></div>
+          <script>
+          Highcharts.chart('ReportCountInline', $htmlReportCountInline);
+          </script>
+        </article>
+      </section>
+      <section class="bpp">
+        <article>
+          <h2>Single Reports</h2>
+          $htmlReportSingle
+        </article>
+      </section>
+      <!-- <section class="bpp">
+        <article>
+          <h2>What We Learned</h2>
+          <p>Like in any other language, the file size matters. This report shows that the size of the CSS is not
+            insignificant. In fact, 5 sites have more than 1MB of External CSS code, and 1 site have more than 2MB of
+            External CSS code.</p>
+          <p>Style tag CSS is </p>
+          <p>We noticed that most sites use Inline CSS. While Inline CSS is not considered the best practice (you get
+            the warning for using inline CSS in Google Lighthouse tool, for example), it is still heavily used by
+            developers of these sites.</p>
+          <p>Different sites use different strategies to deliver CSS. No matter which way it is used, we should aim to
+            deliver the least possible amount of code to the end user.</p>
+          <p></p>
+        </article>
+      </section> -->
+      <section class="bpp">
+        <article>
+          <h2>Footnotes</h2>
+          <ul>
+            <li id="footnote1"><code>1</code> - External CSS is</li>
+            <li id="footnote2"><code>2</code> - Style Tag CSS is</li>
+            <li id="footnote3"><code>3</code> - Inline CSS is</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer class="bpp">
+      <div>
+        <h2 class="just-print">About CSS Auditors</h2>
+        <p class="just-print">CSS Auditors are a team of expert frontend developers who like to analyse and write CSS
+          code. Using in-depth analyses, experience and knowledge, the team can find possible areas on how to improve
+          and optimise the performance of the CSS code. CSS Auditors are currently
+          <a href="https://www.silvestar.codes" target="_blank">Silvestar Bistrović</a> and
+          <a href="https://smodev.tech/" target="_blank">Ivan Smokrović</a>.</p>
+        <p>&copy; 2020, <a href="https://css-auditors.com">CSS Auditors</a></p>
+        <p><span class="blue">#</span>RespectCSS</p>
+      </div>
+    </footer>
+  </body>
 </html>

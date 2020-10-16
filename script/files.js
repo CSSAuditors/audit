@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const mkdirp = require('mkdirp')
 const ncp = require('ncp')
+const pdf = require('html-pdf')
 
 ncp.limit = 16
 
@@ -97,6 +98,24 @@ const getReportsFolder = (site) => {
   return folder
 }
 
+const generateHTML = (s, fileName) => {
+  return saveFile(fileName, s)
+}
+
+const generatePDF = (s, fileName) => {
+  pdf.create(s, {
+    format: 'A4',
+    orientation: 'portrait',
+    "border": "1cm"
+  }).toFile(fileName, function(err, res) {
+    if (err) {
+      return console.log(err)
+    }
+
+    console.log(res)
+  })
+}
+
 module.exports = {
   getCurrentDirectoryBase,
   directoryExists,
@@ -106,4 +125,6 @@ module.exports = {
   getFile,
   getFolder,
   getReportsFolder,
+  generateHTML,
+  generatePDF,
 }
