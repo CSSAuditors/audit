@@ -7,9 +7,6 @@
     "build": "gulp build && npm run eleventy-build"
   },
   "dependencies": {
-    "highcharts": "^9.0.1"
-  },
-  "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
@@ -46,6 +43,7 @@
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "^0.0.2",
     "gzip-size": "^6.0.0",
+    "highcharts": "^9.0.1",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.1",
     "kss": "^3.0.1",
