@@ -18,6 +18,21 @@
   }, {
     "src": "audit.css",
     "settings": {
+      "out": "audit-report-index.critical.css",
+      "url": "http://localhost:8080/reports/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "audit.css",
+    "settings": {
       "out": "audit-report.critical.css",
       "url": "http://localhost:8080/reports/premier-league-2021-02/",
       "width": 1920,

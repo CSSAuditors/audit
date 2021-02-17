@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: report-index
 title: Reports
 description:
 blocks:
