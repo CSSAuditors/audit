@@ -2,7 +2,7 @@
   base = "./"
   functions = "./api/"
   publish = "public"
-  command = ""
+  command = "npm run build"
 
 [[redirects]]
   from = "/api/*"
