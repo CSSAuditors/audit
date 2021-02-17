@@ -9,25 +9,13 @@
 <meta name="application-name" content="CSS Auditors">
 <meta name="msapplication-TileColor" content="#17181c">
 <meta name="theme-color" content="#17181c">
-<meta name="title" content="{{ site.title }}">
-<meta name="description" content="{{ site.description }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ site.url }}">
-<meta property="og:title" content="{{ site.title }}">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ site.url }}">
-<meta property="twitter:title" content="{{ site.title }}">
-<meta property="twitter:description" content="{{ site.description }}">
-<meta property="twitter:image" content="{{ site.url }}{{ site.og_image }}">
+{% include partials/og %}
 {% unless env.development %}
   {% if layout == 'index' %}
-    <style>{% include ../../assets/dist/css/style-index.critical.min.css %}</style>
+    <style>{% include ../../assets/dist/css/audit-index.critical.min.css %}</style>
   {% elsif layout == 'report' %}
-    <style>{% include ../../assets/dist/css/style-report.critical.min.css %}</style>
+    <style>{% include ../../assets/dist/css/audit-report.critical.min.css %}</style>
   {% endif %}
   <link href="/gfx/mission.svg" rel="preload" as="image" type="image/svg+xml">
   <link href="/fonts/Karla-BoldItalic.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
 {% endunless %}
-<title>{{ site.title }}</title>

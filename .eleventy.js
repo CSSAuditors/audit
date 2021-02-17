@@ -85,8 +85,6 @@ module.exports = (eleventyConfig) => {
 
     checkGlobalVars(key, object, type)
 
-    console.log(str, object, type);
-
     return globalVars[key][str]
   }
 

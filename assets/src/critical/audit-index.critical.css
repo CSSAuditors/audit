@@ -2,7 +2,6 @@
 
 :root {
   --ff-alpha: Barlow;
-  --ff-beta: Playfair Display;
   --fz-alpha: 18px;
   --fz-beta: 15px;
   --color-alpha: hsl(222deg 88% 55%);
@@ -12,7 +11,11 @@
   --color-beta: hsl(222deg 10% 10%);
   --color-beta2: hsl(222deg 10% 10% / .02);
   --color-beta3: hsl(222deg 10% 10% / .2);
-  --color-gamma: hsl(0deg 0% 100%);
+  --color-beta4: hsl(222deg 10% 10% / .8);
+  --chart-color-alpha: hsl(157deg 88% 55%);
+  --chart-color-beta: hsl(222deg 88% 55%);
+  --chart-color-gamma: hsl(188deg 88% 55%);
+  --chart-color-delta: hsl(3deg 88% 55%);
   --maxw-alpha: 70ch;
   --maxw-beta: 92vw;
 }
@@ -33,7 +36,7 @@ html {
 }
 
 body {
-  font-family: var(--ff-beta);
+  font-family: var(--ff-alpha);
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: .02em;
@@ -43,7 +46,6 @@ body {
 h1,
 h2 {
   color: var(--color-alpha);
-  font-family: var(--ff-alpha);
   font-weight: 500;
 }
 
@@ -86,10 +88,6 @@ p {
   height: 1px;
   overflow: hidden;
   z-index: -999;
-}
-
-.nav {
-  font-family: var(--ff-beta);
 }
 
 .nav ul {
@@ -172,7 +170,7 @@ p {
   }
 }
 
-.section__column img {
+.section__column img:not([class]) {
   display: block;
   width: 100%;
   max-width: 120px;
@@ -234,7 +232,7 @@ p {
   padding-right: var(--grid-padding);
 }
 
-.grid > section {
+.grid > section:not(.slim) {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }

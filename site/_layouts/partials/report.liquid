@@ -60,6 +60,9 @@
               {% if elem.chart %}
                 {% if elem.chart.item %}
                   {{ elem.chart.item | chartize: object, elem.chart.type }}
+                  {% if elem.chart.info %}
+                    <p><small>{{ elem.chart.info }}</small></p>
+                  {% endif %}
                 {% endif %}
               {% endif %}
             {% endfor %}

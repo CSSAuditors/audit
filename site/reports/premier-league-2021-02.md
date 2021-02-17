@@ -1,17 +1,18 @@
 ---
 layout: report
-title: The CSS File Sizes and Count Report for Premier League sites
-description:
+title: The CSS File Size and Count Report for Premier League sites
+description: In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
+image: /gfx/the-css-file-size-and-count-report-for-premier-league-sites.jpg
 object: sites2
 date: 2021-02-17
 author: Silvestar
 reports:
   - title: >-
-      The CSS File Sizes and Count Report for Premier League sites
+      The CSS File Size and Count Report for Premier League sites
     details: true
   - list:
       - description: >-
-          In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site, and could we do it with less code.
+          In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 
           Sites audited in this report:
       - var:
@@ -61,9 +62,7 @@ reports:
       - chart:
           item: ReportSizeCombined
           type: extractor
-
-          info: This graph is interactive. You could try to hover or tap regions to see extra information and you could enable or disable specific metric by clicking on a label below graph.
-
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
       - description: >-
           Burnley's and Chelsea's sites do not load any external CSS file. The Premier League's site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
@@ -99,6 +98,7 @@ reports:
       - chart:
           item: ReportCountCombined
           type: extractor
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
       - description: >-
           The only site that does not load any External CSS file is Burnley's site. Six sites load only a single External CSS file, including Brighton's, Chelsea's, Everton's, Manchester's, Newcastle's, and Tottenham's site. On the other hand, West Ham's site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa's and Liverpool's sites.
 

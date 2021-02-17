@@ -436,16 +436,16 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Size [B]'
+            text: 'Size [B]'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         plotOptions: {
-            series: {
-                stacking: 'normal'
-            }
+          series: {
+            stacking: 'normal'
+          }
         },
         series: ${seriesSizeCombined}
       }`,
@@ -463,11 +463,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Size [B]'
+            text: 'Size [B]'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesSizeLink}
       }`,
@@ -485,11 +485,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Size [B]'
+            text: 'Size [B]'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesSizeGzip}
       }`,
@@ -507,11 +507,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Size [B]'
+            text: 'Size [B]'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesSizeStyle}
       }`,
@@ -529,11 +529,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Size [B]'
+            text: 'Size [B]'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesSizeInline}
       }`,
@@ -552,16 +552,16 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Count'
+            text: 'Count'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         plotOptions: {
-            series: {
-                stacking: 'normal'
-            }
+          series: {
+            stacking: 'normal'
+          }
         },
         series: ${seriesCountCombined}
       }`,
@@ -579,11 +579,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Count'
+            text: 'Count'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesCountLink}
       }`,
@@ -601,11 +601,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Count'
+            text: 'Count'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesCountStyle}
       }`,
@@ -623,11 +623,11 @@ const generateExtractorsReport = (sites, fresh) => {
         yAxis: {
           min: 0,
           title: {
-              text: 'Count'
+            text: 'Count'
           }
         },
         legend: {
-            reversed: true
+          reversed: true
         },
         series: ${seriesCountImport}
       }`,
