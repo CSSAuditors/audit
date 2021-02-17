@@ -1,11 +1,11 @@
-const files = require('../script/files')
+// const files = require('../script/files')
 
 exports.handler = function (event, context, callback) {
-  const f = `./reports/${files.trimSlashes(event.queryStringParameters.d)}/`
+  // const f = `./reports/${files.trimSlashes(event.queryStringParameters.d)}/`
 
-  if(files.directoryExists(f)) {
-    // const r = files.getFile(f)
-  }
+  // if(files.directoryExists(f)) {
+  //   // const r = files.getFile(f)
+  // }
 
   callback(null, {
     headers: {
@@ -13,8 +13,7 @@ exports.handler = function (event, context, callback) {
     },
     statusCode: 200,
     body: JSON.stringify({
-      d: f,
-      e: files.directoryExists(f)
+      status: 'ok'
     })
   })
 }
