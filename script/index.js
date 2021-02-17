@@ -7,14 +7,14 @@ const specificityScript = require('./run-specificity')
 const wappalyzerScript = require('./run-wappalyzer')
 const analyzerScript = require('./run-analyzer')
 
-const { getExtractorReport, getExtractorsReport, generateExtractorsReport } = require('./get-extractor')
+const { getExtractorReport, getExtractorsReport } = require('./get-extractor')
 const { validatorReport, validatorsReport } = require('./get-validator')
 const { coverageReport, coveragesReport } = require('./get-coverage')
-const { wappalyzerReport, wappalyzersReport } = require('./get-wappalyzer')
+const { wappalyzerReport, wappalyzersReport, generateWappalyzersReport } = require('./get-wappalyzer')
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
-let sites = require('./sites.json')
+let sites = require('../site/_data/sites2.json')
 
 const ret = process.argv.indexOf('ret') !== -1
 
@@ -91,10 +91,6 @@ const getExtractors = async () => {
   await getExtractorsReport(sites)
 }
 
-const generateExtractors = async () => {
-  await generateExtractorsReport(sites)
-}
-
 const getValidator = async () => {
   for(const site of sites) {
     await validatorReport(site)
@@ -122,7 +118,8 @@ const getWappalyzer = async () => {
 }
 
 const getWappalyzers = async () => {
-  await wappalyzersReport(sites)
+  generateWappalyzersReport(sites)
+  // await wappalyzersReport(sites)
 }
 
 const getSpecificity = async () => {
@@ -150,10 +147,6 @@ const generateAnalyses = async () => {
   await getAnalyzer()
 }
 
-const generateReport = async () => {
-
-}
-
 module.exports = {
   start,
   runExtractor,
@@ -175,7 +168,6 @@ module.exports = {
   getSpecificities,
   getAnalyzer,
   generateAnalyses,
-  generateExtractors
 }
 
 require('make-runnable')

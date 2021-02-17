@@ -1,0 +1,281 @@
+{
+  "urls": {
+    "https://www.southamptonfc.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "sitecore",
+      "name": "Sitecore",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sitecore.png",
+      "website": "http://sitecore.net",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        }
+      ]
+    },
+    {
+      "slug": "facebook-sign-in",
+      "name": "Facebook Sign-in",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "https://developers.facebook.com/docs/facebook-login/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 69,
+          "slug": "social-logins",
+          "name": "Social logins"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-asp-net",
+      "name": "Microsoft ASP.NET",
+      "confidence": 100,
+      "version": null,
+      "icon": "Microsoft ASP.NET.png",
+      "website": "https://www.asp.net",
+      "cpe": "cpe:/a:microsoft:asp.net",
+      "categories": [
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "iis",
+      "name": "IIS",
+      "confidence": 50,
+      "version": null,
+      "icon": "IIS.png",
+      "website": "http://www.iis.net",
+      "cpe": "cpe:/a:microsoft:internet_information_server",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ]
+    },
+    {
+      "slug": "gsap",
+      "name": "GSAP",
+      "confidence": 100,
+      "version": null,
+      "icon": "TweenMax.png",
+      "website": "https://greensock.com/gsap",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "twitter",
+      "name": "Twitter",
+      "confidence": 100,
+      "version": null,
+      "icon": "Twitter.svg",
+      "website": "http://twitter.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "webpack",
+      "name": "webpack",
+      "confidence": 100,
+      "version": null,
+      "icon": "webpack.svg",
+      "website": "https://webpack.js.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "jquery-ui",
+      "name": "jQuery UI",
+      "confidence": 100,
+      "version": "1.12.1",
+      "icon": "jQuery UI.svg",
+      "website": "http://jqueryui.com",
+      "cpe": "cpe:/a:jquery:jquery_ui",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "1.12.4",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "twitter-ads",
+      "name": "Twitter Ads",
+      "confidence": 100,
+      "version": null,
+      "icon": "Twitter.svg",
+      "website": "https://ads.twitter.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "select2",
+      "name": "Select2",
+      "confidence": 100,
+      "version": null,
+      "icon": "Select2.png",
+      "website": "https://select2.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "modernizr",
+      "name": "Modernizr",
+      "confidence": 100,
+      "version": "3.3.1",
+      "icon": "Modernizr.svg",
+      "website": "https://modernizr.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "fancybox",
+      "name": "FancyBox",
+      "confidence": 100,
+      "version": "3.5.7",
+      "icon": "FancyBox.png",
+      "website": "http://fancyapps.com/fancybox",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "babel",
+      "name": "Babel",
+      "confidence": 100,
+      "version": null,
+      "icon": "Babel.svg",
+      "website": "https://babeljs.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "confidence": 100,
+      "version": null,
+      "icon": "CloudFlare.svg",
+      "website": "http://www.cloudflare.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "urls": {
+    "https://www.nufc.co.uk/": {
+      "status": 0,
+      "error": "The website took too long to respond"
+    }
+  },
+  "technologies": [
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "confidence": 100,
+      "version": null,
+      "icon": "CloudFlare.svg",
+      "website": "http://www.cloudflare.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    }
+  ]
+}

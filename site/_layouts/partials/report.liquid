@@ -1,0 +1,81 @@
+<section class="slim"{% if report.title %} id="{{ report.title | downcase | replace: ' ', '-' | replace: '#', '' }}"{% endif %}>
+  <article class="report">
+    <div class="section__row">
+      {% if report.icon %}
+        <div class="section__column">
+          <img src="{{ report.icon }}" alt="{{ report.title }}" width="120" height="160">
+        </div>
+      {% endif %}
+      <div class="section__column">
+        {% if report.hero %}
+          <h1>{{ report.title }}</h1>
+        {% else %}
+          <h2>{{ report.title }}</h2>
+        {% endif %}
+        <div>
+          {% if report.description %}
+            {{ report.description | markdownify }}
+          {% endif %}
+          {% if report.details %}
+            <p class="small">
+              <span>Author: {{ author | authorize: "full_name" }}</span><br>
+              <span>Date: {{ date | date: "%Y-%m-%d" }}</span>
+            </p>
+          {% endif %}
+          {% if report.author %}
+            {% assign full_name = author | authorize: "full_name" %}
+            <div>
+              <div class="avatar">{{ author | authorize: "avatar" | imagize: full_name, 94 }}</div>
+              <h3>{{ full_name }}</h3>
+              <div class="small">
+                {{ author | authorize: "bio" | markdownify }}
+                <div class="nav nav--alpha">{{ author | authorize: "links" | linkify }}</div>
+              </div>
+            </div>
+          {% endif %}
+          {% if report.social %}
+            {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
+            {% assign facebookLink = "https://facebook.com/sharer.php?u=" | append: site.url | append: page.url %}
+            {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
+            <div class="nav nav--alpha">
+              <ul>
+                <li><a class="plain" href="{{ twitterLink }}" target="_blank">Twitter</a></li>
+                <li><a class="plain" href="{{ facebookLink }}" target="_blank">Facebook</a></li>
+                <li><a class="plain" href="{{ redditLink }}" target="_blank">Reddit</a></li>
+              </ul>
+            </div>
+          {% endif %}
+          {% if report.list %}
+            {% for elem in report.list %}
+              {% if elem.description %}
+                {{ elem.description | markdownify }}
+              {% endif %}
+              {% if elem.var %}
+                {% if elem.var.wrap and elem.var.item %}
+                  <{{ elem.var.wrap }}>{{ elem.var.item | variablize: object, elem.var.type }}</{{ elem.var.wrap }}>
+                {% elsif elem.var.item %}
+                  {{ elem.var.item | variablize: object, elem.var.type }}
+                {% endif %}
+              {% endif %}
+              {% if elem.chart %}
+                {% if elem.chart.item %}
+                  {{ elem.chart.item | chartize: object, elem.chart.type }}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+        {% if report.cta %}
+          <div>
+            {% for cta in report.cta %}
+              <a class="button" href="{{ cta.href }}"{% if cta.download %} download{% endif %}>{{ cta.title }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if report.subscribe %}
+          {% include partials/subscribe %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</section>

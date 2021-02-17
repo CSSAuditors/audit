@@ -1,0 +1,1 @@
+window.Highcharts = require('highcharts');

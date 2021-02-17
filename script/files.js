@@ -2,7 +2,6 @@ const fs = require('fs')
 const path = require('path')
 const mkdirp = require('mkdirp')
 const ncp = require('ncp')
-const pdf = require('html-pdf')
 
 ncp.limit = 16
 
@@ -60,7 +59,7 @@ const saveFile = (filePath, content, stringify) => {
 
     fs.writeFileSync(filePath, data, 'utf-8')
 
-    return true
+    return filePath
   } catch (err) {
     console.error(err)
 
@@ -80,10 +79,28 @@ const getFile = async (filePath) => {
   }
 }
 
+const getFileSync = (filePath) => {
+  try {
+    return fs.readFileSync(filePath, {
+      encoding:'utf8'
+    })
+  } catch (err) {
+    console.error(err)
+
+    return false
+  }
+}
+
 const namify = (name) => name.split(' ').join('-').replace('&', 'and').toLowerCase()
 
-const getFolder = (site) => {
-  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}/${site.title}`)
+const getFolder = (site, parent) => {
+  let folder
+
+  if(parent) {
+    folder = namify(`./reports/${site.category}-${site.year}-${site.month}`)
+  } else {
+    folder = namify(`./reports/${site.category}-${site.year}-${site.month}/${site.title}`)
+  }
 
   if(!directoryExists(folder)) {
     makeDirectory(folder)
@@ -92,29 +109,7 @@ const getFolder = (site) => {
   return folder
 }
 
-const getReportsFolder = (site) => {
-  const folder = namify(`./reports/${site.category}/${site.year}/${site.month}/_reports`)
-
-  return folder
-}
-
-const generateHTML = (s, fileName) => {
-  return saveFile(fileName, s)
-}
-
-const generatePDF = (s, fileName) => {
-  pdf.create(s, {
-    format: 'A4',
-    orientation: 'portrait',
-    "border": "1cm"
-  }).toFile(fileName, function(err, res) {
-    if (err) {
-      return console.log(err)
-    }
-
-    console.log(res)
-  })
-}
+const trimSlashes = (s) => s.replace(/^\/|\/$/g, '')
 
 module.exports = {
   getCurrentDirectoryBase,
@@ -123,8 +118,7 @@ module.exports = {
   fileExists,
   saveFile,
   getFile,
+  getFileSync,
   getFolder,
-  getReportsFolder,
-  generateHTML,
-  generatePDF,
+  trimSlashes,
 }

@@ -7,20 +7,33 @@ const extract = async (site) => {
     const folder = files.getFolder(site)
 
     const cssFileExtractor = `${folder}/extractor.json`
+    const cssFileExtractorClean = `${folder}/extractor-clean.json`
     const cssFileDirty = `${folder}/style-dirty.css`
     const cssFileClean = `${folder}/style-clean.css`
     let cssString = ''
 
     if(!files.fileExists(cssFileExtractor) || !files.fileExists(cssFileDirty) || !files.fileExists(cssFileClean)) {
-      const cssItems = await extractCss(site.url, {
+      let cssItems = []
+
+      cssItems = await extractCss(site.url, {
         origins: 'include',
         timeout: 60000,
         waitUntil: 'networkidle2'
       })
 
-      files.saveFile(cssFileExtractor, cssItems, true)
+      let cssItemsClean = []
+      let once = false
 
-      cssItems.forEach(cssItem => {
+      cssItems.map((val, j) => {
+        if(!cssItemsClean.length || !cssItemsClean.find(a => a.css === val.css && a.href === val.href)) {
+          cssItemsClean.push(val)
+        }
+      })
+
+      files.saveFile(cssFileExtractor, cssItems, true)
+      files.saveFile(cssFileExtractorClean, cssItemsClean, true)
+
+      cssItemsClean.forEach(cssItem => {
         if (cssItem.type === 'link-or-import' || cssItem.type === 'style') {
           cssString += cssItem.css
         }

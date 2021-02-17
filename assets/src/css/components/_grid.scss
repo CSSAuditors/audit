@@ -1,0 +1,46 @@
+/*
+Grid
+
+Markup: grid.html
+
+Style guide: Grid
+*/
+
+.grid {
+  display: grid;
+
+  @media screen and (max-width: $mq-alpha) {
+    --grid-padding: calc((100% - var(--maxw-beta)) / 2);
+  }
+
+  @media screen and (min-width: $mq-beta) {
+    --grid-padding: calc((100% - var(--maxw-alpha)) / 2);
+  }
+
+  > * {
+    padding-left: var(--grid-padding);
+    padding-right: var(--grid-padding);
+  }
+
+  > section {
+    &:not(.slim) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+
+    &.slim {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    &:nth-of-type(odd) {
+      background-color: var(--color-beta2);
+      border-top: 1px dashed var(--color-beta3);
+    }
+
+    &:nth-of-type(even) {
+      background-color: var(--color-alpha2);
+      border-top: 1px dashed var(--color-alpha3);
+    }
+  }
+}

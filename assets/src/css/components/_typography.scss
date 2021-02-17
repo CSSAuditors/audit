@@ -1,0 +1,83 @@
+/*
+Fonts
+
+Markup: typography.html
+
+Style guide: Fonts
+*/
+
+@font-face {
+  font-family: var(--ff-alpha);
+  src: local('Barlow Medium'), local('Barlow-Medium'),
+    url('Barlow-Medium.woff2') format('woff2'),
+    url('Barlow-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+::selection {
+  background-color: var(--color-alpha3);
+}
+
+html {
+  font-size: var(--fz-alpha);
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (max-width: $mq-alpha) {
+    font-size: var(--fz-beta);
+  }
+}
+
+body {
+  font-family: var(--ff-alpha);
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .02em;
+  color: var(--color-beta);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-alpha);
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin-bottom: .5em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h5,
+p {
+  font-size: 1rem;
+}

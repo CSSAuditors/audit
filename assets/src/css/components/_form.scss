@@ -1,0 +1,65 @@
+/*
+Form
+
+Markup: form.html
+
+Style guide: Form
+*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.input,
+.button {
+  font-family: var(--ff-alpha);
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0;
+  padding: 1rem;
+
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+
+  &:focus,
+  &:active {
+    outline-style: dashed;
+    outline-color: var(--color-alpha);
+    outline-offset: .1rem;
+    outline-width: .1rem;
+  }
+}
+
+.input {
+  background-color: var(--color-gamma);
+  color: var(--color-beta);
+  border: 1px solid var(--color-alpha);
+
+  &:hover {
+    border-color: var(--color-beta);
+  }
+}
+
+.button {
+  background-color: var(--color-beta);
+  color: var(--color-gamma);
+  border: 1px solid var(--color-beta);
+  cursor: pointer;
+
+  &[href]:not(.skip) {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2rem;
+    line-height: 1.15;
+  }
+
+  &:hover {
+    outline-style: dashed;
+    outline-color: var(--color-beta);
+    outline-offset: .1rem;
+    outline-width: .1rem;
+  }
+}

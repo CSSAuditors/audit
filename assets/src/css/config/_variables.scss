@@ -1,0 +1,20 @@
+$ff-alpha: 'Barlow';
+$mq-alpha: 750px;
+$mq-beta: 751px;
+
+:root {
+  --ff-alpha: #{$ff-alpha};
+  --fz-alpha: 18px;
+  --fz-beta: 15px;
+  --color-alpha: hsl(222deg 88% 55%);
+  --color-alpha2: hsl(222deg 88% 55% / .02);
+  --color-alpha3: hsl(222deg 88% 55% / .2);
+  --color-alpha4: hsl(222deg 88% 45%);
+  --color-beta: hsl(222deg 10% 10%);
+  --color-beta2: hsl(222deg 10% 10% / .02);
+  --color-beta3: hsl(222deg 10% 10% / .2);
+  --color-beta4: hsl(222deg 10% 10% / .8);
+  --color-gamma: hsl(0deg 0% 100%);
+  --maxw-alpha: 70ch;
+  --maxw-beta: 92vw;
+}

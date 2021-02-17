@@ -1,0 +1,74 @@
+/*
+Section
+
+Markup: section.html
+
+Style guide: Section
+*/
+
+.section__row {
+  @media screen and (min-width: $mq-beta) {
+    display: flex;
+    align-items: baseline;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+}
+
+.section__column {
+  img:not([class]) {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+  }
+
+  a:not(.button):not(.plain) {
+    color: var(--color-alpha4);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-alpha3);
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 1px dashed var(--color-alpha);
+    }
+  }
+
+  @media screen and (max-width: $mq-alpha) {
+    &:first-child {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (min-width: $mq-beta) {
+    &:first-child {
+      margin-right: 2rem;
+      flex: 0 0 120px;
+    }
+
+    &:last-child {
+      flex: 1 1 auto;
+    }
+  }
+}
+
+.report {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-beta4);
+
+    &::first-letter {
+      background-color: var(--color-alpha2);
+      color: var(--color-alpha4);
+      font-size: 150%;
+      transform: rotate(10deg);
+      padding: 0 .1em;
+      margin-right: .05em;
+      border: 1px dashed var(--color-alpha3);
+    }
+  }
+}

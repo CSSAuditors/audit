@@ -1,0 +1,14 @@
+blockquote {
+  position: relative;
+
+  &:before {
+    content: "“";
+    font-size: 4rem;
+    line-height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-200%, 2%);
+    color: var(--color-alpha3);
+  }
+}

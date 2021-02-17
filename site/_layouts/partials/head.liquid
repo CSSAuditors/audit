@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2965f1">
+<meta name="apple-mobile-web-app-title" content="CSS Auditors">
+<meta name="application-name" content="CSS Auditors">
+<meta name="msapplication-TileColor" content="#17181c">
+<meta name="theme-color" content="#17181c">
+<meta name="title" content="{{ site.title }}">
+<meta name="description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ site.url }}">
+<meta property="twitter:title" content="{{ site.title }}">
+<meta property="twitter:description" content="{{ site.description }}">
+<meta property="twitter:image" content="{{ site.url }}{{ site.og_image }}">
+{% unless env.development %}
+  {% if layout == 'index' %}
+    <style>{% include ../../assets/dist/css/style-index.critical.min.css %}</style>
+  {% elsif layout == 'report' %}
+    <style>{% include ../../assets/dist/css/style-report.critical.min.css %}</style>
+  {% endif %}
+  <link href="/gfx/mission.svg" rel="preload" as="image" type="image/svg+xml">
+  <link href="/fonts/Karla-BoldItalic.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+{% endunless %}
+<title>{{ site.title }}</title>

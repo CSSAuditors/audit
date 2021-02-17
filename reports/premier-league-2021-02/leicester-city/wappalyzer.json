@@ -1,0 +1,169 @@
+{
+  "urls": {
+    "https://www.lcfc.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "amazon-web-services",
+      "name": "Amazon Web Services",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "polyfill",
+      "name": "Polyfill",
+      "confidence": 100,
+      "version": null,
+      "icon": "polyfill.svg",
+      "website": "https://polyfill.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-font-api",
+      "name": "Google Font API",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Font API.png",
+      "website": "http://google.com/fonts",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 17,
+          "slug": "font-scripts",
+          "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "moment-js",
+      "name": "Moment.js",
+      "confidence": 100,
+      "version": "2.11.2",
+      "icon": "Moment.js.svg",
+      "website": "https://momentjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 0,
+      "version": "1.8.3",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "sendgrid",
+      "name": "Sendgrid",
+      "confidence": 100,
+      "version": null,
+      "icon": "SendGrid.svg",
+      "website": "https://sendgrid.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-cloudfront",
+      "name": "Amazon Cloudfront",
+      "confidence": 100,
+      "version": null,
+      "icon": "Amazon-Cloudfront.svg",
+      "website": "http://aws.amazon.com/cloudfront/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    },
+    {
+      "slug": "aws-certificate-manager",
+      "name": "AWS Certificate Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/certificate-manager/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    }
+  ]
+}

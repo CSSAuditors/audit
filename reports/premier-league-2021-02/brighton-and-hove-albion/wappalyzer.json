@@ -1,0 +1,249 @@
+{
+  "urls": {
+    "https://www.brightonandhovealbion.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "amazon-web-services",
+      "name": "Amazon Web Services",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "polyfill",
+      "name": "Polyfill",
+      "confidence": 100,
+      "version": null,
+      "icon": "polyfill.svg",
+      "website": "https://polyfill.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-publisher-tag",
+      "name": "Google Publisher Tag",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Publisher Tag.svg",
+      "website": "https://developers.google.com/publisher-tag/guides/get-started",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "equalweb",
+      "name": "EqualWeb",
+      "confidence": 100,
+      "version": null,
+      "icon": "EqualWeb.png",
+      "website": "https://www.equalweb.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 68,
+          "slug": "accessibility",
+          "name": "Accessibility"
+        }
+      ]
+    },
+    {
+      "slug": "moment-js",
+      "name": "Moment.js",
+      "confidence": 100,
+      "version": "2.24.0",
+      "icon": "Moment.js.svg",
+      "website": "https://momentjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 0,
+      "version": "1.9.1",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "hotjar",
+      "name": "Hotjar",
+      "confidence": 100,
+      "version": null,
+      "icon": "Hotjar.svg",
+      "website": "https://www.hotjar.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics-enhanced-ecommerce",
+      "name": "Google Analytics Enhanced eCommerce",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "google-adsense",
+      "name": "Google AdSense",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google AdSense.svg",
+      "website": "https://www.google.fr/adsense/start/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "sendgrid",
+      "name": "Sendgrid",
+      "confidence": 100,
+      "version": null,
+      "icon": "SendGrid.svg",
+      "website": "https://sendgrid.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-cloudfront",
+      "name": "Amazon Cloudfront",
+      "confidence": 100,
+      "version": null,
+      "icon": "Amazon-Cloudfront.svg",
+      "website": "http://aws.amazon.com/cloudfront/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    },
+    {
+      "slug": "aws-certificate-manager",
+      "name": "AWS Certificate Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/certificate-manager/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    }
+  ]
+}

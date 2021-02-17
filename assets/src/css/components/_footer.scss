@@ -1,0 +1,46 @@
+/*
+Footer
+
+Markup: footer.html
+
+Style guide: Footer
+*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px dashed var(--color-alpha3);
+
+  img {
+    max-height: 1.5rem;
+  }
+}
+
+.footer__row {
+  width: 100%;
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.footer__copyright {
+  font-size: .75rem;
+}
+
+.footer__tagline {
+  margin-top: 1rem;
+  font-size: .75rem;
+
+  p {
+    font-size: inherit;
+  }
+
+  a {
+    color: var(--color-alpha);
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "temp": "helpers.source/critical/",
+  "configs": [{
+    "src": "style.css",
+    "settings": {
+      "out": "style-index.critical.css",
+      "url": "http://localhost:8080/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false,
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }, {
+    "src": "style.css",
+    "settings": {
+      "out": "style-report.critical.css",
+      "url": "http://localhost:8080/reports/premier-league-2020-09/",
+      "width": 1920,
+      "height": 1200,
+      "keepLargerMediaQueries": true,
+      "strict": false,
+      "blockJSRequests": false,
+      "forceIncludeRegex": ["^.chart"],
+      "phantomJsOptions": {
+        "ssl-protocol": "any",
+        "ignore-ssl-errors": true
+      }
+    }
+  }]
+}

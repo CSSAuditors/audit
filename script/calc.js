@@ -130,7 +130,9 @@ const getGzipSize = (a, prop1, prop2) => {
     b = b && b.hasOwnProperty(prop2) ? b[prop2] : 0
   }
 
-  return gzipSize.sync(b)
+  const c = b && b.length > 0 ? b.replace(/(\[x-extract-css-inline-style\])*/g, '') : ''
+
+  return gzipSize.sync(c)
 }
 
 module.exports = {

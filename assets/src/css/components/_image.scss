@@ -1,0 +1,15 @@
+img {
+  max-width: 100%;
+  filter: drop-shadow(0 .125rem .25rem var(--color-beta3))
+}
+
+.avatar {
+  float: left;
+  margin-right: 1rem;
+
+  img {
+    border-radius: .25rem;
+    overflow: hidden;
+    display: block;
+  }
+}

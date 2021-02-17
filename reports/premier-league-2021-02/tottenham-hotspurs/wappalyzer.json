@@ -1,0 +1,185 @@
+{
+  "urls": {
+    "https://www.tottenhamhotspur.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sentry.svg",
+      "website": "https://sentry.io/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 13,
+          "slug": "issue-trackers",
+          "name": "Issue trackers"
+        }
+      ]
+    },
+    {
+      "slug": "chart-js",
+      "name": "Chart.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "Chart.js.svg",
+      "website": "https://www.chartjs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 25,
+          "slug": "javascript-graphics",
+          "name": "JavaScript graphics"
+        }
+      ]
+    },
+    {
+      "slug": "react",
+      "name": "React",
+      "confidence": 100,
+      "version": "16.14.0",
+      "icon": "React.png",
+      "website": "https://reactjs.org",
+      "cpe": "cpe:/a:facebook:react",
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "twitter",
+      "name": "Twitter",
+      "confidence": 100,
+      "version": null,
+      "icon": "Twitter.svg",
+      "website": "http://twitter.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "onetrust",
+      "name": "OneTrust",
+      "confidence": 100,
+      "version": null,
+      "icon": "OneTrust.png",
+      "website": "http://www.onetrust.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 67,
+          "slug": "cookie-compliance",
+          "name": "Cookie compliance"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "dynamic-yield",
+      "name": "Dynamic Yield",
+      "confidence": 100,
+      "version": null,
+      "icon": "DynamicYield.svg",
+      "website": "https://www.dynamicyield.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 74,
+          "slug": "a-b-testing",
+          "name": "A/B Testing"
+        }
+      ]
+    },
+    {
+      "slug": "webpack",
+      "name": "webpack",
+      "confidence": 100,
+      "version": null,
+      "icon": "webpack.svg",
+      "website": "https://webpack.js.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "font-awesome",
+      "name": "Font Awesome",
+      "confidence": 100,
+      "version": null,
+      "icon": "font-awesome.svg",
+      "website": "https://fontawesome.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 17,
+          "slug": "font-scripts",
+          "name": "Font scripts"
+        }
+      ]
+    }
+  ]
+}

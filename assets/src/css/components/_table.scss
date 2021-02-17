@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  border: 1px dashed var(--color-alpha3);
+}
+
+tr {
+  &:nth-child(even) {
+    background-color: var(--color-beta2);
+  }
+}
+
+th,
+td {
+  font-family: var(--ff-alpha);
+  border: 1px dashed var(--color-alpha3);
+  padding: .25em .5rem;
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: 500;
+  font-size: .875rem;
+  text-align: left;
+}
+
+td {
+  &:nth-child(2) {
+    text-align: left;
+  }
+
+  &:nth-child(3) {
+    text-align: right;
+  }
+}
