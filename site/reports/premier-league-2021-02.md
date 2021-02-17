@@ -11,7 +11,7 @@ reports:
     details: true
   - list:
       - description: >-
-          In this report, we are going to focus on the size of CSS. This report aims to understand how much CSS code is needed to build a site, and could we do it with less code.
+          In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site, and could we do it with less code.
 
           Sites audited in this report:
       - var:
