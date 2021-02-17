@@ -6,7 +6,7 @@
     "gulp": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp\"",
     "build": "gulp build && npm run eleventy-build"
   },
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
