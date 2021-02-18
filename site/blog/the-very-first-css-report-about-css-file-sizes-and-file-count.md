@@ -13,7 +13,7 @@ reports:
       How It Started
     list:
       - description: >-
-          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but I one particular advice stuck with: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
+          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but one particular advice stuck with: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
   - title: >-
       About CSS Audit
     list:
