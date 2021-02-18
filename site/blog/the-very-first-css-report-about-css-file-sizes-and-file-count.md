@@ -13,7 +13,7 @@ reports:
       How It Started
     list:
       - description: >-
-          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but I learned a lot. One particular advice stuck with me the most: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
+          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but I one particular advice stuck with: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
   - title: >-
       About CSS Audit
     list:
@@ -24,7 +24,7 @@ reports:
 
           > A software code audit is a comprehensive analysis of source code in a programming project with the intent of discovering bugs, security breaches or violations of programming conventions.
 
-          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. That is why we would like to add CSS code quality to this definition.
+          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. There are linters and other tools that could prevent those issues, but they couldn't prevent writing bad CSS. That is why we would like to add CSS code quality to this definition.
   - title: >-
       About CSS Quality
     list:
@@ -97,7 +97,7 @@ reports:
             Other things I’d look at have already been mentioned.
           author: Azlan
       - description: >-
-          There seems to be no answer to what CSS code quality implies. All of these answers are correct, and none of these answers is suitable. That needs to changes.
+          There seems to be no answer to what CSS code quality implies. All of these answers might be correct, and none of these answers might be suitable. That needs to change.
   - title: >-
       The Very First Audit Report
     list:
