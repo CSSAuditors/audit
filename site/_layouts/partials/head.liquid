@@ -13,9 +13,9 @@
 {% unless env.development %}
   {% if layout == 'index' %}
     <style>{% include ../../assets/dist/css/audit-index.critical.min.css %}</style>
-  {% elsif layout == 'report-index' %}
+  {% elsif layout == 'category' %}
     <style>{% include ../../assets/dist/css/audit-report-index.critical.min.css %}</style>
-  {% elsif layout == 'report' %}
+  {% elsif layout == 'post' %}
     <style>{% include ../../assets/dist/css/audit-report.critical.min.css %}</style>
   {% endif %}
 {% endunless %}
