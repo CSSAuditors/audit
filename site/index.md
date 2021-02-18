@@ -30,7 +30,7 @@ blocks:
       Subscribe
     icon: /gfx/subscribe.svg
     description: >-
-      We are working hard to publish new reports as soon as possible.
+      We are working hard to publish new reports and blog posts as soon as possible.
 
       If you would like to get new reports in your inbox, subscribe here!
     subscribe: true
@@ -40,7 +40,10 @@ blocks:
     description: >-
       We are excited to share our findings with the community.
 
-      New articles are coming soon.
+      Read the latest articles.
+    cta:
+      - title: See all posts →
+        href: /blog/
 
     # To learn more about how to write better CSS and what to pay attention to, you could read it in our blog.
     # cta:

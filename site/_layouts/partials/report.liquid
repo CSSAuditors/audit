@@ -50,6 +50,9 @@
               {% if elem.description %}
                 {{ elem.description | markdownify }}
               {% endif %}
+              {% if elem.quote.text %}
+                {{ elem.quote.text | quotify: elem.quote.author }}
+              {% endif %}
               {% if elem.var %}
                 {% if elem.var.wrap and elem.var.item %}
                   <{{ elem.var.wrap }}>{{ elem.var.item | variablize: object, elem.var.type }}</{{ elem.var.wrap }}>

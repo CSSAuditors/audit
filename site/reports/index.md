@@ -1,7 +1,7 @@
 ---
-layout: report-index
+layout: category
 title: Reports
-description:
+description: Read the latest CSS reports from CSS Auditors.
 blocks:
   - title: >-
       Sizes Report

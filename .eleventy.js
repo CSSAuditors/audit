@@ -11,11 +11,9 @@ let siteData = {
 }
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addLiquidFilter('markdownify', (str) => {
-    return markdownItRenderer.render(str.replace(/\n/g, '\n\n').trim())
-  })
+  const runMarkdown = (str) => markdownItRenderer.render(str.replace(/\n/g, '\n\n').trim())
 
-  eleventyConfig.addLiquidFilter('markdownifyi', (str) => markdownItRenderer.renderInline(str.replace(/\\n/, '\\n\\n').trim()))
+  const runMarkdownInline = (str) => markdownItRenderer.renderInline(str.replace(/\\n/, '\\n\\n').trim())
 
   const checkGlobalVars = (key, object, type) => {
     if(!globalVars.hasOwnProperty(key)) {
@@ -54,6 +52,13 @@ module.exports = (eleventyConfig) => {
     return ret || str
   })
 
+  eleventyConfig.addLiquidFilter('quotify', (quote, author) => {
+    const a = author ? `<p>— ${author}</p>` : ''
+    const ret = `<blockquote>${runMarkdown(quote)}${a}</blockquote>`
+
+    return ret
+  })
+
   eleventyConfig.addLiquidFilter('imagize', (src, alt, size) => {
     return `<img class="" src="${src}" alt="${alt}" height="${size}" width="${size}">`
   })
@@ -89,6 +94,10 @@ module.exports = (eleventyConfig) => {
   }
 
   eleventyConfig.addLiquidFilter('variablize', variable)
+
+  eleventyConfig.addLiquidFilter('markdownifyi', (str) => runMarkdownInline(str))
+
+  eleventyConfig.addLiquidFilter('markdownify', (str) => runMarkdown(str))
 
   eleventyConfig.addPassthroughCopy({"assets/dist": "."})
   eleventyConfig.addPassthroughCopy({"assets/styleguide": "./styleguide"})

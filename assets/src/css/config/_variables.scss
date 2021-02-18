@@ -1,9 +1,8 @@
-$ff-alpha: 'Barlow';
 $mq-alpha: 750px;
 $mq-beta: 751px;
 
 :root {
-  --ff-alpha: #{$ff-alpha};
+  --ff-alpha: 'Barlow', sans-serif;
   --fz-alpha: 18px;
   --fz-beta: 15px;
   --color-alpha: hsl(222deg 88% 55%);

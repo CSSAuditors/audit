@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --ff-alpha: Barlow;
+  --ff-alpha: 'Barlow', sans-serif;
   --fz-alpha: 18px;
   --fz-beta: 15px;
   --color-alpha: hsl(222deg 88% 55%);
@@ -413,18 +413,28 @@ td:nth-child(3) {
   text-align: right; }
 
 blockquote {
-  position: relative; }
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
   blockquote:before  {
     content: "“";
+    font-family: var(--ff-alpha);
     font-size: 4rem;
     line-height: 3rem;
     position: absolute;
-    top: 0;
+    top: 1rem;
     left: 0;
     -webkit-transform: translate(-200%, 2%);
     -ms-transform: translate(-200%, 2%);
     transform: translate(-200%, 2%);
     color: var(--color-alpha3); }
+  blockquote + blockquote {
+    border-top: 1px dashed var(--color-alpha3);
+    padding-top: 2em; }
+    blockquote + blockquote:before {
+      top: 2rem; }
 
 /*
 Grid

@@ -1,5 +1,5 @@
 ---
-layout: report
+layout: post
 title: The CSS File Size and Count Report for Premier League sites
 description: In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 image: /gfx/the-css-file-size-and-count-report-for-premier-league-sites.jpg
@@ -66,7 +66,7 @@ reports:
       - description: >-
           Burnley's and Chelsea's sites do not load any external CSS file. The Premier League's site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
-          Everton's, Leicester's and Newcastle's sites don't use the `<style>` tag. Chelsea's site loads more than 900KB, and three other sites load more than 200KB.
+          Everton's, Leicester's, and Newcastle's sites don't use the `<style>` tag. Chelsea's site loads more than 900KB, and three other sites load more than 200KB.
 
           Regarding the inline `style` attribute, all sites load less than 8KB of CSS code. Six sites load less than 1KB, and the lowest CSS code that comes from the inline `style` attribute is loaded on Everton's site. Three sites load more than 6KB, where Aston Villa's site loads the most, more than 7KB.
       - description: >-
@@ -92,7 +92,7 @@ reports:
 
           #### Web Almanac
 
-          According to Web Almanac, 7% of all pages use a single External CSS file while the average is 6.
+          According to Web Almanac, 7% of all pages use a single External CSS file, while the average is 6.
 
           > All these kilobytes of code are typically distributed across multiple files and `<style>` elements; only about 7% of pages concentrate all their CSS code in one remote stylesheet, as we are often taught to do. In fact, the median page contains 3 `<style>` elements and 6 remote stylesheets, with 10% of them carrying over 14` <style> elem`ents and over 20 remote CSS files! While this is suboptimal on desktop, it really kills performance on mobile, where round-trip latency is more important than raw download speed.
       - chart:
@@ -105,6 +105,25 @@ reports:
           All sites use at least one `<style>` tag. Sheffield's and Aston Villa's sites use more than 90 `<style>` tags, while Arsenal's, Leicester's, and Newcastle's sites load only one `<style>` tag.
 
           All sites use inline `style` attribute. Everton's and Leicester's sites use only a couple of `style` attributes, while Aston Villa's, Fulham's, and Sheffield's sites use more than 50 `style` attributes.
+  - title: >-
+      Top and Bottom Sites
+    list:
+      - description: >-
+          Top three Premier League sites in terms of CSS file size are:
+
+          - Burnley,
+
+          - Wolves, and
+
+          - Fulham.
+
+          On the other side, the bottom three sites in terms of CSS file size are:
+
+          - Premier League
+
+          - Southampton, and
+
+          - Manchester United.
   - title: >-
       The Conclusion
     list:
@@ -127,7 +146,7 @@ reports:
     subscribe: true
     list:
       - description: >-
-          We are working hard to publish new reports as soon as possible.
+          We are working hard to publish new reports and blog posts as soon as possible.
 
           If you would like to get new reports in your inbox, subscribe here!
   - title: >-

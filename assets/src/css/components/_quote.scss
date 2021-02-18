@@ -1,14 +1,28 @@
 blockquote {
   position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
   &:before {
     content: "“";
+    font-family: var(--ff-alpha);
     font-size: 4rem;
     line-height: 3rem;
     position: absolute;
-    top: 0;
+    top: 1rem;
     left: 0;
     transform: translate(-200%, 2%);
     color: var(--color-alpha3);
+  }
+
+  & + & {
+    border-top: 1px dashed var(--color-alpha3);
+    padding-top: 2em;
+
+    &:before {
+      top: 2rem;
+    }
   }
 }
