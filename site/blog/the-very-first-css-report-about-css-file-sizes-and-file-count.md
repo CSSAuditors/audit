@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Very First CSS Report About CSS File Sizes and File Count
-description:
+description: Learn how and why we started this site and how we published our first report about file sizes in Premier League sites.
 image:
 date: 2021-02-18
 author: Silvestar
@@ -18,13 +18,13 @@ reports:
       About CSS Audit
     list:
       - description: >-
-          CSS auditing is not a very popular topic, but we find it very important. Although there are some excellent tools and resources, we don't think those are widespread enough. One of the aims of CSS Auditors is to try to change that. We want to bring attention to CSS and all aspects of writing quality CSS code. After all, every site on earth uses CSS, with very few exceptions [like this one](https://motherfuckingwebsite.com/).
+          CSS auditing is not a very popular topic, but we find it very important. Although there are some excellent tools and resources, we don’t think those are widespread enough. One of the aims of CSS Auditors is to try to change that. We want to bring attention to CSS and all aspects of writing quality CSS code. After all, every site on earth uses CSS, with very few exceptions [like this one](https://motherfuckingwebsite.com/).
 
           [Wikipedia](https://en.wikipedia.org/wiki/Code_audit) has this definition for code audit:
 
           > A software code audit is a comprehensive analysis of source code in a programming project with the intent of discovering bugs, security breaches or violations of programming conventions.
 
-          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. There are linters and other tools that could prevent those issues, but they couldn't prevent writing bad CSS. That is why we would like to add CSS code quality to this definition.
+          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. There are linters and other tools that could prevent those issues, but they couldn’t prevent writing bad CSS. That is why we would like to add CSS code quality to this definition.
   - title: >-
       About CSS Quality
     list:
@@ -104,14 +104,14 @@ reports:
       - description: >-
           One of the first thing that comes to mind when thinking about the quality of the code is file size. That is exactly what we did in our first report – we audited CSS code of all Premier League sites. This is the part where I managed to include my passion, sports, into the project.
 
-          The full report is available [here](/reports/premier-league-2021-02/). I don't want to write any spoilers, so I will leave you to read it thoroughly.
+          The full report is available [here](/reports/premier-league-2021-02/). I don’t want to write any spoilers, so I will leave you to read it thoroughly.
 
-          To be able to make this report, we needed information. So the first step was to extract the CSS code from these sites. We used [wappalyzer](https://github.com/aliasio/wappalyzer) and [extract-css-core](https://github.com/bartveneman/extract-css-core), both excellent tools. We didn't want to make calculations manually since we wanted to reuse the script to audit other sites, so we wrote a script for calculations and graphs. Finally, we needed to make the report look appealing. This is definitively the part that could use more love, but we wanted to release the report as soon as possible.
+          To be able to make this report, we needed information. So the first step was to extract the CSS code from these sites. We used [wappalyzer](https://github.com/aliasio/wappalyzer) and [extract-css-core](https://github.com/bartveneman/extract-css-core), both excellent tools. We didn’t want to make calculations manually since we wanted to reuse the script to audit other sites, so we wrote a script for calculations and graphs. Finally, we needed to make the report look appealing. This is definitively the part that could use more love, but we wanted to release the report as soon as possible.
   - title: >-
       The Conclusion
     list:
       - description: >-
-          We hope this report will encourage you to think about your CSS code's size and the quality of CSS in general.
+          We hope this report will encourage you to think about your CSS code’s size and the quality of CSS in general.
 
           That is the final goal of CSS Auditors; we want to make every developer respect CSS.
 

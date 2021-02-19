@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-  --ff-alpha: Barlow;
+  --ff-alpha: 'Barlow', sans-serif;
   --fz-alpha: 18px;
   --fz-beta: 15px;
   --color-alpha: hsl(222deg 88% 55%);
@@ -196,6 +196,7 @@ p {
 .footer__tagline {
   margin-top: 1rem;
   font-size: .75rem;
+  text-align: center;
 }
 
 .footer__tagline p {

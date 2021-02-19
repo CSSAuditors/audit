@@ -4,6 +4,7 @@
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy",
     "dev": "npm run eleventy-dev",
     "gulp": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp\"",
+    "preview": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --watch",
     "build": "gulp build && npm run eleventy-build"
   },
   "dependencies": {

@@ -40,7 +40,7 @@ reports:
 
           Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it still close enough to get the "big picture" about CSS sizes.
 
-          To make the text more readable, the terms "site" and "homepage" refer to the same thing: the site's homepage.
+          To make the text more readable, the terms "site" and "homepage" refer to the same thing: the site’s homepage.
 
           ⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.
   - title: >-
@@ -56,7 +56,7 @@ reports:
 
           #### Web Almanac
 
-          According to [Web Almanac](https://almanac.httparchive.org/en/2020/css#usage), around 10% of all processed sites load more than 240KB of CSS code. According to this report, all Premier League sites but two, Burnley's and Wolverhampton's, load more than 240KB of CSS code overall.
+          According to [Web Almanac](https://almanac.httparchive.org/en/2020/css#usage), around 10% of all processed sites load more than 240KB of CSS code. According to this report, all Premier League sites but two, Burnley’s and Wolverhampton’s, load more than 240KB of CSS code overall.
 
           > While JavaScript far surpasses CSS in its share of page weight, CSS has certainly grown in size over the years, with the median desktop page loading 62 KB of CSS code, and one in ten pages loading more than 240 KB of CSS code.
       - chart:
@@ -64,15 +64,15 @@ reports:
           type: extractor
           info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
       - description: >-
-          Burnley's and Chelsea's sites do not load any external CSS file. The Premier League's site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
+          Burnley’s and Chelsea’s sites do not load any external CSS file. The Premier League’s site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
-          Everton's, Leicester's, and Newcastle's sites don't use the `<style>` tag. Chelsea's site loads more than 900KB, and three other sites load more than 200KB.
+          Everton’s, Leicester’s, and Newcastle’s sites don’t use the `<style>` tag. Chelsea’s site loads more than 900KB, and three other sites load more than 200KB.
 
-          Regarding the inline `style` attribute, all sites load less than 8KB of CSS code. Six sites load less than 1KB, and the lowest CSS code that comes from the inline `style` attribute is loaded on Everton's site. Three sites load more than 6KB, where Aston Villa's site loads the most, more than 7KB.
+          Regarding the inline `style` attribute, all sites load less than 8KB of CSS code. Six sites load less than 1KB, and the lowest CSS code that comes from the inline `style` attribute is loaded on Everton’s site. Three sites load more than 6KB, where Aston Villa’s site loads the most, more than 7KB.
       - description: >-
           #### Wappalyzer
 
-          According to Wappalyzer, a tool for identifying technologies on websites, only three sites use UI frameworks: Leeds's and West Ham's sites use Bootstrap and WBA's site uses the ZURB Foundation framework.
+          According to Wappalyzer, a tool for identifying technologies on websites, only three sites use UI frameworks: Leeds’s and West Ham’s sites use Bootstrap and WBA’s site uses the ZURB Foundation framework.
       - var:
           item: $htmlWappalyzer
           type: wappalyzer
@@ -88,7 +88,7 @@ reports:
       - description: >-
           ### The Findings
 
-          The Premier League site's average homepage loads 4 External CSS files, 19 `<style>` tags, and 23 `style` attributes.
+          The Premier League site’s average homepage loads 4 External CSS files, 19 `<style>` tags, and 23 `style` attributes.
 
           #### Web Almanac
 
@@ -100,11 +100,11 @@ reports:
           type: extractor
           info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
       - description: >-
-          The only site that does not load any External CSS file is Burnley's site. Six sites load only a single External CSS file, including Brighton's, Chelsea's, Everton's, Manchester's, Newcastle's, and Tottenham's site. On the other hand, West Ham's site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa's and Liverpool's sites.
+          The only site that does not load any External CSS file is Burnley’s site. Six sites load only a single External CSS file, including Brighton’s, Chelsea’s, Everton’s, Manchester’s, Newcastle’s, and Tottenham’s site. On the other hand, West Ham’s site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa’s and Liverpool’s sites.
 
-          All sites use at least one `<style>` tag. Sheffield's and Aston Villa's sites use more than 90 `<style>` tags, while Arsenal's, Leicester's, and Newcastle's sites load only one `<style>` tag.
+          All sites use at least one `<style>` tag. Sheffield’s and Aston Villa’s sites use more than 90 `<style>` tags, while Arsenal’s, Leicester’s, and Newcastle’s sites load only one `<style>` tag.
 
-          All sites use inline `style` attribute. Everton's and Leicester's sites use only a couple of `style` attributes, while Aston Villa's, Fulham's, and Sheffield's sites use more than 50 `style` attributes.
+          All sites use inline `style` attribute. Everton’s and Leicester’s sites use only a couple of `style` attributes, while Aston Villa’s, Fulham’s, and Sheffield’s sites use more than 50 `style` attributes.
   - title: >-
       Top and Bottom Sites
     list:

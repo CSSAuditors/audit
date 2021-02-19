@@ -89,3 +89,10 @@ code {
   background-color: var(--color-alpha2);
   border: 1px dashed var(--color-alpha3);
 }
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px dashed var(--color-alpha3);
+}
