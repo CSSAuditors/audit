@@ -50,7 +50,7 @@ reports:
           author: Matt
       - quote:
           text: >-
-            Usage of low/high specificity selectors.
+            - Usage of low/high specificity selectors.
 
             - Styles with less noise
 
@@ -97,12 +97,12 @@ reports:
             Other things I’d look at have already been mentioned.
           author: Azlan
       - description: >-
-          There seems to be no answer to what CSS code quality implies. Everyone’s answer is different and it depends on various apsects.
+          There seems to be no answer to what CSS code quality implies. Everyone’s answer is different, and it depends on various aspects.
   - title: >-
       The Very First Audit Report
     list:
       - description: >-
-          One of the first thing that comes to mind when thinking about the quality of the code is file size. That is exactly what we did in our first report – we audited CSS code of all Premier League sites. This is the part where I managed to include my passion, sports, into the project.
+          One of the first thing that comes to mind when thinking about the quality of the code is file size. That is exactly what we did in our first report – we audited the CSS code of all Premier League sites. This is the part where I managed to include my passion, sports, into the project.
 
           The full report is available [here](/reports/premier-league-2021-02/). I don’t want to write any spoilers, so I will leave you to read it thoroughly.
 
@@ -111,7 +111,7 @@ reports:
       The Conclusion
     list:
       - description: >-
-          We hope this report will encourage you to think about your CSS code’s size and the quality of CSS in general.
+          We hope this report will encourage you to think about your CSS code’s size and CSS quality in general.
 
           That is the final goal of CSS Auditors; we want to make every developer respect CSS.
 
