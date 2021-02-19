@@ -13,7 +13,7 @@ reports:
       How It Started
     list:
       - description: >-
-          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but one particular advice stuck with: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
+          Last year I took [a masterclass](https://boagworld.com/academy/finding-clients/) on finding clients by Paul Boag. I never got to the final lesson, but one particular advice stuck with me: you should combine your passion with your profession. So I started thinking about combining sports, my passion, and front-end development, to be more precise, CSS, my profession. Since I enjoy writing CSS and exploring it and finding new ways to use it more efficiently, I got the idea of starting a site about auditing CSS. I presented the idea to my friend, and here we are now, providing our first report.
   - title: >-
       About CSS Audit
     list:
@@ -24,7 +24,7 @@ reports:
 
           > A software code audit is a comprehensive analysis of source code in a programming project with the intent of discovering bugs, security breaches or violations of programming conventions.
 
-          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. There are linters and other tools that could prevent those issues, but they couldn’t prevent writing bad CSS. That is why we would like to add CSS code quality to this definition.
+          CSS is a very forgiving language in terms of errors. The reason is that browsers usually skip the line that produces the error while the rest of the code remains valid. There are linters and other tools that could prevent those issues. Still, they cannot prevent developers from writing inadequate CSS. That is why we would like to add [u]CSS code quality[\u] to this definition.
   - title: >-
       About CSS Quality
     list:
@@ -97,7 +97,7 @@ reports:
             Other things I’d look at have already been mentioned.
           author: Azlan
       - description: >-
-          There seems to be no answer to what CSS code quality implies. All of these answers might be correct, and none of these answers might be suitable. That needs to change.
+          There seems to be no answer to what CSS code quality implies. Everyone’s answer is different and it depends on various apsects.
   - title: >-
       The Very First Audit Report
     list:
@@ -129,6 +129,6 @@ reports:
       - description: >-
           We are working hard to publish new reports and blog posts as soon as possible.
 
-          If you would like to get new reports in your inbox, subscribe here!
+          If you would like to get recent reports in your inbox, subscribe here!
 ---
 

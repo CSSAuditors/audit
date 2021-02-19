@@ -8,7 +8,6 @@ blocks:
     description: >-
       Learn how and why we started this site and how we published our first report about file sizes in Premier League sites.
     cta:
-      - title: Our very first CSS report is here →
+      - title: Read the article →
         href: /blog/the-very-first-css-report-about-css-file-sizes-and-file-count/
 ---
-

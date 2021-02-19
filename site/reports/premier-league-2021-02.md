@@ -38,9 +38,9 @@ reports:
 
           - Inline CSS refers to CSS code that comes from the inline `style` attributes.
 
-          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it still close enough to get the "big picture" about CSS sizes.
+          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it still close enough to get the “big picture” about CSS sizes.
 
-          To make the text more readable, the terms "site" and "homepage" refer to the same thing: the site’s homepage.
+          To make the text more readable, the terms “site” and “homepage” refer to the same thing: the site’s homepage.
 
           ⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.
   - title: >-
@@ -52,7 +52,7 @@ reports:
       - description: >-
           ### The Findings
 
-          An average homepage of the Premier League site loads ~737KB of CSS code. Around ~83.61% of the CSS code comes from external CSS files, around ~16,04% comes from the `<style>` tags, and only ~0.34% comes from the inline `style` attributes. It is not surprising that most of the CSS code comes from the external CSS files since that is the most recommended way to do it. With the recent Google updates about Web Vitals, like Cumulative Layout Shifts and Largest Contentful Paint, and the awareness of the importance of the "above the fold" code, it is also not surprising to see the percentage of the Style Tag CSS. The least popular, as it should be, is the Inline CSS code.
+          An average homepage of the Premier League site loads ~737KB of CSS code. Around ~83.61% of the CSS code comes from external CSS files, around ~16,04% comes from the `<style>` tags, and only ~0.34% comes from the inline `style` attributes. It is not surprising that most of the CSS code comes from the external CSS files since that is the most recommended way to do it. With the recent Google updates about Web Vitals, like Cumulative Layout Shifts and Largest Contentful Paint, and the awareness of the importance of the “above the fold” code, it is also not surprising to see the percentage of the Style Tag CSS. The least popular, as it should be, is the Inline CSS code.
 
           #### Web Almanac
 
@@ -148,7 +148,7 @@ reports:
       - description: >-
           We are working hard to publish new reports and blog posts as soon as possible.
 
-          If you would like to get new reports in your inbox, subscribe here!
+          If you would like to get recent reports in your inbox, subscribe here!
   - title: >-
       Single Reports
     list:

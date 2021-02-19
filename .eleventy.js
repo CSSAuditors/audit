@@ -11,9 +11,13 @@ let siteData = {
 }
 
 module.exports = (eleventyConfig) => {
-  const runMarkdown = (str) => markdownItRenderer.render(str.replace(/\n/g, '\n\n').trim())
+  const cleanup = (str) => str.replace(/\n/g, '\n\n').trim()
 
-  const runMarkdownInline = (str) => markdownItRenderer.renderInline(str.replace(/\\n/, '\\n\\n').trim())
+  const shortcodes = (str) => str.replace(/\[u\]/g, '<span class="highlight">').replace(/\[\\u\]/g, '</span>')
+
+  const runMarkdown = (str) => shortcodes(markdownItRenderer.render(cleanup(str)))
+
+  const runMarkdownInline = (str) => shortcodes(markdownItRenderer.renderInline(cleanup(str)))
 
   const checkGlobalVars = (key, object, type) => {
     if(!globalVars.hasOwnProperty(key)) {

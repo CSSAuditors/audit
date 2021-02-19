@@ -7,10 +7,10 @@
   --color-alpha2: hsl(222deg 88% 55% / .02);
   --color-alpha3: hsl(222deg 88% 55% / .2);
   --color-alpha4: hsl(222deg 88% 45%);
-  --color-beta: hsl(222deg 10% 10%);
-  --color-beta2: hsl(222deg 10% 10% / .02);
-  --color-beta3: hsl(222deg 10% 10% / .2);
-  --color-beta4: hsl(222deg 10% 10% / .8);
+  --color-beta: hsl(222deg 88% 11%);
+  --color-beta2: hsl(222deg 88% 11% / .02);
+  --color-beta3: hsl(222deg 88% 11% / .2);
+  --color-beta4: hsl(222deg 88% 22%);
   --color-gamma: hsl(0deg 0% 100%);
   --chart-color-alpha: hsl(157deg 88% 55%);
   --chart-color-beta: hsl(222deg 88% 55%);
@@ -121,6 +121,9 @@ hr {
   margin-bottom: 2rem;
   border: 0;
   border-top: 1px dashed var(--color-alpha3); }
+
+.highlight {
+  color: var(--color-beta4); }
 
 /*
 Nav
@@ -350,16 +353,14 @@ form {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column;
-  padding-top: 1rem; }
+  flex-direction: column; }
 
 .input,
 .button {
   font-family: var(--ff-alpha);
   font-weight: 500;
   font-size: 1rem;
-  border-radius: 0;
-  padding: 1rem; }
+  border-radius: 0; }
   .input:not(:first-child),
   .button:not(:first-child) {
     margin-top: 1rem; }
@@ -374,14 +375,16 @@ form {
 .input {
   background-color: var(--color-gamma);
   color: var(--color-beta);
-  border: 1px solid var(--color-alpha); }
+  border: 1px solid var(--color-alpha);
+  padding: 1rem; }
   .input:hover {
     border-color: var(--color-beta); }
 
 .button {
-  background-color: var(--color-beta);
+  background-color: var(--color-beta4);
   color: var(--color-gamma);
-  border: 1px solid var(--color-beta);
+  border: 1px solid var(--color-beta4);
+  padding: 1rem 2rem;
   cursor: pointer; }
   .button[href]:not(.skip) {
     display: inline-block;

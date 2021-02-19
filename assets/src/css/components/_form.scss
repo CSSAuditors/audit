@@ -9,7 +9,6 @@ Style guide: Form
 form {
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
 }
 
 .input,
@@ -18,7 +17,6 @@ form {
   font-weight: 500;
   font-size: 1rem;
   border-radius: 0;
-  padding: 1rem;
 
   &:not(:first-child) {
     margin-top: 1rem;
@@ -37,6 +35,7 @@ form {
   background-color: var(--color-gamma);
   color: var(--color-beta);
   border: 1px solid var(--color-alpha);
+  padding: 1rem;
 
   &:hover {
     border-color: var(--color-beta);
@@ -44,9 +43,10 @@ form {
 }
 
 .button {
-  background-color: var(--color-beta);
+  background-color: var(--color-beta4);
   color: var(--color-gamma);
-  border: 1px solid var(--color-beta);
+  border: 1px solid var(--color-beta4);
+  padding: 1rem 2rem;
   cursor: pointer;
 
   &[href]:not(.skip) {
