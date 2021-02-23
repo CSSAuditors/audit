@@ -7,7 +7,8 @@ const env = require('./site/_data/env')
 
 let siteData = {
   authors: require('./site/_data/authors.json'),
-  sites2: require('./site/_data/sites2.json')
+  sites2: require('./site/_data/sites2.json'),
+  sites3: require('./site/_data/sites3.json'),
 }
 
 module.exports = (eleventyConfig) => {

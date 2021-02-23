@@ -1,0 +1,286 @@
+{
+  "urls": {
+    "https://schalke04.de/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "wordpress",
+      "name": "WordPress",
+      "confidence": 100,
+      "version": null,
+      "icon": "WordPress.svg",
+      "website": "https://wordpress.org",
+      "cpe": "cpe:/a:wordpress:wordpress",
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        },
+        {
+          "id": 11,
+          "slug": "blogs",
+          "name": "Blogs"
+        }
+      ]
+    },
+    {
+      "slug": "cart-functionality",
+      "name": "Cart Functionality",
+      "confidence": 100,
+      "version": null,
+      "icon": "Cart-generic.svg",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 6,
+          "slug": "ecommerce",
+          "name": "Ecommerce"
+        }
+      ]
+    },
+    {
+      "slug": "mysql",
+      "name": "MySQL",
+      "confidence": 100,
+      "version": null,
+      "icon": "MySQL.svg",
+      "website": "http://mysql.com",
+      "cpe": "cpe:/a:mysql:mysql",
+      "categories": [
+        {
+          "id": 34,
+          "slug": "databases",
+          "name": "Databases"
+        }
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "PHP",
+      "confidence": 100,
+      "version": null,
+      "icon": "PHP.svg",
+      "website": "http://php.net",
+      "cpe": "cpe:/a:php:php",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "confidence": 100,
+      "version": null,
+      "icon": "Bootstrap.svg",
+      "website": "https://getbootstrap.com",
+      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "categories": [
+        {
+          "id": 66,
+          "slug": "ui-frameworks",
+          "name": "UI frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "requirejs",
+      "name": "RequireJS",
+      "confidence": 100,
+      "version": "2.3.6",
+      "icon": "RequireJS.png",
+      "website": "http://requirejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "jquery-migrate",
+      "name": "jQuery Migrate",
+      "confidence": 100,
+      "version": "3.3.2",
+      "icon": "jQuery.svg",
+      "website": "https://github.com/jquery/jquery-migrate",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "trackjs",
+      "name": "TrackJs",
+      "confidence": 100,
+      "version": null,
+      "icon": "TrackJs.svg",
+      "website": "http://trackjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "slick",
+      "name": "Slick",
+      "confidence": 100,
+      "version": null,
+      "icon": "default.svg",
+      "website": "https://kenwheeler.github.io/slick",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.5.1",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "modernizr",
+      "name": "Modernizr",
+      "confidence": 100,
+      "version": "3.6.0",
+      "icon": "Modernizr.svg",
+      "website": "https://modernizr.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 100,
+      "version": "4.17.20",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "criteo",
+      "name": "Criteo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Criteo.svg",
+      "website": "http://criteo.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "mailjet",
+      "name": "Mailjet",
+      "confidence": 100,
+      "version": null,
+      "icon": "Mailjet.svg",
+      "website": "https://www.mailjet.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "confidence": 100,
+      "version": null,
+      "icon": "CloudFlare.svg",
+      "website": "http://www.cloudflare.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "urls": {
+    "https://www.borussia.de/de/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "typo3-cms",
+      "name": "TYPO3 CMS",
+      "confidence": 100,
+      "version": null,
+      "icon": "TYPO3.svg",
+      "website": "https://typo3.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        }
+      ]
+    },
+    {
+      "slug": "cart-functionality",
+      "name": "Cart Functionality",
+      "confidence": 100,
+      "version": null,
+      "icon": "Cart-generic.svg",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 6,
+          "slug": "ecommerce",
+          "name": "Ecommerce"
+        }
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "PHP",
+      "confidence": 100,
+      "version": null,
+      "icon": "PHP.svg",
+      "website": "http://php.net",
+      "cpe": "cpe:/a:php:php",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "nginx",
+      "name": "Nginx",
+      "confidence": 100,
+      "version": "1.14.2",
+      "icon": "Nginx.svg",
+      "website": "http://nginx.org/en",
+      "cpe": "cpe:/a:nginx:nginx",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        },
+        {
+          "id": 64,
+          "slug": "reverse-proxies",
+          "name": "Reverse proxies"
+        }
+      ]
+    },
+    {
+      "slug": "choices",
+      "name": "Choices",
+      "confidence": 100,
+      "version": null,
+      "icon": "Choices.png",
+      "website": "https://joshuajohnson.co.uk/Choices/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.4.1",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "zepto",
+      "name": "Zepto",
+      "confidence": 100,
+      "version": null,
+      "icon": "Zepto.png",
+      "website": "http://zeptojs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "isotope",
+      "name": "Isotope",
+      "confidence": 100,
+      "version": null,
+      "icon": "Isotope.svg",
+      "website": "https://isotope.metafizzy.co",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "noexistence-at-all": [
+    {
+      "line": "749",
+      "errortype": "parse-error",
+      "context": ".fa, .fab, .fal, .far, .fas",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                auto\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “text-rendering” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "9277",
+      "errortype": "parse-error",
+      "context": ".form-control-feedback",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "9536",
+      "errortype": "parse-error",
+      "context": "a.btn.disabled, fieldset[disabled] a.btn",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "10290",
+      "errortype": "parse-error",
+      "context": "[data-toggle=\"buttons\"] > .btn input[type=\"checkbox\"], [data-toggle=\"buttons\"] > .btn input[type=\"radio\"], [data-toggle=\"buttons\"] > .btn-group > .btn input[type=\"checkbox\"], [data-toggle=\"buttons\"] > .btn-group > .btn input[type=\"radio\"]",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13382",
+      "errortype": "parse-error",
+      "context": ".bootstrap-select.btn-group .dropdown-menu .notify",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13661",
+      "errortype": "parse-error",
+      "context": ".lg-actions .lg-next.disabled, .lg-actions .lg-prev.disabled",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "14142",
+      "errortype": "parse-error",
+      "context": "#lg-zoom-out",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "14149",
+      "errortype": "parse-error",
+      "context": ".lg-zoomed #lg-zoom-out",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                auto\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15054",
+      "errortype": "parse-error",
+      "context": ".mejs__offscreen",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                inset(50%)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “clip-path” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "17189",
+      "errortype": "parse-error",
+      "context": ".btn-group.bootstrap-select .btn .bs-caret",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                auto\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “text-rendering” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "18342",
+      "errortype": "parse-error",
+      "context": ".quotation-modul .quotation-wrapper .shape-outside",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                polygon(850px 0,850px 760px,90px 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “shape-outside” doesn't exist : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "value": [
+    {
+      "line": "6292",
+      "errortype": "parse-error",
+      "context": ".owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                hand\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  cursor (nullui.html#propdef-cursor)\n        \n                                “hand” is not a “cursor” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13636",
+      "errortype": "parse-error",
+      "context": ".lg-icon",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  speak (nullaural.html#propdef-speak)\n        \n                                “none” is not a “speak” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "14950",
+      "errortype": "parse-error",
+      "context": ".fancybox-close:before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  speak (nullaural.html#propdef-speak)\n        \n                                “none” is not a “speak” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15886",
+      "errortype": "parse-error",
+      "context": "[class*=\" icon-\"], [class^=\"icon-\"]",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  speak (nullaural.html#propdef-speak)\n        \n                                “none” is not a “speak” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "24844",
+      "errortype": "parse-error",
+      "context": ".shariff .orientation-horizontal",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                “none” is not a “flex-wrap” value : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "unkownerror": [
+    {
+      "line": "10697",
+      "errortype": "unkownerror",
+      "context": "\n                            ",
+      "message": "\n        \n                                Unknown error org.w3c.css.parser.analyzer.ParseException: Deprecated media feature “max-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "rgb": [
+    {
+      "line": "15320",
+      "errortype": "parse-error",
+      "context": ".mejs__time-buffering",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ) 25%,transparent 0,transparent 50%,hsla(0,0,100%,.4) 0,hsla(0,0,100%,.4) 75%,transparent 0,transparent)\n                            ",
+      "type": "rgb",
+      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15321",
+      "errortype": "parse-error",
+      "context": ".mejs__time-buffering",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ) 25%,transparent 0,transparent 50%,hsla(0,0,100%,.4) 0,hsla(0,0,100%,.4) 75%,transparent 0,transparent)\n                            ",
+      "type": "rgb",
+      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "noexistence-typo": [
+    {
+      "line": "26783",
+      "errortype": "parse-error",
+      "context": ".f-layout-2 .image-text-module .background",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                center center\n                            ",
+      "type": "noexistence-typo",
+      "message": "\n        \n                                Property “backround-position” doesn't exist. The closest matching property name is “background-position” : \n                            ",
+      "error": "\n                        "
+    }
+  ]
+}

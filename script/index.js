@@ -14,7 +14,7 @@ const { wappalyzerReport, wappalyzersReport, generateWappalyzersReport } = requi
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
-let sites = require('../site/_data/sites2.json')
+let sites = require('../site/_data/sites3.json')
 
 const ret = process.argv.indexOf('ret') !== -1
 
@@ -78,7 +78,7 @@ const start = async () => {
   await runScreenshot()
   await runSpecificity()
   await runWappalyzer()
-  await runAnalyses()
+  // await runAnalyses()
 }
 
 const getExtractor = async () => {

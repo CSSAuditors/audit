@@ -112,12 +112,12 @@ const getExtractorsReport = async (sites, silent) => {
   const minSizeInlines = getMins(arr, 'extractor', 'inline', 'size')
   const avgSizeInline = getAverage(arr, 'extractor', 'inline', 'size')
 
-  const minSizeImportText = minSizeImports.length ? `<th>Sites with no ${getName('link-or-import')}</th><td>${minSizeImports.reduce(a => a.site.title).join(',')}</td><td></td>` : `<th>Site with the smallest ${getName('link-or-import')}</th><td>${minSizeImport.site.title}</td><td>${filesize(minSizeImport.extractor['link-or-import'].size)}/${filesize(getGzipSize(minSizeImport.extractor['link-or-import'].css))}</td>`
+  const minSizeImportText = minSizeImports.length ? `<th>Sites with no ${getName('link-or-import')}</th><td>${minSizeImports.reduce(a => a.site.title).join(',')}</td><td></td>` : `<th>Site with the smallest ${getName('link-or-import')}</th><td>${minSizeImport.site.title}</td><td>${filesize(minSizeImport.extractor['link-or-import'].size)}</td>`
   const minSizeStyleText = minSizeStyles.length ? `<th>Sites with no ${getName('style')}</th><td>${minSizeStyles.map(a => a.site.title)}</td><td></td>` : `<th>Site with the smallest ${getName('style')}</th><td>${minSizeStyle.site.title}</td><td>${filesize(minSizeStyle.extractor['style'].size)}</td>`
   const minSizeInlineText = minSizeInlines.length ? `<th>Sites with no ${getName('inline')}</th><td>${minSizeInlines.map(a => a.site.title)}</td><td></td>` : `<th>Site with the smallest ${getName('inline')}</th><td>${minSizeInline.site.title}</td><td>${filesize(minSizeInline.extractor['inline'].size)}</td>`
 
   let outputSizes = `
-    <th>Site with the largest ${getName('link-or-import')} size</th><td>${maxSizeImport.site.title}</td><td>${filesize(maxSizeImport.extractor['link-or-import'].size)}/${filesize(getGzipSize(maxSizeImport.extractor['link-or-import'].css))}</td>
+    <th>Site with the largest ${getName('link-or-import')} size</th><td>${maxSizeImport.site.title}</td><td>${filesize(maxSizeImport.extractor['link-or-import'].size)}</td>
     ${minSizeImportText}
     <th>Average size of ${getName('link-or-import')} site</th><td></td><td>${filesize(avgSizeImport)}</td>
     <th>Site with the largest ${getName('style')} size</th><td>${maxSizeStyle.site.title}</td><td>${filesize(maxSizeStyle.extractor['style'].size)}</td>
@@ -271,7 +271,7 @@ const getExtractorsReportSync = (sites, silent) => {
   const minSizeInlines = getMins(arr, 'extractor', 'inline', 'size')
   const avgSizeInline = getAverage(arr, 'extractor', 'inline', 'size')
 
-  const minSizeImportText = minSizeImports.length ? `<th>Sites with no ${getName('link-or-import')}</th><td>${minSizeImports.length > 1 ? minSizeImports.reduce(a => a.site.title).join(',') : minSizeImports[0].site.title}</td><td></td>` : `<th>Site with the smallest ${getName('link-or-import')}</th><td>${minSizeImport.site.title}</td><td>${filesize(minSizeImport.extractor['link-or-import'].size)}/${filesize(getGzipSize(minSizeImport.extractor['link-or-import'].css))}</td>`
+  const minSizeImportText = minSizeImports.length ? `<th>Sites with no ${getName('link-or-import')}</th><td>${minSizeImports.length > 1 ? minSizeImports.reduce(a => a.site.title).join(',') : minSizeImports[0].site.title}</td><td></td>` : `<th>Site with the smallest ${getName('link-or-import')}</th><td>${minSizeImport.site.title}</td><td>${filesize(minSizeImport.extractor['link-or-import'].size)}</td>`
   const minSizeStyleText = minSizeStyles.length ? `<th>Sites with no ${getName('style')}</th><td>${minSizeStyles.map(a => a.site.title)}</td><td></td>` : `<th>Site with the smallest ${getName('style')}</th><td>${minSizeStyle.site.title}</td><td>${filesize(minSizeStyle.extractor['style'].size)}</td>`
   const minSizeInlineText = minSizeInlines.length ? `<th>Sites with no ${getName('inline')}</th><td>${minSizeInlines.map(a => a.site.title)}</td><td></td>` : `<th>Site with the smallest ${getName('inline')}</th><td>${minSizeInline.site.title}</td><td>${filesize(minSizeInline.extractor['inline'].size)}</td>`
 
