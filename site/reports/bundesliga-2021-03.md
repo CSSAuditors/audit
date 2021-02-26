@@ -12,14 +12,14 @@ reports:
     details: true
   - list:
       - description: >-
-          In this report, we put the main focus on the size of CSS. The goal of the report is to show how much CSS is needed to create a site.
+          This report, like [the previous one](/reports/premier-league-2021-02/), focuses on the size of CSS. We share how much CSS is needed to create a site.
 
           Sites audited in this report:
       - var:
           item: $htmlSites
           type: extractor
       - description: >-
-          Note that within the report, we included the Bundesliga official site,and all its clubs except FC Bayern Munich due to the impossibility of drawing their CSS.
+          Note that within the report, we included the Bundesliga official site, and all its clubs.
   - title: >-
       The Tooling
     list:
@@ -38,7 +38,7 @@ reports:
 
           - Inline CSS refers to CSS code that comes from the inline `style` attributes.
 
-          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it still close enough to get the “big picture” about CSS sizes.
+          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it is still close enough to get the “big picture” about CSS sizes.
 
           To make the text more readable, the terms “site” and “homepage” refer to the same thing: the site’s homepage.
 
@@ -52,13 +52,17 @@ reports:
       - description: >-
           ### The Findings
 
-          Average page of Bundesliga loads ~679KB CSS code. Compared to the Premier League report, it is 4.09% less CSS code. ~90.9% of the CSS code comes from the External CSS file, ~8.73% comes from the `<style>` tags, and ~0.36% comes from the inline `style` attribute. Compared to the Premier League report we learn that the average Bundesliga site uses ~6.48% more External CSS, ~7.31% less CSS coming from the `<style>` tag and ~0.02% more inline `style` CSS.
+          An average page of Bundesliga loads ~679KB CSS code. Compared to the Premier League report, it is 4.09% less CSS code. ~90.9% of the CSS code comes from the External CSS file, ~8.73% comes from the `<style>` tags, and ~0.36% comes from the inline `style` attribute. Compared to the Premier League report, we could see that the average Bundesliga site uses ~6.48% more External CSS, ~7.31% less CSS coming from the `<style>` tag and ~0.02% more inline `style` CSS.
 
-          #### [Performance budget](https://www.performancebudget.io/)
+          #### Performance budget
 
-          The optimal conditions for the overall load time are up to 3 seconds. Although all website items such as HTML, JS, Images, Video and Fonts are viewed for overall load, we will only focus on the load speed of CSS.
+          Blog or rewrite
 
-          If we take the average size of the External CSS site of the Bundesliga which is 617.66KB we get the following load speeds:
+          According to Performance budget ... (https://www.performancebudget.io/)
+
+          The optimal conditions for the overall load time are up to 3 seconds. Although all website items such as HTML, JS, Images, Video and Fonts are viewed for overall load, we will only focus on CSS’s load speed.
+
+          If we take the average size of the External CSS site of the Bundesliga, which is 617.66KB, we get the following load speeds:
 
 
           | Connection Type             | Time (secs) |
@@ -72,6 +76,7 @@ reports:
           | Mobile 3G - Fast (1.6 Mbps) | 3.40 secs   |
           | Cable (5Mbps)               | 1.09 secs   |
           | FIOS (20Mbps)               | 0.27 secs   |
+
 
           Note: For testing, we set a maximum optimal time of 3 secs.
 
@@ -95,22 +100,23 @@ reports:
       - chart:
           item: ReportSizeCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.
       - description: >-
-          All Bundesliga sites use External CSS. Eintracht Frankfurt loads almost 1.5MB, Borussia Mönchengladbach and FC Schalke 04 use about ~ 1MB.
+          All Bundesliga sites use External CSS. Eintracht Frankfurt loads almost 1.5MB, Borussia Mönchengladbach and Schalke 04 use about ~ 1MB.
 
-          All Bundesliga sites use the `<style>` tag. FC Schalke 04 loads most with 230.07KB, followed by TSG Hoffenheim with 229.08KB. Most contain size only in Bites.
+          Every Bundesliga site uses the `<style>` tag. Schalke 04 loads most with 230.07KB, followed by Hoffenheim with 229.08KB. Most contain size only in Bytes.
 
-          As for the inline `style` attribute, everyone uses it too. FC Union Berlin uses the most with 9.84KB, twice less DSC Arminia Bielefeld and SV Werder Bremen, and the least FC Köln with 422B.
-
+          As for the inline `style` attribute, everyone uses it too. Union Berlin uses the most with 9.84KB, Arminia Bielefeld and SV Werder Bremen use half of that, and Köln uses the least, only 422B.
       - description: >-
           #### Wappalyzer
 
-          According to Wappalyzer, six sites use UI frameworks. Borussia Dortmund GmbH uses Materialize CSS, TSG Hoffenheim, Sport-Club Freiburg, Hertha Berlin, FC Schalke 04, FSV Mainz 05 using Bootstrap.
+          According to Wappalyzer, six sites use UI frameworks. Borussia Dortmund uses Materialize CSS, Hoffenheim, Freiburg, Hertha, Schalke 04, and Mainz 05 use Bootstrap.
       - var:
           item: $htmlWappalyzer
           type: wappalyzer
       - description: >-
+          Blog or rewrite
+
           According to research conducted by [State Of CSS](https://2020.stateofcss.com/en-US/technologies/css-frameworks/), we can see that satisfaction, interest, usage, and awareness ratio rankings for Bootstrap are declining, while for Materialize CSS is rising.
   - title: >-
       The CSS File Counts
@@ -122,29 +128,29 @@ reports:
       - description: >-
           ### The Findings
 
-          The Bundesliga site’s average homepage loads 8 External CSS files, 4 `<style>` tags, and 30 `style` attributes.
+          The average Bundesliga site’s homepage loads 8 External CSS files, 4 `<style>` tags, and 30 `style` attributes.
 
       - chart:
           item: ReportCountCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.
       - description: >-
-          FC Augsburg loads only one External CSS, Bayern 04 Leverkusen and FC Union Berlin loads two External CSS each, while the Bundesliga site loads 40 External CSS.
+          Augsburg loads only one, Bayer Leverkusen and Union Berlin load two, while the Bundesliga site loads 40 External CSS files.
 
-          All Bundesliga sites loads `<style>` tag CSS. Bayern 04 Leverkusen, Borussia Mönchengladbach, Eintracht Frankfurt, FSV Mainz 05 and Hertha Berlin loads one `<style>` tag CSS, while on the Bundesliga site loads 39 <style> tag CSS. Other clubs range from 2 to 8 <style> tag CSS.
+          All Bundesliga sites use `<style>` tags. Bayer Leverkusen, Borussia Mönchengladbach, Eintracht Frankfurt, Mainz 05 and Hertha use a single `<style>` tag. The Bundesliga site loads 39 `<style>` tag. Other clubs range from 2 to 8 `<style>` tag.
 
-          Also all Bundesliga sites use inline `style` attributes. FC Köln, VfB Stuttgart and VfL Wolfsburg use only a few `style` attributes, DCS Arminia Bielefeld and SV Werder Bremen use about 60 `style` attributes, while FC Union Berlin uses as many as 154 `style` attributes.
+          Also all Bundesliga sites use inline `style` attributes. Köln, Stuttgart and Wolfsburg use only a few `style` attributes, Arminia Bielefeld and SV Werder Bremen use about 60 `style` attributes, while Union Berlin uses as many as 154 `style` attributes.
   - title: >-
       Top and Bottom Sites
     list:
       - description: >-
           Top three Bundesliga sites in terms of CSS file size are:
 
-          - DCS Arminia Bielefeld,
+          - Arminia Bielefeld,
 
-          - FC Union Berlin, and
+          - Union Berlin, and
 
-          - FC Köln.
+          - Köln.
 
           On the other side, the bottom three sites in terms of CSS file size are:
 
@@ -157,9 +163,11 @@ reports:
       The Conclusion and new questions
     list:
       - description: >-
-          The average homepage of the Bundesliga site is overcrowded with CSS. Compared to the Premier League we see a slight decrease, but it is still much more than the average website. According to the [httparhive](https://httparchive.org/reports/page-weight#bytesCss) report we see that the sum of transfer size kilobytes of all external stylesheets requested by the page for median desktop is 73.3KB, while for median mobile it is 68.7KB. If we look at the last 3 years, there is an increase of more than 30% in the size of the CSS file. This raises the question why is this so? Did the pages really get that much bigger or did new CSS accumulate over time and an increasing amount of unused CSS emerge?
+          The average homepage of the Bundesliga site is overcrowded with CSS. Compared to [the Premier League](/reports/premier-league-2021-02/) we see a slight decrease, but it is still much more than the average website.
 
-          We will try to find out the answers to these questions in the following reports. Until then, write quality CSS, because all you need is respect and love for CSS.
+          According to the [httparhive](https://httparchive.org/reports/page-weight#bytesCss) report we see that the sum of transfer size kilobytes of all external stylesheets requested by the page for median desktop is 73.3KB, while for median mobile it is 68.7KB. If we look at the last 3 years, there is an increase of more than 30% in the size of the CSS file.
+
+          We cannot know what are the reasons for the increase, but with modern technologies like CSS Grid and CSS Variables that should take over CSS frameworks, one might expect the different outcome. We hope to see more optimized CSS code in the future.
 
           #RespectCSS
   - title: >-

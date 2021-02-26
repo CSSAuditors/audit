@@ -24,7 +24,7 @@ module.exports = (eleventyConfig) => {
     if(!globalVars.hasOwnProperty(key)) {
       switch (type) {
         case 'extractor':
-          globalVars[key] = extractor.generateExtractorsReport(siteData[object])
+          globalVars[key] = extractor.generateExtractorsReport(siteData[object], true)
           break;
         case 'wappalyzer':
           globalVars[key] = wappalyzer.generateWappalyzersReport(siteData[object])

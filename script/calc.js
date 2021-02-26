@@ -84,6 +84,10 @@ const getAverage = (arr, prop1, prop2, prop3) => {
     average += b
   })
 
+  console.log(prop1, prop2, prop3)
+  console.log(average)
+  console.log(arr.length)
+
   return average / arr.length
 }
 

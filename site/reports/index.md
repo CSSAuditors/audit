@@ -6,15 +6,19 @@ blocks:
   - title: >-
       Sizes Report
     description: >-
-      This report focuses on CSS filesize and aims to understand how much CSS code is needed to build a site in Premier League sites.
-    cta:
-      - title: Read the report →
-        href: /reports/premier-league-2021-02/
-  - title: >-
-      Sizes Report
-    description: >-
-      This report focuses on CSS filesize and aims to understand how much CSS code is needed to build a site in Bunderliga sites.
+      This report focuses on CSS filesize and count in Bundesliga sites.
+
+      Date: 2021, March
     cta:
       - title: Read the report →
         href: /reports/bundesliga-2021-03/
+  - title: >-
+      Sizes Report
+    description: >-
+      This report focuses on CSS filesize and count in Premier League sites.
+
+      Date: 2021, February
+    cta:
+      - title: Read the report →
+        href: /reports/premier-league-2021-02/
 ---
