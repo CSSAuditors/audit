@@ -52,48 +52,48 @@ reports:
       - description: >-
           ### The Findings
 
-          An average page of Bundesliga loads ~679KB CSS code. Compared to the Premier League report, it is 4.09% less CSS code. ~90.9% of the CSS code comes from the External CSS file, ~8.73% comes from the `<style>` tags, and ~0.36% comes from the inline `style` attribute. Compared to the Premier League report, we could see that the average Bundesliga site uses ~6.48% more External CSS, ~7.31% less CSS coming from the `<style>` tag and ~0.02% more inline `style` CSS.
+          An average page of Bundesliga loads ~712.69KB CSS code. Compared to the Premier League report, it is 3.30% less CSS code. ~89.66% of the CSS code comes from the External CSS file, ~10% comes from the `<style>` tags, and ~0.34% comes from the inline `style` attribute. Compared to the Premier League report, we could see that the average Bundesliga site uses ~3.56% more External CSS, ~39.76% less CSS coming from the `<style>` tag and ~3.54% less inline `style` CSS.
 
           #### Performance budget
 
-          Blog or rewrite
+          According to [web.dev](https://web.dev/performance-budgets-101/) we find the definition of performance budget:
 
-          According to Performance budget ... (https://www.performancebudget.io/)
+          > A performance budget is a set of limits imposed on metrics that affect site performance. This could be the total size of a page, the time it takes to load on a mobile network, or even the number of HTTP requests that are sent. Defining a budget helps get the web performance conversation started. It serves as a point of reference for making decisions about design, technology, and adding features.
 
           The optimal conditions for the overall load time are up to 3 seconds. Although all website items such as HTML, JS, Images, Video and Fonts are viewed for overall load, we will only focus on CSS’s load speed.
 
-          If we take the average size of the External CSS site of the Bundesliga, which is 617.66KB, we get the following load speeds:
+          If we take the average size of the External CSS site of the Bundesliga, which is 639KB, we get the following load speeds according to [Performance budget](https://www.performancebudget.io/):
 
 
           | Connection Type             | Time (secs) |
           | --------------------------- | ----------- |
-          | Mobile 2G - Slow (35 Kbps)  | 155.20 secs |
-          | 56K Dial-Up (49Kbps)        | 97.00 secs  |
-          | Mobile 2G - Fast (150 Kbps) | 36.21 secs  |
-          | Mobile Edge (240 Kbps)      | 22.63 secs  |
-          | Mobile 3G - Slow (780 Kbps) | 7.07 secs   |
-          | DSL (1.5Mbps)               | 3.62 secs   |
-          | Mobile 3G - Fast (1.6 Mbps) | 3.40 secs   |
-          | Cable (5Mbps)               | 1.09 secs   |
-          | FIOS (20Mbps)               | 0.27 secs   |
+          | Mobile 2G - Slow (35 Kbps)  | 146.06 secs |
+          | 56K Dial-Up (49Kbps)        | 91.29 secs  |
+          | Mobile 2G - Fast (150 Kbps) | 34.08 secs  |
+          | Mobile Edge (240 Kbps)      | 21.30 secs  |
+          | Mobile 3G - Slow (780 Kbps) | 6.66 secs   |
+          | DSL (1.5Mbps)               | 3.41 secs   |
+          | Mobile 3G - Fast (1.6 Mbps) | 3.19 secs   |
+          | Cable (5Mbps)               | 1.02 secs   |
+          | FIOS (20Mbps)               | 0.26 secs   |
 
 
           Note: For testing, we set a maximum optimal time of 3 secs.
 
-          To reduce the CSS read speed, it is compressed. The average size of a Gzip CSS Bundesliga site is ~100.26KB. If we take this value, we get the following results:
+          To reduce the CSS read speed, it is compressed. The average size of a Gzip CSS Bundesliga site is ~103.14KB. If we take this value, we get the following results:
 
 
           | Connection Type             | Time (secs) |
           | --------------------------- | ----------- |
-          | Mobile 2G - Slow (35 Kbps)  | 23.09 secs  |
-          | 56K Dial-Up (49Kbps)        | 14.43 secs  |
-          | Mobile 2G - Fast (150 Kbps) | 5.39 secs   |
-          | Mobile Edge (240 Kbps)      | 3.37 secs   |
-          | Mobile 3G - Slow (780 Kbps) | 1.05 secs   |
-          | DSL (1.5Mbps)               | 0.54 secs   |
-          | Mobile 3G - Fast (1.6 Mbps) | 0.51 secs   |
-          | Cable (5Mbps)               | 0.16 secs   |
-          | FIOS (20Mbps)               | 0.04 secs   |
+          | Mobile 2G - Slow (35 Kbps)  | 23.54 secs  |
+          | 56K Dial-Up (49Kbps)        | 14.71 secs  |
+          | Mobile 2G - Fast (150 Kbps) | 5.49 secs   |
+          | Mobile Edge (240 Kbps)      | 3.43 secs   |
+          | Mobile 3G - Slow (780 Kbps) | 1.07 secs   |
+          | DSL (1.5Mbps)               | 0.55 secs   |
+          | Mobile 3G - Fast (1.6 Mbps) | 0.52 secs   |
+          | Cable (5Mbps)               | 0.16 secs   |
+          | FIOS (20Mbps)               | 0.04 secs   |
 
           Note: For testing, we set a maximum optimal time of 3 secs.
 
@@ -102,9 +102,9 @@ reports:
           type: extractor
           info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.
       - description: >-
-          All Bundesliga sites use External CSS. Eintracht Frankfurt loads almost 1.5MB, Borussia Mönchengladbach and Schalke 04 use about ~ 1MB.
+          All Bundesliga sites use External CSS. Eintracht Frankfurt loads almost 1.5MB, Borussia Mönchengladbach, FC Bayern München and Schalke 04 use about ~ 1MB.
 
-          Every Bundesliga site uses the `<style>` tag. Schalke 04 loads most with 230.07KB, followed by Hoffenheim with 229.08KB. Most contain size only in Bytes.
+          Every Bundesliga site uses the `<style>` tag. FC Bayern München loads most with 287KB, followed by Schalke 04 with 230.07KB, than Hoffenheim with 229.08KB, and FC Köln with 229.01KB. Most contain size only in Bytes.
 
           As for the inline `style` attribute, everyone uses it too. Union Berlin uses the most with 9.84KB, Arminia Bielefeld and SV Werder Bremen use half of that, and Köln uses the least, only 422B.
       - description: >-
@@ -115,9 +115,10 @@ reports:
           item: $htmlWappalyzer
           type: wappalyzer
       - description: >-
-          Blog or rewrite
+          According to research conducted by [State Of CSS](https://2020.stateofcss.com/en-US/technologies/css-frameworks/), we can see that satisfaction on Bootstrap is declining, and that in 2019 52% of respondents are satisfied, while next year in 2020 it dropped to 48%. Interest in Bootstrap in both years is held by 17% of all respondents. Usage fell from 87% to 86% within one year, and awareness ratio rankings for both years is 100%.
+          For Materialize CSS satisfaction fell from 57% to 53%. His interest also fell from 37% to 29%. His usage has increased from 30% to 33% and more and more developers are aware of the existence of the framework and we see an increase of 72% to 76% in awareness.
 
-          According to research conducted by [State Of CSS](https://2020.stateofcss.com/en-US/technologies/css-frameworks/), we can see that satisfaction, interest, usage, and awareness ratio rankings for Bootstrap are declining, while for Materialize CSS is rising.
+          From this we can see that the presence of the CSS Framework on Bundesliga sites is big and amounts to about ~ 31.58%.
   - title: >-
       The CSS File Counts
     object: sizes
@@ -128,7 +129,7 @@ reports:
       - description: >-
           ### The Findings
 
-          The average Bundesliga site’s homepage loads 8 External CSS files, 4 `<style>` tags, and 30 `style` attributes.
+          The average Bundesliga site’s homepage loads 8 External CSS files, 5 `<style>` tags, and 30 `style` attributes.
 
       - chart:
           item: ReportCountCombined
@@ -137,7 +138,7 @@ reports:
       - description: >-
           Augsburg loads only one, Bayer Leverkusen and Union Berlin load two, while the Bundesliga site loads 40 External CSS files.
 
-          All Bundesliga sites use `<style>` tags. Bayer Leverkusen, Borussia Mönchengladbach, Eintracht Frankfurt, Mainz 05 and Hertha use a single `<style>` tag. The Bundesliga site loads 39 `<style>` tag. Other clubs range from 2 to 8 `<style>` tag.
+          All Bundesliga sites use `<style>` tags. Bayer Leverkusen, Borussia Mönchengladbach, Eintracht Frankfurt, Mainz 05 and Hertha use a single `<style>` tag. The Bundesliga site loads 39 `<style>` tag, the second largest in the group is FC Bayern München with 16 `<style>` tags, . Other clubs range from 2 to 8 `<style>` tag.
 
           Also all Bundesliga sites use inline `style` attributes. Köln, Stuttgart and Wolfsburg use only a few `style` attributes, Arminia Bielefeld and SV Werder Bremen use about 60 `style` attributes, while Union Berlin uses as many as 154 `style` attributes.
   - title: >-
@@ -156,9 +157,9 @@ reports:
 
           - Eintracht Frankfurt,
 
-          - FC Schalke, and
+          - FC Bayern München, and
 
-          - Borussia Mönchengladbach.
+          - FC Schalke 04.
   - title: >-
       The Conclusion and new questions
     list:
