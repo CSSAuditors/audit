@@ -3,9 +3,16 @@ layout: category
 title: Articles
 description: Read the latest blog posts from CSS Auditors.
 blocks:
-  - title: >-
+  - title: |
+      The Second CSS Report About CSS File Size and File Count
+    description: |
+      !#!#!#!#
+    cta:
+      - title: Read the article →
+        href: /blog/the-second-css-report-about-css-file-sizes-and-file-count/
+  - title: |
       The very first CSS report about CSS file sizes and file count
-    description: >-
+    description: |
       Learn how and why we started this site and how we published our first report about file sizes in Premier League sites.
     cta:
       - title: Read the article →

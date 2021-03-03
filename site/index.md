@@ -3,10 +3,10 @@ layout: index
 title: CSS Auditors
 description: Let’s give CSS the attention it deserves.
 blocks:
-  - title: >-
+  - title: |
       #RespectCSS
     icon: /gfx/respect.svg
-    description: >-
+    description: |
       Let’s give CSS the attention it deserves.
 
       CSS Auditors is a group of enthusiasts who enjoy writing and analyzing CSS code and sharing CSS code findings.
@@ -18,10 +18,10 @@ blocks:
       - title: Go to the report →
         href: /reports/premier-league-2021-02/
     hero: true
-  - title: >-
+  - title: |
       Articles
     icon: /gfx/article.svg
-    description: >-
+    description: |
       We are excited to share our findings with the community. We share information about us and all things related to CSS and CSS auditing process in our blog.
 
       ---
@@ -30,10 +30,10 @@ blocks:
     cta:
       - title: Read the latest post →
         href: /blog/the-very-first-css-report-about-css-file-sizes-and-file-count/
-  - title: >-
+  - title: |
       Reports
     icon: /gfx/report.svg
-    description: >-
+    description: |
       Our initiative’s essential part is to make reports that would allow everyone to analyze how CSS is written.
 
       ---
@@ -42,18 +42,18 @@ blocks:
     cta:
       - title: See all reports →
         href: /reports/
-  - title: >-
+  - title: |
       Subscribe
     icon: /gfx/subscribe.svg
-    description: >-
+    description: |
       We are working hard to publish new reports and blog posts as soon as possible.
 
       If you would like to get recent reports in your inbox, subscribe here!
     subscribe: true
-  - title: >-
+  - title: |
       The Mission
     icon: /gfx/mission.svg
-    description: >-
+    description: |
       CSS Auditors’ mission is putting the CSS under the spotlight and educating developers about its importance.
 
       From file size to attributes and values, we try to improve the way CSS could and should be written.

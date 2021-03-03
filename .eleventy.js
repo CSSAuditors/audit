@@ -12,7 +12,7 @@ let siteData = {
 }
 
 module.exports = (eleventyConfig) => {
-  const cleanup = (str) => str.replace(/\n/g, '\n\n').trim()
+  const cleanup = (str) => str.replace(/\n/g, '\n\n').replace(/\|\n\n/g, '\|\n').trim()
 
   const shortcodes = (str) => str.replace(/\[u\]/g, '<span class="highlight">').replace(/\[\\u\]/g, '</span>')
 
