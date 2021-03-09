@@ -34,7 +34,7 @@ reports:
 
           > A performance budget is a set of limits imposed on metrics that affect site performance. This could be the total size of a page, the time it takes to load on a mobile network, or even the number of HTTP requests that are sent. Defining a budget helps get the web performance conversation started. It serves as a point of reference for making decisions about design, technology, and adding features.
 
-          The optimal conditions for the overall load time are up to 3 seconds. Although all website items are viewed for overall load, I repeat, we will only focus on CSS’s load speed.
+          As for the user experience, there is a lot of research that says that users leave the website if it does not load in [3 seconds](https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/). So we will consider those 3 seconds as the maximum optimal value. It has been proven that 57% of users will leave the page after 3 seconds. Although all website items are viewed for overall load, I repeat, we will only focus on CSS’s load speed.
 
           If we take the average size of the External CSS site of the Bundesliga, which is 639KB, we get the following load speeds according to [Performance budget](https://www.performancebudget.io/):
 
@@ -54,7 +54,7 @@ reports:
 
           Note: For testing, we set a maximum optimal time of 3 secs.
       - description: |
-          We can see that CSS loads in optimal conditions only when using Cable (5Mbps) and FIOS (20Mbps) network. The performance budget tool does not show Mobile 4G speed, but I could conclude that it will also meet the speed requirements.
+          We can see that CSS loads in optimal conditions only when using Cable (5Mbps) and FIOS (20Mbps) network. The performance budget tool does not show Mobile 4G speed, and newly introduced 5G network, but I could conclude that it will also meet the speed requirements. If we compare with the Premier League average size of 616.28KB, we can expect a slight and negligible decrease.
       - description: |
           To reduce the CSS read speed, it is compressed. The average size of a Gzip CSS Bundesliga site is ~103.14KB. If we take this value, we get the following results:
 
@@ -77,9 +77,20 @@ reports:
           Here we can see that anything faster than the Slow (780Kbs) Mobile 3G network meets the CSS reading criteria.
           According to [Backlinko analysis](https://backlinko.com/page-speed-stats#load-time-and-compression-level), we can see that compression will not always achieve optimal and desired results.
 
-          !#!#!# 1s is too much. Do you want to make your user wait for a second until CSS loads? Users leave sites all the time. There's a statistics about users leaving site after a few seconds, use it here.
+          We think 1 second is a lot just to load CSS. Do you want to make your user wait for a second until CSS loads? Users leave sites all the time. The main reasons why users leave sites [are](https://www.resourcetechniques.co.uk/news/seo/10-reasons-why-users-leave-your-website-in-10-seconds-101189).
+          In Google, Maile Ohye, states that:
+          > 2 seconds is the threshold for ecommerce website acceptability. At Google, we aim for under a half-second.
+          Half a second is fast, to put it in layman terms it’s close to blinking, while two seconds is shorter than one breath. This is what we must strive for when loading our sites.
+  - title: |
+      Data Usage and Cost
+    list:
+      - description: |
+          The average person used about 2.9GB of mobile data per month until early 2019. This was an increase of 34% compared to 2018. By the end of 2019, usage had increased by 22% and amounted to 3.6GB. This is data from [OFCOM’s Communication Market Report](https://www.ofcom.org.uk/__data/assets/pdf_file/0026/203759/cmr-2020.pdf) and does not include amounts for 2020. That won’t have been a representative year anyway given the coronavirus pandemic. But with the introduction of 5G, and the ever-increasing data demands of modern applications, we’d expect data use will be continuing to grow rapidly.
 
-          !#!#!# Also find stats about data plans. What is the average MB a person use in UK or in Africa? What percentage is if they visit all sites, for example. Think of a real use case here. A fun one.
+          The average price of 1GB in the UK is $1.39, while in Germany it is $4.06 according to data from [cable.co.uk](https://www.cable.co.uk/mobiles/worldwide-data-pricing/).
+          According to these prices, in the UK if a user opens all Bundesliga sites, it will cost him $0.017 just to show him the CSS of those sites. For the Premier League it will be $0.018. The Germans will pay more, and will pay $0.05 for the CSS load of all Bundesliga sites, while it is $0.051 for the Premier League sites.
+
+          If you are interested in how much a site costs you in some countries, you can check it out at [whatdoesmysitecost.com](https://whatdoesmysitecost.com/).
 
   - title: |
       Final Thoughts
