@@ -4,9 +4,9 @@ title: Articles
 description: Read the latest blog posts from CSS Auditors.
 blocks:
   - title: |
-      The Second CSS Report About CSS File Size and File Count
+      On CSS sizes and performance budget
     description: |
-      !#!#!#!#
+      Read all about CSS sizes, performance budget, data usage and costs.
     cta:
       - title: Read the article →
         href: /blog/the-second-css-report-about-css-file-sizes-and-file-count/

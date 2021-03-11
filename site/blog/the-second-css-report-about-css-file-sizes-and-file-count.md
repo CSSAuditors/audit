@@ -1,42 +1,32 @@
 ---
 layout: post
-title: The Second CSS Report About CSS File Size and File Count
-description: Learn how and why we started this site and how we published our first report about file sizes in Premier League sites.
+title: On CSS sizes and performance budget
+description:
 image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
-date: 2021-02-18
+date: 2021-03-14
 author: Ivan
 reports:
   - title: |
-      The Second CSS Report About CSS File Size and File Count
+      On CSS sizes and performance budget
     details: true
-  - title: |
-      The Very Beginning
-    list:
-      - description: |
-          !#!#!#!# OG IMAGE
-
-          Last year, when Silvestar suggested me an idea for a project, I was thrilled. Since we share the same passion and love for CSS, I wanted to see where this would take us and what I would learn along the way.
   - title: |
       Comparison
     list:
       - description: |
-          In the [first report](https://css-auditors.com/reports/premier-league-2021-02/), we looked at CSS file size and file count of the Premier League. We feel we can’t get all the answers by analyzing just one league, so we decided to make a comparison with another. For comparison, I opted for the Bundesliga even though I could use any other football league.
+          In our [first report](/reports/premier-league-2021-02/), we looked at CSS file size and file count in Premier League sites. We felt we couldn’t get all the answers by analyzing just one league, so we decided to create a report of another one—this time, we choose [Bundesliga](/reports/bundesliga-2021-03/).
 
-          I find the results quite astonishing. Both leagues have about the same amount of CSS and both use it in excessive amounts. Although some clubs meet the rules of good practice of using CSS, we looked at the league in general.
-
+          The results were not surprising. Both leagues have about the same amount of CSS code – an excessive amount.
   - title: |
       Performance Budget
     list:
       - description: |
-          To see what an excessive amount of CSS file means for the end user, I decided to do a performance test of Bundesliga. I would emphasize that for a realistic performance budget all website items should be included such as HTML, JS, Images, Video and Fonts. We are based exclusively on CSS.
+          To see what an excessive amount of CSS code means for the end-user, let’s make a Bundesliga performance budget test. Performance budget usually includes HTML, JS, Images, Video, and Fonts, but since this site is dedicated to CSS, we will focus on CSS alone.
 
-          According to [web.dev](https://web.dev/performance-budgets-101/) performance budget definition is:
+          Here's how [web.dev](https://web.dev/performance-budgets-101/) defines the performance budget:
 
           > A performance budget is a set of limits imposed on metrics that affect site performance. This could be the total size of a page, the time it takes to load on a mobile network, or even the number of HTTP requests that are sent. Defining a budget helps get the web performance conversation started. It serves as a point of reference for making decisions about design, technology, and adding features.
 
-          As for the user experience, there is a lot of research that says that users leave the website if it does not load in [3 seconds](https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/). So we will consider those 3 seconds as the maximum optimal value. It has been proven that 57% of users will leave the page after 3 seconds. Although all website items are viewed for overall load, I repeat, we will only focus on CSS’s load speed.
-
-          If we take the average size of the External CSS site of the Bundesliga, which is 639KB, we get the following load speeds according to [Performance budget](https://www.performancebudget.io/):
+          Since we already analyzed the total CSS size and the number of CSS files, let's see how much time it usually takes to load the CSS code. We are going to use the average amount of external CSS code in Bundesliga sites, ~639KB, with a [Performance budget](https://www.performancebudget.io/) app to determine how much time it takes to load this amount of CSS data. The results are shown in the following table.
 
 
           | Connection Type             | Time (secs) |
@@ -52,11 +42,12 @@ reports:
           | FIOS (20Mbps)               | 0.26 secs   |
 
 
-          Note: For testing, we set a maximum optimal time of 3 secs.
-      - description: |
-          We can see that CSS loads in optimal conditions only when using Cable (5Mbps) and FIOS (20Mbps) network. The performance budget tool does not show Mobile 4G speed, and newly introduced 5G network, but I could conclude that it will also meet the speed requirements. If we compare with the Premier League average size of 616.28KB, we can expect a slight and negligible decrease.
-      - description: |
-          To reduce the CSS read speed, it is compressed. The average size of a Gzip CSS Bundesliga site is ~103.14KB. If we take this value, we get the following results:
+
+          According to [studies from Google](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/), 3-5 seconds is the critical period when bounce rate starts to increase drastically, and that is for the whole page with all assets.
+
+          If we look at these results, we could see that it takes more than 6 seconds on slow 3G to load the average external CSS code in Bundesliga sites. Even DSL and fast 3G connections would take 3 seconds to load the CSS.
+
+          If we take into account the compressed size of the external CSS size, ~103KB, we get the following results:
 
 
           | Connection Type             | Time (secs) |
@@ -71,35 +62,30 @@ reports:
           | Cable (5Mbps)               | 0.16 secs   |
           | FIOS (20Mbps)               | 0.04 secs   |
 
-          Note: For testing, we set a maximum optimal time of 3 secs.
 
-      - description: |
-          Here we can see that anything faster than the Slow (780Kbs) Mobile 3G network meets the CSS reading criteria.
-          According to [Backlinko analysis](https://backlinko.com/page-speed-stats#load-time-and-compression-level), we can see that compression will not always achieve optimal and desired results.
+          Everything below slow 3G takes more than 3 seconds. [Backlinko's analysis](https://backlinko.com/page-speed-stats#load-time-and-compression-level) shows that not all compression is good, and it may not achieve optimal and desired results. Although that analysis is out of the scope of this article, it is worth noting that _“pages that compress 60%-80% of their files perform the worst”_.
 
-          We think 1 second is a lot just to load CSS. Do you want to make your user wait for a second until CSS loads? Users leave sites all the time. The main reasons why users leave sites [are](https://www.resourcetechniques.co.uk/news/seo/10-reasons-why-users-leave-your-website-in-10-seconds-101189).
-          In Google, Maile Ohye, states that:
-          > 2 seconds is the threshold for ecommerce website acceptability. At Google, we aim for under a half-second.
-          Half a second is fast, to put it in layman terms it’s close to blinking, while two seconds is shorter than one breath. This is what we must strive for when loading our sites.
+          Making users wait because of CSS shouldn't be an option. Users leave sites [for various reasons](https://www.resourcetechniques.co.uk/news/seo/10-reasons-why-users-leave-your-website-in-10-seconds-101189). The number one reason is slow loading.
   - title: |
       Data Usage and Cost
     list:
       - description: |
-          The average person used about 2.9GB of mobile data per month until early 2019. This was an increase of 34% compared to 2018. By the end of 2019, usage had increased by 22% and amounted to 3.6GB. This is data from [OFCOM’s Communication Market Report](https://www.ofcom.org.uk/__data/assets/pdf_file/0026/203759/cmr-2020.pdf) and does not include amounts for 2020. That won’t have been a representative year anyway given the coronavirus pandemic. But with the introduction of 5G, and the ever-increasing data demands of modern applications, we’d expect data use will be continuing to grow rapidly.
+          We thought it would be fun to use the collected data to discover how much the CSS code would cost in various countries.
 
-          The average price of 1GB in the UK is $1.39, while in Germany it is $4.06 according to data from [cable.co.uk](https://www.cable.co.uk/mobiles/worldwide-data-pricing/).
-          According to these prices, in the UK if a user opens all Bundesliga sites, it will cost him $0.017 just to show him the CSS of those sites. For the Premier League it will be $0.018. The Germans will pay more, and will pay $0.05 for the CSS load of all Bundesliga sites, while it is $0.051 for the Premier League sites.
+          For reference, we are going to use data from [Cable.co.uk site](https://www.cable.co.uk/mobiles/worldwide-data-pricing/).
 
-          If you are interested in how much a site costs you in some countries, you can check it out at [whatdoesmysitecost.com](https://whatdoesmysitecost.com/).
+          Let’s focus on distinct regions of the world. Northern America has the most expensive data plans, with almost $15 per GB. Oceania, the Caribbean, Sub-Sarahan Africa, and South America follow with more than $5 per GB. Northern Africa, CIS (former USSR), and Asia (ex. near east) are the cheapest regions.
 
+          Now let’s assume that we want to visit every Bundesliga site, including the site of Bundesliga itself. That is around ~12MB of uncopressed CSS code. For users in Nothern America, that will cost around 15 cents. For users in Nothern Africa, that will cost about 3 cents.
+
+          Although these costs seem trivial, let’s use a different context here. 12MB is 1.17% of the 1GB, which means that you users will spend 1% of their data plan to download CSS alone for these sites. We don’t think that is trivial.
+
+          If you are interested in how much a site costs you in some countries, you can check it out at  [whatdoesmysitecost.com](https://whatdoesmysitecost.com/).
   - title: |
       Final Thoughts
     list:
       - description: |
-          We can see that CSS compression saved the load time of CSS itself, but that still doesn’t give us an answer to the question of why it is necessary to use excessive CSS for a Bundesliga or Premier League site. How much of that CSS is actually used? Has this huge CSS been created over the years?
-          We will try to answer these questions in the following reports.
-
-          We hope we've encouraged you to think about the size of your CSS code.
+          When thinking in kilobytes, it is easy to forget about costs and loading time. But every kilobytes counts. We should thrive to shave every single byte wherever possible. Since we are enthusiastic about CSS, we would be happy to see more developers take more care about CSS code itself.
 
           #RespectCSS
   - title: |

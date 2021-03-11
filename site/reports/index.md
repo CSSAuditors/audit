@@ -4,18 +4,18 @@ title: Reports
 description: Read the latest CSS reports from CSS Auditors.
 blocks:
   - title: |
-      Sizes Report
+      Sizes Report in Bundesliga sites
     description: |
-      This report focuses on CSS filesize and count in Bundesliga sites.
+      Learn how much CSS code is used in Bundesliga sites.
 
       Date: 2021, March
     cta:
       - title: Read the report →
         href: /reports/bundesliga-2021-03/
   - title: |
-      Sizes Report
+      Sizes Report in Premier League sites
     description: |
-      This report focuses on CSS filesize and count in Premier League sites.
+      Learn how much CSS code is used in Premier League sites.
 
       Date: 2021, February
     cta:
