@@ -339,6 +339,11 @@ Style guide: Section
     margin-right: .05em;
     border: 1px dashed var(--color-alpha3); }
 
+.section__piece + .section__piece {
+  margin-top: 2rem;
+  padding-top: 3rem;
+  border-top: 1px dashed var(--color-beta3); }
+
 /*
 Form
 

@@ -4,7 +4,8 @@ title: The Very First CSS Report About CSS File Sizes and File Count
 description: Learn how and why we started this site and how we published our first report about file sizes in Premier League sites.
 image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
 date: 2021-02-18
-author: Silvestar
+authors:
+  - Silvestar
 reports:
   - title: |
       The Very First CSS Report About CSS File Sizes and File Count

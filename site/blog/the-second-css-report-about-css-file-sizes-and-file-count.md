@@ -4,7 +4,9 @@ title: On CSS sizes and performance budget
 description:
 image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
 date: 2021-03-14
-author: Ivan
+authors:
+  - Ivan
+  - Silvestar
 reports:
   - title: |
       On CSS sizes and performance budget
@@ -89,7 +91,7 @@ reports:
 
           #RespectCSS
   - title: |
-      About the Author
+      About the Authors
     author: true
   - title: |
       Share on Social Networks

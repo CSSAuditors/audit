@@ -111,7 +111,14 @@
           
           
             <p class="small">
-              <span>Author: Silvestar Bistrović</span><br>
+              
+                
+                  
+                
+                <span>
+                  Author: Silvestar Bistrović
+                </span><br>
+              
               <span>Date: 2021-02-17</span>
             </p>
           
@@ -293,7 +300,7 @@
                 
                   <div class="chart" id="ReportSizeCombined"></div>
                   
-                    <p><small>This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.</small></p>
+                    <p><small>This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.</small></p>
                   
                 
               
@@ -403,7 +410,7 @@
                 
                   <div class="chart" id="ReportCountCombined"></div>
                   
-                    <p><small>This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.</small></p>
+                    <p><small>This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.</small></p>
                   
                 
               
@@ -507,7 +514,7 @@
                 <p>An average homepage of the Premier League site is bloated with CSS. If we think of the best practices in the web industry, we cannot see many sites use the best practices. Only a few sites might be rated as optimal or performant in terms of CSS code. The architecture and the structure of these sites might not be straightforward, but that does not mean that CSS should be ignored, or worse, disrespected.</p>
 <p>It is interesting to see different approaches to loading the CSS, where some sites use only Style Tag CSS or External CSS, while others use many <code>&lt;style&gt;</code> tags and external CSS files. Although the loading technique might depend on the technology used to build these sites, CSS should not be abused or neglected.</p>
 <p>Combining all CSS files in a single one, moving code from <code>&lt;style&gt;</code> tags and <code>style</code> attributes might seem daunting tasks, but it could be done. All it is takes is some respect and love for CSS.</p>
-<p>#RespectCSS</p>
+<p><a href="https://twitter.com/search?q=%23RespectCSS&amp;src=typed_query">#RespectCSS</a></p>
 
               
               
@@ -539,15 +546,17 @@
           
           
             
-            <div>
-              <div class="avatar"><img class="" src="/gfx/author-silvestar.jpg" alt="Silvestar Bistrović" height="94" width="94"></div>
-              <h3>Silvestar Bistrović</h3>
-              <div class="small">
-                <p>Silvestar is a frontend UI developer who enjoys creating pixel-perfect, responsive, and modern websites. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is his speciality. When he is not coding, Silvestar likes to write articles on his blog.</p>
+              
+              <div class="section__piece">
+                <div class="avatar"><img class="" src="/gfx/author-silvestar.jpg" alt="Silvestar Bistrović" height="94" width="94"></div>
+                <h3>Silvestar Bistrović</h3>
+                <div class="small">
+                  <p>Silvestar is a frontend UI developer who enjoys creating pixel-perfect, responsive, and modern websites. Making faster, lighter, and more secure sites using WordPress or Static Page Generators is his speciality. When he is not coding, Silvestar likes to write articles on his blog.</p>
 
-                <div class="nav nav--alpha"><ul><li><a class="plain" href="https://twitter.com/malimirkeccita">Twitter</a></li><li><a class="plain" href="https://www.linkedin.com/in/starbist/">LinkedIn</a></li><li><a class="plain" href="https://github.com/maliMirkec">GitHub</a></li><li><a class="plain" href="https://www.silvestar.codes">Website</a></li><li><a class="plain" href="mailto:me@silvestar.codes">Email</a></li></ul></div>
+                  <div class="nav nav--alpha"><ul><li><a class="plain" href="https://twitter.com/malimirkeccita">Twitter</a></li><li><a class="plain" href="https://www.linkedin.com/in/starbist/">LinkedIn</a></li><li><a class="plain" href="https://github.com/maliMirkec">GitHub</a></li><li><a class="plain" href="https://www.silvestar.codes">Website</a></li><li><a class="plain" href="mailto:me@silvestar.codes">Email</a></li></ul></div>
+                </div>
               </div>
-            </div>
+            
           
           
           
@@ -1102,6 +1111,1572 @@
 <script src="/js/script.js"></script>
 
   <script>window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'Overall Sizes'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Size [B]'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"Gzip CSS","data":[36952,59337,48107,20,52,138006,57176,26195,78054,56347,186203,72418,137572,54633,28110,579980,56328,51978,100610,34676,413108]},{"name":"External CSS","data":[262366,328228,346630,0,43,1061012,391120,57176,563509,408565,1371816,566044,1541417,467144,80406,1617802,314221,401935,675778,211715,2585472]},{"name":"Style tag CSS","data":[100261,279811,16993,48100,936263,96738,46,278714,248,36613,87897,26425,75089,413,296661,25544,122002,12238,26710,12414,63901]},{"name":"Inline CSS","data":[1260,7285,754,1439,3416,2675,99,6880,157,2238,3614,497,2652,394,6652,2924,1697,1973,3148,4303,587]}]
+      });
+window.Highcharts.chart('ReportCountCombined', {
+        chart: {
+          type: 'bar',
+          height: 750
+        },
+        title: {
+          text: 'External CSS Count'
+        },
+        xAxis: {
+          categories: ["Arsenal","Aston Villa FC","Brighton & Hove Albion","Burnley FC","Chelsea FC","Crystal Palace FC","Everton FC","Fulham FC","Leicester City","Leeds United","Liverpool FC","Manchester City FC","Manchester United FC","Newcastle United","Sheffield United FC","Southampton FC","Tottenham Hotspurs","West Bromwich Albion","West Ham United FC","Wolverhampton Wanderers FC","Premier League site"]
+        },
+        yAxis: {
+          min: 0,
+          title: {
+            text: 'Count'
+          }
+        },
+        legend: {
+          reversed: true
+        },
+        plotOptions: {
+          series: {
+            stacking: 'normal'
+          }
+        },
+        series: [{"name":"External CSS","data":[5,11,1,0,1,6,1,2,2,5,12,2,1,1,6,4,1,4,28,2,7]},{"name":"Style tag CSS","data":[1,97,5,7,36,3,1,65,2,8,11,10,6,1,100,10,10,6,10,6,4]},{"name":"Inline CSS","data":[12,62,8,18,24,32,2,53,2,22,35,7,30,8,51,27,17,21,32,28,10]}]
+      });
+window.Highcharts.chart('ReportSizeCombined', {
         chart: {
           type: 'bar',
           height: 750

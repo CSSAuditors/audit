@@ -4,7 +4,7 @@ title: Reports
 description: Read the latest CSS reports from CSS Auditors.
 blocks:
   - title: |
-      Sizes Report in Bundesliga sites
+      CSS Sizes Report in Bundesliga sites
     description: |
       Learn how much CSS code is used in Bundesliga sites.
 
@@ -13,7 +13,7 @@ blocks:
       - title: Read the report →
         href: /reports/bundesliga-2021-03/
   - title: |
-      Sizes Report in Premier League sites
+      CSS Sizes Report in Premier League sites
     description: |
       Learn how much CSS code is used in Premier League sites.
 

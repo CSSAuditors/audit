@@ -5,7 +5,8 @@ description: In this report, we are going to focus on the size of CSS. The aim o
 image: /gfx/the-css-file-size-and-count-report-for-premier-league-sites.jpg
 object: sites2
 date: 2021-02-17
-author: Silvestar
+authors:
+  - Silvestar
 reports:
   - title: |
       The CSS File Size and Count Report for Premier League sites
@@ -62,7 +63,7 @@ reports:
       - chart:
           item: ReportSizeCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.
       - description: |
           Burnley’s and Chelsea’s sites do not load any external CSS file. The Premier League’s site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
@@ -98,7 +99,7 @@ reports:
       - chart:
           item: ReportCountCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below the graph.
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.
       - description: |
           The only site that does not load any External CSS file is Burnley’s site. Six sites load only a single External CSS file, including Brighton’s, Chelsea’s, Everton’s, Manchester’s, Newcastle’s, and Tottenham’s site. On the other hand, West Ham’s site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa’s and Liverpool’s sites.
 
@@ -134,7 +135,7 @@ reports:
 
           Combining all CSS files in a single one, moving code from `<style>` tags and `style` attributes might seem daunting tasks, but it could be done. All it is takes is some respect and love for CSS.
 
-          #RespectCSS
+          [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
   - title: |
       About the Author
     author: true
