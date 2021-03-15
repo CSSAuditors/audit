@@ -33,15 +33,15 @@ blocks:
 
           | Connection Type             | Time (secs) |
           | --------------------------- | ----------- |
-          | Mobile 2G - Slow (35 Kbps)  | 146.06 secs |
-          | 56K Dial-Up (49Kbps)        | 91.29 secs  |
-          | Mobile 2G - Fast (150 Kbps) | 34.08 secs  |
-          | Mobile Edge (240 Kbps)      | 21.30 secs  |
-          | Mobile 3G - Slow (780 Kbps) | 6.66 secs   |
-          | DSL (1.5Mbps)               | 3.41 secs   |
-          | Mobile 3G - Fast (1.6 Mbps) | 3.19 secs   |
-          | Cable (5Mbps)               | 1.02 secs   |
           | FIOS (20Mbps)               | 0.26 secs   |
+          | Cable (5Mbps)               | 1.02 secs   |
+          | Mobile 3G - Fast (1.6 Mbps) | 3.19 secs   |
+          | DSL (1.5Mbps)               | 3.41 secs   |
+          | Mobile 3G - Slow (780 Kbps) | 6.66 secs   |
+          | Mobile Edge (240 Kbps)      | 21.30 secs  |
+          | Mobile 2G - Fast (150 Kbps) | 34.08 secs  |
+          | 56K Dial-Up (49Kbps)        | 91.29 secs  |
+          | Mobile 2G - Slow (35 Kbps)  | 146.06 secs |
 
 
 
@@ -54,15 +54,15 @@ blocks:
 
           | Connection Type             | Time (secs) |
           | --------------------------- | ----------- |
-          | Mobile 2G - Slow (35 Kbps)  | 23.54 secs  |
-          | 56K Dial-Up (49Kbps)        | 14.71 secs  |
-          | Mobile 2G - Fast (150 Kbps) | 5.49 secs   |
-          | Mobile Edge (240 Kbps)      | 3.43 secs   |
-          | Mobile 3G - Slow (780 Kbps) | 1.07 secs   |
-          | DSL (1.5Mbps)               | 0.55 secs   |
-          | Mobile 3G - Fast (1.6 Mbps) | 0.52 secs   |
-          | Cable (5Mbps)               | 0.16 secs   |
           | FIOS (20Mbps)               | 0.04 secs   |
+          | Cable (5Mbps)               | 0.16 secs   |
+          | Mobile 3G - Fast (1.6 Mbps) | 0.52 secs   |
+          | DSL (1.5Mbps)               | 0.55 secs   |
+          | Mobile 3G - Slow (780 Kbps) | 1.07 secs   |
+          | Mobile Edge (240 Kbps)      | 3.43 secs   |
+          | Mobile 2G - Fast (150 Kbps) | 5.49 secs   |
+          | 56K Dial-Up (49Kbps)        | 14.71 secs  |
+          | Mobile 2G - Slow (35 Kbps)  | 23.54 secs  |
 
 
           Everything below slow 3G takes more than 3 seconds. [Backlinko's analysis](https://backlinko.com/page-speed-stats#load-time-and-compression-level) shows that not all compression is good, and it may not achieve optimal and desired results. Although that analysis is out of the scope of this article, it is worth noting that _“pages that compress 60%-80% of their files perform the worst”_.
