@@ -71,3 +71,15 @@ Style guide: Section
     }
   }
 }
+
+.section__piece {
+  & + & {
+    &:before {
+      content: "";
+      display: block;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      border-top: 1px dashed var(--color-beta3);
+    }
+  }
+}

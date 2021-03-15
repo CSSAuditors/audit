@@ -1,0 +1,300 @@
+{
+  "generator.unrecognize": [
+    {
+      "line": "300",
+      "errortype": "parse-error",
+      "context": "\n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                $borderClass div.csc-textpic-imagewrap img {\n  border: 2px solid #000;\n  padding: 0 0\n}\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5084",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button #uc-banner-modal .uc-banner-wrapper",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                9.99999e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5101",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                1e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5113",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                1e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5124",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button #uc-center-modal .center-modal-wrapper",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                9.99999e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5211",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-corner-modal .uc-corner-modal-content",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                1e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "8996",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-privacy-button-wrapper",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                9.99999e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "9554",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button #uc-center-modal .secondary-advance, #usercentrics-button #uc-center-modal .secondary-basic",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                1e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "10142",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                1e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "11431",
+      "errortype": "parse-error",
+      "context": "#uc-banner-centered",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                9.99999e\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n        \n                                Unknown dimension\n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "noexistence-at-all": [
+    {
+      "line": "1117",
+      "errortype": "parse-error",
+      "context": ".btn--disabled",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "4941",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-blue-icon svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5292",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-corner-modal .uc-blue-icon svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5295",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-corner-modal .uc-blue-icon svg path",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5298",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-corner-modal .uc-blue-icon svg circle",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5301",
+      "errortype": "parse-error",
+      "context": ".usercentrics-button .uc-corner-modal .uc-blue-icon svg text",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "6507",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-header svg path:not([fill=\"none\"])",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(85, 85, 85)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "7649",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal svg path, #usercentrics-button.layout-2 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal svg path",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(53, 61, 98)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "7808",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-4 .uc-corner-modal-content svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "7811",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-4 .uc-corner-modal-content svg path",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "8221",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 svg path:not([fill=\"none\"])",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "8395",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg, #usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "8396",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg, #usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill-opacity” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "8429",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-banner-svg svg path, #usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-banner-svg svg path",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "10150",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-dialog",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                inherit\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "10168",
+      "errortype": "parse-error",
+      "context": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header svg",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "value": [
+    {
+      "line": "1184",
+      "errortype": "parse-error",
+      "context": ".btn-icon-only:before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  speak (nullaural.html#propdef-speak)\n        \n                                “none” is not a “speak” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1238",
+      "errortype": "parse-error",
+      "context": ".icon-after:after, .icon-before:before",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                none\n                            ",
+      "type": "value",
+      "message": "\n        \n                                Value Error :  speak (nullaural.html#propdef-speak)\n        \n                                “none” is not a “speak” value : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "zero": [
+    {
+      "line": "4812",
+      "errortype": "parse-error",
+      "context": ".no-js noscript p",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                970\n                            ",
+      "type": "zero",
+      "message": "\n        \n                                Value Error :  max-width (nullvisudet.html#propdef-max-width)\n        \n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
+      "error": "\n                        "
+    }
+  ]
+}

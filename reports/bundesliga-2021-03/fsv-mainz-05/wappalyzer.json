@@ -1,0 +1,137 @@
+{
+  "urls": {
+    "https://www.mainz05.de/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "typo3-cms",
+      "name": "TYPO3 CMS",
+      "confidence": 100,
+      "version": null,
+      "icon": "TYPO3.svg",
+      "website": "https://typo3.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        }
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "PHP",
+      "confidence": 100,
+      "version": null,
+      "icon": "PHP.svg",
+      "website": "http://php.net",
+      "cpe": "cpe:/a:php:php",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "mediaelement-js",
+      "name": "MediaElement.js",
+      "confidence": 100,
+      "version": "4.2.16",
+      "icon": "MediaElement.js.png",
+      "website": "http://www.mediaelementjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 14,
+          "slug": "video-players",
+          "name": "Video players"
+        }
+      ]
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "confidence": 100,
+      "version": "3.3.7",
+      "icon": "Bootstrap.svg",
+      "website": "https://getbootstrap.com",
+      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "categories": [
+        {
+          "id": 66,
+          "slug": "ui-frameworks",
+          "name": "UI frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "apache",
+      "name": "Apache",
+      "confidence": 100,
+      "version": null,
+      "icon": "Apache.svg",
+      "website": "http://apache.org",
+      "cpe": "cpe:/a:apache:http_server",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "1.11.3",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "fancybox",
+      "name": "FancyBox",
+      "confidence": 100,
+      "version": "2.1.5",
+      "icon": "FancyBox.png",
+      "website": "http://fancyapps.com/fancybox",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    }
+  ]
+}

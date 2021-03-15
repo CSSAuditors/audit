@@ -1,0 +1,6206 @@
+{
+  "stylesheets.size.uncompressed.totalBytes": 337971,
+  "stylesheets.size.compressed.gzip.totalBytes": 38308,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.8866529968547597,
+  "stylesheets.simplicity": 0.6316085489313836,
+  "stylesheets.cohesion.average": 2.3183437221727514,
+  "stylesheets.cohesion.min.count": 17,
+  "stylesheets.cohesion.min.value.declarations": [
+    {
+      "property": "-webkit-border-radius",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "-moz-border-radius",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "-ms-border-radius",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "border-radius",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "-webkit-box-shadow",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "-moz-box-shadow",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "box-shadow",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "-moz-box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "property": "box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "property": "border",
+      "value": "1px solid #9c0000",
+      "important": false
+    },
+    {
+      "property": "background",
+      "value": "#900",
+      "important": false
+    },
+    {
+      "property": "color",
+      "value": "#fff",
+      "important": false
+    },
+    {
+      "property": "padding",
+      "value": ".9375em 1.25em",
+      "important": false
+    },
+    {
+      "property": "position",
+      "value": "relative",
+      "important": false
+    },
+    {
+      "property": "cursor",
+      "value": "pointer",
+      "important": false
+    },
+    {
+      "property": "display",
+      "value": "inline-block",
+      "important": false
+    },
+    {
+      "property": "font-size",
+      "value": "0",
+      "important": false
+    }
+  ],
+  "stylesheets.cohesion.min.value.selectors": [
+    ".btn-icon-only"
+  ],
+  "stylesheets.browserhacks.total": 0,
+  "stylesheets.browserhacks.totalUnique": 0,
+  "stylesheets.linesOfCode.total": 11522,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 9037,
+  "atrules.charsets.total": 1,
+  "atrules.charsets.unique": [
+    {
+      "value": "\"UTF-8\"",
+      "count": 1
+    }
+  ],
+  "atrules.charsets.totalUnique": 1,
+  "atrules.documents.total": 0,
+  "atrules.documents.unique": [],
+  "atrules.documents.totalUnique": 0,
+  "atrules.fontfaces.total": 11,
+  "atrules.fontfaces.unique": [
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "icomoon",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/icomoon.eot?jt28hd)",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/icomoon.eot?#iefixjt28hd) format(\"embedded-opentype\"),url(../font/icomoon.woff?jt28hd) format(\"woff\"),url(../font/icomoon.ttf?jt28hd) format(\"truetype\"),url(../font/icomoon.svg?jt28hd#icomoon) format(\"svg\")",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "700",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/roboto/roboto-slab-v7-latin-700.eot)",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "local(\"Roboto Slab Bold\"),local(\"RobotoSlab-Bold\"),url(../font/roboto/roboto-slab-v7-latin-700.eot?#iefix) format(\"embedded-opentype\"),url(../font/roboto/roboto-slab-v7-latin-700.woff2) format(\"woff2\"),url(../font/roboto/roboto-slab-v7-latin-700.woff) format(\"woff\"),url(../font/roboto/roboto-slab-v7-latin-700.ttf) format(\"truetype\"),url(../font/roboto/roboto-slab-v7-latin-700.svg#RobotoSlab) format(\"svg\")",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/roboto/roboto-slab-v7-latin-regular.eot)",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "local(\"Roboto Slab Regular\"),local(\"RobotoSlab-Regular\"),url(../font/roboto/roboto-slab-v7-latin-regular.eot?#iefix) format(\"embedded-opentype\"),url(../font/roboto/roboto-slab-v7-latin-regular.woff2) format(\"woff2\"),url(../font/roboto/roboto-slab-v7-latin-regular.woff) format(\"woff\"),url(../font/roboto/roboto-slab-v7-latin-regular.ttf) format(\"truetype\"),url(../font/roboto/roboto-slab-v7-latin-regular.svg#RobotoSlab) format(\"svg\")",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "TradeGothicLTPro-BdCn20",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/Trade_Gothic_Pro_Bold_Condensed/2BEE7B_0_0.eot)",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(../font/Trade_Gothic_Pro_Bold_Condensed/2BEE7B_0_0.eot?#iefix) format(\"embedded-opentype\"),url(../font/Trade_Gothic_Pro_Bold_Condensed/2BEE7B_0_0.woff) format(\"woff\"),url(../font/Trade_Gothic_Pro_Bold_Condensed/2BEE7B_0_0.ttf) format(\"truetype\"),url(../font/Trade_Gothic_Pro_Bold_Condensed/2BEE7B_0_0.svg#wf) format(\"svg\")",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "-webkit-font-smoothing",
+          "value": "antialiased",
+          "important": false
+        },
+        {
+          "property": "-moz-osx-font-smoothing",
+          "value": "grayscale",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISma2RlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2RlV9Su1cai.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmbGRlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0370-03FF",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmY2RlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+1F00-1FFF",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYGRlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYmRlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F",
+          "important": false
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "value": [
+        {
+          "property": "font-family",
+          "value": "'Roboto Slab'",
+          "important": false
+        },
+        {
+          "property": "font-style",
+          "value": "normal",
+          "important": false
+        },
+        {
+          "property": "font-weight",
+          "value": "400",
+          "important": false
+        },
+        {
+          "property": "src",
+          "value": "url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYWRlV9Su1caiTVo.woff) format('woff')",
+          "important": false
+        },
+        {
+          "property": "unicode-range",
+          "value": "U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF",
+          "important": false
+        }
+      ]
+    }
+  ],
+  "atrules.fontfaces.totalUnique": 11,
+  "atrules.imports.total": 0,
+  "atrules.imports.unique": [],
+  "atrules.imports.totalUnique": 0,
+  "atrules.keyframes.total": 10,
+  "atrules.keyframes.unique": [
+    {
+      "value": "modal-animation-dialog-close",
+      "count": 1
+    },
+    {
+      "value": "ucOpacity",
+      "count": 9
+    }
+  ],
+  "atrules.keyframes.totalUnique": 2,
+  "atrules.keyframes.prefixed.total": 0,
+  "atrules.keyframes.prefixed.unique": [],
+  "atrules.keyframes.prefixed.totalUnique": 0,
+  "atrules.keyframes.prefixed.share": 0,
+  "atrules.mediaqueries.total": 196,
+  "atrules.mediaqueries.unique": [
+    {
+      "value": "(max-width:350px)",
+      "count": 1
+    },
+    {
+      "value": "(max-width:420px)",
+      "count": 1
+    },
+    {
+      "value": "(max-width:640px)",
+      "count": 17
+    },
+    {
+      "value": "(max-width:768px)",
+      "count": 11
+    },
+    {
+      "value": "(min-width:641px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:768px)",
+      "count": 2
+    },
+    {
+      "value": "(min-width:769px)",
+      "count": 3
+    },
+    {
+      "value": "(min-width:992px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:1200px)",
+      "count": 1
+    },
+    {
+      "value": "not all",
+      "count": 2
+    },
+    {
+      "value": "only screen and (max-width:520px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:580px)",
+      "count": 3
+    },
+    {
+      "value": "only screen and (max-width:767px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:855px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:975px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:1100px)",
+      "count": 3
+    },
+    {
+      "value": "only screen and (max-width:1120px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:1340px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:1390px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-width:47.9375em)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-width:768px) and (max-width:1024px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (min-width:1024px)",
+      "count": 1
+    },
+    {
+      "value": "print",
+      "count": 1
+    },
+    {
+      "value": "screen and (max-width:29.25em)",
+      "count": 22
+    },
+    {
+      "value": "screen and (max-width:47.9375em)",
+      "count": 52
+    },
+    {
+      "value": "screen and (max-width:49.75em)",
+      "count": 1
+    },
+    {
+      "value": "screen and (max-width:57.8125em)",
+      "count": 1
+    },
+    {
+      "value": "screen and (max-width:60em)",
+      "count": 11
+    },
+    {
+      "value": "screen and (max-width:92.5em)",
+      "count": 2
+    },
+    {
+      "value": "screen and (max-width:500px)",
+      "count": 1
+    },
+    {
+      "value": "screen and (max-width:768px)",
+      "count": 1
+    },
+    {
+      "value": "screen and (min-width:20em)",
+      "count": 1
+    },
+    {
+      "value": "screen and (min-width:45.625em)",
+      "count": 1
+    },
+    {
+      "value": "screen and (min-width:47.9375em)",
+      "count": 35
+    },
+    {
+      "value": "screen and (min-width:57.8125em)",
+      "count": 11
+    }
+  ],
+  "atrules.mediaqueries.totalUnique": 35,
+  "atrules.mediaqueries.browserhacks.total": 0,
+  "atrules.mediaqueries.browserhacks.unique": [],
+  "atrules.mediaqueries.browserhacks.totalUnique": 0,
+  "atrules.namespaces.total": 0,
+  "atrules.namespaces.unique": [],
+  "atrules.namespaces.totalUnique": 0,
+  "atrules.pages.total": 0,
+  "atrules.pages.unique": [],
+  "atrules.pages.totalUnique": 0,
+  "atrules.supports.total": 0,
+  "atrules.supports.unique": [],
+  "atrules.supports.totalUnique": 0,
+  "atrules.supports.browserhacks.total": 0,
+  "atrules.supports.browserhacks.unique": [],
+  "atrules.supports.browserhacks.totalUnique": 0,
+  "rules.total": 2246,
+  "rules.empty.total": 0,
+  "rules.selectors.average": 1.583259127337489,
+  "rules.selectors.minimum.count": 1,
+  "rules.selectors.minimum.value": [
+    "#form-player-month .button-set"
+  ],
+  "rules.selectors.maximum.count": 98,
+  "rules.selectors.maximum.value": [
+    "#usercentrics-button .uc-float-left",
+    "#usercentrics-button .usercentrics-button .uc-col-1",
+    "#usercentrics-button .usercentrics-button .uc-col-10",
+    "#usercentrics-button .usercentrics-button .uc-col-11",
+    "#usercentrics-button .usercentrics-button .uc-col-12",
+    "#usercentrics-button .usercentrics-button .uc-col-2",
+    "#usercentrics-button .usercentrics-button .uc-col-3",
+    "#usercentrics-button .usercentrics-button .uc-col-4",
+    "#usercentrics-button .usercentrics-button .uc-col-5",
+    "#usercentrics-button .usercentrics-button .uc-col-6",
+    "#usercentrics-button .usercentrics-button .uc-col-7",
+    "#usercentrics-button .usercentrics-button .uc-col-8",
+    "#usercentrics-button .usercentrics-button .uc-col-9",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-1",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-10",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-11",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-12",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-2",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-3",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-4",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-5",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-6",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-7",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-8",
+    "#usercentrics-button .usercentrics-button .uc-col-xs-9",
+    ".uc-embed .uc-float-left",
+    ".uc-embed .usercentrics-button .uc-col-1",
+    ".uc-embed .usercentrics-button .uc-col-10",
+    ".uc-embed .usercentrics-button .uc-col-11",
+    ".uc-embed .usercentrics-button .uc-col-12",
+    ".uc-embed .usercentrics-button .uc-col-2",
+    ".uc-embed .usercentrics-button .uc-col-3",
+    ".uc-embed .usercentrics-button .uc-col-4",
+    ".uc-embed .usercentrics-button .uc-col-5",
+    ".uc-embed .usercentrics-button .uc-col-6",
+    ".uc-embed .usercentrics-button .uc-col-7",
+    ".uc-embed .usercentrics-button .uc-col-8",
+    ".uc-embed .usercentrics-button .uc-col-9",
+    ".uc-embed .usercentrics-button .uc-col-xs-1",
+    ".uc-embed .usercentrics-button .uc-col-xs-10",
+    ".uc-embed .usercentrics-button .uc-col-xs-11",
+    ".uc-embed .usercentrics-button .uc-col-xs-12",
+    ".uc-embed .usercentrics-button .uc-col-xs-2",
+    ".uc-embed .usercentrics-button .uc-col-xs-3",
+    ".uc-embed .usercentrics-button .uc-col-xs-4",
+    ".uc-embed .usercentrics-button .uc-col-xs-5",
+    ".uc-embed .usercentrics-button .uc-col-xs-6",
+    ".uc-embed .usercentrics-button .uc-col-xs-7",
+    ".uc-embed .usercentrics-button .uc-col-xs-8",
+    ".uc-embed .usercentrics-button .uc-col-xs-9",
+    ".usercentrics-button #usercentrics-button .uc-col-1",
+    ".usercentrics-button #usercentrics-button .uc-col-10",
+    ".usercentrics-button #usercentrics-button .uc-col-11",
+    ".usercentrics-button #usercentrics-button .uc-col-12",
+    ".usercentrics-button #usercentrics-button .uc-col-2",
+    ".usercentrics-button #usercentrics-button .uc-col-3",
+    ".usercentrics-button #usercentrics-button .uc-col-4",
+    ".usercentrics-button #usercentrics-button .uc-col-5",
+    ".usercentrics-button #usercentrics-button .uc-col-6",
+    ".usercentrics-button #usercentrics-button .uc-col-7",
+    ".usercentrics-button #usercentrics-button .uc-col-8",
+    ".usercentrics-button #usercentrics-button .uc-col-9",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-1",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-10",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-11",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-12",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-2",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-3",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-4",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-5",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-6",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-7",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-8",
+    ".usercentrics-button #usercentrics-button .uc-col-xs-9",
+    ".usercentrics-button .uc-embed .uc-col-1",
+    ".usercentrics-button .uc-embed .uc-col-10",
+    ".usercentrics-button .uc-embed .uc-col-11",
+    ".usercentrics-button .uc-embed .uc-col-12",
+    ".usercentrics-button .uc-embed .uc-col-2",
+    ".usercentrics-button .uc-embed .uc-col-3",
+    ".usercentrics-button .uc-embed .uc-col-4",
+    ".usercentrics-button .uc-embed .uc-col-5",
+    ".usercentrics-button .uc-embed .uc-col-6",
+    ".usercentrics-button .uc-embed .uc-col-7",
+    ".usercentrics-button .uc-embed .uc-col-8",
+    ".usercentrics-button .uc-embed .uc-col-9",
+    ".usercentrics-button .uc-embed .uc-col-xs-1",
+    ".usercentrics-button .uc-embed .uc-col-xs-10",
+    ".usercentrics-button .uc-embed .uc-col-xs-11",
+    ".usercentrics-button .uc-embed .uc-col-xs-12",
+    ".usercentrics-button .uc-embed .uc-col-xs-2",
+    ".usercentrics-button .uc-embed .uc-col-xs-3",
+    ".usercentrics-button .uc-embed .uc-col-xs-4",
+    ".usercentrics-button .uc-embed .uc-col-xs-5",
+    ".usercentrics-button .uc-embed .uc-col-xs-6",
+    ".usercentrics-button .uc-embed .uc-col-xs-7",
+    ".usercentrics-button .uc-embed .uc-col-xs-8",
+    ".usercentrics-button .uc-embed .uc-col-xs-9"
+  ],
+  "selectors.total": 3556,
+  "selectors.totalUnique": 2860,
+  "selectors.js.total": 0,
+  "selectors.js.unique": [],
+  "selectors.js.totalUnique": 0,
+  "selectors.id.total": 902,
+  "selectors.id.unique": [
+    {
+      "value": "#form-player-month .button-set",
+      "count": 1
+    },
+    {
+      "value": "#form-player-month .button-set .btn",
+      "count": 1
+    },
+    {
+      "value": "#form-player-month .button-set a",
+      "count": 2
+    },
+    {
+      "value": "#hiddenNav",
+      "count": 1
+    },
+    {
+      "value": "#logo",
+      "count": 2
+    },
+    {
+      "value": "#main:after",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-centered",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-centered .uc-banner-content",
+      "count": 2
+    },
+    {
+      "value": "#uc-banner-centered .uc-banner-content .uc-banner-btn-list .uc-btn-accept-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-centered .uc-banner-content .uc-banner-btn-list .uc-btn-deny-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-centered .uc-banner-content .uc-banner-text",
+      "count": 2
+    },
+    {
+      "value": "#uc-banner-centered div",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-centered.uc-banner-dark",
+      "count": 1
+    },
+    {
+      "value": "#uc-banner-modal a[href]",
+      "count": 1
+    },
+    {
+      "value": "#uc-center-modal a[href]",
+      "count": 1
+    },
+    {
+      "value": "#uc-central-banner-modal a[href]",
+      "count": 1
+    },
+    {
+      "value": "#uc-corner-modal a[href]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #history ul",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #history ul li .uc-history-timeline-dot.uc-green",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #history ul li .uc-history-timeline-dot.uc-green h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-centered .uc-banner-links",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-centered .uc-banner-links a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-centered .uc-banner-links span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-centered .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal #uc-full-optin-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal #uc-small-optin-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal .uc-banner-links",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal .uc-optin-description span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal.layout-2 .uc-btn-footer-container",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-banner-modal.layout-2 .uc-btn-footer-container .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .consent-info h6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .head-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .uc-collapse.uc-show",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .uc-timeline",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .uc-timeline .uc-history-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .uc-timeline .uc-timeline-right",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #setting .uc-timeline li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal #uc-lang-dropdown-toggle::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .consent-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .subconsent-info .uc-consent-info-modal-svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row .uc-category-desc .uc-category-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row .uc-category-desc .uc-container",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row .uc-category-desc small",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row input[type=checkbox].intermediate + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row input[type=checkbox]:checked + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row input[type=checkbox]:disabled + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-category-row label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-nav a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-nav a.active",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-nav a:hover",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-tab-content .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-tab-content .uc-form-check-label input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-body .uc-tab-content .uc-timeline .time",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-footer",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-footer .uc-accept-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-footer .uc-save-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-footer .uc-save-settings-button.disabled",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .subtitle-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title .uc-secondary-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title .uc-secondary-toggle .text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title .uc-secondary-toggle button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title .uc-secondary-toggle button .on .background",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-advance .uc-card-header .uc-card-title .uc-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .consent-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .subconsent-info .uc-consent-info-modal-svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row .uc-category-desc .uc-category-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row .uc-category-desc .uc-container",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row .uc-category-desc small",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row input[type=checkbox].intermediate + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row input[type=checkbox]:checked + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row input[type=checkbox]:disabled + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-category-row label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-body .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-footer",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-footer .uc-accept-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-footer .uc-save-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-footer .uc-save-settings-button.disabled",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .subtitle-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title .uc-secondary-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title .uc-secondary-toggle .text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title .uc-secondary-toggle button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title .uc-secondary-toggle button .on .background",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .secondary-basic .uc-card-header .uc-card-title .uc-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .uc-center-modal-close-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content #uc-btn-open-language-selector-flags",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content #uc-btn-open-language-selector-flags .svg-wrapper svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content #uc-btn-open-language-selector-flags .uc-dropdown .uc-dropdown-toggle .uc-dropdown-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body .desc",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body .uc-floating-button-wrapper svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body a.accept-settings-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content .uc-modal-body div:last-of-type",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-central-banner-modal #uc-full-optin-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-central-banner-modal #uc-small-optin-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-central-banner-modal .uc-banner-text span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content .uc-checkbox",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content .uc-consent-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content h3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content h5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content ul",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content ul li.ls-dash",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-content ul li.ls-dash:not(.uc-ls-none)::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consent-info-section",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar .uc-info-modal-sidebar-nav",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar .uc-powered-by",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar .uc-powered-by .uc-custom-date",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar .uc-powered-by a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar .uc-powered-by p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat .section-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat > li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat > li > .section-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat > li:last-of-type",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat li a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar ul.uc-menu-consent-cat ul.uc-menu-consent-subcat li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-info-modal-sidebar.uc-is-hidden",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content .uc-info-modal-category-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content .uc-info-modal-category-content .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content .uc-subconsent-section",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content .uc-subconsent-section .uc-consent-heading-subconsent",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-content .uc-subconsent-section .uc-consent-label-subconsent-name",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-body .uc-main",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-dialog",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-footer .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-footer .uc-save-settings-and-close-button.uc-disabled-element",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-close",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-search-bar",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-input-wrap",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-search-bar input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-search-bar input::-webkit-input-placeholder",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-sidebar-toggle",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header .uc-info-modal-sidebar-toggle .uc-info-modal-sidebar-toggle-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-modal-header svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-storage-block",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-storage-block .uc-try-again",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-stored-detail",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper .uc-stored-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper ul",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body .text-link-right",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body .uc-timeline .off-on",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body .uc-timeline .uc-history-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body .uc-timeline .uc-history-time",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content .uc-modal-body h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-content h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-modal-header .clear-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-timeline ul::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal a[href]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal h3.uc-info-modal-category-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-1 .uc-checkbox.uc-label-right .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-1 .uc-checkbox.uc-label-right .uc-form-check-label span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-1 input[type=checkbox].uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-1 input[type=checkbox].uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-2 .uc-checkbox.uc-label-right .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-2 .uc-checkbox.uc-label-right .uc-form-check-label span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-2 input[type=checkbox].uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-2 input[type=checkbox].uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-11 .uc-checkbox.uc-label-right .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-11 .uc-checkbox.uc-label-right .uc-form-check-label span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-11 input[type=checkbox].uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal.layout-11 input[type=checkbox].uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body #setting .uc-history-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group .consent-info h6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group .uc-collapse .head-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group .uc-collapse .head-text:last-of-type",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group .uc-concent-icons-div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group .uc-show-hide-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-consent-group div[data-event=open-consent-info-modal]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-body .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-card-footer .uc-accept-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal .uc-corner-modal-content .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-1 .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-2 .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-4 .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-4 .uc-powered-by-footer .uc-powered-right-child",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-4 .uc-powered-by-footer .uc-powered-right-child a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button #uc-corner-modal.layout-5 .uc-powered-by-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .align-center",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .align-right",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .blue-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .consent-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-1",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .headinglevel-6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn.uc-btn-default",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content > div",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .layout-2 .uc-banner .uc-banner-content p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-2#uc-banner-modal .uc-banner-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content #uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content #uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content #uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content .uc-btn.uc-btn-default",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content .uc-btn.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-3 .uc-banner .uc-banner-content p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content #uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content #uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content #uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content .uc-btn.uc-btn-default",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content .uc-btn.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-8 .uc-banner .uc-banner-content p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn.uc-btn-default",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content > div",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .layout-11 .uc-banner .uc-banner-content p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .layout-11#uc-banner-modal .uc-banner-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .margin-side-auto",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .red-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-links",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-links a",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-links span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-links-separator",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-banner-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new.uc-btn-accept",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new.uc-btn-deny",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new.uc-btn-more",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-btn-new:focus",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-card-header .svg-wrapper svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox .hidden",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox].intermediate + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox].intermediate:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:checked + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:checked:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox input[type=checkbox]:focus + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox label.uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-left input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-left input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-left label.uc-form-check-label .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-left label.uc-form-check-label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-left label.uc-form-check-label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-right input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-right input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-right label.uc-form-check-label .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-right label.uc-form-check-label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-checkbox.uc-label-right label.uc-form-check-label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history .uc-history-consent-status",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history .uc-history-timeline-dot.uc-green",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history .uc-history-timeline-dot.uc-red",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history .uc-history-timestamp",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history ul",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history ul li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-history ul::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-corner-modal .uc-card-body .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-cursor-pointer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-dps-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container .uc-flex-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container.uc-flex-2 .uc-flex-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container.uc-flex-2 .uc-flex-item:nth-of-type(2n)",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container.uc-flex-col",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-flex-container.uc-nowrap",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-float-left",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-float-right",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading2 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading3 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading5 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-ls-none",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-mb-10",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-overflow-hidden",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-overlay",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-paragraph",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-powered-by-footer",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button .uc-powered-by-footer .uc-partner-icon",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-powered-by-footer .uc-powered-by-icon",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-powered-by-footer .uc-powered-by-icon svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-powered-by-footer .uc-powered-by-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-stored-discolsure",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-subconsent-section",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-subconsent-section .uc-subconsent-heading",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox].intermediate + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox]:checked + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox]:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox]:disabled.intermediate + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle input[type=checkbox]:focus + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle label label[class^=uc-label-]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-bottom input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-left input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-right input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top .uc-label-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top input[type=checkbox].intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-toggle.uc-label-top input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-width-100",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-1",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-7",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-8",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-9",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-10",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-11",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-12",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-1",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-7",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-8",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-9",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-10",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-11",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .usercentrics-button .uc-col-xs-12",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button ::-webkit-scrollbar",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button ::-webkit-scrollbar-thumb",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button ::-webkit-scrollbar-thumb:hover",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button ::-webkit-scrollbar-track",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button [class*=uc-col-]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h2 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h3 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h5",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h5 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input + label.uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input.intermediate + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input.intermediate + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input.intermediate:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:checked + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:checked:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:disabled + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button input[type=checkbox].uc-form-check-input:focus + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button p:last-of-type",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn #uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn #uc-btn-more-info-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn.hide-more-btn #uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn.hide-more-btn #uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-deny-btn.hide-more-btn #uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-more-btn #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-more-btn #uc-btn-deny-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.hide-more-btn #uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.show-deny-btn.show-more-btn #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.show-deny-btn.show-more-btn #uc-btn-deny-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-banner-modal .btn-list.show-deny-btn.show-more-btn #uc-btn-more-info-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-center-modal #history .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-center-modal #history .uc-timeline li div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-center-modal .uc-concent-icons-div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-center-modal div[data-event=open-consent-info-modal]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-corner-modal .svg-arrow-down",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-corner-modal .svg-arrow-up",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-corner-modal .uc-card-body #history .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-corner-modal .uc-corner-modal-content .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 #uc-corner-modal .uc-header-subtitle-text a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-1 input[type=checkbox].uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal .uc-form-check-label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal .uc-form-check-label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal input[type=checkbox]::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-consents-info-modal input[type=checkbox]::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .corner-arrow",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body #history .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group .uc-collapse",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group .uc-collapse .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group > .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body .uc-tab-content",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-body input[type=checkbox]::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-2 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal svg path",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-banner-modal #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-banner-modal #uc-btn-deny-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-banner-modal .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-banner-modal .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-consents-info-modal .uc-info-modal-category-link span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-consents-info-modal .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-consents-info-modal h3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-3 #uc-consents-info-modal h3 span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal #uc-fingerprint-icon-overlay",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-banner-svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-banner-svg svg path",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-banner-text",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-btn-group",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-btn-group button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-content .uc-btn-group button#uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-banner-modal .uc-banner-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-form-check-label .uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-form-check-label .uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-footer .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .clear-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-infor-modal-input-wrap",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal a.blue-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-consent-history .uc-green",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-consent-history .uc-red",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-checkbox input[type=checkbox] + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-checkbox input[type=checkbox]:checked + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-checkbox input[type=checkbox]:checked + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-checkbox input[type=checkbox]:checked:disabled + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-content .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-content .uc-subconsent-section",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-info-modal-sidebar",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-body .uc-info-modal-sidebar .uc-powered-by",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-footer .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-footer .uc-save-settings-and-close-button.uc-disabled-element",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-header .uc-info-modal-search-bar input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 .uc-modal-header .uc-info-modal-search-bar input::-webkit-input-placeholder",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 svg path:not([fill=none])",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .corner-modal-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .corner-modal-wrapper .uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-btn-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-history-line .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label .uc-sub-consent-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label .uc-sub-consent-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-consent-group input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-form-check-label .uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-history-line .uc-history-details",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-history-line .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-history-line .uc-width-100",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-language-dropdown-4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-language-dropdown-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-show-hide-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body li.uc-nav-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body li.uc-nav-item a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-footer .uc-save-settings-button span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-header a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .consent-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .consent-header label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content .uc-banner-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content br",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content button.simple-type-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-banner .uc-banner-content p",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.btn-default",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.btn-default.uc-disabled-element",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-primary",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-primary.uc-custom-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-primary.uc-custom-btn span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-primary.uc-disabled-element",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-success",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-btn.uc-btn-success.uc-disabled-element",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-checkbox-div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-collapse.uc-show",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-collapse:not(.uc-show)",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-consent-info .uc-collapse",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .corner-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-nav-tabs",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-nav-tabs .uc-nav-item .uc-nav-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-nav-tabs .uc-nav-item .uc-nav-link.uc-active",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .checkbox input[type=checkbox]:checked::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .checkbox input[type=checkbox]:checked::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .checkbox-inline input[type=checkbox]:checked::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .checkbox-inline input[type=checkbox]:checked::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .consent-info .uc-consent-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .consent-info .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-btn-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-consent-group",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-form-check-input .intermediate::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-sub-consent-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-sub-consent-input:checked::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-svg-div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-description .history-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-description .history-tab-content .uc-history-details .off-on-12",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-description .history-tab-content .uc-history-details .uc-history-time-12",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-description.uc-des-width",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-line::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-timeline-dot.red",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-history-timeline-dot.uc-green",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-setting-history li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline .uc-setting-history li div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content .uc-timeline h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content h6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content h6.uc-sub-consent-font-size",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content input[type=checkbox]:checked::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content input[type=checkbox]:checked::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-card-footer .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs > div #uc-btn-open-language-selector-flags",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs > div #uc-btn-open-language-selector-flags li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs li",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs li.width-33",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs li:first-child a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal .uc-corner-modal-content .uc-nav-tabs li:nth-child(2) a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-close-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-header-subtitle-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-header-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-header-title .uc-svg-24",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-language-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-language-wrapper .language-list",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-language-wrapper .language-list .list-group-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-language-wrapper .language-list .list-group-item.active",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content .uc-card-header .uc-language-wrapper .language-list .list-group-item:not(:last-child)",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-corner-modal-content svg path",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-dropdown",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-dropdown .uc-dropdown-menu",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .uc-sub-consent-p-l-30",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .usercenterics-language-wrapper .language-list .uc-list-group-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .usercenterics-language-wrapper .language-list .uc-list-group-item.uc-active",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .usercenterics-language-wrapper .language-list .uc-list-group-item:not(:last-child)",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 .usercenterics-language-wrapper ul",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 h1",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 h2",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 h3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 input[type=checkbox]::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 input[type=checkbox]:checked::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 input[type=checkbox]:focus",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 span.status",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-banner-modal .uc-main-banner .btn-list.hide-deny-btn",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-banner-modal .uc-main-banner .btn-list.hide-deny-btn #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-banner-modal .uc-main-banner .btn-list.hide-deny-btn #uc-btn-more-info-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-banner-modal .uc-main-banner br",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-body #uc-info-modal-sidebar-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-body .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-footer .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-footer .uc-save-settings-and-close-button.uc-disabled-element:hover",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-footer .uc-save-settings-and-close-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-header .uc-info-modal-search-bar input",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-header .uc-info-modal-search-bar input::-webkit-input-placeholder",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-consents-info-modal .uc-modal-dialog .uc-modal-content .uc-modal-header svg path:not([fill=none])",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.red",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line h4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-nav-tabs",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-nav-tabs .uc-nav-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-nav-tabs .uc-nav-link.uc-active",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .consent-info .uc-collapse .head-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .consent-info .uc-collapse .uc-timeline",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .consent-info .uc-collapse .uc-timeline .uc-timeline-left .time",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .consent-info .uc-collapse .uc-timeline .uc-timeline-left .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .consent-info .uc-collapse .uc-timeline .uc-timeline-right",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-category-description",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-toggle input:disabled + label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-toggle input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-toggle input[type=checkbox]:checked:not(:disabled) + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-select-all-items",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-select-all-items .uc-toggle input[type=checkbox] + label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-select-all-items .uc-toggle input[type=checkbox]:checked + label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-select-all-items label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content h6",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content svg.uc-svg-history-alt",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content svg.uc-svg-info-alt",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content svg.uc-svg-plus",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-toggle",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-toggle label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-card-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-card-title .uc-header-title",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-close-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-close-btn svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-header-subtitle-text",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-language-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-language-wrapper .uc-dropdown-menu.lan-opened",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-language-wrapper .uc-dropdown-toggle .uc-dropdown-arrow",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-header .uc-language-wrapper svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-save-settings-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-banner-modal #uc-btn-accept-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-banner-modal #uc-btn-deny-banner",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-banner-modal .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-banner-modal .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-consents-info-modal .uc-info-modal-category-link span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-consents-info-modal .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-consents-info-modal h3",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-8 #uc-consents-info-modal h3 span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal .uc-form-check-label::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal .uc-form-check-label::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal input[type=checkbox]::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-consents-info-modal input[type=checkbox]::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .corner-arrow",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group .uc-collapse",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group .uc-collapse .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body .uc-inner-content > .uc-consent-group > .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body .uc-tab-content",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-body input[type=checkbox]::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-11 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal svg path",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal #uc-fingerprint-icon-overlay",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-banner-svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-banner-svg svg path",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-banner-text",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-btn-group",
+      "count": 2
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-btn-group button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-banner-modal .uc-banner-content .uc-btn-group button#uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-form-check-label .uc-form-check-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-form-check-label .uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-footer .uc-save-settings-and-close-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .clear-button",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-info-modal-search-icon svg",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal .uc-modal-header .uc-info-modal-search-bar .uc-infor-modal-input-wrap",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-consents-info-modal a.blue-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-btn-link",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-history-line .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label .uc-sub-consent-input::after",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group .uc-sub-consent-p-l-30 .uc-form-check-label .uc-sub-consent-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-consent-group input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-form-check-label .uc-form-check-input::before",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-history-line .uc-history-details",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-history-line .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-history-line .uc-width-100",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-language-dropdown-4",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-language-dropdown-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-show-hide-banner",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body li.uc-nav-item",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body li.uc-nav-item a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-footer .uc-save-settings-button span",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-header #uc-btn-close-x-corner-modal",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-header a",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-br .layout-3 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-br .layout-3 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-br .layout-8 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-br .layout-8 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-tr .layout-3 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-tr .layout-3 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-tr .layout-8 .uc-banner .uc-banner-content .uc-btn",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.uc-button-tr .layout-8 .uc-banner .uc-banner-content > div",
+      "count": 1
+    },
+    {
+      "value": ".lt-ie8 #main",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #history .uc-timeline .uc-history-timeline-dot",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-about-modal",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-about-model",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-about-model .modal-dialog",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-about-model .modal-dialog .modal-content",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-about-model .modal-dialog .modal-content .modal-body",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-banner-modal #uc-main-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-banner-modal .uc-banner-wrapper",
+      "count": 2
+    },
+    {
+      "value": ".usercentrics-button #uc-banner-modal .uc-banner-wrapper.uc-page-overlay",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-banner-modal :focus",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-center-modal .center-modal-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-center-modal .center-modal-wrapper.inactive-background-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-central-banner-modal",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-central-banner-modal :focus",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal .uc-fade",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal .uc-modal",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal .uc-modal-content",
+      "count": 2
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal .uc-modal-header",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-consents-info-modal p",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper",
+      "count": 2
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper .uc-btn",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper .uc-card-body .uc-tab-content",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-corner-modal .corner-modal-wrapper.inactive-background-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-full-optin-description",
+      "count": 2
+    },
+    {
+      "value": ".usercentrics-button #uc-privacy-chip",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #uc-small-optin-description",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-1",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-2",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-3",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-4",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-5",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-6",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-7",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-8",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-9",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-10",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-11",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-12",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-1",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-2",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-3",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-4",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-5",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-6",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-7",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-8",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-9",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-10",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-11",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button #usercentrics-button .uc-col-xs-12",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn#uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn#uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-2 .uc-banner .uc-banner-content .uc-btn#uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-2 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content #uc-consent-history-id-HJI5SmLm7",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn#uc-btn-accept-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn#uc-btn-deny-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-11 .uc-banner .uc-banner-content .uc-btn#uc-btn-more-info-banner",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button .layout-11 .uc-corner-modal .uc-corner-modal-content .uc-card-body .uc-tab-content #uc-consent-history-id-HJI5SmLm7",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button button#change-secondary-state",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-body",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-footer",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info .close-modal-btn",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info .uc-card-title",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info .uc-language-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info .uc-language-wrapper .uc-dropdown",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-card-header-info .uc-language-wrapper .uc-dropdown .uc-dropdown-toggle",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 #uc-corner-modal.layout-1 .uc-corner-modal .uc-corner-modal-content .uc-card-header .uc-header-subtitle-text",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-1 .uc-content #uc-privacy-button",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-3 #purpose-container .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-3 #purpose-container .uc-form-check .uc-concent-icons-div",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-3 #purpose-container .uc-form-check .uc-concent-icons-div svg",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-3 #purpose-container .uc-form-check .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-3 #purpose-container .uc-inner-content--purpose > .uc-row",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-4 #uc-corner-modal .uc-corner-modal .uc-corner-modal-content",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 #purpose-container .uc-form-check",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 #purpose-container .uc-form-check .uc-concent-icons-div",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 #purpose-container .uc-form-check .uc-concent-icons-div svg",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 #purpose-container .uc-form-check .uc-consent-title",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 #purpose-container .uc-inner-content--purpose > .uc-row",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.uc-banner-1 #uc-banner-modal .uc-banner-wrapper",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.uc-banner-2 #uc-banner-modal .uc-banner-wrapper",
+      "count": 1
+    }
+  ],
+  "selectors.id.totalUnique": 857,
+  "selectors.universal.total": 30,
+  "selectors.universal.unique": [
+    {
+      "value": "#usercentrics-button #uc-consents-info-modal .uc-consents-info-modal-wrapper *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading2 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading3 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button .uc-heading5 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h2 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h3 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button h5 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-consents-info-modal.layout-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 #uc-corner-modal .uc-card-body .uc-language-dropdown-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 #uc-corner-modal .uc-card-body .uc-language-dropdown-4 *",
+      "count": 1
+    },
+    {
+      "value": "#usercentrics-button.layout-12 *",
+      "count": 1
+    },
+    {
+      "value": "*",
+      "count": 1
+    },
+    {
+      "value": ".teaser--disabled > *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed .uc-heading2 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed .uc-heading3 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed .uc-heading4 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed .uc-heading5 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed h2 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed h3 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed h4 *",
+      "count": 1
+    },
+    {
+      "value": ".uc-embed h5 *",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button *",
+      "count": 2
+    },
+    {
+      "value": ".usercentrics-button.layout-3 *",
+      "count": 1
+    },
+    {
+      "value": ".usercentrics-button.layout-8 *",
+      "count": 1
+    },
+    {
+      "value": "div.csc-textpic-responsive *",
+      "count": 1
+    }
+  ],
+  "selectors.universal.totalUnique": 29,
+  "selectors.accessibility.total": 0,
+  "selectors.accessibility.unique": [],
+  "selectors.accessibility.totalUnique": 0,
+  "selectors.specificity.top": [
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.red",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 6,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 6,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": "#usercentrics-button #uc-center-modal .user-centric-center-modal .uc-content #uc-btn-open-language-selector-flags .uc-dropdown .uc-dropdown-toggle .uc-dropdown-arrow",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 5,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line h4",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 4,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line::before",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 4,
+        "d": 1
+      }
+    }
+  ],
+  "selectors.specificity.max.value.a": 0,
+  "selectors.specificity.max.value.b": 3,
+  "selectors.specificity.max.value.c": 6,
+  "selectors.specificity.max.value.d": 0,
+  "selectors.specificity.max.count": 2,
+  "selectors.specificity.max.selectors": [
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.red",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 6,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
+      "specificity": {
+        "a": 0,
+        "b": 3,
+        "c": 6,
+        "d": 0
+      }
+    }
+  ],
+  "selectors.complexity.max.value": 15,
+  "selectors.complexity.max.selectors": [
+    {
+      "value": "#usercentrics-button.layout-5 #uc-corner-modal .uc-card-body .uc-tab-content .uc-inner-content .uc-consent-group .uc-toggle input[type=checkbox]:checked:not(:disabled) + label::before",
+      "count": 1
+    }
+  ],
+  "selectors.complexity.max.count": 1,
+  "selectors.complexity.average": 3.8239595050618673,
+  "selectors.complexity.sum": 13598,
+  "selectors.complexity.unique": [
+    {
+      "value": 0,
+      "count": 2
+    },
+    {
+      "value": 1,
+      "count": 357
+    },
+    {
+      "value": 2,
+      "count": 862
+    },
+    {
+      "value": 3,
+      "count": 705
+    },
+    {
+      "value": 4,
+      "count": 511
+    },
+    {
+      "value": 5,
+      "count": 371
+    },
+    {
+      "value": 6,
+      "count": 286
+    },
+    {
+      "value": 7,
+      "count": 192
+    },
+    {
+      "value": 8,
+      "count": 137
+    },
+    {
+      "value": 9,
+      "count": 65
+    },
+    {
+      "value": 10,
+      "count": 25
+    },
+    {
+      "value": 11,
+      "count": 16
+    },
+    {
+      "value": 12,
+      "count": 18
+    },
+    {
+      "value": 13,
+      "count": 7
+    },
+    {
+      "value": 14,
+      "count": 1
+    },
+    {
+      "value": 15,
+      "count": 1
+    }
+  ],
+  "selectors.complexity.totalUnique": 16,
+  "selectors.browserhacks.total": 0,
+  "selectors.browserhacks.unique": [],
+  "selectors.browserhacks.totalUnique": 0,
+  "declarations.total": 5263,
+  "declarations.totalUnique": 1426,
+  "declarations.importants.total": 1520,
+  "declarations.importants.share": 0.2888086642599278,
+  "properties.total": 5263,
+  "properties.unique": [
+    {
+      "value": "-moz-border-radius",
+      "count": 4
+    },
+    {
+      "value": "-moz-box-shadow",
+      "count": 3
+    },
+    {
+      "value": "-moz-box-sizing",
+      "count": 10
+    },
+    {
+      "value": "-moz-osx-font-smoothing",
+      "count": 4
+    },
+    {
+      "value": "-moz-transform",
+      "count": 2
+    },
+    {
+      "value": "-moz-transition",
+      "count": 10
+    },
+    {
+      "value": "-ms-border-radius",
+      "count": 2
+    },
+    {
+      "value": "-ms-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-ms-transition",
+      "count": 9
+    },
+    {
+      "value": "-webkit-appearance",
+      "count": 6
+    },
+    {
+      "value": "-webkit-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-webkit-border-radius",
+      "count": 4
+    },
+    {
+      "value": "-webkit-box-align",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-flex",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-orient",
+      "count": 2
+    },
+    {
+      "value": "-webkit-box-shadow",
+      "count": 3
+    },
+    {
+      "value": "-webkit-box-sizing",
+      "count": 6
+    },
+    {
+      "value": "-webkit-font-smoothing",
+      "count": 6
+    },
+    {
+      "value": "-webkit-line-clamp",
+      "count": 3
+    },
+    {
+      "value": "-webkit-text-fill-color",
+      "count": 2
+    },
+    {
+      "value": "-webkit-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transform",
+      "count": 2
+    },
+    {
+      "value": "-webkit-transition",
+      "count": 10
+    },
+    {
+      "value": "-webkit-user-drag",
+      "count": 1
+    },
+    {
+      "value": "align-items",
+      "count": 12
+    },
+    {
+      "value": "align-self",
+      "count": 1
+    },
+    {
+      "value": "background",
+      "count": 144
+    },
+    {
+      "value": "background-clip",
+      "count": 2
+    },
+    {
+      "value": "background-color",
+      "count": 174
+    },
+    {
+      "value": "background-image",
+      "count": 5
+    },
+    {
+      "value": "background-size",
+      "count": 12
+    },
+    {
+      "value": "border",
+      "count": 110
+    },
+    {
+      "value": "border-bottom",
+      "count": 35
+    },
+    {
+      "value": "border-bottom-color",
+      "count": 4
+    },
+    {
+      "value": "border-bottom-left-radius",
+      "count": 6
+    },
+    {
+      "value": "border-bottom-right-radius",
+      "count": 4
+    },
+    {
+      "value": "border-bottom-style",
+      "count": 3
+    },
+    {
+      "value": "border-collapse",
+      "count": 12
+    },
+    {
+      "value": "border-color",
+      "count": 38
+    },
+    {
+      "value": "border-image",
+      "count": 6
+    },
+    {
+      "value": "border-left",
+      "count": 8
+    },
+    {
+      "value": "border-left-color",
+      "count": 3
+    },
+    {
+      "value": "border-left-style",
+      "count": 3
+    },
+    {
+      "value": "border-radius",
+      "count": 91
+    },
+    {
+      "value": "border-right",
+      "count": 12
+    },
+    {
+      "value": "border-right-color",
+      "count": 3
+    },
+    {
+      "value": "border-right-style",
+      "count": 3
+    },
+    {
+      "value": "border-spacing",
+      "count": 12
+    },
+    {
+      "value": "border-style",
+      "count": 3
+    },
+    {
+      "value": "border-top",
+      "count": 26
+    },
+    {
+      "value": "border-top-color",
+      "count": 3
+    },
+    {
+      "value": "border-top-left-radius",
+      "count": 9
+    },
+    {
+      "value": "border-top-right-radius",
+      "count": 8
+    },
+    {
+      "value": "border-top-style",
+      "count": 3
+    },
+    {
+      "value": "border-width",
+      "count": 7
+    },
+    {
+      "value": "bottom",
+      "count": 77
+    },
+    {
+      "value": "box-shadow",
+      "count": 45
+    },
+    {
+      "value": "box-sizing",
+      "count": 25
+    },
+    {
+      "value": "caption-side",
+      "count": 1
+    },
+    {
+      "value": "clear",
+      "count": 30
+    },
+    {
+      "value": "clip",
+      "count": 2
+    },
+    {
+      "value": "color",
+      "count": 272
+    },
+    {
+      "value": "content",
+      "count": 181
+    },
+    {
+      "value": "cursor",
+      "count": 48
+    },
+    {
+      "value": "display",
+      "count": 291
+    },
+    {
+      "value": "fill",
+      "count": 12
+    },
+    {
+      "value": "fill-opacity",
+      "count": 1
+    },
+    {
+      "value": "flex",
+      "count": 5
+    },
+    {
+      "value": "flex-basis",
+      "count": 3
+    },
+    {
+      "value": "flex-direction",
+      "count": 6
+    },
+    {
+      "value": "flex-flow",
+      "count": 3
+    },
+    {
+      "value": "flex-shrink",
+      "count": 1
+    },
+    {
+      "value": "flex-wrap",
+      "count": 4
+    },
+    {
+      "value": "float",
+      "count": 119
+    },
+    {
+      "value": "font",
+      "count": 1
+    },
+    {
+      "value": "font-family",
+      "count": 51
+    },
+    {
+      "value": "font-size",
+      "count": 380
+    },
+    {
+      "value": "font-style",
+      "count": 14
+    },
+    {
+      "value": "font-variant",
+      "count": 2
+    },
+    {
+      "value": "font-weight",
+      "count": 109
+    },
+    {
+      "value": "height",
+      "count": 174
+    },
+    {
+      "value": "justify-content",
+      "count": 9
+    },
+    {
+      "value": "left",
+      "count": 116
+    },
+    {
+      "value": "line-height",
+      "count": 110
+    },
+    {
+      "value": "list-style",
+      "count": 14
+    },
+    {
+      "value": "margin",
+      "count": 142
+    },
+    {
+      "value": "margin-bottom",
+      "count": 113
+    },
+    {
+      "value": "margin-left",
+      "count": 88
+    },
+    {
+      "value": "margin-right",
+      "count": 63
+    },
+    {
+      "value": "margin-top",
+      "count": 99
+    },
+    {
+      "value": "max-height",
+      "count": 28
+    },
+    {
+      "value": "max-width",
+      "count": 53
+    },
+    {
+      "value": "min-height",
+      "count": 18
+    },
+    {
+      "value": "min-width",
+      "count": 26
+    },
+    {
+      "value": "opacity",
+      "count": 54
+    },
+    {
+      "value": "orphans",
+      "count": 1
+    },
+    {
+      "value": "outline",
+      "count": 15
+    },
+    {
+      "value": "outline-offset",
+      "count": 1
+    },
+    {
+      "value": "overflow",
+      "count": 68
+    },
+    {
+      "value": "overflow-wrap",
+      "count": 1
+    },
+    {
+      "value": "overflow-x",
+      "count": 3
+    },
+    {
+      "value": "overflow-y",
+      "count": 7
+    },
+    {
+      "value": "padding",
+      "count": 221
+    },
+    {
+      "value": "padding-bottom",
+      "count": 22
+    },
+    {
+      "value": "padding-left",
+      "count": 51
+    },
+    {
+      "value": "padding-right",
+      "count": 19
+    },
+    {
+      "value": "padding-top",
+      "count": 30
+    },
+    {
+      "value": "page-break-after",
+      "count": 1
+    },
+    {
+      "value": "page-break-inside",
+      "count": 1
+    },
+    {
+      "value": "pointer-events",
+      "count": 3
+    },
+    {
+      "value": "position",
+      "count": 188
+    },
+    {
+      "value": "resize",
+      "count": 1
+    },
+    {
+      "value": "right",
+      "count": 76
+    },
+    {
+      "value": "speak",
+      "count": 2
+    },
+    {
+      "value": "src",
+      "count": 15
+    },
+    {
+      "value": "text-align",
+      "count": 116
+    },
+    {
+      "value": "text-decoration",
+      "count": 34
+    },
+    {
+      "value": "text-indent",
+      "count": 8
+    },
+    {
+      "value": "text-overflow",
+      "count": 5
+    },
+    {
+      "value": "text-shadow",
+      "count": 16
+    },
+    {
+      "value": "text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "text-transform",
+      "count": 43
+    },
+    {
+      "value": "top",
+      "count": 107
+    },
+    {
+      "value": "transform",
+      "count": 46
+    },
+    {
+      "value": "transform-origin",
+      "count": 2
+    },
+    {
+      "value": "transition",
+      "count": 27
+    },
+    {
+      "value": "unicode-range",
+      "count": 7
+    },
+    {
+      "value": "user-select",
+      "count": 2
+    },
+    {
+      "value": "vertical-align",
+      "count": 41
+    },
+    {
+      "value": "visibility",
+      "count": 14
+    },
+    {
+      "value": "white-space",
+      "count": 2
+    },
+    {
+      "value": "widows",
+      "count": 1
+    },
+    {
+      "value": "width",
+      "count": 376
+    },
+    {
+      "value": "will-change",
+      "count": 1
+    },
+    {
+      "value": "word-break",
+      "count": 1
+    },
+    {
+      "value": "z-index",
+      "count": 41
+    }
+  ],
+  "properties.totalUnique": 136,
+  "properties.prefixed.total": 94,
+  "properties.prefixed.unique": [
+    {
+      "value": "-moz-border-radius",
+      "count": 4
+    },
+    {
+      "value": "-moz-box-shadow",
+      "count": 3
+    },
+    {
+      "value": "-moz-box-sizing",
+      "count": 10
+    },
+    {
+      "value": "-moz-osx-font-smoothing",
+      "count": 4
+    },
+    {
+      "value": "-moz-transform",
+      "count": 2
+    },
+    {
+      "value": "-moz-transition",
+      "count": 10
+    },
+    {
+      "value": "-ms-border-radius",
+      "count": 2
+    },
+    {
+      "value": "-ms-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-ms-transition",
+      "count": 9
+    },
+    {
+      "value": "-webkit-appearance",
+      "count": 6
+    },
+    {
+      "value": "-webkit-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-webkit-border-radius",
+      "count": 4
+    },
+    {
+      "value": "-webkit-box-align",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-flex",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-orient",
+      "count": 2
+    },
+    {
+      "value": "-webkit-box-shadow",
+      "count": 3
+    },
+    {
+      "value": "-webkit-box-sizing",
+      "count": 6
+    },
+    {
+      "value": "-webkit-font-smoothing",
+      "count": 6
+    },
+    {
+      "value": "-webkit-line-clamp",
+      "count": 3
+    },
+    {
+      "value": "-webkit-text-fill-color",
+      "count": 2
+    },
+    {
+      "value": "-webkit-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transform",
+      "count": 2
+    },
+    {
+      "value": "-webkit-transition",
+      "count": 10
+    },
+    {
+      "value": "-webkit-user-drag",
+      "count": 1
+    }
+  ],
+  "properties.prefixed.totalUnique": 24,
+  "properties.prefixed.share": 0.017860535816074483,
+  "properties.browserhacks.total": 0,
+  "properties.browserhacks.unique": [],
+  "properties.browserhacks.totalUnique": 0,
+  "values.total": 5263,
+  "values.prefixed.total": 11,
+  "values.prefixed.unique": [
+    {
+      "value": "-moz-linear-gradient(-45deg,#daa520 0,#efd16e 26%,#bc8400 100%)",
+      "count": 1
+    },
+    {
+      "value": "-moz-linear-gradient(left,#bbb 0,#e4e4e4 80%,#fcfcfc 100%)",
+      "count": 1
+    },
+    {
+      "value": "-ms-linear-gradient(left,#bbb 0,#e4e4e4 80%,#fcfcfc 100%)",
+      "count": 1
+    },
+    {
+      "value": "-o-linear-gradient(left,#bbb 0,#e4e4e4 80%,#fcfcfc 100%)",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box",
+      "count": 2
+    },
+    {
+      "value": "-webkit-gradient(linear,left top,right top,color-stop(0,#bbb),color-stop(80%,#e4e4e4),color-stop(100%,#fcfcfc))",
+      "count": 1
+    },
+    {
+      "value": "-webkit-linear-gradient(-45deg,#daa520 0,#efd16e 26%,#bc8400 100%)",
+      "count": 3
+    },
+    {
+      "value": "-webkit-linear-gradient(left,#bbb 0,#e4e4e4 80%,#fcfcfc 100%)",
+      "count": 1
+    }
+  ],
+  "values.prefixed.totalUnique": 8,
+  "values.prefixed.share": 0.0020900627018810565,
+  "values.fontsizes.total": 377,
+  "values.fontsizes.unique": [
+    {
+      "value": "0",
+      "count": 18
+    },
+    {
+      "value": "44px",
+      "count": 2
+    },
+    {
+      "value": "2.75rem",
+      "count": 2
+    },
+    {
+      "value": "40px",
+      "count": 2
+    },
+    {
+      "value": "2.5rem",
+      "count": 2
+    },
+    {
+      "value": "36px",
+      "count": 8
+    },
+    {
+      "value": "2.25rem",
+      "count": 4
+    },
+    {
+      "value": "30px",
+      "count": 10
+    },
+    {
+      "value": "1.875rem",
+      "count": 9
+    },
+    {
+      "value": "1.75em",
+      "count": 3
+    },
+    {
+      "value": "26px",
+      "count": 2
+    },
+    {
+      "value": "1.625rem",
+      "count": 2
+    },
+    {
+      "value": "25px",
+      "count": 1
+    },
+    {
+      "value": "1.5625rem",
+      "count": 1
+    },
+    {
+      "value": "24px",
+      "count": 16
+    },
+    {
+      "value": "1.5rem",
+      "count": 6
+    },
+    {
+      "value": "23px",
+      "count": 1
+    },
+    {
+      "value": "1.4375rem",
+      "count": 1
+    },
+    {
+      "value": "22px",
+      "count": 9
+    },
+    {
+      "value": "1.375rem",
+      "count": 3
+    },
+    {
+      "value": "21px",
+      "count": 2
+    },
+    {
+      "value": "20px",
+      "count": 14
+    },
+    {
+      "value": "1.25rem",
+      "count": 7
+    },
+    {
+      "value": "19px",
+      "count": 2
+    },
+    {
+      "value": "1.1875rem",
+      "count": 1
+    },
+    {
+      "value": "18px",
+      "count": 27
+    },
+    {
+      "value": "1.125rem",
+      "count": 14
+    },
+    {
+      "value": "1em",
+      "count": 3
+    },
+    {
+      "value": "16px",
+      "count": 35
+    },
+    {
+      "value": "1rem",
+      "count": 17
+    },
+    {
+      "value": "100%",
+      "count": 2
+    },
+    {
+      "value": "15px",
+      "count": 27
+    },
+    {
+      "value": ".9375rem",
+      "count": 25
+    },
+    {
+      "value": "14px",
+      "count": 38
+    },
+    {
+      "value": ".875rem",
+      "count": 6
+    },
+    {
+      "value": "13px",
+      "count": 7
+    },
+    {
+      "value": ".8125rem",
+      "count": 5
+    },
+    {
+      "value": "80%",
+      "count": 2
+    },
+    {
+      "value": "75%",
+      "count": 1
+    },
+    {
+      "value": "12px",
+      "count": 17
+    },
+    {
+      "value": ".75rem",
+      "count": 9
+    },
+    {
+      "value": ".7rem",
+      "count": 2
+    },
+    {
+      "value": "11px",
+      "count": 4
+    },
+    {
+      "value": ".6875rem",
+      "count": 1
+    },
+    {
+      "value": "10px",
+      "count": 7
+    }
+  ],
+  "values.fontsizes.totalUnique": 45,
+  "values.fontfamilies.total": 43,
+  "values.fontfamilies.unique": [
+    {
+      "value": "\"Roboto Slab\",georgia,serif",
+      "count": 7
+    },
+    {
+      "value": "'Roboto Slab'",
+      "count": 9
+    },
+    {
+      "value": "BlinkMacSystemFont,-apple-system,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+      "count": 2
+    },
+    {
+      "value": "icomoon",
+      "count": 12
+    },
+    {
+      "value": "monospace,monospace",
+      "count": 1
+    },
+    {
+      "value": "sans-serif",
+      "count": 2
+    },
+    {
+      "value": "TradeGothicLTPro-BdCn20",
+      "count": 1
+    },
+    {
+      "value": "TradeGothicLTPro-BdCn20,\"trebuchet ms\",arial,sans-serif",
+      "count": 9
+    }
+  ],
+  "values.fontfamilies.totalUnique": 8,
+  "values.colors.total": 752,
+  "values.colors.unique": [
+    {
+      "value": "#ff9f9f",
+      "count": 20
+    },
+    {
+      "value": "red",
+      "count": 32
+    },
+    {
+      "value": "#c00",
+      "count": 37
+    },
+    {
+      "value": "#9c0000",
+      "count": 2
+    },
+    {
+      "value": "#900",
+      "count": 5
+    },
+    {
+      "value": "#7e0000",
+      "count": 1
+    },
+    {
+      "value": "#ff6969",
+      "count": 2
+    },
+    {
+      "value": "#d80000",
+      "count": 1
+    },
+    {
+      "value": "#c80000",
+      "count": 1
+    },
+    {
+      "value": "rgba(153,0,0,.9)",
+      "count": 1
+    },
+    {
+      "value": "#e53935",
+      "count": 5
+    },
+    {
+      "value": "#e05545",
+      "count": 1
+    },
+    {
+      "value": "#df4a32",
+      "count": 1
+    },
+    {
+      "value": "#eb8b6e",
+      "count": 1
+    },
+    {
+      "value": "#ff7f41",
+      "count": 2
+    },
+    {
+      "value": "#f4a941",
+      "count": 5
+    },
+    {
+      "value": "#f90",
+      "count": 1
+    },
+    {
+      "value": "orange",
+      "count": 9
+    },
+    {
+      "value": "#bc8400",
+      "count": 5
+    },
+    {
+      "value": "#daa520",
+      "count": 8
+    },
+    {
+      "value": "#f8b700",
+      "count": 1
+    },
+    {
+      "value": "#ffbf00",
+      "count": 1
+    },
+    {
+      "value": "#fc3",
+      "count": 13
+    },
+    {
+      "value": "#f8cd41",
+      "count": 2
+    },
+    {
+      "value": "#efd16e",
+      "count": 5
+    },
+    {
+      "value": "#fedc55",
+      "count": 1
+    },
+    {
+      "value": "#fccb00",
+      "count": 1
+    },
+    {
+      "value": "#ff0",
+      "count": 1
+    },
+    {
+      "value": "#f5ffaa",
+      "count": 1
+    },
+    {
+      "value": "#238107",
+      "count": 2
+    },
+    {
+      "value": "#5cbe4a",
+      "count": 1
+    },
+    {
+      "value": "#32cd32",
+      "count": 8
+    },
+    {
+      "value": "green",
+      "count": 10
+    },
+    {
+      "value": "#5aeb87",
+      "count": 4
+    },
+    {
+      "value": "#1aeb87",
+      "count": 2
+    },
+    {
+      "value": "#42b983",
+      "count": 8
+    },
+    {
+      "value": "#00b39d",
+      "count": 1
+    },
+    {
+      "value": "#40e0d0",
+      "count": 1
+    },
+    {
+      "value": "#edf9fd",
+      "count": 4
+    },
+    {
+      "value": "#0090d0",
+      "count": 4
+    },
+    {
+      "value": "rgba(11,42,57,.15)",
+      "count": 1
+    },
+    {
+      "value": "#0096ff",
+      "count": 3
+    },
+    {
+      "value": "rgb(0,150,255)",
+      "count": 2
+    },
+    {
+      "value": "#69abdb",
+      "count": 2
+    },
+    {
+      "value": "rgb(64,146,206)",
+      "count": 6
+    },
+    {
+      "value": "#4092ce",
+      "count": 15
+    },
+    {
+      "value": "#55acee",
+      "count": 1
+    },
+    {
+      "value": "#337ab7",
+      "count": 2
+    },
+    {
+      "value": "#b8cee1",
+      "count": 1
+    },
+    {
+      "value": "#1f8ceb",
+      "count": 19
+    },
+    {
+      "value": "#1b79cb",
+      "count": 1
+    },
+    {
+      "value": "#23527c",
+      "count": 1
+    },
+    {
+      "value": "#e9ecef",
+      "count": 4
+    },
+    {
+      "value": "#adb5bd",
+      "count": 1
+    },
+    {
+      "value": "#4c637c",
+      "count": 2
+    },
+    {
+      "value": "#223954",
+      "count": 5
+    },
+    {
+      "value": "#b3d4fc",
+      "count": 2
+    },
+    {
+      "value": "#0045a5",
+      "count": 3
+    },
+    {
+      "value": "rgba(1,23,54,.8)",
+      "count": 1
+    },
+    {
+      "value": "#7f8795",
+      "count": 4
+    },
+    {
+      "value": "#3b5998",
+      "count": 1
+    },
+    {
+      "value": "#a1a2a5",
+      "count": 4
+    },
+    {
+      "value": "#353d62",
+      "count": 10
+    },
+    {
+      "value": "rgb(53,61,98)",
+      "count": 1
+    },
+    {
+      "value": "#19224f",
+      "count": 1
+    },
+    {
+      "value": "#e3e4eb",
+      "count": 10
+    },
+    {
+      "value": "#f1f1f2",
+      "count": 1
+    },
+    {
+      "value": "#edebf1",
+      "count": 1
+    },
+    {
+      "value": "#6d3daf",
+      "count": 2
+    },
+    {
+      "value": "#fff",
+      "count": 140
+    },
+    {
+      "value": "rgb(255,255,255)",
+      "count": 1
+    },
+    {
+      "value": "rgba(255,255,255,.145)",
+      "count": 1
+    },
+    {
+      "value": "#fcfcfc",
+      "count": 7
+    },
+    {
+      "value": "#f8f8f8",
+      "count": 1
+    },
+    {
+      "value": "#f5f5f5",
+      "count": 4
+    },
+    {
+      "value": "#f0f0f0",
+      "count": 3
+    },
+    {
+      "value": "#ebebeb",
+      "count": 2
+    },
+    {
+      "value": "#e7e7e7",
+      "count": 8
+    },
+    {
+      "value": "#e6e6e6",
+      "count": 2
+    },
+    {
+      "value": "#e5e5e5",
+      "count": 4
+    },
+    {
+      "value": "#e4e4e4",
+      "count": 8
+    },
+    {
+      "value": "#dfdfdf",
+      "count": 9
+    },
+    {
+      "value": "#dedede",
+      "count": 3
+    },
+    {
+      "value": "#ddd",
+      "count": 8
+    },
+    {
+      "value": "#dcdcdc",
+      "count": 10
+    },
+    {
+      "value": "#dadada",
+      "count": 1
+    },
+    {
+      "value": "#d8d8d8",
+      "count": 6
+    },
+    {
+      "value": "#d1d1d1",
+      "count": 1
+    },
+    {
+      "value": "#ccc",
+      "count": 13
+    },
+    {
+      "value": "#c8c8c8",
+      "count": 1
+    },
+    {
+      "value": "#c6c6c6",
+      "count": 2
+    },
+    {
+      "value": "silver",
+      "count": 1
+    },
+    {
+      "value": "#bbb",
+      "count": 7
+    },
+    {
+      "value": "#a9a9a9",
+      "count": 2
+    },
+    {
+      "value": "#a0a0a0",
+      "count": 10
+    },
+    {
+      "value": "#999",
+      "count": 1
+    },
+    {
+      "value": "#838383",
+      "count": 4
+    },
+    {
+      "value": "gray",
+      "count": 1
+    },
+    {
+      "value": "grey",
+      "count": 1
+    },
+    {
+      "value": "#666",
+      "count": 6
+    },
+    {
+      "value": "#555",
+      "count": 9
+    },
+    {
+      "value": "rgb(85,85,85)",
+      "count": 1
+    },
+    {
+      "value": "#4a4a4a",
+      "count": 2
+    },
+    {
+      "value": "#353535",
+      "count": 1
+    },
+    {
+      "value": "#343434",
+      "count": 1
+    },
+    {
+      "value": "#333",
+      "count": 12
+    },
+    {
+      "value": "rgb(51,51,51)",
+      "count": 1
+    },
+    {
+      "value": "#303030",
+      "count": 1
+    },
+    {
+      "value": "rgba(48,48,48,.6)",
+      "count": 2
+    },
+    {
+      "value": "#222",
+      "count": 5
+    },
+    {
+      "value": "rgba(34,34,34,.7)",
+      "count": 1
+    },
+    {
+      "value": "#1b1b1b",
+      "count": 2
+    },
+    {
+      "value": "#000",
+      "count": 81
+    },
+    {
+      "value": "rgb(0,0,0)",
+      "count": 3
+    },
+    {
+      "value": "rgba(0,0,0,.9)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.8)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.7)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.6)",
+      "count": 3
+    },
+    {
+      "value": "rgba(0,0,0,.5)",
+      "count": 3
+    },
+    {
+      "value": "rgba(0,0,0,.4)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.3)",
+      "count": 4
+    },
+    {
+      "value": "rgba(0,0,0,.2)",
+      "count": 5
+    },
+    {
+      "value": "rgba(0,0,0,.176)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.15)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.13)",
+      "count": 4
+    },
+    {
+      "value": "rgba(0,0,0,.125)",
+      "count": 11
+    },
+    {
+      "value": "rgba(0,0,0,.1)",
+      "count": 8
+    }
+  ],
+  "values.colors.totalUnique": 127,
+  "values.colors.duplicates.unique": [
+    {
+      "notations": [
+        {
+          "value": "#0096ff",
+          "count": 3
+        },
+        {
+          "value": "rgb(0,150,255)",
+          "count": 2
+        }
+      ],
+      "count": 5,
+      "value": "#0096ff"
+    },
+    {
+      "notations": [
+        {
+          "value": "rgb(64,146,206)",
+          "count": 6
+        },
+        {
+          "value": "#4092ce",
+          "count": 15
+        }
+      ],
+      "count": 21,
+      "value": "#4092ce"
+    },
+    {
+      "notations": [
+        {
+          "value": "#353d62",
+          "count": 10
+        },
+        {
+          "value": "rgb(53,61,98)",
+          "count": 1
+        }
+      ],
+      "count": 11,
+      "value": "#353d62"
+    },
+    {
+      "notations": [
+        {
+          "value": "#fff",
+          "count": 140
+        },
+        {
+          "value": "rgb(255,255,255)",
+          "count": 1
+        }
+      ],
+      "count": 141,
+      "value": "#fff"
+    },
+    {
+      "notations": [
+        {
+          "value": "gray",
+          "count": 1
+        },
+        {
+          "value": "grey",
+          "count": 1
+        }
+      ],
+      "count": 2,
+      "value": "gray"
+    },
+    {
+      "notations": [
+        {
+          "value": "#555",
+          "count": 9
+        },
+        {
+          "value": "rgb(85,85,85)",
+          "count": 1
+        }
+      ],
+      "count": 10,
+      "value": "#555"
+    },
+    {
+      "notations": [
+        {
+          "value": "#333",
+          "count": 12
+        },
+        {
+          "value": "rgb(51,51,51)",
+          "count": 1
+        }
+      ],
+      "count": 13,
+      "value": "#333"
+    },
+    {
+      "notations": [
+        {
+          "value": "#000",
+          "count": 81
+        },
+        {
+          "value": "rgb(0,0,0)",
+          "count": 3
+        }
+      ],
+      "count": 84,
+      "value": "#000"
+    }
+  ],
+  "values.colors.duplicates.totalUnique": 8,
+  "values.colors.duplicates.total": 8,
+  "values.browserhacks.total": 0,
+  "values.browserhacks.unique": [],
+  "values.browserhacks.totalUnique": 0,
+  "values.boxshadows.total": 28,
+  "values.boxshadows.unique": [
+    {
+      "value": "#000 0 2px 7px -1px",
+      "count": 8
+    },
+    {
+      "value": "#0045a5 0 0 2px 3px",
+      "count": 1
+    },
+    {
+      "value": "#edf9fd 0 0 10px 7px",
+      "count": 1
+    },
+    {
+      "value": "#fff 0 0 10px 7px",
+      "count": 1
+    },
+    {
+      "value": "0 -10px 10px 0 rgba(0,0,0,.2)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.1) 0 3px 10px",
+      "count": 8
+    },
+    {
+      "value": "rgba(0,0,0,.3) 0 .5px 1.5px",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.3) 0 6px 36px",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.4) 0 1px 4px",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.5) 0 3px 9px",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.5) 0 5px 15px",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.176) 0 6px 12px",
+      "count": 1
+    },
+    {
+      "value": "rgba(11,42,57,.15) 0 1.5px 5px",
+      "count": 1
+    }
+  ],
+  "values.boxshadows.totalUnique": 13,
+  "values.textshadows.total": 10,
+  "values.textshadows.unique": [
+    {
+      "value": "#fff 0 1px 0",
+      "count": 10
+    }
+  ],
+  "values.textshadows.totalUnique": 1,
+  "values.zindexes.total": 39,
+  "values.zindexes.unique": [
+    {
+      "value": 0,
+      "count": 1
+    },
+    {
+      "value": 1,
+      "count": 4
+    },
+    {
+      "value": 2,
+      "count": 2
+    },
+    {
+      "value": 3,
+      "count": 1
+    },
+    {
+      "value": 5,
+      "count": 4
+    },
+    {
+      "value": 10,
+      "count": 2
+    },
+    {
+      "value": 99,
+      "count": 1
+    },
+    {
+      "value": 999,
+      "count": 1
+    },
+    {
+      "value": 1000,
+      "count": 1
+    },
+    {
+      "value": 1050,
+      "count": 1
+    },
+    {
+      "value": 9999990,
+      "count": 4
+    },
+    {
+      "value": 9999992,
+      "count": 1
+    },
+    {
+      "value": 9999993,
+      "count": 4
+    },
+    {
+      "value": 9999994,
+      "count": 2
+    },
+    {
+      "value": 9999995,
+      "count": 6
+    },
+    {
+      "value": 9999996,
+      "count": 1
+    },
+    {
+      "value": 9999999,
+      "count": 2
+    },
+    {
+      "value": 16777271,
+      "count": 1
+    }
+  ],
+  "values.zindexes.totalUnique": 18,
+  "values.animations.durations.total": 36,
+  "values.animations.durations.unique": [
+    {
+      "value": ".1s",
+      "count": 2
+    },
+    {
+      "value": ".15s",
+      "count": 1
+    },
+    {
+      "value": ".2s",
+      "count": 16
+    },
+    {
+      "value": ".24s",
+      "count": 1
+    },
+    {
+      "value": ".25s",
+      "count": 2
+    },
+    {
+      "value": ".3s",
+      "count": 9
+    },
+    {
+      "value": ".4s",
+      "count": 1
+    },
+    {
+      "value": ".5s",
+      "count": 3
+    },
+    {
+      "value": ".8s",
+      "count": 1
+    }
+  ],
+  "values.animations.durations.totalUnique": 9,
+  "values.animations.timingFunctions.total": 36,
+  "values.animations.timingFunctions.unique": [
+    {
+      "value": "ease",
+      "count": 12
+    },
+    {
+      "value": "ease-in",
+      "count": 5
+    },
+    {
+      "value": "ease-in-out",
+      "count": 3
+    },
+    {
+      "value": "ease-out",
+      "count": 1
+    },
+    {
+      "value": "linear",
+      "count": 15
+    }
+  ],
+  "values.animations.timingFunctions.totalUnique": 5
+}

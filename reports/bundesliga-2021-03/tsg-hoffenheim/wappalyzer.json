@@ -1,0 +1,58 @@
+{
+  "urls": {
+    "https://www.tsg-hoffenheim.de/": {
+      "status": 0,
+      "error": "The website took too long to respond"
+    }
+  },
+  "technologies": [
+    {
+      "slug": "varnish",
+      "name": "Varnish",
+      "confidence": 100,
+      "version": null,
+      "icon": "Varnish.svg",
+      "website": "http://www.varnish-cache.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 23,
+          "slug": "caching",
+          "name": "Caching"
+        }
+      ]
+    },
+    {
+      "slug": "apache",
+      "name": "Apache",
+      "confidence": 100,
+      "version": null,
+      "icon": "Apache.svg",
+      "website": "http://apache.org",
+      "cpe": "cpe:/a:apache:http_server",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ]
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "confidence": 100,
+      "version": "3.3.2",
+      "icon": "Bootstrap.svg",
+      "website": "https://getbootstrap.com",
+      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "categories": [
+        {
+          "id": 66,
+          "slug": "ui-frameworks",
+          "name": "UI frameworks"
+        }
+      ]
+    }
+  ]
+}

@@ -5,25 +5,26 @@ description: In this report, we are going to focus on the size of CSS. The aim o
 image: /gfx/the-css-file-size-and-count-report-for-premier-league-sites.jpg
 object: sites2
 date: 2021-02-17
-author: Silvestar
-reports:
-  - title: >-
+authors:
+  - Silvestar
+blocks:
+  - title: |
       The CSS File Size and Count Report for Premier League sites
     details: true
   - list:
-      - description: >-
+      - description: |
           In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 
           Sites audited in this report:
       - var:
           item: $htmlSites
           type: extractor
-      - description: >-
+      - description: |
           Note that we included all sites of the Premier League plus the Premier League official site.
-  - title: >-
+  - title: |
       The Tooling
     list:
-      - description: >-
+      - description: |
           To generate this report, we used the following tools:
 
           - [wappalyzer](https://github.com/aliasio/wappalyzer)
@@ -38,18 +39,18 @@ reports:
 
           - Inline CSS refers to CSS code that comes from the inline `style` attributes.
 
-          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it still close enough to get the “big picture” about CSS sizes.
+          Since we stumbled upon some errors while extracting the CSS code from these sites, like repetitive CSS files or `<style>` tags, we removed it from the report. The data collected might slightly differ from the actual data, but it is still close enough to get the “big picture” about CSS sizes.
 
           To make the text more readable, the terms “site” and “homepage” refer to the same thing: the site’s homepage.
 
           ⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.
-  - title: >-
+  - title: |
       The CSS File Sizes
     list:
       - var:
           item: $htmlReportSizes
           type: extractor
-      - description: >-
+      - description: |
           ### The Findings
 
           An average homepage of the Premier League site loads ~737KB of CSS code. Around ~83.61% of the CSS code comes from external CSS files, around ~16,04% comes from the `<style>` tags, and only ~0.34% comes from the inline `style` attributes. It is not surprising that most of the CSS code comes from the external CSS files since that is the most recommended way to do it. With the recent Google updates about Web Vitals, like Cumulative Layout Shifts and Largest Contentful Paint, and the awareness of the importance of the “above the fold” code, it is also not surprising to see the percentage of the Style Tag CSS. The least popular, as it should be, is the Inline CSS code.
@@ -62,30 +63,30 @@ reports:
       - chart:
           item: ReportSizeCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
-      - description: >-
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.
+      - description: |
           Burnley’s and Chelsea’s sites do not load any external CSS file. The Premier League’s site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
           Everton’s, Leicester’s, and Newcastle’s sites don’t use the `<style>` tag. Chelsea’s site loads more than 900KB, and three other sites load more than 200KB.
 
           Regarding the inline `style` attribute, all sites load less than 8KB of CSS code. Six sites load less than 1KB, and the lowest CSS code that comes from the inline `style` attribute is loaded on Everton’s site. Three sites load more than 6KB, where Aston Villa’s site loads the most, more than 7KB.
-      - description: >-
+      - description: |
           #### Wappalyzer
 
           According to Wappalyzer, a tool for identifying technologies on websites, only three sites use UI frameworks: Leeds’s and West Ham’s sites use Bootstrap and WBA’s site uses the ZURB Foundation framework.
       - var:
           item: $htmlWappalyzer
           type: wappalyzer
-      - description: >-
+      - description: |
           Let us compare the average size of the Premier League site to UI frameworks sizes. The full version of Materialize CSS is around ~142KB, Bootstrap is around ~160KB, Foundation is around 168KB, and Tachyons is around ~205KB. Premier League sites load CSS code that is more than five times bigger than the entire Materialize CSS, more than 4.5 times bigger than Bootstrap, almost 4.5 times bigger than Foundation, and more than 3.5 times bigger than Tachyons.
-  - title: >-
+  - title: |
       The CSS File Counts
     object: sizes
     list:
       - var:
           item: $htmlReportCount
           type: extractor
-      - description: >-
+      - description: |
           ### The Findings
 
           The Premier League site’s average homepage loads 4 External CSS files, 19 `<style>` tags, and 23 `style` attributes.
@@ -98,17 +99,17 @@ reports:
       - chart:
           item: ReportCountCombined
           type: extractor
-          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metric by clicking on a label below graph.
-      - description: >-
+          info: This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph.
+      - description: |
           The only site that does not load any External CSS file is Burnley’s site. Six sites load only a single External CSS file, including Brighton’s, Chelsea’s, Everton’s, Manchester’s, Newcastle’s, and Tottenham’s site. On the other hand, West Ham’s site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa’s and Liverpool’s sites.
 
           All sites use at least one `<style>` tag. Sheffield’s and Aston Villa’s sites use more than 90 `<style>` tags, while Arsenal’s, Leicester’s, and Newcastle’s sites load only one `<style>` tag.
 
           All sites use inline `style` attribute. Everton’s and Leicester’s sites use only a couple of `style` attributes, while Aston Villa’s, Fulham’s, and Sheffield’s sites use more than 50 `style` attributes.
-  - title: >-
+  - title: |
       Top and Bottom Sites
     list:
-      - description: >-
+      - description: |
           Top three Premier League sites in terms of CSS file size are:
 
           - Burnley,
@@ -124,32 +125,38 @@ reports:
           - Southampton, and
 
           - Manchester United.
-  - title: >-
+  - title: |
       The Conclusion
     list:
-      - description: >-
+      - description: |
           An average homepage of the Premier League site is bloated with CSS. If we think of the best practices in the web industry, we cannot see many sites use the best practices. Only a few sites might be rated as optimal or performant in terms of CSS code. The architecture and the structure of these sites might not be straightforward, but that does not mean that CSS should be ignored, or worse, disrespected.
 
           It is interesting to see different approaches to loading the CSS, where some sites use only Style Tag CSS or External CSS, while others use many `<style>` tags and external CSS files. Although the loading technique might depend on the technology used to build these sites, CSS should not be abused or neglected.
 
           Combining all CSS files in a single one, moving code from `<style>` tags and `style` attributes might seem daunting tasks, but it could be done. All it is takes is some respect and love for CSS.
 
-          #RespectCSS
-  - title: >-
+          [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
+  - title: |
+      Related resources
+    list:
+      - description: |
+          - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
+          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
+  - title: |
       About the Author
     author: true
-  - title: >-
+  - title: |
       Share on Social Networks
     social: true
-  - title: >-
+  - title: |
       Subscribe
     subscribe: true
     list:
-      - description: >-
+      - description: |
           We are working hard to publish new reports and blog posts as soon as possible.
 
           If you would like to get recent reports in your inbox, subscribe here!
-  - title: >-
+  - title: |
       Single Reports
     list:
       - var:

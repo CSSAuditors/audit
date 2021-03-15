@@ -1,0 +1,137 @@
+{
+  "urls": {
+    "https://www.vfb.de/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "mediaelement-js",
+      "name": "MediaElement.js",
+      "confidence": 100,
+      "version": "2.23.2",
+      "icon": "MediaElement.js.png",
+      "website": "http://www.mediaelementjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 14,
+          "slug": "video-players",
+          "name": "Video players"
+        }
+      ]
+    },
+    {
+      "slug": "apache",
+      "name": "Apache",
+      "confidence": 100,
+      "version": null,
+      "icon": "Apache.svg",
+      "website": "http://apache.org",
+      "cpe": "cpe:/a:apache:http_server",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ]
+    },
+    {
+      "slug": "onetrust",
+      "name": "OneTrust",
+      "confidence": 100,
+      "version": null,
+      "icon": "OneTrust.png",
+      "website": "http://www.onetrust.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 67,
+          "slug": "cookie-compliance",
+          "name": "Cookie compliance"
+        }
+      ]
+    },
+    {
+      "slug": "recaptcha",
+      "name": "reCAPTCHA",
+      "confidence": 100,
+      "version": null,
+      "icon": "reCAPTCHA.svg",
+      "website": "https://www.google.com/recaptcha/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 16,
+          "slug": "security",
+          "name": "Security"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "2.1.4",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "swiper-slider",
+      "name": "Swiper Slider",
+      "confidence": 100,
+      "version": null,
+      "icon": "swiper.svg",
+      "website": "https://swiperjs.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "sweetalert2",
+      "name": "SweetAlert2",
+      "confidence": 100,
+      "version": null,
+      "icon": "SweetAlert2.png",
+      "website": "https://sweetalert2.github.io/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    }
+  ]
+}

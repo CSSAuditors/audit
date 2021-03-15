@@ -63,7 +63,8 @@ h4,
 h5,
 h6 {
   color: var(--color-alpha);
-  font-weight: 500; }
+  font-weight: 500;
+  line-height: 1.4; }
 
 h1,
 h2,
@@ -339,6 +340,13 @@ Style guide: Section
     margin-right: .05em;
     border: 1px dashed var(--color-alpha3); }
 
+.section__piece + .section__piece:before {
+  content: "";
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-top: 1px dashed var(--color-beta3); }
+
 /*
 Form
 
@@ -383,6 +391,7 @@ form {
 .button {
   background-color: var(--color-beta4);
   color: var(--color-gamma);
+  text-align: center;
   border: 1px solid var(--color-beta4);
   padding: 1rem 2rem;
   cursor: pointer; }
@@ -396,6 +405,17 @@ form {
     outline-color: var(--color-beta);
     outline-offset: .1rem;
     outline-width: .1rem; }
+
+.button--alpha {
+  min-width: 15rem; }
+  .button--alpha span {
+    display: block; }
+    .button--alpha span:first-child {
+      font-size: .9rem; }
+    .button--alpha span:last-child {
+      border-top: 1px dashed var(--color-gamma);
+      padding-top: 0.5rem;
+      margin-top: 0.5rem; }
 
 table {
   border-collapse: collapse;

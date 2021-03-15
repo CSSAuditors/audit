@@ -1,0 +1,34 @@
+{
+  "urls": {
+    "https://www.bayer04.de/en-us/": {
+      "status": 0,
+      "error": "The website took too long to respond"
+    },
+    "https://www.bayer04.de/en-us": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "nginx",
+      "name": "Nginx",
+      "confidence": 100,
+      "version": null,
+      "icon": "Nginx.svg",
+      "website": "http://nginx.org/en",
+      "cpe": "cpe:/a:nginx:nginx",
+      "categories": [
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        },
+        {
+          "id": 64,
+          "slug": "reverse-proxies",
+          "name": "Reverse proxies"
+        }
+      ]
+    }
+  ]
+}

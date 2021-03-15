@@ -1,0 +1,206 @@
+{
+  "urls": {
+    "https://www.dierotenbullen.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "sap-customer-data-cloud-sign-in",
+      "name": "SAP Customer Data Cloud Sign-in",
+      "confidence": 100,
+      "version": null,
+      "icon": "SAP.svg",
+      "website": "https://www.sap.com/uk/acquired-brands/what-is-gigya.html",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 69,
+          "slug": "social-logins",
+          "name": "Social logins"
+        }
+      ]
+    },
+    {
+      "slug": "youtube",
+      "name": "YouTube",
+      "confidence": 100,
+      "version": null,
+      "icon": "YouTube.png",
+      "website": "http://www.youtube.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 14,
+          "slug": "video-players",
+          "name": "Video players"
+        }
+      ]
+    },
+    {
+      "slug": "gsap",
+      "name": "GSAP",
+      "confidence": 100,
+      "version": null,
+      "icon": "TweenMax.png",
+      "website": "https://greensock.com/gsap",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "onetrust",
+      "name": "OneTrust",
+      "confidence": 100,
+      "version": null,
+      "icon": "OneTrust.png",
+      "website": "http://www.onetrust.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 67,
+          "slug": "cookie-compliance",
+          "name": "Cookie compliance"
+        }
+      ]
+    },
+    {
+      "slug": "google-font-api",
+      "name": "Google Font API",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Font API.png",
+      "website": "http://google.com/fonts",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 17,
+          "slug": "font-scripts",
+          "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.4.1",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "modernizr",
+      "name": "Modernizr",
+      "confidence": 100,
+      "version": "3.7.1",
+      "icon": "Modernizr.svg",
+      "website": "https://modernizr.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "hammer-js",
+      "name": "Hammer.js",
+      "confidence": 100,
+      "version": "2.0.7",
+      "icon": "Hammer.js.png",
+      "website": "https://hammerjs.github.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "babel",
+      "name": "Babel",
+      "confidence": 100,
+      "version": null,
+      "icon": "Babel.svg",
+      "website": "https://babeljs.io",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "google-workspace",
+      "name": "Google Workspace",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Workspace.svg",
+      "website": "https://workspace.google.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 30,
+          "slug": "webmail",
+          "name": "Webmail"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    }
+  ]
+}
