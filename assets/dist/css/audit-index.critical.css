@@ -48,6 +48,7 @@ h1,
 h2 {
   color: var(--color-alpha);
   font-weight: 500;
+  line-height: 1.4;
 }
 
 h1,
@@ -79,13 +80,6 @@ h2 {
 
 p {
   font-size: 1rem;
-}
-
-hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border: 0;
-  border-top: 1px dashed var(--color-alpha3);
 }
 
 .skip {
@@ -184,6 +178,12 @@ hr {
   max-width: 120px;
 }
 
+.section__column a:not(.button):not(.plain) {
+  color: var(--color-alpha4);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-alpha3);
+}
+
 @media screen and (max-width: 750px) {
   .section__column:first-child {
     margin-bottom: 2rem;
@@ -215,15 +215,9 @@ hr {
 .button {
   background-color: var(--color-beta4);
   color: var(--color-gamma);
+  text-align: center;
   border: 1px solid var(--color-beta4);
   padding: 1rem 2rem;
-}
-
-.button[href]:not(.skip) {
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 2rem;
-  line-height: 1.15;
 }
 
 .grid {
