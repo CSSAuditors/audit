@@ -116,7 +116,7 @@ blocks:
 
           That is the final goal of CSS Auditors; we want to make every developer respect CSS.
 
-          #RespectCSS
+          [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
   - title: |
       Related resources
     list:

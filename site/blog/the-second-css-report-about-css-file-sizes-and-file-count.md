@@ -67,29 +67,37 @@ blocks:
 
           Everything below slow 3G takes more than 3 seconds. [Backlinko's analysis](https://backlinko.com/page-speed-stats#load-time-and-compression-level) shows that not all compression is good, and it may not achieve optimal and desired results. Although that analysis is out of the scope of this article, it is worth noting that _“pages that compress 60%-80% of their files perform the worst”_.
 
-          Making users wait because of CSS shouldn't be an option. Users leave sites [for various reasons](https://www.resourcetechniques.co.uk/news/seo/10-reasons-why-users-leave-your-website-in-10-seconds-101189). The number one reason is slow loading.
+          Making users wait because of CSS shouldn't be an option. Users leave sites [for various reasons](https://www.resourcetechniques.co.uk/news/seo/10-reasons-why-users-leave-your-website-in-10-seconds-101189). The number one reason is slow loading. To limit the size of your CSS code, you could set the performance budget for your project. It could help developers write less CSS code that is reusable and maintainable.
+
+          The performance budget configuration is out of scope for this article, but you could learn more at the following links:
+
+          - [Setting a performance budget](https://timkadlec.com/2013/01/setting-a-performance-budget/)
+          - [Performance Budget Metrics](https://timkadlec.com/2014/11/performance-budget-metrics/)
+          - [Your first performance budget with Lighthouse](https://bitsofco.de/your-first-performance-budget-with-lighthouse/)
   - title: |
       Data Usage and Cost
     list:
       - description: |
-          We thought it would be fun to use the collected data to discover how much the CSS code would cost in various countries.
+          We thought it would be interesting to use the collected data to discover how much the CSS code would cost in various countries.
 
           For reference, we are going to use data from [Cable.co.uk site](https://www.cable.co.uk/mobiles/worldwide-data-pricing/).
 
           Let’s focus on distinct regions of the world. Northern America has the most expensive data plans, with almost $15 per GB. Oceania, the Caribbean, Sub-Sarahan Africa, and South America follow with more than $5 per GB. Northern Africa, CIS (former USSR), and Asia (ex. near east) are the cheapest regions.
 
-          Now let’s assume that we want to visit every Bundesliga site, including the site of Bundesliga itself. That is around ~12MB of uncopressed CSS code. For users in Nothern America, that will cost around 15 cents. For users in Nothern Africa, that will cost about 3 cents.
+          Now let’s assume that we want to visit every Bundesliga site, including the site of Bundesliga itself. The sum of uncompressed CSS code for these sites is around ~12MB.
 
-          Although these costs seem trivial, let’s use a different context here. 12MB is 1.17% of the 1GB, which means that you users will spend 1% of their data plan to download CSS alone for these sites. We don’t think that is trivial.
+          For users in Nothern America, that will cost around 15 cents. For users in Nothern Africa, that will cost about 3 cents.
+
+          Although these costs seem trivial, let’s use a different context here. 12MB is 1.17% of the 1GB, which means that you users will spend ~1% of their data plans to download CSS alone for these sites. We don’t think that is trivial.
 
           If you are interested in how much a site costs you in some countries, you can check it out at  [whatdoesmysitecost.com](https://whatdoesmysitecost.com/).
   - title: |
       The Conclusion
     list:
       - description: |
-          When thinking in kilobytes, it is easy to forget about costs and loading time. But every kilobytes counts. We should thrive to shave every single byte wherever possible. Since we are enthusiastic about CSS, we would be happy to see more developers take more care about CSS code itself.
+          When thinking about kilobytes, it is easy to forget about costs and loading time. But every kilobyte counts. We should aspire to strip every single byte wherever possible. We are enthusiastic about CSS, and we would be happy to see more developers take more care about CSS code itself.
 
-          #RespectCSS
+          [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
   - title: |
       Related resources
     list:
