@@ -135,8 +135,8 @@ blocks:
       Related resources
     list:
       - description: |
-          - [On CSS sizes and performance budget](/blog/the-second-css-report-about-css-file-sizes-and-file-count/)
-          - [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
+          - Article: [On CSS sizes and performance budget](/blog/the-second-css-report-about-css-file-sizes-and-file-count/)
+          - Report: [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
   - title: |
       About the Author
     author: true

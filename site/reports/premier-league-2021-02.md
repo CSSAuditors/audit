@@ -140,8 +140,8 @@ blocks:
       Related resources
     list:
       - description: |
-          - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
-          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
+          - Article: [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
+          - Report: [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
   - title: |
       About the Author
     author: true

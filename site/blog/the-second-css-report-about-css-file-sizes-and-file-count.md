@@ -102,9 +102,9 @@ blocks:
       Related resources
     list:
       - description: |
-          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
-          - [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
-          - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
+          - Report: [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
+          - Report: [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
+          - Article: [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
   - title: |
       About the Authors
     author: true
