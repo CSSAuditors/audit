@@ -2,7 +2,7 @@
 layout: post
 title: On CSS sizes and performance budget
 description: Read all about CSS sizes, performance budget, data usage and costs in Bundesliga sites.
-image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
+image: /gfx/on-css-sizes-and-performance-budget.jpg
 date: 2021-03-14
 authors:
   - Ivan
