@@ -6,7 +6,7 @@ blocks:
   - title: |
       On CSS sizes and performance budget
     description: |
-      Read all about CSS sizes, performance budget, data usage and costs.
+      Read all about CSS sizes, performance budget, data usage and costs in Bundesliga sites.
     cta:
       - title: Read the article →
         href: /blog/the-second-css-report-about-css-file-sizes-and-file-count/

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: On CSS sizes and performance budget
-description:
+description: Read all about CSS sizes, performance budget, data usage and costs in Bundesliga sites.
 image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
 date: 2021-03-14
 authors:
   - Ivan
   - Silvestar
-reports:
+blocks:
   - title: |
       On CSS sizes and performance budget
     details: true
@@ -84,12 +84,19 @@ reports:
 
           If you are interested in how much a site costs you in some countries, you can check it out at  [whatdoesmysitecost.com](https://whatdoesmysitecost.com/).
   - title: |
-      Final Thoughts
+      The Conclusion
     list:
       - description: |
           When thinking in kilobytes, it is easy to forget about costs and loading time. But every kilobytes counts. We should thrive to shave every single byte wherever possible. Since we are enthusiastic about CSS, we would be happy to see more developers take more care about CSS code itself.
 
           #RespectCSS
+  - title: |
+      Related resources
+    list:
+      - description: |
+          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
+          - [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
+          - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
   - title: |
       About the Authors
     author: true

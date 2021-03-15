@@ -6,7 +6,7 @@ image: /gfx/the-very-first-css-report-about-css-file-sizes-and-file-count.jpg
 date: 2021-02-18
 authors:
   - Silvestar
-reports:
+blocks:
   - title: |
       The Very First CSS Report About CSS File Sizes and File Count
     details: true
@@ -117,6 +117,13 @@ reports:
           That is the final goal of CSS Auditors; we want to make every developer respect CSS.
 
           #RespectCSS
+  - title: |
+      Related resources
+    list:
+      - description: |
+          - [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)
+          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
+          - [On CSS sizes and performance budget](/blog/the-second-css-report-about-css-file-sizes-and-file-count/)
   - title: |
       About the Author
     author: true

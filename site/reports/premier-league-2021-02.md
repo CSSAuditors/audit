@@ -7,7 +7,7 @@ object: sites2
 date: 2021-02-17
 authors:
   - Silvestar
-reports:
+blocks:
   - title: |
       The CSS File Size and Count Report for Premier League sites
     details: true
@@ -136,6 +136,12 @@ reports:
           Combining all CSS files in a single one, moving code from `<style>` tags and `style` attributes might seem daunting tasks, but it could be done. All it is takes is some respect and love for CSS.
 
           [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
+  - title: |
+      Related resources
+    list:
+      - description: |
+          - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
+          - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
   - title: |
       About the Author
     author: true
