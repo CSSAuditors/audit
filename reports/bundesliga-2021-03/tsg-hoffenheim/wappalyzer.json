@@ -1,11 +1,58 @@
 {
   "urls": {
     "https://www.tsg-hoffenheim.de/": {
-      "status": 0,
-      "error": "The website took too long to respond"
+      "status": 200
     }
   },
   "technologies": [
+    {
+      "slug": "silverstripe",
+      "name": "SilverStripe",
+      "confidence": 100,
+      "version": null,
+      "icon": "SilverStripe.svg",
+      "website": "https://www.silverstripe.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
+        }
+      ]
+    },
+    {
+      "slug": "php",
+      "name": "PHP",
+      "confidence": 100,
+      "version": null,
+      "icon": "PHP.svg",
+      "website": "http://php.net",
+      "cpe": "cpe:/a:php:php",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "confidence": 100,
+      "version": "3.3.2",
+      "icon": "Bootstrap.svg",
+      "website": "https://getbootstrap.com",
+      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "categories": [
+        {
+          "id": 66,
+          "slug": "ui-frameworks",
+          "name": "UI frameworks"
+        }
+      ]
+    },
     {
       "slug": "varnish",
       "name": "Varnish",
@@ -39,18 +86,103 @@
       ]
     },
     {
-      "slug": "bootstrap",
-      "name": "Bootstrap",
+      "slug": "owl-carousel",
+      "name": "OWL Carousel",
       "confidence": 100,
-      "version": "3.3.2",
-      "icon": "Bootstrap.svg",
-      "website": "https://getbootstrap.com",
-      "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "version": null,
+      "icon": "OWL Carousel.png",
+      "website": "https://owlcarousel2.github.io/OwlCarousel2/",
+      "cpe": null,
       "categories": [
         {
-          "id": 66,
-          "slug": "ui-frameworks",
-          "name": "UI frameworks"
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "awin",
+      "name": "AWIN",
+      "confidence": 100,
+      "version": null,
+      "icon": "AWIN.svg",
+      "website": "https://www.awin.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 71,
+          "slug": "affiliate-programs",
+          "name": "Affiliate programs"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "1.11.2",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "fancybox",
+      "name": "FancyBox",
+      "confidence": 100,
+      "version": "2.1.5",
+      "icon": "FancyBox.png",
+      "website": "http://fancyapps.com/fancybox",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "confidence": 100,
+      "version": null,
+      "icon": "Microsoft 365.svg",
+      "website": "https://www.microsoft.com/microsoft-365",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 30,
+          "slug": "webmail",
+          "name": "Webmail"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
         }
       ]
     }

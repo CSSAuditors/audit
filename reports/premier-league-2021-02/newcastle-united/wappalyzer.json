@@ -1,11 +1,143 @@
 {
   "urls": {
     "https://www.nufc.co.uk/": {
-      "status": 0,
-      "error": "The website took too long to respond"
+      "status": 200
     }
   },
   "technologies": [
+    {
+      "slug": "google-adsense",
+      "name": "Google AdSense",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google AdSense.svg",
+      "website": "https://www.google.fr/adsense/start/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "facebook",
+      "name": "Facebook",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "widgets",
+          "name": "Widgets"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "2.1.4",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "modernizr",
+      "name": "Modernizr",
+      "confidence": 100,
+      "version": "3.3.1",
+      "icon": "Modernizr.svg",
+      "website": "https://modernizr.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "facebook-pixel",
+      "name": "Facebook Pixel",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "mailchimp",
+      "name": "MailChimp",
+      "confidence": 100,
+      "version": null,
+      "icon": "mailchimp.svg",
+      "website": "http://mailchimp.com",
+      "cpe": "cpe:/a:thinkshout:mailchimp",
+      "categories": [
+        {
+          "id": 32,
+          "slug": "marketing-automation",
+          "name": "Marketing automation"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
     {
       "slug": "cloudflare",
       "name": "Cloudflare",

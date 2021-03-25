@@ -1,242 +1,118 @@
 {
   "urls": {
     "https://www.herthabsc.de/en/": {
-      "status": 200
-    },
-    "http://www.herthabsc.de/": {
       "status": 301
     },
-    "https://www.herthabsc.de/": {
+    "https://www.herthabsc.com/": {
       "status": 302
     },
-    "https://www.herthabsc.de/de/": {
-      "status": 200
-    },
-    "https://www.herthabsc.de/splashscreen/index.html": {
-      "status": 404
-    },
-    "https://www.herthabsc.de/en/hertha/about-hertha/page/1042----.html": {
-      "status": 200
-    },
-    "http://www.herthabsc.de/mitgliedschaft/": {
-      "status": 301
-    },
-    "https://www.herthabsc.de/mitgliedschaft/": {
-      "status": 200
-    },
-    "http://www.herthabsc.de/nachwuchs/": {
-      "status": 301
-    },
-    "http://www.herthabsc.de/de/multimedia/herthatv/page/108--81--.html": {
-      "status": 301
-    },
-    "https://www.herthabsc.de/nachwuchs/": {
-      "status": 200
-    },
-    "https://www.herthabsc.de/de/multimedia/herthatv/page/108--81--.html": {
+    "https://www.herthabsc.com/de": {
       "status": 200
     }
   },
   "technologies": [
     {
-      "slug": "google-sign-in",
-      "name": "Google Sign-in",
+      "slug": "bloomreach",
+      "name": "Bloomreach",
       "confidence": 100,
       "version": null,
-      "icon": "Google.svg",
-      "website": "https://developers.google.com/identity/sign-in/web",
+      "icon": "Bloomreach.png",
+      "website": "https://developers.bloomreach.com",
       "cpe": null,
       "categories": [
         {
-          "id": 69,
-          "slug": "social-logins",
-          "name": "Social logins"
+          "id": 1,
+          "slug": "cms",
+          "name": "CMS"
         }
       ]
     },
     {
-      "slug": "bootstrap",
-      "name": "Bootstrap",
-      "confidence": 100,
-      "version": "4.5.0",
-      "icon": "Bootstrap.svg",
-      "website": "https://getbootstrap.com",
-      "cpe": "cpe:/a:getbootstrap:bootstrap",
-      "categories": [
-        {
-          "id": 66,
-          "slug": "ui-frameworks",
-          "name": "UI frameworks"
-        }
-      ]
-    },
-    {
-      "slug": "apache",
-      "name": "Apache",
+      "slug": "node-js",
+      "name": "Node.js",
       "confidence": 100,
       "version": null,
-      "icon": "Apache.svg",
-      "website": "http://apache.org",
-      "cpe": "cpe:/a:apache:http_server",
+      "icon": "node.js.png",
+      "website": "http://nodejs.org",
+      "cpe": "cpe:/a:nodejs:node.js",
       "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "vue-js",
+      "name": "Vue.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "vue.svg",
+      "website": "https://vuejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "nuxt-js",
+      "name": "Nuxt.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "Nuxt.js.svg",
+      "website": "https://nuxtjs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        },
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        },
         {
           "id": 22,
           "slug": "web-servers",
           "name": "Web servers"
+        },
+        {
+          "id": 57,
+          "slug": "static-site-generator",
+          "name": "Static site generator"
         }
       ]
     },
     {
-      "slug": "google-analytics",
-      "name": "Google Analytics",
+      "slug": "gsap",
+      "name": "GSAP",
       "confidence": 100,
       "version": null,
-      "icon": "Google Analytics.svg",
-      "website": "http://google.com/analytics",
+      "icon": "TweenMax.png",
+      "website": "https://greensock.com/gsap",
       "cpe": null,
       "categories": [
         {
-          "id": 10,
-          "slug": "analytics",
-          "name": "Analytics"
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
         }
       ]
     },
     {
-      "slug": "twitter",
-      "name": "Twitter",
+      "slug": "webpack",
+      "name": "webpack",
       "confidence": 100,
       "version": null,
-      "icon": "Twitter.svg",
-      "website": "http://twitter.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 5,
-          "slug": "widgets",
-          "name": "Widgets"
-        }
-      ]
-    },
-    {
-      "slug": "slick",
-      "name": "Slick",
-      "confidence": 100,
-      "version": null,
-      "icon": "default.svg",
-      "website": "https://kenwheeler.github.io/slick",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "google-plus",
-      "name": "Google Plus",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Plus.svg",
-      "website": "http://plus.google.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 5,
-          "slug": "widgets",
-          "name": "Widgets"
-        }
-      ]
-    },
-    {
-      "slug": "google-font-api",
-      "name": "Google Font API",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Font API.png",
-      "website": "http://google.com/fonts",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 17,
-          "slug": "font-scripts",
-          "name": "Font scripts"
-        }
-      ]
-    },
-    {
-      "slug": "font-awesome",
-      "name": "Font Awesome",
-      "confidence": 100,
-      "version": null,
-      "icon": "font-awesome.svg",
-      "website": "https://fontawesome.com/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 17,
-          "slug": "font-scripts",
-          "name": "Font scripts"
-        }
-      ]
-    },
-    {
-      "slug": "recaptcha",
-      "name": "reCAPTCHA",
-      "confidence": 100,
-      "version": null,
-      "icon": "reCAPTCHA.svg",
-      "website": "https://www.google.com/recaptcha/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 16,
-          "slug": "security",
-          "name": "Security"
-        }
-      ]
-    },
-    {
-      "slug": "jquery",
-      "name": "jQuery",
-      "confidence": 100,
-      "version": "1.10.2",
-      "icon": "jQuery.svg",
-      "website": "https://jquery.com",
-      "cpe": "cpe:/a:jquery:jquery",
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "twitter-ads",
-      "name": "Twitter Ads",
-      "confidence": 100,
-      "version": null,
-      "icon": "Twitter.svg",
-      "website": "https://ads.twitter.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 36,
-          "slug": "advertising",
-          "name": "Advertising"
-        }
-      ]
-    },
-    {
-      "slug": "swiper-slider",
-      "name": "Swiper Slider",
-      "confidence": 100,
-      "version": null,
-      "icon": "swiper.svg",
-      "website": "https://swiperjs.com",
+      "icon": "webpack.svg",
+      "website": "https://webpack.js.org/",
       "cpe": null,
       "categories": [
         {
@@ -263,6 +139,22 @@
       ]
     },
     {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 100,
+      "version": "4.17.15",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
       "slug": "google-tag-manager",
       "name": "Google Tag Manager",
       "confidence": 100,
@@ -275,59 +167,6 @@
           "id": 42,
           "slug": "tag-managers",
           "name": "Tag managers"
-        }
-      ]
-    },
-    {
-      "slug": "fancybox",
-      "name": "FancyBox",
-      "confidence": 100,
-      "version": "2.1.5",
-      "icon": "FancyBox.png",
-      "website": "http://fancyapps.com/fancybox",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "microsoft-365",
-      "name": "Microsoft 365",
-      "confidence": 100,
-      "version": null,
-      "icon": "Microsoft 365.svg",
-      "website": "https://www.microsoft.com/microsoft-365",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 30,
-          "slug": "webmail",
-          "name": "Webmail"
-        },
-        {
-          "id": 75,
-          "slug": "email",
-          "name": "Email"
-        }
-      ]
-    },
-    {
-      "slug": "mailjet",
-      "name": "Mailjet",
-      "confidence": 100,
-      "version": null,
-      "icon": "Mailjet.svg",
-      "website": "https://www.mailjet.com/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 75,
-          "slug": "email",
-          "name": "Email"
         }
       ]
     }

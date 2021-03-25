@@ -38,22 +38,6 @@
       ]
     },
     {
-      "slug": "percona",
-      "name": "Percona",
-      "confidence": 100,
-      "version": null,
-      "icon": "percona.svg",
-      "website": "https://www.percona.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 34,
-          "slug": "databases",
-          "name": "Databases"
-        }
-      ]
-    },
-    {
       "slug": "three-js",
       "name": "three.js",
       "confidence": 100,
@@ -82,91 +66,6 @@
           "id": 66,
           "slug": "ui-frameworks",
           "name": "UI frameworks"
-        }
-      ]
-    },
-    {
-      "slug": "varnish",
-      "name": "Varnish",
-      "confidence": 100,
-      "version": null,
-      "icon": "Varnish.svg",
-      "website": "http://www.varnish-cache.org",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 23,
-          "slug": "caching",
-          "name": "Caching"
-        }
-      ]
-    },
-    {
-      "slug": "amazon-ec2",
-      "name": "Amazon EC2",
-      "confidence": 100,
-      "version": null,
-      "icon": "aws-ec2.svg",
-      "website": "http://aws.amazon.com/ec2/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 22,
-          "slug": "web-servers",
-          "name": "Web servers"
-        }
-      ]
-    },
-    {
-      "slug": "apache",
-      "name": "Apache",
-      "confidence": 100,
-      "version": null,
-      "icon": "Apache.svg",
-      "website": "http://apache.org",
-      "cpe": "cpe:/a:apache:http_server",
-      "categories": [
-        {
-          "id": 22,
-          "slug": "web-servers",
-          "name": "Web servers"
-        }
-      ]
-    },
-    {
-      "slug": "nginx",
-      "name": "Nginx",
-      "confidence": 100,
-      "version": null,
-      "icon": "Nginx.svg",
-      "website": "http://nginx.org/en",
-      "cpe": "cpe:/a:nginx:nginx",
-      "categories": [
-        {
-          "id": 22,
-          "slug": "web-servers",
-          "name": "Web servers"
-        },
-        {
-          "id": 64,
-          "slug": "reverse-proxies",
-          "name": "Reverse proxies"
-        }
-      ]
-    },
-    {
-      "slug": "acquia-cloud-platform",
-      "name": "Acquia Cloud Platform",
-      "confidence": 100,
-      "version": null,
-      "icon": "acquia-cloud.png",
-      "website": "https://www.acquia.com/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 62,
-          "slug": "paas",
-          "name": "PaaS"
         }
       ]
     },
@@ -238,7 +137,7 @@
       "slug": "jquery",
       "name": "jQuery",
       "confidence": 100,
-      "version": "3.4.1",
+      "version": "3.5.1",
       "icon": "jQuery.svg",
       "website": "https://jquery.com",
       "cpe": "cpe:/a:jquery:jquery",
@@ -247,22 +146,6 @@
           "id": 59,
           "slug": "javascript-libraries",
           "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "new-relic",
-      "name": "New Relic",
-      "confidence": 100,
-      "version": null,
-      "icon": "New Relic.svg",
-      "website": "https://newrelic.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 10,
-          "slug": "analytics",
-          "name": "Analytics"
         }
       ]
     },
@@ -286,7 +169,7 @@
       "slug": "lodash",
       "name": "Lodash",
       "confidence": 0,
-      "version": "1.8.3",
+      "version": "1.9.1",
       "icon": "Lo-dash.png",
       "website": "http://www.lodash.com",
       "cpe": "cpe:/a:lodash:lodash",
@@ -379,6 +262,22 @@
       ]
     },
     {
+      "slug": "facebook-pixel",
+      "name": "Facebook Pixel",
+      "confidence": 100,
+      "version": null,
+      "icon": "Facebook.svg",
+      "website": "http://facebook.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
       "slug": "sectigo",
       "name": "Sectigo",
       "confidence": 100,
@@ -391,6 +290,22 @@
           "id": 70,
           "slug": "ssl-tls-certificate-authorities",
           "name": "SSL/TLS certificate authorities"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "confidence": 100,
+      "version": null,
+      "icon": "CloudFlare.svg",
+      "website": "http://www.cloudflare.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 31,
+          "slug": "cdn",
+          "name": "CDN"
         }
       ]
     }

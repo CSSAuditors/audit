@@ -25,7 +25,7 @@
       "slug": "angular",
       "name": "Angular",
       "confidence": 100,
-      "version": "11.2.1",
+      "version": "11.2.6",
       "icon": "Angular.svg",
       "website": "https://angular.io",
       "cpe": null,
@@ -130,6 +130,22 @@
           "id": 42,
           "slug": "tag-managers",
           "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
         }
       ]
     },

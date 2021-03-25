@@ -1,6 +1,6 @@
 {
   "urls": {
-    "https://www.fc.de/start/": {
+    "https://fc.de/fc-info/startseite/": {
       "status": 200
     }
   },
@@ -103,22 +103,6 @@
           "id": 36,
           "slug": "advertising",
           "name": "Advertising"
-        }
-      ]
-    },
-    {
-      "slug": "google-font-api",
-      "name": "Google Font API",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Font API.png",
-      "website": "http://google.com/fonts",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 17,
-          "slug": "font-scripts",
-          "name": "Font scripts"
         }
       ]
     },

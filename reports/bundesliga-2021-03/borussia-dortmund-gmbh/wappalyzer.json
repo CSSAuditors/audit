@@ -75,6 +75,22 @@
       ]
     },
     {
+      "slug": "recaptcha",
+      "name": "reCAPTCHA",
+      "confidence": 100,
+      "version": null,
+      "icon": "reCAPTCHA.svg",
+      "website": "https://www.google.com/recaptcha/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 16,
+          "slug": "security",
+          "name": "Security"
+        }
+      ]
+    },
+    {
       "slug": "google-font-api",
       "name": "Google Font API",
       "confidence": 100,
@@ -87,6 +103,22 @@
           "id": 17,
           "slug": "font-scripts",
           "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
         }
       ]
     },
@@ -119,22 +151,6 @@
           "id": 67,
           "slug": "cookie-compliance",
           "name": "Cookie compliance"
-        }
-      ]
-    },
-    {
-      "slug": "recaptcha",
-      "name": "reCAPTCHA",
-      "confidence": 100,
-      "version": null,
-      "icon": "reCAPTCHA.svg",
-      "website": "https://www.google.com/recaptcha/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 16,
-          "slug": "security",
-          "name": "Security"
         }
       ]
     },

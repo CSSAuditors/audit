@@ -6,39 +6,18 @@
   },
   "technologies": [
     {
-      "slug": "wordpress",
-      "name": "WordPress",
+      "slug": "typo3-cms",
+      "name": "TYPO3 CMS",
       "confidence": 100,
-      "version": "4.9.8",
-      "icon": "WordPress.svg",
-      "website": "https://wordpress.org",
-      "cpe": "cpe:/a:wordpress:wordpress",
+      "version": null,
+      "icon": "TYPO3.svg",
+      "website": "https://typo3.org/",
+      "cpe": null,
       "categories": [
         {
           "id": 1,
           "slug": "cms",
           "name": "CMS"
-        },
-        {
-          "id": 11,
-          "slug": "blogs",
-          "name": "Blogs"
-        }
-      ]
-    },
-    {
-      "slug": "mysql",
-      "name": "MySQL",
-      "confidence": 100,
-      "version": null,
-      "icon": "MySQL.svg",
-      "website": "http://mysql.com",
-      "cpe": "cpe:/a:mysql:mysql",
-      "categories": [
-        {
-          "id": 34,
-          "slug": "databases",
-          "name": "Databases"
         }
       ]
     },
@@ -59,119 +38,50 @@
       ]
     },
     {
-      "slug": "facebook-sign-in",
-      "name": "Facebook Sign-in",
+      "slug": "firebase",
+      "name": "Firebase",
       "confidence": 100,
-      "version": null,
-      "icon": "Facebook.svg",
-      "website": "https://developers.facebook.com/docs/facebook-login/",
+      "version": "8.2.7",
+      "icon": "Firebase.png",
+      "website": "https://firebase.com",
       "cpe": null,
       "categories": [
         {
-          "id": 69,
-          "slug": "social-logins",
-          "name": "Social logins"
+          "id": 34,
+          "slug": "databases",
+          "name": "Databases"
         }
       ]
     },
     {
-      "slug": "w3-total-cache",
-      "name": "W3 Total Cache",
+      "slug": "youtube",
+      "name": "YouTube",
       "confidence": 100,
       "version": null,
-      "icon": "W3 Total Cache.png",
-      "website": "http://www.w3-edge.com/wordpress-plugins/w3-total-cache",
+      "icon": "YouTube.png",
+      "website": "http://www.youtube.com",
       "cpe": null,
       "categories": [
         {
-          "id": 23,
-          "slug": "caching",
-          "name": "Caching"
+          "id": 14,
+          "slug": "video-players",
+          "name": "Video players"
         }
       ]
     },
     {
-      "slug": "nginx",
-      "name": "Nginx",
+      "slug": "apache",
+      "name": "Apache",
       "confidence": 100,
       "version": null,
-      "icon": "Nginx.svg",
-      "website": "http://nginx.org/en",
-      "cpe": "cpe:/a:nginx:nginx",
+      "icon": "Apache.svg",
+      "website": "http://apache.org",
+      "cpe": "cpe:/a:apache:http_server",
       "categories": [
         {
           "id": 22,
           "slug": "web-servers",
           "name": "Web servers"
-        },
-        {
-          "id": 64,
-          "slug": "reverse-proxies",
-          "name": "Reverse proxies"
-        }
-      ]
-    },
-    {
-      "slug": "google-tag-manager",
-      "name": "Google Tag Manager",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Tag Manager.svg",
-      "website": "http://www.google.com/tagmanager",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 42,
-          "slug": "tag-managers",
-          "name": "Tag managers"
-        }
-      ]
-    },
-    {
-      "slug": "google-font-api",
-      "name": "Google Font API",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Font API.png",
-      "website": "http://google.com/fonts",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 17,
-          "slug": "font-scripts",
-          "name": "Font scripts"
-        }
-      ]
-    },
-    {
-      "slug": "facebook",
-      "name": "Facebook",
-      "confidence": 100,
-      "version": null,
-      "icon": "Facebook.svg",
-      "website": "http://facebook.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 5,
-          "slug": "widgets",
-          "name": "Widgets"
-        }
-      ]
-    },
-    {
-      "slug": "jquery-migrate",
-      "name": "jQuery Migrate",
-      "confidence": 100,
-      "version": "1.4.1",
-      "icon": "jQuery.svg",
-      "website": "https://github.com/jquery/jquery-migrate",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
         }
       ]
     },
@@ -179,7 +89,7 @@
       "slug": "jquery",
       "name": "jQuery",
       "confidence": 100,
-      "version": "1.12.4",
+      "version": "3.5.1",
       "icon": "jQuery.svg",
       "website": "https://jquery.com",
       "cpe": "cpe:/a:jquery:jquery",
@@ -188,22 +98,6 @@
           "id": 59,
           "slug": "javascript-libraries",
           "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "twitter-emoji-twemoji",
-      "name": "Twitter Emoji (Twemoji)",
-      "confidence": 100,
-      "version": null,
-      "icon": "default.svg",
-      "website": "https://twitter.github.io/twemoji/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 17,
-          "slug": "font-scripts",
-          "name": "Font scripts"
         }
       ]
     },
@@ -224,71 +118,34 @@
       ]
     },
     {
-      "slug": "modernizr",
-      "name": "Modernizr",
-      "confidence": 100,
-      "version": "2.5.3",
-      "icon": "Modernizr.svg",
-      "website": "https://modernizr.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "mailchimp",
-      "name": "MailChimp",
-      "confidence": 100,
-      "version": "4.8.1",
-      "icon": "mailchimp.svg",
-      "website": "http://mailchimp.com",
-      "cpe": "cpe:/a:thinkshout:mailchimp",
-      "categories": [
-        {
-          "id": 32,
-          "slug": "marketing-automation",
-          "name": "Marketing automation"
-        },
-        {
-          "id": 75,
-          "slug": "email",
-          "name": "Email"
-        }
-      ]
-    },
-    {
-      "slug": "hammer-js",
-      "name": "Hammer.js",
-      "confidence": 100,
-      "version": "2.0.4",
-      "icon": "Hammer.js.png",
-      "website": "https://hammerjs.github.io",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 59,
-          "slug": "javascript-libraries",
-          "name": "JavaScript libraries"
-        }
-      ]
-    },
-    {
-      "slug": "borlabs-cookie",
-      "name": "Borlabs Cookie",
+      "slug": "aos",
+      "name": "AOS",
       "confidence": 100,
       "version": null,
-      "icon": "Borlabs Cookie.svg",
-      "website": "https://borlabs.io/borlabs-cookie/",
+      "icon": "AOS.svg",
+      "website": "http://michalsnik.github.io/aos/",
       "cpe": null,
       "categories": [
         {
-          "id": 67,
-          "slug": "cookie-compliance",
-          "name": "Cookie compliance"
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "sectigo",
+      "name": "Sectigo",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 70,
+          "slug": "ssl-tls-certificate-authorities",
+          "name": "SSL/TLS certificate authorities"
         }
       ]
     }

@@ -1,9 +1,137 @@
 {
   "urls": {
     "https://www.wolves.co.uk/": {
-      "status": 0,
-      "error": "The website took too long to respond"
+      "status": 200
     }
   },
-  "technologies": []
+  "technologies": [
+    {
+      "slug": "azure",
+      "name": "Azure",
+      "confidence": 100,
+      "version": null,
+      "icon": "azure.svg",
+      "website": "https://azure.microsoft.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "3.5.1",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "twitter-ads",
+      "name": "Twitter Ads",
+      "confidence": 100,
+      "version": null,
+      "icon": "Twitter.svg",
+      "website": "https://ads.twitter.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 36,
+          "slug": "advertising",
+          "name": "Advertising"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "google-optimize",
+      "name": "Google Optimize",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Optimize.svg",
+      "website": "https://optimize.google.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 74,
+          "slug": "a-b-testing",
+          "name": "A/B Testing"
+        }
+      ]
+    },
+    {
+      "slug": "google-analytics",
+      "name": "Google Analytics",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Analytics.svg",
+      "website": "http://google.com/analytics",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 10,
+          "slug": "analytics",
+          "name": "Analytics"
+        }
+      ]
+    },
+    {
+      "slug": "fingerprintjs",
+      "name": "FingerprintJS",
+      "confidence": 100,
+      "version": "2.0.0",
+      "icon": "FingerprintJS.svg",
+      "website": "https://fingerprintjs.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "sendgrid",
+      "name": "Sendgrid",
+      "confidence": 100,
+      "version": null,
+      "icon": "SendGrid.svg",
+      "website": "https://sendgrid.com/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    }
+  ]
 }

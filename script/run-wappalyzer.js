@@ -8,17 +8,17 @@ const wapp = async (site) => {
 
     if(!files.fileExists(wappalyzerFile)) {
       const wappalyzerConfig = {
-        debug: false,
-        delay: 500,
+        debug: true,
+        delay: 1000,
         headers: {},
-        maxDepth: 3,
-        maxUrls: 10,
-        maxWait: 5000,
-        recursive: true,
-        probe: true,
+        maxDepth: 1,
+        maxUrls: 1000,
+        maxWait: 20000,
+        recursive: false,
+        probe: false,
         userAgent: 'Wappalyzer',
-        htmlMaxCols: 2000,
-        htmlMaxRows: 2000,
+        htmlMaxCols: 10000,
+        htmlMaxRows: 10000,
       }
 
       const wappalyzer = new Wappalyzer()
@@ -26,20 +26,29 @@ const wapp = async (site) => {
       try {
         await wappalyzer.init()
 
+        let error
+
         // Optionally set additional request headers
         const headers = {}
 
-        const website = wappalyzer.open(site.url, headers)
+        const website = await wappalyzer.open(site.url, headers)
 
         // Optionally capture and output errors
-        website.on('error', console.error)
+        website.on('error', (err) => {
+          console.error(site.url, err)
+        })
 
         const results = await website.analyze()
 
-        files.saveFile(wappalyzerFile, results, true)
+        if(Object.values(results.urls).find(a => a.status === 200)) {
+          files.saveFile(wappalyzerFile, results, true)
 
-        console.log(`✅ Wappalyzer file created in ${folder}`)
+          console.log(`✅ Wappalyzer file created in ${folder}`)
+        } else {
+
+        }
       } catch (error) {
+        console.error("error")
         console.error(error)
       }
 

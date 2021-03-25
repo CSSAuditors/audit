@@ -1,13 +1,58 @@
 {
   "urls": {
-    "https://fcbayern.com/": {
-      "status": 301
-    },
-    "https://fcbayern.com/us": {
+    "https://fcbayern.com/de": {
       "status": 200
     }
   },
   "technologies": [
+    {
+      "slug": "sap-commerce-cloud",
+      "name": "SAP Commerce Cloud",
+      "confidence": 100,
+      "version": null,
+      "icon": "SAP.svg",
+      "website": "https://www.sap.com/products/crm/e-commerce-platforms.html",
+      "cpe": "cpe:/a:sap:commerce_cloud",
+      "categories": [
+        {
+          "id": 6,
+          "slug": "ecommerce",
+          "name": "Ecommerce"
+        }
+      ]
+    },
+    {
+      "slug": "cart-functionality",
+      "name": "Cart Functionality",
+      "confidence": 100,
+      "version": null,
+      "icon": "Cart-generic.svg",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 6,
+          "slug": "ecommerce",
+          "name": "Ecommerce"
+        }
+      ]
+    },
+    {
+      "slug": "java",
+      "name": "Java",
+      "confidence": 100,
+      "version": null,
+      "icon": "Java.png",
+      "website": "http://java.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
     {
       "slug": "varnish",
       "name": "Varnish",
@@ -160,6 +205,22 @@
       "icon": "Modernizr.svg",
       "website": "https://modernizr.com",
       "cpe": null,
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "lodash",
+      "name": "Lodash",
+      "confidence": 100,
+      "version": "4.17.15",
+      "icon": "Lo-dash.png",
+      "website": "http://www.lodash.com",
+      "cpe": "cpe:/a:lodash:lodash",
       "categories": [
         {
           "id": 59,

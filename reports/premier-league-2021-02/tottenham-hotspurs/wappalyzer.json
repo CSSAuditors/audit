@@ -38,38 +38,6 @@
       ]
     },
     {
-      "slug": "react",
-      "name": "React",
-      "confidence": 100,
-      "version": "16.14.0",
-      "icon": "React.png",
-      "website": "https://reactjs.org",
-      "cpe": "cpe:/a:facebook:react",
-      "categories": [
-        {
-          "id": 12,
-          "slug": "javascript-frameworks",
-          "name": "JavaScript frameworks"
-        }
-      ]
-    },
-    {
-      "slug": "twitter",
-      "name": "Twitter",
-      "confidence": 100,
-      "version": null,
-      "icon": "Twitter.svg",
-      "website": "http://twitter.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 5,
-          "slug": "widgets",
-          "name": "Widgets"
-        }
-      ]
-    },
-    {
       "slug": "onetrust",
       "name": "OneTrust",
       "confidence": 100,
@@ -86,22 +54,6 @@
       ]
     },
     {
-      "slug": "facebook",
-      "name": "Facebook",
-      "confidence": 100,
-      "version": null,
-      "icon": "Facebook.svg",
-      "website": "http://facebook.com",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 5,
-          "slug": "widgets",
-          "name": "Widgets"
-        }
-      ]
-    },
-    {
       "slug": "dynamic-yield",
       "name": "Dynamic Yield",
       "confidence": 100,
@@ -114,6 +66,11 @@
           "id": 74,
           "slug": "a-b-testing",
           "name": "A/B Testing"
+        },
+        {
+          "id": 76,
+          "slug": "personalisation",
+          "name": "Personalisation"
         }
       ]
     },
@@ -178,6 +135,22 @@
           "id": 17,
           "slug": "font-scripts",
           "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "react",
+      "name": "React",
+      "confidence": 100,
+      "version": "16.14.0",
+      "icon": "React.png",
+      "website": "https://reactjs.org",
+      "cpe": "cpe:/a:facebook:react",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
         }
       ]
     }

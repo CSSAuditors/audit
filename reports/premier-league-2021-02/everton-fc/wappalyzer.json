@@ -73,7 +73,7 @@
       "slug": "lodash",
       "name": "Lodash",
       "confidence": 0,
-      "version": "1.12.0",
+      "version": "1.12.1",
       "icon": "Lo-dash.png",
       "website": "http://www.lodash.com",
       "cpe": "cpe:/a:lodash:lodash",
@@ -98,6 +98,22 @@
           "id": 42,
           "slug": "tag-managers",
           "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "docusign",
+      "name": "DocuSign",
+      "confidence": 100,
+      "version": null,
+      "icon": "DocuSign.svg",
+      "website": "https://www.docusign.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
         }
       ]
     },

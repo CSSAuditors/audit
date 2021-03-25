@@ -14,20 +14,48 @@ const { wappalyzerReport, wappalyzersReport, generateWappalyzersReport } = requi
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
-let sites = require('../site/_data/sites3.json')
+const parameter = '--sites='
+const paramFound = process.argv.indexOf(parameter) === -1
 
-const ret = process.argv.indexOf('ret') !== -1
-
-const site = process.argv.find(arg => arg.indexOf('site=') !== -1)
-
-if(site) {
-  const singleSite = sites.filter(s => site.indexOf(s.title) !== -1)
-
-  if(singleSite) {
-    sites = singleSite
-  }
+if(!paramFound) {
+  console.error(`Please define sites by specifying ${p} parameter.`);
+  console.error(`Example: ... ${parameter}=sites3.json`);
+  return false
 }
 
+let sites = []
+
+process.argv.forEach(arg => {
+  if(arg.indexOf(parameter) !== -1) {
+    const siteParams = arg
+      .split(`${parameter}`)
+
+    if(siteParams.length > 1) {
+      siteParams[1]
+        .split(',')
+        .map(site => {
+          sites.push(require(`../site/_data/${site}`))
+        })
+    }
+  }
+
+  sites = sites.flat()
+})
+
+if(!sites) {
+  console.error(`No sites found. Check the ${parameter} parameter.`);
+  return false
+}
+
+// const site = process.argv.find(arg => arg.indexOf('site=') !== -1)
+
+// if(site) {
+//   const singleSite = sites.filter(s => site.indexOf(s.title) !== -1)
+
+//   if(singleSite) {
+//     sites = singleSite
+//   }
+// }
 
 const runExtractor = async () => {
   for(const site of sites) {

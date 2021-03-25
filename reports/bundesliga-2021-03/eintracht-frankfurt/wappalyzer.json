@@ -6,38 +6,6 @@
   },
   "technologies": [
     {
-      "slug": "sentry",
-      "name": "Sentry",
-      "confidence": 100,
-      "version": "5.24.2",
-      "icon": "Sentry.svg",
-      "website": "https://sentry.io/",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 13,
-          "slug": "issue-trackers",
-          "name": "Issue trackers"
-        }
-      ]
-    },
-    {
-      "slug": "react",
-      "name": "React",
-      "confidence": 100,
-      "version": null,
-      "icon": "React.png",
-      "website": "https://reactjs.org",
-      "cpe": "cpe:/a:facebook:react",
-      "categories": [
-        {
-          "id": 12,
-          "slug": "javascript-frameworks",
-          "name": "JavaScript frameworks"
-        }
-      ]
-    },
-    {
       "slug": "gatsby",
       "name": "Gatsby",
       "confidence": 100,
@@ -55,6 +23,22 @@
           "id": 12,
           "slug": "javascript-frameworks",
           "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "react",
+      "name": "React",
+      "confidence": 100,
+      "version": null,
+      "icon": "React.png",
+      "website": "https://reactjs.org",
+      "cpe": "cpe:/a:facebook:react",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
         }
       ]
     },
@@ -87,22 +71,6 @@
           "id": 19,
           "slug": "miscellaneous",
           "name": "Miscellaneous"
-        }
-      ]
-    },
-    {
-      "slug": "google-analytics",
-      "name": "Google Analytics",
-      "confidence": 100,
-      "version": null,
-      "icon": "Google Analytics.svg",
-      "website": "http://google.com/analytics",
-      "cpe": null,
-      "categories": [
-        {
-          "id": 10,
-          "slug": "analytics",
-          "name": "Analytics"
         }
       ]
     },

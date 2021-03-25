@@ -18,7 +18,6 @@ const wappalyzerReport = async (site, silent) => {
 
     const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
 
-
     if(!silent) {
       console.log('')
       console.log('WAPPALYZER')

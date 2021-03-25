@@ -1,11 +1,58 @@
 {
   "urls": {
     "https://www.avfc.co.uk/": {
-      "status": 0,
-      "error": "The website took too long to respond"
+      "status": 200
     }
   },
   "technologies": [
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "confidence": 100,
+      "version": null,
+      "icon": "Sentry.svg",
+      "website": "https://sentry.io/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 13,
+          "slug": "issue-trackers",
+          "name": "Issue trackers"
+        }
+      ]
+    },
+    {
+      "slug": "node-js",
+      "name": "Node.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "node.js.png",
+      "website": "http://nodejs.org",
+      "cpe": "cpe:/a:nodejs:node.js",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "confidence": 100,
+      "version": null,
+      "icon": "Salesforce.svg",
+      "website": "https://www.salesforce.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 53,
+          "slug": "crm",
+          "name": "CRM"
+        }
+      ]
+    },
     {
       "slug": "amazon-web-services",
       "name": "Amazon Web Services",
@@ -19,6 +66,191 @@
           "id": 62,
           "slug": "paas",
           "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "vue-js",
+      "name": "Vue.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "vue.svg",
+      "website": "https://vuejs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "nuxt-js",
+      "name": "Nuxt.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "Nuxt.js.svg",
+      "website": "https://nuxtjs.org",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        },
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        },
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        },
+        {
+          "id": 57,
+          "slug": "static-site-generator",
+          "name": "Static site generator"
+        }
+      ]
+    },
+    {
+      "slug": "typekit",
+      "name": "Typekit",
+      "confidence": 100,
+      "version": null,
+      "icon": "Typekit.png",
+      "website": "http://typekit.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 17,
+          "slug": "font-scripts",
+          "name": "Font scripts"
+        }
+      ]
+    },
+    {
+      "slug": "google-tag-manager",
+      "name": "Google Tag Manager",
+      "confidence": 100,
+      "version": null,
+      "icon": "Google Tag Manager.svg",
+      "website": "http://www.google.com/tagmanager",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 42,
+          "slug": "tag-managers",
+          "name": "Tag managers"
+        }
+      ]
+    },
+    {
+      "slug": "webpack",
+      "name": "webpack",
+      "confidence": 100,
+      "version": null,
+      "icon": "webpack.svg",
+      "website": "https://webpack.js.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "recaptcha",
+      "name": "reCAPTCHA",
+      "confidence": 100,
+      "version": null,
+      "icon": "reCAPTCHA.svg",
+      "website": "https://www.google.com/recaptcha/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 16,
+          "slug": "security",
+          "name": "Security"
+        }
+      ]
+    },
+    {
+      "slug": "jquery",
+      "name": "jQuery",
+      "confidence": 100,
+      "version": "2.2.4",
+      "icon": "jQuery.svg",
+      "website": "https://jquery.com",
+      "cpe": "cpe:/a:jquery:jquery",
+      "categories": [
+        {
+          "id": 59,
+          "slug": "javascript-libraries",
+          "name": "JavaScript libraries"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "confidence": 100,
+      "version": null,
+      "icon": "Microsoft 365.svg",
+      "website": "https://www.microsoft.com/microsoft-365",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 30,
+          "slug": "webmail",
+          "name": "Webmail"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "mailchimp",
+      "name": "MailChimp",
+      "confidence": 100,
+      "version": null,
+      "icon": "mailchimp.svg",
+      "website": "http://mailchimp.com",
+      "cpe": "cpe:/a:thinkshout:mailchimp",
+      "categories": [
+        {
+          "id": 32,
+          "slug": "marketing-automation",
+          "name": "Marketing automation"
+        },
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-ses",
+      "name": "Amazon SES",
+      "confidence": 100,
+      "version": null,
+      "icon": "aws.svg",
+      "website": "https://aws.amazon.com/ses/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 75,
+          "slug": "email",
+          "name": "Email"
         }
       ]
     },
