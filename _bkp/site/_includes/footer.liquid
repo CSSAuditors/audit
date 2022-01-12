@@ -1,0 +1,33 @@
+<footer class="footer">
+  <div class="footer__row">
+    {% if footer.logo.src %}
+      <a href="{{ footer.logo.href }}">
+        <img src="{{ footer.logo.src }}" alt="{{ footer.logo.title }}" height="30" width="195">
+      </a>
+    {% endif %}
+    {% if footer.copyright %}
+      <p class="footer__copyright">&copy; {{ "now" | date: "%Y" }} {{ footer.copyright }}</p>
+    {% endif %}
+  </div>
+  {% if menu %}
+    <nav class="nav">
+      <ul>
+        {% for item in footer.menu %}
+          <li>
+            <a href="{{ item.href }}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+  {% if footer.tagline %}
+    <div class="footer__tagline">{{ footer.tagline | markdownify }}</div>
+  {% endif %}
+</footer>
+<link rel="stylesheet" href="/css/audit.min.css" media="print" onload='this.media="all"'>
+<script src="/js/script.js"></script>
+{% if object %}
+  {{ sites | charts: object }}
+{% endif %}

@@ -9,10 +9,8 @@
     "reports": "node script/index.js start"
   },
   "dependencies": {
-    "highcharts": "^9.0.1"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-upgrade-help": "^1.0.1",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
     "@projectwallace/css-analyzer": "^4.0.3",
@@ -20,7 +18,7 @@
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.14",
     "canvas": "^2.7.0",
-    "chart.js": "^2.9.4",
+    "chart.js": "^3.7.0",
     "clean-css": "^5.1.2",
     "concurrently": "^6.0.0",
     "css-validator": "^0.10.0",
@@ -48,6 +46,7 @@
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "^0.0.2",
     "gzip-size": "^6.0.0",
+    "highcharts": "^9.0.1",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "kss": "^3.0.1",

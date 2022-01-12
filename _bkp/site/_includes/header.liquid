@@ -1,0 +1,20 @@
+{% if menu %}
+  <header class="header">
+    <a class="button skip" href="#respectcss">Skip to the main content</a>
+    <nav class="nav">
+      <ul>
+        {% for item in menu %}
+          <li{% if item.src %} class="logo"{% endif %}>
+            <a href="{{ item.href }}">
+              {% if item.src %}
+                <img src="{{ item.src }}" alt="{{ item.title }}" height="30" width="195">
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+{% endif %}

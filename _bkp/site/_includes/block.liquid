@@ -1,0 +1,44 @@
+<section id="{{ block.title | strip | downcase | replace: '\n', '' | replace: ' ', '-' | replace: '#', '' }}">
+  <article>
+    <div class="section__row">
+      {% if block.icon %}
+        <div class="section__column">
+          <img src="{{ block.icon }}" alt="{{ block.title }}" width="120" height="160">
+        </div>
+      {% endif %}
+      <div class="section__column">
+        {% if block.hero %}
+          <h1>{{ block.title }}</h1>
+        {% else %}
+          <h2>{{ block.title }}</h2>
+        {% endif %}
+        <div>
+          {% if block.description %}
+            {{ block.description | markdownify }}
+          {% endif %}
+        </div>
+        {% if block.cta %}
+          {% for cta in block.cta %}
+            <div>
+              <a class="button{% if cta.subtitle %} button--alpha{% endif %}" href="{{ cta.href }}"{% if cta.download %} download{% endif %}>
+                {% if cta.title %}
+                  {% if cta.subtitle %}
+                    <span>{{ cta.title }}</span>
+                  {% else %}
+                    {{ cta.title }}
+                  {% endif %}
+                {% endif %}
+                {% if cta.subtitle %}
+                  <span>{{ cta.subtitle }}</span>
+                {% endif %}
+              </a>
+            </div>
+          {% endfor %}
+        {% endif %}
+        {% if block.subscribe %}
+          {% include subscribe %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</section>

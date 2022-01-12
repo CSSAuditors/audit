@@ -1,0 +1,34 @@
+{% if title %}
+  {% assign ogTitle = title %}
+{% else %}
+  {% assign ogTitle = site.title %}
+{% endif %}
+{% if description %}
+  {% assign ogDescription = description %}
+{% else %}
+  {% assign ogDescription = site.description %}
+{% endif %}
+{% if page.url %}
+  {% assign ogUrl = site.url | append: page.url %}
+{% else %}
+  {% assign ogUrl = site.url %}
+{% endif %}
+{% if image %}
+  {% assign ogImage = site.url | append: image %}
+{% else %}
+  {% assign ogImage = site.url | append: site.og_image %}
+{% endif %}
+
+<meta name="title" content="{{ ogTitle }}">
+<meta name="description" content="{{ ogDescription }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ ogUrl }}">
+<meta property="og:title" content="{{ ogTitle }}">
+<meta property="og:description" content="{{ ogDescription }}">
+<meta property="og:image" content="{{ ogImage }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ ogUrl }}">
+<meta property="twitter:title" content="{{ ogTitle }}">
+<meta property="twitter:description" content="{{ ogDescription }}">
+<meta property="twitter:image" content="{{ ogImage }}">
+<title>{{ ogTitle }}</title>
