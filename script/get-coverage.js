@@ -1,17 +1,17 @@
-const files = require('./files')
+const helpers = require('./helpers')
 const { getMax, getMin, getAverage, getRound } = require('./calc')
 
 const coverageReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const coverageFile = `${folder}/coverage.json`
 
-    if(!files.fileExists(coverageFile)) {
+    if(!helpers.fileExists(coverageFile)) {
       return false
     }
 
-    const coverageRaw = await files.getFile(coverageFile)
+    const coverageRaw = await helpers.getFile(coverageFile)
     const coverageData = JSON.parse(coverageRaw)
 
     let totalBytes = 0

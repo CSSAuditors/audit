@@ -2,11 +2,6 @@
 layout: layout
 ---
 
-{% for block in blocksTop %}
+{% for block in blocks %}
   {% include block %}
 {% endfor %}
-{{ content }}
-{% for block in blocksBottom %}
-  {% include block %}
-{% endfor %}
-

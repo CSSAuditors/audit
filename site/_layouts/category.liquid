@@ -6,29 +6,25 @@ layout: layout
   <h1>{{ title }}</h1>
   <p>{{ description }}</p>
 </section>
-{% for post in collections[filter] %}
+{% for post in collections[filter] reversed %}
   <section>
-    <article>
-      <div class="section__row">
-        <div class="section__column">
-          {% if post.data.title %}
-            <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-          {% endif %}
-          <div>
-            {% if post.data.description %}
-              {{ post.data.description | markdownify }}
-            {% endif %}
-            {% if post.data.date %}
-              <p>Published: <time datetime="{{ post.data.date | date: "%Y-%m-%d" }}">{{ post.data.date | date: "%Y-%m-%d" }}</time></p>
-            {% endif %}
-          </div>
-          {% if post.data.title %}
-            <div>
-              <a class="button" href="{{ post.url }}">{% if cta.title %}{{ cta.title }}{% endif %}</a>
-            </div>
-          {% endif %}
-        </div>
+    <article class="section__content">
+      {% if post.data.title %}
+        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      {% endif %}
+      <div>
+        {% if post.data.description %}
+          {{ post.data.description | markdownify }}
+        {% endif %}
+        {% if post.data.date %}
+          <p>Published: <time datetime="{{ post.data.date | date: "%Y-%m-%d" }}">{{ post.data.date | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
       </div>
+      {% if post.data.title %}
+        <div>
+          <a class="button" href="{{ post.url }}">{% if cta.title %}{{ cta.title }}{% endif %}</a>
+        </div>
+      {% endif %}
     </article>
   </section>
 {% endfor %}

@@ -1,17 +1,17 @@
-const { getFolder, fileExists, getFile, getFileSync, saveFile } = require('./files')
+const helpers = require('./helpers')
 const { wrapLines } = require('./template')
 const { getPercent } = require('./calc')
 
 const wappalyzerReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
-    const folder = getFolder(site)
+    const folder = helpers.getFolder(site)
     const wappalyzerFile = `${folder}/wappalyzer.json`
 
-    if(!fileExists(wappalyzerFile)) {
+    if(!helpers.fileExists(wappalyzerFile)) {
       return false
     }
 
-    const wappalyzerRaw = await getFile(wappalyzerFile)
+    const wappalyzerRaw = await helpers.getFile(wappalyzerFile)
     const wappalyzerData = JSON.parse(wappalyzerRaw)
 
     const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
@@ -56,14 +56,14 @@ const wappalyzersReport = async (sites, silent) => {
 }
 
 const wappalyzerReportSync = (site, silent) => {
-  const folder = getFolder(site)
+  const folder = helpers.getFolder(site)
   const wappalyzerFile = `${folder}/wappalyzer.json`
 
-  if(!fileExists(wappalyzerFile)) {
+  if(!helpers.fileExists(wappalyzerFile)) {
     return false
   }
 
-  const wappalyzerRaw = getFileSync(wappalyzerFile)
+  const wappalyzerRaw = helpers.getFileSync(wappalyzerFile)
   const wappalyzerData = JSON.parse(wappalyzerRaw)
 
   const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
@@ -107,12 +107,12 @@ const wappalyzersReportSync = (sites, silent) => {
 }
 
 const generateWappalyzersReport = (sites, fresh) => {
-  const folder = getFolder(sites[0], true)
+  const folder = helpers.getFolder(sites[0], true)
   const wappalyzerFile = `${folder}/wappalyzer.json`
   let wappalyzerData
 
-  if(fileExists(wappalyzerFile)) {
-    wappalyzerData = JSON.parse(getFileSync(wappalyzerFile))
+  if(helpers.fileExists(wappalyzerFile)) {
+    wappalyzerData = JSON.parse(helpers.getFileSync(wappalyzerFile))
   }
 
   if(fresh || !wappalyzerData) {
@@ -124,7 +124,7 @@ const generateWappalyzersReport = (sites, fresh) => {
       $htmlWappalyzer: `<table><tr><th>Site</th><th>UI Framework</th></tr>${wrapLines(htmlFrameworks, '\n', 'tr', '\n')}</table>`,
     }
 
-    saveFile(wappalyzerFile, wappalyzerData, true)
+    helpers.saveFile(wappalyzerFile, wappalyzerData, true)
   }
 
   return wappalyzerData

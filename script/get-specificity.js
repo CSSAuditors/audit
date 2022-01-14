@@ -1,17 +1,17 @@
-const files = require('./files')
+const helpers = require('./helpers')
 const { getMax, getMin } = require('./calc')
 
 const specificityReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const specificityFolder = `${folder}/specificity`
     const specificityFile = `${specificityFolder}/specificity.json`
 
-    if(!files.fileExists(specificityFile)) {
+    if(!helpers.fileExists(specificityFile)) {
       return false
     }
 
-    const specificityRaw = await files.getFile(specificityFile)
+    const specificityRaw = await helpers.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
     const maxSpecificity = getMax(specificityData, 'specificity')

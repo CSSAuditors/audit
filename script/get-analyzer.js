@@ -1,16 +1,16 @@
-const files = require('./files')
+const helpers = require('./helpers')
 const { getPercent, getRound } = require('./calc')
 
 const stylesheetReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -41,14 +41,14 @@ const stylesheetReport = async (site) => {
 
 const declarationsReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -68,14 +68,14 @@ const declarationsReport = async (site) => {
 
 const rulesReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -93,14 +93,14 @@ const rulesReport = async (site) => {
 
 const atRulesReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -156,14 +156,14 @@ const atRulesReport = async (site) => {
 
 const selectorsReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -233,14 +233,14 @@ const selectorsReport = async (site) => {
 
 const propertiesReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')
@@ -266,14 +266,14 @@ const propertiesReport = async (site) => {
 
 const valuesReport = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       return false
     }
 
-    const analyzerRaw = await files.getFile(analyzerFile)
+    const analyzerRaw = await helpers.getFile(analyzerFile)
     const analyzerData = JSON.parse(analyzerRaw)
 
     console.log('')

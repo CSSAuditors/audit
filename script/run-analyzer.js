@@ -1,24 +1,24 @@
-const files = require('./files.js')
+const helpers = require('./helpers.js')
 const analyzer = require('@projectwallace/css-analyzer')
 
 const analyze = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const cssFileClean = `${folder}/style-clean.css`
 
-    if(!files.fileExists(cssFileClean)) {
+    if(!helpers.fileExists(cssFileClean)) {
       return false
     }
 
-    const cssString = await files.getFile(cssFileClean)
+    const cssString = await helpers.getFile(cssFileClean)
 
     const analyzerFile = `${folder}/analyzer.json`
 
-    if(!files.fileExists(analyzerFile)) {
+    if(!helpers.fileExists(analyzerFile)) {
       analyzer(`${cssString}`)
         .then(result => {
-          files.saveFile(analyzerFile, result, true)
+          helpers.saveFile(analyzerFile, result, true)
 
           console.log(`✅ Analyzer file created in ${folder}`)
         })

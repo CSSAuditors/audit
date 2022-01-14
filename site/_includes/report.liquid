@@ -33,15 +33,22 @@
           {% endif %}
           {% if block.author %}
             {% for author in metadata.authors %}
-              {% assign full_name = author | authorize: "full_name" %}
+              {% assign thisAuthor = authors | where: "name", author | first %}
               <div class="section__piece">
-                <div class="avatar">{{ author | authorize: "avatar" | imagize: full_name, 94 }}</div>
-                <h3>{{ full_name }}</h3>
+                <div class="avatar"><img src="{{ thisAuthor.avatar }}" alt="{{ thisAuthor.full_name }}" height="94" width="94"></div>
+                <h3>{{ thisAuthor.full_name }}</h3>
                 <div class="small">
-                  {{ author | authorize: "bio" }}
-                  <div class="nav nav--alpha">{{ author | authorize: "links" | linkify }}</div>
+                  <p>{{ thisAuthor.bio }}</p>
+                  {% if thisAuthor.links %}
+                    <div class="nav nav--alpha">
+                      <ul>
+                        {% for link in thisAuthor.links %}
+                          <li><a class="plain" href="{{ link.href }}">{{ link.name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
                 </div>
-
               </div>
             {% endfor %}
             <div class="section__piece">

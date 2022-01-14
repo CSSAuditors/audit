@@ -1,6 +1,6 @@
 const filesize = require('filesize')
 const striptags = require('striptags')
-const { getFolder, fileExists, getFile, getFileSync, saveFile } = require('./files')
+const { getFolder, fileExists, getFile, getFileSync, saveFile } = require('./helpers')
 const { getMax, getMin, getMins, getAverage, getRound, getPercent, getSize, getCount, getGzipSize } = require('./calc')
 const { wrapLines, generateSites, reportDate } = require('./template')
 

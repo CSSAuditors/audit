@@ -1,4 +1,4 @@
-const files = require('./files')
+const helpers = require('./helpers')
 const extractorScript = require('./run-extractor')
 const validatorScript = require('./run-validator')
 const coverageScript = require('./run-coverage')
@@ -14,98 +14,56 @@ const { wappalyzerReport, wappalyzersReport, generateWappalyzersReport } = requi
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
-const parameter = '--sites='
-const paramFound = process.argv.indexOf(parameter) === -1
-
-if(!paramFound) {
-  console.error(`Please define sites by specifying ${p} parameter.`);
-  console.error(`Example: ... ${parameter}=sites3.json`);
-  return false
-}
-
-let sites = []
-
-process.argv.forEach(arg => {
-  if(arg.indexOf(parameter) !== -1) {
-    const siteParams = arg
-      .split(`${parameter}`)
-
-    if(siteParams.length > 1) {
-      siteParams[1]
-        .split(',')
-        .map(site => {
-          sites.push(require(`../site/_data/${site}`))
-        })
-    }
-  }
-
-  sites = sites.flat()
-})
-
-if(!sites) {
-  console.error(`No sites found. Check the ${parameter} parameter.`);
-  return false
-}
-
-// const site = process.argv.find(arg => arg.indexOf('site=') !== -1)
-
-// if(site) {
-//   const singleSite = sites.filter(s => site.indexOf(s.title) !== -1)
-
-//   if(singleSite) {
-//     sites = singleSite
-//   }
-// }
-
-const runExtractor = async () => {
-  for(const site of sites) {
-    await extractorScript(site)
+const runExtractor = async (reports) => {
+  for(const report of reports) {
+    await extractorScript(report)
   }
 }
 
-const runValidator = async () => {
-  for(const site of sites) {
-    await validatorScript(site)
+const runValidator = async (reports) => {
+  for(const report of reports) {
+    await validatorScript(report)
   }
 }
 
-const runCoverage = async () => {
-  for(const site of sites) {
-    await coverageScript(site)
+const runCoverage = async (reports) => {
+  for(const report of reports) {
+    await coverageScript(report)
   }
 }
 
-const runScreenshot = async () => {
-  for(const site of sites) {
-    await screenshotScript(site)
+const runScreenshot = async (reports) => {
+  for(const report of reports) {
+    await screenshotScript(report)
   }
 }
 
-const runSpecificity = async () => {
-  for(const site of sites) {
-    await specificityScript(site)
+const runSpecificity = async (reports) => {
+  for(const report of reports) {
+    await specificityScript(report)
   }
 }
 
-const runWappalyzer = async () => {
-  for(const site of sites) {
-    await wappalyzerScript(site)
+const runWappalyzer = async (reports) => {
+  for(const report of reports) {
+    await wappalyzerScript(report)
   }
 }
 
-const runAnalyses = async () => {
-  for(const site of sites) {
-    await analyzerScript(site)
+const runAnalyses = async (reports) => {
+  for(const report of reports) {
+    await analyzerScript(report)
   }
 }
 
-const start = async () => {
-  await runExtractor()
-  await runValidator()
-  await runCoverage()
-  await runScreenshot()
-  await runSpecificity()
-  await runWappalyzer()
+const prepareData = async (reports) => {
+  const reportsData = helpers.prepareData(reports)
+  await runExtractor(reportsData)
+  await runValidator(reportsData)
+  await runCoverage(reportsData)
+  await runScreenshot(reportsData)
+  await runSpecificity(reportsData)
+  await runWappalyzer(reportsData)
   // await runAnalyses()
 }
 
@@ -176,7 +134,7 @@ const generateAnalyses = async () => {
 }
 
 module.exports = {
-  start,
+  prepareData,
   runExtractor,
   runValidator,
   runCoverage,

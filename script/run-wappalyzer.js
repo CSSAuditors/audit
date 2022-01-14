@@ -1,12 +1,12 @@
-const files = require('./files.js')
+const helpers = require('./helpers.js')
 const Wappalyzer = require('wappalyzer')
 
 const wapp = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
     const wappalyzerFile = `${folder}/wappalyzer.json`
 
-    if(!files.fileExists(wappalyzerFile)) {
+    if(!helpers.fileExists(wappalyzerFile)) {
       const wappalyzerConfig = {
         debug: true,
         delay: 1000,
@@ -41,7 +41,7 @@ const wapp = async (site) => {
         const results = await website.analyze()
 
         if(Object.values(results.urls).find(a => a.status === 200)) {
-          files.saveFile(wappalyzerFile, results, true)
+          helpers.saveFile(wappalyzerFile, results, true)
 
           console.log(`✅ Wappalyzer file created in ${folder}`)
         } else {

@@ -1,4 +1,6 @@
 table {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
   border-collapse: collapse;
   border: 1px dashed var(--color-alpha3);
 }
@@ -15,6 +17,10 @@ td {
   border: 1px dashed var(--color-alpha3);
   padding: .25em .5rem;
   vertical-align: baseline;
+
+  .small & {
+    font-size: 85%;
+  }
 }
 
 th {

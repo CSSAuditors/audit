@@ -1,9 +1,14 @@
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
+
+const audit = require('./script/index')
+const reports = require('./site/_data/reports')
 const env = require('./site/_data/env')
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(UpgradeHelper);
 
   const shortcodes = (str) => str.replace(/\[u\]/g, '<span class="highlight">').replace(/\[\\u\]/g, '</span>')
@@ -25,11 +30,13 @@ module.exports = (eleventyConfig) => {
     return collection.getFilteredByGlob("blog/**/*.md");
   });
 
-
   eleventyConfig.addWatchTarget("assets");
   eleventyConfig.addPassthroughCopy({"assets/dist": "."})
   eleventyConfig.addPassthroughCopy({"assets/styleguide": "./styleguide"})
   eleventyConfig.addPassthroughCopy({"assets/favicon": "."})
+  eleventyConfig.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "css/charts.min.css"});
+
+  audit.prepareData(reports)
 
   return {
     dir: {

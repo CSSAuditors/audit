@@ -1,17 +1,17 @@
-const files = require('./files')
+const helpers = require('./helpers')
 const { getMax, getMin, getAverage, getOverall } = require('./calc')
 
 const validatorReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const errorsFile = `${folder}/errors.json`
 
-    if(!files.fileExists(errorsFile)) {
+    if(!helpers.fileExists(errorsFile)) {
       return false
     }
 
-    const errorsRaw = await files.getFile(errorsFile)
+    const errorsRaw = await helpers.getFile(errorsFile)
     const errorsData = JSON.parse(errorsRaw)
 
     if(!silent) {
@@ -37,11 +37,11 @@ const validatorReport = async (site, silent) => {
 
     const warningsFile = `${folder}/warnings.json`
 
-    if(!files.fileExists(warningsFile)) {
+    if(!helpers.fileExists(warningsFile)) {
       return false
     }
 
-    const warningsRaw = await files.getFile(warningsFile)
+    const warningsRaw = await helpers.getFile(warningsFile)
     const warningsData = JSON.parse(warningsRaw)
 
     if(!silent) {
