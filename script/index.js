@@ -1,3 +1,4 @@
+const calc = require('./calc')
 const helpers = require('./helpers')
 const extractorScript = require('./run-extractor')
 const validatorScript = require('./run-validator')
@@ -7,10 +8,10 @@ const specificityScript = require('./run-specificity')
 const wappalyzerScript = require('./run-wappalyzer')
 const analyzerScript = require('./run-analyzer')
 
-const { getExtractorReport, getExtractorsReport } = require('./get-extractor')
+const extractorReport = require('./get-extractor')
+const wappalyzerReport = require('./get-wappalyzer')
 const { validatorReport, validatorsReport } = require('./get-validator')
 const { coverageReport, coveragesReport } = require('./get-coverage')
-const { wappalyzerReport, wappalyzersReport, generateWappalyzersReport } = require('./get-wappalyzer')
 const { specificityReport, specificitiesReport } = require('./get-specificity')
 const { analyzerReport } = require('./get-analyzer')
 
@@ -57,103 +58,86 @@ const runAnalyses = async (reports) => {
 }
 
 const prepareData = async (reports) => {
-  const reportsData = helpers.prepareData(reports)
+  const reportsData = helpers.prepareAllData(reports)
   await runExtractor(reportsData)
   await runValidator(reportsData)
   await runCoverage(reportsData)
   await runScreenshot(reportsData)
   await runSpecificity(reportsData)
   await runWappalyzer(reportsData)
-  // await runAnalyses()
 }
 
-const getExtractor = async () => {
-  for(const site of sites) {
-    await getExtractorReport(site)
+const getExtractor = async (report, name) => {
+  await extractorReport.report(report, name)
+}
+
+const getWappalyzer = async (report, name) => {
+  await wappalyzerReport.report(report, name)
+}
+
+const getValidator = async (reports) => {
+  for(const report of reports) {
+    await validatorReport(report)
   }
 }
 
-const getExtractors = async () => {
-  await getExtractorsReport(sites)
-}
-
-const getValidator = async () => {
-  for(const site of sites) {
-    await validatorReport(site)
-  }
-}
-
-const getValidators = async () => {
+const getValidators = async (reports) => {
   await validatorsReport(sites)
 }
 
-const getCoverage = async () => {
-  for(const site of sites) {
-    coverageAmount = await coverageReport(site)
+const getCoverage = async (reports) => {
+  for(const report of reports) {
+    coverageAmount = await coverageReport(report)
   }
 }
 
-const getCoverages = async () => {
+const getCoverages = async (reports) => {
   await coveragesReport(sites)
 }
 
-const getWappalyzer = async () => {
-  for(const site of sites) {
-    await wappalyzerReport(site)
-  }
-}
-
-const getWappalyzers = async () => {
+const getWappalyzers = async (reports) => {
   generateWappalyzersReport(sites)
   // await wappalyzersReport(sites)
 }
 
-const getSpecificity = async () => {
-  for(const site of sites) {
-    await specificityReport(site)
+const getSpecificity = async (reports) => {
+  for(const report of reports) {
+    await specificityReport(report)
   }
 }
 
-const getSpecificities = async () => {
+const getSpecificities = async (reports) => {
   await specificitiesReport(sites)
 }
 
-const getAnalyzer = async () => {
-  for(const site of sites) {
-    await analyzerReport(site)
+const getAnalyzer = async (reports) => {
+  for(const report of reports) {
+    await analyzerReport(report)
   }
 }
 
-const generateAnalyses = async () => {
-  await getExtractor()
-  await getValidator()
-  await getCoverage()
-  await getWappalyzer()
-  await getSpecificity()
-  await getAnalyzer()
+const processData = async (report, name) => {
+  await getExtractor(report, name)
+  await getWappalyzer(report, name)
+  // await getValidator()
+  // await getCoverage()
+  // await getSpecificity()
+  // await getAnalyzer()
+}
+
+const getExtractorName = (str) => {
+  return extractorReport.getName(str)
+}
+
+const getFileSize = (size) => {
+  return calc.getFileSize(size)
 }
 
 module.exports = {
   prepareData,
-  runExtractor,
-  runValidator,
-  runCoverage,
-  runScreenshot,
-  runSpecificity,
-  runWappalyzer,
-  runAnalyses,
-  getExtractor,
-  getExtractors,
-  getValidator,
-  getValidators,
-  getCoverage,
-  getCoverages,
-  getWappalyzer,
-  getWappalyzers,
-  getSpecificity,
-  getSpecificities,
-  getAnalyzer,
-  generateAnalyses,
+  processData,
+  getExtractorName,
+  getFileSize
 }
 
 require('make-runnable')

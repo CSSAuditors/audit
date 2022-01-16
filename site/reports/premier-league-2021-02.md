@@ -3,8 +3,6 @@ layout: post
 title: The CSS File Size and Count Report for Premier League sites
 description: In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 image: /gfx/the-css-file-size-and-count-report-for-premier-league-sites.jpg
-templateData:
-  object: sites2
 date: 2021-02-17
 tags:
   - report
@@ -32,15 +30,13 @@ In this report, we are going to focus on the size of CSS. The aim of the report 
 
 Sites audited in this report:
 
-{% renderTemplate "liquid", reports %}
-{% if report1 %}
+{% if reports.report1 %}
 <ul>
-{% for item in report1.list %}
+  {% for item in reports.report1.list %}
   <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-{% endfor %}
+  {% endfor %}
 </ul>
 {% endif %}
-{% endrenderTemplate %}
 
 Note that we included all sites of the Premier League plus the Premier League official site.
 
@@ -65,9 +61,105 @@ To make the text more readable, the terms “site” and “homepage” refer to
 
 ## The CSS File Sizes
 
-- var:
-item: $htmlReportSizes
-type: extractor
+{% if report1-extractor %}
+<table class="small">
+  <tbody>
+  <tr>
+    <th>Type</th>
+    <th>Site</th>
+    <th class="tar">Size</th>
+    <th class="tar">Gzip</th>
+  </tr>
+  <tr>
+    <td><b>Site with the largest {{ "link-or-import" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxSizeImport.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeImport['link-or-import'].size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeImport['link-or-import'].gzip | fileSize }}</td>
+  </tr>
+  <tr>
+  {% assign minSizeImports = report1-extractor.minSizeImports | size %}
+  {% if minSizeImports > 0 %}
+  {% assign minSize = report1-extractor.minSizeImports | size %}
+  {% for minItem in report1-extractor.minSizeImports %}
+  <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "link-or-import" | extractorName }}</b></td>
+  <td>{{ minItem.site.title }}</td>
+  <td class="tar">-</td>
+  <td class="tar">-</td>
+  {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minSizeImport.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minSizeImport['link-or-import'].size | fileSize }}</td>
+  <td class="tar">{{ report1-extractor.minSizeImport['link-or-import'].gzip | fileSize }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgSizeImport.size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.avgSizeImport.gzip | fileSize }}</td>
+  </tr>
+  <tr>
+    <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxSizeStyle.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeStyle['style'].size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeStyle['style'].gzip | fileSize }}</td>
+  </tr>
+  <tr>
+  {% assign minSizeStyles = report1-extractor.minSizeStyles | size %}
+  {% if minSizeStyles > 0 %}
+  {% assign minSize = report1-extractor.minSizeStyles | size %}
+  {% for minItem in report1-extractor.minSizeStyles %}
+  <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "style" | extractorName }}</b></td>
+  <td>{{ minItem.site.title }}</td>
+  <td class="tar">-</td>
+  <td class="tar">-</td>
+  {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minSizeStyle.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minSizeStyle['style'].size | fileSize }}</td>
+  <td class="tar">{{ report1-extractor.minSizeStyle['style'].gzip | fileSize }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "style" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgSizeStyle.size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.avgSizeStyle.gzip | fileSize }}</td>
+  </tr>
+  <tr>
+    <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxSizeInline.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeInline['inline'].size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.maxSizeInline['inline'].gzip | fileSize }}</td>
+  </tr>
+  <tr>
+  {% assign minSizeInlines = report1-extractor.minSizeInlines | size %}
+  {% if minSizeInlines > 0 %}
+    {% assign minSize = report1-extractor.minSizeInlines | size %}
+    {% for minItem in report1-extractor.minSizeInlines %}
+    <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "inline" | extractorName }}</b></td>
+    <td>{{ minItem.site.title }}</td>
+    <td class="tar">-</td>
+    <td class="tar">-</td>
+    {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minSizeInline.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minSizeInline['inline'].size | fileSize }}</td>
+  <td class="tar">{{ report1-extractor.minSizeInline['inline'].gzip | fileSize }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "inline" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgSizeInline.size | fileSize }}</td>
+    <td class="tar">{{ report1-extractor.avgSizeInline.gzip | fileSize }}</td>
+  </tr>
+  </tbody>
+</table>
+{% endif %}
 
 ### The Findings
 
@@ -83,7 +175,37 @@ According to [Web Almanac](https://almanac.httparchive.org/en/2020/css#usage), a
 item: ReportSizeCombined
 type: extractor
 
-_This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._
+{% comment %}
+  <style>
+  #bar-example-5 {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  </style>
+  {% assign externalCount = report %}
+  <table id="bar-example-5" class="charts-css bar multiple data-spacing-3">
+    <caption> Bar Example #5 </caption>
+    <tbody>
+      <tr>
+        <td style="--size:0.2;"></td>
+        <td style="--size:0.4;"></td>
+        <td style="--size:0.6;"></td>
+        <td style="--size:0.8;"></td>
+        <td style="--size:1;"></td>
+      </tr>
+      <tr>
+        <td style="--size:0.2;"></td>
+        <td style="--size:0.4;"></td>
+        <td style="--size:0.6;"></td>
+        <td style="--size:0.8;"></td>
+        <td style="--size:1;"></td>
+      </tr>
+    </tbody>
+  </table>
+{% endcomment %}
+
+{% comment %} _This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._ {% endcomment %}
 
 
 Burnley’s and Chelsea’s sites do not load any external CSS file. The Premier League’s site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
@@ -96,19 +218,114 @@ Regarding the inline `style` attribute, all sites load less than 8KB of CSS code
 
 According to Wappalyzer, a tool for identifying technologies on websites, only three sites use UI frameworks: Leeds’s and West Ham’s sites use Bootstrap and WBA’s site uses the ZURB Foundation framework.
 
-- var:
-item: $htmlWappalyzer
-type: wappalyzer
+{% if report1-wappalyzer %}
+<table class="small">
+  <tbody>
+  <tr>
+    <th>Site</th>
+    <th>UI framework</th>
+  </tr>
+  {% for item in report1-wappalyzer %}
+  <tr>
+    <td>{{ item.site.title }}</td>
+    <td>{{ item.frameworks }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
 
 Let us compare the average size of the Premier League site to UI frameworks sizes. The full version of Materialize CSS is around ~142KB, Bootstrap is around ~160KB, Foundation is around 168KB, and Tachyons is around ~205KB. Premier League sites load CSS code that is more than five times bigger than the entire Materialize CSS, more than 4.5 times bigger than Bootstrap, almost 4.5 times bigger than Foundation, and more than 3.5 times bigger than Tachyons.
 
 ## The CSS File Counts
 
-object: sizes
-list:
-- var:
-item: $htmlReportCount
-type: extractor
+
+{% if report1-extractor %}
+<table class="small">
+  <tbody>
+  <tr>
+    <th>Type</th>
+    <th>Site</th>
+    <th class="tar">Count</th>
+  </tr>
+  <tr>
+    <td><b>Site with the largest number of  {{ "link-or-import" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxCountImport.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxCountImport['link-or-import'].count }}</td>
+  </tr>
+  <tr>
+  {% assign minCountImports = report1-extractor.minCountImports | size %}
+  {% if minCountImports > 0 %}
+  {% assign minCount = report1-extractor.minCountImports | size %}
+  {% for minItem in report1-extractor.minCountImports %}
+  <td><b>{% if minCount > 1 %}Sites{% else %}Site{% endif %} with no {{ "link-or-import" | extractorName }}</b></td>
+  <td>{{ minItem.site.title }}</td>
+  <td class="tar">0</td>
+  {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minCountImport.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minCountImport['link-or-import'].count }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgCountImport | floor }}</td>
+  </tr>
+  <tr>
+    <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxCountStyle.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxCountStyle['style'].count }}</td>
+  </tr>
+  <tr>
+  {% assign minCountStyles = report1-extractor.minCountStyles | size %}
+  {% if minCountStyles > 0 %}
+  {% assign minCount = report1-extractor.minCountStyles | size %}
+  {% for minItem in report1-extractor.minCountStyles %}
+  <td><b>{% if minCount > 1 %}Sites{% else %}Site{% endif %} with no {{ "style" | extractorName }}</b></td>
+  <td>{{ minItem.site.title }}</td>
+  <td class="tar">0</td>
+  {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minCountStyle.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minCountStyle['style'].count }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "style" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgCountStyle | floor }}</td>
+  </tr>
+  <tr>
+    <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
+    <td>{{ report1-extractor.maxCountInline.site.title }}</td>
+    <td class="tar">{{ report1-extractor.maxCountInline['inline'].count }}</td>
+  </tr>
+  <tr>
+  {% assign minCountInlines = report1-extractor.minCountInlines | size %}
+  {% if minCountInlines > 0 %}
+  {% assign minCount = report1-extractor.minCountInlines | size %}
+  {% for minItem in report1-extractor.minCountInlines %}
+  <td><b>{% if minCount > 1 %}Sites{% else %}Site{% endif %} with no {{ "inline" | extractorName }}</b></td>
+  <td>{{ minItem.site.title }}</td>
+  <td class="tar">0</td>
+  {% endfor %}
+  {% else %}
+  <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
+  <td>{{ report1-extractor.minCountInline.site.title }}</td>
+  <td class="tar">{{ report1-extractor.minCountInline['inline'].count }}</td>
+  {% endif %}
+  </tr>
+  <tr>
+    <td><b>Average size of {{ "inline" | extractorName }}</b></td>
+    <td>-</td>
+    <td class="tar">{{ report1-extractor.avgCountInline | floor }}</td>
+  </tr>
+  </tbody>
+</table>
+{% endif %}
 
 ### The Findings
 
@@ -124,7 +341,37 @@ According to Web Almanac, 7% of all pages use a single External CSS file, while 
 item: ReportCountCombined
 type: extractor
 
-_This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._
+{% comment %}
+  <style>
+  #bar-example-5 {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  </style>
+  {% assign externalCount = report %}
+  <table id="bar-example-5" class="charts-css bar multiple data-spacing-3">
+    <caption> Bar Example #5 </caption>
+    <tbody>
+      <tr>
+        <td style="--size:0.2;"></td>
+        <td style="--size:0.4;"></td>
+        <td style="--size:0.6;"></td>
+        <td style="--size:0.8;"></td>
+        <td style="--size:1;"></td>
+      </tr>
+      <tr>
+        <td style="--size:0.2;"></td>
+        <td style="--size:0.4;"></td>
+        <td style="--size:0.6;"></td>
+        <td style="--size:0.8;"></td>
+        <td style="--size:1;"></td>
+      </tr>
+    </tbody>
+  </table>
+{% endcomment %}
+
+{% comment %} _This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._ {% endcomment %}
 
 The only site that does not load any External CSS file is Burnley’s site. Six sites load only a single External CSS file, including Brighton’s, Chelsea’s, Everton’s, Manchester’s, Newcastle’s, and Tottenham’s site. On the other hand, West Ham’s site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa’s and Liverpool’s sites.
 
@@ -161,62 +408,46 @@ Combining all CSS files in a single one, moving code from `<style>` tags and `st
 - Article: [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
 - Report: [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
 
-{% comment %}
 ## Complete Report
 
-{% renderTemplate "liquid", reports %}
-{% if report1 %}
-<style>
-#bar-example-5 {
-  height: 200px;
-  width: 100%;
-  margin: 0 auto;
-}
-</style>
-{% assign externalCount = report %}
-<table id="bar-example-5" class="charts-css bar multiple data-spacing-3">
-  <caption> Bar Example #5 </caption>
+{% if report1-extractor %}
+<table class="small">
   <tbody>
-    <tr>
-      <td style="--size:0.2;"></td>
-      <td style="--size:0.4;"></td>
-      <td style="--size:0.6;"></td>
-      <td style="--size:0.8;"></td>
-      <td style="--size:1;"></td>
-    </tr>
-    <tr>
-      <td style="--size:0.2;"></td>
-      <td style="--size:0.4;"></td>
-      <td style="--size:0.6;"></td>
-      <td style="--size:0.8;"></td>
-      <td style="--size:1;"></td>
-    </tr>
+  <tr>
+    <th>Type</th>
+    <th class="tar">Count</th>
+    <th class="tar">Size</th>
+    <th class="tar">Gzip</th>
+  </tr>
+  {% for item in report1-extractor.list %}
+  <tr>
+    <td colspan="4"><b>{{ item.site.title }}</b></td>
+  </tr>
+  {% if item['link-or-import'] %}
+  <tr>
+    <td>{{ item['link-or-import'].name }}</td>
+    <td class="tar">{{ item['link-or-import'].count }}</td>
+    <td class="tar">{{ item['link-or-import'].size | fileSize }}</td>
+    <td class="tar">{{ item['link-or-import'].gzip | fileSize }}</td>
+  </tr>
+  {% endif %}
+  {% if item['style'] %}
+  <tr>
+    <td>{{ item['style'].name }}</td>
+    <td class="tar">{{ item['style'].count }}</td>
+    <td class="tar">{{ item['style'].size | fileSize }}</td>
+    <td class="tar">{{ item['style'].gzip | fileSize }}</td>
+  </tr>
+  {% endif %}
+  {% if item['inline'] %}
+  <tr>
+    <td>{{ item['inline'].name }}</td>
+    <td class="tar">{{ item['inline'].count }}</td>
+    <td class="tar">{{ item['inline'].size | fileSize }}</td>
+    <td class="tar">{{ item['inline'].gzip | fileSize }}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
   </tbody>
 </table>
-<table class="charts-css">
-{% for item in report1.list %}
-{% for itemData in item.data %}
-{% if itemData.name == "Total count of External CSS" %}
-  <tr>
-    <td><b>{{ itemData.value }}</b></td>
-  </tr>
 {% endif %}
-{% endfor %}
-{% endfor %}
-</table>
-<table class="small">
-<tbody>
-{% for item in report1.list %}
-<tr>
-  <th colspan="2"><b>{{ item.title }}</b></th>
-</tr>
-{% for itemData in item.data %}
-  <tr>
-    <td>{{ itemData.name }}</td><td><b>{{ itemData.value }}</b></td>
-  </tr>
-{% endfor %}
-{% endfor %}
-</tbody>
-</table>
-{% endif %}
-{% endrenderTemplate %} {% endcomment %}

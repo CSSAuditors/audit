@@ -21,6 +21,10 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addLiquidFilter('markdownifyi', (str) => runMarkdownInline(str))
 
+  eleventyConfig.addLiquidFilter('extractorName', (str) => audit.getExtractorName(str))
+
+  eleventyConfig.addLiquidFilter('fileSize', (str) => audit.getFileSize(str))
+
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
     strictFilters: false,
@@ -31,12 +35,17 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addWatchTarget("assets");
+  eleventyConfig.addWatchTarget("script");
   eleventyConfig.addPassthroughCopy({"assets/dist": "."})
   eleventyConfig.addPassthroughCopy({"assets/styleguide": "./styleguide"})
   eleventyConfig.addPassthroughCopy({"assets/favicon": "."})
   eleventyConfig.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "css/charts.min.css"});
 
   audit.prepareData(reports)
+
+  setTimeout(() => {
+    audit.processData(reports.report1, 'report1')
+  }, 1000)
 
   return {
     dir: {

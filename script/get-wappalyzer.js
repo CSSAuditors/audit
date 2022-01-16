@@ -1,65 +1,11 @@
 const helpers = require('./helpers')
-const { wrapLines } = require('./template')
-const { getPercent } = require('./calc')
+const calc = require('./calc')
 
-const wappalyzerReport = async (site, silent) => {
-  return new Promise(async (resolve, reject) => {
-    const folder = helpers.getFolder(site)
-    const wappalyzerFile = `${folder}/wappalyzer.json`
-
-    if(!helpers.fileExists(wappalyzerFile)) {
-      return false
-    }
-
-    const wappalyzerRaw = await helpers.getFile(wappalyzerFile)
-    const wappalyzerData = JSON.parse(wappalyzerRaw)
-
-    const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
-
-    const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
-
-    if(!silent) {
-      console.log('')
-      console.log('WAPPALYZER')
-      console.log(`📉[${site.title}] UI frameworks:`, frameworksUsed)
-    }
-
-    resolve(frameworksUsed)
-  })
-}
-
-const wappalyzersReport = async (sites, silent) => {
-  const arr = []
-
-  for(const site of sites) {
-    arr.push({...{frameworks: await wappalyzerReport(site, silent)}, site: site})
-  }
-
-  if(!silent) {
-    console.log('')
-    console.log('WAPPALYZERS')
-  }
-
-  const frameworks = arr.filter(item => item.frameworks !== 'None')
-
-  if(!silent) {
-    frameworks.forEach(framework => {
-      console.log(`📊 ${framework.site.title} uses these UI frameworks: ${framework.frameworks}`)
-    })
-
-    console.log(`📊 Percent of sites that uses UI frameworks: ${getPercent(frameworks.length, arr.length)}`)
-  }
-
-  return {
-    frameworks: frameworks
-  }
-}
-
-const wappalyzerReportSync = (site, silent) => {
+const wappalyzerReportSync = (site) => {
   const folder = helpers.getFolder(site)
   const wappalyzerFile = `${folder}/wappalyzer.json`
 
-  if(!helpers.fileExists(wappalyzerFile)) {
+  if (!helpers.fileExists(wappalyzerFile)) {
     return false
   }
 
@@ -68,72 +14,39 @@ const wappalyzerReportSync = (site, silent) => {
 
   const frameworks = wappalyzerData.technologies.filter(tech => tech.categories.find(category => category.slug === 'ui-frameworks'))
 
-  const frameworksUsed = frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None'
-
-  if(!silent) {
-    console.log('')
-    console.log('WAPPALYZER')
-    console.log(`📉[${site.title}] UI frameworks:`, frameworksUsed)
+  const frameworksUsed = {
+    frameworks: frameworks.length > 0 ? frameworks.map(framework => framework.name).join(', ') : 'None',
+    site: site
   }
 
   return frameworksUsed
 }
 
-const wappalyzersReportSync = (sites, silent) => {
-  const arr = []
+const report = (sites, name) => {
+  const root = helpers.getRootDirectoryBase();
+  const wappalyzerFile = `${root}/site/_data/${name}-wappalyzer.json`
 
-  for(const site of sites) {
-    arr.push({...{frameworks: wappalyzerReportSync(site, silent)}, site: site})
-  }
+  if(!helpers.fileExists(wappalyzerFile) && sites.list) {
+    const wappalyzerData = []
 
-  if(!silent) {
-    console.log('')
-    console.log('WAPPALYZERS')
-  }
-
-  const frameworks = arr.filter(item => item.frameworks !== 'None')
-
-  if(!silent) {
-    frameworks.forEach(framework => {
-      console.log(`📊 ${framework.site.title} uses these UI frameworks: ${framework.frameworks}`)
-    })
-
-    console.log(`📊 Percent of sites that uses UI frameworks: ${getPercent(frameworks.length, arr.length)}`)
-  }
-
-  return {
-    frameworks: frameworks
-  }
-}
-
-const generateWappalyzersReport = (sites, fresh) => {
-  const folder = helpers.getFolder(sites[0], true)
-  const wappalyzerFile = `${folder}/wappalyzer.json`
-  let wappalyzerData
-
-  if(helpers.fileExists(wappalyzerFile)) {
-    wappalyzerData = JSON.parse(helpers.getFileSync(wappalyzerFile))
-  }
-
-  if(fresh || !wappalyzerData) {
-    const report = wappalyzersReportSync(sites, true)
-
-    const htmlFrameworks = report.frameworks.map(framework => `<td>${framework.site.title}</td><td>${framework.frameworks}</td>`).join('\n')
-
-    wappalyzerData = {
-      $htmlWappalyzer: `<table><tr><th>Site</th><th>UI Framework</th></tr>${wrapLines(htmlFrameworks, '\n', 'tr', '\n')}</table>`,
+    for (const site of sites.list) {
+      wappalyzerData.push({
+        ...wappalyzerReportSync(site)
+      })
     }
 
-    helpers.saveFile(wappalyzerFile, wappalyzerData, true)
+    const frameworksData = wappalyzerData.filter(item => item.frameworks !== 'None')
+
+    console.log(`✅ Wappalyzer data saved at ${wappalyzerFile}`)
+
+    helpers.saveFile(wappalyzerFile, frameworksData, true)
   }
 
-  return wappalyzerData
+  console.log(`✅ Wappalyzer data exists at ${wappalyzerFile}`)
+
+  return true
 }
 
 module.exports = {
-  wappalyzerReport,
-  wappalyzersReport,
-  wappalyzerReportSync,
-  wappalyzersReportSync,
-  generateWappalyzersReport
+  report
 }

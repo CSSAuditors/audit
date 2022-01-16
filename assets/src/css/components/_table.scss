@@ -3,11 +3,20 @@ table {
   margin-bottom: 2em;
   border-collapse: collapse;
   border: 1px dashed var(--color-alpha3);
+  min-width: 100%;
+
+  .tar {
+    text-align: right;
+  }
 }
 
 tr {
   &:nth-child(even) {
     background-color: var(--color-beta2);
+  }
+
+  &:hover {
+    background-color: var(--color-beta3);
   }
 }
 
@@ -27,14 +36,4 @@ th {
   font-weight: 500;
   font-size: .875rem;
   text-align: left;
-}
-
-td {
-  &:nth-child(2) {
-    text-align: left;
-  }
-
-  &:nth-child(3) {
-    text-align: right;
-  }
 }
