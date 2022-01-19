@@ -1,9 +1,17 @@
+.table-wrapper {
+  max-width: 90vw;
+  overflow-x: auto;
+}
+
 table {
   margin-top: 1.5em;
   margin-bottom: 2em;
   border-collapse: collapse;
   border: 1px dashed var(--color-alpha3);
-  min-width: 100%;
+
+  &:not(.charts-css) {
+    min-width: 100%;
+  }
 
   .tar {
     text-align: right;
@@ -36,4 +44,69 @@ th {
   font-weight: 500;
   font-size: .875rem;
   text-align: left;
+}
+
+// Charts CSS
+.report {
+  .table-wrapper {
+    .charts-css.bar {
+      --color-1: hsl(222, 88%, 55%);
+      --color-2: hsl(252, 88%, 55%);
+      --color-3: hsl(192, 88%, 55%);
+      --color-4: hsl(242, 88%, 55%);
+      --color-5: hsl(202, 88%, 55%);
+      --color-6: hsl(232, 88%, 55%);
+      --color-7: hsl(212, 88%, 55%);
+      --color-8: hsl(262, 88%, 55%);
+      --color-9: hsl(182, 88%, 55%);
+      --color-10: hsl(272, 88%, 55%);
+      --heading-size: 2.5rem;
+      --col-height: 2.5rem;
+      height: calc(var(--col-height) * var(--cols));
+      width: calc(var(--maxw-alpha) - 1.5rem);
+      color: var(--color-beta);
+
+      caption {
+        font-size: 125%;
+      }
+
+      th {
+        align-items: flex-end;
+        padding-right: 1rem;
+        text-align: right;
+        line-height: 1.2;
+      }
+
+      td {
+        position: relative;
+        cursor: pointer;
+      }
+
+      td span {
+        display: none;
+        background-color: white;
+        line-height: 1;
+        position: absolute;
+        bottom: calc(100% + .25em);
+        left: 1px;
+        padding: 1px .2em;
+        box-shadow: 0 0 1px 1px var(--color-alpha);
+        white-space: nowrap;
+        z-index: 1;
+      }
+
+      td:hover span {
+        display: block;
+      }
+
+      tr:hover th {
+        color: var(--color-alpha);
+      }
+    }
+
+    .charts-css.legend-inline {
+      justify-content: center;
+      border: 0;
+    }
+  }
 }

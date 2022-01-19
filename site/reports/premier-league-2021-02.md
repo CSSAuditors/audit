@@ -57,15 +57,16 @@ Since we stumbled upon some errors while extracting the CSS code from these site
 
 To make the text more readable, the terms “site” and “homepage” refer to the same thing: the site’s homepage.
 
-⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.
+<small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.</small>
 
 ## The CSS File Sizes
 
 {% if report1-extractor %}
+<div class="table-wrapper">
 <table class="small">
   <tbody>
   <tr>
-    <th>Type</th>
+    <th></th>
     <th>Site</th>
     <th class="tar">Size</th>
     <th class="tar">Gzip</th>
@@ -159,6 +160,7 @@ To make the text more readable, the terms “site” and “homepage” refer to
   </tr>
   </tbody>
 </table>
+</div>
 {% endif %}
 
 ### The Findings
@@ -171,42 +173,62 @@ According to [Web Almanac](https://almanac.httparchive.org/en/2020/css#usage), a
 
 > While JavaScript far surpasses CSS in its share of page weight, CSS has certainly grown in size over the years, with the median desktop page loading 62 KB of CSS code, and one in ten pages loading more than 240 KB of CSS code.
 
-- chart:
-item: ReportSizeCombined
-type: extractor
+{% if report1-extractor %}
+<div class="table-wrapper">
+<table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-3" style="--labels-size: 11em;--cols: {{ report1-extractor.list | size }}">
+  <caption>CSS sizes</caption>
+  <thead>
+    <tr>
+      <th scope="col">Site</th>
+      <th scope="col">Size</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in report1-extractor.list %}
+  {% assign maxImportSize = report1-extractor.maxSizeImport['link-or-import'].size %}
+  {% if item['link-or-import'].size %}
+    {% assign importSize = item['link-or-import'].size %}
+    {% assign importSizePercent = importSize | divided_by: maxImportSize %}
+  {% else %}
+    {% assign importSize = 0 %}
+    {% assign importSizePercent = 0 %}
+  {% endif %}
+  {% assign maxStyleSize = report1-extractor.maxSizeStyle['style'].size %}
+  {% if item['style'].size %}
+    {% assign styleSize = item['style'].size %}
+    {% assign styleSizePercent = styleSize | divided_by: maxStyleSize %}
+  {% else %}
+    {% assign styleSize = 0 %}
+    {% assign styleSizePercent = 0 %}
+  {% endif %}
+  {% assign maxInlineSize = report1-extractor.maxSizeInline['inline'].size %}
+  {% if item['inline'].size %}
+    {% assign inlineSize = item['inline'].size %}
+    {% assign inlineSizePercent = inlineSize | divided_by: maxInlineSize %}
+  {% else %}
+    {% assign inlineSize = 0 %}
+    {% assign inlineSizePercent = 0 %}
+  {% endif %}
+  <tr>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ importSizePercent }};"><span>{{ item['link-or-import'].name }}: {{ importSize | fileSize }}</span></td>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ styleSizePercent }};"><span>{{ item['style'].name }}: {{ styleSize | fileSize }}</span></td>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ inlineSizePercent }};"><span>{{ item['inline'].name }}: {{ inlineSize | fileSize }}</span></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<ul class="charts-css legend legend-inline legend-circle">
+  <li style="--color-1: hsl(222, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['link-or-import'].name }}</small></li>
+  <li style="--color-2: hsl(252, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['style'].name }}</small></li>
+  <li style="--color-3: hsl(192, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['inline'].name }}</small></li>
+</ul>
+</div>
+{% endif %}
 
-{% comment %}
-  <style>
-  #bar-example-5 {
-    height: 200px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  </style>
-  {% assign externalCount = report %}
-  <table id="bar-example-5" class="charts-css bar multiple data-spacing-3">
-    <caption> Bar Example #5 </caption>
-    <tbody>
-      <tr>
-        <td style="--size:0.2;"></td>
-        <td style="--size:0.4;"></td>
-        <td style="--size:0.6;"></td>
-        <td style="--size:0.8;"></td>
-        <td style="--size:1;"></td>
-      </tr>
-      <tr>
-        <td style="--size:0.2;"></td>
-        <td style="--size:0.4;"></td>
-        <td style="--size:0.6;"></td>
-        <td style="--size:0.8;"></td>
-        <td style="--size:1;"></td>
-      </tr>
-    </tbody>
-  </table>
-{% endcomment %}
-
-{% comment %} _This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._ {% endcomment %}
-
+<small>_This graph is interactive. You could tap or hover over bars to see extra information._</small>
 
 Burnley’s and Chelsea’s sites do not load any external CSS file. The Premier League’s site loads more than 2MB of External CSS. Four other sites load more than 1MB of External CSS.
 
@@ -219,11 +241,12 @@ Regarding the inline `style` attribute, all sites load less than 8KB of CSS code
 According to Wappalyzer, a tool for identifying technologies on websites, only three sites use UI frameworks: Leeds’s and West Ham’s sites use Bootstrap and WBA’s site uses the ZURB Foundation framework.
 
 {% if report1-wappalyzer %}
+<div class="table-wrapper">
 <table class="small">
   <tbody>
   <tr>
-    <th>Site</th>
-    <th>UI framework</th>
+    <th><b>Site</b></th>
+    <th><b>UI framework</b></th>
   </tr>
   {% for item in report1-wappalyzer %}
   <tr>
@@ -233,6 +256,7 @@ According to Wappalyzer, a tool for identifying technologies on websites, only t
   {% endfor %}
   </tbody>
 </table>
+</div>
 {% endif %}
 
 Let us compare the average size of the Premier League site to UI frameworks sizes. The full version of Materialize CSS is around ~142KB, Bootstrap is around ~160KB, Foundation is around 168KB, and Tachyons is around ~205KB. Premier League sites load CSS code that is more than five times bigger than the entire Materialize CSS, more than 4.5 times bigger than Bootstrap, almost 4.5 times bigger than Foundation, and more than 3.5 times bigger than Tachyons.
@@ -241,10 +265,11 @@ Let us compare the average size of the Premier League site to UI frameworks size
 
 
 {% if report1-extractor %}
+<div class="table-wrapper">
 <table class="small">
   <tbody>
   <tr>
-    <th>Type</th>
+    <th></th>
     <th>Site</th>
     <th class="tar">Count</th>
   </tr>
@@ -325,6 +350,7 @@ Let us compare the average size of the Premier League site to UI frameworks size
   </tr>
   </tbody>
 </table>
+</div>
 {% endif %}
 
 ### The Findings
@@ -337,41 +363,63 @@ According to Web Almanac, 7% of all pages use a single External CSS file, while 
 
 > All these kilobytes of code are typically distributed across multiple files and `<style>` elements; only about 7% of pages concentrate all their CSS code in one remote stylesheet, as we are often taught to do. In fact, the median page contains 3 `<style>` elements and 6 remote stylesheets, with 10% of them carrying over 14 `<style>` elements and over 20 remote CSS files! While this is suboptimal on desktop, it really kills performance on mobile, where round-trip latency is more important than raw download speed.
 
-- chart:
-item: ReportCountCombined
-type: extractor
+{% if report1-extractor %}
+<div class="table-wrapper">
+<table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-3" style="--labels-size: 11em;--cols: {{ report1-extractor.list | size }}">
+  <caption>CSS count</caption>
+  <thead>
+    <tr>
+      <th scope="col">Site</th>
+      <th scope="col">Count</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in report1-extractor.list %}
+  {% assign maxImportCount = report1-extractor.maxCountImport['link-or-import'].count %}
+  {% if item['link-or-import'].count %}
+    {% assign importCount = item['link-or-import'].count %}
+    {% assign importCountPercent = importCount | divided_by: maxImportCount %}
+  {% else %}
+    {% assign importCount = 0 %}
+    {% assign importCountPercent = 0 %}
+  {% endif %}
+  {% assign maxStyleCount = report1-extractor.maxCountStyle['style'].count %}
+  {% if item['style'].count %}
+    {% assign styleCount = item['style'].count %}
+    {% assign styleCountPercent = styleCount | divided_by: maxStyleCount %}
+  {% else %}
+    {% assign styleCount = 0 %}
+    {% assign styleCountPercent = 0 %}
+  {% endif %}
+  {% assign maxInlineCount = report1-extractor.maxCountInline['inline'].count %}
+  {% if item['inline'].count %}
+    {% assign inlineCount = item['inline'].count %}
+    {% assign inlineCountPercent = inlineCount | divided_by: maxInlineCount %}
+  {% else %}
+    {% assign inlineCount = 0 %}
+    {% assign inlineCountPercent = 0 %}
+  {% endif %}
+  <tr>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ importCountPercent }};"><span>{{ item['link-or-import'].name }}: {{ importCount }}</span></td>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ styleCountPercent }};"><span>{{ item['style'].name }}: {{ styleCount }}</span></td>
+  <th scope="row">{{ item.site.title }}</th>
+  <td style="--size:{{ inlineCountPercent }};"><span>{{ item['inline'].name }}: {{ inlineCount }}</span></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<ul class="charts-css legend legend-inline legend-circle">
+  <li style="--color-1: hsl(222, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['link-or-import'].name }}</small></li>
+  <li style="--color-2: hsl(252, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['style'].name }}</small></li>
+  <li style="--color-3: hsl(192, 88%, 55%);"><small>{{ report1-extractor.maxSizeInline['inline'].name }}</small></li>
+</ul>
+</div>
+</div>
+{% endif %}
 
-{% comment %}
-  <style>
-  #bar-example-5 {
-    height: 200px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  </style>
-  {% assign externalCount = report %}
-  <table id="bar-example-5" class="charts-css bar multiple data-spacing-3">
-    <caption> Bar Example #5 </caption>
-    <tbody>
-      <tr>
-        <td style="--size:0.2;"></td>
-        <td style="--size:0.4;"></td>
-        <td style="--size:0.6;"></td>
-        <td style="--size:0.8;"></td>
-        <td style="--size:1;"></td>
-      </tr>
-      <tr>
-        <td style="--size:0.2;"></td>
-        <td style="--size:0.4;"></td>
-        <td style="--size:0.6;"></td>
-        <td style="--size:0.8;"></td>
-        <td style="--size:1;"></td>
-      </tr>
-    </tbody>
-  </table>
-{% endcomment %}
-
-{% comment %} _This graph is interactive. You could hover or tap regions to see extra information and enable or disable specific metrics by clicking on a label below the graph._ {% endcomment %}
+<small>_This graph is interactive. You could tap or hover over bars to see extra information._</small>
 
 The only site that does not load any External CSS file is Burnley’s site. Six sites load only a single External CSS file, including Brighton’s, Chelsea’s, Everton’s, Manchester’s, Newcastle’s, and Tottenham’s site. On the other hand, West Ham’s site loads 28 External CSS files, while two other sites load more than 10 External CSS files, Aston Villa’s and Liverpool’s sites.
 
@@ -411,10 +459,11 @@ Combining all CSS files in a single one, moving code from `<style>` tags and `st
 ## Complete Report
 
 {% if report1-extractor %}
+<div class="table-wrapper">
 <table class="small">
   <tbody>
   <tr>
-    <th>Type</th>
+    <th></th>
     <th class="tar">Count</th>
     <th class="tar">Size</th>
     <th class="tar">Gzip</th>
@@ -450,4 +499,5 @@ Combining all CSS files in a single one, moving code from `<style>` tags and `st
   {% endfor %}
   </tbody>
 </table>
+</div>
 {% endif %}
