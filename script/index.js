@@ -3,7 +3,7 @@ const helpers = require('./helpers')
 const extractorScript = require('./run-extractor')
 const validatorScript = require('./run-validator')
 const coverageScript = require('./run-coverage')
-const screenshotScript = require('./run-screenshot')
+// const screenshotScript = require('./run-screenshot')
 const specificityScript = require('./run-specificity')
 const wappalyzerScript = require('./run-wappalyzer')
 const analyzerScript = require('./run-analyzer')
@@ -33,11 +33,11 @@ const runCoverage = async (reports) => {
   }
 }
 
-const runScreenshot = async (reports) => {
-  for(const report of reports) {
-    await screenshotScript(report)
-  }
-}
+// const runScreenshot = async (reports) => {
+//   for(const report of reports) {
+//     await screenshotScript(report)
+//   }
+// }
 
 const runSpecificity = async (reports) => {
   for(const report of reports) {
@@ -62,9 +62,10 @@ const prepareData = async (reports) => {
   await runExtractor(reportsData)
   await runValidator(reportsData)
   await runCoverage(reportsData)
-  await runScreenshot(reportsData)
+  // await runScreenshot(reportsData)
   await runSpecificity(reportsData)
   await runWappalyzer(reportsData)
+  return true
 }
 
 const getExtractor = async (report, name) => {

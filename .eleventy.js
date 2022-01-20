@@ -45,6 +45,7 @@ module.exports = (eleventyConfig) => {
 
   setTimeout(() => {
     audit.processData(reports.report1, 'report1')
+    audit.processData(reports.report2, 'report2')
   }, 1000)
 
   return {
