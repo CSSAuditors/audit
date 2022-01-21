@@ -8,6 +8,15 @@ const reports = require('./site/_data/reports')
 const env = require('./site/_data/env')
 
 module.exports = (eleventyConfig) => {
+  let markdownIt2 = require("markdown-it");
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt2(options).disable('code'));
+
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(UpgradeHelper);
 

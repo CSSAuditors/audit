@@ -1,20 +1,20 @@
-{% if report %}
+{%- if report -%}
 <div class="table-wrapper">
-<table class="small">
-  <thead>
-  <tr>
-    <th><b>Site</b></th>
-    <th><b>UI framework</b></th>
-  </tr>
-  </thead>
-  <tbody>
-  {% for item in report %}
-  <tr>
-    <td>{{ item.site.title }}</td>
-    <td>{{ item.frameworks }}</td>
-  </tr>
-  {% endfor %}
-  </tbody>
-</table>
+  <table class="small">
+    <thead>
+      <tr>
+        <th><b>Site</b></th>
+        <th><b>UI framework</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for item in report -%}
+        <tr>
+          <td>{{ item.site.title }}</td>
+          <td>{{ item.frameworks }}</td>
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
 </div>
-{% endif %}
+{%- endif -%}

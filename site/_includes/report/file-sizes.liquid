@@ -1,103 +1,104 @@
-{% if report %}
+{%- if report -%}
 <div class="table-wrapper">
-<table class="small">
-  <thead>
-  <tr>
-    <th></th>
-    <th>Site</th>
-    <th class="tar">Size</th>
-    <th class="tar">Gzip</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><b>Site with the largest {{ "link-or-import" | extractorName }}</b></td>
-    <td>{{ report.maxSizeImport.site.title }}</td>
-    <td class="tar">{{ report.maxSizeImport['link-or-import'].size | fileSize }}</td>
-    <td class="tar">{{ report.maxSizeImport['link-or-import'].gzip | fileSize }}</td>
-  </tr>
-  <tr>
-  {% assign minSizeImports = report.minSizeImports | size %}
-  {% if minSizeImports > 0 %}
-  {% assign minSize = report.minSizeImports | size %}
-  {% for minItem in report.minSizeImports %}
-  <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "link-or-import" | extractorName }}</b></td>
-  <td>{{ minItem.site.title }}</td>
-  <td class="tar">-</td>
-  <td class="tar">-</td>
-  {% endfor %}
-  {% else %}
-  <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
-  <td>{{ report.minSizeImport.site.title }}</td>
-  <td class="tar">{{ report.minSizeImport['link-or-import'].size | fileSize }}</td>
-  <td class="tar">{{ report.minSizeImport['link-or-import'].gzip | fileSize }}</td>
-  {% endif %}
-  </tr>
-  <tr>
-    <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
-    <td>-</td>
-    <td class="tar">{{ report.avgSizeImport.size | fileSize }}</td>
-    <td class="tar">{{ report.avgSizeImport.gzip | fileSize }}</td>
-  </tr>
-  <tr>
-    <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
-    <td>{{ report.maxSizeStyle.site.title }}</td>
-    <td class="tar">{{ report.maxSizeStyle['style'].size | fileSize }}</td>
-    <td class="tar">{{ report.maxSizeStyle['style'].gzip | fileSize }}</td>
-  </tr>
-  <tr>
-  {% assign minSizeStyles = report.minSizeStyles | size %}
-  {% if minSizeStyles > 0 %}
-  {% assign minSize = report.minSizeStyles | size %}
-  {% for minItem in report.minSizeStyles %}
-  <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "style" | extractorName }}</b></td>
-  <td>{{ minItem.site.title }}</td>
-  <td class="tar">-</td>
-  <td class="tar">-</td>
-  {% endfor %}
-  {% else %}
-  <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
-  <td>{{ report.minSizeStyle.site.title }}</td>
-  <td class="tar">{{ report.minSizeStyle['style'].size | fileSize }}</td>
-  <td class="tar">{{ report.minSizeStyle['style'].gzip | fileSize }}</td>
-  {% endif %}
-  </tr>
-  <tr>
-    <td><b>Average size of {{ "style" | extractorName }}</b></td>
-    <td>-</td>
-    <td class="tar">{{ report.avgSizeStyle.size | fileSize }}</td>
-    <td class="tar">{{ report.avgSizeStyle.gzip | fileSize }}</td>
-  </tr>
-  <tr>
-    <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
-    <td>{{ report.maxSizeInline.site.title }}</td>
-    <td class="tar">{{ report.maxSizeInline['inline'].size | fileSize }}</td>
-    <td class="tar">{{ report.maxSizeInline['inline'].gzip | fileSize }}</td>
-  </tr>
-  <tr>
-  {% assign minSizeInlines = report.minSizeInlines | size %}
-  {% if minSizeInlines > 0 %}
-    {% assign minSize = report.minSizeInlines | size %}
-    {% for minItem in report.minSizeInlines %}
-    <td><b>{% if minSize > 1 %}Sites{% else %}Site{% endif %} with no {{ "inline" | extractorName }}</b></td>
-    <td>{{ minItem.site.title }}</td>
-    <td class="tar">-</td>
-    <td class="tar">-</td>
-    {% endfor %}
-  {% else %}
-  <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
-  <td>{{ report.minSizeInline.site.title }}</td>
-  <td class="tar">{{ report.minSizeInline['inline'].size | fileSize }}</td>
-  <td class="tar">{{ report.minSizeInline['inline'].gzip | fileSize }}</td>
-  {% endif %}
-  </tr>
-  <tr>
-    <td><b>Average size of {{ "inline" | extractorName }}</b></td>
-    <td>-</td>
-    <td class="tar">{{ report.avgSizeInline.size | fileSize }}</td>
-    <td class="tar">{{ report.avgSizeInline.gzip | fileSize }}</td>
-  </tr>
-  </tbody>
-</table>
+  <table class="small">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Site</th>
+        <th class="tar">Size</th>
+        <th class="tar">Gzip</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Site with the largest {{ "link-or-import" | extractorName }}</b></td>
+        <td>{{ report.maxSizeImport.site.title }}</td>
+        <td class="tar">{{ report.maxSizeImport['link-or-import'].size | fileSize }}</td>
+        <td class="tar">{{ report.maxSizeImport['link-or-import'].gzip | fileSize }}</td>
+      </tr>
+      <tr>
+        {%- assign minSizeImports = report.minSizeImports | size -%}
+        {%- if minSizeImports > 0 -%}
+          {%- assign minSize = report.minSizeImports | size -%}
+          {%- for minItem in report.minSizeImports -%}
+            <td><b>{%- if minSize > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "link-or-import" | extractorName }}</b>
+            </td>
+            <td>{{ minItem.site.title }}</td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          {%- endfor -%}
+        {%- else -%}
+          <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
+          <td>{{ report.minSizeImport.site.title }}</td>
+          <td class="tar">{{ report.minSizeImport['link-or-import'].size | fileSize }}</td>
+          <td class="tar">{{ report.minSizeImport['link-or-import'].gzip | fileSize }}</td>
+        {%- endif -%}
+      </tr>
+      <tr>
+        <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
+        <td>-</td>
+        <td class="tar">{{ report.avgSizeImport.size | fileSize }}</td>
+        <td class="tar">{{ report.avgSizeImport.gzip | fileSize }}</td>
+      </tr>
+      <tr>
+        <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
+        <td>{{ report.maxSizeStyle.site.title }}</td>
+        <td class="tar">{{ report.maxSizeStyle['style'].size | fileSize }}</td>
+        <td class="tar">{{ report.maxSizeStyle['style'].gzip | fileSize }}</td>
+      </tr>
+      <tr>
+        {%- assign minSizeStyles = report.minSizeStyles | size -%}
+        {%- if minSizeStyles > 0 -%}
+          {%- assign minSize = report.minSizeStyles | size -%}
+          {%- for minItem in report.minSizeStyles -%}
+            <td><b>{%- if minSize > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "style" | extractorName }}</b></td>
+            <td>{{ minItem.site.title }}</td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          {%- endfor -%}
+        {%- else -%}
+          <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
+          <td>{{ report.minSizeStyle.site.title }}</td>
+          <td class="tar">{{ report.minSizeStyle['style'].size | fileSize }}</td>
+          <td class="tar">{{ report.minSizeStyle['style'].gzip | fileSize }}</td>
+        {%- endif -%}
+      </tr>
+      <tr>
+        <td><b>Average size of {{ "style" | extractorName }}</b></td>
+        <td>-</td>
+        <td class="tar">{{ report.avgSizeStyle.size | fileSize }}</td>
+        <td class="tar">{{ report.avgSizeStyle.gzip | fileSize }}</td>
+      </tr>
+      <tr>
+        <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
+        <td>{{ report.maxSizeInline.site.title }}</td>
+        <td class="tar">{{ report.maxSizeInline['inline'].size | fileSize }}</td>
+        <td class="tar">{{ report.maxSizeInline['inline'].gzip | fileSize }}</td>
+      </tr>
+      <tr>
+        {%- assign minSizeInlines = report.minSizeInlines | size -%}
+          {%- if minSizeInlines > 0 -%}
+          {%- assign minSize = report.minSizeInlines | size -%}
+          {%- for minItem in report.minSizeInlines -%}
+            <td><b>{%- if minSize > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "inline" | extractorName }}</b></td>
+            <td>{{ minItem.site.title }}</td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          {%- endfor -%}
+        {%- else -%}
+          <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
+          <td>{{ report.minSizeInline.site.title }}</td>
+          <td class="tar">{{ report.minSizeInline['inline'].size | fileSize }}</td>
+          <td class="tar">{{ report.minSizeInline['inline'].gzip | fileSize }}</td>
+        {%- endif -%}
+      </tr>
+      <tr>
+        <td><b>Average size of {{ "inline" | extractorName }}</b></td>
+        <td>-</td>
+        <td class="tar">{{ report.avgSizeInline.size | fileSize }}</td>
+        <td class="tar">{{ report.avgSizeInline.gzip | fileSize }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-{% endif %}
+{%- endif -%}
