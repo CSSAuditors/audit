@@ -5,9 +5,33 @@ const ncp = require('ncp')
 
 ncp.limit = 16
 
+const prepareAllData = (reports) => {
+  const reportsArray = Object.values(reports)
+
+  return reportsArray.map(report => {
+    return report.list.map(site => {
+      site.category = report.category
+      site.year = report.year
+      site.month = report.month
+
+      return site
+    })
+  }).flat()
+}
+
 const getCurrentDirectoryBase = () => {
   try {
     return path.basename(process.cwd())
+  } catch (err) {
+    console.error(err)
+
+    return false
+  }
+}
+
+const getRootDirectoryBase = () => {
+  try {
+    return path.resolve(`${__dirname}/../`)
   } catch (err) {
     console.error(err)
 
@@ -112,7 +136,9 @@ const getFolder = (site, parent) => {
 const trimSlashes = (s) => s.replace(/^\/|\/$/g, '')
 
 module.exports = {
+  prepareAllData,
   getCurrentDirectoryBase,
+  getRootDirectoryBase,
   directoryExists,
   makeDirectory,
   fileExists,

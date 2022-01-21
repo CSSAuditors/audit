@@ -1,0 +1,56 @@
+{%- if report -%}
+<div class="table-wrapper">
+  <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-3" style="--labels-size: 11em;--cols: {{ report.list | size }}">
+    <caption>CSS count</caption>
+    <thead>
+      <tr>
+        <th scope="col">Site</th>
+        <th scope="col">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for item in report.list -%}
+        {%- assign maxImportCount = report.maxCountImport['link-or-import'].count -%}
+        {%- if item['link-or-import'].count -%}
+          {%- assign importCount = item['link-or-import'].count -%}
+          {%- assign importCountPercent = importCount | divided_by: maxImportCount -%}
+        {%- else -%}
+          {%- assign importCount = 0 -%}
+          {%- assign importCountPercent = 0 -%}
+        {%- endif -%}
+        {%- assign maxStyleCount = report.maxCountStyle['style'].count -%}
+        {%- if item['style'].count -%}
+          {%- assign styleCount = item['style'].count -%}
+          {%- assign styleCountPercent = styleCount | divided_by: maxStyleCount -%}
+        {%- else -%}
+          {%- assign styleCount = 0 -%}
+          {%- assign styleCountPercent = 0 -%}
+        {%- endif -%}
+        {%- assign maxInlineCount = report.maxCountInline['inline'].count -%}
+        {%- if item['inline'].count -%}
+          {%- assign inlineCount = item['inline'].count -%}
+          {%- assign inlineCountPercent = inlineCount | divided_by: maxInlineCount -%}
+        {%- else -%}
+          {%- assign inlineCount = 0 -%}
+          {%- assign inlineCountPercent = 0 -%}
+        {%- endif -%}
+        <tr>
+          <th scope="row">{{ item.site.title }}</th>
+          <td style="--size:{{ importCountPercent }};"><span>{{ item['link-or-import'].name }}: {{ importCount }}</span>
+          </td>
+          <th scope="row">{{ item.site.title }}</th>
+          <td style="--size:{{ styleCountPercent }};"><span>{{ item['style'].name }}: {{ styleCount }}</span></td>
+          <th scope="row">{{ item.site.title }}</th>
+          <td style="--size:{{ inlineCountPercent }};"><span>{{ item['inline'].name }}: {{ inlineCount }}</span></td>
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+  <ul class="charts-css legend legend-inline legend-circle">
+    <li style="--color-1: hsl(222, 88%, 55%);"><small>{{ report.maxSizeInline['link-or-import'].name }}</small></li>
+    <li style="--color-2: hsl(252, 88%, 55%);"><small>{{ report.maxSizeInline['style'].name }}</small></li>
+    <li style="--color-3: hsl(192, 88%, 55%);"><small>{{ report.maxSizeInline['inline'].name }}</small></li>
+  </ul>
+</div>
+<small>This graph is interactive. You could tap or hover over bars to see extra information.</small>
+{%- endif -%}

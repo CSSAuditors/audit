@@ -1,22 +1,22 @@
-const files = require('./files.js')
+const helpers = require('./helpers.js')
 const validator = require('css-validator')
 
 const validate = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const errorsFile = `${folder}/errors.json`
     const warningsFile = `${folder}/warnings.json`
 
-    if(!files.fileExists(errorsFile) || !files.fileExists(warningsFile)) {
+    if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
       const cssFile = `${folder}/style-clean.css`
       // const cssFile = `${folder}/style-dirty.css`
 
-      if(!files.fileExists(cssFile)) {
+      if(!helpers.fileExists(cssFile)) {
         return false
       }
 
-      const cssString = await files.getFile(cssFile)
+      const cssString = await helpers.getFile(cssFile)
 
       validator(cssString, (err, data) => {
         let errorData = {}
@@ -44,10 +44,10 @@ const validate = async (site) => {
           warningData[t].push(warning)
         })
 
-        files.saveFile(errorsFile, errorData, true)
-        files.saveFile(warningsFile, warningData, true)
+        helpers.saveFile(errorsFile, errorData, true)
+        helpers.saveFile(warningsFile, warningData, true)
 
-        console.log(`✅ Errors and warnings files created in ${folder}.`)
+        console.log(`✅ Errors and warnings helpers created in ${folder}.`)
       })
     } else {
       console.log(`❌ Errors file: ${errorsFile}`)

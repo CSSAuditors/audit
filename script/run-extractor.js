@@ -1,10 +1,10 @@
-const files = require('./files.js')
+const helpers = require('./helpers.js')
 const extractCss = require('extract-css-core')
 const CleanCSS = require('clean-css')
 
 const extract = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const cssFileExtractor = `${folder}/extractor.json`
     const cssFileExtractorClean = `${folder}/extractor-clean.json`
@@ -12,7 +12,7 @@ const extract = async (site) => {
     const cssFileClean = `${folder}/style-clean.css`
     let cssString = ''
 
-    if(!files.fileExists(cssFileExtractor) || !files.fileExists(cssFileDirty) || !files.fileExists(cssFileClean)) {
+    if(!helpers.fileExists(cssFileExtractor) || !helpers.fileExists(cssFileDirty) || !helpers.fileExists(cssFileClean)) {
       let cssItems = []
 
       cssItems = await extractCss(site.url, {
@@ -30,26 +30,26 @@ const extract = async (site) => {
         }
       })
 
-      files.saveFile(cssFileExtractor, cssItems, true)
-      files.saveFile(cssFileExtractorClean, cssItemsClean, true)
+      helpers.saveFile(cssFileExtractor, cssItems, true)
+      helpers.saveFile(cssFileExtractorClean, cssItemsClean, true)
 
-      cssItemsClean.forEach(cssItem => {
+      cssItemsClean.forEach(cssItem => {
         if (cssItem.type === 'link-or-import' || cssItem.type === 'style') {
           cssString += cssItem.css
         }
       })
 
-      files.saveFile(cssFileDirty, cssString)
+      helpers.saveFile(cssFileDirty, cssString)
 
       const cssClean = new CleanCSS({
-        format: 'beautify'
+        format: 'cssCleaneautify'
       }).minify(cssString)
 
-      files.saveFile(cssFileClean, cssClean.styles)
+      helpers.saveFile(cssFileClean, cssClean.styles)
 
       console.log(`✅ CSS file created in ${folder}`)
     } else {
-      cssString = await files.getFile(cssFileClean)
+      cssString = await helpers.getFile(cssFileClean)
 
       console.log(`🖌  CSS file: ${cssFileClean}`)
     }

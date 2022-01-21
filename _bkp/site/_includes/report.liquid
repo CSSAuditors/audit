@@ -25,20 +25,20 @@
                   {% assign author_label = "Author" %}
                 {% endif %}
                 <span>
-                  {{ author_label }}: {% for author in authors %}{% if forloop.index > 1 %}, {% endif %}{{ author | authorize: "full_name" }}{% endfor %}
+                  {{ author_label }}: {% for author in metadata.authors %}{% if forloop.index > 1 %}, {% endif %}{{ author | authorize: "full_name" }}{% endfor %}
                 </span><br>
               {% endif %}
               <span>Date: {{ date | date: "%Y-%m-%d" }}</span>
             </p>
           {% endif %}
           {% if block.author %}
-            {% for author in authors %}
+            {% for author in metadata.authors %}
               {% assign full_name = author | authorize: "full_name" %}
               <div class="section__piece">
                 <div class="avatar">{{ author | authorize: "avatar" | imagize: full_name, 94 }}</div>
                 <h3>{{ full_name }}</h3>
                 <div class="small">
-                  {{ author | authorize: "bio" | markdownify }}
+                  {{ author | authorize: "bio" }}
                   <div class="nav nav--alpha">{{ author | authorize: "links" | linkify }}</div>
                 </div>
 
@@ -96,7 +96,7 @@
           </div>
         {% endif %}
         {% if block.subscribe %}
-          {% include partials/subscribe %}
+          {% include subscribe %}
         {% endif %}
       </div>
     </div>

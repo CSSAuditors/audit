@@ -1,13 +1,13 @@
-const files = require('./files.js')
+const helpers = require('./helpers.js')
 const puppeteer = require('puppeteer')
 
 const screenshot = async (site) => {
   return new Promise(async (resolve, reject) => {
-    const folder = files.getFolder(site)
+    const folder = helpers.getFolder(site)
 
     const screenshotFile = `${folder}/screenshot.jpg`
 
-    if(!files.fileExists(screenshotFile)) {
+    if(!helpers.fileExists(screenshotFile)) {
       const browser = await puppeteer.launch()
       const page = await browser.newPage()
 

@@ -1,112 +1,61 @@
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const markdownIt = require('markdown-it')
 const markdownItRenderer = new markdownIt()
-const extractor = require('./script/get-extractor')
-const wappalyzer = require('./script/get-wappalyzer')
-let globalVars = {}
+
+const audit = require('./script/index')
+const reports = require('./site/_data/reports')
 const env = require('./site/_data/env')
 
-let siteData = {
-  authors: require('./site/_data/authors.json'),
-  sites2: require('./site/_data/sites2.json'),
-  sites3: require('./site/_data/sites3.json'),
-}
-
 module.exports = (eleventyConfig) => {
-  const cleanup = (str) => str.replace(/\n/g, '\n\n').replace(/\|\n\n/g, '\|\n').trim()
+  let markdownIt2 = require("markdown-it");
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt2(options).disable('code'));
+
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(UpgradeHelper);
 
   const shortcodes = (str) => str.replace(/\[u\]/g, '<span class="highlight">').replace(/\[\\u\]/g, '</span>')
 
-  const runMarkdown = (str) => shortcodes(markdownItRenderer.render(cleanup(str)))
+  const runMarkdown = (str) => shortcodes(markdownItRenderer.render(str))
 
-  const runMarkdownInline = (str) => shortcodes(markdownItRenderer.renderInline(cleanup(str)))
-
-  const checkGlobalVars = (key, object, type) => {
-    if(!globalVars.hasOwnProperty(key)) {
-      switch (type) {
-        case 'extractor':
-          globalVars[key] = extractor.generateExtractorsReport(siteData[object])
-          break;
-        case 'wappalyzer':
-          globalVars[key] = wappalyzer.generateWappalyzersReport(siteData[object])
-          break;
-        default:
-          break;
-      }
-    }
-  }
-
-  const charts = (str, object, type) => {
-    const key = `${object}-chart`
-
-    if(!globalVars.hasOwnProperty(key)) {
-      globalVars[key] = `window.Highcharts.chart('${str}', ${variable('$html' + str, object, type)});`
-    } else {
-      globalVars[key] += `\nwindow.Highcharts.chart('${str}', ${variable('$html' + str, object, type)});`
-    }
-  }
-
-  eleventyConfig.addLiquidFilter('linkify', (links) => {
-    let ret = ''
-
-    const $links = links.map(s => '<li><a class="plain" href="' + s.href + '">' + s.name + '</a></li>')
-
-    if($links) {
-      ret = `<ul>${$links.join('')}</ul>`
-    }
-
-    return ret || str
-  })
-
-  eleventyConfig.addLiquidFilter('quotify', (quote, author) => {
-    const a = author ? `<p>— ${author}</p>` : ''
-    const ret = `<blockquote>${runMarkdown(quote)}${a}</blockquote>`
-
-    return ret
-  })
-
-  eleventyConfig.addLiquidFilter('imagize', (src, alt, size) => {
-    return `<img class="" src="${src}" alt="${alt}" height="${size}" width="${size}">`
-  })
-
-  eleventyConfig.addLiquidFilter('authorize', (str, key) => {
-    const author = siteData.authors.find(a => a.name === str || a.full_name === str)
-
-    return author ? author[key] : '' || str
-  })
-
-  eleventyConfig.addLiquidFilter('chartize', (str, object, type) => {
-    charts(str, object, type)
-
-    return `<div class="chart" id="${str}"></div>`
-  })
-
-  eleventyConfig.addLiquidFilter('charts', (str, object) => {
-    const key = `${object}-chart`
-
-    if(globalVars.hasOwnProperty(key)) {
-      return `<script>${globalVars[key]}</script>`
-    }
-
-    return ''
-  })
-
-  const variable = (str, object, type) => {
-    const key = `${object}-${type}`
-
-    checkGlobalVars(key, object, type)
-
-    return globalVars[key][str]
-  }
-
-  eleventyConfig.addLiquidFilter('variablize', variable)
-
-  eleventyConfig.addLiquidFilter('markdownifyi', (str) => runMarkdownInline(str))
+  const runMarkdownInline = (str) => shortcodes(markdownItRenderer.renderInline(str))
 
   eleventyConfig.addLiquidFilter('markdownify', (str) => runMarkdown(str))
 
+  eleventyConfig.addLiquidFilter('markdownifyi', (str) => runMarkdownInline(str))
+
+  eleventyConfig.addLiquidFilter('extractorName', (str) => audit.getExtractorName(str))
+
+  eleventyConfig.addLiquidFilter('fileSize', (str) => audit.getFileSize(str))
+
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: false,
+    strictFilters: false,
+  });
+
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection.getFilteredByGlob("blog/**/*.md");
+  });
+
+  eleventyConfig.addWatchTarget("assets");
+  eleventyConfig.addWatchTarget("script");
   eleventyConfig.addPassthroughCopy({"assets/dist": "."})
   eleventyConfig.addPassthroughCopy({"assets/styleguide": "./styleguide"})
   eleventyConfig.addPassthroughCopy({"assets/favicon": "."})
+  eleventyConfig.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "css/charts.min.css"});
+
+  audit.prepareData(reports)
+
+  setTimeout(() => {
+    audit.processData(reports.report1, 'report1')
+    audit.processData(reports.report2, 'report2')
+  }, 1000)
 
   return {
     dir: {

@@ -2,9 +2,11 @@
 layout: post
 title: About CSS Auditors
 description: CSS Auditors is a group of enthusiasts who enjoy writing and analyzing CSS code and sharing CSS code findings.
-authors:
-  - Silvestar
-  - Ivan
+metadata:
+  authors:
+    - Silvestar
+    - Ivan
+justBlocks: true
 blocks:
   - title: |
       About CSS Auditors

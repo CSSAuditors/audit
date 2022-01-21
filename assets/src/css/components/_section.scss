@@ -16,6 +16,25 @@ Style guide: Section
 }
 
 .section__column {
+  @media screen and (max-width: $mq-alpha) {
+    &:first-child:not(:only-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (min-width: $mq-beta) {
+    &:first-child:not(:only-child) {
+      margin-right: 2rem;
+      flex: 0 0 120px;
+    }
+
+    &:last-child:not(:only-child) {
+      flex: 1 1 auto;
+    }
+  }
+}
+
+.section__content {
   img:not([class]) {
     display: block;
     width: 100%;
@@ -33,26 +52,12 @@ Style guide: Section
       border-bottom: 1px dashed var(--color-alpha);
     }
   }
-
-  @media screen and (max-width: $mq-alpha) {
-    &:first-child {
-      margin-bottom: 2rem;
-    }
-  }
-
-  @media screen and (min-width: $mq-beta) {
-    &:first-child {
-      margin-right: 2rem;
-      flex: 0 0 120px;
-    }
-
-    &:last-child {
-      flex: 1 1 auto;
-    }
-  }
 }
 
 .report {
+  padding-left: .25em;
+  padding-right: .25em;
+
   h1,
   h2,
   h3,
@@ -68,6 +73,18 @@ Style guide: Section
       padding: 0 .1em;
       margin-right: .05em;
       border: 1px dashed var(--color-alpha3);
+    }
+  }
+
+  a:not(.button):not(.plain) {
+    color: var(--color-alpha4);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-alpha3);
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 1px dashed var(--color-alpha);
     }
   }
 }
