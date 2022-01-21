@@ -29,9 +29,12 @@ function criticalStart(cb) {
 
     files.push(thisFile);
 
+    console.log(helpers.trim(thisCriticalConfig.dist));
+
     if (fs.existsSync(thisFile)) {
       src(thisFile.replace('.css', '*.css'))
-        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)));
+        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
+        .pipe(dest(helpers.trim(thisCriticalConfig.dist)));
     } else {
       const thisConfig = {
         ...config,
@@ -41,11 +44,12 @@ function criticalStart(cb) {
 
       src(thisConfig.src)
         .pipe(critical(thisConfig.settings))
-        .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
+        .pipe(dest(helpers.trim(`${thisConfig.temp}`)))
         .pipe(cleanCSS())
         .pipe(rename(cssConfig.renameConfig))
         .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
-        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)));
+        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
+        .pipe(dest(helpers.trim(thisCriticalConfig.dist)));
     }
   });
 

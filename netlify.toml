@@ -2,7 +2,7 @@
   base = "./"
   functions = "./api/"
   publish = "public"
-  command = ""
+  command = "yarn build"
 
 [[redirects]]
   from = "/api/*"
