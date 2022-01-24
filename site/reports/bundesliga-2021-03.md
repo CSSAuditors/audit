@@ -3,7 +3,6 @@ layout: post
 title: The CSS File Size and Count Report for Bundesliga sites
 description: In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 image: /gfx/the-css-file-size-and-count-report-for-bundesliga-sites.jpg
-object: sites3
 date: 2021-03-17
 tags:
   - report

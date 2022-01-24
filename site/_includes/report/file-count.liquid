@@ -9,82 +9,104 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><b>Site with the largest number of  {{ "link-or-import" | extractorName }}</b></td>
-        <td>{{ report.maxCountImport.site.title }}</td>
-        <td class="tar">{{ report.maxCountImport['link-or-import'].count }}</td>
-      </tr>
-      <tr>
+      {%- if report.maxCountImport['link-or-import'] -%}
+        <tr>
+          <td><b>Site with the largest number of  {{ "link-or-import" | extractorName }}</b></td>
+          <td>{{ report.maxCountImport.site.title }}</td>
+          <td class="tar">{{ report.maxCountImport['link-or-import'].count }}</td>
+        </tr>
+      {%- endif -%}
+      {%- if report.minCountImports -%}
         {%- assign minCountImports = report.minCountImports | size -%}
         {%- if minCountImports > 0 -%}
           {%- assign minCount = report.minCountImports | size -%}
           {%- for minItem in report.minCountImports -%}
-            <td><b>{%- if minCount > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "link-or-import" | extractorName }}</b>
-            </td>
-            <td>{{ minItem.site.title }}</td>
-            <td class="tar">0</td>
+            <tr>
+              <td><b>{% if minCount > 1 %}Sites{% else %}Site{% endif %} with no {{ "link-or-import" | extractorName }}</b>
+              </td>
+              <td>{{ minItem.site.title }}</td>
+              <td class="tar">0</td>
+            </tr>
           {%- endfor -%}
         {%- else -%}
-        <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
-        <td>{{ report.minCountImport.site.title }}</td>
-        <td colspanass="tar">{{ report.minCountImport['link-or-import'].count }}</td>
+          <tr>
+            <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
+            <td>{{ report.minCountImport.site.title }}</td>
+            <td colspanass="tar">{{ report.minCountImport['link-or-import'].count }}</td>
+          </tr>
         {%- endif -%}
-      </tr>
-      <tr>
-        <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
-        <td>-</td>
-        <td class="tar">{{ report.avgCountImport | floor }}</td>
-      </tr>
-      <tr>
-        <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
-        <td>{{ report.maxCountStyle.site.title }}</td>
-        <td class="tar">{{ report.maxCountStyle['style'].count }}</td>
-      </tr>
-      <tr>
+      {%- endif -%}
+      {%- if report.avgCountImport -%}
+        <tr>
+          <td><b>Average size of {{ "link-or-import" | extractorName }}</b></td>
+          <td>-</td>
+          <td class="tar">{{ report.avgCountImport | floor }}</td>
+        </tr>
+      {%- endif -%}
+      {%- if report.maxCountStyle['style'] -%}
+        <tr>
+          <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
+          <td>{{ report.maxCountStyle.site.title }}</td>
+          <td class="tar">{{ report.maxCountStyle['style'].count }}</td>
+        </tr>
+      {%- endif -%}
+      {%- if report.minCountStyles -%}
         {%- assign minCountStyles = report.minCountStyles | size -%}
         {%- if minCountStyles > 0 -%}
           {%- assign minCount = report.minCountStyles | size -%}
           {%- for minItem in report.minCountStyles -%}
-            <td><b>{%- if minCount > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "style" | extractorName }}</b></td>
-            <td>{{ minItem.site.title }}</td>
-            <td class="tar">0</td>
+            <tr>
+              <td><b>{%- if minCount > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "style" | extractorName }}</b></td>
+              <td>{{ minItem.site.title }}</td>
+              <td class="tar">0</td>
+            </tr>
           {%- endfor -%}
         {%- else -%}
-          <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
-          <td>{{ report.minCountStyle.site.title }}</td>
-          <td class="tar">{{ report.minCountStyle['style'].count }}</td>
+          <tr>
+            <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
+            <td>{{ report.minCountStyle.site.title }}</td>
+            <td class="tar">{{ report.minCountStyle['style'].count }}</td>
+          </tr>
         {%- endif -%}
-      </tr>
-      <tr>
-        <td><b>Average size of {{ "style" | extractorName }}</b></td>
-        <td>-</td>
-        <td class="tar">{{ report.avgCountStyle | floor }}</td>
-      </tr>
-      <tr>
-        <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
-        <td>{{ report.maxCountInline.site.title }}</td>
-        <td class="tar">{{ report.maxCountInline['inline'].count }}</td>
-      </tr>
-      <tr>
-        {%- assign minCountInlines = report.minCountInlines | size -%}
-        {%- if minCountInlines > 0 -%}
-          {%- assign minCount = report.minCountInlines | size -%}
-          {%- for minItem in report.minCountInlines -%}
-            <td><b>{%- if minCount > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "inline" | extractorName }}</b></td>
-            <td>{{ minItem.site.title }}</td>
-            <td class="tar">0</td>
-          {%- endfor -%}
-        {%- else -%}
-          <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
-          <td>{{ report.minCountInline.site.title }}</td>
-          <td class="tar">{{ report.minCountInline['inline'].count }}</td>
-        {%- endif -%}
-      </tr>
-      <tr>
-        <td><b>Average size of {{ "inline" | extractorName }}</b></td>
-        <td>-</td>
-        <td class="tar">{{ report.avgCountInline | floor }}</td>
-      </tr>
+      {%- endif -%}
+      {%- if report.avgCountStyle -%}
+        <tr>
+          <td><b>Average size of {{ "style" | extractorName }}</b></td>
+          <td>-</td>
+          <td class="tar">{{ report.avgCountStyle | floor }}</td>
+        </tr>
+      {%- endif -%}
+      {%- if report.maxCountInline['inline'] -%}
+        <tr>
+          <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
+          <td>{{ report.maxCountInline.site.title }}</td>
+          <td class="tar">{{ report.maxCountInline['inline'].count }}</td>
+        </tr>
+      {%- endif -%}
+      {%- if report.minCountInlines -%}
+        <tr>
+          {%- assign minCountInlines = report.minCountInlines | size -%}
+          {%- if minCountInlines > 0 -%}
+            {%- assign minCount = report.minCountInlines | size -%}
+            {%- for minItem in report.minCountInlines -%}
+              <td><b>{%- if minCount > 1 -%}Sites{%- else -%}Site{%- endif -%} with no {{ "inline" | extractorName }}</b></td>
+              <td>{{ minItem.site.title }}</td>
+              <td class="tar">0</td>
+            {%- endfor -%}
+          {%- else -%}
+            <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
+            <td>{{ report.minCountInline.site.title }}</td>
+            <td class="tar">{{ report.minCountInline['inline'].count }}</td>
+          {%- endif -%}
+        </tr>
+      {%- endif -%}
+      {%- if report.avgCountInline -%}
+        <tr>
+          <td><b>Average size of {{ "inline" | extractorName }}</b></td>
+          <td>-</td>
+          <td class="tar">{{ report.avgCountInline | floor }}</td>
+        </tr>
+      {%- endif -%}
     </tbody>
   </table>
 </div>

@@ -1,7 +1,7 @@
 const helpers = require('./helpers.js')
 const puppeteer = require('puppeteer')
 
-const coverage = async (site) => {
+const coverage = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
 
@@ -23,9 +23,13 @@ const coverage = async (site) => {
 
       helpers.saveFile(coverageFile, cssCoverage, true)
 
-      console.log(`✅ Coverage file created in ${folder}`)
+      if(!silent) {
+        console.log(`✅ Coverage file created in ${folder}`)
+      }
     } else {
-      console.log(`🌖 Coverage file: ${coverageFile}`)
+      if(!silent) {
+        console.log(`🌖 Coverage file: ${coverageFile}`)
+      }
     }
 
     resolve()

@@ -1,7 +1,7 @@
 const helpers = require('./helpers.js')
 const specificityGraph = require('specificity-graph')
 
-const specs = async (site) => {
+const specs = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
 
@@ -25,12 +25,16 @@ const specs = async (site) => {
       specificityGraph(specificityFolder, cssString, (directory) => {
         directory.forEach(dir => {
           if(dir) {
-            console.log(`Specificity graph helpers created in ${dir}.`)
+            if(!silent) {
+              console.log(`Specificity graph helpers created in ${dir}.`)
+            }
           }
         })
       })
     } else {
-      console.log(`📈 Specificity graph file: ${specificityFile}`)
+      if(!silent) {
+        console.log(`📈 Specificity graph file: ${specificityFile}`)
+      }
     }
 
     resolve()

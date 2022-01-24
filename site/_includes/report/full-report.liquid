@@ -4,22 +4,24 @@
     <thead>
       <tr>
         <th></th>
-        <th class="tar"><b>Count</b></th>
+        {%- unless simple -%}
+          <th class="tar"><b>Count</b></th>
+        {%- endunless -%}
         <th class="tar"><b>Size</b></th>
         <th class="tar"><b>Gzip</b></th>
       </tr>
     </thead>
     <tbody>
       {%- for item in report.list -%}
-        <thead>
-          <tr>
-            <td colspan="4"><b>{{ item.site.title }}</b></td>
-          </tr>
-        </thead>
+        <tr>
+          <td colspan="4"><b><a href="{{ item.site.url }}">{{ item.site.title }}</a></b></td>
+        </tr>
         {%- if item['link-or-import'] -%}
           <tr>
             <td>{{ item['link-or-import'].name }}</td>
-            <td class="tar">{{ item['link-or-import'].count }}</td>
+            {%- unless simple -%}
+              <td class="tar">{{ item['link-or-import'].count }}</td>
+            {%- endunless -%}
             <td class="tar">{{ item['link-or-import'].size | fileSize }}</td>
             <td class="tar">{{ item['link-or-import'].gzip | fileSize }}</td>
           </tr>
@@ -27,7 +29,9 @@
         {%- if item['style'] -%}
           <tr>
             <td>{{ item['style'].name }}</td>
-            <td class="tar">{{ item['style'].count }}</td>
+            {%- unless simple -%}
+              <td class="tar">{{ item['style'].count }}</td>
+            {%- endunless -%}
             <td class="tar">{{ item['style'].size | fileSize }}</td>
             <td class="tar">{{ item['style'].gzip | fileSize }}</td>
           </tr>
@@ -35,7 +39,9 @@
         {%- if item['inline'] -%}
           <tr>
             <td>{{ item['inline'].name }}</td>
-            <td class="tar">{{ item['inline'].count }}</td>
+            {%- unless simple -%}
+              <td class="tar">{{ item['inline'].count }}</td>
+            {%- endunless -%}
             <td class="tar">{{ item['inline'].size | fileSize }}</td>
             <td class="tar">{{ item['inline'].gzip | fileSize }}</td>
           </tr>
