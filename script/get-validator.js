@@ -1,5 +1,5 @@
 const helpers = require('./helpers')
-const { getMax, getMin, getAverage, getOverall } = require('./calc')
+const calc = require('./calc')
 
 const getReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
@@ -68,9 +68,9 @@ const getReport = async (site, silent) => {
     resolve({
       errors: errorsReturn,
       error_types_count: errorsReturn.length,
-      errors_count: getOverall(errorsReturn, 'value'),
+      errors_count: calc.getOverall(errorsReturn, 'value'),
       warnings: warningsReturn,
-      warnings_count: getOverall(warningsReturn, 'value'),
+      warnings_count: calc.getOverall(warningsReturn, 'value'),
       warning_types_count: warningsReturn.length,
       site: site
     })
@@ -81,7 +81,7 @@ const report = async (sites, name, silent) => {
   const root = helpers.getRootDirectoryBase();
   const validatorFile = `${root}/site/_data/${name}-validator.json`
 
-  if(!helpers.fileExists(validatorFile) && sites.list) {
+  // if(!helpers.fileExists(validatorFile) && sites.list) {
     const validatorData = {
       list: []
     }
@@ -95,12 +95,38 @@ const report = async (sites, name, silent) => {
       console.log('❌ ERRORS')
     }
 
-    const maxErrorTypes = getMax(validatorData.list, 'errors')
-    const minErrorTypes = getMin(validatorData.list, 'errors')
-    const avgErrorTypes = getAverage(validatorData.list, 'error_types_count')
-    const maxErrors = getMax(validatorData.list, 'errors_count')
-    const minErrors = getMin(validatorData.list, 'errors_count')
-    const avgErrors = getAverage(validatorData.list, 'errors_count')
+    const flatList = validatorData.list.flat()
+
+    let errorList = []
+    let warningList = []
+
+    flatList.forEach(item => {
+      if(item.errors) {
+        item.errors.forEach(error => {
+          if(errorList.indexOf(error.key) === -1) {
+            errorList.push(error.key)
+          }
+        })
+      }
+
+      if(item.warnings) {
+        item.warnings.forEach(warning => {
+          if(warningList.indexOf(warning.key) === -1) {
+            warningList.push(warning.key)
+          }
+        })
+      }
+    })
+
+    validatorData.errorList = errorList
+    validatorData.warningList = warningList
+
+    const maxErrorTypes = calc.getMax(validatorData.list, 'errors')
+    const minErrorTypes = calc.getMin(validatorData.list, 'errors')
+    const avgErrorTypes = calc.getAverage(validatorData.list, 'error_types_count')
+    const maxErrors = calc.getMax(validatorData.list, 'errors_count')
+    const minErrors = calc.getMin(validatorData.list, 'errors_count')
+    const avgErrors = calc.getAverage(validatorData.list, 'errors_count')
 
     validatorData.maxErrorTypes = {
       site: maxErrorTypes.site,
@@ -127,12 +153,12 @@ const report = async (sites, name, silent) => {
       console.log('⚠️ WARNINGS')
     }
 
-    const maxWarningTypes = getMax(validatorData.list, 'warnings')
-    const minWarningTypes = getMin(validatorData.list, 'warnings')
-    const avgWarningTypes = getAverage(validatorData.list, 'warning_types_count')
-    const maxWarnings = getMax(validatorData.list, 'warnings_count')
-    const minWarnings = getMin(validatorData.list, 'warnings_count')
-    const avgWarnings = getAverage(validatorData.list, 'warnings_count')
+    const maxWarningTypes = calc.getMax(validatorData.list, 'warnings')
+    const minWarningTypes = calc.getMin(validatorData.list, 'warnings')
+    const avgWarningTypes = calc.getAverage(validatorData.list, 'warning_types_count')
+    const maxWarnings = calc.getMax(validatorData.list, 'warnings_count')
+    const minWarnings = calc.getMin(validatorData.list, 'warnings_count')
+    const avgWarnings = calc.getAverage(validatorData.list, 'warnings_count')
 
     validatorData.maxWarningTypes = {
       site: maxWarningTypes.site,
@@ -162,11 +188,11 @@ const report = async (sites, name, silent) => {
     if(!silent) {
       console.log(`✅ Validator data saved at ${validatorFile}`)
     }
-  } else {
-    if(!silent) {
-      console.log(`✅ Validator data exists at ${validatorFile}`)
-    }
-  }
+  // } else {
+  //   if(!silent) {
+  //     console.log(`✅ Validator data exists at ${validatorFile}`)
+  //   }
+  // }
 
   return true
 }

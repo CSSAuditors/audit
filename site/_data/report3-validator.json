@@ -628,6 +628,35 @@
       }
     }
   ],
+  "errorList": [
+    "noexistence-at-all",
+    "noexistence-typo",
+    "zero",
+    "value",
+    "negative-value",
+    "invalidparam",
+    "unrecognize",
+    "java.lang.NullPointerException",
+    "generator.unrecognize",
+    "rgb",
+    "invalidtype"
+  ],
+  "warningList": [
+    "css-variable",
+    "vendor-extension",
+    "vendor-ext-pseudo-element",
+    "vendor-ext-pseudo-class",
+    "deprecatedproperty",
+    "at-rule",
+    "no-declaration",
+    "deprecated",
+    "unsupported-import",
+    "css-hack",
+    "noexistence-media",
+    "shape-separator",
+    "out-of-range",
+    "noexproperty"
+  ],
   "maxErrorTypes": {
     "site": {
       "title": "Primer CSS",

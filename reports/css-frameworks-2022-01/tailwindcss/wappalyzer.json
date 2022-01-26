@@ -1,0 +1,110 @@
+{
+  "urls": {
+    "https://tailwindcss.com/": {
+      "status": 200
+    }
+  },
+  "technologies": [
+    {
+      "slug": "node-js",
+      "name": "Node.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "node.js.png",
+      "website": "http://nodejs.org",
+      "cpe": "cpe:/a:nodejs:node.js",
+      "categories": [
+        {
+          "id": 27,
+          "slug": "programming-languages",
+          "name": "Programming languages"
+        }
+      ]
+    },
+    {
+      "slug": "next-js",
+      "name": "Next.js",
+      "confidence": 100,
+      "version": null,
+      "icon": "vercel.svg",
+      "website": "https://nextjs.org",
+      "cpe": "cpe:/a:zeit:next.js",
+      "categories": [
+        {
+          "id": 18,
+          "slug": "web-frameworks",
+          "name": "Web frameworks"
+        },
+        {
+          "id": 22,
+          "slug": "web-servers",
+          "name": "Web servers"
+        }
+      ]
+    },
+    {
+      "slug": "react",
+      "name": "React",
+      "confidence": 100,
+      "version": null,
+      "icon": "React.png",
+      "website": "https://reactjs.org",
+      "cpe": "cpe:/a:facebook:react",
+      "categories": [
+        {
+          "id": 12,
+          "slug": "javascript-frameworks",
+          "name": "JavaScript frameworks"
+        }
+      ]
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "confidence": 100,
+      "version": null,
+      "icon": "vercel.svg",
+      "website": "https://vercel.com",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 62,
+          "slug": "paas",
+          "name": "PaaS"
+        }
+      ]
+    },
+    {
+      "slug": "webpack",
+      "name": "webpack",
+      "confidence": 100,
+      "version": null,
+      "icon": "webpack.svg",
+      "website": "https://webpack.js.org/",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "choices",
+      "name": "Choices",
+      "confidence": 100,
+      "version": null,
+      "icon": "Choices.png",
+      "website": "https://github.com/Choices-js/Choices",
+      "cpe": null,
+      "categories": [
+        {
+          "id": 19,
+          "slug": "miscellaneous",
+          "name": "Miscellaneous"
+        }
+      ]
+    }
+  ]
+}

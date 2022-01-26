@@ -58,7 +58,7 @@ module.exports = (eleventyConfig) => {
     audit.processData(reports.report1, 'report1', silent)
     audit.processData(reports.report2, 'report2', silent)
     audit.processData(reports.report3, 'report3', silent)
-  }, 2000)
+  }, 1000)
 
   return {
     dir: {

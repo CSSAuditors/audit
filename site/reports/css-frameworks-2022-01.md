@@ -26,14 +26,17 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-{% render report/validator-all, report: report3-validator %}
+{% render report/validator-list-table, report: report3-validator %}
+{% render report/validator-count-table, report: report3-validator %}
+{% render report/validator-errors-table, report: report3-validator %}
+{% render report/validator-warnings-table, report: report3-validator %}
 
-{% render report/site-list, report: reports.report3 %}
-{% render report/file-sizes, report: report3-extractor %}
+{% render report/general-site-list, report: reports.report3 %}
+{% render report/extractor-sizes-table, report: report3-extractor %}
 
 Pure CSS is ridiculously tiny, as they website says.
 
 TailwindCSS gzip is pretty big, unsurprisingly. Gzip doesn't do well on non-repeating strings, and TailwindCSS has only unique declarations (?).
 
-{% render report/chart-sizes, report: report3-extractor, space: 10, height: 2rem %}
-{% render report/full-report, report: report3-extractor, simple: true %}
+{% render report/extractor-sizes-chart, report: report3-extractor, space: 10, height: 2rem %}
+{% render report/extractor-list-table, report: report3-extractor, simple: true %}

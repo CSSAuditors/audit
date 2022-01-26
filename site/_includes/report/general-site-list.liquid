@@ -1,0 +1,7 @@
+{%- if report -%}
+  <ul>
+    {%- for item in report.list -%}
+      <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
