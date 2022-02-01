@@ -3,59 +3,61 @@ const Wappalyzer = require('wappalyzer')
 
 const wapp = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
-    const folder = helpers.getFolder(site)
-    const wappalyzerFile = `${folder}/wappalyzer.json`
+    if(!site.css) {
+      const folder = helpers.getFolder(site)
+      const wappalyzerFile = `${folder}/wappalyzer.json`
 
-    if(!helpers.fileExists(wappalyzerFile)) {
-      // const wappalyzerConfig = {
-      //   debug: true,
-      //   delay: 1000,
-      //   headers: {},
-      //   maxDepth: 1,
-      //   maxUrls: 1000,
-      //   maxWait: 20000,
-      //   recursive: false,
-      //   probe: false,
-      //   userAgent: 'Wappalyzer',
-      //   htmlMaxCols: 10000,
-      //   htmlMaxRows: 10000,
-      // }
+      if(!helpers.fileExists(wappalyzerFile)) {
+        // const wappalyzerConfig = {
+        //   debug: true,
+        //   delay: 1000,
+        //   headers: {},
+        //   maxDepth: 1,
+        //   maxUrls: 1000,
+        //   maxWait: 20000,
+        //   recursive: false,
+        //   probe: false,
+        //   userAgent: 'Wappalyzer',
+        //   htmlMaxCols: 10000,
+        //   htmlMaxRows: 10000,
+        // }
 
-      const wappalyzer = new Wappalyzer()
+        const wappalyzer = new Wappalyzer()
 
-      try {
-        await wappalyzer.init()
+        try {
+          await wappalyzer.init()
 
-        let error
+          let error
 
-        // Optionally set additional request headers
-        const headers = {}
+          // Optionally set additional request headers
+          const headers = {}
 
-        const website = await wappalyzer.open(site.url, headers)
+          const website = await wappalyzer.open(site.url, headers)
 
-        // Optionally capture and output errors
-        website.on('error', (err) => {
-          console.error(site.url, err)
-        })
+          // Optionally capture and output errors
+          website.on('error', (err) => {
+            console.error(site.url, err)
+          })
 
-        const results = await website.analyze()
+          const results = await website.analyze()
 
-        if(Object.values(results.urls).find(a => a.status === 200)) {
-          helpers.saveFile(wappalyzerFile, results, true)
+          if(Object.values(results.urls).find(a => a.status === 200)) {
+            helpers.saveFile(wappalyzerFile, results, true)
 
-          if(!silent) {
-            console.log(`✅ Wappalyzer file created in ${folder}`)
+            if(!silent) {
+              console.log(`✅ Wappalyzer file created in ${folder}`)
+            }
           }
+        } catch (error) {
+          console.error("error")
+          console.error(error)
         }
-      } catch (error) {
-        console.error("error")
-        console.error(error)
-      }
 
-      await wappalyzer.destroy()
-    } else {
-      if(!silent) {
-        console.log(`📚 Wappalyzer file: ${wappalyzerFile}`)
+        await wappalyzer.destroy()
+      } else {
+        if(!silent) {
+          console.log(`📚 Wappalyzer file: ${wappalyzerFile}`)
+        }
       }
     }
 

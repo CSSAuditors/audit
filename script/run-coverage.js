@@ -18,6 +18,7 @@ const coverage = async (site, silent) => {
         height: 768,
         deviceScaleFactor: 1
       })
+
       const cssCoverage = await page.coverage.stopCSSCoverage()
       await browser.close()
 

@@ -11,10 +11,9 @@ const analyzerScript = require('./run-analyzer')
 const extractorReport = require('./get-extractor')
 const wappalyzerReport = require('./get-wappalyzer')
 const validatorReport = require('./get-validator')
-const { coverageReport, coveragesReport } = require('./get-coverage')
-const { specificityReport, specificitiesReport } = require('./get-specificity')
-const { analyzerReport } = require('./get-analyzer')
-const { loadImage } = require('canvas')
+const coverageReport = require('./get-coverage')
+const specificityReport = require('./get-specificity')
+// const { analyzerReport } = require('./get-analyzer')
 
 const runExtractor = async (reports, silent) => {
   for(const report of reports) {
@@ -34,12 +33,6 @@ const runCoverage = async (reports, silent) => {
   }
 }
 
-// const runScreenshot = async (reports, silent) => {
-//   for(const report of reports) {
-//     await screenshotScript(report, silent)
-//   }
-// }
-
 const runSpecificity = async (reports, silent) => {
   for(const report of reports) {
     await specificityScript(report, silent)
@@ -52,9 +45,15 @@ const runWappalyzer = async (reports, silent) => {
   }
 }
 
-// const runAnalyses = async (reports, silent) => {
+const runAnalyses = async (reports, silent) => {
+  for(const report of reports) {
+    await analyzerScript(report, silent)
+  }
+}
+
+// const runScreenshot = async (reports, silent) => {
 //   for(const report of reports) {
-//     await analyzerScript(report, silent)
+//     await screenshotScript(report, silent)
 //   }
 // }
 
@@ -63,9 +62,10 @@ const prepareData = async (reports, silent) => {
   await runExtractor(reportsData, silent)
   await runValidator(reportsData, silent)
   await runCoverage(reportsData, silent)
-  // await runScreenshot(reportsData, silent)
   await runSpecificity(reportsData, silent)
   await runWappalyzer(reportsData, silent)
+  await runAnalyses(reportsData, silent)
+  // await runScreenshot(reportsData, silent)
   return true
 }
 
@@ -81,47 +81,26 @@ const getValidator = async (report, name, silent) => {
   await validatorReport.report(report, name, silent)
 }
 
-const getValidators = async (sites, name, silent) => {
-  await validatorsReport(sites)
+const getCoverage = async (report, name, silent) => {
+  await coverageReport.report(report, name, silent)
 }
 
-const getCoverage = async (sites, name, silent) => {
-  for(const report of reports) {
-    coverageAmount = await coverageReport(report)
-  }
+const getSpecificity = async (report, name, silent) => {
+  await specificityReport.report(report, name, silent)
 }
 
-const getCoverages = async (sites, name, silent) => {
-  await coveragesReport(sites)
-}
-
-const getWappalyzers = async (sites, name, silent) => {
-  generateWappalyzersReport(sites)
-  // await wappalyzersReport(sites)
-}
-
-const getSpecificity = async (sites, name, silent) => {
-  for(const report of reports) {
-    await specificityReport(report)
-  }
-}
-
-const getSpecificities = async (sites, name, silent) => {
-  await specificitiesReport(sites)
-}
-
-const getAnalyzer = async (sites, name, silent) => {
-  for(const report of reports) {
-    await analyzerReport(report)
-  }
-}
+// const getAnalyzer = async (sites, name, silent) => {
+//   for(const report of reports) {
+//     await analyzerReport(report)
+//   }
+// }
 
 const processData = async (report, name, silent) => {
   await getExtractor(report, name, silent)
   await getWappalyzer(report, name, silent)
   await getValidator(report, name, silent)
-  // await getCoverage()
-  // await getSpecificity()
+  await getCoverage(report, name, silent)
+  await getSpecificity(report, name, silent)
   // await getAnalyzer()
 }
 

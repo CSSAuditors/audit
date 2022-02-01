@@ -1,9 +1,9 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 800389,
-  "stylesheets.size.compressed.gzip.totalBytes": 108721,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.8641647998660651,
-  "stylesheets.simplicity": 0.7404672557801719,
-  "stylesheets.cohesion.average": 2.8948831126369137,
+  "stylesheets.size.uncompressed.totalBytes": 694014,
+  "stylesheets.size.compressed.gzip.totalBytes": 102687,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.8520390078586311,
+  "stylesheets.simplicity": 0.7396978851963746,
+  "stylesheets.cohesion.average": 2.8921744812939063,
   "stylesheets.cohesion.min.count": 31,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -167,8 +167,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 33210,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 26511,
+  "stylesheets.linesOfCode.total": 17,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 26520,
   "atrules.charsets.total": 1,
   "atrules.charsets.unique": [
     {
@@ -663,7 +663,7 @@
       "count": 10
     },
     {
-      "value": "all and (-ms-high-contrast:none),\n(-ms-high-contrast:active)",
+      "value": "all and (-ms-high-contrast:none),(-ms-high-contrast:active)",
       "count": 1
     },
     {
@@ -683,7 +683,7 @@
       "count": 1
     },
     {
-      "value": "all and (max-width:1024px) and (-ms-high-contrast:none),\n(-ms-high-contrast:active)",
+      "value": "all and (max-width:1024px) and (-ms-high-contrast:none),(-ms-high-contrast:active)",
       "count": 1
     },
     {
@@ -723,7 +723,7 @@
       "count": 2
     },
     {
-      "value": "all and (transform-3d),\n(-webkit-transform-3d)",
+      "value": "all and (transform-3d),(-webkit-transform-3d)",
       "count": 1
     },
     {
@@ -888,9 +888,9 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 6117,
+  "rules.total": 6121,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.3504986104299492,
+  "rules.selectors.average": 1.3519032837771605,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#action-areas-thirds-3 svg"
@@ -946,16 +946,16 @@
     ".col-xs-8",
     ".col-xs-9"
   ],
-  "selectors.total": 8261,
+  "selectors.total": 8275,
   "selectors.totalUnique": 6908,
   "selectors.js.total": 27,
   "selectors.js.unique": [
     {
-      "value": ".carousel__holder .js .slider-single > div:nth-child(1n+2)",
+      "value": ".carousel__holder .js .slider-single.slick-initialized>div:nth-child(1n+2)",
       "count": 1
     },
     {
-      "value": ".carousel__holder .js .slider-single.slick-initialized > div:nth-child(1n+2)",
+      "value": ".carousel__holder .js .slider-single>div:nth-child(1n+2)",
       "count": 1
     },
     {
@@ -1047,11 +1047,11 @@
       "count": 1
     },
     {
-      "value": "body > div.main-container.js-quickedit-main-content > div.container > section > div > div > div.view-display-id-latest_news_view > div.view-header > div > form > div > .form-item",
+      "value": "body>div.main-container.js-quickedit-main-content>div.container>section>div>div>div.view-display-id-latest_news_view>div.view-header>div>form>div>.form-item",
       "count": 1
     },
     {
-      "value": "body > div.main-container.js-quickedit-main-content > div.container > section > div > div > div.view-display-id-latest_news_view > div.view-header > h1",
+      "value": "body>div.main-container.js-quickedit-main-content>div.container>section>div>div>div.view-display-id-latest_news_view>div.view-header>h1",
       "count": 1
     },
     {
@@ -1060,7 +1060,7 @@
     }
   ],
   "selectors.js.totalUnique": 27,
-  "selectors.id.total": 325,
+  "selectors.id.total": 334,
   "selectors.id.unique": [
     {
       "value": "#action-areas-thirds-3 svg",
@@ -1075,19 +1075,19 @@
       "count": 1
     },
     {
-      "value": "#block-fans > h2",
+      "value": "#block-fans>h2",
       "count": 1
     },
     {
-      "value": "#block-fixturesmenu > h2",
+      "value": "#block-fixturesmenu>h2",
       "count": 1
     },
     {
-      "value": "#block-news-menu-block > h2",
+      "value": "#block-news-menu-block>h2",
       "count": 1
     },
     {
-      "value": "#block-newstadium > h2",
+      "value": "#block-newstadium>h2",
       "count": 1
     },
     {
@@ -1119,35 +1119,35 @@
       "count": 2
     },
     {
-      "value": "#block-supportersclubsheading > div.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item > div > div > div",
+      "value": "#block-supportersclubsheading>div.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item>div>div>div",
       "count": 2
     },
     {
-      "value": "#block-teams > h2",
+      "value": "#block-teams>h2",
       "count": 1
     },
     {
-      "value": "#block-the-club-menu-block > h2",
+      "value": "#block-the-club-menu-block>h2",
       "count": 1
     },
     {
-      "value": "#block-tickets > h2",
+      "value": "#block-tickets>h2",
       "count": 1
     },
     {
-      "value": "#block-views-block-fixtures-view-last-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.footer > a.matchCentre:hover",
+      "value": "#block-views-block-fixtures-view-last-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.footer>a.matchCentre:hover",
       "count": 1
     },
     {
-      "value": "#block-views-block-fixtures-view-last-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.info",
+      "value": "#block-views-block-fixtures-view-last-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.info",
       "count": 1
     },
     {
-      "value": "#block-views-block-fixtures-view-next-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.footer > a.matchCentre",
+      "value": "#block-views-block-fixtures-view-next-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.footer>a.matchCentre",
       "count": 1
     },
     {
-      "value": "#block-views-block-fixtures-view-next-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.footer > a.matchCentre:hover",
+      "value": "#block-views-block-fixtures-view-next-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.footer>a.matchCentre:hover",
       "count": 1
     },
     {
@@ -1363,11 +1363,11 @@
       "count": 1
     },
     {
-      "value": "#edit-message-wrapper > div > label > span",
+      "value": "#edit-message-wrapper>div>label>span",
       "count": 1
     },
     {
-      "value": "#edit-subject-wrapper > div > label > span",
+      "value": "#edit-subject-wrapper>div>label>span",
       "count": 1
     },
     {
@@ -1435,7 +1435,7 @@
       "count": 1
     },
     {
-      "value": "#galery > h3",
+      "value": "#galery>h3",
       "count": 1
     },
     {
@@ -1584,27 +1584,27 @@
     },
     {
       "value": "#sliding-popup div",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#sliding-popup h1",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#sliding-popup h2",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#sliding-popup h3",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#sliding-popup label",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#sliding-popup p",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#standing-table tr.westham",
@@ -1643,7 +1643,7 @@
       "count": 1
     },
     {
-      "value": ".clubFoundationOurTeam > .categoryWrapper > #faqControl > div > .question",
+      "value": ".clubFoundationOurTeam>.categoryWrapper>#faqControl>div>.question",
       "count": 1
     },
     {
@@ -1887,11 +1887,11 @@
       "count": 1
     },
     {
-      "value": ".whu-header .navbar-collapse #block-views-block-fixtures-view-next-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.footer > a.matchCentre",
+      "value": ".whu-header .navbar-collapse #block-views-block-fixtures-view-next-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.footer>a.matchCentre",
       "count": 1
     },
     {
-      "value": ".whu-header .navbar-collapse #block-views-block-fixtures-view-next-match-menu-block > div.form-group > div > div.view-content > div > div > div.row.footer > a.matchCentre:hover",
+      "value": ".whu-header .navbar-collapse #block-views-block-fixtures-view-next-match-menu-block>div.form-group>div>div.view-content>div>div>div.row.footer>a.matchCentre:hover",
       "count": 1
     },
     {
@@ -1904,10 +1904,6 @@
     },
     {
       "value": ".whu-header .navbar-collapse #block-westham-main-menu ul.menu li",
-      "count": 1
-    },
-    {
-      "value": ".whu-header .navbar-collapse #block-westham-main-menu ul.menu li > a",
       "count": 1
     },
     {
@@ -1928,6 +1924,10 @@
     },
     {
       "value": ".whu-header .navbar-collapse #block-westham-main-menu ul.menu li.dropdown.open-sub a.dropdown-toggle:before",
+      "count": 1
+    },
+    {
+      "value": ".whu-header .navbar-collapse #block-westham-main-menu ul.menu li>a",
       "count": 1
     },
     {
@@ -1979,7 +1979,7 @@
       "count": 1
     },
     {
-      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button + button",
+      "value": ".wpiam-card-message.wpiam-message#wpiam-message .wpiam-card-container .wpiam-card .wpiam-card-content section .wpiam-actions button+button",
       "count": 1
     },
     {
@@ -2196,15 +2196,15 @@
     },
     {
       "value": "div#sliding-popup",
-      "count": 1
+      "count": 2
     },
     {
       "value": "div#sliding-popup .eu-cookie-withdraw-banner",
-      "count": 1
+      "count": 2
     },
     {
       "value": "div#sliding-popup.eu-cookie-withdraw-wrapper",
-      "count": 1
+      "count": 2
     },
     {
       "value": "div.ui-datepicker #datepicker",
@@ -2271,11 +2271,11 @@
       "count": 2
     },
     {
-      "value": ".alphabeticFilterList .filter > *",
+      "value": ".alphabeticFilterList .filter>*",
       "count": 1
     },
     {
-      "value": ".fixture-slider .body .matchInfo .teams > *",
+      "value": ".fixture-slider .body .matchInfo .teams>*",
       "count": 1
     },
     {
@@ -2299,7 +2299,7 @@
       "count": 1
     },
     {
-      "value": "nav[aria-labelledby=block-fans-2-menu] ul > li",
+      "value": "nav[aria-labelledby=block-fans-2-menu] ul>li",
       "count": 1
     }
   ],
@@ -2386,13 +2386,13 @@
   "selectors.complexity.max.value": 17,
   "selectors.complexity.max.selectors": [
     {
-      "value": "body > div.main-container.js-quickedit-main-content > div.container > section > div > div > div.view-display-id-latest_news_view > div.view-header > div > form > div > .form-item",
+      "value": "body>div.main-container.js-quickedit-main-content>div.container>section>div>div>div.view-display-id-latest_news_view>div.view-header>div>form>div>.form-item",
       "count": 1
     }
   ],
   "selectors.complexity.max.count": 1,
-  "selectors.complexity.average": 2.999636847839245,
-  "selectors.complexity.sum": 24780,
+  "selectors.complexity.average": 2.997583081570997,
+  "selectors.complexity.sum": 24805,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -2400,15 +2400,15 @@
     },
     {
       "value": 1,
-      "count": 1922
+      "count": 1927
     },
     {
       "value": 2,
-      "count": 2366
+      "count": 2373
     },
     {
       "value": 3,
-      "count": 1453
+      "count": 1455
     },
     {
       "value": 4,
@@ -2471,11 +2471,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 17735,
-  "declarations.totalUnique": 4262,
+  "declarations.total": 17730,
+  "declarations.totalUnique": 4257,
   "declarations.importants.total": 231,
-  "declarations.importants.share": 0.013025091626726812,
-  "properties.total": 17735,
+  "declarations.importants.share": 0.013028764805414551,
+  "properties.total": 17730,
   "properties.unique": [
     {
       "value": "-khtml-user-select",
@@ -2835,7 +2835,7 @@
     },
     {
       "value": "background",
-      "count": 505
+      "count": 507
     },
     {
       "value": "background-clip",
@@ -2891,7 +2891,7 @@
     },
     {
       "value": "border-color",
-      "count": 111
+      "count": 112
     },
     {
       "value": "border-left",
@@ -2959,7 +2959,7 @@
     },
     {
       "value": "bottom",
-      "count": 116
+      "count": 112
     },
     {
       "value": "box-shadow",
@@ -2979,7 +2979,7 @@
     },
     {
       "value": "color",
-      "count": 872
+      "count": 873
     },
     {
       "value": "content",
@@ -2995,7 +2995,7 @@
     },
     {
       "value": "cursor",
-      "count": 136
+      "count": 138
     },
     {
       "value": "direction",
@@ -3082,12 +3082,16 @@
       "count": 728
     },
     {
+      "value": "inset",
+      "count": 4
+    },
+    {
       "value": "justify-content",
       "count": 30
     },
     {
       "value": "left",
-      "count": 743
+      "count": 739
     },
     {
       "value": "letter-spacing",
@@ -3099,7 +3103,7 @@
     },
     {
       "value": "line-height",
-      "count": 332
+      "count": 333
     },
     {
       "value": "list-style",
@@ -3235,7 +3239,7 @@
     },
     {
       "value": "right",
-      "count": 250
+      "count": 246
     },
     {
       "value": "scrollbar-width",
@@ -3275,7 +3279,7 @@
     },
     {
       "value": "top",
-      "count": 737
+      "count": 733
     },
     {
       "value": "touch-action",
@@ -3354,7 +3358,7 @@
       "count": 3
     }
   ],
-  "properties.totalUnique": 219,
+  "properties.totalUnique": 220,
   "properties.prefixed.total": 1178,
   "properties.prefixed.unique": [
     {
@@ -3687,11 +3691,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 82,
-  "properties.prefixed.share": 0.06642232872850296,
+  "properties.prefixed.share": 0.06644106034968979,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 17735,
+  "values.total": 17730,
   "values.prefixed.total": 245,
   "values.prefixed.unique": [
     {
@@ -4008,7 +4012,7 @@
     }
   ],
   "values.prefixed.totalUnique": 78,
-  "values.prefixed.share": 0.01381449111925571,
+  "values.prefixed.share": 0.013818386914833615,
   "values.fontsizes.total": 627,
   "values.fontsizes.unique": [
     {
@@ -4140,36 +4144,36 @@
       "count": 7
     },
     {
-      "value": "16px",
-      "count": 85
+      "value": "100%",
+      "count": 2
     },
     {
       "value": "1em",
       "count": 8
     },
     {
-      "value": "100%",
-      "count": 2
+      "value": "16px",
+      "count": 85
     },
     {
       "value": "15px",
       "count": 29
     },
     {
-      "value": "90%",
-      "count": 3
-    },
-    {
       "value": ".9em",
       "count": 1
     },
     {
-      "value": ".875em",
-      "count": 1
+      "value": "90%",
+      "count": 3
     },
     {
       "value": "14px",
       "count": 106
+    },
+    {
+      "value": ".875em",
+      "count": 1
     },
     {
       "value": "85%",
@@ -4184,12 +4188,12 @@
       "count": 2
     },
     {
-      "value": "12px",
-      "count": 104
-    },
-    {
       "value": "75%",
       "count": 3
+    },
+    {
+      "value": "12px",
+      "count": 104
     },
     {
       "value": ".7em",
@@ -4216,11 +4220,11 @@
       "count": 1
     },
     {
-      "value": "8px",
+      "value": ".5em",
       "count": 1
     },
     {
-      "value": ".5em",
+      "value": "8px",
       "count": 1
     },
     {
@@ -4305,7 +4309,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 18,
-  "values.colors.total": 2329,
+  "values.colors.total": 2332,
   "values.colors.unique": [
     {
       "value": "#5e5d5d",
@@ -4897,7 +4901,7 @@
     },
     {
       "value": "#66192c",
-      "count": 70
+      "count": 71
     },
     {
       "value": "rgba(102,25,44,.8)",
@@ -5133,7 +5137,7 @@
     },
     {
       "value": "#fff",
-      "count": 422
+      "count": 424
     },
     {
       "value": "white",
@@ -5165,11 +5169,7 @@
     },
     {
       "value": "rgba(255,255,255,.3)",
-      "count": 2
-    },
-    {
-      "value": "rgba(255,255,255,0.3)",
-      "count": 2
+      "count": 4
     },
     {
       "value": "rgba(255,255,255,.2)",
@@ -5621,11 +5621,7 @@
     },
     {
       "value": "rgba(0,0,0,.2)",
-      "count": 15
-    },
-    {
-      "value": "rgba(0,0,0,0.2)",
-      "count": 2
+      "count": 17
     },
     {
       "value": "rgba(0,0,0,.15)",
@@ -5684,7 +5680,7 @@
       "count": 2
     }
   ],
-  "values.colors.totalUnique": 344,
+  "values.colors.totalUnique": 342,
   "values.colors.duplicates.unique": [
     {
       "notations": [
@@ -5716,29 +5712,15 @@
       "notations": [
         {
           "value": "#fff",
-          "count": 422
+          "count": 424
         },
         {
           "value": "white",
           "count": 2
         }
       ],
-      "count": 424,
+      "count": 426,
       "value": "#fff"
-    },
-    {
-      "notations": [
-        {
-          "value": "rgba(255,255,255,.3)",
-          "count": 2
-        },
-        {
-          "value": "rgba(255,255,255,0.3)",
-          "count": 2
-        }
-      ],
-      "count": 4,
-      "value": "rgba(255,255,255,.3)"
     },
     {
       "notations": [
@@ -5767,24 +5749,10 @@
       ],
       "count": 105,
       "value": "#000"
-    },
-    {
-      "notations": [
-        {
-          "value": "rgba(0,0,0,.2)",
-          "count": 15
-        },
-        {
-          "value": "rgba(0,0,0,0.2)",
-          "count": 2
-        }
-      ],
-      "count": 17,
-      "value": "rgba(0,0,0,.2)"
     }
   ],
-  "values.colors.duplicates.totalUnique": 6,
-  "values.colors.duplicates.total": 6,
+  "values.colors.duplicates.totalUnique": 4,
+  "values.colors.duplicates.total": 4,
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,

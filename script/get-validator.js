@@ -81,7 +81,7 @@ const report = async (sites, name, silent) => {
   const root = helpers.getRootDirectoryBase();
   const validatorFile = `${root}/site/_data/${name}-validator.json`
 
-  // if(!helpers.fileExists(validatorFile) && sites.list) {
+  if(!helpers.fileExists(validatorFile) && sites.list) {
     const validatorData = {
       list: []
     }
@@ -188,11 +188,11 @@ const report = async (sites, name, silent) => {
     if(!silent) {
       console.log(`✅ Validator data saved at ${validatorFile}`)
     }
-  // } else {
-  //   if(!silent) {
-  //     console.log(`✅ Validator data exists at ${validatorFile}`)
-  //   }
-  // }
+  } else {
+    if(!silent) {
+      console.log(`✅ Validator data exists at ${validatorFile}`)
+    }
+  }
 
   return true
 }

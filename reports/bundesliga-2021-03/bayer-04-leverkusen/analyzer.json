@@ -1,9 +1,9 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 689473,
-  "stylesheets.size.compressed.gzip.totalBytes": 105650,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.8467670235092599,
-  "stylesheets.simplicity": 0.8498018821198613,
-  "stylesheets.cohesion.average": 1.9804750109281655,
+  "stylesheets.size.uncompressed.totalBytes": 597770,
+  "stylesheets.size.compressed.gzip.totalBytes": 101553,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.8301135888385165,
+  "stylesheets.simplicity": 0.84974669467441,
+  "stylesheets.cohesion.average": 1.9863312490911735,
   "stylesheets.cohesion.min.count": 34,
   "stylesheets.cohesion.min.value.declarations": [
     {
@@ -182,8 +182,8 @@
   ],
   "stylesheets.browserhacks.total": 2,
   "stylesheets.browserhacks.totalUnique": 1,
-  "stylesheets.linesOfCode.total": 30112,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 22121,
+  "stylesheets.linesOfCode.total": 27,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 22209,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -1254,14 +1254,14 @@
   ],
   "atrules.keyframes.prefixed.totalUnique": 86,
   "atrules.keyframes.prefixed.share": 2,
-  "atrules.mediaqueries.total": 203,
+  "atrules.mediaqueries.total": 206,
   "atrules.mediaqueries.unique": [
     {
-      "value": "(-ms-high-contrast:active),\n(-ms-high-contrast:none)",
+      "value": "(-ms-high-contrast:active),(-ms-high-contrast:none)",
       "count": 1
     },
     {
-      "value": "(-webkit-transform-3d),\n(transform-3d)",
+      "value": "(-webkit-transform-3d),(transform-3d)",
       "count": 1
     },
     {
@@ -1269,7 +1269,7 @@
       "count": 1
     },
     {
-      "value": "(max-height:920px),\n(max-width:769px)",
+      "value": "(max-height:920px),(max-width:769px)",
       "count": 1
     },
     {
@@ -1291,6 +1291,10 @@
     {
       "value": "(max-width:992px)",
       "count": 1
+    },
+    {
+      "value": "(max-width:1024px)",
+      "count": 2
     },
     {
       "value": "(max-width:1200px)",
@@ -1329,19 +1333,19 @@
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:320px),\nonly screen and (max-width:320px)",
+      "value": "only screen and (max-device-width:320px),only screen and (max-width:320px)",
       "count": 8
     },
     {
-      "value": "only screen and (max-device-width:321px),\nonly screen and (max-width:321px)",
+      "value": "only screen and (max-device-width:321px),only screen and (max-width:321px)",
       "count": 2
     },
     {
-      "value": "only screen and (max-device-width:360px),\nonly screen and (max-width:360px)",
+      "value": "only screen and (max-device-width:360px),only screen and (max-width:360px)",
       "count": 3
     },
     {
-      "value": "only screen and (max-device-width:380px),\nonly screen and (max-width:380px)",
+      "value": "only screen and (max-device-width:380px),only screen and (max-width:380px)",
       "count": 2
     },
     {
@@ -1349,19 +1353,19 @@
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:480px),\nonly screen and (max-width:480px)",
+      "value": "only screen and (max-device-width:480px),only screen and (max-width:480px)",
       "count": 21
     },
     {
-      "value": "only screen and (max-device-width:486px),\nonly screen and (max-width:486px)",
+      "value": "only screen and (max-device-width:486px),only screen and (max-width:486px)",
       "count": 2
     },
     {
-      "value": "only screen and (max-device-width:520px),\nonly screen and (max-width:520px)",
+      "value": "only screen and (max-device-width:520px),only screen and (max-width:520px)",
       "count": 2
     },
     {
-      "value": "only screen and (max-device-width:760px),\nonly screen and (max-width:760px)",
+      "value": "only screen and (max-device-width:760px),only screen and (max-width:760px)",
       "count": 1
     },
     {
@@ -1369,55 +1373,55 @@
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:768px),\nonly screen and (max-width:768px)",
+      "value": "only screen and (max-device-width:768px),only screen and (max-width:768px)",
       "count": 24
     },
     {
-      "value": "only screen and (max-device-width:780px),\nonly screen and (max-width:780px)",
+      "value": "only screen and (max-device-width:780px),only screen and (max-width:780px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:800px),\nonly screen and (max-width:800px)",
+      "value": "only screen and (max-device-width:800px),only screen and (max-width:800px)",
       "count": 3
     },
     {
-      "value": "only screen and (max-device-width:991px),\nonly screen and (max-width:991px)",
+      "value": "only screen and (max-device-width:991px),only screen and (max-width:991px)",
       "count": 5
     },
     {
-      "value": "only screen and (max-device-width:992px),\nonly screen and (max-width:992px)",
+      "value": "only screen and (max-device-width:992px),only screen and (max-width:992px)",
       "count": 10
     },
     {
-      "value": "only screen and (max-device-width:1024px),\nonly screen and (max-width:1024px)",
+      "value": "only screen and (max-device-width:1024px),only screen and (max-width:1024px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1200px),\nonly screen and (max-width:1200px)",
+      "value": "only screen and (max-device-width:1200px),only screen and (max-width:1200px)",
       "count": 9
     },
     {
-      "value": "only screen and (max-device-width:1280px),\nonly screen and (max-width:1280px)",
+      "value": "only screen and (max-device-width:1280px),only screen and (max-width:1280px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1350px),\nonly screen and (max-width:1350px)",
+      "value": "only screen and (max-device-width:1350px),only screen and (max-width:1350px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1400px),\nonly screen and (max-width:1400px)",
+      "value": "only screen and (max-device-width:1400px),only screen and (max-width:1400px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1550px),\nonly screen and (max-width:1550px)",
+      "value": "only screen and (max-device-width:1550px),only screen and (max-width:1550px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1600px),\nonly screen and (max-width:1600px)",
+      "value": "only screen and (max-device-width:1600px),only screen and (max-width:1600px)",
       "count": 1
     },
     {
-      "value": "only screen and (max-device-width:1700px),\nonly screen and (max-width:1700px)",
+      "value": "only screen and (max-device-width:1700px),only screen and (max-width:1700px)",
       "count": 1
     },
     {
@@ -1437,7 +1441,7 @@
       "count": 1
     },
     {
-      "value": "only screen and (min-device-width:481px) and (max-device-width:768px),\nonly screen and (min-width:480px) and (max-width:768px)",
+      "value": "only screen and (min-device-width:481px) and (max-device-width:768px),only screen and (min-width:480px) and (max-width:768px)",
       "count": 1
     },
     {
@@ -1469,7 +1473,7 @@
       "count": 7
     },
     {
-      "value": "screen and (-ms-high-contrast:active),\nscreen and (-ms-high-contrast:none)",
+      "value": "screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none)",
       "count": 1
     },
     {
@@ -1486,14 +1490,14 @@
     },
     {
       "value": "screen and (min-width:480px)",
-      "count": 1
+      "count": 2
     },
     {
       "value": "screen and (min-width:768px)",
       "count": 2
     }
   ],
-  "atrules.mediaqueries.totalUnique": 59,
+  "atrules.mediaqueries.totalUnique": 60,
   "atrules.mediaqueries.browserhacks.total": 2,
   "atrules.mediaqueries.browserhacks.unique": [
     {
@@ -1523,9 +1527,9 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 6863,
+  "rules.total": 6877,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.176744863762203,
+  "rules.selectors.average": 1.1768212883524793,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#carousel"
@@ -1629,8 +1633,8 @@
     ".col-xs-8",
     ".col-xs-9"
   ],
-  "selectors.total": 8076,
-  "selectors.totalUnique": 6982,
+  "selectors.total": 8093,
+  "selectors.totalUnique": 6993,
   "selectors.js.total": 0,
   "selectors.js.unique": [],
   "selectors.js.totalUnique": 0,
@@ -1793,11 +1797,11 @@
       "count": 1
     },
     {
-      "value": "#left-menu .nav.nav-secondary > li",
+      "value": "#left-menu .nav.nav-secondary>li",
       "count": 1
     },
     {
-      "value": "#left-menu .nav.nav-secondary > li > a",
+      "value": "#left-menu .nav.nav-secondary>li>a",
       "count": 1
     },
     {
@@ -1881,11 +1885,11 @@
       "count": 1
     },
     {
-      "value": "#nav-icon.open:hover > span",
+      "value": "#nav-icon.open:hover>span",
       "count": 1
     },
     {
-      "value": "#nav-icon:hover > span",
+      "value": "#nav-icon:hover>span",
       "count": 2
     },
     {
@@ -2241,11 +2245,11 @@
       "count": 2
     },
     {
-      "value": ".dropdown-element > div > div.dropdown-list > div > div > *",
+      "value": ".dropdown-element>div>div.dropdown-list>div>div>*",
       "count": 1
     },
     {
-      "value": ".ekko-lightbox-nav-overlay a > *",
+      "value": ".ekko-lightbox-nav-overlay a>*",
       "count": 1
     },
     {
@@ -2351,8 +2355,8 @@
     }
   ],
   "selectors.complexity.max.count": 3,
-  "selectors.complexity.average": 2.7857850421000494,
-  "selectors.complexity.sum": 22498,
+  "selectors.complexity.average": 2.78351661930063,
+  "selectors.complexity.sum": 22527,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -2360,27 +2364,27 @@
     },
     {
       "value": 1,
-      "count": 1500
+      "count": 1505
     },
     {
       "value": 2,
-      "count": 1937
+      "count": 1942
     },
     {
       "value": 3,
-      "count": 3057
+      "count": 3066
     },
     {
       "value": 4,
-      "count": 775
+      "count": 777
     },
     {
       "value": 5,
-      "count": 402
+      "count": 399
     },
     {
       "value": 6,
-      "count": 200
+      "count": 199
     },
     {
       "value": 7,
@@ -2411,11 +2415,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 13649,
-  "declarations.totalUnique": 5079,
-  "declarations.importants.total": 191,
-  "declarations.importants.share": 0.01399369917210052,
-  "properties.total": 13649,
+  "declarations.total": 13717,
+  "declarations.totalUnique": 5096,
+  "declarations.importants.total": 203,
+  "declarations.importants.share": 0.014799154334038054,
+  "properties.total": 13717,
   "properties.unique": [
     {
       "value": "-khtml-opacity",
@@ -2499,15 +2503,15 @@
     },
     {
       "value": "-ms-flex",
-      "count": 49
+      "count": 50
     },
     {
       "value": "-ms-flex-align",
-      "count": 94
+      "count": 96
     },
     {
       "value": "-ms-flex-direction",
-      "count": 29
+      "count": 30
     },
     {
       "value": "-ms-flex-line-pack",
@@ -2523,7 +2527,7 @@
     },
     {
       "value": "-ms-flex-pack",
-      "count": 74
+      "count": 77
     },
     {
       "value": "-ms-flex-positive",
@@ -2531,7 +2535,7 @@
     },
     {
       "value": "-ms-flex-wrap",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-ms-grid-row-align",
@@ -2755,7 +2759,7 @@
     },
     {
       "value": "align-items",
-      "count": 94
+      "count": 96
     },
     {
       "value": "animation",
@@ -2803,7 +2807,7 @@
     },
     {
       "value": "background",
-      "count": 145
+      "count": 146
     },
     {
       "value": "background-attachment",
@@ -2815,11 +2819,11 @@
     },
     {
       "value": "background-color",
-      "count": 345
+      "count": 347
     },
     {
       "value": "background-image",
-      "count": 52
+      "count": 54
     },
     {
       "value": "background-position",
@@ -2831,11 +2835,11 @@
     },
     {
       "value": "background-repeat",
-      "count": 25
+      "count": 26
     },
     {
       "value": "background-size",
-      "count": 36
+      "count": 37
     },
     {
       "value": "border",
@@ -2843,7 +2847,7 @@
     },
     {
       "value": "border-bottom",
-      "count": 37
+      "count": 39
     },
     {
       "value": "border-bottom-color",
@@ -2875,7 +2879,7 @@
     },
     {
       "value": "border-left",
-      "count": 10
+      "count": 12
     },
     {
       "value": "border-left-color",
@@ -2887,7 +2891,7 @@
     },
     {
       "value": "border-radius",
-      "count": 98
+      "count": 99
     },
     {
       "value": "border-right",
@@ -2911,7 +2915,7 @@
     },
     {
       "value": "border-top",
-      "count": 36
+      "count": 39
     },
     {
       "value": "border-top-color",
@@ -2955,11 +2959,11 @@
     },
     {
       "value": "color",
-      "count": 532
+      "count": 531
     },
     {
       "value": "content",
-      "count": 2550
+      "count": 2553
     },
     {
       "value": "counter-increment",
@@ -2979,7 +2983,7 @@
     },
     {
       "value": "display",
-      "count": 713
+      "count": 723
     },
     {
       "value": "filter",
@@ -2987,11 +2991,11 @@
     },
     {
       "value": "flex",
-      "count": 49
+      "count": 50
     },
     {
       "value": "flex-direction",
-      "count": 29
+      "count": 30
     },
     {
       "value": "flex-grow",
@@ -3003,7 +3007,7 @@
     },
     {
       "value": "flex-wrap",
-      "count": 5
+      "count": 6
     },
     {
       "value": "float",
@@ -3043,15 +3047,15 @@
     },
     {
       "value": "height",
-      "count": 339
+      "count": 342
     },
     {
       "value": "justify-content",
-      "count": 74
+      "count": 77
     },
     {
       "value": "left",
-      "count": 299
+      "count": 301
     },
     {
       "value": "letter-spacing",
@@ -3063,7 +3067,7 @@
     },
     {
       "value": "line-height",
-      "count": 263
+      "count": 262
     },
     {
       "value": "list-style",
@@ -3079,7 +3083,7 @@
     },
     {
       "value": "margin",
-      "count": 330
+      "count": 331
     },
     {
       "value": "margin-bottom",
@@ -3087,7 +3091,7 @@
     },
     {
       "value": "margin-left",
-      "count": 196
+      "count": 199
     },
     {
       "value": "margin-right",
@@ -3095,15 +3099,15 @@
     },
     {
       "value": "margin-top",
-      "count": 111
+      "count": 113
     },
     {
       "value": "max-height",
-      "count": 30
+      "count": 31
     },
     {
       "value": "max-width",
-      "count": 82
+      "count": 83
     },
     {
       "value": "min-height",
@@ -3119,7 +3123,7 @@
     },
     {
       "value": "opacity",
-      "count": 340
+      "count": 338
     },
     {
       "value": "order",
@@ -3151,11 +3155,11 @@
     },
     {
       "value": "padding",
-      "count": 352
+      "count": 353
     },
     {
       "value": "padding-bottom",
-      "count": 40
+      "count": 41
     },
     {
       "value": "padding-left",
@@ -3167,7 +3171,7 @@
     },
     {
       "value": "padding-top",
-      "count": 48
+      "count": 50
     },
     {
       "value": "page-break-after",
@@ -3187,7 +3191,7 @@
     },
     {
       "value": "position",
-      "count": 309
+      "count": 310
     },
     {
       "value": "resize",
@@ -3211,7 +3215,7 @@
     },
     {
       "value": "text-align",
-      "count": 155
+      "count": 156
     },
     {
       "value": "text-align-last",
@@ -3235,11 +3239,11 @@
     },
     {
       "value": "text-transform",
-      "count": 112
+      "count": 113
     },
     {
       "value": "top",
-      "count": 179
+      "count": 180
     },
     {
       "value": "touch-action",
@@ -3295,7 +3299,7 @@
     },
     {
       "value": "white-space",
-      "count": 27
+      "count": 29
     },
     {
       "value": "widows",
@@ -3303,7 +3307,7 @@
     },
     {
       "value": "width",
-      "count": 575
+      "count": 580
     },
     {
       "value": "will-change",
@@ -3331,7 +3335,7 @@
     }
   ],
   "properties.totalUnique": 228,
-  "properties.prefixed.total": 1239,
+  "properties.prefixed.total": 1247,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-opacity",
@@ -3415,15 +3419,15 @@
     },
     {
       "value": "-ms-flex",
-      "count": 49
+      "count": 50
     },
     {
       "value": "-ms-flex-align",
-      "count": 94
+      "count": 96
     },
     {
       "value": "-ms-flex-direction",
-      "count": 29
+      "count": 30
     },
     {
       "value": "-ms-flex-line-pack",
@@ -3439,7 +3443,7 @@
     },
     {
       "value": "-ms-flex-pack",
-      "count": 74
+      "count": 77
     },
     {
       "value": "-ms-flex-positive",
@@ -3447,7 +3451,7 @@
     },
     {
       "value": "-ms-flex-wrap",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-ms-grid-row-align",
@@ -3667,12 +3671,12 @@
     }
   ],
   "properties.prefixed.totalUnique": 83,
-  "properties.prefixed.share": 0.09077588101692431,
+  "properties.prefixed.share": 0.09090909090909091,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 13649,
-  "values.prefixed.total": 193,
+  "values.total": 13717,
+  "values.prefixed.total": 196,
   "values.prefixed.unique": [
     {
       "value": "#000 -moz-use-text-color",
@@ -3692,14 +3696,14 @@
     },
     {
       "value": "-ms-flexbox",
-      "count": 141
+      "count": 144
     },
     {
       "value": "-ms-inline-flexbox",
       "count": 3
     },
     {
-      "value": "-o-linear-gradient(45deg,hsla(0,0,100%,.15) 25%,transparent 25%,transparent 50%,hsla(0,0,100%,.15) 50%,hsla(0,0,100%,.15) 75%,transparent 75%,transparent)",
+      "value": "-o-linear-gradient(45deg,hsla(0,0%,100%,.15) 25%,transparent 25%,transparent 50%,hsla(0,0%,100%,.15) 50%,hsla(0,0%,100%,.15) 75%,transparent 75%,transparent)",
       "count": 5
     },
     {
@@ -3743,11 +3747,11 @@
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(-90deg,rgba(0,0,0,.8),hsla(0,0,100%,0))",
+      "value": "-webkit-linear-gradient(-90deg,rgba(0,0,0,.8),hsla(0,0%,100%,0))",
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(45deg,hsla(0,0,100%,.15) 25%,transparent 0,transparent 50%,hsla(0,0,100%,.15) 0,hsla(0,0,100%,.15) 75%,transparent 0,transparent)",
+      "value": "-webkit-linear-gradient(45deg,hsla(0,0%,100%,.15) 25%,transparent 0,transparent 50%,hsla(0,0%,100%,.15) 0,hsla(0,0%,100%,.15) 75%,transparent 0,transparent)",
       "count": 5
     },
     {
@@ -3784,7 +3788,7 @@
     }
   ],
   "values.prefixed.totalUnique": 27,
-  "values.prefixed.share": 0.014140230053483771,
+  "values.prefixed.share": 0.014288838667347087,
   "values.fontsizes.total": 524,
   "values.fontsizes.unique": [
     {
@@ -3933,7 +3937,7 @@
     },
     {
       "value": "3rem",
-      "count": 4
+      "count": 3
     },
     {
       "value": "46px",
@@ -4149,7 +4153,7 @@
     },
     {
       "value": "14px",
-      "count": 27
+      "count": 28
     },
     {
       "value": ".86em",
@@ -4361,7 +4365,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 34,
-  "values.colors.total": 1370,
+  "values.colors.total": 1374,
   "values.colors.unique": [
     {
       "value": "#f2dede",
@@ -4385,7 +4389,7 @@
     },
     {
       "value": "red",
-      "count": 21
+      "count": 27
     },
     {
       "value": "rgba(255,0,0,.4)",
@@ -4729,14 +4733,10 @@
     },
     {
       "value": "#d0021b",
-      "count": 69
+      "count": 68
     },
     {
       "value": "rgba(208,2,27,.7)",
-      "count": 1
-    },
-    {
-      "value": "#d1031a",
       "count": 1
     },
     {
@@ -4749,11 +4749,15 @@
     },
     {
       "value": "#fff",
-      "count": 298
+      "count": 296
     },
     {
       "value": "hsla(0,0%,100%,.8)",
       "count": 1
+    },
+    {
+      "value": "hsla(0,0%,100%,.75)",
+      "count": 2
     },
     {
       "value": "hsla(0,0%,100%,.73)",
@@ -4768,7 +4772,7 @@
       "count": 3
     },
     {
-      "value": "hsla(0,0,100%,.15)",
+      "value": "hsla(0,0%,100%,.15)",
       "count": 45
     },
     {
@@ -5064,11 +5068,11 @@
       "count": 8
     },
     {
-      "value": "hsla(0,0,100%,0)",
+      "value": "hsla(0,0%,100%,0)",
       "count": 10
     },
     {
-      "value": "hsla(0,0,93.7%,0)",
+      "value": "hsla(0,0%,93.7%,0)",
       "count": 1
     }
   ],
@@ -5077,16 +5081,16 @@
     {
       "notations": [
         {
-          "value": "hsla(0,0,100%,0)",
+          "value": "hsla(0,0%,100%,0)",
           "count": 10
         },
         {
-          "value": "hsla(0,0,93.7%,0)",
+          "value": "hsla(0,0%,93.7%,0)",
           "count": 1
         }
       ],
       "count": 11,
-      "value": "hsla(0,0,100%,0)"
+      "value": "hsla(0,0%,100%,0)"
     },
     {
       "notations": [

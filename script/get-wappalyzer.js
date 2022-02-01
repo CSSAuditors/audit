@@ -1,7 +1,7 @@
 const helpers = require('./helpers')
 const calc = require('./calc')
 
-const wappalyzerReportSync = (site) => {
+const getReport = (site) => {
   const folder = helpers.getFolder(site)
   const wappalyzerFile = `${folder}/wappalyzer.json`
 
@@ -30,9 +30,15 @@ const report = (sites, name, silent) => {
     const wappalyzerData = []
 
     for (const site of sites.list) {
-      wappalyzerData.push({
-        ...wappalyzerReportSync(site)
-      })
+      if(!site.css) {
+        wappalyzerData.push({
+          ...getReport(site)
+        })
+      }
+    }
+
+    if(!wappalyzerData.length) {
+      return false
     }
 
     const frameworksData = wappalyzerData.filter(item => item.frameworks !== 'None')

@@ -1,58 +1,53 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 1516428,
-  "stylesheets.size.compressed.gzip.totalBytes": 421144,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.7222789344433103,
-  "stylesheets.simplicity": 0.839135178022414,
-  "stylesheets.cohesion.average": 3.129535515896466,
-  "stylesheets.cohesion.min.count": 24,
+  "stylesheets.size.uncompressed.totalBytes": 1370322,
+  "stylesheets.size.compressed.gzip.totalBytes": 413208,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.6984591942623705,
+  "stylesheets.simplicity": 0.8405176607959521,
+  "stylesheets.cohesion.average": 3.128270432970595,
+  "stylesheets.cohesion.min.count": 23,
   "stylesheets.cohesion.min.value.declarations": [
     {
+      "property": "content",
+      "value": "\"\\E81B\"",
+      "important": false
+    },
+    {
       "property": "background",
-      "value": "0 0",
+      "value": "rgba(0,0,0,.2)",
       "important": false
     },
     {
-      "property": "border",
-      "value": "0",
-      "important": false
-    },
-    {
-      "property": "border-spacing",
-      "value": "0px",
-      "important": false
-    },
-    {
-      "property": "color",
-      "value": "#000",
-      "important": false
-    },
-    {
-      "property": "cursor",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "direction",
-      "value": "ltr",
-      "important": false
-    },
-    {
-      "property": "font-family",
-      "value": "\"lucida grande\",tahoma,verdana,arial,sans-serif",
+      "property": "padding",
+      "value": "5px 0",
       "important": false
     },
     {
       "property": "font-size",
-      "value": "11px",
+      "value": "1.5em",
+      "important": false
+    },
+    {
+      "property": "margin-left",
+      "value": ".2em",
+      "important": false
+    },
+    {
+      "property": "margin-right",
+      "value": ".2em",
+      "important": false
+    },
+    {
+      "property": "text-shadow",
+      "value": "#000 1px 0 0,#000 1px 1px 0,#000 1px -1px 0,#000 -1px 1px 0,#000 -1px 0 0,#000 -1px -1px 0,#000 0 1px 0,#000 0 -1px 0",
+      "important": false
+    },
+    {
+      "property": "font-family",
+      "value": "simple_icon_font3",
       "important": false
     },
     {
       "property": "font-style",
-      "value": "normal",
-      "important": false
-    },
-    {
-      "property": "font-variant",
       "value": "normal",
       "important": false
     },
@@ -62,48 +57,38 @@
       "important": false
     },
     {
-      "property": "letter-spacing",
-      "value": "normal",
+      "property": "speak",
+      "value": "none",
       "important": false
     },
     {
-      "property": "line-height",
-      "value": "1",
-      "important": false
-    },
-    {
-      "property": "margin",
-      "value": "0",
-      "important": false
-    },
-    {
-      "property": "overflow",
-      "value": "visible",
-      "important": false
-    },
-    {
-      "property": "padding",
-      "value": "0",
-      "important": false
-    },
-    {
-      "property": "text-align",
-      "value": "left",
+      "property": "display",
+      "value": "inline-block",
       "important": false
     },
     {
       "property": "text-decoration",
-      "value": "none",
+      "value": "inherit",
       "important": false
     },
     {
-      "property": "text-indent",
-      "value": "0",
+      "property": "width",
+      "value": "1em",
       "important": false
     },
     {
-      "property": "text-shadow",
-      "value": "none",
+      "property": "text-align",
+      "value": "center",
+      "important": false
+    },
+    {
+      "property": "font-feature-settings",
+      "value": "normal",
+      "important": false
+    },
+    {
+      "property": "font-variant",
+      "value": "normal",
       "important": false
     },
     {
@@ -112,28 +97,38 @@
       "important": false
     },
     {
-      "property": "visibility",
-      "value": "visible",
+      "property": "opacity",
+      "value": "1",
       "important": false
     },
     {
-      "property": "white-space",
-      "value": "normal",
+      "property": "transition",
+      "value": "all .2s ease",
       "important": false
     },
     {
-      "property": "word-spacing",
-      "value": "normal",
+      "property": "-webkit-transition",
+      "value": "all .2s ease",
+      "important": false
+    },
+    {
+      "property": "-moz-transition",
+      "value": "all .2s ease",
+      "important": false
+    },
+    {
+      "property": "-o-transition",
+      "value": "all .2s ease",
       "important": false
     }
   ],
   "stylesheets.cohesion.min.value.selectors": [
-    ".fb_reset"
+    ".simplegallery_theme_default #simpleGalleryViewer .content .contentAreaPrevious:after"
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 49779,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 38934,
+  "stylesheets.linesOfCode.total": 1,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 39742,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -297,7 +292,7 @@
   "atrules.imports.total": 0,
   "atrules.imports.unique": [],
   "atrules.imports.totalUnique": 0,
-  "atrules.keyframes.total": 20,
+  "atrules.keyframes.total": 18,
   "atrules.keyframes.unique": [
     {
       "value": "a",
@@ -320,14 +315,6 @@
       "count": 2
     },
     {
-      "value": "fb_transform",
-      "count": 1
-    },
-    {
-      "value": "rotateSpinner",
-      "count": 1
-    },
-    {
       "value": "slide-down",
       "count": 2
     },
@@ -344,7 +331,7 @@
       "count": 2
     }
   ],
-  "atrules.keyframes.totalUnique": 11,
+  "atrules.keyframes.totalUnique": 9,
   "atrules.keyframes.prefixed.total": 6,
   "atrules.keyframes.prefixed.unique": [
     {
@@ -373,12 +360,16 @@
     }
   ],
   "atrules.keyframes.prefixed.totalUnique": 6,
-  "atrules.keyframes.prefixed.share": 3.3333333333333335,
-  "atrules.mediaqueries.total": 2317,
+  "atrules.keyframes.prefixed.share": 3,
+  "atrules.mediaqueries.total": 2388,
   "atrules.mediaqueries.unique": [
     {
       "value": "(-ms-high-contrast:none)",
       "count": 7
+    },
+    {
+      "value": "(-ms-high-contrast:none),screen and (-ms-high-contrast:active)",
+      "count": 2
     },
     {
       "value": "(max-height:576px)",
@@ -430,11 +421,11 @@
     },
     {
       "value": "(max-width:767px)",
-      "count": 77
+      "count": 92
     },
     {
       "value": "(max-width:768px)",
-      "count": 4
+      "count": 5
     },
     {
       "value": "(max-width:1023px)",
@@ -446,7 +437,7 @@
     },
     {
       "value": "(min-width:375px)",
-      "count": 3
+      "count": 5
     },
     {
       "value": "(min-width:391px) and (max-width:520px)",
@@ -494,7 +485,7 @@
     },
     {
       "value": "(min-width:630px)",
-      "count": 8
+      "count": 9
     },
     {
       "value": "(min-width:640px)",
@@ -522,7 +513,7 @@
     },
     {
       "value": "(min-width:768px) and (max-width:1023px)",
-      "count": 41
+      "count": 47
     },
     {
       "value": "(min-width:768px) and (min-width:1024px)",
@@ -534,7 +525,7 @@
     },
     {
       "value": "(min-width:769px)",
-      "count": 638
+      "count": 649
     },
     {
       "value": "(min-width:769px) and (max-width:948px)",
@@ -566,7 +557,7 @@
     },
     {
       "value": "(min-width:1024px)",
-      "count": 619
+      "count": 637
     },
     {
       "value": "(min-width:1024px) and (max-height:740px)",
@@ -594,7 +585,7 @@
     },
     {
       "value": "(min-width:1024px) and (max-width:1279px)",
-      "count": 40
+      "count": 53
     },
     {
       "value": "(min-width:1024px) and (min-height:740px)",
@@ -607,6 +598,10 @@
     {
       "value": "(min-width:1025px)",
       "count": 17
+    },
+    {
+      "value": "(min-width:1025px) and (-ms-high-contrast:none),(min-width:1025px) and screen and (-ms-high-contrast:active)",
+      "count": 1
     },
     {
       "value": "(min-width:1025px) and (max-width:1200px)",
@@ -638,7 +633,7 @@
     },
     {
       "value": "(min-width:1200px)",
-      "count": 231
+      "count": 232
     },
     {
       "value": "(min-width:1200px) and (min-height:740px)",
@@ -737,7 +732,7 @@
       "count": 2
     }
   ],
-  "atrules.mediaqueries.totalUnique": 90,
+  "atrules.mediaqueries.totalUnique": 92,
   "atrules.mediaqueries.browserhacks.total": 0,
   "atrules.mediaqueries.browserhacks.unique": [],
   "atrules.mediaqueries.browserhacks.totalUnique": 0,
@@ -762,54 +757,54 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 8461,
+  "rules.total": 8638,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.1917031083796241,
+  "rules.selectors.average": 1.1897429960639037,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#account_home_instruction .profile_img_section"
   ],
   "rules.selectors.maximum.count": 36,
   "rules.selectors.maximum.value": [
-    ".article__content .article-banner + .article-banner",
-    ".article__content .article-banner + .banner",
-    ".article__content .article-banner + .content-image",
-    ".article__content .article-banner + .embedded-content",
-    ".article__content .article-banner + blockquote",
-    ".article__content .article-banner + h3",
-    ".article__content .article-banner + p",
-    ".article__content .banner + *",
-    ".article__content .banner + .ooyala-player:not(:first-child)",
-    ".article__content .content-image + .article-banner",
-    ".article__content .content-image + .banner",
-    ".article__content .content-image + .content-image",
-    ".article__content .content-image + .embedded-content",
-    ".article__content .content-image + blockquote",
-    ".article__content .content-image + h3",
-    ".article__content .content-image + p",
-    ".article__content .embedded-content + .article-banner",
-    ".article__content .embedded-content + .banner",
-    ".article__content .embedded-content + .content-image",
-    ".article__content .embedded-content + .embedded-content",
-    ".article__content .embedded-content + blockquote",
-    ".article__content .embedded-content + h3",
-    ".article__content .embedded-content + p",
-    ".article__content > div + .article-banner",
-    ".article__content > div + .banner",
-    ".article__content > div + .embedded-content",
-    ".article__content > div + .ooyala-player",
-    ".article__content > div + blockquote",
-    ".article__content > div + h3",
-    ".article__content > div + p",
-    ".article__content blockquote + .article-banner",
-    ".article__content blockquote + .banner",
-    ".article__content blockquote + .content-image",
-    ".article__content blockquote + .embedded-content",
-    ".article__content blockquote + .ooyala-player",
-    ".article__content blockquote + h3"
+    ".article__content .article-banner+.article-banner",
+    ".article__content .article-banner+.banner",
+    ".article__content .article-banner+.content-image",
+    ".article__content .article-banner+.embedded-content",
+    ".article__content .article-banner+blockquote",
+    ".article__content .article-banner+h3",
+    ".article__content .article-banner+p",
+    ".article__content .banner+*",
+    ".article__content .banner+.ooyala-player:not(:first-child)",
+    ".article__content .content-image+.article-banner",
+    ".article__content .content-image+.banner",
+    ".article__content .content-image+.content-image",
+    ".article__content .content-image+.embedded-content",
+    ".article__content .content-image+blockquote",
+    ".article__content .content-image+h3",
+    ".article__content .content-image+p",
+    ".article__content .embedded-content+.article-banner",
+    ".article__content .embedded-content+.banner",
+    ".article__content .embedded-content+.content-image",
+    ".article__content .embedded-content+.embedded-content",
+    ".article__content .embedded-content+blockquote",
+    ".article__content .embedded-content+h3",
+    ".article__content .embedded-content+p",
+    ".article__content blockquote+.article-banner",
+    ".article__content blockquote+.banner",
+    ".article__content blockquote+.content-image",
+    ".article__content blockquote+.embedded-content",
+    ".article__content blockquote+.ooyala-player",
+    ".article__content blockquote+h3",
+    ".article__content>div+.article-banner",
+    ".article__content>div+.banner",
+    ".article__content>div+.embedded-content",
+    ".article__content>div+.ooyala-player",
+    ".article__content>div+blockquote",
+    ".article__content>div+h3",
+    ".article__content>div+p"
   ],
-  "selectors.total": 10083,
-  "selectors.totalUnique": 7181,
+  "selectors.total": 10277,
+  "selectors.totalUnique": 7294,
   "selectors.js.total": 19,
   "selectors.js.unique": [
     {
@@ -882,10 +877,14 @@
     }
   ],
   "selectors.js.totalUnique": 17,
-  "selectors.id.total": 259,
+  "selectors.id.total": 263,
   "selectors.id.unique": [
     {
       "value": "#account_home_instruction .profile_img_section",
+      "count": 1
+    },
+    {
+      "value": "#bt-dropin",
       "count": 1
     },
     {
@@ -1025,7 +1024,7 @@
       "count": 1
     },
     {
-      "value": "#ccc .ccc-content--highlight .checkbox-toggle-input:focus ~ .checkbox-toggle-toggle",
+      "value": "#ccc .ccc-content--highlight .checkbox-toggle-input:focus~.checkbox-toggle-toggle",
       "count": 1
     },
     {
@@ -1217,7 +1216,7 @@
       "count": 1
     },
     {
-      "value": "#ccc .checkbox-toggle--checkbox input:checked ~ .checkbox-toggle-toggle::after",
+      "value": "#ccc .checkbox-toggle--checkbox input:checked~.checkbox-toggle-toggle::after",
       "count": 1
     },
     {
@@ -1261,7 +1260,7 @@
       "count": 1
     },
     {
-      "value": "#ccc .checkbox-toggle--slider input:checked ~ .checkbox-toggle-toggle",
+      "value": "#ccc .checkbox-toggle--slider input:checked~.checkbox-toggle-toggle",
       "count": 1
     },
     {
@@ -1325,7 +1324,7 @@
       "count": 1
     },
     {
-      "value": "#ccc .iab-object .checkbox-toggle--checkbox input:checked ~ .checkbox-toggle-toggle::after",
+      "value": "#ccc .iab-object .checkbox-toggle--checkbox input:checked~.checkbox-toggle-toggle::after",
       "count": 1
     },
     {
@@ -1521,23 +1520,15 @@
       "count": 1
     },
     {
-      "value": "#fb-root #fb_dialog_ipad_overlay",
-      "count": 1
-    },
-    {
-      "value": "#fb-root #fb_dialog_ipad_overlay.hidden",
-      "count": 1
-    },
-    {
-      "value": "#fb_dialog_loader_close",
-      "count": 1
-    },
-    {
-      "value": "#fb_dialog_loader_spinner",
-      "count": 1
-    },
-    {
       "value": "#friendsList .email",
+      "count": 1
+    },
+    {
+      "value": "#main_content_account_dashboard",
+      "count": 1
+    },
+    {
+      "value": "#main_content_account_home_subscription_renewal",
       "count": 1
     },
     {
@@ -1557,7 +1548,39 @@
       "count": 1
     },
     {
-      "value": "#page_account_files #file_contact_criteria",
+      "value": "#page_selection_eventSeat .description",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .collapsibleLabel",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .day",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .description",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .location",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .time",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_item .title.ignoreAccessibilityTitle",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_seatBlock .description",
+      "count": 1
+    },
+    {
+      "value": "#page_selection_seatMap .description",
       "count": 1
     },
     {
@@ -1565,15 +1588,7 @@
       "count": 1
     },
     {
-      "value": ".fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner",
-      "count": 1
-    },
-    {
       "value": ".heroarea__btn #icon-chevron-right",
-      "count": 1
-    },
-    {
-      "value": ".loading.centered #fb_dialog_loader_close",
       "count": 1
     },
     {
@@ -1749,10 +1764,6 @@
       "count": 1
     },
     {
-      "value": "div#beneficiary_mandatory",
-      "count": 1
-    },
-    {
       "value": "div#beneficiary_names_container",
       "count": 1
     },
@@ -1765,11 +1776,11 @@
       "count": 1
     },
     {
-      "value": "span#mandatory_info_description",
+      "value": "div#page_selection_item .content",
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 221,
+  "selectors.id.totalUnique": 225,
   "selectors.universal.total": 10,
   "selectors.universal.unique": [
     {
@@ -1781,19 +1792,19 @@
       "count": 1
     },
     {
-      "value": ".advert-calendar__banner .sponsor > *",
+      "value": ".advert-calendar__banner .sponsor>*",
       "count": 1
     },
     {
-      "value": ".article__content .banner + *",
+      "value": ".article__content .banner+*",
       "count": 1
     },
     {
-      "value": ".btn--hover-fill > *",
+      "value": ".btn--hover-fill>*",
       "count": 1
     },
     {
-      "value": ".embedded-content > *",
+      "value": ".embedded-content>*",
       "count": 1
     },
     {
@@ -1805,11 +1816,11 @@
       "count": 1
     },
     {
-      "value": ".modal--fade .modal-content > *",
+      "value": ".modal--fade .modal-content>*",
       "count": 1
     },
     {
-      "value": ".modal--show .modal-content > *",
+      "value": ".modal--show .modal-content>*",
       "count": 1
     }
   ],
@@ -1954,13 +1965,13 @@
   "selectors.complexity.max.value": 10,
   "selectors.complexity.max.selectors": [
     {
-      "value": ".simplegallery_theme_default .simpleGalleryContainer .simpleGalleryThumbnailContainer input[type=checkbox]:checked ~ .selectionImage label:after",
+      "value": ".simplegallery_theme_default .simpleGalleryContainer .simpleGalleryThumbnailContainer input[type=checkbox]:checked~.selectionImage label:after",
       "count": 1
     }
   ],
   "selectors.complexity.max.count": 1,
-  "selectors.complexity.average": 2.0575225627293463,
-  "selectors.complexity.sum": 20746,
+  "selectors.complexity.average": 2.0600369757711396,
+  "selectors.complexity.sum": 21171,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -1968,23 +1979,23 @@
     },
     {
       "value": 1,
-      "count": 3826
+      "count": 3867
     },
     {
       "value": 2,
-      "count": 3135
+      "count": 3221
     },
     {
       "value": 3,
-      "count": 2286
+      "count": 2348
     },
     {
       "value": 4,
-      "count": 556
+      "count": 561
     },
     {
       "value": 5,
-      "count": 160
+      "count": 158
     },
     {
       "value": 6,
@@ -1996,7 +2007,7 @@
     },
     {
       "value": 8,
-      "count": 8
+      "count": 10
     },
     {
       "value": 9,
@@ -2011,31 +2022,31 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 26504,
-  "declarations.totalUnique": 4011,
-  "declarations.importants.total": 337,
-  "declarations.importants.share": 0.01271506187745246,
-  "properties.total": 26504,
+  "declarations.total": 27048,
+  "declarations.totalUnique": 4010,
+  "declarations.importants.total": 343,
+  "declarations.importants.share": 0.012681159420289856,
+  "properties.total": 27048,
   "properties.unique": [
     {
       "value": "--pc-1",
-      "count": 6
+      "count": 10
     },
     {
       "value": "--pc-2",
-      "count": 6
+      "count": 10
     },
     {
       "value": "--pc-3",
-      "count": 6
+      "count": 10
     },
     {
       "value": "--pc-4",
-      "count": 6
+      "count": 10
     },
     {
       "value": "-khtml-user-select",
-      "count": 1
+      "count": 2
     },
     {
       "value": "-moz-appearance",
@@ -2063,7 +2074,7 @@
     },
     {
       "value": "-moz-user-select",
-      "count": 21
+      "count": 22
     },
     {
       "value": "-ms-filter",
@@ -2071,15 +2082,15 @@
     },
     {
       "value": "-ms-flex",
-      "count": 117
+      "count": 131
     },
     {
       "value": "-ms-flex-align",
-      "count": 296
+      "count": 308
     },
     {
       "value": "-ms-flex-direction",
-      "count": 235
+      "count": 247
     },
     {
       "value": "-ms-flex-flow",
@@ -2095,27 +2106,27 @@
     },
     {
       "value": "-ms-flex-negative",
-      "count": 86
+      "count": 89
     },
     {
       "value": "-ms-flex-order",
-      "count": 52
+      "count": 60
     },
     {
       "value": "-ms-flex-pack",
-      "count": 243
+      "count": 255
     },
     {
       "value": "-ms-flex-positive",
-      "count": 126
+      "count": 127
     },
     {
       "value": "-ms-flex-preferred-size",
-      "count": 187
+      "count": 191
     },
     {
       "value": "-ms-flex-wrap",
-      "count": 71
+      "count": 73
     },
     {
       "value": "-ms-grid-column",
@@ -2155,7 +2166,7 @@
     },
     {
       "value": "-ms-overflow-style",
-      "count": 2
+      "count": 3
     },
     {
       "value": "-ms-scroll-snap-points-x",
@@ -2171,11 +2182,11 @@
     },
     {
       "value": "-ms-touch-action",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-ms-user-select",
-      "count": 22
+      "count": 23
     },
     {
       "value": "-ms-word-break",
@@ -2191,7 +2202,7 @@
     },
     {
       "value": "-o-object-fit",
-      "count": 58
+      "count": 59
     },
     {
       "value": "-o-object-position",
@@ -2247,7 +2258,7 @@
     },
     {
       "value": "-webkit-tap-highlight-color",
-      "count": 8
+      "count": 9
     },
     {
       "value": "-webkit-text-size-adjust",
@@ -2267,7 +2278,7 @@
     },
     {
       "value": "-webkit-touch-callout",
-      "count": 3
+      "count": 4
     },
     {
       "value": "-webkit-transform-style",
@@ -2279,7 +2290,7 @@
     },
     {
       "value": "-webkit-user-select",
-      "count": 20
+      "count": 21
     },
     {
       "value": "align-content",
@@ -2291,7 +2302,7 @@
     },
     {
       "value": "align-items",
-      "count": 304
+      "count": 316
     },
     {
       "value": "align-self",
@@ -2299,7 +2310,7 @@
     },
     {
       "value": "animation",
-      "count": 15
+      "count": 13
     },
     {
       "value": "animation-delay",
@@ -2335,7 +2346,7 @@
     },
     {
       "value": "background",
-      "count": 320
+      "count": 326
     },
     {
       "value": "background-blend-mode",
@@ -2343,19 +2354,19 @@
     },
     {
       "value": "background-clip",
-      "count": 4
+      "count": 3
     },
     {
       "value": "background-color",
-      "count": 596
+      "count": 602
     },
     {
       "value": "background-image",
-      "count": 98
+      "count": 96
     },
     {
       "value": "background-position",
-      "count": 47
+      "count": 46
     },
     {
       "value": "background-position-x",
@@ -2367,23 +2378,23 @@
     },
     {
       "value": "background-repeat",
-      "count": 52
+      "count": 51
     },
     {
       "value": "background-size",
-      "count": 70
+      "count": 71
     },
     {
       "value": "border",
-      "count": 267
+      "count": 272
     },
     {
       "value": "border-bottom",
-      "count": 87
+      "count": 89
     },
     {
       "value": "border-bottom-color",
-      "count": 9
+      "count": 8
     },
     {
       "value": "border-bottom-left-radius",
@@ -2392,10 +2403,6 @@
     {
       "value": "border-bottom-right-radius",
       "count": 10
-    },
-    {
-      "value": "border-bottom-style",
-      "count": 1
     },
     {
       "value": "border-bottom-width",
@@ -2411,7 +2418,7 @@
     },
     {
       "value": "border-image",
-      "count": 3
+      "count": 1
     },
     {
       "value": "border-left",
@@ -2419,11 +2426,7 @@
     },
     {
       "value": "border-left-color",
-      "count": 9
-    },
-    {
-      "value": "border-left-style",
-      "count": 1
+      "count": 7
     },
     {
       "value": "border-left-width",
@@ -2431,7 +2434,7 @@
     },
     {
       "value": "border-radius",
-      "count": 124
+      "count": 126
     },
     {
       "value": "border-right",
@@ -2439,11 +2442,7 @@
     },
     {
       "value": "border-right-color",
-      "count": 5
-    },
-    {
-      "value": "border-right-style",
-      "count": 1
+      "count": 3
     },
     {
       "value": "border-right-width",
@@ -2451,11 +2450,11 @@
     },
     {
       "value": "border-spacing",
-      "count": 4
+      "count": 3
     },
     {
       "value": "border-style",
-      "count": 17
+      "count": 16
     },
     {
       "value": "border-top",
@@ -2463,7 +2462,7 @@
     },
     {
       "value": "border-top-color",
-      "count": 10
+      "count": 8
     },
     {
       "value": "border-top-left-radius",
@@ -2474,28 +2473,24 @@
       "count": 10
     },
     {
-      "value": "border-top-style",
-      "count": 1
-    },
-    {
       "value": "border-top-width",
       "count": 6
     },
     {
       "value": "border-width",
-      "count": 36
+      "count": 38
     },
     {
       "value": "bottom",
-      "count": 212
+      "count": 210
     },
     {
       "value": "box-shadow",
-      "count": 66
+      "count": 65
     },
     {
       "value": "box-sizing",
-      "count": 62
+      "count": 64
     },
     {
       "value": "clear",
@@ -2511,7 +2506,7 @@
     },
     {
       "value": "color",
-      "count": 990
+      "count": 1014
     },
     {
       "value": "column-gap",
@@ -2519,23 +2514,23 @@
     },
     {
       "value": "content",
-      "count": 332
+      "count": 338
     },
     {
       "value": "cursor",
-      "count": 148
+      "count": 150
     },
     {
       "value": "direction",
-      "count": 8
+      "count": 7
     },
     {
       "value": "display",
-      "count": 2374
+      "count": 2453
     },
     {
       "value": "fill",
-      "count": 217
+      "count": 215
     },
     {
       "value": "filter",
@@ -2543,15 +2538,15 @@
     },
     {
       "value": "flex",
-      "count": 119
+      "count": 133
     },
     {
       "value": "flex-basis",
-      "count": 187
+      "count": 191
     },
     {
       "value": "flex-direction",
-      "count": 238
+      "count": 250
     },
     {
       "value": "flex-flow",
@@ -2559,23 +2554,23 @@
     },
     {
       "value": "flex-grow",
-      "count": 127
+      "count": 128
     },
     {
       "value": "flex-shrink",
-      "count": 88
+      "count": 91
     },
     {
       "value": "flex-wrap",
-      "count": 71
+      "count": 73
     },
     {
       "value": "float",
-      "count": 51
+      "count": 50
     },
     {
       "value": "font",
-      "count": 6
+      "count": 4
     },
     {
       "value": "font-display",
@@ -2583,7 +2578,7 @@
     },
     {
       "value": "font-family",
-      "count": 732
+      "count": 751
     },
     {
       "value": "font-feature-settings",
@@ -2595,7 +2590,7 @@
     },
     {
       "value": "font-size",
-      "count": 1420
+      "count": 1449
     },
     {
       "value": "font-size-adjust",
@@ -2607,15 +2602,15 @@
     },
     {
       "value": "font-style",
-      "count": 27
+      "count": 26
     },
     {
       "value": "font-variant",
-      "count": 11
+      "count": 10
     },
     {
       "value": "font-weight",
-      "count": 873
+      "count": 890
     },
     {
       "value": "grid-area",
@@ -2647,15 +2642,19 @@
     },
     {
       "value": "height",
-      "count": 1134
+      "count": 1163
     },
     {
       "value": "hyphens",
       "count": 1
     },
     {
+      "value": "inset",
+      "count": 3
+    },
+    {
       "value": "justify-content",
-      "count": 247
+      "count": 259
     },
     {
       "value": "justify-items",
@@ -2671,7 +2670,7 @@
     },
     {
       "value": "line-height",
-      "count": 562
+      "count": 567
     },
     {
       "value": "list-style",
@@ -2687,23 +2686,23 @@
     },
     {
       "value": "margin",
-      "count": 579
+      "count": 589
     },
     {
       "value": "margin-bottom",
-      "count": 624
+      "count": 634
     },
     {
       "value": "margin-left",
-      "count": 309
+      "count": 316
     },
     {
       "value": "margin-right",
-      "count": 273
+      "count": 279
     },
     {
       "value": "margin-top",
-      "count": 591
+      "count": 598
     },
     {
       "value": "margn",
@@ -2711,19 +2710,19 @@
     },
     {
       "value": "max-height",
-      "count": 108
+      "count": 109
     },
     {
       "value": "max-width",
-      "count": 368
+      "count": 375
     },
     {
       "value": "min-height",
-      "count": 120
+      "count": 124
     },
     {
       "value": "min-width",
-      "count": 104
+      "count": 101
     },
     {
       "value": "mix-blend-mode",
@@ -2731,7 +2730,7 @@
     },
     {
       "value": "object-fit",
-      "count": 58
+      "count": 59
     },
     {
       "value": "object-position",
@@ -2739,47 +2738,47 @@
     },
     {
       "value": "opacity",
-      "count": 246
+      "count": 251
     },
     {
       "value": "order",
-      "count": 51
+      "count": 59
     },
     {
       "value": "outline",
-      "count": 46
+      "count": 48
     },
     {
       "value": "overflow",
-      "count": 212
+      "count": 210
     },
     {
       "value": "overflow-x",
-      "count": 15
+      "count": 16
     },
     {
       "value": "overflow-y",
-      "count": 25
+      "count": 26
     },
     {
       "value": "padding",
-      "count": 1089
+      "count": 1114
     },
     {
       "value": "padding-bottom",
-      "count": 138
+      "count": 140
     },
     {
       "value": "padding-left",
-      "count": 145
+      "count": 150
     },
     {
       "value": "padding-right",
-      "count": 93
+      "count": 95
     },
     {
       "value": "padding-top",
-      "count": 177
+      "count": 178
     },
     {
       "value": "perspective",
@@ -2787,15 +2786,15 @@
     },
     {
       "value": "pointer-events",
-      "count": 35
+      "count": 36
     },
     {
       "value": "position",
-      "count": 1068
+      "count": 1082
     },
     {
       "value": "right",
-      "count": 257
+      "count": 264
     },
     {
       "value": "row-gap",
@@ -2819,7 +2818,7 @@
     },
     {
       "value": "scrollbar-width",
-      "count": 2
+      "count": 3
     },
     {
       "value": "speak",
@@ -2851,7 +2850,7 @@
     },
     {
       "value": "text-align",
-      "count": 377
+      "count": 393
     },
     {
       "value": "text-anchor",
@@ -2859,15 +2858,15 @@
     },
     {
       "value": "text-decoration",
-      "count": 183
+      "count": 186
     },
     {
       "value": "text-indent",
-      "count": 18
+      "count": 17
     },
     {
       "value": "text-overflow",
-      "count": 10
+      "count": 9
     },
     {
       "value": "text-rendering",
@@ -2875,7 +2874,7 @@
     },
     {
       "value": "text-shadow",
-      "count": 27
+      "count": 24
     },
     {
       "value": "text-size-adjust",
@@ -2895,23 +2894,23 @@
     },
     {
       "value": "text-transform",
-      "count": 298
+      "count": 302
     },
     {
       "value": "top",
-      "count": 553
+      "count": 556
     },
     {
       "value": "touch-action",
-      "count": 2
+      "count": 3
     },
     {
       "value": "transform",
-      "count": 332
+      "count": 334
     },
     {
       "value": "transform-origin",
-      "count": 71
+      "count": 72
     },
     {
       "value": "transition",
@@ -2935,23 +2934,23 @@
     },
     {
       "value": "user-select",
-      "count": 21
+      "count": 22
     },
     {
       "value": "vertical-align",
-      "count": 95
+      "count": 91
     },
     {
       "value": "visibility",
-      "count": 61
+      "count": 60
     },
     {
       "value": "white-space",
-      "count": 53
+      "count": 52
     },
     {
       "value": "width",
-      "count": 1434
+      "count": 1475
     },
     {
       "value": "will-change",
@@ -2962,24 +2961,20 @@
       "count": 7
     },
     {
-      "value": "word-spacing",
-      "count": 1
-    },
-    {
       "value": "word-wrap",
       "count": 4
     },
     {
       "value": "z-index",
-      "count": 276
+      "count": 278
     }
   ],
-  "properties.totalUnique": 239,
-  "properties.prefixed.total": 1853,
+  "properties.totalUnique": 235,
+  "properties.prefixed.total": 1930,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-user-select",
-      "count": 1
+      "count": 2
     },
     {
       "value": "-moz-appearance",
@@ -3007,7 +3002,7 @@
     },
     {
       "value": "-moz-user-select",
-      "count": 21
+      "count": 22
     },
     {
       "value": "-ms-filter",
@@ -3015,15 +3010,15 @@
     },
     {
       "value": "-ms-flex",
-      "count": 117
+      "count": 131
     },
     {
       "value": "-ms-flex-align",
-      "count": 296
+      "count": 308
     },
     {
       "value": "-ms-flex-direction",
-      "count": 235
+      "count": 247
     },
     {
       "value": "-ms-flex-flow",
@@ -3039,27 +3034,27 @@
     },
     {
       "value": "-ms-flex-negative",
-      "count": 86
+      "count": 89
     },
     {
       "value": "-ms-flex-order",
-      "count": 52
+      "count": 60
     },
     {
       "value": "-ms-flex-pack",
-      "count": 243
+      "count": 255
     },
     {
       "value": "-ms-flex-positive",
-      "count": 126
+      "count": 127
     },
     {
       "value": "-ms-flex-preferred-size",
-      "count": 187
+      "count": 191
     },
     {
       "value": "-ms-flex-wrap",
-      "count": 71
+      "count": 73
     },
     {
       "value": "-ms-grid-column",
@@ -3099,7 +3094,7 @@
     },
     {
       "value": "-ms-overflow-style",
-      "count": 2
+      "count": 3
     },
     {
       "value": "-ms-scroll-snap-points-x",
@@ -3115,11 +3110,11 @@
     },
     {
       "value": "-ms-touch-action",
-      "count": 4
+      "count": 5
     },
     {
       "value": "-ms-user-select",
-      "count": 22
+      "count": 23
     },
     {
       "value": "-ms-word-break",
@@ -3135,7 +3130,7 @@
     },
     {
       "value": "-o-object-fit",
-      "count": 58
+      "count": 59
     },
     {
       "value": "-o-object-position",
@@ -3191,7 +3186,7 @@
     },
     {
       "value": "-webkit-tap-highlight-color",
-      "count": 8
+      "count": 9
     },
     {
       "value": "-webkit-text-size-adjust",
@@ -3211,7 +3206,7 @@
     },
     {
       "value": "-webkit-touch-callout",
-      "count": 3
+      "count": 4
     },
     {
       "value": "-webkit-transform-style",
@@ -3223,20 +3218,24 @@
     },
     {
       "value": "-webkit-user-select",
-      "count": 20
+      "count": 21
     }
   ],
   "properties.prefixed.totalUnique": 62,
-  "properties.prefixed.share": 0.06991397524901902,
+  "properties.prefixed.share": 0.07135462880804495,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 26504,
-  "values.prefixed.total": 581,
+  "values.total": 27048,
+  "values.prefixed.total": 610,
   "values.prefixed.unique": [
     {
       "value": "-moz-fit-content",
-      "count": 20
+      "count": 22
+    },
+    {
+      "value": "-moz-max-content",
+      "count": 1
     },
     {
       "value": "-moz-min-content",
@@ -3248,7 +3247,7 @@
     },
     {
       "value": "-ms-flexbox",
-      "count": 492
+      "count": 514
     },
     {
       "value": "-ms-grid",
@@ -3256,11 +3255,15 @@
     },
     {
       "value": "-ms-inline-flexbox",
-      "count": 37
+      "count": 38
     },
     {
       "value": "-webkit-fit-content",
-      "count": 20
+      "count": 22
+    },
+    {
+      "value": "-webkit-max-content",
+      "count": 1
     },
     {
       "value": "-webkit-min-content",
@@ -3275,9 +3278,9 @@
       "count": 1
     }
   ],
-  "values.prefixed.totalUnique": 10,
-  "values.prefixed.share": 0.02192121943857531,
-  "values.fontsizes.total": 1415,
+  "values.prefixed.totalUnique": 12,
+  "values.prefixed.share": 0.022552499260573795,
+  "values.fontsizes.total": 1441,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -3441,7 +3444,7 @@
     },
     {
       "value": "2rem",
-      "count": 25
+      "count": 26
     },
     {
       "value": "2em",
@@ -3477,7 +3480,7 @@
     },
     {
       "value": "1.5rem",
-      "count": 62
+      "count": 64
     },
     {
       "value": "1.4375rem",
@@ -3489,7 +3492,7 @@
     },
     {
       "value": "1.25rem",
-      "count": 85
+      "count": 86
     },
     {
       "value": "1.2em",
@@ -3504,16 +3507,12 @@
       "count": 138
     },
     {
-      "value": "18px",
-      "count": 1
-    },
-    {
       "value": "1.1em",
       "count": 1
     },
     {
       "value": "1.0625rem",
-      "count": 5
+      "count": 6
     },
     {
       "value": "1em",
@@ -3521,7 +3520,7 @@
     },
     {
       "value": "1rem",
-      "count": 178
+      "count": 184
     },
     {
       "value": "100%",
@@ -3533,7 +3532,7 @@
     },
     {
       "value": ".9375rem",
-      "count": 23
+      "count": 24
     },
     {
       "value": "15px",
@@ -3545,15 +3544,11 @@
     },
     {
       "value": ".875rem",
-      "count": 251
+      "count": 257
     },
     {
       "value": ".875em",
       "count": 3
-    },
-    {
-      "value": "14px",
-      "count": 2
     },
     {
       "value": ".83333rem",
@@ -3577,7 +3572,7 @@
     },
     {
       "value": ".75rem",
-      "count": 165
+      "count": 174
     },
     {
       "value": "75%",
@@ -3585,7 +3580,7 @@
     },
     {
       "value": "12px",
-      "count": 5
+      "count": 2
     },
     {
       "value": ".75em",
@@ -3597,15 +3592,11 @@
     },
     {
       "value": ".6875rem",
-      "count": 50
-    },
-    {
-      "value": "11px",
-      "count": 1
+      "count": 51
     },
     {
       "value": ".625rem",
-      "count": 17
+      "count": 21
     },
     {
       "value": ".5625rem",
@@ -3617,7 +3608,7 @@
     },
     {
       "value": ".4375rem",
-      "count": 1
+      "count": 2
     },
     {
       "value": ".41em",
@@ -3644,8 +3635,8 @@
       "count": 1
     }
   ],
-  "values.fontsizes.totalUnique": 91,
-  "values.fontfamilies.total": 731,
+  "values.fontsizes.totalUnique": 88,
+  "values.fontfamilies.total": 748,
   "values.fontfamilies.unique": [
     {
       "value": "\"Arial\"",
@@ -3656,15 +3647,7 @@
       "count": 1
     },
     {
-      "value": "\"Helvetica\", sans-serif",
-      "count": 2
-    },
-    {
       "value": "\"klavika basic\"",
-      "count": 1
-    },
-    {
-      "value": "\"lucida grande\",tahoma,verdana,arial,sans-serif",
       "count": 1
     },
     {
@@ -3677,7 +3660,7 @@
     },
     {
       "value": "\"object-fit: cover;\"",
-      "count": 1
+      "count": 2
     },
     {
       "value": "\"object-fit:cover;\"",
@@ -3692,7 +3675,7 @@
       "count": 1
     },
     {
-      "value": "GothamRounded-Bold,sans-serif",
+      "value": "GothamRounded-Book,sans-serif",
       "count": 1
     },
     {
@@ -3705,7 +3688,7 @@
     },
     {
       "value": "Klavika Basic,Helvetica-Neue,Helvetica,sans-serif",
-      "count": 346
+      "count": 355
     },
     {
       "value": "lazyLoad\\: object-fit",
@@ -3721,7 +3704,7 @@
     },
     {
       "value": "object-fit\\: cover",
-      "count": 23
+      "count": 22
     },
     {
       "value": "object-fit\\:cover",
@@ -3737,7 +3720,7 @@
     },
     {
       "value": "Saints,Helvetica-Neue,Helvetica,sans-serif",
-      "count": 307
+      "count": 318
     },
     {
       "value": "sans-serif",
@@ -3752,8 +3735,8 @@
       "count": 1
     }
   ],
-  "values.fontfamilies.totalUnique": 26,
-  "values.colors.total": 2585,
+  "values.fontfamilies.totalUnique": 24,
+  "values.colors.total": 2634,
   "values.colors.unique": [
     {
       "value": "#5d5b5b",
@@ -3765,7 +3748,7 @@
     },
     {
       "value": "#f1efef",
-      "count": 13
+      "count": 14
     },
     {
       "value": "#211010",
@@ -3848,6 +3831,10 @@
       "count": 11
     },
     {
+      "value": "#fcc200",
+      "count": 2
+    },
+    {
       "value": "#f5db84",
       "count": 6
     },
@@ -3856,12 +3843,20 @@
       "count": 6
     },
     {
+      "value": "gold",
+      "count": 1
+    },
+    {
+      "value": "khaki",
+      "count": 1
+    },
+    {
       "value": "#ff0",
       "count": 1
     },
     {
       "value": "#e0e622",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#6cb31d",
@@ -3996,10 +3991,6 @@
       "count": 1
     },
     {
-      "value": "#f5f6f7",
-      "count": 1
-    },
-    {
       "value": "rgba(54,121,189,.9)",
       "count": 1
     },
@@ -4010,10 +4001,6 @@
     {
       "value": "rgb(0,45,98)",
       "count": 2
-    },
-    {
-      "value": "#043b87",
-      "count": 4
     },
     {
       "value": "#005fee",
@@ -4028,22 +4015,6 @@
       "count": 1
     },
     {
-      "value": "#29487d",
-      "count": 1
-    },
-    {
-      "value": "rgba(0,30,84,.298)",
-      "count": 2
-    },
-    {
-      "value": "#365899",
-      "count": 1
-    },
-    {
-      "value": "#6d84b4",
-      "count": 1
-    },
-    {
       "value": "#3b5998",
       "count": 2
     },
@@ -4054,6 +4025,10 @@
     {
       "value": "#0045ff",
       "count": 4
+    },
+    {
+      "value": "#162aad",
+      "count": 1
     },
     {
       "value": "#b9c1ff",
@@ -4101,7 +4076,7 @@
     },
     {
       "value": "#ea0029",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#fef2f4",
@@ -4125,7 +4100,7 @@
     },
     {
       "value": "#ff0028",
-      "count": 376
+      "count": 392
     },
     {
       "value": "#cc0020",
@@ -4133,7 +4108,7 @@
     },
     {
       "value": "rgb(255,0,40)",
-      "count": 3
+      "count": 2
     },
     {
       "value": "rgba(255,0,40,.75)",
@@ -4221,11 +4196,11 @@
     },
     {
       "value": "#fff",
-      "count": 669
+      "count": 694
     },
     {
       "value": "rgb(255,255,255)",
-      "count": 17
+      "count": 10
     },
     {
       "value": "hsla(0,0%,100%,.9)",
@@ -4269,7 +4244,7 @@
     },
     {
       "value": "#f8f8f8",
-      "count": 15
+      "count": 17
     },
     {
       "value": "#f7f7f7",
@@ -4333,7 +4308,7 @@
     },
     {
       "value": "#e3e3e3",
-      "count": 44
+      "count": 45
     },
     {
       "value": "#e1e1e1",
@@ -4349,7 +4324,7 @@
     },
     {
       "value": "#dedede",
-      "count": 79
+      "count": 80
     },
     {
       "value": "#ddd",
@@ -4369,7 +4344,7 @@
     },
     {
       "value": "#ccc",
-      "count": 55
+      "count": 57
     },
     {
       "value": "#cacaca",
@@ -4488,10 +4463,6 @@
       "count": 2
     },
     {
-      "value": "rgba(82,82,82,.7)",
-      "count": 1
-    },
-    {
       "value": "#515151",
       "count": 1
     },
@@ -4506,10 +4477,6 @@
     {
       "value": "rgba(76,76,76,.8)",
       "count": 1
-    },
-    {
-      "value": "#4a4a4a",
-      "count": 4
     },
     {
       "value": "#484848",
@@ -4537,11 +4504,11 @@
     },
     {
       "value": "#383838",
-      "count": 91
+      "count": 100
     },
     {
       "value": "#373737",
-      "count": 3
+      "count": 2
     },
     {
       "value": "#363636",
@@ -4593,7 +4560,7 @@
     },
     {
       "value": "#1f1f1f",
-      "count": 45
+      "count": 46
     },
     {
       "value": "rgba(31,31,31,.9)",
@@ -4649,7 +4616,7 @@
     },
     {
       "value": "#0e0e0e",
-      "count": 2
+      "count": 3
     },
     {
       "value": "rgba(4,4,4,.7)",
@@ -4661,7 +4628,7 @@
     },
     {
       "value": "#000",
-      "count": 188
+      "count": 195
     },
     {
       "value": "rgb(0,0,0)",
@@ -4705,7 +4672,7 @@
     },
     {
       "value": "rgba(0,0,0,.4)",
-      "count": 4
+      "count": 3
     },
     {
       "value": "rgba(0,0,0,.3)",
@@ -4740,7 +4707,11 @@
       "count": 1
     },
     {
-      "value": "hsla(0,0,9%,0)",
+      "value": "hsla(0,0%,9%,0)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,0)",
       "count": 1
     },
     {
@@ -4756,12 +4727,16 @@
       "count": 1
     }
   ],
-  "values.colors.totalUnique": 250,
+  "values.colors.totalUnique": 247,
   "values.colors.duplicates.unique": [
     {
       "notations": [
         {
-          "value": "hsla(0,0,9%,0)",
+          "value": "hsla(0,0%,9%,0)",
+          "count": 1
+        },
+        {
+          "value": "rgba(0,0,0,0)",
           "count": 1
         },
         {
@@ -4777,35 +4752,35 @@
           "count": 1
         }
       ],
-      "count": 6,
+      "count": 7,
       "value": "rgba(0,212,255,0)"
     },
     {
       "notations": [
         {
           "value": "#ff0028",
-          "count": 376
+          "count": 392
         },
         {
           "value": "rgb(255,0,40)",
-          "count": 3
+          "count": 2
         }
       ],
-      "count": 379,
+      "count": 394,
       "value": "#ff0028"
     },
     {
       "notations": [
         {
           "value": "#fff",
-          "count": 669
+          "count": 694
         },
         {
           "value": "rgb(255,255,255)",
-          "count": 17
+          "count": 10
         }
       ],
-      "count": 686,
+      "count": 704,
       "value": "#fff"
     },
     {
@@ -4882,14 +4857,14 @@
       "notations": [
         {
           "value": "#000",
-          "count": 188
+          "count": 195
         },
         {
           "value": "rgb(0,0,0)",
           "count": 1
         }
       ],
-      "count": 189,
+      "count": 196,
       "value": "#000"
     }
   ],
@@ -4898,12 +4873,8 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 45,
+  "values.boxshadows.total": 44,
   "values.boxshadows.unique": [
-    {
-      "value": "#fff 0 1px 1px -1px inset",
-      "count": 1
-    },
     {
       "value": "0 -1px 3px 0 rgba(0,0,0,.2)",
       "count": 1
@@ -5045,8 +5016,8 @@
       "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 36,
-  "values.textshadows.total": 23,
+  "values.boxshadows.totalUnique": 35,
+  "values.textshadows.total": 21,
   "values.textshadows.unique": [
     {
       "value": "#000 1px 0 0,#000 1px 1px 0,#000 1px -1px 0,#000 -1px 1px 0,#000 -1px 0 0,#000 -1px -1px 0,#000 0 1px 0,#000 0 -1px 0",
@@ -5095,14 +5066,10 @@
     {
       "value": "5px 5px 0 #fff,-5px -5px 0 #fff,5px -5px 0 #fff,-5px 5px 0 #fff,5px 5px 0 #fff",
       "count": 2
-    },
-    {
-      "value": "rgba(0,30,84,.298) 0 -1px 0",
-      "count": 2
     }
   ],
-  "values.textshadows.totalUnique": 13,
-  "values.zindexes.total": 276,
+  "values.textshadows.totalUnique": 12,
+  "values.zindexes.total": 278,
   "values.zindexes.unique": [
     {
       "value": -100,
@@ -5122,7 +5089,7 @@
     },
     {
       "value": -1,
-      "count": 8
+      "count": 9
     },
     {
       "value": 0,
@@ -5130,7 +5097,7 @@
     },
     {
       "value": 1,
-      "count": 92
+      "count": 94
     },
     {
       "value": 2,
@@ -5198,11 +5165,11 @@
     },
     {
       "value": 99,
-      "count": 1
+      "count": 2
     },
     {
       "value": 100,
-      "count": 1
+      "count": 3
     },
     {
       "value": 101,
@@ -5242,11 +5209,7 @@
     },
     {
       "value": 10000,
-      "count": 2
-    },
-    {
-      "value": 10001,
-      "count": 3
+      "count": 1
     },
     {
       "value": 11001,
@@ -5305,8 +5268,8 @@
       "count": 1
     }
   ],
-  "values.zindexes.totalUnique": 50,
-  "values.animations.durations.total": 203,
+  "values.zindexes.totalUnique": 49,
+  "values.animations.durations.total": 201,
   "values.animations.durations.unique": [
     {
       "value": "0s",
@@ -5341,16 +5304,8 @@
       "count": 45
     },
     {
-      "value": "0.3s",
-      "count": 1
-    },
-    {
       "value": ".4s",
-      "count": 22
-    },
-    {
-      "value": "0.4s",
-      "count": 5
+      "count": 27
     },
     {
       "value": ".5s",
@@ -5365,12 +5320,8 @@
       "count": 2
     },
     {
-      "value": "0.8s",
-      "count": 1
-    },
-    {
       "value": ".8s",
-      "count": 13
+      "count": 14
     },
     {
       "value": "1s",
@@ -5378,7 +5329,7 @@
     },
     {
       "value": "1.2s",
-      "count": 2
+      "count": 1
     },
     {
       "value": "2s",
@@ -5393,8 +5344,8 @@
       "count": 1
     }
   ],
-  "values.animations.durations.totalUnique": 21,
-  "values.animations.timingFunctions.total": 191,
+  "values.animations.durations.totalUnique": 18,
+  "values.animations.timingFunctions.total": 189,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(.1,0,.25,1)",
@@ -5454,7 +5405,7 @@
     },
     {
       "value": "ease",
-      "count": 50
+      "count": 49
     },
     {
       "value": "ease-in",
@@ -5470,7 +5421,7 @@
     },
     {
       "value": "linear",
-      "count": 48
+      "count": 47
     },
     {
       "value": "step-end",

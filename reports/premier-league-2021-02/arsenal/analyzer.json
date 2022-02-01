@@ -1,10 +1,10 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 400677,
-  "stylesheets.size.compressed.gzip.totalBytes": 53332,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.8668952797390417,
-  "stylesheets.simplicity": 0.7021554539516656,
-  "stylesheets.cohesion.average": 2.674108527131783,
-  "stylesheets.cohesion.min.count": 34,
+  "stylesheets.size.uncompressed.totalBytes": 361426,
+  "stylesheets.size.compressed.gzip.totalBytes": 52944,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.8535135823100718,
+  "stylesheets.simplicity": 0.7126000842815002,
+  "stylesheets.cohesion.average": 2.693968066232998,
+  "stylesheets.cohesion.min.count": 31,
   "stylesheets.cohesion.min.value.declarations": [
     {
       "property": "font-family",
@@ -73,7 +73,7 @@
     },
     {
       "property": "border-radius",
-      "value": "0px",
+      "value": "0",
       "important": false
     },
     {
@@ -97,22 +97,7 @@
       "important": false
     },
     {
-      "property": "bottom",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "left",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "right",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "top",
+      "property": "inset",
       "value": "auto",
       "important": false
     },
@@ -297,8 +282,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 17176,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 13611,
+  "stylesheets.linesOfCode.total": 1,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14260,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -382,7 +367,7 @@
         },
         {
           "property": "src",
-          "value": "url(\"/themes/custom/arsenal_main/dest/icons.eot?#iefix&acb=20191001\") format(\"eot\"),url(\"/themes/custom/arsenal_main/dest/icons.woff?acb=20191001\") format(\"woff\"),url(\"/themes/custom/arsenal_main/dest/icons.ttf?acb=20191001\") format(\"truetype\"),url(\"/themes/custom/arsenal_main/dest/icons.svg#icons?acb=20191001\") format(\"svg\")",
+          "value": "url(\"/themes/custom/arsenal_main/dest/icons.eot?#iefix&acb=20210701-2335\") format(\"eot\"),url(\"/themes/custom/arsenal_main/dest/icons.woff?acb=20210701-2335\") format(\"woff\"),url(\"/themes/custom/arsenal_main/dest/icons.ttf?acb=20210701-2335\") format(\"truetype\"),url(\"/themes/custom/arsenal_main/dest/icons.svg#icons?acb=20210701-2335\") format(\"svg\")",
           "important": false
         },
         {
@@ -702,8 +687,52 @@
   "atrules.imports.total": 0,
   "atrules.imports.unique": [],
   "atrules.imports.totalUnique": 0,
-  "atrules.keyframes.total": 5,
+  "atrules.keyframes.total": 17,
   "atrules.keyframes.unique": [
+    {
+      "value": "fb_bounce_in_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_in_v2",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_out_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_out_v2",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_bounce_in",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_bounce_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_fade_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_out_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_up",
+      "count": 1
+    },
+    {
+      "value": "fb_transform",
+      "count": 1
+    },
     {
       "value": "onetrust-fade-in",
       "count": 1
@@ -713,21 +742,24 @@
       "count": 2
     },
     {
-      "value": "slide-up-custom",
-      "count": 2
-    }
-  ],
-  "atrules.keyframes.totalUnique": 3,
-  "atrules.keyframes.prefixed.total": 1,
-  "atrules.keyframes.prefixed.unique": [
+      "value": "rotateSpinner",
+      "count": 1
+    },
     {
-      "value": "@-webkit-keyframes slide-up-custom",
+      "value": "slideInFromBottom",
+      "count": 1
+    },
+    {
+      "value": "slideInFromBottomDelay",
       "count": 1
     }
   ],
-  "atrules.keyframes.prefixed.totalUnique": 1,
-  "atrules.keyframes.prefixed.share": 5,
-  "atrules.mediaqueries.total": 311,
+  "atrules.keyframes.totalUnique": 16,
+  "atrules.keyframes.prefixed.total": 0,
+  "atrules.keyframes.prefixed.unique": [],
+  "atrules.keyframes.prefixed.totalUnique": 0,
+  "atrules.keyframes.prefixed.share": 0,
+  "atrules.mediaqueries.total": 308,
   "atrules.mediaqueries.unique": [
     {
       "value": "(min-width:1px) and (max-width:549px)",
@@ -739,7 +771,7 @@
     },
     {
       "value": "(min-width:1px) and (max-width:767px)",
-      "count": 6
+      "count": 7
     },
     {
       "value": "(min-width:1px) and (max-width:1023px)",
@@ -795,7 +827,7 @@
     },
     {
       "value": "(min-width:1034px)",
-      "count": 29
+      "count": 25
     },
     {
       "value": "(min-width:1034px) and (min-width:1034px)",
@@ -902,7 +934,7 @@
       "count": 1
     },
     {
-      "value": "screen and (max-width:800px) and (orientation:landscape),\nscreen and (max-height:300px)",
+      "value": "screen and (max-width:800px) and (orientation:landscape),screen and (max-height:300px)",
       "count": 1
     },
     {
@@ -926,12 +958,12 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 3225,
+  "rules.total": 3382,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.4241860465116278,
+  "rules.selectors.average": 1.4033116499112952,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
-    "#onetrust-banner-sdk"
+    "#fb-root #fb_dialog_ipad_overlay"
   ],
   "rules.selectors.maximum.count": 116,
   "rules.selectors.maximum.value": [
@@ -1052,8 +1084,8 @@
     "#ot-sync-ntfy tr",
     "#ot-sync-ntfy ul"
   ],
-  "selectors.total": 4593,
-  "selectors.totalUnique": 3806,
+  "selectors.total": 4746,
+  "selectors.totalUnique": 3949,
   "selectors.js.total": 30,
   "selectors.js.unique": [
     {
@@ -1089,7 +1121,7 @@
       "count": 1
     },
     {
-      "value": ".js-form-type-checkbox input.error + label:after",
+      "value": ".js-form-type-checkbox input.error+label:after",
       "count": 1
     },
     {
@@ -1097,19 +1129,19 @@
       "count": 1
     },
     {
-      "value": ".js-form-type-checkbox input[type=checkbox] + label",
+      "value": ".js-form-type-checkbox input[type=checkbox]+label",
       "count": 1
     },
     {
-      "value": ".js-form-type-checkbox input[type=checkbox] + label:after",
+      "value": ".js-form-type-checkbox input[type=checkbox]+label:after",
       "count": 1
     },
     {
-      "value": ".js-form-type-checkbox input[type=checkbox]:checked + label",
+      "value": ".js-form-type-checkbox input[type=checkbox]:checked+label",
       "count": 1
     },
     {
-      "value": ".js-form-type-checkbox input[type=checkbox]:checked + label:after",
+      "value": ".js-form-type-checkbox input[type=checkbox]:checked+label:after",
       "count": 2
     },
     {
@@ -1117,7 +1149,7 @@
       "count": 1
     },
     {
-      "value": ".js-form-type-radio input.error + label:before",
+      "value": ".js-form-type-radio input.error+label:before",
       "count": 1
     },
     {
@@ -1125,19 +1157,19 @@
       "count": 1
     },
     {
-      "value": ".js-form-type-radio input[type=radio] + label",
+      "value": ".js-form-type-radio input[type=radio]+label",
       "count": 1
     },
     {
-      "value": ".js-form-type-radio input[type=radio] + label:before",
+      "value": ".js-form-type-radio input[type=radio]+label:before",
       "count": 1
     },
     {
-      "value": ".js-form-type-radio input[type=radio]:checked + label",
+      "value": ".js-form-type-radio input[type=radio]:checked+label",
       "count": 1
     },
     {
-      "value": ".js-form-type-radio input[type=radio]:checked + label:before",
+      "value": ".js-form-type-radio input[type=radio]:checked+label:before",
       "count": 1
     },
     {
@@ -1153,7 +1185,7 @@
       "count": 1
     },
     {
-      "value": ".js-webform-checkboxes-other .form-checkboxes + .form-item",
+      "value": ".js-webform-checkboxes-other .form-checkboxes+.form-item",
       "count": 1
     },
     {
@@ -1165,17 +1197,33 @@
       "count": 1
     },
     {
-      "value": "html.wf-loading .js-form-type-checkbox input[type=checkbox] + label",
+      "value": "html.wf-loading .js-form-type-checkbox input[type=checkbox]+label",
       "count": 1
     },
     {
-      "value": "html.wf-loading .js-form-type-radio input[type=radio] + label",
+      "value": "html.wf-loading .js-form-type-radio input[type=radio]+label",
       "count": 1
     }
   ],
   "selectors.js.totalUnique": 29,
-  "selectors.id.total": 1380,
+  "selectors.id.total": 1386,
   "selectors.id.unique": [
+    {
+      "value": "#fb-root #fb_dialog_ipad_overlay",
+      "count": 1
+    },
+    {
+      "value": "#fb-root #fb_dialog_ipad_overlay.hidden",
+      "count": 1
+    },
+    {
+      "value": "#fb_dialog_loader_close",
+      "count": 1
+    },
+    {
+      "value": "#fb_dialog_loader_spinner",
+      "count": 1
+    },
     {
       "value": "#onetrust-banner-sdk",
       "count": 3
@@ -1289,7 +1337,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .banner-option-input:focus + label",
+      "value": "#onetrust-banner-sdk .banner-option-input:focus+label",
       "count": 1
     },
     {
@@ -1297,7 +1345,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true] ~ .banner-option-details",
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true]~.banner-option-details",
       "count": 1
     },
     {
@@ -1385,7 +1433,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .ot-dpd-desc > .ot-b-addl-desc",
+      "value": "#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc",
       "count": 1
     },
     {
@@ -1685,15 +1733,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container) > button:focus",
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus",
       "count": 2
     },
     {
-      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container) > button:hover",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-banner-sdk > .ot-sdk-container",
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -1929,15 +1973,15 @@
       "count": 2
     },
     {
-      "value": "#onetrust-banner-sdk label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#onetrust-banner-sdk label::after",
       "count": 1
     },
     {
       "value": "#onetrust-banner-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk label>.label-body",
       "count": 1
     },
     {
@@ -1969,7 +2013,7 @@
       "count": 2
     },
     {
-      "value": "#onetrust-banner-sdk pre > code",
+      "value": "#onetrust-banner-sdk pre>code",
       "count": 1
     },
     {
@@ -2113,7 +2157,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc) > .ot-b-addl-desc",
+      "value": "#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc)>.ot-b-addl-desc",
       "count": 2
     },
     {
@@ -2142,6 +2186,10 @@
     },
     {
       "value": "#onetrust-banner-sdk:not(.ot-iab-2).vertical-align-content #onetrust-button-group-parent",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk>.ot-sdk-container",
       "count": 1
     },
     {
@@ -2261,7 +2309,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler + a",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler+a",
       "count": 1
     },
     {
@@ -2721,15 +2769,15 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a",
       "count": 4
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a::after",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a:hover",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a:hover",
       "count": 1
     },
     {
@@ -2757,55 +2805,55 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > .ot-acc-hdr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > .ot-acc-hdr .ot-arw-cntr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > .ot-acc-hdr .ot-plus-minus",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > .ot-acc-hdr input",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > .ot-acc-txt",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button:focus",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=false] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=true] ~ .ot-acc-grpcntr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=true] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > input[type=checkbox]:checked ~ .ot-acc-hdr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
       "value": "#onetrust-pc-sdk .ot-acc-cntr input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr .ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>input[type=checkbox]:checked~.ot-acc-hdr",
       "count": 1
     },
     {
@@ -2817,19 +2865,19 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-grpcntr .ot-vlst-cntr + .ot-subgrp-cntr",
+      "value": "#onetrust-pc-sdk .ot-acc-grpcntr .ot-vlst-cntr+.ot-subgrp-cntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-grpdesc + .ot-leg-btn-container",
+      "value": "#onetrust-pc-sdk .ot-acc-grpdesc+.ot-leg-btn-container",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-hdr .ot-arw-cntr + .ot-tgl-cntr",
+      "value": "#onetrust-pc-sdk .ot-acc-hdr .ot-arw-cntr+.ot-tgl-cntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-txt h4 + .ot-tgl-cntr",
+      "value": "#onetrust-pc-sdk .ot-acc-txt h4+.ot-tgl-cntr",
       "count": 1
     },
     {
@@ -2837,7 +2885,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-vendors-list-handler + a",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-vendors-list-handler+a",
       "count": 1
     },
     {
@@ -2849,11 +2897,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc > ul",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc>ul",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc > ul li",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc>ul li",
       "count": 1
     },
     {
@@ -2869,11 +2917,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header + .ot-arw-cntr",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header+.ot-arw-cntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header + .ot-arw-cntr .ot-arw",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header+.ot-arw-cntr .ot-arw",
       "count": 1
     },
     {
@@ -2905,19 +2953,19 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout div + .ot-acc-grpdesc",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout div+.ot-acc-grpdesc",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout h4 ~ .ot-always-active",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-always-active",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout h4 ~ .ot-tgl",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-tgl",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout h4 ~ .ot-tgl + .ot-tgl",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-tgl+.ot-tgl",
       "count": 1
     },
     {
@@ -2989,39 +3037,39 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button:focus",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=false] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=true] ~ .ot-acc-grpcntr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=true] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk .ot-cat-item p",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item p > ul",
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item p > ul li",
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul li",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item p > ul li:last-child",
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul li:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
@@ -3029,31 +3077,31 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input + label::after",
+      "value": "#onetrust-pc-sdk .ot-chkbox input+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input:checked + label::after",
+      "value": "#onetrust-pc-sdk .ot-chkbox input:checked+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input:checked ~ label::before",
+      "value": "#onetrust-pc-sdk .ot-chkbox input:checked~label::before",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input:focus + label::before",
+      "value": "#onetrust-pc-sdk .ot-chkbox input:focus+label::before",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox] + label::after",
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:checked + label::after",
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:checked+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:focus + label::before",
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:focus+label::before",
       "count": 1
     },
     {
@@ -3089,19 +3137,19 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-enbl-chr h4 ~ .ot-always-active",
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-always-active",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-enbl-chr h4 ~ .ot-tgl",
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-tgl",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-enbl-chr h4 ~ .ot-tgl + .ot-tgl",
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-tgl+.ot-tgl",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-enbl-chr li.ot-subgrp > h5 + .ot-tgl-cntr",
+      "value": "#onetrust-pc-sdk .ot-enbl-chr li.ot-subgrp>h5+.ot-tgl-cntr",
       "count": 1
     },
     {
@@ -3161,7 +3209,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-hdr > a",
+      "value": "#onetrust-pc-sdk .ot-host-hdr>a",
       "count": 1
     },
     {
@@ -3173,7 +3221,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-item > button:focus",
+      "value": "#onetrust-pc-sdk .ot-host-item>button:focus",
       "count": 1
     },
     {
@@ -3181,27 +3229,27 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-name + a",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk .ot-host-name a",
       "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-name+a",
+      "count": 1
     },
     {
       "value": "#onetrust-pc-sdk .ot-host-opt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-opt li > div div",
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-opt li > div div:nth-child(1)",
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div:nth-child(1)",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-host-opt li > div div:nth-child(2)",
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div:nth-child(2)",
       "count": 1
     },
     {
@@ -3297,27 +3345,27 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-pli-hdr ~ .ot-cat-item .ot-cat-header",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-pli-hdr ~ .ot-cat-item .ot-cat-header + .ot-tgl",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-pli-hdr ~ .ot-cat-item .ot-subgrp > h5",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-pli-hdr ~ .ot-cat-item h5 + .ot-tgl-cntr",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk .ot-pli-hdr.ot-leg-border-color",
       "count": 1
     },
     {
       "value": "#onetrust-pc-sdk .ot-pli-hdr.ot-leg-border-color span:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-cat-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-cat-header+.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-subgrp>h5",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item h5+.ot-tgl-cntr",
       "count": 1
     },
     {
@@ -3605,7 +3653,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-search-cntr > svg",
+      "value": "#onetrust-pc-sdk .ot-search-cntr>svg",
       "count": 1
     },
     {
@@ -3633,7 +3681,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-switch + .ot-subgrp-cntr",
+      "value": "#onetrust-pc-sdk .ot-switch+.ot-subgrp-cntr",
       "count": 1
     },
     {
@@ -3653,15 +3701,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob",
+      "value": "#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-tgl input:checked + .ot-switch .ot-switch-nob::before",
+      "value": "#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob::before",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-tgl input:focus + .ot-switch",
+      "value": "#onetrust-pc-sdk .ot-tgl input:focus+.ot-switch",
       "count": 1
     },
     {
@@ -3749,7 +3797,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-ven-item > button:focus",
+      "value": "#onetrust-pc-sdk .ot-ven-item>button:focus",
       "count": 1
     },
     {
@@ -3765,7 +3813,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-ven-litgl + .ot-arw-cntr",
+      "value": "#onetrust-pc-sdk .ot-ven-litgl+.ot-arw-cntr",
       "count": 1
     },
     {
@@ -3797,7 +3845,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .switch + p",
+      "value": "#onetrust-pc-sdk .switch+p",
       "count": 2
     },
     {
@@ -3817,11 +3865,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container) > button:focus",
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus",
       "count": 2
     },
     {
-      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container) > button:hover",
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -3829,15 +3877,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label::after",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label::before",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::before",
       "count": 1
     },
     {
@@ -3877,11 +3925,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk button[aria-expanded=true] ~ .ot-acc-hdr .ot-plus-minus span:first-of-type",
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:first-of-type",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk button[aria-expanded=true] ~ .ot-acc-hdr .ot-plus-minus span:last-of-type",
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:last-of-type",
       "count": 2
     },
     {
@@ -3945,7 +3993,7 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk input:checked ~ .ot-acc-hdr .ot-arw",
+      "value": "#onetrust-pc-sdk input:checked~.ot-acc-hdr .ot-arw",
       "count": 2
     },
     {
@@ -3977,7 +4025,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk input[type=checkbox]:focus + .ot-acc-hdr",
+      "value": "#onetrust-pc-sdk input[type=checkbox]:focus+.ot-acc-hdr",
       "count": 2
     },
     {
@@ -4093,15 +4141,15 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk label::after",
       "count": 1
     },
     {
       "value": "#onetrust-pc-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk label>.label-body",
       "count": 1
     },
     {
@@ -4137,26 +4185,6 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li > button",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk li > button:focus",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=false] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=true] ~ .ot-acc-grpcntr",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=true] ~ .ot-acc-txt",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk li input[type=checkbox]",
       "count": 1
     },
@@ -4165,23 +4193,43 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.ot-subgrp > h5",
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul li:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp>h5",
       "count": 2
     },
     {
-      "value": "#onetrust-pc-sdk li.ot-subgrp > h5 + .ot-tgl-cntr",
+      "value": "#onetrust-pc-sdk li.ot-subgrp>h5+.ot-tgl-cntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.ot-subgrp p > ul",
+      "value": "#onetrust-pc-sdk li>button",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.ot-subgrp p > ul li",
+      "value": "#onetrust-pc-sdk li>button:focus",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.ot-subgrp p > ul li:last-child",
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
@@ -4205,7 +4253,7 @@
       "count": 5
     },
     {
-      "value": "#onetrust-pc-sdk pre > code",
+      "value": "#onetrust-pc-sdk pre>code",
       "count": 1
     },
     {
@@ -4329,7 +4377,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) .ot-acc-cntr > .ot-acc-hdr",
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) .ot-acc-cntr>.ot-acc-hdr",
       "count": 1
     },
     {
@@ -4349,7 +4397,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-addtl-vendors .ot-plus-minus ~ .ot-sel-all-chkbox",
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors .ot-plus-minus~.ot-sel-all-chkbox",
       "count": 1
     },
     {
@@ -4429,15 +4477,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk[dir=rtl] .ot-search-cntr > svg",
+      "value": "#onetrust-pc-sdk[dir=rtl] .ot-search-cntr>svg",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk[dir=rtl] input ~ .ot-acc-hdr .ot-arw",
+      "value": "#onetrust-pc-sdk[dir=rtl] input:checked~.ot-acc-hdr .ot-arw",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk[dir=rtl] input:checked ~ .ot-acc-hdr .ot-arw",
+      "value": "#onetrust-pc-sdk[dir=rtl] input~.ot-acc-hdr .ot-arw",
       "count": 1
     },
     {
@@ -4753,11 +4801,11 @@
       "count": 1
     },
     {
-      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:focus",
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus",
       "count": 2
     },
     {
-      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:hover",
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -4973,15 +5021,15 @@
       "count": 2
     },
     {
-      "value": "#ot-sdk-cookie-policy label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#ot-sdk-cookie-policy label::after",
       "count": 1
     },
     {
       "value": "#ot-sdk-cookie-policy label::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy label>.label-body",
       "count": 1
     },
     {
@@ -5013,7 +5061,7 @@
       "count": 2
     },
     {
-      "value": "#ot-sdk-cookie-policy pre > code",
+      "value": "#ot-sdk-cookie-policy pre>code",
       "count": 1
     },
     {
@@ -5122,10 +5170,6 @@
     },
     {
       "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header",
-      "count": 1
-    },
-    {
-      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy > section",
       "count": 1
     },
     {
@@ -5239,6 +5283,10 @@
     {
       "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr",
       "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section",
+      "count": 1
     },
     {
       "value": "#ot-sync-ntfy",
@@ -5425,6 +5473,14 @@
       "count": 1
     },
     {
+      "value": ".fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner",
+      "count": 1
+    },
+    {
+      "value": ".loading.centered #fb_dialog_loader_close",
+      "count": 1
+    },
+    {
       "value": ".ot-sdk-cookie-policy #cookie-policy-description",
       "count": 2
     },
@@ -5481,8 +5537,8 @@
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 1076,
-  "selectors.universal.total": 87,
+  "selectors.id.totalUnique": 1082,
+  "selectors.universal.total": 89,
   "selectors.universal.unique": [
     {
       "value": "#onetrust-banner-sdk #onetrust-policy-text *",
@@ -5629,203 +5685,211 @@
       "count": 1
     },
     {
-      "value": ".caption > *",
+      "value": ".caption>*",
       "count": 1
     },
     {
-      "value": ".event-info__venue + *",
+      "value": ".event-info__venue+*",
       "count": 1
     },
     {
-      "value": ".full-grid > *",
+      "value": ".full-grid-demo>*",
       "count": 1
     },
     {
-      "value": ".full-grid-demo > *",
+      "value": ".full-grid>*",
       "count": 1
     },
     {
-      "value": ".grid-demo > *",
+      "value": ".gigya-account>*",
       "count": 1
     },
     {
-      "value": ".login-wall-message > * + *",
+      "value": ".grid-demo>*",
       "count": 1
     },
     {
-      "value": ".media-card__link:hover .media-card__logo > svg *",
+      "value": ".header__account-trigger>*",
       "count": 1
     },
     {
-      "value": ".media-card__logo > svg *",
+      "value": ".login-wall-message>*+*",
       "count": 1
     },
     {
-      "value": ".mega-nav__item > *",
+      "value": ".media-card__link:hover .media-card__logo>svg *",
       "count": 1
     },
     {
-      "value": ".page-not-found .slices-group > *",
+      "value": ".media-card__logo>svg *",
       "count": 1
     },
     {
-      "value": ".page__content .slices-group > *",
+      "value": ".mega-nav__item>*",
       "count": 1
     },
     {
-      "value": ".page__sidebar * + .u-title-line",
+      "value": ".page-not-found .slices-group>*",
       "count": 1
     },
     {
-      "value": ".page__sidebar > *",
+      "value": ".page__content .slices-group>*",
       "count": 1
     },
     {
-      "value": ".region--sidebar .teaser-block > * + *",
+      "value": ".page__sidebar *+.u-title-line",
       "count": 1
     },
     {
-      "value": ".smart-grid > *",
+      "value": ".page__sidebar>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-large=\"1\"] > *",
+      "value": ".region--sidebar .teaser-block>*+*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-large=\"2\"] > *",
+      "value": ".smart-grid>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-large=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-large=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-large=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-large=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-large=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-large=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-medium=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-large=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-medium=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-large=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-medium=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-medium=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-medium=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-medium=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-medium=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-medium=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-small=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-medium=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-small=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-medium=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-small=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-small=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-small=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-small=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-small=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-small=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xlarge=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-small=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xlarge=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-small=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xlarge=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-xlarge=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xlarge=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-xlarge=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xlarge=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-xlarge=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xsmall=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-xlarge=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xsmall=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-xlarge=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xsmall=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-xsmall=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xsmall=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-xsmall=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xsmall=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-xsmall=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxlarge=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-xsmall=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxlarge=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-xsmall=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxlarge=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-xxlarge=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxlarge=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-xxlarge=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxlarge=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-xxlarge=\"3\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxsmall=\"1\"] > *",
+      "value": ".smart-grid[data-row-items-xxlarge=\"4\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxsmall=\"2\"] > *",
+      "value": ".smart-grid[data-row-items-xxlarge=\"6\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxsmall=\"3\"] > *",
+      "value": ".smart-grid[data-row-items-xxsmall=\"1\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxsmall=\"4\"] > *",
+      "value": ".smart-grid[data-row-items-xxsmall=\"2\"]>*",
       "count": 1
     },
     {
-      "value": ".smart-grid[data-row-items-xxsmall=\"6\"] > *",
+      "value": ".smart-grid[data-row-items-xxsmall=\"3\"]>*",
+      "count": 1
+    },
+    {
+      "value": ".smart-grid[data-row-items-xxsmall=\"4\"]>*",
+      "count": 1
+    },
+    {
+      "value": ".smart-grid[data-row-items-xxsmall=\"6\"]>*",
       "count": 1
     },
     {
@@ -5833,7 +5897,7 @@
       "count": 1
     }
   ],
-  "selectors.universal.totalUnique": 87,
+  "selectors.universal.totalUnique": 89,
   "selectors.accessibility.total": 16,
   "selectors.accessibility.unique": [
     {
@@ -5841,7 +5905,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true] ~ .banner-option-details",
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true]~.banner-option-details",
       "count": 1
     },
     {
@@ -5849,51 +5913,51 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=false] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=true] ~ .ot-acc-grpcntr",
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=false]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr > button[aria-expanded=true] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-grpcntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=false] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=false]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=true] ~ .ot-acc-grpcntr",
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-grpcntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-cat-item > button[aria-expanded=true] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk button[aria-expanded=true] ~ .ot-acc-hdr .ot-plus-minus span:first-of-type",
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:first-of-type",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk button[aria-expanded=true] ~ .ot-acc-hdr .ot-plus-minus span:last-of-type",
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:last-of-type",
       "count": 2
     },
     {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=false] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=false]~.ot-acc-txt",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=true] ~ .ot-acc-grpcntr",
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-grpcntr",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li > button[aria-expanded=true] ~ .ot-acc-txt",
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-txt",
       "count": 1
     }
   ],
@@ -5970,13 +6034,13 @@
   "selectors.complexity.max.value": 13,
   "selectors.complexity.max.selectors": [
     {
-      "value": ".group-grid__item .one-col.paragraph--type--gallery .media-card--carousel > div .media-card--carousel .slick-track .slick-slide > div .media-card__figure a .media-card__media img",
+      "value": ".group-grid__item .one-col.paragraph--type--gallery .media-card--carousel>div .media-card--carousel .slick-track .slick-slide>div .media-card__figure a .media-card__media img",
       "count": 1
     }
   ],
   "selectors.complexity.max.count": 1,
-  "selectors.complexity.average": 2.7417809710428913,
-  "selectors.complexity.sum": 12593,
+  "selectors.complexity.average": 2.719553308048883,
+  "selectors.complexity.sum": 12907,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -5984,23 +6048,23 @@
     },
     {
       "value": 1,
-      "count": 882
+      "count": 939
     },
     {
       "value": 2,
-      "count": 1537
+      "count": 1590
     },
     {
       "value": 3,
-      "count": 1110
+      "count": 1135
     },
     {
       "value": 4,
-      "count": 545
+      "count": 559
     },
     {
       "value": 5,
-      "count": 251
+      "count": 255
     },
     {
       "value": 6,
@@ -6039,11 +6103,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 8689,
-  "declarations.totalUnique": 1937,
-  "declarations.importants.total": 112,
-  "declarations.importants.share": 0.012889860743468753,
-  "properties.total": 8689,
+  "declarations.total": 9176,
+  "declarations.totalUnique": 2047,
+  "declarations.importants.total": 111,
+  "declarations.importants.share": 0.012096774193548387,
+  "properties.total": 9176,
   "properties.unique": [
     {
       "value": "-khtml-user-select",
@@ -6071,11 +6135,11 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 41
+      "count": 42
     },
     {
       "value": "-ms-flex-direction",
-      "count": 39
+      "count": 43
     },
     {
       "value": "-ms-flex-flow",
@@ -6095,15 +6159,15 @@
     },
     {
       "value": "-ms-flex-order",
-      "count": 16
+      "count": 17
     },
     {
       "value": "-ms-flex-pack",
-      "count": 42
+      "count": 45
     },
     {
       "value": "-ms-flex-positive",
-      "count": 17
+      "count": 18
     },
     {
       "value": "-ms-flex-preferred-size",
@@ -6135,7 +6199,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 4
+      "count": 3
     },
     {
       "value": "-webkit-backface-visibility",
@@ -6175,7 +6239,7 @@
     },
     {
       "value": "align-items",
-      "count": 41
+      "count": 42
     },
     {
       "value": "align-self",
@@ -6183,15 +6247,15 @@
     },
     {
       "value": "animation",
-      "count": 2
+      "count": 4
     },
     {
       "value": "animation-duration",
-      "count": 1
+      "count": 11
     },
     {
       "value": "animation-name",
-      "count": 1
+      "count": 11
     },
     {
       "value": "animation-timing-function",
@@ -6199,7 +6263,7 @@
     },
     {
       "value": "appearance",
-      "count": 1
+      "count": 2
     },
     {
       "value": "backface-visibility",
@@ -6207,23 +6271,27 @@
     },
     {
       "value": "background",
-      "count": 164
+      "count": 179
+    },
+    {
+      "value": "background-clip",
+      "count": 1
     },
     {
       "value": "background-color",
-      "count": 152
+      "count": 167
     },
     {
       "value": "background-image",
-      "count": 41
+      "count": 42
     },
     {
       "value": "background-position",
-      "count": 35
+      "count": 36
     },
     {
       "value": "background-repeat",
-      "count": 16
+      "count": 17
     },
     {
       "value": "background-size",
@@ -6231,18 +6299,22 @@
     },
     {
       "value": "border",
-      "count": 82
+      "count": 89
     },
     {
       "value": "border-bottom",
-      "count": 34
+      "count": 35
     },
     {
       "value": "border-bottom-color",
-      "count": 4
+      "count": 5
     },
     {
       "value": "border-bottom-right-radius",
+      "count": 1
+    },
+    {
+      "value": "border-bottom-style",
       "count": 1
     },
     {
@@ -6255,18 +6327,22 @@
     },
     {
       "value": "border-color",
-      "count": 35
+      "count": 38
     },
     {
       "value": "border-image",
-      "count": 3
+      "count": 5
     },
     {
       "value": "border-left",
-      "count": 31
+      "count": 32
     },
     {
       "value": "border-left-color",
+      "count": 3
+    },
+    {
+      "value": "border-left-style",
       "count": 1
     },
     {
@@ -6275,11 +6351,19 @@
     },
     {
       "value": "border-radius",
-      "count": 52
+      "count": 58
     },
     {
       "value": "border-right",
-      "count": 16
+      "count": 17
+    },
+    {
+      "value": "border-right-color",
+      "count": 2
+    },
+    {
+      "value": "border-right-style",
+      "count": 1
     },
     {
       "value": "border-right-width",
@@ -6287,11 +6371,11 @@
     },
     {
       "value": "border-spacing",
-      "count": 3
+      "count": 4
     },
     {
       "value": "border-style",
-      "count": 6
+      "count": 7
     },
     {
       "value": "border-top",
@@ -6299,7 +6383,7 @@
     },
     {
       "value": "border-top-color",
-      "count": 3
+      "count": 5
     },
     {
       "value": "border-top-left-radius",
@@ -6311,7 +6395,7 @@
     },
     {
       "value": "border-top-style",
-      "count": 1
+      "count": 2
     },
     {
       "value": "border-top-width",
@@ -6319,19 +6403,19 @@
     },
     {
       "value": "border-width",
-      "count": 11
+      "count": 13
     },
     {
       "value": "bottom",
-      "count": 42
+      "count": 44
     },
     {
       "value": "box-shadow",
-      "count": 30
+      "count": 32
     },
     {
       "value": "box-sizing",
-      "count": 17
+      "count": 19
     },
     {
       "value": "caption-side",
@@ -6339,7 +6423,7 @@
     },
     {
       "value": "clear",
-      "count": 24
+      "count": 25
     },
     {
       "value": "clip",
@@ -6347,11 +6431,11 @@
     },
     {
       "value": "color",
-      "count": 499
+      "count": 517
     },
     {
       "value": "content",
-      "count": 163
+      "count": 167
     },
     {
       "value": "counter-increment",
@@ -6363,15 +6447,15 @@
     },
     {
       "value": "cursor",
-      "count": 53
+      "count": 60
     },
     {
       "value": "direction",
-      "count": 1
+      "count": 2
     },
     {
       "value": "display",
-      "count": 740
+      "count": 764
     },
     {
       "value": "fill",
@@ -6387,7 +6471,7 @@
     },
     {
       "value": "flex-direction",
-      "count": 40
+      "count": 44
     },
     {
       "value": "flex-flow",
@@ -6395,7 +6479,7 @@
     },
     {
       "value": "flex-grow",
-      "count": 17
+      "count": 18
     },
     {
       "value": "flex-shrink",
@@ -6407,11 +6491,11 @@
     },
     {
       "value": "float",
-      "count": 88
+      "count": 91
     },
     {
       "value": "font",
-      "count": 2
+      "count": 4
     },
     {
       "value": "font-display",
@@ -6419,11 +6503,11 @@
     },
     {
       "value": "font-family",
-      "count": 197
+      "count": 205
     },
     {
       "value": "font-size",
-      "count": 431
+      "count": 447
     },
     {
       "value": "font-stretch",
@@ -6431,35 +6515,43 @@
     },
     {
       "value": "font-style",
-      "count": 60
+      "count": 61
+    },
+    {
+      "value": "font-variant",
+      "count": 1
     },
     {
       "value": "font-weight",
-      "count": 216
+      "count": 221
     },
     {
       "value": "height",
-      "count": 258
+      "count": 270
+    },
+    {
+      "value": "inset",
+      "count": 4
     },
     {
       "value": "justify-content",
-      "count": 43
+      "count": 46
     },
     {
       "value": "left",
-      "count": 135
+      "count": 140
     },
     {
       "value": "letter-spacing",
-      "count": 120
+      "count": 124
     },
     {
       "value": "line-height",
-      "count": 189
+      "count": 194
     },
     {
       "value": "list-style",
-      "count": 13
+      "count": 15
     },
     {
       "value": "list-style-type",
@@ -6467,39 +6559,39 @@
     },
     {
       "value": "margin",
-      "count": 143
+      "count": 153
     },
     {
       "value": "margin-bottom",
-      "count": 273
+      "count": 280
     },
     {
       "value": "margin-left",
-      "count": 133
+      "count": 136
     },
     {
       "value": "margin-right",
-      "count": 174
+      "count": 178
     },
     {
       "value": "margin-top",
-      "count": 115
+      "count": 118
     },
     {
       "value": "max-height",
-      "count": 16
+      "count": 17
     },
     {
       "value": "max-width",
-      "count": 77
+      "count": 80
     },
     {
       "value": "min-height",
-      "count": 26
+      "count": 29
     },
     {
       "value": "min-width",
-      "count": 18
+      "count": 23
     },
     {
       "value": "object-fit",
@@ -6507,15 +6599,15 @@
     },
     {
       "value": "opacity",
-      "count": 47
+      "count": 70
     },
     {
       "value": "order",
-      "count": 16
+      "count": 17
     },
     {
       "value": "outline",
-      "count": 19
+      "count": 20
     },
     {
       "value": "outline-offset",
@@ -6531,7 +6623,7 @@
     },
     {
       "value": "overflow",
-      "count": 82
+      "count": 88
     },
     {
       "value": "overflow-wrap",
@@ -6539,39 +6631,39 @@
     },
     {
       "value": "overflow-x",
-      "count": 1
+      "count": 2
     },
     {
       "value": "overflow-y",
-      "count": 4
+      "count": 6
     },
     {
       "value": "padding",
-      "count": 254
+      "count": 271
     },
     {
       "value": "padding-bottom",
-      "count": 49
+      "count": 51
     },
     {
       "value": "padding-left",
-      "count": 89
+      "count": 93
     },
     {
       "value": "padding-right",
-      "count": 88
+      "count": 90
     },
     {
       "value": "padding-top",
-      "count": 65
+      "count": 67
     },
     {
       "value": "pointer-events",
-      "count": 7
+      "count": 8
     },
     {
       "value": "position",
-      "count": 292
+      "count": 317
     },
     {
       "value": "print-color-adjust",
@@ -6583,7 +6675,7 @@
     },
     {
       "value": "right",
-      "count": 104
+      "count": 107
     },
     {
       "value": "speak",
@@ -6595,19 +6687,19 @@
     },
     {
       "value": "text-align",
-      "count": 109
+      "count": 114
     },
     {
       "value": "text-decoration",
-      "count": 265
+      "count": 264
     },
     {
       "value": "text-indent",
-      "count": 1
+      "count": 2
     },
     {
       "value": "text-overflow",
-      "count": 3
+      "count": 4
     },
     {
       "value": "text-rendering",
@@ -6615,7 +6707,7 @@
     },
     {
       "value": "text-shadow",
-      "count": 2
+      "count": 5
     },
     {
       "value": "text-size-adjust",
@@ -6623,11 +6715,11 @@
     },
     {
       "value": "text-transform",
-      "count": 141
+      "count": 145
     },
     {
       "value": "top",
-      "count": 173
+      "count": 188
     },
     {
       "value": "touch-action",
@@ -6635,11 +6727,11 @@
     },
     {
       "value": "transform",
-      "count": 76
+      "count": 97
     },
     {
       "value": "transform-origin",
-      "count": 3
+      "count": 13
     },
     {
       "value": "transition",
@@ -6650,24 +6742,28 @@
       "count": 1
     },
     {
+      "value": "transition-timing-function",
+      "count": 10
+    },
+    {
       "value": "user-select",
       "count": 6
     },
     {
       "value": "vertical-align",
-      "count": 61
+      "count": 67
     },
     {
       "value": "visibility",
-      "count": 179
+      "count": 184
     },
     {
       "value": "white-space",
-      "count": 14
+      "count": 16
     },
     {
       "value": "width",
-      "count": 520
+      "count": 545
     },
     {
       "value": "will-change",
@@ -6678,16 +6774,20 @@
       "count": 14
     },
     {
+      "value": "word-spacing",
+      "count": 1
+    },
+    {
       "value": "word-wrap",
       "count": 13
     },
     {
       "value": "z-index",
-      "count": 81
+      "count": 91
     }
   ],
-  "properties.totalUnique": 160,
-  "properties.prefixed.total": 368,
+  "properties.totalUnique": 169,
+  "properties.prefixed.total": 377,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-user-select",
@@ -6715,11 +6815,11 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 41
+      "count": 42
     },
     {
       "value": "-ms-flex-direction",
-      "count": 39
+      "count": 43
     },
     {
       "value": "-ms-flex-flow",
@@ -6739,15 +6839,15 @@
     },
     {
       "value": "-ms-flex-order",
-      "count": 16
+      "count": 17
     },
     {
       "value": "-ms-flex-pack",
-      "count": 42
+      "count": 45
     },
     {
       "value": "-ms-flex-positive",
-      "count": 17
+      "count": 18
     },
     {
       "value": "-ms-flex-preferred-size",
@@ -6779,7 +6879,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 4
+      "count": 3
     },
     {
       "value": "-webkit-backface-visibility",
@@ -6815,16 +6915,16 @@
     }
   ],
   "properties.prefixed.totalUnique": 31,
-  "properties.prefixed.share": 0.04235239958568305,
+  "properties.prefixed.share": 0.041085440278988666,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 8689,
-  "values.prefixed.total": 132,
+  "values.total": 9176,
+  "values.prefixed.total": 137,
   "values.prefixed.unique": [
     {
       "value": "-ms-flexbox",
-      "count": 131
+      "count": 136
     },
     {
       "value": "-ms-inline-flexbox",
@@ -6832,8 +6932,8 @@
     }
   ],
   "values.prefixed.totalUnique": 2,
-  "values.prefixed.share": 0.015191621590516746,
-  "values.fontsizes.total": 371,
+  "values.prefixed.share": 0.01493025283347864,
+  "values.fontsizes.total": 389,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -6912,6 +7012,14 @@
       "count": 5
     },
     {
+      "value": "42px",
+      "count": 1
+    },
+    {
+      "value": "41px",
+      "count": 1
+    },
+    {
       "value": "40px",
       "count": 1
     },
@@ -6949,7 +7057,7 @@
     },
     {
       "value": "28px",
-      "count": 12
+      "count": 14
     },
     {
       "value": "26px",
@@ -6977,11 +7085,11 @@
     },
     {
       "value": "22px",
-      "count": 4
+      "count": 5
     },
     {
       "value": "20px",
-      "count": 8
+      "count": 9
     },
     {
       "value": "1.2em",
@@ -6989,7 +7097,7 @@
     },
     {
       "value": "18px",
-      "count": 31
+      "count": 35
     },
     {
       "value": "17px",
@@ -6997,7 +7105,7 @@
     },
     {
       "value": "16px",
-      "count": 44
+      "count": 46
     },
     {
       "value": "1rem",
@@ -7028,12 +7136,12 @@
       "count": 2
     },
     {
-      "value": ".875em",
-      "count": 2
+      "value": "14px",
+      "count": 39
     },
     {
-      "value": "14px",
-      "count": 37
+      "value": ".875em",
+      "count": 2
     },
     {
       "value": "85%",
@@ -7073,7 +7181,7 @@
     },
     {
       "value": "12px",
-      "count": 15
+      "count": 18
     },
     {
       "value": "12pt",
@@ -7101,7 +7209,7 @@
     },
     {
       "value": "11px",
-      "count": 24
+      "count": 25
     },
     {
       "value": "10px",
@@ -7124,16 +7232,24 @@
       "count": 1
     }
   ],
-  "values.fontsizes.totalUnique": 72,
-  "values.fontfamilies.total": 191,
+  "values.fontsizes.totalUnique": 74,
+  "values.fontfamilies.total": 201,
   "values.fontfamilies.unique": [
+    {
+      "value": "\"Helvetica\", sans-serif",
+      "count": 2
+    },
+    {
+      "value": "\"lucida grande\",tahoma,verdana,arial,sans-serif",
+      "count": 1
+    },
     {
       "value": "agency-gothic-ct-cond-tt",
       "count": 1
     },
     {
       "value": "agency-gothic-ct-cond-tt,sans-serif",
-      "count": 30
+      "count": 31
     },
     {
       "value": "agency-gothic-ct-condensed",
@@ -7153,7 +7269,7 @@
     },
     {
       "value": "ff-meta-web-pro,sans-serif",
-      "count": 101
+      "count": 107
     },
     {
       "value": "icons",
@@ -7176,8 +7292,8 @@
       "count": 1
     }
   ],
-  "values.fontfamilies.totalUnique": 12,
-  "values.colors.total": 956,
+  "values.fontfamilies.totalUnique": 14,
+  "values.colors.total": 1009,
   "values.colors.unique": [
     {
       "value": "#f2f1f1",
@@ -7196,16 +7312,12 @@
       "count": 2
     },
     {
-      "value": "#fff4f4",
-      "count": 1
-    },
-    {
       "value": "#df0000",
-      "count": 28
+      "count": 27
     },
     {
       "value": "#f00000",
-      "count": 142
+      "count": 148
     },
     {
       "value": "red",
@@ -7221,6 +7333,10 @@
     },
     {
       "value": "#e50000",
+      "count": 1
+    },
+    {
+      "value": "#fff4f4",
       "count": 1
     },
     {
@@ -7249,7 +7365,7 @@
     },
     {
       "value": "#af1311",
-      "count": 17
+      "count": 20
     },
     {
       "value": "#c61613",
@@ -7328,6 +7444,10 @@
       "count": 9
     },
     {
+      "value": "#f5f6f7",
+      "count": 1
+    },
+    {
       "value": "#e2e3e4",
       "count": 36
     },
@@ -7356,12 +7476,16 @@
       "count": 1
     },
     {
+      "value": "#043b87",
+      "count": 4
+    },
+    {
       "value": "#cddcf2",
       "count": 1
     },
     {
       "value": "#454d59",
-      "count": 22
+      "count": 24
     },
     {
       "value": "#3d4551",
@@ -7385,6 +7509,10 @@
     },
     {
       "value": "#162031",
+      "count": 1
+    },
+    {
+      "value": "#29487d",
       "count": 1
     },
     {
@@ -7416,11 +7544,19 @@
       "count": 2
     },
     {
+      "value": "rgba(0,30,84,.298)",
+      "count": 2
+    },
+    {
       "value": "#363d4a",
       "count": 6
     },
     {
       "value": "#161f30",
+      "count": 1
+    },
+    {
+      "value": "#365899",
       "count": 1
     },
     {
@@ -7445,7 +7581,11 @@
     },
     {
       "value": "#151d2d",
-      "count": 54
+      "count": 53
+    },
+    {
+      "value": "#6d84b4",
+      "count": 1
     },
     {
       "value": "#3860be",
@@ -7484,6 +7624,10 @@
       "count": 2
     },
     {
+      "value": "#4d4d4f",
+      "count": 1
+    },
+    {
       "value": "#f7f7f8",
       "count": 5
     },
@@ -7517,7 +7661,7 @@
     },
     {
       "value": "#fff",
-      "count": 187
+      "count": 205
     },
     {
       "value": "white",
@@ -7621,7 +7765,7 @@
     },
     {
       "value": "#ccc",
-      "count": 6
+      "count": 7
     },
     {
       "value": "#c4c4c4",
@@ -7704,8 +7848,20 @@
       "count": 4
     },
     {
+      "value": "rgba(82,82,82,.7)",
+      "count": 1
+    },
+    {
+      "value": "#4a4a4a",
+      "count": 4
+    },
+    {
       "value": "#444",
       "count": 5
+    },
+    {
+      "value": "#373737",
+      "count": 1
     },
     {
       "value": "#333",
@@ -7721,7 +7877,7 @@
     },
     {
       "value": "#000",
-      "count": 17
+      "count": 19
     },
     {
       "value": "rgb(0,0,0)",
@@ -7733,7 +7889,7 @@
     },
     {
       "value": "rgba(0,0,0,.6)",
-      "count": 4
+      "count": 5
     },
     {
       "value": "rgba(0,0,0,.5)",
@@ -7741,10 +7897,14 @@
     },
     {
       "value": "rgba(0,0,0,.4)",
-      "count": 2
+      "count": 3
     },
     {
       "value": "rgba(0,0,0,.3)",
+      "count": 3
+    },
+    {
+      "value": "rgba(0,0,0,.22)",
       "count": 1
     },
     {
@@ -7754,6 +7914,10 @@
     {
       "value": "rgba(0,0,0,.18)",
       "count": 14
+    },
+    {
+      "value": "rgba(0,0,0,.12)",
+      "count": 1
     },
     {
       "value": "rgba(0,0,0,.063)",
@@ -7768,7 +7932,7 @@
       "count": 1
     }
   ],
-  "values.colors.totalUnique": 147,
+  "values.colors.totalUnique": 159,
   "values.colors.duplicates.unique": [
     {
       "notations": [
@@ -7788,14 +7952,14 @@
       "notations": [
         {
           "value": "#fff",
-          "count": 187
+          "count": 205
         },
         {
           "value": "white",
           "count": 2
         }
       ],
-      "count": 189,
+      "count": 207,
       "value": "#fff"
     },
     {
@@ -7816,14 +7980,14 @@
       "notations": [
         {
           "value": "#000",
-          "count": 17
+          "count": 19
         },
         {
           "value": "rgb(0,0,0)",
           "count": 7
         }
       ],
-      "count": 24,
+      "count": 26,
       "value": "#000"
     }
   ],
@@ -7832,7 +7996,7 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 25,
+  "values.boxshadows.total": 27,
   "values.boxshadows.unique": [
     {
       "value": "#999 0 2px 10px -3px",
@@ -7844,6 +8008,10 @@
     },
     {
       "value": "#c7c5c7 0 0 12px 2px",
+      "count": 1
+    },
+    {
+      "value": "#fff 0 1px 1px -1px inset",
       "count": 1
     },
     {
@@ -7863,6 +8031,10 @@
       "count": 14
     },
     {
+      "value": "0 19px 38px rgba(0,0,0,.12),0 15px 12px rgba(0,0,0,.22)",
+      "count": 1
+    },
+    {
       "value": "10px 0 0 #fff,-10px 0 0 #fff",
       "count": 1
     },
@@ -7879,11 +8051,16 @@
       "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 11,
-  "values.textshadows.total": 0,
-  "values.textshadows.unique": [],
-  "values.textshadows.totalUnique": 0,
-  "values.zindexes.total": 80,
+  "values.boxshadows.totalUnique": 13,
+  "values.textshadows.total": 2,
+  "values.textshadows.unique": [
+    {
+      "value": "rgba(0,30,84,.298) 0 -1px 0",
+      "count": 2
+    }
+  ],
+  "values.textshadows.totalUnique": 1,
+  "values.zindexes.total": 90,
   "values.zindexes.unique": [
     {
       "value": -9999,
@@ -7891,15 +8068,15 @@
     },
     {
       "value": -1,
-      "count": 2
+      "count": 3
     },
     {
       "value": 1,
-      "count": 15
+      "count": 17
     },
     {
       "value": 2,
-      "count": 9
+      "count": 11
     },
     {
       "value": 3,
@@ -7947,7 +8124,7 @@
     },
     {
       "value": 85,
-      "count": 1
+      "count": 2
     },
     {
       "value": 100,
@@ -7990,6 +8167,14 @@
       "count": 1
     },
     {
+      "value": 10000,
+      "count": 1
+    },
+    {
+      "value": 10001,
+      "count": 3
+    },
+    {
       "value": 2147483645,
       "count": 1
     },
@@ -8002,8 +8187,8 @@
       "count": 2
     }
   ],
-  "values.zindexes.totalUnique": 29,
-  "values.animations.durations.total": 64,
+  "values.zindexes.totalUnique": 31,
+  "values.animations.durations.total": 76,
   "values.animations.durations.unique": [
     {
       "value": "0s",
@@ -8015,7 +8200,7 @@
     },
     {
       "value": ".2s",
-      "count": 6
+      "count": 8
     },
     {
       "value": ".25s",
@@ -8023,19 +8208,15 @@
     },
     {
       "value": ".3s",
-      "count": 39
-    },
-    {
-      "value": "0.4s",
-      "count": 1
+      "count": 47
     },
     {
       "value": ".4s",
-      "count": 4
+      "count": 5
     },
     {
       "value": ".5s",
-      "count": 6
+      "count": 7
     },
     {
       "value": ".6s",
@@ -8043,19 +8224,19 @@
     },
     {
       "value": "1.2s",
-      "count": 2
+      "count": 3
     }
   ],
-  "values.animations.durations.totalUnique": 10,
-  "values.animations.timingFunctions.total": 63,
+  "values.animations.durations.totalUnique": 9,
+  "values.animations.timingFunctions.total": 75,
   "values.animations.timingFunctions.unique": [
     {
       "value": "ease",
-      "count": 6
+      "count": 7
     },
     {
       "value": "ease-in",
-      "count": 40
+      "count": 50
     },
     {
       "value": "ease-in-out",
@@ -8067,7 +8248,7 @@
     },
     {
       "value": "linear",
-      "count": 3
+      "count": 4
     }
   ],
   "values.animations.timingFunctions.totalUnique": 5

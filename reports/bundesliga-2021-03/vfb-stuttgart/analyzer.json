@@ -1,139 +1,289 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 532580,
-  "stylesheets.size.compressed.gzip.totalBytes": 71141,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.8664219459987232,
-  "stylesheets.simplicity": 0.7860169491525424,
-  "stylesheets.cohesion.average": 2.6630727762803232,
-  "stylesheets.cohesion.min.count": 24,
+  "stylesheets.size.uncompressed.totalBytes": 539212,
+  "stylesheets.size.compressed.gzip.totalBytes": 80433,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.850832325690081,
+  "stylesheets.simplicity": 0.7366920152091255,
+  "stylesheets.cohesion.average": 2.6658064516129034,
+  "stylesheets.cohesion.min.count": 31,
   "stylesheets.cohesion.min.value.declarations": [
     {
-      "property": "content",
-      "value": "attr(data-tooltip)",
+      "property": "font-family",
+      "value": "inherit",
       "important": false
     },
     {
-      "property": "position",
-      "value": "absolute",
+      "property": "font-weight",
+      "value": "400",
       "important": false
     },
     {
-      "property": "bottom",
-      "value": "130%",
+      "property": "-webkit-font-smoothing",
+      "value": "auto",
       "important": false
     },
     {
-      "property": "left",
-      "value": "9999px",
+      "property": "letter-spacing",
+      "value": "normal",
       "important": false
     },
     {
-      "property": "background",
-      "value": "#d30029",
+      "property": "line-height",
+      "value": "normal",
       "important": false
     },
     {
       "property": "padding",
-      "value": "0 15px",
+      "value": "0",
       "important": false
     },
     {
-      "property": "color",
-      "value": "#000",
+      "property": "margin",
+      "value": "0",
       "important": false
     },
     {
-      "property": "white-space",
-      "value": "nowrap",
+      "property": "height",
+      "value": "auto",
       "important": false
     },
     {
-      "property": "-webkit-border-radius",
-      "value": "10px",
+      "property": "min-height",
+      "value": "0",
       "important": false
     },
     {
-      "property": "-moz-border-radius",
-      "value": "10px",
+      "property": "max-height",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "width",
+      "value": "auto",
+      "important": false
+    },
+    {
+      "property": "min-width",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "max-width",
+      "value": "none",
       "important": false
     },
     {
       "property": "border-radius",
-      "value": "10px",
-      "important": false
-    },
-    {
-      "property": "-moz-background-clip",
-      "value": "padding",
-      "important": false
-    },
-    {
-      "property": "-webkit-background-clip",
-      "value": "padding-box",
-      "important": false
-    },
-    {
-      "property": "background-clip",
-      "value": "padding-box",
-      "important": false
-    },
-    {
-      "property": "-moz-opacity",
       "value": "0",
       "important": false
     },
     {
-      "property": "-khtml-opacity",
+      "property": "border",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "clear",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "float",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "position",
+      "value": "static",
+      "important": false
+    },
+    {
+      "property": "inset",
+      "value": "auto",
+      "important": false
+    },
+    {
+      "property": "text-align",
+      "value": "left",
+      "important": false
+    },
+    {
+      "property": "text-decoration",
+      "value": "none",
+      "important": false
+    },
+    {
+      "property": "text-indent",
       "value": "0",
       "important": false
     },
     {
-      "property": "-webkit-opacity",
-      "value": "0",
+      "property": "text-shadow",
+      "value": "none",
       "important": false
     },
     {
-      "property": "opacity",
-      "value": "0",
+      "property": "text-transform",
+      "value": "none",
       "important": false
     },
     {
-      "property": "zoom",
-      "value": "1",
+      "property": "white-space",
+      "value": "normal",
       "important": false
     },
     {
-      "property": "-o-transition",
-      "value": ".3s opacity",
+      "property": "background",
+      "value": "0 0",
       "important": false
     },
     {
-      "property": "-ms-transition",
-      "value": ".3s opacity",
+      "property": "overflow",
+      "value": "visible",
       "important": false
     },
     {
-      "property": "-moz-transition",
-      "value": ".3s opacity",
+      "property": "vertical-align",
+      "value": "baseline",
       "important": false
     },
     {
-      "property": "-webkit-transition",
-      "value": ".3s opacity",
+      "property": "visibility",
+      "value": "visible",
       "important": false
     },
     {
-      "property": "transition",
-      "value": ".3s opacity",
+      "property": "z-index",
+      "value": "auto",
+      "important": false
+    },
+    {
+      "property": "box-shadow",
+      "value": "none",
       "important": false
     }
   ],
   "stylesheets.cohesion.min.value.selectors": [
-    ".ticker-aufmacher .ticker-more .ticker-more-content .tooltip:after"
+    "#onetrust-banner-sdk #ot-content",
+    "#onetrust-banner-sdk #ot-pc-content",
+    "#onetrust-banner-sdk .checkbox",
+    "#onetrust-banner-sdk .ot-main-content",
+    "#onetrust-banner-sdk .ot-toggle",
+    "#onetrust-banner-sdk a",
+    "#onetrust-banner-sdk button",
+    "#onetrust-banner-sdk div",
+    "#onetrust-banner-sdk h1",
+    "#onetrust-banner-sdk h2",
+    "#onetrust-banner-sdk h3",
+    "#onetrust-banner-sdk h4",
+    "#onetrust-banner-sdk h5",
+    "#onetrust-banner-sdk h6",
+    "#onetrust-banner-sdk img",
+    "#onetrust-banner-sdk input",
+    "#onetrust-banner-sdk label",
+    "#onetrust-banner-sdk li",
+    "#onetrust-banner-sdk nav",
+    "#onetrust-banner-sdk p",
+    "#onetrust-banner-sdk section",
+    "#onetrust-banner-sdk span",
+    "#onetrust-banner-sdk svg",
+    "#onetrust-banner-sdk table",
+    "#onetrust-banner-sdk tbody",
+    "#onetrust-banner-sdk td",
+    "#onetrust-banner-sdk thead",
+    "#onetrust-banner-sdk tr",
+    "#onetrust-banner-sdk ul",
+    "#onetrust-pc-sdk #ot-content",
+    "#onetrust-pc-sdk #ot-pc-content",
+    "#onetrust-pc-sdk .checkbox",
+    "#onetrust-pc-sdk .ot-main-content",
+    "#onetrust-pc-sdk .ot-toggle",
+    "#onetrust-pc-sdk a",
+    "#onetrust-pc-sdk button",
+    "#onetrust-pc-sdk div",
+    "#onetrust-pc-sdk h1",
+    "#onetrust-pc-sdk h2",
+    "#onetrust-pc-sdk h3",
+    "#onetrust-pc-sdk h4",
+    "#onetrust-pc-sdk h5",
+    "#onetrust-pc-sdk h6",
+    "#onetrust-pc-sdk img",
+    "#onetrust-pc-sdk input",
+    "#onetrust-pc-sdk label",
+    "#onetrust-pc-sdk li",
+    "#onetrust-pc-sdk nav",
+    "#onetrust-pc-sdk p",
+    "#onetrust-pc-sdk section",
+    "#onetrust-pc-sdk span",
+    "#onetrust-pc-sdk svg",
+    "#onetrust-pc-sdk table",
+    "#onetrust-pc-sdk tbody",
+    "#onetrust-pc-sdk td",
+    "#onetrust-pc-sdk thead",
+    "#onetrust-pc-sdk tr",
+    "#onetrust-pc-sdk ul",
+    "#ot-sdk-cookie-policy #ot-content",
+    "#ot-sdk-cookie-policy #ot-pc-content",
+    "#ot-sdk-cookie-policy .checkbox",
+    "#ot-sdk-cookie-policy .ot-main-content",
+    "#ot-sdk-cookie-policy .ot-toggle",
+    "#ot-sdk-cookie-policy a",
+    "#ot-sdk-cookie-policy button",
+    "#ot-sdk-cookie-policy div",
+    "#ot-sdk-cookie-policy h1",
+    "#ot-sdk-cookie-policy h2",
+    "#ot-sdk-cookie-policy h3",
+    "#ot-sdk-cookie-policy h4",
+    "#ot-sdk-cookie-policy h5",
+    "#ot-sdk-cookie-policy h6",
+    "#ot-sdk-cookie-policy img",
+    "#ot-sdk-cookie-policy input",
+    "#ot-sdk-cookie-policy label",
+    "#ot-sdk-cookie-policy li",
+    "#ot-sdk-cookie-policy nav",
+    "#ot-sdk-cookie-policy p",
+    "#ot-sdk-cookie-policy section",
+    "#ot-sdk-cookie-policy span",
+    "#ot-sdk-cookie-policy svg",
+    "#ot-sdk-cookie-policy table",
+    "#ot-sdk-cookie-policy tbody",
+    "#ot-sdk-cookie-policy td",
+    "#ot-sdk-cookie-policy thead",
+    "#ot-sdk-cookie-policy tr",
+    "#ot-sdk-cookie-policy ul",
+    "#ot-sync-ntfy #ot-content",
+    "#ot-sync-ntfy #ot-pc-content",
+    "#ot-sync-ntfy .checkbox",
+    "#ot-sync-ntfy .ot-main-content",
+    "#ot-sync-ntfy .ot-toggle",
+    "#ot-sync-ntfy a",
+    "#ot-sync-ntfy button",
+    "#ot-sync-ntfy div",
+    "#ot-sync-ntfy h1",
+    "#ot-sync-ntfy h2",
+    "#ot-sync-ntfy h3",
+    "#ot-sync-ntfy h4",
+    "#ot-sync-ntfy h5",
+    "#ot-sync-ntfy h6",
+    "#ot-sync-ntfy img",
+    "#ot-sync-ntfy input",
+    "#ot-sync-ntfy label",
+    "#ot-sync-ntfy li",
+    "#ot-sync-ntfy nav",
+    "#ot-sync-ntfy p",
+    "#ot-sync-ntfy section",
+    "#ot-sync-ntfy span",
+    "#ot-sync-ntfy svg",
+    "#ot-sync-ntfy table",
+    "#ot-sync-ntfy tbody",
+    "#ot-sync-ntfy td",
+    "#ot-sync-ntfy thead",
+    "#ot-sync-ntfy tr",
+    "#ot-sync-ntfy ul"
   ],
   "stylesheets.browserhacks.total": 5,
   "stylesheets.browserhacks.totalUnique": 5,
-  "stylesheets.linesOfCode.total": 20717,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 16412,
+  "stylesheets.linesOfCode.total": 4,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 19070,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -492,7 +642,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -522,7 +672,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -552,7 +702,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -582,7 +732,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -612,7 +762,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2) format('woff2')",
           "important": false
         },
         {
@@ -642,7 +792,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -672,7 +822,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2) format('woff2')",
           "important": false
         },
         {
@@ -702,7 +852,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -732,7 +882,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2')",
           "important": false
         },
         {
@@ -762,7 +912,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -792,7 +942,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -822,7 +972,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -852,7 +1002,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -882,7 +1032,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -912,7 +1062,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -942,7 +1092,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2')",
           "important": false
         },
         {
@@ -972,7 +1122,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1002,7 +1152,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1032,7 +1182,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1062,7 +1212,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1092,7 +1242,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1122,7 +1272,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1152,7 +1302,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1182,7 +1332,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1212,7 +1362,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1242,7 +1392,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1272,7 +1422,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1302,7 +1452,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1332,7 +1482,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1362,7 +1512,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1392,7 +1542,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1422,7 +1572,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1452,7 +1602,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1482,7 +1632,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1512,7 +1662,7 @@
         },
         {
           "property": "src",
-          "value": "url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2')",
+          "value": "url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2')",
           "important": false
         },
         {
@@ -1524,19 +1674,10 @@
     }
   ],
   "atrules.fontfaces.totalUnique": 46,
-  "atrules.imports.total": 2,
-  "atrules.imports.unique": [
-    {
-      "value": "url(//fonts.googleapis.com/css?family=Roboto:400,300,700,500,400italic)",
-      "count": 1
-    },
-    {
-      "value": "url(//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css)",
-      "count": 1
-    }
-  ],
-  "atrules.imports.totalUnique": 2,
-  "atrules.keyframes.total": 35,
+  "atrules.imports.total": 0,
+  "atrules.imports.unique": [],
+  "atrules.imports.totalUnique": 0,
+  "atrules.keyframes.total": 36,
   "atrules.keyframes.unique": [
     {
       "value": "animate-error-icon",
@@ -1575,6 +1716,10 @@
       "count": 4
     },
     {
+      "value": "onetrust-fade-in",
+      "count": 1
+    },
+    {
       "value": "pulse-warning",
       "count": 2
     },
@@ -1607,7 +1752,7 @@
       "count": 1
     }
   ],
-  "atrules.keyframes.totalUnique": 17,
+  "atrules.keyframes.totalUnique": 18,
   "atrules.keyframes.prefixed.total": 18,
   "atrules.keyframes.prefixed.unique": [
     {
@@ -1684,8 +1829,8 @@
     }
   ],
   "atrules.keyframes.prefixed.totalUnique": 18,
-  "atrules.keyframes.prefixed.share": 1.9444444444444444,
-  "atrules.mediaqueries.total": 38,
+  "atrules.keyframes.prefixed.share": 2,
+  "atrules.mediaqueries.total": 49,
   "atrules.mediaqueries.unique": [
     {
       "value": "(max-width:319px)",
@@ -1800,6 +1945,14 @@
       "count": 1
     },
     {
+      "value": "(min-width:400px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:550px)",
+      "count": 2
+    },
+    {
       "value": "(min-width:737px)",
       "count": 1
     },
@@ -1812,7 +1965,11 @@
       "count": 1
     },
     {
-      "value": "all and (-ms-high-contrast:none),\n(-ms-high-contrast:active)",
+      "value": "all and (-ms-high-contrast:none),(-ms-high-contrast:active)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-height:425px) and (max-width:896px) and (orientation:landscape)",
       "count": 1
     },
     {
@@ -1821,10 +1978,30 @@
     },
     {
       "value": "only screen and (max-width:425px)",
+      "count": 2
+    },
+    {
+      "value": "only screen and (max-width:476px)",
       "count": 1
     },
     {
+      "value": "only screen and (max-width:530px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:600px)",
+      "count": 2
+    },
+    {
       "value": "only screen and (max-width:768px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:896px) and (min-width:426px)",
+      "count": 1
+    },
+    {
+      "value": "only screen and (max-width:896px) and (min-width:426px) and (orientation:landscape)",
       "count": 1
     },
     {
@@ -1836,7 +2013,7 @@
       "count": 1
     }
   ],
-  "atrules.mediaqueries.totalUnique": 37,
+  "atrules.mediaqueries.totalUnique": 45,
   "atrules.mediaqueries.browserhacks.total": 0,
   "atrules.mediaqueries.browserhacks.unique": [],
   "atrules.mediaqueries.browserhacks.totalUnique": 0,
@@ -1857,34 +2034,138 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 4081,
+  "rules.total": 4650,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.2722371967654986,
+  "rules.selectors.average": 1.3574193548387097,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#adContainer"
   ],
-  "rules.selectors.maximum.count": 12,
+  "rules.selectors.maximum.count": 116,
   "rules.selectors.maximum.value": [
-    ".footable-details.table-condensed > tbody > tr > td",
-    ".footable-details.table-condensed > tbody > tr > th",
-    ".footable-details.table-condensed > tfoot > tr > td",
-    ".footable-details.table-condensed > tfoot > tr > th",
-    ".footable-details.table-condensed > thead > tr > td",
-    ".footable-details.table-condensed > thead > tr > th",
-    ".footable.table-condensed > tbody > tr > td",
-    ".footable.table-condensed > tbody > tr > th",
-    ".footable.table-condensed > tfoot > tr > td",
-    ".footable.table-condensed > tfoot > tr > th",
-    ".footable.table-condensed > thead > tr > td",
-    ".footable.table-condensed > thead > tr > th"
+    "#onetrust-banner-sdk #ot-content",
+    "#onetrust-banner-sdk #ot-pc-content",
+    "#onetrust-banner-sdk .checkbox",
+    "#onetrust-banner-sdk .ot-main-content",
+    "#onetrust-banner-sdk .ot-toggle",
+    "#onetrust-banner-sdk a",
+    "#onetrust-banner-sdk button",
+    "#onetrust-banner-sdk div",
+    "#onetrust-banner-sdk h1",
+    "#onetrust-banner-sdk h2",
+    "#onetrust-banner-sdk h3",
+    "#onetrust-banner-sdk h4",
+    "#onetrust-banner-sdk h5",
+    "#onetrust-banner-sdk h6",
+    "#onetrust-banner-sdk img",
+    "#onetrust-banner-sdk input",
+    "#onetrust-banner-sdk label",
+    "#onetrust-banner-sdk li",
+    "#onetrust-banner-sdk nav",
+    "#onetrust-banner-sdk p",
+    "#onetrust-banner-sdk section",
+    "#onetrust-banner-sdk span",
+    "#onetrust-banner-sdk svg",
+    "#onetrust-banner-sdk table",
+    "#onetrust-banner-sdk tbody",
+    "#onetrust-banner-sdk td",
+    "#onetrust-banner-sdk thead",
+    "#onetrust-banner-sdk tr",
+    "#onetrust-banner-sdk ul",
+    "#onetrust-pc-sdk #ot-content",
+    "#onetrust-pc-sdk #ot-pc-content",
+    "#onetrust-pc-sdk .checkbox",
+    "#onetrust-pc-sdk .ot-main-content",
+    "#onetrust-pc-sdk .ot-toggle",
+    "#onetrust-pc-sdk a",
+    "#onetrust-pc-sdk button",
+    "#onetrust-pc-sdk div",
+    "#onetrust-pc-sdk h1",
+    "#onetrust-pc-sdk h2",
+    "#onetrust-pc-sdk h3",
+    "#onetrust-pc-sdk h4",
+    "#onetrust-pc-sdk h5",
+    "#onetrust-pc-sdk h6",
+    "#onetrust-pc-sdk img",
+    "#onetrust-pc-sdk input",
+    "#onetrust-pc-sdk label",
+    "#onetrust-pc-sdk li",
+    "#onetrust-pc-sdk nav",
+    "#onetrust-pc-sdk p",
+    "#onetrust-pc-sdk section",
+    "#onetrust-pc-sdk span",
+    "#onetrust-pc-sdk svg",
+    "#onetrust-pc-sdk table",
+    "#onetrust-pc-sdk tbody",
+    "#onetrust-pc-sdk td",
+    "#onetrust-pc-sdk thead",
+    "#onetrust-pc-sdk tr",
+    "#onetrust-pc-sdk ul",
+    "#ot-sdk-cookie-policy #ot-content",
+    "#ot-sdk-cookie-policy #ot-pc-content",
+    "#ot-sdk-cookie-policy .checkbox",
+    "#ot-sdk-cookie-policy .ot-main-content",
+    "#ot-sdk-cookie-policy .ot-toggle",
+    "#ot-sdk-cookie-policy a",
+    "#ot-sdk-cookie-policy button",
+    "#ot-sdk-cookie-policy div",
+    "#ot-sdk-cookie-policy h1",
+    "#ot-sdk-cookie-policy h2",
+    "#ot-sdk-cookie-policy h3",
+    "#ot-sdk-cookie-policy h4",
+    "#ot-sdk-cookie-policy h5",
+    "#ot-sdk-cookie-policy h6",
+    "#ot-sdk-cookie-policy img",
+    "#ot-sdk-cookie-policy input",
+    "#ot-sdk-cookie-policy label",
+    "#ot-sdk-cookie-policy li",
+    "#ot-sdk-cookie-policy nav",
+    "#ot-sdk-cookie-policy p",
+    "#ot-sdk-cookie-policy section",
+    "#ot-sdk-cookie-policy span",
+    "#ot-sdk-cookie-policy svg",
+    "#ot-sdk-cookie-policy table",
+    "#ot-sdk-cookie-policy tbody",
+    "#ot-sdk-cookie-policy td",
+    "#ot-sdk-cookie-policy thead",
+    "#ot-sdk-cookie-policy tr",
+    "#ot-sdk-cookie-policy ul",
+    "#ot-sync-ntfy #ot-content",
+    "#ot-sync-ntfy #ot-pc-content",
+    "#ot-sync-ntfy .checkbox",
+    "#ot-sync-ntfy .ot-main-content",
+    "#ot-sync-ntfy .ot-toggle",
+    "#ot-sync-ntfy a",
+    "#ot-sync-ntfy button",
+    "#ot-sync-ntfy div",
+    "#ot-sync-ntfy h1",
+    "#ot-sync-ntfy h2",
+    "#ot-sync-ntfy h3",
+    "#ot-sync-ntfy h4",
+    "#ot-sync-ntfy h5",
+    "#ot-sync-ntfy h6",
+    "#ot-sync-ntfy img",
+    "#ot-sync-ntfy input",
+    "#ot-sync-ntfy label",
+    "#ot-sync-ntfy li",
+    "#ot-sync-ntfy nav",
+    "#ot-sync-ntfy p",
+    "#ot-sync-ntfy section",
+    "#ot-sync-ntfy span",
+    "#ot-sync-ntfy svg",
+    "#ot-sync-ntfy table",
+    "#ot-sync-ntfy tbody",
+    "#ot-sync-ntfy td",
+    "#ot-sync-ntfy thead",
+    "#ot-sync-ntfy tr",
+    "#ot-sync-ntfy ul"
   ],
-  "selectors.total": 5192,
-  "selectors.totalUnique": 4561,
+  "selectors.total": 6312,
+  "selectors.totalUnique": 5412,
   "selectors.js.total": 0,
   "selectors.js.unique": [],
   "selectors.js.totalUnique": 0,
-  "selectors.id.total": 440,
+  "selectors.id.total": 1531,
   "selectors.id.unique": [
     {
       "value": "#accesskeys",
@@ -1919,22 +2200,6 @@
       "count": 1
     },
     {
-      "value": "#cookie-bar > p",
-      "count": 2
-    },
-    {
-      "value": "#cookie-bar > p .cb-enable",
-      "count": 2
-    },
-    {
-      "value": "#cookie-bar > p > b",
-      "count": 1
-    },
-    {
-      "value": "#cookie-bar > p a",
-      "count": 1
-    },
-    {
       "value": "#cookie-bar p",
       "count": 1
     },
@@ -1948,6 +2213,22 @@
     },
     {
       "value": "#cookie-bar.fixed.bottom",
+      "count": 1
+    },
+    {
+      "value": "#cookie-bar>p",
+      "count": 2
+    },
+    {
+      "value": "#cookie-bar>p .cb-enable",
+      "count": 2
+    },
+    {
+      "value": "#cookie-bar>p a",
+      "count": 1
+    },
+    {
+      "value": "#cookie-bar>p>b",
       "count": 1
     },
     {
@@ -2043,11 +2324,11 @@
       "count": 1
     },
     {
-      "value": "#eyecatcher_id .ticker-more-content .table > table:first-child > tbody tr:first-child",
+      "value": "#eyecatcher_id .ticker-more-content .table>table:first-child>tbody tr:first-child",
       "count": 1
     },
     {
-      "value": "#eyecatcher_id .ticker-more-content .table > table:nth-child(2) > tbody tr:first-child",
+      "value": "#eyecatcher_id .ticker-more-content .table>table:nth-child(2)>tbody tr:first-child",
       "count": 1
     },
     {
@@ -2127,7 +2408,7 @@
       "count": 1
     },
     {
-      "value": "#l1pPlayer #l1pUIPopUpsAutoplay:hover > #l1pUIPopUpsAutoplayPlayButton",
+      "value": "#l1pPlayer #l1pUIPopUpsAutoplay:hover>#l1pUIPopUpsAutoplayPlayButton",
       "count": 1
     },
     {
@@ -2263,11 +2544,11 @@
       "count": 1
     },
     {
-      "value": "#l1pUIControlsTimelineProgressBar:hover > #l1pUIControlsTimelineProgressBarDuration",
+      "value": "#l1pUIControlsTimelineProgressBar:hover>#l1pUIControlsTimelineProgressBarDuration",
       "count": 1
     },
     {
-      "value": "#l1pUIControlsTimelineProgressBar:hover > #l1pUIControlsTimelineTooltip",
+      "value": "#l1pUIControlsTimelineProgressBar:hover>#l1pUIControlsTimelineTooltip",
       "count": 1
     },
     {
@@ -2303,7 +2584,7 @@
       "count": 1
     },
     {
-      "value": "#l1pUIPopUpsAutoplay:hover > #l1pUIPopUpsAutoplayPlayButton",
+      "value": "#l1pUIPopUpsAutoplay:hover>#l1pUIPopUpsAutoplayPlayButton",
       "count": 1
     },
     {
@@ -2339,7 +2620,7 @@
       "count": 1
     },
     {
-      "value": "#l1pUIPopUpsCloseBtn:hover ~ #l1pUIPopUpsCloseText",
+      "value": "#l1pUIPopUpsCloseBtn:hover~#l1pUIPopUpsCloseText",
       "count": 1
     },
     {
@@ -2740,6 +3021,3258 @@
     },
     {
       "value": "#lg-zoom-out:after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-banner-sdk #banner-options",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-accept-btn-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-button-group",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-button-group-parent",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-button-group-parent:not(.has-reject-all-button) #onetrust-button-group",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-close-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-pc-btn-handler",
+      "count": 6
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-pc-btn-handler.cookie-setting-link",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy-text",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy-text *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy-text a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy-title",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk #onetrust-reject-all-handler",
+      "count": 5
+    },
+    {
+      "value": "#onetrust-banner-sdk #ot-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk #ot-pc-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-actions-container",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-details",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-details *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-header :first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input:focus+label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true] .ot-arrow-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true]~.banner-option-details",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner_logo",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .checkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .checkbox::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .checkbox::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler.cookie-setting-link",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .has-reject-all-button .banner-actions-container",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .onetrust-vendors-list-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .onetrust-vendors-list-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-arrow-container",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-b-addl-desc",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-b-addl-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-cat-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-close-icon",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-container",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-title",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-gv-list-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-gv-list-handler *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-hide",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-main-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-pc-footer-logo a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-column",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-column:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-columns",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-columns:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-container",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-container::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-row",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-row::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .powered-by-logo",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk ::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk ::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk :not(.ot-dpd-desc)>.ot-b-addl-desc",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk a",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk a:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk a:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk button",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk button *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk div",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h1",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk h2",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk h3",
+      "count": 5
+    },
+    {
+      "value": "#onetrust-banner-sdk h3 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h4",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk h4 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h5",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk h6",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-banner-sdk h6 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk img",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=button].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=text]",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk input[type=text]:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk label",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk li",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk nav",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk p",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-banner-sdk section",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk table",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk tbody",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk td",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-banner-sdk th",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk thead",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk tr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk ul",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-banner-sdk ul ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.ot-close-btn-link #onetrust-group-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.ot-close-btn-link.ot-wo-title #onetrust-group-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.ot-fade-in",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk.otCenterRounded",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-banner-sdk.otRelFont",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk::-webkit-scrollbar",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk::-webkit-scrollbar-thumb",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-accept-btn-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk #banner-options *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk .banner-option-details",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk a[href]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk a[href] font",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #clear-filters-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-anchor",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-cnt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-modal #modal-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-acc-hdr .ot-host-expand",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-name a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-lst-title span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-sel-blk p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-ven-lst .consent-category",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .back-btn-handler p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .ot-ven-name",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-title::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-sel-blk",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-ven-lst .ot-ven-opts p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler+a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-acc-grpcntr.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-acc-txt .ot-subgrp-tgl .ot-switch.ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-acc-txt .ot-ven-dets",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-active-menu",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-checkbox label span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-chkbox label span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-label-status",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-inactive-leg-btn",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-remove-objection-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-li-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-sel-all-hdr span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-switch.ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .ot-ven-link",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk h3",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk h4",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk h5",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk h6",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk ot-grp-hdr1 .checkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-policy-text",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-policy-text :not(.onetrust-vendors-list-handler)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-policy-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #ot-search-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk .ot-b-addl-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk .ot-dpd-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk .ot-dpd-desc :not(.onetrust-vendors-list-handler)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk .ot-dpd-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #accept-recommended-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #clear-filters-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #clear-filters-handler:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #clear-filters-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #close-pc-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #filter-apply-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #filter-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #filter-btn-handler svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #filter-btn-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #no-results",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #no-results p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #no-results p span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-arw-cntr *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-plus-minus *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-anchor",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-back-arw",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-category-title",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-fltr-cnt",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-fltr-modal",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-fltr-modal .ot-label-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-gn-venlst .ot-ven-item .ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-host-lst .ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-host-lst .ot-sel-all",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-host-lst .ot-sel-all input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-host-lst .ot-sel-all label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt .ot-chkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt .ot-chkbox label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt .ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt.no-results",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-cnt:not(.ot-host-cnt) .ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-title",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-title *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-title span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-content",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc .privacy-notice-link",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-hdr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-hdr input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-hdr input::placeholder",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst .ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst .ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst .ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst:not(.ot-enbl-chr) .ot-tgl-cntr .ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst:not(.ot-enbl-chr) .ot-tgl-cntr .ot-arw-cntr *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-title",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-sel-blk",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-adtlvencntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-adtlvencntr label",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-adtlvencntr.line-through label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-gnvencntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-gnvencntr label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-gnvencntr.line-through label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-hostcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-hostcntr label",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-hostcntr.line-through label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-licntr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-licntr label",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-licntr.line-through label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-vencntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-vencntr label",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-selall-vencntr.line-through label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-ven-lst .ot-leg-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-ven-lst:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #vdr-lst-dsc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #vendor-list-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #vendor-search-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .back-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .back-btn-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-host-list-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-host-list-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .checkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .checkbox::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .checkbox::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr .ot-addtl-venbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr .ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-hdr input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>input[type=checkbox]:checked~.ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-grpcntr .ot-acc-grpdesc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-grpcntr .ot-subgrp-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-grpcntr .ot-vlst-cntr+.ot-subgrp-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-grpdesc+.ot-leg-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-hdr .ot-arw-cntr+.ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-txt h4+.ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-vendors-list-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-vendors-list-handler+a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc>ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc>ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-hdr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header+.ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-cat-header+.ot-arw-cntr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-hlst-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-hlst-cntr:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-subgrp",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-subgrp-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-vlst-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-vlst-cntr:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-vlst-cntr:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout div+.ot-acc-grpdesc",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-always-active",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout h4~.ot-tgl+.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item:first-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-active-leg-btn",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-active-leg-btn svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-always-active",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-always-active-group .ot-cat-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-always-active-subgroup",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-arw-cntr",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-arw-cntr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-arw-cntr svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-btn-container button",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-grp",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-grp .ot-always-active",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-header",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item p>ul li:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input+label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input:checked+label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input:checked~label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input:focus+label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]+label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:checked+label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:focus+label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox label span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox label::after",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-chkbox label::before",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-close-icon",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-consent-hdr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr .ot-host-cnt .ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr .ot-pli-hdr.ot-leg-border-color span:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-always-active",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr h4~.ot-tgl+.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-enbl-chr li.ot-subgrp>h5+.ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-fltr-btns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-fltr-cntr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-fltr-opt",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-fltr-opt p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-fltr-scrlcnt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ftr-stacked button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc .ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc .ot-arw-cntr>*",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc .ot-plus-minus>*",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-tgl *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hlst-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-desc",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-expand",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-expand *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-hdr>a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-info",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-info>div",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-item .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-item>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-name",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-name a",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-name+a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-opt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div:nth-child(1)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-opt li>div div:nth-child(2)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-label-status",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-label-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-leg-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-leg-btn-container button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-leg-btn-container svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-li-hdr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-li-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-link-btn",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-lst-subhdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-main-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-obj-leg-btn-handler span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-footer",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-footer-logo",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-footer-logo a",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-logo",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-refuse-all-handler",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-scrollbar::-webkit-scrollbar",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-scrollbar::-webkit-scrollbar-thumb",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pc-scrollbar::-webkit-scrollbar-track",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr span:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr span:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr.ot-leg-border-color",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr.ot-leg-border-color span:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-cat-header",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-cat-header+.ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item .ot-subgrp>h5",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-pli-hdr~.ot-cat-item h5+.ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-plus-minus span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-plus-minus span:first-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-plus-minus span:last-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-remove-objection-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-scrn-rdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-column",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-column:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-columns",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-columns:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-container",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-container::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-row",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-row::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-search-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-search-cntr>svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sel-all",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sel-all-chkbox",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-sel-all-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-subgrp .ot-leg-btn-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-subgrp-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-switch",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-switch+.ot-subgrp-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-switch-nob",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-switch-nob::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl input",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl input:focus+.ot-switch",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-tgl-cntr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-ctgl",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-disc p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-disc:not(:first-child)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-disc:nth-child(n+3) p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-disc:nth-child(n+3) p:nth-of-type(2n)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-disc:nth-child(n+3) p:nth-of-type(2n+1)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets .ot-ven-pur p:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets div:first-child p:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-dets p:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-hdr .ot-ven-name",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-item .ot-plus-minus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-item>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-link",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-link *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-link:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-litgl+.ot-arw-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-name",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-vensec-title",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-vlst-cntr",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk .pc-logo",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .powered-by-logo",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .save-preference-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .screen-reader-only",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .switch+p",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk .vendor-search-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk [type=checkbox]:checked",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk [type=checkbox]:not(:checked)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk a",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk a:hover",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button",
+      "count": 6
+    },
+    {
+      "value": "#onetrust-pc-sdk button *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:first-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:last-of-type",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk div",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h1",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h2",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h3",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h3 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h4",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h4 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h5",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h6",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk h6 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk img",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk input:checked~.ot-acc-hdr .ot-arw",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=button].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=checkbox]:focus+.ot-acc-hdr",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=text]",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk input[type=text]:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk label",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk li .accordion-text",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li .host-title a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li .ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li .ot-checkbox label",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li .ot-host-name a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp p>ul li:last-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp>h5",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk li.ot-subgrp>h5+.ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button:focus",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk nav",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk p",
+      "count": 5
+    },
+    {
+      "value": "#onetrust-pc-sdk section",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk span",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk table",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk tbody",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk td",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk th",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk thead",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk tr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul",
+      "count": 4
+    },
+    {
+      "value": "#onetrust-pc-sdk ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul li h3",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul li input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul li p",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk ul ul",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps .ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps .ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps .ot-switch",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps .ot-switch-nob",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps li h5",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk ul.ot-subgrps li p",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) #ot-sel-blk",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) .ot-acc-cntr>.ot-acc-hdr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) .ot-sel-all",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) .ot-sel-all-chkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-lst-cnt:not(.ot-host-cnt) ul li",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors #ot-ven-lst:first-child",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors .ot-plus-minus~.ot-sel-all-chkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-addtl-vendors .ot-sel-all-chkbox",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-close-btn-link #close-pc-btn-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-fade-in",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-ftr-stacked #ot-pc-content",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-ftr-stacked .ot-btn-container",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-ftr-stacked .ot-pc-footer button",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-ftr-stacked .ot-pc-refuse-all-handler",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-hide",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-shw-fltr #ot-anchor",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-shw-fltr #ot-fltr-cnt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-shw-fltr #ot-pc-lst",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.ot-shw-fltr .ot-fltr-scrlcnt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.otPcCenter",
+      "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl]",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk.otRelFont",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk:not(.ot-addtl-vendors) #ot-pc-lst:not(.ot-enbl-chr) .ot-sel-all",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk:not(.ot-addtl-vendors) #ot-pc-lst:not(.ot-enbl-chr) .ot-tgl-cntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] #ot-back-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] .ot-chkbox label::after",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] .ot-pc-footer-logo",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] .ot-pc-footer-logo a",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] .ot-search-cntr>svg",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] input:checked~.ot-acc-hdr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk[dir=rtl] input~.ot-acc-hdr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-btn.optanon-show-settings",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-btn.optanon-show-settings:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-btn.ot-sdk-show-settings",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-btn.ot-sdk-show-settings:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy #ot-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy #ot-pc-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .checkbox",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .checkbox::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .checkbox::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-main-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-button:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-column",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-column:first-child",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-columns",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-columns:first-child",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-container",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-container::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-row",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-row::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy .ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy ::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy ::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy a",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy a:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy button",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy button.ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy div",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h1",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h2",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h3",
+      "count": 5
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h4",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h5",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy h6",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy img",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=checkbox]",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=text]",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy input[type=text]:focus",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy label",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy label::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy label::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy li",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy nav",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy p",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy section",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy span",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy svg",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy table",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy tbody",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy td",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy th",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy thead",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy tr",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy ul",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy ul ul",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-mobile-border",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-title",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li h4",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a:hover",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h3",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h4",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h5",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy section",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr td:last-child",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr th:last-child",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td:last-child",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tbody",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td",
+      "count": 3
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td a",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td span",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td::before",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th",
+      "count": 4
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead tr",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr",
+      "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy #ot-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy #ot-pc-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .checkbox",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .checkbox::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .checkbox::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .ot-close-icon",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .ot-hide",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .ot-main-content",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .ot-pc-footer-logo a",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .ot-toggle",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy .powered-by-logo",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy ::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy ::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy a",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy button",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy button *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy div",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h1",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h2",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h3",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h3 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h4",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h4 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h5",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h6",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h6 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy img",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy input",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy label",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy label::after",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy label::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy li",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy nav",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy p",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy section",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy span",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy svg",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy table",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy tbody",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy td",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy thead",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy tr",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy ul",
       "count": 1
     },
     {
@@ -3307,11 +6840,11 @@
       "count": 1
     },
     {
-      "value": ".l1ScaleTiny #l1pUIControlsButtonsSub2 > #l1pUIControlsButtonFullscreen",
+      "value": ".l1ScaleTiny #l1pUIControlsButtonsSub2>#l1pUIControlsButtonFullscreen",
       "count": 1
     },
     {
-      "value": ".l1ScaleTiny #l1pUIControlsButtonsSub2 > div",
+      "value": ".l1ScaleTiny #l1pUIControlsButtonsSub2>div",
       "count": 1
     },
     {
@@ -3455,6 +6988,62 @@
       "count": 1
     },
     {
+      "value": ".ot-sdk-cookie-policy #cookie-policy-description",
+      "count": 2
+    },
+    {
+      "value": ".ot-sdk-cookie-policy #cookie-policy-title",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) .ot-mobile-border",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) li",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) table",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tbody",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td",
+      "count": 2
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td::before",
+      "count": 2
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) th",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead tr",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr",
+      "count": 2
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(2n+1)",
+      "count": 1
+    },
+    {
+      "value": ".ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(2n+1) a",
+      "count": 1
+    },
+    {
       "value": ".social_static_bar .inner .socialmedia #youtubefeed.box a",
       "count": 1
     },
@@ -3511,9 +7100,153 @@
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 406,
-  "selectors.universal.total": 3,
+  "selectors.id.totalUnique": 1233,
+  "selectors.universal.total": 39,
   "selectors.universal.unique": [
+    {
+      "value": "#onetrust-banner-sdk #onetrust-policy-text *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-details *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-b-addl-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-dpd-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .ot-gv-list-handler *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk button *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h3 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h4 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk h6 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-banner-sdk #banner-options *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-arw-cntr *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-addtl-venlst .ot-plus-minus *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-lst-title *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-desc *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk #ot-pc-lst:not(.ot-enbl-chr) .ot-tgl-cntr .ot-arw-cntr *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc .ot-arw-cntr>*",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-acc .ot-plus-minus>*",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-hide-tgl *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-host-expand *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-ven-link *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h3 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h4 *",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk h6 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy a[data-parent-id] *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy button *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h3 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h4 *",
+      "count": 1
+    },
+    {
+      "value": "#ot-sync-ntfy h6 *",
+      "count": 1
+    },
     {
       "value": ".footable-details.table *",
       "count": 1
@@ -3527,135 +7260,190 @@
       "count": 1
     }
   ],
-  "selectors.universal.totalUnique": 3,
-  "selectors.accessibility.total": 0,
-  "selectors.accessibility.unique": [],
-  "selectors.accessibility.totalUnique": 0,
+  "selectors.universal.totalUnique": 39,
+  "selectors.accessibility.total": 17,
+  "selectors.accessibility.unique": [
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true] .ot-arrow-container",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk .banner-option-input[aria-expanded=true]~.banner-option-details",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn)",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-acc-cntr>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-cat-item>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-arw",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:first-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk button[aria-expanded=true]~.ot-acc-hdr .ot-plus-minus span:last-of-type",
+      "count": 2
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=false]~.ot-acc-txt",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-grpcntr",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk li>button[aria-expanded=true]~.ot-acc-txt",
+      "count": 1
+    }
+  ],
+  "selectors.accessibility.totalUnique": 16,
   "selectors.specificity.top": [
     {
       "count": 1,
-      "value": "#l1pPlayer #l1pUIPopUpsAutoplay:hover > #l1pUIPopUpsAutoplayPlayButton",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn)",
       "specificity": {
         "a": 0,
-        "b": 3,
+        "b": 4,
+        "c": 5,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-ven-lst .consent-category",
+      "specificity": {
+        "a": 0,
+        "b": 4,
         "c": 1,
         "d": 0
       }
     },
     {
       "count": 1,
-      "value": "#l1pPlayer #l1pUIPopUpsShare #l1pUIPopUpsShareUrlCopyButton:hover",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-lst-title span",
       "specificity": {
         "a": 0,
-        "b": 3,
-        "c": 1,
-        "d": 0
-      }
-    },
-    {
-      "count": 1,
-      "value": "#l1pPlayer #l1pUIPopUpsAutoplay #l1pUIPopUpsAutoplayPlayButton i",
-      "specificity": {
-        "a": 0,
-        "b": 3,
+        "b": 4,
         "c": 0,
         "d": 1
       }
     },
     {
       "count": 1,
-      "value": "#l1pPlayer #l1pUIControlsTimelineProgressBar #l1pUIControlsTimelineProgressBarDuration",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-sel-blk p",
       "specificity": {
         "a": 0,
-        "b": 3,
+        "b": 4,
         "c": 0,
-        "d": 0
+        "d": 1
       }
     },
     {
       "count": 1,
-      "value": "#l1pPlayer #l1pUIControlsTimelineProgressBar #l1pUIControlsTimelineProgressBarLoading",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-modal #modal-header",
       "specificity": {
         "a": 0,
-        "b": 3,
+        "b": 4,
         "c": 0,
         "d": 0
       }
     }
   ],
   "selectors.specificity.max.value.a": 0,
-  "selectors.specificity.max.value.b": 3,
-  "selectors.specificity.max.value.c": 1,
-  "selectors.specificity.max.value.d": 0,
-  "selectors.specificity.max.count": 2,
+  "selectors.specificity.max.value.b": 4,
+  "selectors.specificity.max.value.c": 5,
+  "selectors.specificity.max.value.d": 1,
+  "selectors.specificity.max.count": 1,
   "selectors.specificity.max.selectors": [
     {
       "count": 1,
-      "value": "#l1pPlayer #l1pUIPopUpsAutoplay:hover > #l1pUIPopUpsAutoplayPlayButton",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn)",
       "specificity": {
         "a": 0,
-        "b": 3,
-        "c": 1,
-        "d": 0
-      }
-    },
-    {
-      "count": 1,
-      "value": "#l1pPlayer #l1pUIPopUpsShare #l1pUIPopUpsShareUrlCopyButton:hover",
-      "specificity": {
-        "a": 0,
-        "b": 3,
-        "c": 1,
-        "d": 0
+        "b": 4,
+        "c": 5,
+        "d": 1
       }
     }
   ],
   "selectors.complexity.max.value": 19,
   "selectors.complexity.max.selectors": [
     {
-      "value": ".wrapper.header.opened .wrapper-header .main > ul > li.opened .sub-navi-content .subnavi .navi ul li ul li a.link_extern:hover span",
+      "value": ".wrapper.header.opened .wrapper-header .main>ul>li.opened .sub-navi-content .subnavi .navi ul li ul li a.link_extern:hover span",
       "count": 1
     },
     {
-      "value": ".wrapper.header.opened .wrapper-header .main > ul > li.opened .sub-navi-content .subnavi .navi ul li ul li a.link_extern:hover::after",
+      "value": ".wrapper.header.opened .wrapper-header .main>ul>li.opened .sub-navi-content .subnavi .navi ul li ul li a.link_extern:hover::after",
       "count": 1
     }
   ],
   "selectors.complexity.max.count": 2,
-  "selectors.complexity.average": 4.386748844375963,
-  "selectors.complexity.sum": 22776,
+  "selectors.complexity.average": 4.13276299112801,
+  "selectors.complexity.sum": 26086,
   "selectors.complexity.unique": [
     {
       "value": 1,
-      "count": 372
+      "count": 386
     },
     {
       "value": 2,
-      "count": 1530
+      "count": 2055
     },
     {
       "value": 3,
-      "count": 607
+      "count": 911
     },
     {
       "value": 4,
-      "count": 455
+      "count": 597
     },
     {
       "value": 5,
-      "count": 678
+      "count": 742
     },
     {
       "value": 6,
-      "count": 487
+      "count": 546
     },
     {
       "value": 7,
-      "count": 361
+      "count": 367
     },
     {
       "value": 8,
-      "count": 233
+      "count": 238
     },
     {
       "value": 9,
@@ -3663,7 +7451,7 @@
     },
     {
       "value": 10,
-      "count": 124
+      "count": 125
     },
     {
       "value": 11,
@@ -3727,11 +7515,11 @@
     }
   ],
   "selectors.browserhacks.totalUnique": 5,
-  "declarations.total": 11098,
-  "declarations.totalUnique": 2987,
-  "declarations.importants.total": 1041,
-  "declarations.importants.share": 0.09380068480807352,
-  "properties.total": 11098,
+  "declarations.total": 12626,
+  "declarations.totalUnique": 3312,
+  "declarations.importants.total": 1048,
+  "declarations.importants.share": 0.08300332646919056,
+  "properties.total": 12626,
   "properties.unique": [
     {
       "value": "-khtml-opacity",
@@ -3999,7 +7787,7 @@
     },
     {
       "value": "-webkit-font-smoothing",
-      "count": 7
+      "count": 8
     },
     {
       "value": "-webkit-justify-content",
@@ -4074,8 +7862,20 @@
       "count": 21
     },
     {
+      "value": "animation-duration",
+      "count": 1
+    },
+    {
+      "value": "animation-name",
+      "count": 1
+    },
+    {
+      "value": "animation-timing-function",
+      "count": 1
+    },
+    {
       "value": "appearance",
-      "count": 5
+      "count": 6
     },
     {
       "value": "backface-visibility",
@@ -4083,7 +7883,7 @@
     },
     {
       "value": "background",
-      "count": 262
+      "count": 272
     },
     {
       "value": "background-clip",
@@ -4091,15 +7891,15 @@
     },
     {
       "value": "background-color",
-      "count": 160
+      "count": 199
     },
     {
       "value": "background-image",
-      "count": 46
+      "count": 48
     },
     {
       "value": "background-position",
-      "count": 27
+      "count": 30
     },
     {
       "value": "background-position-x",
@@ -4111,19 +7911,19 @@
     },
     {
       "value": "background-repeat",
-      "count": 19
+      "count": 23
     },
     {
       "value": "background-size",
-      "count": 50
+      "count": 55
     },
     {
       "value": "border",
-      "count": 179
+      "count": 209
     },
     {
       "value": "border-bottom",
-      "count": 47
+      "count": 62
     },
     {
       "value": "border-bottom-color",
@@ -4135,7 +7935,7 @@
     },
     {
       "value": "border-bottom-right-radius",
-      "count": 6
+      "count": 7
     },
     {
       "value": "border-bottom-width",
@@ -4143,15 +7943,19 @@
     },
     {
       "value": "border-collapse",
-      "count": 2
+      "count": 4
     },
     {
       "value": "border-color",
-      "count": 26
+      "count": 37
+    },
+    {
+      "value": "border-image",
+      "count": 3
     },
     {
       "value": "border-left",
-      "count": 20
+      "count": 28
     },
     {
       "value": "border-left-color",
@@ -4159,11 +7963,11 @@
     },
     {
       "value": "border-radius",
-      "count": 76
+      "count": 95
     },
     {
       "value": "border-right",
-      "count": 14
+      "count": 22
     },
     {
       "value": "border-right-color",
@@ -4171,7 +7975,7 @@
     },
     {
       "value": "border-spacing",
-      "count": 4
+      "count": 5
     },
     {
       "value": "border-style",
@@ -4179,7 +7983,7 @@
     },
     {
       "value": "border-top",
-      "count": 36
+      "count": 49
     },
     {
       "value": "border-top-color",
@@ -4187,11 +7991,11 @@
     },
     {
       "value": "border-top-left-radius",
-      "count": 4
+      "count": 5
     },
     {
       "value": "border-top-right-radius",
-      "count": 5
+      "count": 7
     },
     {
       "value": "border-top-width",
@@ -4203,39 +8007,43 @@
     },
     {
       "value": "bottom",
-      "count": 112
+      "count": 119
     },
     {
       "value": "box-shadow",
-      "count": 48
+      "count": 54
     },
     {
       "value": "box-sizing",
-      "count": 27
+      "count": 32
     },
     {
       "value": "clear",
-      "count": 66
+      "count": 77
     },
     {
       "value": "clip",
-      "count": 2
+      "count": 3
     },
     {
       "value": "color",
-      "count": 337
+      "count": 395
     },
     {
       "value": "content",
-      "count": 730
+      "count": 741
     },
     {
       "value": "cursor",
-      "count": 115
+      "count": 127
+    },
+    {
+      "value": "direction",
+      "count": 1
     },
     {
       "value": "display",
-      "count": 642
+      "count": 717
     },
     {
       "value": "fill",
@@ -4251,7 +8059,7 @@
     },
     {
       "value": "flex-direction",
-      "count": 1
+      "count": 2
     },
     {
       "value": "flex-shrink",
@@ -4263,7 +8071,7 @@
     },
     {
       "value": "float",
-      "count": 362
+      "count": 407
     },
     {
       "value": "font",
@@ -4271,15 +8079,15 @@
     },
     {
       "value": "font-family",
-      "count": 117
+      "count": 124
     },
     {
       "value": "font-size",
-      "count": 289
+      "count": 386
     },
     {
       "value": "font-style",
-      "count": 52
+      "count": 53
     },
     {
       "value": "font-variant",
@@ -4287,11 +8095,15 @@
     },
     {
       "value": "font-weight",
-      "count": 101
+      "count": 134
     },
     {
       "value": "height",
-      "count": 513
+      "count": 583
+    },
+    {
+      "value": "inset",
+      "count": 2
     },
     {
       "value": "justify-content",
@@ -4299,19 +8111,19 @@
     },
     {
       "value": "left",
-      "count": 274
+      "count": 298
     },
     {
       "value": "letter-spacing",
-      "count": 8
+      "count": 15
     },
     {
       "value": "line-height",
-      "count": 118
+      "count": 160
     },
     {
       "value": "list-style",
-      "count": 16
+      "count": 20
     },
     {
       "value": "list-style-type",
@@ -4319,51 +8131,67 @@
     },
     {
       "value": "margin",
-      "count": 308
+      "count": 354
     },
     {
       "value": "margin-bottom",
-      "count": 84
+      "count": 130
     },
     {
       "value": "margin-left",
-      "count": 106
+      "count": 134
     },
     {
       "value": "margin-right",
-      "count": 110
+      "count": 125
     },
     {
       "value": "margin-top",
-      "count": 207
+      "count": 245
     },
     {
       "value": "max-height",
-      "count": 32
+      "count": 43
     },
     {
       "value": "max-width",
-      "count": 149
+      "count": 175
     },
     {
       "value": "min-height",
-      "count": 34
+      "count": 40
     },
     {
       "value": "min-width",
-      "count": 24
+      "count": 32
     },
     {
       "value": "opacity",
-      "count": 152
+      "count": 163
     },
     {
       "value": "outline",
-      "count": 17
+      "count": 29
+    },
+    {
+      "value": "outline-offset",
+      "count": 2
+    },
+    {
+      "value": "outline-style",
+      "count": 2
+    },
+    {
+      "value": "outline-width",
+      "count": 2
     },
     {
       "value": "overflow",
-      "count": 77
+      "count": 99
+    },
+    {
+      "value": "overflow-wrap",
+      "count": 15
     },
     {
       "value": "overflow-x",
@@ -4371,27 +8199,27 @@
     },
     {
       "value": "overflow-y",
-      "count": 13
+      "count": 15
     },
     {
       "value": "padding",
-      "count": 384
+      "count": 431
     },
     {
       "value": "padding-bottom",
-      "count": 36
+      "count": 49
     },
     {
       "value": "padding-left",
-      "count": 47
+      "count": 67
     },
     {
       "value": "padding-right",
-      "count": 58
+      "count": 83
     },
     {
       "value": "padding-top",
-      "count": 34
+      "count": 44
     },
     {
       "value": "perspective",
@@ -4399,11 +8227,11 @@
     },
     {
       "value": "pointer-events",
-      "count": 19
+      "count": 27
     },
     {
       "value": "position",
-      "count": 451
+      "count": 514
     },
     {
       "value": "quotes",
@@ -4411,7 +8239,7 @@
     },
     {
       "value": "right",
-      "count": 173
+      "count": 206
     },
     {
       "value": "speak",
@@ -4427,15 +8255,15 @@
     },
     {
       "value": "text-align",
-      "count": 172
+      "count": 192
     },
     {
       "value": "text-decoration",
-      "count": 29
+      "count": 45
     },
     {
       "value": "text-indent",
-      "count": 6
+      "count": 7
     },
     {
       "value": "text-overflow",
@@ -4447,15 +8275,19 @@
     },
     {
       "value": "text-shadow",
-      "count": 13
-    },
-    {
-      "value": "text-transform",
       "count": 14
     },
     {
+      "value": "text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "text-transform",
+      "count": 15
+    },
+    {
       "value": "top",
-      "count": 322
+      "count": 364
     },
     {
       "value": "touch-action",
@@ -4463,7 +8295,7 @@
     },
     {
       "value": "transform",
-      "count": 112
+      "count": 132
     },
     {
       "value": "transform-origin",
@@ -4475,7 +8307,7 @@
     },
     {
       "value": "transition",
-      "count": 144
+      "count": 155
     },
     {
       "value": "transition-duration",
@@ -4499,23 +8331,23 @@
     },
     {
       "value": "vertical-align",
-      "count": 73
+      "count": 82
     },
     {
       "value": "visibility",
-      "count": 26
+      "count": 31
     },
     {
       "value": "white-space",
-      "count": 27
+      "count": 33
     },
     {
       "value": "width",
-      "count": 884
+      "count": 1032
     },
     {
       "value": "word-break",
-      "count": 3
+      "count": 16
     },
     {
       "value": "word-wrap",
@@ -4523,15 +8355,15 @@
     },
     {
       "value": "z-index",
-      "count": 108
+      "count": 129
     },
     {
       "value": "zoom",
       "count": 79
     }
   ],
-  "properties.totalUnique": 199,
-  "properties.prefixed.total": 1220,
+  "properties.totalUnique": 210,
+  "properties.prefixed.total": 1221,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-opacity",
@@ -4799,7 +8631,7 @@
     },
     {
       "value": "-webkit-font-smoothing",
-      "count": 7
+      "count": 8
     },
     {
       "value": "-webkit-justify-content",
@@ -4867,11 +8699,11 @@
     }
   ],
   "properties.prefixed.totalUnique": 83,
-  "properties.prefixed.share": 0.10992971706613805,
+  "properties.prefixed.share": 0.09670521146839854,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 11098,
+  "values.total": 12626,
   "values.prefixed.total": 92,
   "values.prefixed.unique": [
     {
@@ -4887,19 +8719,23 @@
       "count": 2
     },
     {
-      "value": "-moz-linear-gradient(bottom,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-moz-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-moz-linear-gradient(left,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-moz-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-moz-linear-gradient(right,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-moz-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
       "value": "-moz-linear-gradient(top,#000 0,rgba(0,0,0,.8) 50%,rgba(0,0,0,0) 100%)",
+      "count": 1
+    },
+    {
+      "value": "-moz-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
@@ -4908,10 +8744,6 @@
     },
     {
       "value": "-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 20%,rgba(0,0,0,.8) 100%)",
-      "count": 1
-    },
-    {
-      "value": "-moz-linear-gradient(top,rgba(0,0,0,0.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
@@ -4971,19 +8803,19 @@
       "count": 2
     },
     {
-      "value": "-o-linear-gradient(bottom,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-o-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(left,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-o-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(right,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-o-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(top,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-o-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
@@ -5031,35 +8863,39 @@
       "count": 2
     },
     {
-      "value": "-webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0)))",
+      "value": "-webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)))",
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0)))",
+      "value": "-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)))",
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0)))",
+      "value": "-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)))",
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,right top,left top,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0)))",
+      "value": "-webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)))",
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(bottom,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-webkit-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(left,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-webkit-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(right,rgba(0,0,0,0.5),rgba(0,0,0,0))",
+      "value": "-webkit-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
       "value": "-webkit-linear-gradient(top,#000 0,rgba(0,0,0,.8) 50%,rgba(0,0,0,0) 100%)",
+      "count": 1
+    },
+    {
+      "value": "-webkit-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
@@ -5068,10 +8904,6 @@
     },
     {
       "value": "-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 20%,rgba(0,0,0,.8) 100%)",
-      "count": 1
-    },
-    {
-      "value": "-webkit-linear-gradient(top,rgba(0,0,0,0.5),rgba(0,0,0,0))",
       "count": 1
     },
     {
@@ -5128,8 +8960,8 @@
     }
   ],
   "values.prefixed.totalUnique": 63,
-  "values.prefixed.share": 0.008289781942692377,
-  "values.fontsizes.total": 469,
+  "values.prefixed.share": 0.007286551560272454,
+  "values.fontsizes.total": 551,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -5152,11 +8984,11 @@
       "count": 2
     },
     {
-      "value": "80px",
+      "value": "5em",
       "count": 1
     },
     {
-      "value": "5em",
+      "value": "80px",
       "count": 1
     },
     {
@@ -5232,6 +9064,14 @@
       "count": 6
     },
     {
+      "value": "1.5rem",
+      "count": 12
+    },
+    {
+      "value": "1.5em",
+      "count": 2
+    },
+    {
       "value": "23px",
       "count": 4
     },
@@ -5252,6 +9092,10 @@
       "count": 34
     },
     {
+      "value": "1.2em",
+      "count": 1
+    },
+    {
       "value": "19px",
       "count": 2
     },
@@ -5265,23 +9109,71 @@
     },
     {
       "value": "16px",
-      "count": 25
+      "count": 27
+    },
+    {
+      "value": "1em",
+      "count": 16
+    },
+    {
+      "value": "1rem",
+      "count": 3
     },
     {
       "value": "15px",
       "count": 43
     },
     {
+      "value": ".9em",
+      "count": 4
+    },
+    {
+      "value": "90%",
+      "count": 1
+    },
+    {
       "value": "14px",
-      "count": 87
+      "count": 88
+    },
+    {
+      "value": ".875rem",
+      "count": 1
+    },
+    {
+      "value": ".875em",
+      "count": 1
+    },
+    {
+      "value": ".85em",
+      "count": 2
     },
     {
       "value": "13.5px",
       "count": 2
     },
     {
+      "value": ".83em",
+      "count": 1
+    },
+    {
+      "value": ".82em",
+      "count": 3
+    },
+    {
+      "value": ".813em",
+      "count": 8
+    },
+    {
       "value": "13px",
       "count": 50
+    },
+    {
+      "value": ".812em",
+      "count": 5
+    },
+    {
+      "value": ".8em",
+      "count": 3
     },
     {
       "value": "12px",
@@ -5292,15 +9184,39 @@
       "count": 1
     },
     {
+      "value": ".75em",
+      "count": 8
+    },
+    {
+      "value": ".72em",
+      "count": 1
+    },
+    {
+      "value": ".7em",
+      "count": 2
+    },
+    {
+      "value": ".69em",
+      "count": 2
+    },
+    {
+      "value": ".688em",
+      "count": 1
+    },
+    {
       "value": "11px",
       "count": 12
     },
     {
       "value": "10px",
       "count": 14
+    },
+    {
+      "value": ".6em",
+      "count": 2
     }
   ],
-  "values.fontsizes.totalUnique": 42,
+  "values.fontsizes.totalUnique": 63,
   "values.fontfamilies.total": 300,
   "values.fontfamilies.unique": [
     {
@@ -5437,10 +9353,14 @@
     }
   ],
   "values.fontfamilies.totalUnique": 33,
-  "values.colors.total": 956,
+  "values.colors.total": 1116,
   "values.colors.unique": [
     {
       "value": "#dddcdc",
+      "count": 1
+    },
+    {
+      "value": "#f2f1f1",
       "count": 1
     },
     {
@@ -5508,8 +9428,16 @@
       "count": 4
     },
     {
+      "value": "#f6f6f4",
+      "count": 3
+    },
+    {
       "value": "#88b131",
       "count": 1
+    },
+    {
+      "value": "#68b631",
+      "count": 3
     },
     {
       "value": "#a5dc86",
@@ -5518,6 +9446,10 @@
     {
       "value": "rgba(165,220,134,.2)",
       "count": 1
+    },
+    {
+      "value": "#6cc04a",
+      "count": 4
     },
     {
       "value": "rgba(82,166,65,.5)",
@@ -5534,6 +9466,14 @@
     {
       "value": "#2ac7e1",
       "count": 1
+    },
+    {
+      "value": "#1eaedb",
+      "count": 2
+    },
+    {
+      "value": "#33c3f0",
+      "count": 2
     },
     {
       "value": "#add8e6",
@@ -5584,6 +9524,10 @@
       "count": 61
     },
     {
+      "value": "#1f96db",
+      "count": 2
+    },
+    {
       "value": "#e3e7ea",
       "count": 1
     },
@@ -5601,6 +9545,10 @@
     },
     {
       "value": "#55acee",
+      "count": 1
+    },
+    {
+      "value": "#27455c",
       "count": 1
     },
     {
@@ -5632,7 +9580,23 @@
       "count": 2
     },
     {
+      "value": "#1883fd",
+      "count": 1
+    },
+    {
+      "value": "#2285f7",
+      "count": 1
+    },
+    {
+      "value": "#cddcf2",
+      "count": 1
+    },
+    {
       "value": "#1c1e21",
+      "count": 1
+    },
+    {
+      "value": "#77808e",
       "count": 1
     },
     {
@@ -5640,12 +9604,32 @@
       "count": 1
     },
     {
+      "value": "#78808e",
+      "count": 2
+    },
+    {
+      "value": "#2e3644",
+      "count": 4
+    },
+    {
       "value": "#3b5998",
       "count": 1
     },
     {
+      "value": "#3860be",
+      "count": 13
+    },
+    {
       "value": "#b1b1b3",
       "count": 1
+    },
+    {
+      "value": "#f9f9fc",
+      "count": 2
+    },
+    {
+      "value": "#c7c5c7",
+      "count": 2
     },
     {
       "value": "rgba(255,0,255,.9)",
@@ -5653,7 +9637,7 @@
     },
     {
       "value": "#d30029",
-      "count": 203
+      "count": 212
     },
     {
       "value": "rgba(211,0,41,.5)",
@@ -5665,7 +9649,7 @@
     },
     {
       "value": "#fff",
-      "count": 191
+      "count": 211
     },
     {
       "value": "#ffffff",
@@ -5704,12 +9688,16 @@
       "count": 1
     },
     {
+      "value": "#f8f8f8",
+      "count": 5
+    },
+    {
       "value": "#f5f5f5",
       "count": 6
     },
     {
       "value": "#f4f4f4",
-      "count": 5
+      "count": 7
     },
     {
       "value": "#f2f2f2",
@@ -5729,6 +9717,10 @@
     },
     {
       "value": "#eee",
+      "count": 6
+    },
+    {
+      "value": "#e9e9e9",
       "count": 5
     },
     {
@@ -5736,7 +9728,19 @@
       "count": 5
     },
     {
+      "value": "#e4e4e4",
+      "count": 1
+    },
+    {
       "value": "#e3e3e3",
+      "count": 1
+    },
+    {
+      "value": "#e2e2e2",
+      "count": 8
+    },
+    {
+      "value": "#e1e1e1",
       "count": 1
     },
     {
@@ -5745,7 +9749,7 @@
     },
     {
       "value": "#ddd",
-      "count": 9
+      "count": 10
     },
     {
       "value": "#dcdcdc",
@@ -5756,12 +9760,24 @@
       "count": 1
     },
     {
+      "value": "#d8d8d8",
+      "count": 8
+    },
+    {
+      "value": "#d7d7d7",
+      "count": 5
+    },
+    {
+      "value": "#d4d4d4",
+      "count": 1
+    },
+    {
       "value": "#d3d3d3",
       "count": 1
     },
     {
       "value": "#d1d1d1",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#cdcdcd",
@@ -5772,8 +9788,16 @@
       "count": 5
     },
     {
+      "value": "#c1c1c1",
+      "count": 1
+    },
+    {
       "value": "#bfbfbf",
       "count": 2
+    },
+    {
+      "value": "#bbb",
+      "count": 1
     },
     {
       "value": "#afafaf",
@@ -5789,11 +9813,11 @@
     },
     {
       "value": "#999",
-      "count": 5
+      "count": 6
     },
     {
       "value": "#888",
-      "count": 3
+      "count": 4
     },
     {
       "value": "gray",
@@ -5804,6 +9828,10 @@
       "count": 4
     },
     {
+      "value": "#7d7d7d",
+      "count": 1
+    },
+    {
       "value": "#777",
       "count": 2
     },
@@ -5812,8 +9840,16 @@
       "count": 5
     },
     {
+      "value": "#696969",
+      "count": 19
+    },
+    {
       "value": "#666",
       "count": 2
+    },
+    {
+      "value": "#656565",
+      "count": 3
     },
     {
       "value": "#595959",
@@ -5821,11 +9857,11 @@
     },
     {
       "value": "#565656",
-      "count": 5
+      "count": 7
     },
     {
       "value": "#555",
-      "count": 3
+      "count": 4
     },
     {
       "value": "#545454",
@@ -5845,7 +9881,7 @@
     },
     {
       "value": "#333",
-      "count": 7
+      "count": 8
     },
     {
       "value": "#262626",
@@ -5857,7 +9893,11 @@
     },
     {
       "value": "#000",
-      "count": 92
+      "count": 96
+    },
+    {
+      "value": "rgb(0,0,0)",
+      "count": 10
     },
     {
       "value": "rgba(0,0,0,.8)",
@@ -5868,12 +9908,8 @@
       "count": 3
     },
     {
-      "value": "rgba(0,0,0,0.5)",
-      "count": 20
-    },
-    {
       "value": "rgba(0,0,0,.5)",
-      "count": 4
+      "count": 25
     },
     {
       "value": "rgba(0,0,0,.45)",
@@ -5889,6 +9925,10 @@
     },
     {
       "value": "rgba(0,0,0,.25)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.2)",
       "count": 1
     },
     {
@@ -5920,20 +9960,20 @@
       "count": 35
     }
   ],
-  "values.colors.totalUnique": 120,
+  "values.colors.totalUnique": 151,
   "values.colors.duplicates.unique": [
     {
       "notations": [
         {
           "value": "#fff",
-          "count": 191
+          "count": 211
         },
         {
           "value": "#ffffff",
           "count": 1
         }
       ],
-      "count": 192,
+      "count": 212,
       "value": "#fff"
     },
     {
@@ -5953,16 +9993,16 @@
     {
       "notations": [
         {
-          "value": "rgba(0,0,0,0.5)",
-          "count": 20
+          "value": "#000",
+          "count": 96
         },
         {
-          "value": "rgba(0,0,0,.5)",
-          "count": 4
+          "value": "rgb(0,0,0)",
+          "count": 10
         }
       ],
-      "count": 24,
-      "value": "rgba(0,0,0,0.5)"
+      "count": 106,
+      "value": "#000"
     }
   ],
   "values.colors.duplicates.totalUnique": 3,
@@ -5970,8 +10010,20 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 43,
+  "values.boxshadows.total": 47,
   "values.boxshadows.unique": [
+    {
+      "value": "#999 0 2px 10px -3px",
+      "count": 1
+    },
+    {
+      "value": "#c7c5c7 -3px -3px 5px -2px",
+      "count": 1
+    },
+    {
+      "value": "#c7c5c7 0 0 12px 2px",
+      "count": 1
+    },
     {
       "value": "0 0 0 1px #333,0 0 0 2px #dddcdc",
       "count": 1
@@ -6055,9 +10107,13 @@
     {
       "value": "inset 0 4px 0 #88b131",
       "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.2) 0 0 18px",
+      "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 21,
+  "values.boxshadows.totalUnique": 25,
   "values.textshadows.total": 11,
   "values.textshadows.unique": [
     {
@@ -6086,8 +10142,12 @@
     }
   ],
   "values.textshadows.totalUnique": 6,
-  "values.zindexes.total": 107,
+  "values.zindexes.total": 127,
   "values.zindexes.unique": [
+    {
+      "value": -9999,
+      "count": 1
+    },
     {
       "value": -1000,
       "count": 1
@@ -6102,15 +10162,15 @@
     },
     {
       "value": 1,
-      "count": 13
+      "count": 21
     },
     {
       "value": 2,
-      "count": 15
+      "count": 20
     },
     {
       "value": 3,
-      "count": 7
+      "count": 8
     },
     {
       "value": 5,
@@ -6207,10 +10267,22 @@
     {
       "value": 99999,
       "count": 1
+    },
+    {
+      "value": 2147483645,
+      "count": 1
+    },
+    {
+      "value": 2147483646,
+      "count": 2
+    },
+    {
+      "value": 2147483647,
+      "count": 2
     }
   ],
-  "values.zindexes.totalUnique": 30,
-  "values.animations.durations.total": 174,
+  "values.zindexes.totalUnique": 34,
+  "values.animations.durations.total": 186,
   "values.animations.durations.unique": [
     {
       "value": "0s",
@@ -6222,19 +10294,19 @@
     },
     {
       "value": ".1s",
-      "count": 5
-    },
-    {
-      "value": ".15s",
       "count": 8
     },
     {
-      "value": "0.15s",
+      "value": "150ms",
       "count": 1
     },
     {
+      "value": ".15s",
+      "count": 9
+    },
+    {
       "value": ".2s",
-      "count": 2
+      "count": 4
     },
     {
       "value": "250ms",
@@ -6242,15 +10314,11 @@
     },
     {
       "value": ".25s",
-      "count": 3
+      "count": 4
     },
     {
       "value": ".3s",
-      "count": 66
-    },
-    {
-      "value": "0.3s",
-      "count": 3
+      "count": 72
     },
     {
       "value": ".3",
@@ -6261,19 +10329,15 @@
       "count": 3
     },
     {
-      "value": "0.4s",
-      "count": 1
-    },
-    {
-      "value": "0.5s",
-      "count": 2
+      "value": ".4s",
+      "count": 3
     },
     {
       "value": ".5s",
-      "count": 49
+      "count": 51
     },
     {
-      "value": "0.6s",
+      "value": ".6s",
       "count": 2
     },
     {
@@ -6281,7 +10345,7 @@
       "count": 1
     },
     {
-      "value": "0.75s",
+      "value": ".75s",
       "count": 3
     },
     {
@@ -6301,8 +10365,8 @@
       "count": 1
     }
   ],
-  "values.animations.durations.totalUnique": 22,
-  "values.animations.timingFunctions.total": 44,
+  "values.animations.durations.totalUnique": 20,
+  "values.animations.timingFunctions.total": 56,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(0, 0, .25, 1)",
@@ -6318,19 +10382,19 @@
     },
     {
       "value": "ease",
-      "count": 21
+      "count": 25
     },
     {
       "value": "ease-in",
-      "count": 2
+      "count": 8
     },
     {
       "value": "ease-in-out",
-      "count": 2
+      "count": 3
     },
     {
       "value": "ease-out",
-      "count": 2
+      "count": 3
     },
     {
       "value": "linear",
@@ -6341,7 +10405,7 @@
       "count": 1
     },
     {
-      "value": "steps(12, end)",
+      "value": "steps(12,end)",
       "count": 1
     }
   ],

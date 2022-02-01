@@ -1,0 +1,1773 @@
+{
+  "stylesheets.size.uncompressed.totalBytes": 235745,
+  "stylesheets.size.compressed.gzip.totalBytes": 25809,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.8905215381026108,
+  "stylesheets.simplicity": 0.6884036588964296,
+  "stylesheets.cohesion.average": 2.224174882126018,
+  "stylesheets.cohesion.min.count": 21,
+  "stylesheets.cohesion.min.value.declarations": [
+    {
+      "property": "display",
+      "value": "-ms-flexbox",
+      "important": false
+    },
+    {
+      "property": "display",
+      "value": "flex",
+      "important": false
+    },
+    {
+      "property": "-ms-flex-align",
+      "value": "center",
+      "important": false
+    },
+    {
+      "property": "align-items",
+      "value": "center",
+      "important": false
+    },
+    {
+      "property": "-ms-flex-pack",
+      "value": "center",
+      "important": false
+    },
+    {
+      "property": "justify-content",
+      "value": "center",
+      "important": false
+    },
+    {
+      "property": "position",
+      "value": "fixed",
+      "important": false
+    },
+    {
+      "property": "cursor",
+      "value": "pointer",
+      "important": false
+    },
+    {
+      "property": "top",
+      "value": "-100%",
+      "important": false
+    },
+    {
+      "property": "left",
+      "value": "1rem",
+      "important": false
+    },
+    {
+      "property": "z-index",
+      "value": "10",
+      "important": false
+    },
+    {
+      "property": "padding",
+      "value": "0",
+      "important": false
+    },
+    {
+      "property": "-webkit-transition",
+      "value": "all .4s cubic-bezier(.25,.8,.25,1)",
+      "important": false
+    },
+    {
+      "property": "transition",
+      "value": "all .4s cubic-bezier(.25,.8,.25,1)",
+      "important": false
+    },
+    {
+      "property": "font-size",
+      "value": "2rem",
+      "important": false
+    },
+    {
+      "property": "width",
+      "value": "4rem",
+      "important": false
+    },
+    {
+      "property": "height",
+      "value": "4rem",
+      "important": false
+    },
+    {
+      "property": "color",
+      "value": "#fff",
+      "important": false
+    },
+    {
+      "property": "background-color",
+      "value": "rgba(0,0,0,.7)",
+      "important": false
+    },
+    {
+      "property": "border-radius",
+      "value": "50%",
+      "important": false
+    },
+    {
+      "property": "border-color",
+      "value": "transparent",
+      "important": false
+    }
+  ],
+  "stylesheets.cohesion.min.value.selectors": [
+    ".modal-content .close"
+  ],
+  "stylesheets.browserhacks.total": 3,
+  "stylesheets.browserhacks.totalUnique": 1,
+  "stylesheets.linesOfCode.total": 1,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 8694,
+  "atrules.charsets.total": 0,
+  "atrules.charsets.unique": [],
+  "atrules.charsets.totalUnique": 0,
+  "atrules.documents.total": 0,
+  "atrules.documents.unique": [],
+  "atrules.documents.totalUnique": 0,
+  "atrules.fontfaces.total": 0,
+  "atrules.fontfaces.unique": [],
+  "atrules.fontfaces.totalUnique": 0,
+  "atrules.imports.total": 0,
+  "atrules.imports.unique": [],
+  "atrules.imports.totalUnique": 0,
+  "atrules.keyframes.total": 1,
+  "atrules.keyframes.unique": [
+    {
+      "value": "progress-bar-shine",
+      "count": 1
+    }
+  ],
+  "atrules.keyframes.totalUnique": 1,
+  "atrules.keyframes.prefixed.total": 0,
+  "atrules.keyframes.prefixed.unique": [],
+  "atrules.keyframes.prefixed.totalUnique": 0,
+  "atrules.keyframes.prefixed.share": 0,
+  "atrules.mediaqueries.total": 115,
+  "atrules.mediaqueries.unique": [
+    {
+      "value": "(max-width:576px)",
+      "count": 18
+    },
+    {
+      "value": "(max-width:768px)",
+      "count": 7
+    },
+    {
+      "value": "(max-width:992px)",
+      "count": 4
+    },
+    {
+      "value": "(max-width:1200px)",
+      "count": 4
+    },
+    {
+      "value": "(min-width:577px)",
+      "count": 17
+    },
+    {
+      "value": "(min-width:577px) and (max-width:768px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:769px)",
+      "count": 19
+    },
+    {
+      "value": "(min-width:769px) and (max-width:992px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:993px)",
+      "count": 18
+    },
+    {
+      "value": "(min-width:993px) and (max-width:1200px)",
+      "count": 1
+    },
+    {
+      "value": "(min-width:1201px)",
+      "count": 18
+    },
+    {
+      "value": "(min-width:1600px)",
+      "count": 2
+    },
+    {
+      "value": "(min-width:1920px)",
+      "count": 2
+    },
+    {
+      "value": "screen and (-ms-high-contrast:active),(-ms-high-contrast:none)",
+      "count": 3
+    }
+  ],
+  "atrules.mediaqueries.totalUnique": 14,
+  "atrules.mediaqueries.browserhacks.total": 3,
+  "atrules.mediaqueries.browserhacks.unique": [
+    {
+      "value": "screen and (-ms-high-contrast:active),(-ms-high-contrast:none)",
+      "count": 3
+    }
+  ],
+  "atrules.mediaqueries.browserhacks.totalUnique": 1,
+  "atrules.namespaces.total": 0,
+  "atrules.namespaces.unique": [],
+  "atrules.namespaces.totalUnique": 0,
+  "atrules.pages.total": 0,
+  "atrules.pages.unique": [],
+  "atrules.pages.totalUnique": 0,
+  "atrules.supports.total": 0,
+  "atrules.supports.unique": [],
+  "atrules.supports.totalUnique": 0,
+  "atrules.supports.browserhacks.total": 0,
+  "atrules.supports.browserhacks.unique": [],
+  "atrules.supports.browserhacks.totalUnique": 0,
+  "rules.total": 2333,
+  "rules.empty.total": 0,
+  "rules.selectors.average": 1.4526360908701244,
+  "rules.selectors.minimum.count": 1,
+  "rules.selectors.minimum.value": [
+    ".alert"
+  ],
+  "rules.selectors.maximum.count": 56,
+  "rules.selectors.maximum.value": [
+    ".col-lg",
+    ".col-lg-1",
+    ".col-lg-10",
+    ".col-lg-11",
+    ".col-lg-12",
+    ".col-lg-2",
+    ".col-lg-3",
+    ".col-lg-4",
+    ".col-lg-5",
+    ".col-lg-6",
+    ".col-lg-7",
+    ".col-lg-8",
+    ".col-lg-9",
+    ".col-lg-auto",
+    ".col-md",
+    ".col-md-1",
+    ".col-md-10",
+    ".col-md-11",
+    ".col-md-12",
+    ".col-md-2",
+    ".col-md-3",
+    ".col-md-4",
+    ".col-md-5",
+    ".col-md-6",
+    ".col-md-7",
+    ".col-md-8",
+    ".col-md-9",
+    ".col-md-auto",
+    ".col-sm",
+    ".col-sm-1",
+    ".col-sm-10",
+    ".col-sm-11",
+    ".col-sm-12",
+    ".col-sm-2",
+    ".col-sm-3",
+    ".col-sm-4",
+    ".col-sm-5",
+    ".col-sm-6",
+    ".col-sm-7",
+    ".col-sm-8",
+    ".col-sm-9",
+    ".col-sm-auto",
+    ".col-xl",
+    ".col-xl-1",
+    ".col-xl-10",
+    ".col-xl-11",
+    ".col-xl-12",
+    ".col-xl-2",
+    ".col-xl-3",
+    ".col-xl-4",
+    ".col-xl-5",
+    ".col-xl-6",
+    ".col-xl-7",
+    ".col-xl-8",
+    ".col-xl-9",
+    ".col-xl-auto"
+  ],
+  "selectors.total": 3389,
+  "selectors.totalUnique": 2960,
+  "selectors.js.total": 0,
+  "selectors.js.unique": [],
+  "selectors.js.totalUnique": 0,
+  "selectors.id.total": 0,
+  "selectors.id.unique": [],
+  "selectors.id.totalUnique": 0,
+  "selectors.universal.total": 5,
+  "selectors.universal.unique": [
+    {
+      "value": "*",
+      "count": 1
+    },
+    {
+      "value": ".dark-mode.with-custom-css-scrollbars *",
+      "count": 1
+    },
+    {
+      "value": ".text-extra-letter-spacing *",
+      "count": 1
+    },
+    {
+      "value": ".with-custom-css-scrollbars *",
+      "count": 1
+    },
+    {
+      "value": "details *",
+      "count": 1
+    }
+  ],
+  "selectors.universal.totalUnique": 5,
+  "selectors.accessibility.total": 0,
+  "selectors.accessibility.unique": [],
+  "selectors.accessibility.totalUnique": 0,
+  "selectors.specificity.top": [
+    {
+      "count": 1,
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::after",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.card:not(:only-child):first-child",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.card:not(:only-child):last-child",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 0
+      }
+    },
+    {
+      "count": 1,
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.content:not(:only-child):first-child",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 0
+      }
+    }
+  ],
+  "selectors.specificity.max.value.a": 0,
+  "selectors.specificity.max.value.b": 0,
+  "selectors.specificity.max.value.c": 10,
+  "selectors.specificity.max.value.d": 1,
+  "selectors.specificity.max.count": 2,
+  "selectors.specificity.max.selectors": [
+    {
+      "count": 1,
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::after",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 1
+      }
+    },
+    {
+      "count": 1,
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
+      "specificity": {
+        "a": 0,
+        "b": 0,
+        "c": 10,
+        "d": 1
+      }
+    }
+  ],
+  "selectors.complexity.max.value": 11,
+  "selectors.complexity.max.selectors": [
+    {
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::after",
+      "count": 1
+    },
+    {
+      "value": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
+      "count": 1
+    },
+    {
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.card:not(:only-child):first-child",
+      "count": 1
+    },
+    {
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.card:not(:only-child):last-child",
+      "count": 1
+    },
+    {
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.content:not(:only-child):first-child",
+      "count": 1
+    },
+    {
+      "value": ".row.row-eq-spacing-xl:not(.row-eq-spacing-lg):not(.row-eq-spacing-md):not(.row-eq-spacing-sm):not(.row-eq-spacing)>[class^=col]>.content:not(:only-child):last-child",
+      "count": 1
+    }
+  ],
+  "selectors.complexity.max.count": 6,
+  "selectors.complexity.average": 2.714960165240484,
+  "selectors.complexity.sum": 9201,
+  "selectors.complexity.unique": [
+    {
+      "value": 0,
+      "count": 1
+    },
+    {
+      "value": 1,
+      "count": 1611
+    },
+    {
+      "value": 2,
+      "count": 327
+    },
+    {
+      "value": 3,
+      "count": 447
+    },
+    {
+      "value": 4,
+      "count": 378
+    },
+    {
+      "value": 5,
+      "count": 240
+    },
+    {
+      "value": 6,
+      "count": 109
+    },
+    {
+      "value": 7,
+      "count": 96
+    },
+    {
+      "value": 8,
+      "count": 99
+    },
+    {
+      "value": 9,
+      "count": 51
+    },
+    {
+      "value": 10,
+      "count": 24
+    },
+    {
+      "value": 11,
+      "count": 6
+    }
+  ],
+  "selectors.complexity.totalUnique": 12,
+  "selectors.browserhacks.total": 0,
+  "selectors.browserhacks.unique": [],
+  "selectors.browserhacks.totalUnique": 0,
+  "declarations.total": 5189,
+  "declarations.totalUnique": 963,
+  "declarations.importants.total": 1442,
+  "declarations.importants.share": 0.2778955482751975,
+  "properties.total": 5189,
+  "properties.unique": [
+    {
+      "value": "-moz-appearance",
+      "count": 1
+    },
+    {
+      "value": "-moz-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-moz-box-shadow",
+      "count": 143
+    },
+    {
+      "value": "-moz-box-sizing",
+      "count": 2
+    },
+    {
+      "value": "-moz-osx-font-smoothing",
+      "count": 21
+    },
+    {
+      "value": "-moz-user-select",
+      "count": 4
+    },
+    {
+      "value": "-ms-flex",
+      "count": 83
+    },
+    {
+      "value": "-ms-flex-align",
+      "count": 44
+    },
+    {
+      "value": "-ms-flex-direction",
+      "count": 22
+    },
+    {
+      "value": "-ms-flex-flow",
+      "count": 7
+    },
+    {
+      "value": "-ms-flex-item-align",
+      "count": 30
+    },
+    {
+      "value": "-ms-flex-line-pack",
+      "count": 30
+    },
+    {
+      "value": "-ms-flex-negative",
+      "count": 10
+    },
+    {
+      "value": "-ms-flex-order",
+      "count": 75
+    },
+    {
+      "value": "-ms-flex-pack",
+      "count": 32
+    },
+    {
+      "value": "-ms-flex-positive",
+      "count": 15
+    },
+    {
+      "value": "-ms-flex-preferred-size",
+      "count": 5
+    },
+    {
+      "value": "-ms-flex-wrap",
+      "count": 22
+    },
+    {
+      "value": "-ms-transform",
+      "count": 1
+    },
+    {
+      "value": "-ms-user-select",
+      "count": 4
+    },
+    {
+      "value": "-webkit-appearance",
+      "count": 5
+    },
+    {
+      "value": "-webkit-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-flex",
+      "count": 38
+    },
+    {
+      "value": "-webkit-box-ordinal-group",
+      "count": 75
+    },
+    {
+      "value": "-webkit-box-shadow",
+      "count": 143
+    },
+    {
+      "value": "-webkit-box-sizing",
+      "count": 2
+    },
+    {
+      "value": "-webkit-flex",
+      "count": 65
+    },
+    {
+      "value": "-webkit-flex-basis",
+      "count": 5
+    },
+    {
+      "value": "-webkit-flex-grow",
+      "count": 5
+    },
+    {
+      "value": "-webkit-flex-wrap",
+      "count": 2
+    },
+    {
+      "value": "-webkit-font-smoothing",
+      "count": 21
+    },
+    {
+      "value": "-webkit-order",
+      "count": 75
+    },
+    {
+      "value": "-webkit-overflow-scrolling",
+      "count": 1
+    },
+    {
+      "value": "-webkit-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transform",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transition",
+      "count": 18
+    },
+    {
+      "value": "-webkit-user-select",
+      "count": 4
+    },
+    {
+      "value": "align-content",
+      "count": 30
+    },
+    {
+      "value": "align-items",
+      "count": 45
+    },
+    {
+      "value": "align-self",
+      "count": 30
+    },
+    {
+      "value": "animation",
+      "count": 1
+    },
+    {
+      "value": "appearance",
+      "count": 1
+    },
+    {
+      "value": "background",
+      "count": 3
+    },
+    {
+      "value": "background-clip",
+      "count": 1
+    },
+    {
+      "value": "background-color",
+      "count": 355
+    },
+    {
+      "value": "background-image",
+      "count": 139
+    },
+    {
+      "value": "background-position",
+      "count": 4
+    },
+    {
+      "value": "background-repeat",
+      "count": 4
+    },
+    {
+      "value": "background-size",
+      "count": 5
+    },
+    {
+      "value": "border",
+      "count": 38
+    },
+    {
+      "value": "border-bottom",
+      "count": 18
+    },
+    {
+      "value": "border-bottom-color",
+      "count": 3
+    },
+    {
+      "value": "border-bottom-left-radius",
+      "count": 11
+    },
+    {
+      "value": "border-bottom-right-radius",
+      "count": 13
+    },
+    {
+      "value": "border-collapse",
+      "count": 1
+    },
+    {
+      "value": "border-color",
+      "count": 320
+    },
+    {
+      "value": "border-left",
+      "count": 12
+    },
+    {
+      "value": "border-left-color",
+      "count": 3
+    },
+    {
+      "value": "border-radius",
+      "count": 48
+    },
+    {
+      "value": "border-right",
+      "count": 13
+    },
+    {
+      "value": "border-right-color",
+      "count": 3
+    },
+    {
+      "value": "border-spacing",
+      "count": 1
+    },
+    {
+      "value": "border-style",
+      "count": 2
+    },
+    {
+      "value": "border-top",
+      "count": 15
+    },
+    {
+      "value": "border-top-color",
+      "count": 3
+    },
+    {
+      "value": "border-top-left-radius",
+      "count": 8
+    },
+    {
+      "value": "border-top-right-radius",
+      "count": 9
+    },
+    {
+      "value": "border-width",
+      "count": 14
+    },
+    {
+      "value": "bottom",
+      "count": 32
+    },
+    {
+      "value": "box-shadow",
+      "count": 143
+    },
+    {
+      "value": "box-sizing",
+      "count": 5
+    },
+    {
+      "value": "clear",
+      "count": 1
+    },
+    {
+      "value": "clip",
+      "count": 2
+    },
+    {
+      "value": "color",
+      "count": 316
+    },
+    {
+      "value": "content",
+      "count": 15
+    },
+    {
+      "value": "cursor",
+      "count": 16
+    },
+    {
+      "value": "display",
+      "count": 180
+    },
+    {
+      "value": "flex",
+      "count": 83
+    },
+    {
+      "value": "flex-basis",
+      "count": 5
+    },
+    {
+      "value": "flex-direction",
+      "count": 23
+    },
+    {
+      "value": "flex-flow",
+      "count": 7
+    },
+    {
+      "value": "flex-grow",
+      "count": 15
+    },
+    {
+      "value": "flex-shrink",
+      "count": 10
+    },
+    {
+      "value": "flex-wrap",
+      "count": 22
+    },
+    {
+      "value": "float",
+      "count": 15
+    },
+    {
+      "value": "font",
+      "count": 2
+    },
+    {
+      "value": "font-family",
+      "count": 6
+    },
+    {
+      "value": "font-size",
+      "count": 58
+    },
+    {
+      "value": "font-style",
+      "count": 1
+    },
+    {
+      "value": "font-weight",
+      "count": 19
+    },
+    {
+      "value": "height",
+      "count": 153
+    },
+    {
+      "value": "justify-content",
+      "count": 32
+    },
+    {
+      "value": "left",
+      "count": 54
+    },
+    {
+      "value": "letter-spacing",
+      "count": 1
+    },
+    {
+      "value": "line-height",
+      "count": 28
+    },
+    {
+      "value": "list-style",
+      "count": 5
+    },
+    {
+      "value": "list-style-type",
+      "count": 1
+    },
+    {
+      "value": "margin",
+      "count": 57
+    },
+    {
+      "value": "margin-bottom",
+      "count": 120
+    },
+    {
+      "value": "margin-left",
+      "count": 133
+    },
+    {
+      "value": "margin-right",
+      "count": 81
+    },
+    {
+      "value": "margin-top",
+      "count": 103
+    },
+    {
+      "value": "max-height",
+      "count": 5
+    },
+    {
+      "value": "max-width",
+      "count": 84
+    },
+    {
+      "value": "min-height",
+      "count": 5
+    },
+    {
+      "value": "min-width",
+      "count": 24
+    },
+    {
+      "value": "opacity",
+      "count": 16
+    },
+    {
+      "value": "order",
+      "count": 75
+    },
+    {
+      "value": "outline",
+      "count": 53
+    },
+    {
+      "value": "outline-color",
+      "count": 26
+    },
+    {
+      "value": "outline-offset",
+      "count": 5
+    },
+    {
+      "value": "overflow",
+      "count": 27
+    },
+    {
+      "value": "overflow-x",
+      "count": 17
+    },
+    {
+      "value": "overflow-y",
+      "count": 16
+    },
+    {
+      "value": "padding",
+      "count": 82
+    },
+    {
+      "value": "padding-bottom",
+      "count": 53
+    },
+    {
+      "value": "padding-left",
+      "count": 94
+    },
+    {
+      "value": "padding-right",
+      "count": 89
+    },
+    {
+      "value": "padding-top",
+      "count": 53
+    },
+    {
+      "value": "pointer-events",
+      "count": 6
+    },
+    {
+      "value": "position",
+      "count": 85
+    },
+    {
+      "value": "right",
+      "count": 31
+    },
+    {
+      "value": "scrollbar-color",
+      "count": 9
+    },
+    {
+      "value": "scrollbar-width",
+      "count": 5
+    },
+    {
+      "value": "text-align",
+      "count": 23
+    },
+    {
+      "value": "text-decoration",
+      "count": 16
+    },
+    {
+      "value": "text-overflow",
+      "count": 1
+    },
+    {
+      "value": "text-shadow",
+      "count": 1
+    },
+    {
+      "value": "text-transform",
+      "count": 4
+    },
+    {
+      "value": "top",
+      "count": 56
+    },
+    {
+      "value": "transform",
+      "count": 39
+    },
+    {
+      "value": "transition",
+      "count": 18
+    },
+    {
+      "value": "user-select",
+      "count": 4
+    },
+    {
+      "value": "vertical-align",
+      "count": 10
+    },
+    {
+      "value": "visibility",
+      "count": 17
+    },
+    {
+      "value": "white-space",
+      "count": 18
+    },
+    {
+      "value": "width",
+      "count": 160
+    },
+    {
+      "value": "word-wrap",
+      "count": 1
+    },
+    {
+      "value": "z-index",
+      "count": 50
+    }
+  ],
+  "properties.totalUnique": 139,
+  "properties.prefixed.total": 1014,
+  "properties.prefixed.unique": [
+    {
+      "value": "-moz-appearance",
+      "count": 1
+    },
+    {
+      "value": "-moz-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-moz-box-shadow",
+      "count": 143
+    },
+    {
+      "value": "-moz-box-sizing",
+      "count": 2
+    },
+    {
+      "value": "-moz-osx-font-smoothing",
+      "count": 21
+    },
+    {
+      "value": "-moz-user-select",
+      "count": 4
+    },
+    {
+      "value": "-ms-flex",
+      "count": 83
+    },
+    {
+      "value": "-ms-flex-align",
+      "count": 44
+    },
+    {
+      "value": "-ms-flex-direction",
+      "count": 22
+    },
+    {
+      "value": "-ms-flex-flow",
+      "count": 7
+    },
+    {
+      "value": "-ms-flex-item-align",
+      "count": 30
+    },
+    {
+      "value": "-ms-flex-line-pack",
+      "count": 30
+    },
+    {
+      "value": "-ms-flex-negative",
+      "count": 10
+    },
+    {
+      "value": "-ms-flex-order",
+      "count": 75
+    },
+    {
+      "value": "-ms-flex-pack",
+      "count": 32
+    },
+    {
+      "value": "-ms-flex-positive",
+      "count": 15
+    },
+    {
+      "value": "-ms-flex-preferred-size",
+      "count": 5
+    },
+    {
+      "value": "-ms-flex-wrap",
+      "count": 22
+    },
+    {
+      "value": "-ms-transform",
+      "count": 1
+    },
+    {
+      "value": "-ms-user-select",
+      "count": 4
+    },
+    {
+      "value": "-webkit-appearance",
+      "count": 5
+    },
+    {
+      "value": "-webkit-background-clip",
+      "count": 1
+    },
+    {
+      "value": "-webkit-box-flex",
+      "count": 38
+    },
+    {
+      "value": "-webkit-box-ordinal-group",
+      "count": 75
+    },
+    {
+      "value": "-webkit-box-shadow",
+      "count": 143
+    },
+    {
+      "value": "-webkit-box-sizing",
+      "count": 2
+    },
+    {
+      "value": "-webkit-flex",
+      "count": 65
+    },
+    {
+      "value": "-webkit-flex-basis",
+      "count": 5
+    },
+    {
+      "value": "-webkit-flex-grow",
+      "count": 5
+    },
+    {
+      "value": "-webkit-flex-wrap",
+      "count": 2
+    },
+    {
+      "value": "-webkit-font-smoothing",
+      "count": 21
+    },
+    {
+      "value": "-webkit-order",
+      "count": 75
+    },
+    {
+      "value": "-webkit-overflow-scrolling",
+      "count": 1
+    },
+    {
+      "value": "-webkit-text-size-adjust",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transform",
+      "count": 1
+    },
+    {
+      "value": "-webkit-transition",
+      "count": 18
+    },
+    {
+      "value": "-webkit-user-select",
+      "count": 4
+    }
+  ],
+  "properties.prefixed.totalUnique": 37,
+  "properties.prefixed.share": 0.19541337444594334,
+  "properties.browserhacks.total": 0,
+  "properties.browserhacks.unique": [],
+  "properties.browserhacks.totalUnique": 0,
+  "values.total": 5189,
+  "values.prefixed.total": 45,
+  "values.prefixed.unique": [
+    {
+      "value": "-ms-flexbox",
+      "count": 29
+    },
+    {
+      "value": "-ms-inline-flexbox",
+      "count": 7
+    },
+    {
+      "value": "-webkit-box",
+      "count": 2
+    },
+    {
+      "value": "-webkit-flex",
+      "count": 2
+    },
+    {
+      "value": "-webkit-sticky",
+      "count": 5
+    }
+  ],
+  "values.prefixed.totalUnique": 5,
+  "values.prefixed.share": 0.008672191173636538,
+  "values.fontsizes.total": 58,
+  "values.fontsizes.unique": [
+    {
+      "value": "4rem",
+      "count": 1
+    },
+    {
+      "value": "3.6rem",
+      "count": 1
+    },
+    {
+      "value": "3rem",
+      "count": 1
+    },
+    {
+      "value": "2.4rem",
+      "count": 2
+    },
+    {
+      "value": "2.2rem",
+      "count": 1
+    },
+    {
+      "value": "2em",
+      "count": 1
+    },
+    {
+      "value": "2rem",
+      "count": 7
+    },
+    {
+      "value": "1.8rem",
+      "count": 9
+    },
+    {
+      "value": "1.6rem",
+      "count": 4
+    },
+    {
+      "value": "1.5rem",
+      "count": 2
+    },
+    {
+      "value": "1.4rem",
+      "count": 8
+    },
+    {
+      "value": "1.2rem",
+      "count": 12
+    },
+    {
+      "value": "1em",
+      "count": 1
+    },
+    {
+      "value": "100%",
+      "count": 1
+    },
+    {
+      "value": "87.5%",
+      "count": 1
+    },
+    {
+      "value": "80%",
+      "count": 1
+    },
+    {
+      "value": "75%",
+      "count": 2
+    },
+    {
+      "value": "62.5%",
+      "count": 3
+    }
+  ],
+  "values.fontsizes.totalUnique": 18,
+  "values.fontfamilies.total": 5,
+  "values.fontfamilies.unique": [
+    {
+      "value": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+      "count": 1
+    },
+    {
+      "value": "monospace,monospace",
+      "count": 1
+    },
+    {
+      "value": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "count": 3
+    }
+  ],
+  "values.fontfamilies.totalUnique": 3,
+  "values.colors.total": 1175,
+  "values.colors.unique": [
+    {
+      "value": "#302c1d",
+      "count": 2
+    },
+    {
+      "value": "#ffcf00",
+      "count": 46
+    },
+    {
+      "value": "rgba(255,207,0,.3)",
+      "count": 12
+    },
+    {
+      "value": "#8e7710",
+      "count": 2
+    },
+    {
+      "value": "#fff6cc",
+      "count": 2
+    },
+    {
+      "value": "#ffe04d",
+      "count": 14
+    },
+    {
+      "value": "#81eea8",
+      "count": 14
+    },
+    {
+      "value": "#d5f9e5",
+      "count": 2
+    },
+    {
+      "value": "#0be881",
+      "count": 46
+    },
+    {
+      "value": "rgba(11,232,129,.3)",
+      "count": 12
+    },
+    {
+      "value": "#0d8951",
+      "count": 2
+    },
+    {
+      "value": "#17312a",
+      "count": 2
+    },
+    {
+      "value": "#ecf0f1",
+      "count": 7
+    },
+    {
+      "value": "#dadfe1",
+      "count": 5
+    },
+    {
+      "value": "#0d518f",
+      "count": 5
+    },
+    {
+      "value": "#cfe7fd",
+      "count": 2
+    },
+    {
+      "value": "#1890ff",
+      "count": 92
+    },
+    {
+      "value": "rgba(24,144,255,.6)",
+      "count": 27
+    },
+    {
+      "value": "rgba(24,144,255,.3)",
+      "count": 50
+    },
+    {
+      "value": "#45a3fb",
+      "count": 26
+    },
+    {
+      "value": "#111417",
+      "count": 8
+    },
+    {
+      "value": "#172636",
+      "count": 2
+    },
+    {
+      "value": "#25282c",
+      "count": 4
+    },
+    {
+      "value": "#191c20",
+      "count": 18
+    },
+    {
+      "value": "#47494d",
+      "count": 7
+    },
+    {
+      "value": "#bababc",
+      "count": 10
+    },
+    {
+      "value": "#301923",
+      "count": 2
+    },
+    {
+      "value": "#8c0e2e",
+      "count": 2
+    },
+    {
+      "value": "#f8d0d9",
+      "count": 4
+    },
+    {
+      "value": "#ed586c",
+      "count": 17
+    },
+    {
+      "value": "rgba(245,34,45,.6)",
+      "count": 6
+    },
+    {
+      "value": "rgba(245,34,45,.3)",
+      "count": 21
+    },
+    {
+      "value": "#ff4d4f",
+      "count": 54
+    },
+    {
+      "value": "#fff",
+      "count": 101
+    },
+    {
+      "value": "rgba(255,255,255,.8)",
+      "count": 51
+    },
+    {
+      "value": "rgba(255,255,255,.65)",
+      "count": 11
+    },
+    {
+      "value": "rgba(255,255,255,.6)",
+      "count": 3
+    },
+    {
+      "value": "rgba(255,255,255,.5)",
+      "count": 5
+    },
+    {
+      "value": "rgba(255,255,255,.4)",
+      "count": 3
+    },
+    {
+      "value": "rgba(255,255,255,.3)",
+      "count": 4
+    },
+    {
+      "value": "rgba(255,255,255,.25)",
+      "count": 11
+    },
+    {
+      "value": "rgba(255,255,255,.2)",
+      "count": 15
+    },
+    {
+      "value": "rgba(255,255,255,.15)",
+      "count": 8
+    },
+    {
+      "value": "rgba(255,255,255,.1)",
+      "count": 12
+    },
+    {
+      "value": "rgba(255,255,255,.05)",
+      "count": 34
+    },
+    {
+      "value": "rgba(255,255,255,.025)",
+      "count": 10
+    },
+    {
+      "value": "rgba(255,255,255,.02)",
+      "count": 3
+    },
+    {
+      "value": "#f7f7f7",
+      "count": 12
+    },
+    {
+      "value": "rgba(0,0,0,.95)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.85)",
+      "count": 75
+    },
+    {
+      "value": "rgba(0,0,0,.8)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.75)",
+      "count": 2
+    },
+    {
+      "value": "rgba(0,0,0,.7)",
+      "count": 28
+    },
+    {
+      "value": "rgba(0,0,0,.6)",
+      "count": 5
+    },
+    {
+      "value": "rgba(0,0,0,.5)",
+      "count": 1
+    },
+    {
+      "value": "rgba(0,0,0,.4)",
+      "count": 27
+    },
+    {
+      "value": "rgba(0,0,0,.35)",
+      "count": 6
+    },
+    {
+      "value": "rgba(0,0,0,.3)",
+      "count": 22
+    },
+    {
+      "value": "rgba(0,0,0,.25)",
+      "count": 8
+    },
+    {
+      "value": "rgba(0,0,0,.2)",
+      "count": 67
+    },
+    {
+      "value": "rgba(0,0,0,.15)",
+      "count": 26
+    },
+    {
+      "value": "rgba(0,0,0,.1)",
+      "count": 42
+    },
+    {
+      "value": "rgba(0,0,0,.05)",
+      "count": 43
+    },
+    {
+      "value": "rgba(0,0,0,.045)",
+      "count": 3
+    },
+    {
+      "value": "rgba(0,0,0,.025)",
+      "count": 10
+    }
+  ],
+  "values.colors.totalUnique": 65,
+  "values.colors.duplicates.unique": [],
+  "values.colors.duplicates.totalUnique": 0,
+  "values.colors.duplicates.total": 0,
+  "values.browserhacks.total": 0,
+  "values.browserhacks.unique": [],
+  "values.browserhacks.totalUnique": 0,
+  "values.boxshadows.total": 75,
+  "values.boxshadows.unique": [
+    {
+      "value": "0 .1rem .2rem rgba(0,0,0,.15)",
+      "count": 1
+    },
+    {
+      "value": "0 .1rem .6rem rgba(0,0,0,.4)",
+      "count": 1
+    },
+    {
+      "value": "0 .2rem .4rem rgba(0,0,0,.15)",
+      "count": 2
+    },
+    {
+      "value": "0 .2rem .8rem rgba(0,0,0,.4)",
+      "count": 2
+    },
+    {
+      "value": "0 .2rem 0 rgba(0,0,0,.1)",
+      "count": 9
+    },
+    {
+      "value": "0 .2rem 0 rgba(0,0,0,.05)",
+      "count": 10
+    },
+    {
+      "value": "0 .2rem 0 rgba(0,0,0,.025)",
+      "count": 3
+    },
+    {
+      "value": "0 .2rem 0 rgba(0,0,0,.045)",
+      "count": 1
+    },
+    {
+      "value": "0 .4rem .8rem rgba(0,0,0,.15)",
+      "count": 1
+    },
+    {
+      "value": "0 .4rem 1.2rem rgba(0,0,0,.4)",
+      "count": 1
+    },
+    {
+      "value": "0 0 0 .2rem rgba(24,144,255,.3)",
+      "count": 9
+    },
+    {
+      "value": "0 0 0 .2rem rgba(24,144,255,.6)",
+      "count": 9
+    },
+    {
+      "value": "0 0 0 .2rem rgba(245,34,45,.3)",
+      "count": 3
+    },
+    {
+      "value": "0 0 0 .2rem rgba(245,34,45,.6)",
+      "count": 2
+    },
+    {
+      "value": "0 0 0 .3rem rgba(11,232,129,.3)",
+      "count": 4
+    },
+    {
+      "value": "0 0 0 .3rem rgba(24,144,255,.3)",
+      "count": 7
+    },
+    {
+      "value": "0 0 0 .3rem rgba(245,34,45,.3)",
+      "count": 4
+    },
+    {
+      "value": "0 0 0 .3rem rgba(255,207,0,.3)",
+      "count": 4
+    },
+    {
+      "value": "inset 0 0 0 .2rem #0d518f",
+      "count": 1
+    },
+    {
+      "value": "inset 0 0 0 .2rem #45a3fb",
+      "count": 1
+    }
+  ],
+  "values.boxshadows.totalUnique": 20,
+  "values.textshadows.total": 0,
+  "values.textshadows.unique": [],
+  "values.textshadows.totalUnique": 0,
+  "values.zindexes.total": 45,
+  "values.zindexes.unique": [
+    {
+      "value": -1,
+      "count": 1
+    },
+    {
+      "value": 0,
+      "count": 5
+    },
+    {
+      "value": 1,
+      "count": 2
+    },
+    {
+      "value": 10,
+      "count": 8
+    },
+    {
+      "value": 20,
+      "count": 6
+    },
+    {
+      "value": 30,
+      "count": 5
+    },
+    {
+      "value": 40,
+      "count": 6
+    },
+    {
+      "value": 45,
+      "count": 2
+    },
+    {
+      "value": 50,
+      "count": 7
+    },
+    {
+      "value": 90,
+      "count": 1
+    },
+    {
+      "value": 99,
+      "count": 1
+    },
+    {
+      "value": 100,
+      "count": 1
+    }
+  ],
+  "values.zindexes.totalUnique": 12,
+  "values.animations.durations.total": 34,
+  "values.animations.durations.unique": [
+    {
+      "value": "0s",
+      "count": 7
+    },
+    {
+      "value": ".1s",
+      "count": 16
+    },
+    {
+      "value": ".4s",
+      "count": 7
+    },
+    {
+      "value": ".5s",
+      "count": 3
+    },
+    {
+      "value": "2s",
+      "count": 1
+    }
+  ],
+  "values.animations.durations.totalUnique": 5,
+  "values.animations.timingFunctions.total": 7,
+  "values.animations.timingFunctions.unique": [
+    {
+      "value": "cubic-bezier(.25,.8,.25,1)",
+      "count": 6
+    },
+    {
+      "value": "linear",
+      "count": 1
+    }
+  ],
+  "values.animations.timingFunctions.totalUnique": 2
+}

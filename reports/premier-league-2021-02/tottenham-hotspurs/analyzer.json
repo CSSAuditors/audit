@@ -1,10 +1,10 @@
 {
-  "stylesheets.size.uncompressed.totalBytes": 483161,
-  "stylesheets.size.compressed.gzip.totalBytes": 78339,
-  "stylesheets.size.compressed.gzip.compressionRatio": 0.8378614995829547,
-  "stylesheets.simplicity": 0.7433608058608059,
-  "stylesheets.cohesion.average": 2.9990760702186634,
-  "stylesheets.cohesion.min.count": 34,
+  "stylesheets.size.uncompressed.totalBytes": 436951,
+  "stylesheets.size.compressed.gzip.totalBytes": 75824,
+  "stylesheets.size.compressed.gzip.compressionRatio": 0.826470244947374,
+  "stylesheets.simplicity": 0.7512205947625389,
+  "stylesheets.cohesion.average": 2.9887740029542096,
+  "stylesheets.cohesion.min.count": 31,
   "stylesheets.cohesion.min.value.declarations": [
     {
       "property": "font-family",
@@ -73,7 +73,7 @@
     },
     {
       "property": "border-radius",
-      "value": "0px",
+      "value": "0",
       "important": false
     },
     {
@@ -97,22 +97,7 @@
       "important": false
     },
     {
-      "property": "bottom",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "left",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "right",
-      "value": "auto",
-      "important": false
-    },
-    {
-      "property": "top",
+      "property": "inset",
       "value": "auto",
       "important": false
     },
@@ -268,8 +253,8 @@
   ],
   "stylesheets.browserhacks.total": 0,
   "stylesheets.browserhacks.totalUnique": 0,
-  "stylesheets.linesOfCode.total": 18791,
-  "stylesheets.linesOfCode.sourceLinesOfCode.total": 14798,
+  "stylesheets.linesOfCode.total": 1,
+  "stylesheets.linesOfCode.sourceLinesOfCode.total": 15349,
   "atrules.charsets.total": 0,
   "atrules.charsets.unique": [],
   "atrules.charsets.totalUnique": 0,
@@ -463,11 +448,19 @@
   "atrules.imports.total": 0,
   "atrules.imports.unique": [],
   "atrules.imports.totalUnique": 0,
-  "atrules.keyframes.total": 30,
+  "atrules.keyframes.total": 46,
   "atrules.keyframes.unique": [
+    {
+      "value": "dy-backdrop-show15652205",
+      "count": 2
+    },
     {
       "value": "dy-modal-enter",
       "count": 1
+    },
+    {
+      "value": "dy-modal-enter15652205",
+      "count": 2
     },
     {
       "value": "dy_appear_from_bottom",
@@ -484,6 +477,46 @@
     {
       "value": "dy_exit_top",
       "count": 2
+    },
+    {
+      "value": "fb_bounce_in_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_in_v2",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_out_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_bounce_out_v2",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_bounce_in",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_bounce_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_fade_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_out",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_out_from_left",
+      "count": 1
+    },
+    {
+      "value": "fb_mpn_landing_page_slide_up",
+      "count": 1
     },
     {
       "value": "fb_transform",
@@ -518,6 +551,14 @@
       "count": 2
     },
     {
+      "value": "slideInFromBottom",
+      "count": 1
+    },
+    {
+      "value": "slideInFromBottomDelay",
+      "count": 1
+    },
+    {
       "value": "tg-modal-fade-in",
       "count": 2
     },
@@ -534,11 +575,19 @@
       "count": 2
     }
   ],
-  "atrules.keyframes.totalUnique": 17,
-  "atrules.keyframes.prefixed.total": 14,
+  "atrules.keyframes.totalUnique": 31,
+  "atrules.keyframes.prefixed.total": 16,
   "atrules.keyframes.prefixed.unique": [
     {
+      "value": "@-webkit-keyframes dy-backdrop-show15652205",
+      "count": 1
+    },
+    {
       "value": "@-webkit-keyframes dy-modal-enter",
+      "count": 1
+    },
+    {
+      "value": "@-webkit-keyframes dy-modal-enter15652205",
       "count": 1
     },
     {
@@ -594,9 +643,9 @@
       "count": 1
     }
   ],
-  "atrules.keyframes.prefixed.totalUnique": 14,
-  "atrules.keyframes.prefixed.share": 2.142857142857143,
-  "atrules.mediaqueries.total": 626,
+  "atrules.keyframes.prefixed.totalUnique": 16,
+  "atrules.keyframes.prefixed.share": 2.875,
+  "atrules.mediaqueries.total": 644,
   "atrules.mediaqueries.unique": [
     {
       "value": "(max-width:500px)",
@@ -656,7 +705,7 @@
     },
     {
       "value": "only screen and (min-width:500px)",
-      "count": 12
+      "count": 13
     },
     {
       "value": "only screen and (min-width:550px)",
@@ -664,7 +713,7 @@
     },
     {
       "value": "only screen and (min-width:660px)",
-      "count": 142
+      "count": 141
     },
     {
       "value": "only screen and (min-width:660px) and (min-width:1000px)",
@@ -684,7 +733,7 @@
     },
     {
       "value": "only screen and (min-width:1000px)",
-      "count": 313
+      "count": 320
     },
     {
       "value": "only screen and (min-width:1000px) and (min-width:1000px)",
@@ -704,14 +753,10 @@
     },
     {
       "value": "only screen and (min-width:1600px)",
-      "count": 95
-    },
-    {
-      "value": "screen and (max-width:659px)",
-      "count": 1
+      "count": 107
     }
   ],
-  "atrules.mediaqueries.totalUnique": 28,
+  "atrules.mediaqueries.totalUnique": 27,
   "atrules.mediaqueries.browserhacks.total": 0,
   "atrules.mediaqueries.browserhacks.unique": [],
   "atrules.mediaqueries.browserhacks.totalUnique": 0,
@@ -727,9 +772,9 @@
   "atrules.supports.browserhacks.total": 0,
   "atrules.supports.browserhacks.unique": [],
   "atrules.supports.browserhacks.totalUnique": 0,
-  "rules.total": 3247,
+  "rules.total": 3385,
   "rules.empty.total": 0,
-  "rules.selectors.average": 1.3452417616261163,
+  "rules.selectors.average": 1.3311669128508123,
   "rules.selectors.minimum.count": 1,
   "rules.selectors.minimum.value": [
     "#document-main"
@@ -824,20 +869,56 @@
     "#ot-sdk-cookie-policy tr",
     "#ot-sdk-cookie-policy ul"
   ],
-  "selectors.total": 4368,
-  "selectors.totalUnique": 3226,
+  "selectors.total": 4506,
+  "selectors.totalUnique": 3337,
   "selectors.js.total": 1,
   "selectors.js.unique": [
     {
-      "value": ".FixtureItem__summary .wrapper > span.js-open-expanded",
+      "value": ".FixtureItem__summary .wrapper>span.js-open-expanded",
       "count": 1
     }
   ],
   "selectors.js.totalUnique": 1,
-  "selectors.id.total": 1370,
+  "selectors.id.total": 1379,
   "selectors.id.unique": [
     {
       "value": "#document-main",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__backdrop",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__backdrop--open-animation",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__close",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__close:hover",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__content-wrapper",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-modal__content-wrapper--open-animation",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .dy-visible",
+      "count": 1
+    },
+    {
+      "value": "#dy-modal15652205 .SplashScreen",
       "count": 1
     },
     {
@@ -981,11 +1062,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .banner-option-input:checked ~ .banner-option-details",
+      "value": "#onetrust-banner-sdk .banner-option-input:checked~.banner-option-details",
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .banner-option-input:checked ~ label .banner-option-header .ot-arrow-container",
+      "value": "#onetrust-banner-sdk .banner-option-input:checked~label .banner-option-header .ot-arrow-container",
       "count": 1
     },
     {
@@ -1069,7 +1150,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk .ot-dpd-desc > .ot-b-addl-desc",
+      "value": "#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc",
       "count": 1
     },
     {
@@ -1369,15 +1450,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container) > button:focus",
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus",
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container) > button:hover",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-banner-sdk > .ot-sdk-container",
+      "value": "#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -1613,15 +1690,15 @@
       "count": 2
     },
     {
-      "value": "#onetrust-banner-sdk label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#onetrust-banner-sdk label::after",
       "count": 1
     },
     {
       "value": "#onetrust-banner-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk label>.label-body",
       "count": 1
     },
     {
@@ -1653,7 +1730,7 @@
       "count": 2
     },
     {
-      "value": "#onetrust-banner-sdk pre > code",
+      "value": "#onetrust-banner-sdk pre>code",
       "count": 1
     },
     {
@@ -1797,7 +1874,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc) > .ot-b-addl-desc",
+      "value": "#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc)>.ot-b-addl-desc",
       "count": 2
     },
     {
@@ -1826,6 +1903,10 @@
     },
     {
       "value": "#onetrust-banner-sdk:not(.ot-iab-2).vertical-align-content #onetrust-button-group-parent",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-banner-sdk>.ot-sdk-container",
       "count": 1
     },
     {
@@ -1933,7 +2014,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler + a",
+      "value": "#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler+a",
       "count": 1
     },
     {
@@ -2141,7 +2222,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container .host-info > a",
+      "value": "#onetrust-pc-sdk #hosts-list-container .host-info>a",
       "count": 1
     },
     {
@@ -2169,15 +2250,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li > div div",
+      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li>div div",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li > div div:nth-child(1)",
+      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li>div div:nth-child(1)",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li > div div:nth-child(2)",
+      "value": "#onetrust-pc-sdk #hosts-list-container .host-option-group li>div div:nth-child(2)",
       "count": 1
     },
     {
@@ -2185,12 +2266,12 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container .host-title + a",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk #hosts-list-container .host-title a",
       "count": 3
+    },
+    {
+      "value": "#onetrust-pc-sdk #hosts-list-container .host-title+a",
+      "count": 1
     },
     {
       "value": "#onetrust-pc-sdk #hosts-list-container .ot-arrow-container",
@@ -2213,7 +2294,7 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk #hosts-list-container input:checked ~ .accordion-header .ot-arrow-container",
+      "value": "#onetrust-pc-sdk #hosts-list-container input:checked~.accordion-header .ot-arrow-container",
       "count": 1
     },
     {
@@ -2301,11 +2382,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #search-container > svg",
+      "value": "#onetrust-pc-sdk #search-container svg",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #search-container svg",
+      "value": "#onetrust-pc-sdk #search-container>svg",
       "count": 1
     },
     {
@@ -2397,11 +2478,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #vendor-list-content.host-list-content + #vendor-list-save-btn",
+      "value": "#onetrust-pc-sdk #vendor-list-content.host-list-content .ot-sdk-column",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk #vendor-list-content.host-list-content .ot-sdk-column",
+      "value": "#onetrust-pc-sdk #vendor-list-content.host-list-content+#vendor-list-save-btn",
       "count": 1
     },
     {
@@ -2553,7 +2634,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-item .ot-switch.ot-toggle input:focus + .ot-switch-label",
+      "value": "#onetrust-pc-sdk .category-item .ot-switch.ot-toggle input:focus+.ot-switch-label",
       "count": 1
     },
     {
@@ -2561,15 +2642,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-item p > ul",
+      "value": "#onetrust-pc-sdk .category-item p>ul",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-item p > ul li",
+      "value": "#onetrust-pc-sdk .category-item p>ul li",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-item p > ul li:last-child",
+      "value": "#onetrust-pc-sdk .category-item p>ul li:last-child",
       "count": 1
     },
     {
@@ -2589,15 +2670,15 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a",
       "count": 4
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a::after",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .category-vendors-list-handler + a:hover",
+      "value": "#onetrust-pc-sdk .category-vendors-list-handler+a:hover",
       "count": 1
     },
     {
@@ -2633,7 +2714,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .host-list-content + #vendor-list-save-btn",
+      "value": "#onetrust-pc-sdk .host-list-content+#vendor-list-save-btn",
       "count": 1
     },
     {
@@ -2661,7 +2742,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-group-pc-container + .ot-leg-btn-container",
+      "value": "#onetrust-pc-sdk .ot-accordion-group-pc-container+.ot-leg-btn-container",
       "count": 1
     },
     {
@@ -2677,11 +2758,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-header + .ot-arrow-container",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-header+.ot-arrow-container",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-header + .ot-arrow-container .ot-arrow",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .category-header+.ot-arrow-container .ot-arrow",
       "count": 1
     },
     {
@@ -2705,7 +2786,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-always-active-group > .ot-arrow-container",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout .ot-always-active-group>.ot-arrow-container",
       "count": 1
     },
     {
@@ -2733,23 +2814,23 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item > input[type=checkbox]",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked ~ .accordion-text",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked~.ot-accordion-pc-container",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked ~ .ot-accordion-pc-container",
-      "count": 1
-    },
-    {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:not(:checked) ~ .accordion-text",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:not(:checked)~.accordion-text",
       "count": 1
     },
     {
       "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item:first-of-type",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item>input[type=checkbox]",
       "count": 1
     },
     {
@@ -2781,7 +2862,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input:checked ~ label::before",
+      "value": "#onetrust-pc-sdk .ot-checkbox input:checked~label::before",
       "count": 1
     },
     {
@@ -2789,15 +2870,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox] + label::after",
+      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:checked + label::after",
+      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:checked+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:focus + label::before",
+      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:focus+label::before",
       "count": 1
     },
     {
@@ -3225,7 +3306,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .switch + p",
+      "value": "#onetrust-pc-sdk .switch+p",
       "count": 2
     },
     {
@@ -3233,15 +3314,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .switch-checkbox:checked + .ot-switch-label",
+      "value": "#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .switch-checkbox:checked + .ot-switch-label .ot-switch-inner",
+      "value": "#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label .ot-switch-inner",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .switch-checkbox:checked + .ot-switch-label .ot-switch-nob",
+      "value": "#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label .ot-switch-nob",
       "count": 1
     },
     {
@@ -3361,11 +3442,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container) > button:focus",
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container) > button:hover",
+      "value": "#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -3373,15 +3454,15 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label::after",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk [type=checkbox]:disabled + label::before",
+      "value": "#onetrust-pc-sdk [type=checkbox]:disabled+label::before",
       "count": 1
     },
     {
@@ -3489,7 +3570,7 @@
       "count": 4
     },
     {
-      "value": "#onetrust-pc-sdk input:checked ~ .accordion-header .ot-arrow",
+      "value": "#onetrust-pc-sdk input:checked~.accordion-header .ot-arrow",
       "count": 1
     },
     {
@@ -3521,7 +3602,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk input[type=checkbox]:focus + .accordion-header",
+      "value": "#onetrust-pc-sdk input[type=checkbox]:focus+.accordion-header",
       "count": 1
     },
     {
@@ -3637,15 +3718,15 @@
       "count": 3
     },
     {
-      "value": "#onetrust-pc-sdk label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#onetrust-pc-sdk label::after",
       "count": 1
     },
     {
       "value": "#onetrust-pc-sdk label::before",
+      "count": 1
+    },
+    {
+      "value": "#onetrust-pc-sdk label>.label-body",
       "count": 1
     },
     {
@@ -3689,19 +3770,19 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.cookie-subgroup > h6",
+      "value": "#onetrust-pc-sdk li.cookie-subgroup p>ul",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.cookie-subgroup p > ul",
+      "value": "#onetrust-pc-sdk li.cookie-subgroup p>ul li",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.cookie-subgroup p > ul li",
+      "value": "#onetrust-pc-sdk li.cookie-subgroup p>ul li:last-child",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk li.cookie-subgroup p > ul li:last-child",
+      "value": "#onetrust-pc-sdk li.cookie-subgroup>h6",
       "count": 1
     },
     {
@@ -3725,7 +3806,7 @@
       "count": 5
     },
     {
-      "value": "#onetrust-pc-sdk pre > code",
+      "value": "#onetrust-pc-sdk pre>code",
       "count": 1
     },
     {
@@ -3797,11 +3878,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:checked ~ .accordion-text",
+      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:checked~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:not(:checked) ~ .accordion-text",
+      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:not(:checked)~.accordion-text",
       "count": 1
     },
     {
@@ -3893,11 +3974,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out .accordion-header .ot-arrow-container + .ot-switch.ot-toggle",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out .accordion-header .ot-arrow-container+.ot-switch.ot-toggle",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out .accordion-text h4 + .ot-switch.ot-toggle",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out .accordion-text h4+.ot-switch.ot-toggle",
       "count": 1
     },
     {
@@ -3957,7 +4038,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out .ot-accordion-pc-container li.cookie-subgroup > h6 + .cookie-subgroup-toggle",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out .ot-accordion-pc-container li.cookie-subgroup>h6+.cookie-subgroup-toggle",
       "count": 1
     },
     {
@@ -3965,7 +4046,7 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out .ot-leg-int-tgl + .ot-arrow-container",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out .ot-leg-int-tgl+.ot-arrow-container",
       "count": 1
     },
     {
@@ -3977,11 +4058,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out li.cookie-subgroup > h6",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out li.cookie-subgroup>h6",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.ot-leg-opt-out li.cookie-subgroup > h6 + .cookie-subgroup-toggle",
+      "value": "#onetrust-pc-sdk.ot-leg-opt-out li.cookie-subgroup>h6+.cookie-subgroup-toggle",
       "count": 1
     },
     {
@@ -4045,11 +4126,11 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input ~ .accordion-header .ot-arrow",
+      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input:checked~.accordion-header .ot-arrow",
       "count": 2
     },
     {
-      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input:checked ~ .accordion-header .ot-arrow",
+      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input~.accordion-header .ot-arrow",
       "count": 2
     },
     {
@@ -4377,11 +4458,11 @@
       "count": 1
     },
     {
-      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:focus",
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus",
       "count": 1
     },
     {
-      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container) > button:hover",
+      "value": "#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:hover",
       "count": 1
     },
     {
@@ -4597,15 +4678,15 @@
       "count": 2
     },
     {
-      "value": "#ot-sdk-cookie-policy label > .label-body",
-      "count": 1
-    },
-    {
       "value": "#ot-sdk-cookie-policy label::after",
       "count": 1
     },
     {
       "value": "#ot-sdk-cookie-policy label::before",
+      "count": 1
+    },
+    {
+      "value": "#ot-sdk-cookie-policy label>.label-body",
       "count": 1
     },
     {
@@ -4637,7 +4718,7 @@
       "count": 2
     },
     {
-      "value": "#ot-sdk-cookie-policy pre > code",
+      "value": "#ot-sdk-cookie-policy pre>code",
       "count": 1
     },
     {
@@ -4746,10 +4827,6 @@
     },
     {
       "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header",
-      "count": 1
-    },
-    {
-      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy > section",
       "count": 1
     },
     {
@@ -4863,6 +4940,10 @@
     {
       "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr",
       "count": 2
+    },
+    {
+      "value": "#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section",
+      "count": 1
     },
     {
       "value": ".DotMailerModule #ui-datepicker-div",
@@ -5089,8 +5170,8 @@
       "count": 1
     }
   ],
-  "selectors.id.totalUnique": 1063,
-  "selectors.universal.total": 28,
+  "selectors.id.totalUnique": 1072,
+  "selectors.universal.total": 31,
   "selectors.universal.unique": [
     {
       "value": "#onetrust-banner-sdk #onetrust-policy-text *",
@@ -5201,11 +5282,23 @@
       "count": 1
     },
     {
+      "value": ".FooterSponsors a *",
+      "count": 1
+    },
+    {
       "value": ".IvvyConferenceSignUpForm *",
+      "count": 1
+    },
+    {
+      "value": ".PreferenceCentre__list__item__info>*",
+      "count": 1
+    },
+    {
+      "value": ".PreferenceCentre__text>*",
       "count": 1
     }
   ],
-  "selectors.universal.totalUnique": 28,
+  "selectors.universal.totalUnique": 31,
   "selectors.accessibility.total": 3,
   "selectors.accessibility.unique": [
     {
@@ -5290,35 +5383,35 @@
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked ~ .accordion-text",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked ~ .ot-accordion-pc-container",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:checked~.ot-accordion-pc-container",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:not(:checked) ~ .accordion-text",
+      "value": "#onetrust-pc-sdk .ot-accordion-layout.category-item input[type=checkbox]:not(:checked)~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:checked + label::after",
+      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:checked+label::after",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:focus + label::before",
+      "value": "#onetrust-pc-sdk .ot-checkbox input[type=checkbox]:focus+label::before",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:checked ~ .accordion-text",
+      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:checked~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:not(:checked) ~ .accordion-text",
+      "value": "#onetrust-pc-sdk ul li input[type=checkbox]:not(:checked)~.accordion-text",
       "count": 1
     },
     {
-      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input:checked ~ .accordion-header .ot-arrow",
+      "value": "#onetrust-pc-sdk.otPcCenter[dir=rtl] input:checked~.accordion-header .ot-arrow",
       "count": 2
     },
     {
@@ -5343,8 +5436,8 @@
     }
   ],
   "selectors.complexity.max.count": 14,
-  "selectors.complexity.average": 2.4033882783882783,
-  "selectors.complexity.sum": 10498,
+  "selectors.complexity.average": 2.389924545051043,
+  "selectors.complexity.sum": 10769,
   "selectors.complexity.unique": [
     {
       "value": 0,
@@ -5352,19 +5445,19 @@
     },
     {
       "value": 1,
-      "count": 1151
+      "count": 1207
     },
     {
       "value": 2,
-      "count": 1516
+      "count": 1564
     },
     {
       "value": 3,
-      "count": 999
+      "count": 1022
     },
     {
       "value": 4,
-      "count": 392
+      "count": 401
     },
     {
       "value": 5,
@@ -5376,7 +5469,7 @@
     },
     {
       "value": 7,
-      "count": 31
+      "count": 33
     },
     {
       "value": 8,
@@ -5387,11 +5480,11 @@
   "selectors.browserhacks.total": 0,
   "selectors.browserhacks.unique": [],
   "selectors.browserhacks.totalUnique": 0,
-  "declarations.total": 9767,
-  "declarations.totalUnique": 2160,
-  "declarations.importants.total": 119,
-  "declarations.importants.share": 0.012183884509061124,
-  "properties.total": 9767,
+  "declarations.total": 10146,
+  "declarations.totalUnique": 2229,
+  "declarations.importants.total": 120,
+  "declarations.importants.share": 0.011827321111768185,
+  "properties.total": 10146,
   "properties.unique": [
     {
       "value": "-khtml-user-select",
@@ -5419,10 +5512,14 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 9
+      "count": 10
     },
     {
       "value": "-ms-flex-direction",
+      "count": 1
+    },
+    {
+      "value": "-ms-flex-flow",
       "count": 1
     },
     {
@@ -5431,11 +5528,11 @@
     },
     {
       "value": "-ms-flex-pack",
-      "count": 9
+      "count": 11
     },
     {
       "value": "-ms-flex-positive",
-      "count": 3
+      "count": 5
     },
     {
       "value": "-ms-flex-wrap",
@@ -5451,7 +5548,7 @@
     },
     {
       "value": "-ms-transform",
-      "count": 60
+      "count": 64
     },
     {
       "value": "-ms-transform-origin",
@@ -5487,7 +5584,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 9
+      "count": 8
     },
     {
       "value": "-webkit-backface-visibility",
@@ -5495,7 +5592,7 @@
     },
     {
       "value": "-webkit-box-align",
-      "count": 9
+      "count": 10
     },
     {
       "value": "-webkit-box-direction",
@@ -5503,7 +5600,7 @@
     },
     {
       "value": "-webkit-box-flex",
-      "count": 11
+      "count": 13
     },
     {
       "value": "-webkit-box-orient",
@@ -5511,15 +5608,15 @@
     },
     {
       "value": "-webkit-box-pack",
-      "count": 7
+      "count": 9
     },
     {
       "value": "-webkit-box-shadow",
-      "count": 11
+      "count": 12
     },
     {
       "value": "-webkit-box-sizing",
-      "count": 120
+      "count": 124
     },
     {
       "value": "-webkit-filter",
@@ -5567,7 +5664,7 @@
     },
     {
       "value": "-webkit-transform",
-      "count": 77
+      "count": 81
     },
     {
       "value": "-webkit-transform-origin",
@@ -5595,7 +5692,7 @@
     },
     {
       "value": "align-items",
-      "count": 10
+      "count": 12
     },
     {
       "value": "align-self",
@@ -5603,11 +5700,11 @@
     },
     {
       "value": "animation",
-      "count": 13
+      "count": 15
     },
     {
       "value": "animation-duration",
-      "count": 1
+      "count": 11
     },
     {
       "value": "animation-fill-mode",
@@ -5615,7 +5712,7 @@
     },
     {
       "value": "animation-name",
-      "count": 1
+      "count": 11
     },
     {
       "value": "animation-timing-function",
@@ -5623,7 +5720,7 @@
     },
     {
       "value": "appearance",
-      "count": 3
+      "count": 4
     },
     {
       "value": "backface-visibility",
@@ -5631,7 +5728,7 @@
     },
     {
       "value": "background",
-      "count": 161
+      "count": 172
     },
     {
       "value": "background-clip",
@@ -5639,7 +5736,7 @@
     },
     {
       "value": "background-color",
-      "count": 220
+      "count": 221
     },
     {
       "value": "background-image",
@@ -5667,11 +5764,11 @@
     },
     {
       "value": "border",
-      "count": 94
+      "count": 99
     },
     {
       "value": "border-bottom",
-      "count": 48
+      "count": 49
     },
     {
       "value": "border-bottom-color",
@@ -5711,7 +5808,7 @@
     },
     {
       "value": "border-radius",
-      "count": 50
+      "count": 56
     },
     {
       "value": "border-right",
@@ -5755,19 +5852,19 @@
     },
     {
       "value": "border-width",
-      "count": 6
+      "count": 7
     },
     {
       "value": "bottom",
-      "count": 94
+      "count": 93
     },
     {
       "value": "box-shadow",
-      "count": 23
+      "count": 24
     },
     {
       "value": "box-sizing",
-      "count": 130
+      "count": 134
     },
     {
       "value": "clear",
@@ -5775,19 +5872,19 @@
     },
     {
       "value": "clip",
-      "count": 2
+      "count": 3
     },
     {
       "value": "color",
-      "count": 351
+      "count": 357
     },
     {
       "value": "content",
-      "count": 110
+      "count": 117
     },
     {
       "value": "cursor",
-      "count": 59
+      "count": 61
     },
     {
       "value": "direction",
@@ -5795,7 +5892,7 @@
     },
     {
       "value": "display",
-      "count": 591
+      "count": 618
     },
     {
       "value": "fill",
@@ -5814,8 +5911,12 @@
       "count": 2
     },
     {
+      "value": "flex-flow",
+      "count": 1
+    },
+    {
       "value": "flex-grow",
-      "count": 3
+      "count": 5
     },
     {
       "value": "flex-wrap",
@@ -5839,7 +5940,7 @@
     },
     {
       "value": "font-size",
-      "count": 444
+      "count": 448
     },
     {
       "value": "font-style",
@@ -5851,19 +5952,23 @@
     },
     {
       "value": "font-weight",
-      "count": 220
+      "count": 223
     },
     {
       "value": "height",
-      "count": 550
+      "count": 560
+    },
+    {
+      "value": "inset",
+      "count": 5
     },
     {
       "value": "justify-content",
-      "count": 9
+      "count": 12
     },
     {
       "value": "left",
-      "count": 170
+      "count": 175
     },
     {
       "value": "letter-spacing",
@@ -5871,11 +5976,11 @@
     },
     {
       "value": "line-height",
-      "count": 218
+      "count": 219
     },
     {
       "value": "list-style",
-      "count": 7
+      "count": 9
     },
     {
       "value": "list-style-image",
@@ -5887,7 +5992,7 @@
     },
     {
       "value": "margin",
-      "count": 338
+      "count": 362
     },
     {
       "value": "margin-bottom",
@@ -5895,15 +6000,15 @@
     },
     {
       "value": "margin-left",
-      "count": 315
+      "count": 320
     },
     {
       "value": "margin-right",
-      "count": 305
+      "count": 310
     },
     {
       "value": "margin-top",
-      "count": 164
+      "count": 169
     },
     {
       "value": "max-height",
@@ -5911,11 +6016,11 @@
     },
     {
       "value": "max-width",
-      "count": 377
+      "count": 392
     },
     {
       "value": "min-height",
-      "count": 15
+      "count": 17
     },
     {
       "value": "min-width",
@@ -5927,11 +6032,11 @@
     },
     {
       "value": "opacity",
-      "count": 112
+      "count": 144
     },
     {
       "value": "outline",
-      "count": 22
+      "count": 23
     },
     {
       "value": "outline-offset",
@@ -5947,7 +6052,7 @@
     },
     {
       "value": "overflow",
-      "count": 139
+      "count": 141
     },
     {
       "value": "overflow-wrap",
@@ -5955,7 +6060,7 @@
     },
     {
       "value": "overflow-x",
-      "count": 4
+      "count": 5
     },
     {
       "value": "overflow-y",
@@ -5963,35 +6068,35 @@
     },
     {
       "value": "padding",
-      "count": 239
+      "count": 256
     },
     {
       "value": "padding-bottom",
-      "count": 54
+      "count": 57
     },
     {
       "value": "padding-left",
-      "count": 144
+      "count": 148
     },
     {
       "value": "padding-right",
-      "count": 123
+      "count": 127
     },
     {
       "value": "padding-top",
-      "count": 71
+      "count": 75
     },
     {
       "value": "pointer-events",
-      "count": 5
+      "count": 6
     },
     {
       "value": "position",
-      "count": 410
+      "count": 427
     },
     {
       "value": "right",
-      "count": 130
+      "count": 127
     },
     {
       "value": "scroll-padding-top",
@@ -6007,7 +6112,7 @@
     },
     {
       "value": "text-align",
-      "count": 153
+      "count": 156
     },
     {
       "value": "text-decoration",
@@ -6039,11 +6144,11 @@
     },
     {
       "value": "text-transform",
-      "count": 27
+      "count": 28
     },
     {
       "value": "top",
-      "count": 236
+      "count": 244
     },
     {
       "value": "touch-action",
@@ -6051,11 +6156,11 @@
     },
     {
       "value": "transform",
-      "count": 141
+      "count": 168
     },
     {
       "value": "transform-origin",
-      "count": 1
+      "count": 11
     },
     {
       "value": "transform-style",
@@ -6063,7 +6168,7 @@
     },
     {
       "value": "transition",
-      "count": 53
+      "count": 55
     },
     {
       "value": "transition-delay",
@@ -6074,24 +6179,28 @@
       "count": 1
     },
     {
+      "value": "transition-timing-function",
+      "count": 10
+    },
+    {
       "value": "user-select",
       "count": 10
     },
     {
       "value": "vertical-align",
-      "count": 85
+      "count": 84
     },
     {
       "value": "visibility",
-      "count": 13
+      "count": 17
     },
     {
       "value": "white-space",
-      "count": 27
+      "count": 28
     },
     {
       "value": "width",
-      "count": 731
+      "count": 747
     },
     {
       "value": "will-change",
@@ -6111,15 +6220,15 @@
     },
     {
       "value": "z-index",
-      "count": 102
+      "count": 105
     },
     {
       "value": "zoom",
       "count": 1
     }
   ],
-  "properties.totalUnique": 181,
-  "properties.prefixed.total": 510,
+  "properties.totalUnique": 185,
+  "properties.prefixed.total": 533,
   "properties.prefixed.unique": [
     {
       "value": "-khtml-user-select",
@@ -6147,10 +6256,14 @@
     },
     {
       "value": "-ms-flex-align",
-      "count": 9
+      "count": 10
     },
     {
       "value": "-ms-flex-direction",
+      "count": 1
+    },
+    {
+      "value": "-ms-flex-flow",
       "count": 1
     },
     {
@@ -6159,11 +6272,11 @@
     },
     {
       "value": "-ms-flex-pack",
-      "count": 9
+      "count": 11
     },
     {
       "value": "-ms-flex-positive",
-      "count": 3
+      "count": 5
     },
     {
       "value": "-ms-flex-wrap",
@@ -6179,7 +6292,7 @@
     },
     {
       "value": "-ms-transform",
-      "count": 60
+      "count": 64
     },
     {
       "value": "-ms-transform-origin",
@@ -6215,7 +6328,7 @@
     },
     {
       "value": "-webkit-appearance",
-      "count": 9
+      "count": 8
     },
     {
       "value": "-webkit-backface-visibility",
@@ -6223,7 +6336,7 @@
     },
     {
       "value": "-webkit-box-align",
-      "count": 9
+      "count": 10
     },
     {
       "value": "-webkit-box-direction",
@@ -6231,7 +6344,7 @@
     },
     {
       "value": "-webkit-box-flex",
-      "count": 11
+      "count": 13
     },
     {
       "value": "-webkit-box-orient",
@@ -6239,15 +6352,15 @@
     },
     {
       "value": "-webkit-box-pack",
-      "count": 7
+      "count": 9
     },
     {
       "value": "-webkit-box-shadow",
-      "count": 11
+      "count": 12
     },
     {
       "value": "-webkit-box-sizing",
-      "count": 120
+      "count": 124
     },
     {
       "value": "-webkit-filter",
@@ -6295,7 +6408,7 @@
     },
     {
       "value": "-webkit-transform",
-      "count": 77
+      "count": 81
     },
     {
       "value": "-webkit-transform-origin",
@@ -6322,17 +6435,17 @@
       "count": 11
     }
   ],
-  "properties.prefixed.totalUnique": 50,
-  "properties.prefixed.share": 0.05221664789597625,
+  "properties.prefixed.totalUnique": 51,
+  "properties.prefixed.share": 0.052533017938103686,
   "properties.browserhacks.total": 0,
   "properties.browserhacks.unique": [],
   "properties.browserhacks.totalUnique": 0,
-  "values.total": 9767,
-  "values.prefixed.total": 86,
+  "values.total": 10146,
+  "values.prefixed.total": 94,
   "values.prefixed.unique": [
     {
       "value": "-ms-flexbox",
-      "count": 16
+      "count": 20
     },
     {
       "value": "-o-linear-gradient(left,#111836 0,#111836 10%,transparent 100%)",
@@ -6343,11 +6456,11 @@
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(left,hsla(0,0,100%,0) 20%,hsla(0,0,100%,.8) 100%)",
+      "value": "-o-linear-gradient(left,hsla(0,0%,100%,0) 20%,hsla(0,0%,100%,.8) 100%)",
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(left,rgba(0,0,0,.7) 0,rgba(0,0,0,.6) 30%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.3) 80%,hsla(0,0,100%,0) 100%)",
+      "value": "-o-linear-gradient(left,rgba(0,0,0,.7) 0,rgba(0,0,0,.6) 30%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.3) 80%,hsla(0,0%,100%,0) 100%)",
       "count": 1
     },
     {
@@ -6363,11 +6476,11 @@
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(right,#fff,#fff 20%,hsla(0,0,100%,0))",
+      "value": "-o-linear-gradient(right,#fff,#fff 20%,hsla(0,0%,100%,0))",
       "count": 1
     },
     {
-      "value": "-o-linear-gradient(right,hsla(0,0,100%,0) 20%,hsla(0,0,100%,.8) 100%)",
+      "value": "-o-linear-gradient(right,hsla(0,0%,100%,0) 20%,hsla(0,0%,100%,.8) 100%)",
       "count": 1
     },
     {
@@ -6388,7 +6501,7 @@
     },
     {
       "value": "-webkit-box",
-      "count": 18
+      "count": 22
     },
     {
       "value": "-webkit-flex",
@@ -6411,7 +6524,7 @@
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,left top,right top,color-stop(20%,hsla(0,0,100%,0)),to(hsla(0,0,100%,.8)))",
+      "value": "-webkit-gradient(linear,left top,right top,color-stop(20%,hsla(0,0%,100%,0)),to(hsla(0,0%,100%,.8)))",
       "count": 1
     },
     {
@@ -6423,11 +6536,11 @@
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.7)),color-stop(30%,rgba(0,0,0,.6)),color-stop(50%,rgba(0,0,0,.5)),color-stop(80%,rgba(0,0,0,.3)),to(hsla(0,0,100%,0)))",
+      "value": "-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.7)),color-stop(30%,rgba(0,0,0,.6)),color-stop(50%,rgba(0,0,0,.5)),color-stop(80%,rgba(0,0,0,.3)),to(hsla(0,0%,100%,0)))",
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,right top,left top,color-stop(20%,hsla(0,0,100%,0)),to(hsla(0,0,100%,.8)))",
+      "value": "-webkit-gradient(linear,right top,left top,color-stop(20%,hsla(0,0%,100%,0)),to(hsla(0,0%,100%,.8)))",
       "count": 1
     },
     {
@@ -6435,7 +6548,7 @@
       "count": 1
     },
     {
-      "value": "-webkit-gradient(linear,right top,left top,from(#fff),color-stop(20%,#fff),to(hsla(0,0,100%,0)))",
+      "value": "-webkit-gradient(linear,right top,left top,from(#fff),color-stop(20%,#fff),to(hsla(0,0%,100%,0)))",
       "count": 1
     },
     {
@@ -6451,11 +6564,11 @@
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(left,hsla(0,0,100%,0) 20%,hsla(0,0,100%,.8))",
+      "value": "-webkit-linear-gradient(left,hsla(0,0%,100%,0) 20%,hsla(0,0%,100%,.8))",
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(left,rgba(0,0,0,.7),rgba(0,0,0,.6) 30%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.3) 80%,hsla(0,0,100%,0))",
+      "value": "-webkit-linear-gradient(left,rgba(0,0,0,.7),rgba(0,0,0,.6) 30%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.3) 80%,hsla(0,0%,100%,0))",
       "count": 1
     },
     {
@@ -6467,7 +6580,7 @@
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(right,#fff,#fff 20%,hsla(0,0,100%,0))",
+      "value": "-webkit-linear-gradient(right,#fff,#fff 20%,hsla(0,0%,100%,0))",
       "count": 1
     },
     {
@@ -6475,7 +6588,7 @@
       "count": 1
     },
     {
-      "value": "-webkit-linear-gradient(right,hsla(0,0,100%,0) 20%,hsla(0,0,100%,.8))",
+      "value": "-webkit-linear-gradient(right,hsla(0,0%,100%,0) 20%,hsla(0,0%,100%,.8))",
       "count": 1
     },
     {
@@ -6504,8 +6617,8 @@
     }
   ],
   "values.prefixed.totalUnique": 43,
-  "values.prefixed.share": 0.008805160233439132,
-  "values.fontsizes.total": 430,
+  "values.prefixed.share": 0.009264734870885078,
+  "values.fontsizes.total": 434,
   "values.fontsizes.unique": [
     {
       "value": "0",
@@ -6589,7 +6702,7 @@
     },
     {
       "value": "2rem",
-      "count": 26
+      "count": 27
     },
     {
       "value": "1.9em",
@@ -6633,7 +6746,7 @@
     },
     {
       "value": "1.5rem",
-      "count": 13
+      "count": 14
     },
     {
       "value": "1.5em",
@@ -6669,11 +6782,15 @@
     },
     {
       "value": "20px",
-      "count": 5
+      "count": 6
     },
     {
       "value": "1.2em",
       "count": 8
+    },
+    {
+      "value": "1.2rem",
+      "count": 1
     },
     {
       "value": "1.14286rem",
@@ -6840,7 +6957,7 @@
       "count": 1
     }
   ],
-  "values.fontsizes.totalUnique": 83,
+  "values.fontsizes.totalUnique": 84,
   "values.fontfamilies.total": 21,
   "values.fontfamilies.unique": [
     {
@@ -6873,7 +6990,7 @@
     }
   ],
   "values.fontfamilies.totalUnique": 7,
-  "values.colors.total": 937,
+  "values.colors.total": 960,
   "values.colors.unique": [
     {
       "value": "#f2f1f1",
@@ -6900,6 +7017,10 @@
       "count": 2
     },
     {
+      "value": "#ffcd00",
+      "count": 1
+    },
+    {
       "value": "rgba(255,205,0,.8)",
       "count": 2
     },
@@ -6913,7 +7034,7 @@
     },
     {
       "value": "#e0e721",
-      "count": 71
+      "count": 72
     },
     {
       "value": "rgba(224,231,33,.8)",
@@ -6921,7 +7042,7 @@
     },
     {
       "value": "#e9ee64",
-      "count": 1
+      "count": 2
     },
     {
       "value": "#c6da3b",
@@ -6985,7 +7106,7 @@
     },
     {
       "value": "#eef0f1",
-      "count": 21
+      "count": 23
     },
     {
       "value": "rgba(238,240,241,.8)",
@@ -7085,7 +7206,7 @@
     },
     {
       "value": "#111836",
-      "count": 123
+      "count": 129
     },
     {
       "value": "rgba(17,24,54,.95)",
@@ -7098,6 +7219,10 @@
     {
       "value": "rgba(17,24,54,.8)",
       "count": 3
+    },
+    {
+      "value": "rgba(17,24,54,.75)",
+      "count": 2
     },
     {
       "value": "rgba(17,24,54,.7)",
@@ -7152,6 +7277,10 @@
       "count": 2
     },
     {
+      "value": "#dcdce1",
+      "count": 1
+    },
+    {
       "value": "#3c3c50",
       "count": 1
     },
@@ -7165,14 +7294,14 @@
     },
     {
       "value": "#fff",
-      "count": 186
+      "count": 188
     },
     {
       "value": "rgb(255,255,255)",
       "count": 1
     },
     {
-      "value": "hsla(0,0,100%,.8)",
+      "value": "hsla(0,0%,100%,.8)",
       "count": 8
     },
     {
@@ -7245,7 +7374,7 @@
     },
     {
       "value": "#d9d9d9",
-      "count": 11
+      "count": 12
     },
     {
       "value": "#d8d8d8",
@@ -7281,7 +7410,7 @@
     },
     {
       "value": "#999",
-      "count": 22
+      "count": 23
     },
     {
       "value": "#969696",
@@ -7325,7 +7454,7 @@
     },
     {
       "value": "#676767",
-      "count": 13
+      "count": 14
     },
     {
       "value": "#666",
@@ -7333,7 +7462,7 @@
     },
     {
       "value": "#656565",
-      "count": 3
+      "count": 4
     },
     {
       "value": "rgba(99,99,99,.75)",
@@ -7341,7 +7470,7 @@
     },
     {
       "value": "#575757",
-      "count": 3
+      "count": 4
     },
     {
       "value": "#565656",
@@ -7385,7 +7514,7 @@
     },
     {
       "value": "#000",
-      "count": 28
+      "count": 29
     },
     {
       "value": "rgba(0,0,0,.9)",
@@ -7436,7 +7565,11 @@
       "count": 1
     },
     {
-      "value": "hsla(0,0,100%,0)",
+      "value": "rgba(0,0,0,.001)",
+      "count": 1
+    },
+    {
+      "value": "hsla(0,0%,100%,0)",
       "count": 16
     },
     {
@@ -7448,12 +7581,12 @@
       "count": 1
     }
   ],
-  "values.colors.totalUnique": 143,
+  "values.colors.totalUnique": 147,
   "values.colors.duplicates.unique": [
     {
       "notations": [
         {
-          "value": "hsla(0,0,100%,0)",
+          "value": "hsla(0,0%,100%,0)",
           "count": 16
         },
         {
@@ -7466,20 +7599,20 @@
         }
       ],
       "count": 25,
-      "value": "hsla(0,0,100%,0)"
+      "value": "hsla(0,0%,100%,0)"
     },
     {
       "notations": [
         {
           "value": "#fff",
-          "count": 186
+          "count": 188
         },
         {
           "value": "rgb(255,255,255)",
           "count": 1
         }
       ],
-      "count": 187,
+      "count": 189,
       "value": "#fff"
     }
   ],
@@ -7488,7 +7621,7 @@
   "values.browserhacks.total": 0,
   "values.browserhacks.unique": [],
   "values.browserhacks.totalUnique": 0,
-  "values.boxshadows.total": 19,
+  "values.boxshadows.total": 20,
   "values.boxshadows.unique": [
     {
       "value": "#999 0 2px 10px -3px",
@@ -7516,6 +7649,10 @@
     },
     {
       "value": "0 0 0 1px #111836",
+      "count": 1
+    },
+    {
+      "value": "0 0 10px 0 rgba(17,24,54,.75)",
       "count": 1
     },
     {
@@ -7563,7 +7700,7 @@
       "count": 1
     }
   ],
-  "values.boxshadows.totalUnique": 18,
+  "values.boxshadows.totalUnique": 19,
   "values.textshadows.total": 4,
   "values.textshadows.unique": [
     {
@@ -7576,7 +7713,7 @@
     }
   ],
   "values.textshadows.totalUnique": 2,
-  "values.zindexes.total": 101,
+  "values.zindexes.total": 104,
   "values.zindexes.unique": [
     {
       "value": -9999,
@@ -7592,19 +7729,19 @@
     },
     {
       "value": 1,
-      "count": 38
+      "count": 39
     },
     {
       "value": 2,
-      "count": 8
+      "count": 7
     },
     {
       "value": 3,
-      "count": 6
+      "count": 5
     },
     {
       "value": 4,
-      "count": 5
+      "count": 4
     },
     {
       "value": 10,
@@ -7616,7 +7753,15 @@
     },
     {
       "value": 100,
-      "count": 3
+      "count": 4
+    },
+    {
+      "value": 201,
+      "count": 2
+    },
+    {
+      "value": 202,
+      "count": 1
     },
     {
       "value": 999,
@@ -7659,6 +7804,10 @@
       "count": 3
     },
     {
+      "value": 100002,
+      "count": 1
+    },
+    {
       "value": 2147483645,
       "count": 1
     },
@@ -7671,8 +7820,8 @@
       "count": 2
     }
   ],
-  "values.zindexes.totalUnique": 23,
-  "values.animations.durations.total": 76,
+  "values.zindexes.totalUnique": 26,
+  "values.animations.durations.total": 90,
   "values.animations.durations.unique": [
     {
       "value": "50ms",
@@ -7684,35 +7833,27 @@
     },
     {
       "value": ".15s",
-      "count": 4
-    },
-    {
-      "value": ".2s",
-      "count": 15
-    },
-    {
-      "value": ".25s",
-      "count": 4
-    },
-    {
-      "value": "0.25s",
       "count": 5
     },
     {
+      "value": ".2s",
+      "count": 19
+    },
+    {
+      "value": ".25s",
+      "count": 10
+    },
+    {
       "value": ".3s",
-      "count": 15
+      "count": 23
     },
     {
-      "value": "0.3s",
-      "count": 1
-    },
-    {
-      "value": "0.4s",
+      "value": ".4s",
       "count": 1
     },
     {
       "value": ".5s",
-      "count": 10
+      "count": 11
     },
     {
       "value": ".6s",
@@ -7743,8 +7884,8 @@
       "count": 2
     }
   ],
-  "values.animations.durations.totalUnique": 17,
-  "values.animations.timingFunctions.total": 70,
+  "values.animations.durations.totalUnique": 15,
+  "values.animations.timingFunctions.total": 84,
   "values.animations.timingFunctions.unique": [
     {
       "value": "cubic-bezier(.6,0,.4,1)",
@@ -7752,11 +7893,11 @@
     },
     {
       "value": "ease",
-      "count": 26
+      "count": 30
     },
     {
       "value": "ease-in",
-      "count": 14
+      "count": 24
     },
     {
       "value": "ease-in-out",
