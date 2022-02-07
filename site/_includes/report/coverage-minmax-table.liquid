@@ -1,0 +1,36 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Coverage</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxCoverage -%}
+          <tr>
+            <td>Biggest coverage</td>
+            <td><b><a href="{{ report.maxCoverage.site.url }}">{{ report.maxCoverage.site.title }}</a></b></td>
+            <td class="tar"><b>{{ report.maxCoverage.usage | round: 2 | append: '%' }}</b></td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minCoverage -%}
+          <tr>
+            <td>Smallest coverage</td>
+            <td><b><a href="{{ report.minCoverage.site.url }}">{{ report.minCoverage.site.title }}</a></b></td>
+            <td class="tar"><b>{{ report.minCoverage.usage | round: 2 | append: '%' }}</b></td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgCoverage -%}
+          <tr>
+            <td>Average coverage</td>
+            <td>-</td>
+            <td class="tar"><b>{{ report.avgCoverage | round: 2 | append: '%' }}</b></td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

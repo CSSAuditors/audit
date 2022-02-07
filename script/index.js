@@ -13,7 +13,7 @@ const wappalyzerReport = require('./get-wappalyzer')
 const validatorReport = require('./get-validator')
 const coverageReport = require('./get-coverage')
 const specificityReport = require('./get-specificity')
-// const { analyzerReport } = require('./get-analyzer')
+const analyzerReport = require('./get-analyzer')
 
 const runExtractor = async (reports, silent) => {
   for(const report of reports) {
@@ -45,7 +45,7 @@ const runWappalyzer = async (reports, silent) => {
   }
 }
 
-const runAnalyses = async (reports, silent) => {
+const runAnalyzer = async (reports, silent) => {
   for(const report of reports) {
     await analyzerScript(report, silent)
   }
@@ -64,8 +64,7 @@ const prepareData = async (reports, silent) => {
   await runCoverage(reportsData, silent)
   await runSpecificity(reportsData, silent)
   await runWappalyzer(reportsData, silent)
-  await runAnalyses(reportsData, silent)
-  // await runScreenshot(reportsData, silent)
+  await runAnalyzer(reportsData, silent)
   return true
 }
 
@@ -89,11 +88,9 @@ const getSpecificity = async (report, name, silent) => {
   await specificityReport.report(report, name, silent)
 }
 
-// const getAnalyzer = async (sites, name, silent) => {
-//   for(const report of reports) {
-//     await analyzerReport(report)
-//   }
-// }
+const getAnalyzer = async (report, name, silent) => {
+  await analyzerReport.report(report, name, silent)
+}
 
 const processData = async (report, name, silent) => {
   await getExtractor(report, name, silent)
@@ -101,7 +98,7 @@ const processData = async (report, name, silent) => {
   await getValidator(report, name, silent)
   await getCoverage(report, name, silent)
   await getSpecificity(report, name, silent)
-  // await getAnalyzer()
+  await getAnalyzer(report, name, silent)
 }
 
 const getExtractorName = (str) => {

@@ -8,7 +8,7 @@ const getReport = async (site, silent) => {
     const coverageFile = `${folder}/coverage.json`
 
     if(!helpers.fileExists(coverageFile)) {
-      return false
+      resolve(false)
     }
 
     const coverageRaw = await helpers.getFile(coverageFile)
@@ -61,11 +61,6 @@ const report = async (sites, name, silent) => {
 
     if(!coverageData.list.length) {
       return false
-    }
-
-    if(!silent) {
-      console.log('')
-      console.log('COVERAGE')
     }
 
     coverageData.maxCoverage = calc.getMax(coverageData.list, 'usage')

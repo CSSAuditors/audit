@@ -32,7 +32,7 @@ const getMin = (arr, prop1, prop2, zero) => arr.reduce((a, b) => {
     d = d && d.hasOwnProperty(prop2) ? d[prop2] : 0
   }
 
-  return zero ? c === 0 ? b : d === 0 ? a : c < d ? a : b : c < d ? a : b
+  return zero ? c === 0 ? a : d === 0 ? b : c < d ? a : b : c < d ? a : b
 })
 
 const getMins = (arr, prop1, prop2) => arr.filter((a) => {

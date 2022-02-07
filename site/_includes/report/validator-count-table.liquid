@@ -11,42 +11,42 @@
       <tbody>
         {%- if report.maxErrors -%}
           <tr>
-            <td><b>Site with most errors</b></td>
+            <th><b>Most errors</b></th>
             <td>{{ report.maxErrors.site.title }}</td>
             <td class="tar">{{ report.maxErrors.errors_count }}</td>
           </tr>
         {%- endif -%}
         {%- if report.minErrors -%}
           <tr>
-            <td><b>Site with least errors</b></td>
+            <th><b>Least errors</b></th>
             <td>{{ report.minErrors.site.title }}</td>
             <td class="tar">{{ report.minErrors.errors_count }}</td>
           </tr>
         {%- endif -%}
         {%- if report.avgErrors -%}
           <tr>
-            <td><b>Average number of errors</b></td>
+            <th><b>Average number of errors</b></th>
             <td>-</td>
             <td class="tar">{{ report.avgErrors | ceil }}</td>
           </tr>
         {%- endif -%}
         {%- if report.maxWarnings -%}
           <tr>
-            <td><b>Site with most warnings</b></td>
+            <th><b>Most warnings</b></th>
             <td>{{ report.maxWarnings.site.title }}</td>
             <td class="tar">{{ report.maxWarnings.warnings_count }}</td>
           </tr>
         {%- endif -%}
         {%- if report.minWarnings -%}
           <tr>
-            <td><b>Site with least warnings</b></td>
+            <th><b>Least warnings</b></th>
             <td>{{ report.minWarnings.site.title }}</td>
             <td class="tar">{{ report.minWarnings.warnings_count }}</td>
           </tr>
         {%- endif -%}
         {%- if report.avgWarnings -%}
           <tr>
-            <td><b>Average number of warnings</b></td>
+            <th><b>Average number of warnings</b></th>
             <td>-</td>
             <td class="tar">{{ report.avgWarnings | ceil }}</td>
           </tr>

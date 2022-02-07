@@ -8,7 +8,7 @@ const getReport = async (site, silent) => {
     const specificityFile = `${specificityFolder}/specificity.json`
 
     if(!helpers.fileExists(specificityFile)) {
-      return false
+      resolve(false)
     }
 
     const specificityRaw = await helpers.getFile(specificityFile)
@@ -16,7 +16,6 @@ const getReport = async (site, silent) => {
 
     const maxSpecificity = calc.getMax(specificityData, 'specificity')
     const minSpecificity = calc.getMin(specificityData, 'specificity', false, true)
-    const avgSpecificity = calc.getAverage(specificityData, 'specificity')
 
     if(!silent) {
       console.log('')
@@ -46,11 +45,6 @@ const report = async (sites, name, silent) => {
 
     for(const site of sites.list) {
       specificityData.list.push({...await getReport(site, silent)})
-    }
-
-    if(!silent) {
-      console.log('')
-      console.log('SPECIFICITY')
     }
 
     specificityData.maxSpecificity = calc.getMax(specificityData.list, 'maxSpecificity')

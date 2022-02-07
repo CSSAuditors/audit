@@ -26,6 +26,8 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
+{% render report/specificity-list-table, report: report3-specificity %}
+
 {% render report/validator-list-table, report: report3-validator %}
 {% render report/validator-count-table, report: report3-validator %}
 {% render report/validator-errors-table, report: report3-validator %}

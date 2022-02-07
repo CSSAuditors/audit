@@ -29,7 +29,7 @@ const getReport = (site) => {
   const extractorFile = `${folder}/extractor-clean.json`
 
   if(!helpers.fileExists(extractorFile)) {
-    return false
+    resolve(false)
   }
 
   const extractorRaw = helpers.getFileSync(extractorFile)

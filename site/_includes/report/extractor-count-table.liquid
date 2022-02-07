@@ -4,14 +4,14 @@
       <thead>
         <tr>
           <th></th>
-          <th>Site</th>
-          <th class="tar">Count</th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Count</b></th>
         </tr>
       </thead>
       <tbody>
         {%- if report.maxCountImport['link-or-import'] -%}
           <tr>
-            <td><b>Site with the largest number of  {{ "link-or-import" | extractorName }}</b></td>
+            <td><b>Largest number of  {{ "link-or-import" | extractorName }}</b></td>
             <td>{{ report.maxCountImport.site.title }}</td>
             <td class="tar">{{ report.maxCountImport['link-or-import'].count }}</td>
           </tr>
@@ -30,7 +30,7 @@
             {%- endfor -%}
           {%- else -%}
             <tr>
-              <td><b>Site with the smallest {{ "link-or-import" | extractorName }}</b></td>
+              <td><b>Smallest {{ "link-or-import" | extractorName }}</b></td>
               <td>{{ report.minCountImport.site.title }}</td>
               <td colspanass="tar">{{ report.minCountImport['link-or-import'].count }}</td>
             </tr>
@@ -45,7 +45,7 @@
         {%- endif -%}
         {%- if report.maxCountStyle['style'] -%}
           <tr>
-            <td><b>Site with the largest {{ "style" | extractorName }}</b></td>
+            <td><b>Largest {{ "style" | extractorName }}</b></td>
             <td>{{ report.maxCountStyle.site.title }}</td>
             <td class="tar">{{ report.maxCountStyle['style'].count }}</td>
           </tr>
@@ -63,7 +63,7 @@
             {%- endfor -%}
           {%- else -%}
             <tr>
-              <td><b>Site with the smallest {{ "style" | extractorName }}</b></td>
+              <td><b>Smallest {{ "style" | extractorName }}</b></td>
               <td>{{ report.minCountStyle.site.title }}</td>
               <td class="tar">{{ report.minCountStyle['style'].count }}</td>
             </tr>
@@ -78,7 +78,7 @@
         {%- endif -%}
         {%- if report.maxCountInline['inline'] -%}
           <tr>
-            <td><b>Site with the largest {{ "inline" | extractorName }}</b></td>
+            <td><b>Largest {{ "inline" | extractorName }}</b></td>
             <td>{{ report.maxCountInline.site.title }}</td>
             <td class="tar">{{ report.maxCountInline['inline'].count }}</td>
           </tr>
@@ -94,7 +94,7 @@
                 <td class="tar">0</td>
               {%- endfor -%}
             {%- else -%}
-              <td><b>Site with the smallest {{ "inline" | extractorName }}</b></td>
+              <td><b>Smallest {{ "inline" | extractorName }}</b></td>
               <td>{{ report.minCountInline.site.title }}</td>
               <td class="tar">{{ report.minCountInline['inline'].count }}</td>
             {%- endif -%}

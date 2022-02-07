@@ -8,7 +8,7 @@ const getReport = async (site, silent) => {
     const errorsFile = `${folder}/errors.json`
 
     if(!helpers.fileExists(errorsFile)) {
-      return false
+      resolve(false)
     }
 
     const errorsRaw = await helpers.getFile(errorsFile)
@@ -38,7 +38,7 @@ const getReport = async (site, silent) => {
     const warningsFile = `${folder}/warnings.json`
 
     if(!helpers.fileExists(warningsFile)) {
-      return false
+      resolve(false)
     }
 
     const warningsRaw = await helpers.getFile(warningsFile)
@@ -88,11 +88,6 @@ const report = async (sites, name, silent) => {
 
     for(const site of sites.list) {
       validatorData.list.push({...await getReport(site, silent)})
-    }
-
-    if(!silent) {
-      console.log('')
-      console.log('❌ ERRORS')
     }
 
     const flatList = validatorData.list.flat()
@@ -147,11 +142,6 @@ const report = async (sites, name, silent) => {
       errors_count: minErrors.errors_count
     }
     validatorData.avgErrors = `${avgErrors}`
-
-    if(!silent) {
-      console.log('')
-      console.log('⚠️ WARNINGS')
-    }
 
     const maxWarningTypes = calc.getMax(validatorData.list, 'warnings')
     const minWarningTypes = calc.getMin(validatorData.list, 'warnings')
