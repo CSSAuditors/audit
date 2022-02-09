@@ -1,0 +1,28 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Size</b></th>
+          <th class="tar"><b>CSS source lines</b></th>
+          <th class="tar"><b>CSS lines</b></th>
+          <th class="tar"><b>Comment count</b></th>
+          <th class="tar"><b>Comment size</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in report.list -%}
+          <tr>
+            <td><b><a href="{{ item.site.url }}">{{ item.site.title }}</a></b></td>
+            <td class="tar">{{ item.size | fileSize }}</td>
+            <td class="tar">{{ item.sourceLinesOfCode }}</td>
+            <td class="tar">{{ item.linesOfCode }}</td>
+            <td class="tar">{{ item.comments.total }}</td>
+            <td class="tar">{{ item.comments.size | fileSize }}</td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

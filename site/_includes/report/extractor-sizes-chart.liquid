@@ -9,8 +9,8 @@
         </tr>
       </thead>
       <tbody>
+        {%- assign maxImportSize = report.maxSizeImport['link-or-import'].size -%}
         {%- for item in report.list -%}
-          {%- assign maxImportSize = report.maxSizeImport['link-or-import'].size -%}
           {%- if item['link-or-import'].size -%}
             {%- assign importSize = item['link-or-import'].size -%}
             {%- assign importSizePercent = importSize | divided_by: maxImportSize -%}
@@ -37,8 +37,7 @@
           <tr>
             <th scope="row">{{ item.site.title }}</th>
             {%- if item['link-or-import'] -%}
-              <td style="--size:{{ importSizePercent }};"><span>{{ item['link-or-import'].name }}:
-                {{ importSize | fileSize }}</span></td>
+              <td style="--size:{{ importSizePercent }};"><span>{{ item['link-or-import'].name }}: {{ importSize | fileSize }}</span></td>
             {%- endif -%}
             {%- if item['style'] -%}
               <td style="--size:{{ styleSizePercent }};"><span>{{ item['style'].name }}: {{ styleSize | fileSize }}</span></td>

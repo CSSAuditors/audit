@@ -9,8 +9,8 @@
         </tr>
       </thead>
       <tbody>
+        {%- assign maxImportCount = report.maxCountImport['link-or-import'].count -%}
         {%- for item in report.list -%}
-          {%- assign maxImportCount = report.maxCountImport['link-or-import'].count -%}
           {%- if item['link-or-import'].count -%}
             {%- assign importCount = item['link-or-import'].count -%}
             {%- assign importCountPercent = importCount | divided_by: maxImportCount -%}

@@ -298,15 +298,13 @@ const stylesheetReports = async (sites, name, silent) => {
   const root = helpers.getRootDirectoryBase();
   const stylesheetFile = `${root}/site/_data/${name}-analyzer-stylesheet.json`
 
-  if(!helpers.fileExists(stylesheetFile) && sites.list) {
+  // if(!helpers.fileExists(stylesheetFile) && sites.list) {
     const stylesheetData = {
       list: []
     }
 
     for(const site of sites.list) {
-      if(!site.css) {
-        stylesheetData.list.push({...await getStylesheetReport(site, silent)})
-      }
+      stylesheetData.list.push({...await getStylesheetReport(site, silent)})
     }
 
     if(!stylesheetData.list.length) {
@@ -327,12 +325,10 @@ const stylesheetReports = async (sites, name, silent) => {
 
     stylesheetData.maxCommentsCount = calc.getMax(stylesheetData.list, 'comments', 'total')
     stylesheetData.minCommentsCount = calc.getMin(stylesheetData.list, 'comments', 'total', true)
-    stylesheetData.minsCommentsCount = calc.getMins(stylesheetData.list, 'comments', 'total')
     stylesheetData.avgCommentsCount = calc.getAverage(stylesheetData.list, 'comments', 'total')
 
     stylesheetData.maxCommentsSize = calc.getMax(stylesheetData.list, 'comments', 'size')
     stylesheetData.minCommentsSize = calc.getMin(stylesheetData.list, 'comments', 'size', true)
-    stylesheetData.minsCommentsSize = calc.getMins(stylesheetData.list, 'comments', 'size')
     stylesheetData.avgCommentsSize = calc.getAverage(stylesheetData.list, 'comments', 'size')
 
     helpers.saveFile(stylesheetFile, stylesheetData, true)
@@ -340,11 +336,11 @@ const stylesheetReports = async (sites, name, silent) => {
     if(!silent) {
       console.log(`✅ Analyzer stylesheet data saved at ${stylesheetFile}`)
     }
-  } else {
-    if(!silent) {
-      console.log(`✅ Analyzer stylesheet data exists at ${stylesheetFile}`)
-    }
-  }
+  // } else {
+  //   if(!silent) {
+  //     console.log(`✅ Analyzer stylesheet data exists at ${stylesheetFile}`)
+  //   }
+  // }
 
   return true
 }
@@ -359,9 +355,7 @@ const selectorsReports = async (sites, name, silent) => {
     }
 
     for(const site of sites.list) {
-      if(!site.css) {
-        selectorsData.list.push({...await getSelectorsReport(site, silent)})
-      }
+      selectorsData.list.push({...await getSelectorsReport(site, silent)})
     }
 
     if(!selectorsData.list.length) {
@@ -390,21 +384,11 @@ const selectorsReports = async (sites, name, silent) => {
 
     const maxSpecificities = selectorsData.list.sort((a, b) => compareSpecificity(a.specificity.max, b.specificity.max))
     selectorsData.maxSpecificity = maxSpecificities.shift()
-    selectorsData.minMaxSpecificity = maxSpecificities.pop()
-    selectorsData.maxSpecificityList = selectorsData.list.filter(a =>
-      compareSpecificity(a.specificity.max, selectorsData.maxSpecificity.specificity.max) === 0)
-    console.log('maxSpecificity', selectorsData.maxSpecificity.specificity);
-    console.log('minMaxSpecificity', selectorsData.minMaxSpecificity.specificity);
-    console.log('maxSpecificityList', selectorsData.maxSpecificityList.length);
 
     const minSpecificities = selectorsData.list.sort((a, b) => compareSpecificity(a.specificity.min, b.specificity.min))
     selectorsData.minSpecificity = minSpecificities.pop()
-    selectorsData.maxMinSpecificity = minSpecificities.shift()
-    selectorsData.minsSpecificity = selectorsData.list.filter(a =>
-      compareSpecificity(a.specificity.min, selectorsData.minSpecificity.specificity.min) === 0)
-    console.log('minSpecificity', selectorsData.minSpecificity.specificity);
-    console.log('maxMinSpecificity', selectorsData.maxMinSpecificity.specificity);
-    console.log('minsSpecificity', selectorsData.minsSpecificity.length);
+
+    helpers.saveFile(selectorsFile, selectorsData, true)
 
     if(!silent) {
       console.log(`✅ Analyzer selectors data saved at ${selectorsFile}`)

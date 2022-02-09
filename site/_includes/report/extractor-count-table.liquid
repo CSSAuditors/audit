@@ -11,7 +11,7 @@
       <tbody>
         {%- if report.maxCountImport['link-or-import'] -%}
           <tr>
-            <td><b>Largest number of  {{ "link-or-import" | extractorName }}</b></td>
+            <td><b>Largest number of {{ "link-or-import" | extractorName }}</b></td>
             <td>{{ report.maxCountImport.site.title }}</td>
             <td class="tar">{{ report.maxCountImport['link-or-import'].count }}</td>
           </tr>

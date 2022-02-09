@@ -1,0 +1,36 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Comment count</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxCommentsCount -%}
+          <tr>
+            <th><b>Most number of comments</b></th>
+            <td>{{ report.maxCommentsCount.site.title }}</td>
+            <td class="tar">{{ report.maxCommentsCount.comments.total }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minCommentsCount -%}
+          <tr>
+            <th><b>Least number of comments</b></th>
+            <td>{{ report.minCommentsCount.site.title }}</td>
+            <td class="tar">{{ report.minCommentsCount.comments.total }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgCommentsCount -%}
+          <tr>
+            <th><b>Average number of comments</b></th>
+            <td>-</td>
+            <td class="tar">{{ report.avgCommentsCount | ceil }}</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{% endif %}

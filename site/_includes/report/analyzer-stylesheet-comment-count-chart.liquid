@@ -1,0 +1,31 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-{{ space | default: '3' }}" style="--labels-size: 10em;--cols: {{ report.list | size }};--col-height: {{ height | default: '2.5rem' }};">
+      <caption>CSS comment count</caption>
+      <thead>
+        <tr>
+          <th scope="col">Site</th>
+          <th scope="col">Comment count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in report.list -%}
+          {%- assign maxCommentsCount = report.maxCommentsCount.comments.total -%}
+          {%- if item.comments.total -%}
+            {%- assign commentsCount = item.comments.total -%}
+            {%- assign commentsCountPercent = commentsCount | divided_by: maxCommentsCount -%}
+          {%- else -%}
+            {%- assign commentsCount = 0 -%}
+            {%- assign commentsCountPercent = 0 -%}
+          {%- endif -%}
+          <tr>
+            <th scope="row">{{ item.site.title }}</th>
+            <td style="--size:{{ commentsCountPercent }};"><span>Comment count: {{ commentsCount }}</span></td>
+            </td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  <small>This graph is interactive. You could tap or hover over bars to see extra information.</small>
+{%- endif -%}

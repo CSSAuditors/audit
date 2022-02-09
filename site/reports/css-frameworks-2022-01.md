@@ -26,6 +26,18 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
+{% render report/analyzer-stylesheet-comment-size-chart, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-comment-size-table, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-comment-count-chart, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-comment-count-table, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-loc-chart, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-loc-table, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-sloc-chart, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-sloc-table, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-size-chart, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-size-table, report: report3-analyzer-stylesheet %}
+{% render report/analyzer-stylesheet-list-table, report: report3-analyzer-stylesheet %}
+
 {% render report/specificity-list-table, report: report3-specificity %}
 
 {% render report/validator-list-table, report: report3-validator %}
