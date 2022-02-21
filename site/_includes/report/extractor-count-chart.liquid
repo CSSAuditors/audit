@@ -1,4 +1,5 @@
 {%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
   <div class="table-wrapper">
     <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-3" style="--labels-size: 11em;--cols: {{ report.list | size }}">
       <caption>CSS count</caption>
@@ -10,7 +11,7 @@
       </thead>
       <tbody>
         {%- assign maxImportCount = report.maxCountImport['link-or-import'].count -%}
-        {%- for item in report.list -%}
+        {%- for item in reportSorted -%}
           {%- if item['link-or-import'].count -%}
             {%- assign importCount = item['link-or-import'].count -%}
             {%- assign importCountPercent = importCount | divided_by: maxImportCount -%}

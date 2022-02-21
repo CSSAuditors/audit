@@ -1,4 +1,5 @@
 {%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
   <div class="table-wrapper">
     <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-{{ space | default: '3' }}" style="--labels-size: 10em;--cols: {{ report.list | size }};--col-height: {{ height | default: '2.5rem' }};">
       <caption>CSS comment sizes</caption>
@@ -9,7 +10,7 @@
         </tr>
       </thead>
       <tbody>
-        {%- for item in report.list -%}
+        {%- for item in reportSorted -%}
           {%- assign maxCommentsSize = report.maxCommentsSize.comments.size -%}
           {%- if item.comments.size -%}
             {%- assign commentsSize = item.comments.size -%}

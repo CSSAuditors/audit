@@ -102,7 +102,7 @@ One of the first thing that comes to mind when thinking about the quality of the
 
 The full report is available [here](/reports/premier-league-2021-02/). I don’t want to write any spoilers, so I will leave you to read it thoroughly.
 
-To be able to make this report, we needed information. So the first step was to extract the CSS code from these sites. We used [wappalyzer](https://github.com/aliasio/wappalyzer) and [extract-css-core](https://github.com/bartveneman/extract-css-core), both excellent tools. We didn’t want to make calculations manually since we wanted to reuse the script to audit other sites, so we wrote a script for calculations and graphs. Finally, we needed to make the report look appealing. This is definitively the part that could use more love, but we wanted to release the report as soon as possible.
+To be able to make this report, we needed information. So the first step was to extract the CSS code from these sites. We used [wappalyzer](https://github.com/aliasio/wappalyzer) and [extract-css-core](https://github.com/projectwallace/extract-css-core), both excellent tools. We didn’t want to make calculations manually since we wanted to reuse the script to audit other sites, so we wrote a script for calculations and graphs. Finally, we needed to make the report look appealing. This is definitively the part that could use more love, but we wanted to release the report as soon as possible.
 
 ## The Conclusion
 

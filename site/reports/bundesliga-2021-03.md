@@ -39,7 +39,7 @@ Note that we included the Bundesliga official site and all its clubs.
 Just like in the previous report, we used the following tools:
 
 - [wappalyzer](https://github.com/aliasio/wappalyzer)
-- [extract-css-core](https://github.com/bartveneman/extract-css-core)
+- [extract-css-core](https://github.com/projectwallace/extract-css-core)
 
 Using these tools, we extracted information about UI frameworks and the size of External CSS, Style tag CSS, and Inline CSS, where:
 
