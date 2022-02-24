@@ -2,7 +2,7 @@
 layout: post
 title: 'Top 2021 CSS Frameworks Report, Part 1: The CSS File Sizes'
 description: In this report, I have audited top CSS frameworks according to the State of CSS report. Find out all about file sizes of these CSS frameworks.
-image: gfx/css-frameworks-part-1-2022-02.jpg
+image: /gfx/css-frameworks-part-1-2022-02.jpg
 date: 2022-02-26
 tags:
   - report
