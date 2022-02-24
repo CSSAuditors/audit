@@ -108,6 +108,10 @@ exports.default = series(
   ),
 );
 
+exports.critical = series(
+  global.config.critical.run ? critical.criticalClean : helpers.skip,
+  global.config.critical.run ? critical.criticalStart : helpers.skip
+)
 
 // user warnings
 console.log(`IMPORTANT NOTICE!

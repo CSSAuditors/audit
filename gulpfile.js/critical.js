@@ -7,6 +7,7 @@ const fs = require('fs');
 critical.DEBUG = process.env.NODE_ENV !== 'production';
 
 const { helpers } = require('./helpers');
+const { clean } = require('./clean');
 
 const criticalConfig = require('./.critical.json');
 
@@ -29,8 +30,6 @@ function criticalStart(cb) {
 
     files.push(thisFile);
 
-    console.log(helpers.trim(thisCriticalConfig.dist));
-
     if (fs.existsSync(thisFile)) {
       src(thisFile.replace('.css', '*.css'))
         .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
@@ -44,12 +43,14 @@ function criticalStart(cb) {
 
       src(thisConfig.src)
         .pipe(critical(thisConfig.settings))
-        .pipe(dest(helpers.trim(`${thisConfig.temp}`)))
-        .pipe(cleanCSS())
-        .pipe(rename(cssConfig.renameConfig))
         .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
         .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
-        .pipe(dest(helpers.trim(thisCriticalConfig.dist)));
+        .pipe(dest(helpers.trim(thisCriticalConfig.dist)))
+        .pipe(rename(cssConfig.renameConfig))
+        .pipe(cleanCSS())
+        .pipe(dest(helpers.trim(`${thisCriticalConfig.temp}`)))
+        .pipe(dest(helpers.trim(`${helpers.dist()}/${global.config.css.dist}`)))
+        .pipe(dest(helpers.trim(thisCriticalConfig.dist)))
     }
   });
 
@@ -71,6 +72,13 @@ function criticalStart(cb) {
   return checkInterval;
 }
 
+function criticalClean(cb) {
+  clean.cleanFolder(helpers.trim(`${thisCriticalConfig.temp}`))
+
+  return cb()
+}
+
 exports.critical = {
   criticalStart,
+  criticalClean,
 };

@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "prepare-data": "",
     "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy",
     "dev": "npm run eleventy-dev",
-    "gulp": "concurrently --kill-others \"npm run eleventy-dev\" \"gulp\"",
+    "gulp-critical": "wait-on -d 5000 http://localhost:8080 && gulp critical",
+    "critical": "concurrently --kill-others \"npm run eleventy-dev\" \"npm run gulp-critical\"",
     "preview": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --watch",
     "build": "gulp build && npm run eleventy-build",
     "reports": "node script/index.js start"
@@ -60,6 +60,7 @@
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.19.0",
+    "wait-on": "^6.0.1",
     "wappalyzer": "^6.5.30",
     "webpack": "^5.28.0",
     "webpack-stream": "^6.1.2"

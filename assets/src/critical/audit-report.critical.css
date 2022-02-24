@@ -4,7 +4,7 @@
   --ff-alpha: 'Barlow', sans-serif;
   --fz-alpha: 18px;
   --fz-beta: 15px;
-  --color-alpha: hsl(222deg 88% 55%);
+  --color-alpha: hsl(222, 88%, 55%);
   --color-alpha2: hsl(222deg 88% 55% / .02);
   --color-alpha3: hsl(222deg 88% 55% / .2);
   --color-alpha4: hsl(222deg 88% 45%);
@@ -13,10 +13,6 @@
   --color-beta3: hsl(222deg 88% 11% / .2);
   --color-beta4: hsl(222deg 88% 22%);
   --color-gamma: hsl(0deg 0% 100%);
-  --chart-color-alpha: hsl(157deg 88% 55%);
-  --chart-color-beta: hsl(222deg 88% 55%);
-  --chart-color-gamma: hsl(188deg 88% 55%);
-  --chart-color-delta: hsl(3deg 88% 55%);
   --maxw-alpha: 70ch;
   --maxw-beta: 92vw;
 }
@@ -44,19 +40,21 @@ body {
   color: var(--color-beta);
 }
 
+h1,
 h2 {
   color: var(--color-alpha);
   font-weight: 500;
   line-height: 1.4;
 }
 
+h1,
 h2,
 p,
 ul {
   margin-bottom: .5em;
 }
 
-h2:first-child,
+h1:first-child,
 p:first-child,
 ul:first-child {
   margin-top: 0;
@@ -65,6 +63,10 @@ ul:first-child {
 p:last-child,
 ul:last-child {
   margin-bottom: 0;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h2 {
@@ -152,50 +154,17 @@ p {
   padding: 1rem;
 }
 
-@media screen and (min-width: 751px) {
-  .section__row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-    padding-left: .5rem;
-    padding-right: .5rem;
-  }
+.report {
+  padding-left: .25em;
+  padding-right: .25em;
 }
 
-.section__column a:not(.button):not(.plain) {
-  color: var(--color-alpha4);
-  text-decoration: none;
-  border-bottom: 1px dashed var(--color-alpha3);
-}
-
-@media screen and (max-width: 750px) {
-  .section__column:first-child {
-    margin-bottom: 2rem;
-  }
-}
-
-@media screen and (min-width: 751px) {
-  .section__column:first-child {
-    margin-right: 2rem;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 120px;
-    flex: 0 0 120px;
-  }
-
-  .section__column:last-child {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-  }
-}
-
+.report h1,
 .report h2 {
   color: var(--color-beta4);
 }
 
+.report h1::first-letter,
 .report h2::first-letter {
   background-color: var(--color-alpha2);
   color: var(--color-alpha4);
@@ -203,6 +172,12 @@ p {
   padding: 0 .1em;
   margin-right: .05em;
   border: 1px dashed var(--color-alpha3);
+}
+
+.report a:not(.button):not(.plain) {
+  color: var(--color-alpha4);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-alpha3);
 }
 
 .button {
@@ -218,6 +193,46 @@ p {
   text-align: center;
   border: 1px solid var(--color-beta4);
   padding: 1rem 2rem;
+}
+
+th {
+  font-family: var(--ff-alpha);
+  border: 1px dashed var(--color-alpha3);
+  padding: .25em .5rem;
+  vertical-align: baseline;
+}
+
+.small th {
+  font-size: 85%;
+}
+
+th {
+  font-weight: 500;
+  font-size: .875rem;
+  text-align: left;
+}
+
+.report .table-wrapper .charts-css.bar th {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-right: 1rem;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.report .table-wrapper .charts-css.bar td span {
+  display: none;
+  background-color: white;
+  line-height: 1;
+  position: absolute;
+  bottom: calc(100% + .25em);
+  left: 1px;
+  padding: 1px .2em;
+  -webkit-box-shadow: 0 0 1px 1px var(--color-alpha);
+  box-shadow: 0 0 1px 1px var(--color-alpha);
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .grid {
