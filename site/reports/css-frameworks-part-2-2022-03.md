@@ -1,9 +1,11 @@
 ---
 layout: post
-title: The CSS File Size Report for Top CSS Frameworks
+title: 'Top CSS Frameworks of 2022 Report, Part 2: XXX'
 description:
 image:
 date: 2022-01-25
+permalink: false
+eleventyExcludeFromCollections: true
 tags:
   # - report
 metadata:

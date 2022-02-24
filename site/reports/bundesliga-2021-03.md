@@ -26,7 +26,7 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-This report, like [the previous one](/reports/premier-league-2021-02/), will focus on the size of CSS. We are going to find out how much CSS is needed to create a site.
+This report, like [the previous one](/reports/premier-league-2021-02/), we will focus on the size of CSS. We are going to find out how much CSS is needed to create a site.
 
 Sites audited in this report:
 
