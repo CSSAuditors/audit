@@ -1,0 +1,200 @@
+{
+  "list": [
+    {
+      "maxSpecificity": 70,
+      "maxSelector": ".input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback)",
+      "minSpecificity": 1,
+      "minSelector": "progress",
+      "site": {
+        "title": "Bootstrap",
+        "url": "https://getbootstrap.com/",
+        "css": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 110,
+      "maxSelector": "#spinnerContainer.cooldown",
+      "minSpecificity": 1,
+      "minSelector": "select",
+      "site": {
+        "title": "Materialize",
+        "url": "https://materializecss.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 90,
+      "maxSelector": ".ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)>.ant-steps-item-container[role=button]:hover .ant-steps-item-icon .ant-steps-icon",
+      "minSpecificity": 1,
+      "minSelector": "html",
+      "site": {
+        "title": "Ant Design",
+        "url": "https://ant.design/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/antd/4.18.4/antd.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 110,
+      "maxSelector": ".ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)>.container>.item:not(.right):not(.borderless):first-child",
+      "minSpecificity": 1,
+      "minSelector": "::selection",
+      "site": {
+        "title": "Semantic UI",
+        "url": "https://semantic-ui.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 71,
+      "maxSelector": ".hero.is-danger a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current)",
+      "minSpecificity": 1,
+      "minSelector": "pre",
+      "site": {
+        "title": "Bulma",
+        "url": "https://bulma.io/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 60,
+      "maxSelector": ".button-group.clear.alert .button[disabled]:hover",
+      "minSpecificity": 1,
+      "minSelector": "tfoot",
+      "site": {
+        "title": "Foundation",
+        "url": "https://get.foundation/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.4/css/foundation.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 70,
+      "maxSelector": ".uk-tile-secondary:not(.uk-preserve-color) .uk-nav.uk-nav-divider>:not(.uk-nav-divider)+:not(.uk-nav-header,.uk-nav-divider)",
+      "minSpecificity": 1,
+      "minSelector": "h3",
+      "site": {
+        "title": "UIkit",
+        "url": "https://getuikit.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.10.1/css/uikit.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 30,
+      "maxSelector": ".hide-child:hover .child",
+      "minSpecificity": 1,
+      "minSelector": "code",
+      "site": {
+        "title": "Tachyons",
+        "url": "https://tachyons.io/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 61,
+      "maxSelector": ".ActionList-item.ActionList-item--hasSubItem>.ActionList-content:active+.ActionList-item .ActionList-item-label::before",
+      "minSpecificity": 1,
+      "minSelector": "label",
+      "site": {
+        "title": "Primer CSS",
+        "url": "https://primer.style/css/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/Primer/19.2.0/primer.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 30,
+      "maxSelector": ".group:hover .sm\\:group-hover\\:shadow-none",
+      "minSpecificity": 1,
+      "minSelector": "::before",
+      "site": {
+        "title": "TailwindCSS",
+        "url": "https://tailwindcss.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 51,
+      "maxSelector": ".pure-form input[type=radio]:focus:invalid:focus",
+      "minSpecificity": 1,
+      "minSelector": "html",
+      "site": {
+        "title": "Pure CSS",
+        "url": "https://purecss.io/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/pure-min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "maxSpecificity": 101,
+      "maxSelector": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
+      "minSpecificity": 1,
+      "minSelector": "details *",
+      "site": {
+        "title": "Halfmoon",
+        "url": "https://www.gethalfmoon.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/Halfmoon/1.1.1/css/halfmoon.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    }
+  ],
+  "maxSpecificity": {
+    "maxSpecificity": 110,
+    "maxSelector": ".ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)>.container>.item:not(.right):not(.borderless):first-child",
+    "minSpecificity": 1,
+    "minSelector": "::selection",
+    "site": {
+      "title": "Semantic UI",
+      "url": "https://semantic-ui.com/",
+      "css": "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css",
+      "category": "CSS Frameworks",
+      "year": "2022",
+      "month": "01"
+    }
+  },
+  "minSpecificity": {
+    "maxSpecificity": 101,
+    "maxSelector": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
+    "minSpecificity": 1,
+    "minSelector": "details *",
+    "site": {
+      "title": "Halfmoon",
+      "url": "https://www.gethalfmoon.com/",
+      "css": "https://cdnjs.cloudflare.com/ajax/libs/Halfmoon/1.1.1/css/halfmoon.min.css",
+      "category": "CSS Frameworks",
+      "year": "2022",
+      "month": "01"
+    }
+  }
+}

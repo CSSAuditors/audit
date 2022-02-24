@@ -1,0 +1,36 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Size</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxSize -%}
+          <tr>
+            <th><b>Largest size</b></th>
+            <td>{{ report.maxSize.site.title }}</td>
+            <td class="tar">{{ report.maxSize.size | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minSize -%}
+          <tr>
+            <th><b>Smallest size</b></th>
+            <td>{{ report.minSize.site.title }}</td>
+            <td class="tar">{{ report.minSize.size | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgSize -%}
+          <tr>
+            <th><b>Average size</b></th>
+            <td>-</td>
+            <td class="tar">{{ report.avgSize | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{% endif %}

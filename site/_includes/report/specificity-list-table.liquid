@@ -1,0 +1,32 @@
+{%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Specificity</b></th>
+          <th><b>Selector</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in reportSorted -%}
+          <tr>
+            <td colspan="3"><b><a href="{{ item.site.url }}">{{ item.site.title }}</a></b></td>
+          </tr>
+          <tr>
+            <th><b>Min.</b></th>
+            <td>{{ item.minSpecificity }}</td>
+            <td><pre><code>{{ item.minSelector }}</code></pre></td>
+          </tr>
+          <tr>
+            <th><b>Max.</b></th>
+            <td>{{ item.maxSpecificity }}</td>
+            <td><pre><code>{{ item.maxSelector }}</code></pre></td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  <p>Specificity calculation is not accurate.</p>
+{%- endif -%}

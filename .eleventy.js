@@ -50,11 +50,14 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({"assets/favicon": "."})
   eleventyConfig.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "css/charts.min.css"});
 
-  audit.prepareData(reports)
+  const silent = true
+
+  audit.prepareData(reports, silent)
 
   setTimeout(() => {
-    audit.processData(reports.report1, 'report1')
-    audit.processData(reports.report2, 'report2')
+    audit.processData(reports.report1, 'report1', silent)
+    audit.processData(reports.report2, 'report2', silent)
+    audit.processData(reports.report3, 'report3', silent)
   }, 1000)
 
   return {

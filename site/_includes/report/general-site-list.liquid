@@ -1,0 +1,8 @@
+{%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
+  <ul>
+    {%- for item in reportSorted -%}
+      <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

@@ -1,0 +1,1921 @@
+{
+  "stylesheet": {
+    "sourceLinesOfCode": 20283,
+    "linesOfCode": 8,
+    "size": 544068,
+    "comments": {
+      "total": 2,
+      "size": 129
+    }
+  },
+  "atrules": {
+    "fontface": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": [],
+      "uniquenessRatio": 1
+    },
+    "import": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "media": {
+      "total": 27,
+      "totalUnique": 19,
+      "unique": {
+        "screen and (max-width:768px)": 3,
+        "screen and (max-width:480px)": 1,
+        "only screen and (max-width:480px)": 1,
+        "(max-width:575px)": 1,
+        "(max-width:767px)": 2,
+        "(max-width:991px)": 1,
+        "(max-width:1199px)": 1,
+        "(max-width:1599px)": 1,
+        "(min-width:576px)": 1,
+        "(min-width:768px)": 1,
+        "(min-width:992px)": 1,
+        "(min-width:1200px)": 1,
+        "(min-width:1600px)": 1,
+        "(-ms-high-contrast:none),screen and (-ms-high-contrast:active)": 2,
+        "screen and (max-width:576px)": 2,
+        "(-ms-high-contrast:none)": 4,
+        "only screen and (max-width:992px)": 1,
+        "only screen and (max-width:576px)": 1,
+        "(-ms-high-contrast:active),(-ms-high-contrast:none)": 1
+      },
+      "uniquenessRatio": 0.7037037037037037
+    },
+    "charset": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "supports": {
+      "total": 1,
+      "totalUnique": 1,
+      "unique": {
+        "(-moz-appearance:meterbar)": 1
+      },
+      "uniquenessRatio": 1
+    },
+    "keyframes": {
+      "total": 118,
+      "totalUnique": 118,
+      "unique": {
+        "@-webkit-keyframes antFadeIn": 1,
+        "@keyframes antFadeIn": 1,
+        "@-webkit-keyframes antFadeOut": 1,
+        "@keyframes antFadeOut": 1,
+        "@-webkit-keyframes antMoveDownIn": 1,
+        "@keyframes antMoveDownIn": 1,
+        "@-webkit-keyframes antMoveDownOut": 1,
+        "@keyframes antMoveDownOut": 1,
+        "@-webkit-keyframes antMoveLeftIn": 1,
+        "@keyframes antMoveLeftIn": 1,
+        "@-webkit-keyframes antMoveLeftOut": 1,
+        "@keyframes antMoveLeftOut": 1,
+        "@-webkit-keyframes antMoveRightIn": 1,
+        "@keyframes antMoveRightIn": 1,
+        "@-webkit-keyframes antMoveRightOut": 1,
+        "@keyframes antMoveRightOut": 1,
+        "@-webkit-keyframes antMoveUpIn": 1,
+        "@keyframes antMoveUpIn": 1,
+        "@-webkit-keyframes antMoveUpOut": 1,
+        "@keyframes antMoveUpOut": 1,
+        "@-webkit-keyframes loadingCircle": 1,
+        "@keyframes loadingCircle": 1,
+        "@-webkit-keyframes waveEffect": 1,
+        "@keyframes waveEffect": 1,
+        "@-webkit-keyframes fadeEffect": 1,
+        "@keyframes fadeEffect": 1,
+        "@-webkit-keyframes antSlideUpIn": 1,
+        "@keyframes antSlideUpIn": 1,
+        "@-webkit-keyframes antSlideUpOut": 1,
+        "@keyframes antSlideUpOut": 1,
+        "@-webkit-keyframes antSlideDownIn": 1,
+        "@keyframes antSlideDownIn": 1,
+        "@-webkit-keyframes antSlideDownOut": 1,
+        "@keyframes antSlideDownOut": 1,
+        "@-webkit-keyframes antSlideLeftIn": 1,
+        "@keyframes antSlideLeftIn": 1,
+        "@-webkit-keyframes antSlideLeftOut": 1,
+        "@keyframes antSlideLeftOut": 1,
+        "@-webkit-keyframes antSlideRightIn": 1,
+        "@keyframes antSlideRightIn": 1,
+        "@-webkit-keyframes antSlideRightOut": 1,
+        "@keyframes antSlideRightOut": 1,
+        "@-webkit-keyframes antZoomIn": 1,
+        "@keyframes antZoomIn": 1,
+        "@-webkit-keyframes antZoomOut": 1,
+        "@keyframes antZoomOut": 1,
+        "@-webkit-keyframes antZoomBigIn": 1,
+        "@keyframes antZoomBigIn": 1,
+        "@-webkit-keyframes antZoomBigOut": 1,
+        "@keyframes antZoomBigOut": 1,
+        "@-webkit-keyframes antZoomUpIn": 1,
+        "@keyframes antZoomUpIn": 1,
+        "@-webkit-keyframes antZoomUpOut": 1,
+        "@keyframes antZoomUpOut": 1,
+        "@-webkit-keyframes antZoomLeftIn": 1,
+        "@keyframes antZoomLeftIn": 1,
+        "@-webkit-keyframes antZoomLeftOut": 1,
+        "@keyframes antZoomLeftOut": 1,
+        "@-webkit-keyframes antZoomRightIn": 1,
+        "@keyframes antZoomRightIn": 1,
+        "@-webkit-keyframes antZoomRightOut": 1,
+        "@keyframes antZoomRightOut": 1,
+        "@-webkit-keyframes antZoomDownIn": 1,
+        "@keyframes antZoomDownIn": 1,
+        "@-webkit-keyframes antZoomDownOut": 1,
+        "@keyframes antZoomDownOut": 1,
+        "@-webkit-keyframes antStatusProcessing": 1,
+        "@keyframes antStatusProcessing": 1,
+        "@-webkit-keyframes antZoomBadgeIn": 1,
+        "@keyframes antZoomBadgeIn": 1,
+        "@-webkit-keyframes antZoomBadgeOut": 1,
+        "@keyframes antZoomBadgeOut": 1,
+        "@-webkit-keyframes antNoWrapperZoomBadgeIn": 1,
+        "@keyframes antNoWrapperZoomBadgeIn": 1,
+        "@-webkit-keyframes antNoWrapperZoomBadgeOut": 1,
+        "@keyframes antNoWrapperZoomBadgeOut": 1,
+        "@-webkit-keyframes antBadgeLoadingCircle": 1,
+        "@keyframes antBadgeLoadingCircle": 1,
+        "@-webkit-keyframes card-loading": 1,
+        "@keyframes card-loading": 1,
+        "@-webkit-keyframes antdDrawerFadeIn": 1,
+        "@keyframes antdDrawerFadeIn": 1,
+        "@-webkit-keyframes diffZoomIn1": 1,
+        "@keyframes diffZoomIn1": 1,
+        "@-webkit-keyframes diffZoomIn2": 1,
+        "@keyframes diffZoomIn2": 1,
+        "@-webkit-keyframes diffZoomIn3": 1,
+        "@keyframes diffZoomIn3": 1,
+        "@-webkit-keyframes MessageMoveOut": 1,
+        "@keyframes MessageMoveOut": 1,
+        "@-webkit-keyframes NotificationFadeIn": 1,
+        "@keyframes NotificationFadeIn": 1,
+        "@-webkit-keyframes NotificationLeftFadeIn": 1,
+        "@keyframes NotificationLeftFadeIn": 1,
+        "@-webkit-keyframes NotificationFadeOut": 1,
+        "@keyframes NotificationFadeOut": 1,
+        "@-webkit-keyframes ant-progress-active": 1,
+        "@keyframes ant-progress-active": 1,
+        "@-webkit-keyframes antRadioEffect": 1,
+        "@keyframes antRadioEffect": 1,
+        "@-webkit-keyframes ant-skeleton-loading": 1,
+        "@keyframes ant-skeleton-loading": 1,
+        "@-webkit-keyframes ant-skeleton-loading-rtl": 1,
+        "@keyframes ant-skeleton-loading-rtl": 1,
+        "@-webkit-keyframes antSpinMove": 1,
+        "@keyframes antSpinMove": 1,
+        "@-webkit-keyframes antRotate": 1,
+        "@keyframes antRotate": 1,
+        "@-webkit-keyframes antRotateRtl": 1,
+        "@keyframes antRotateRtl": 1,
+        "@-webkit-keyframes antCheckboxEffect": 1,
+        "@keyframes antCheckboxEffect": 1,
+        "@-webkit-keyframes ant-tree-node-fx-do-not-use": 1,
+        "@keyframes ant-tree-node-fx-do-not-use": 1,
+        "@-webkit-keyframes uploadAnimateInlineIn": 1,
+        "@keyframes uploadAnimateInlineIn": 1,
+        "@-webkit-keyframes uploadAnimateInlineOut": 1,
+        "@keyframes uploadAnimateInlineOut": 1
+      },
+      "uniquenessRatio": 1,
+      "prefixed": {
+        "total": 59,
+        "totalUnique": 59,
+        "unique": {
+          "@-webkit-keyframes antFadeIn": 1,
+          "@-webkit-keyframes antFadeOut": 1,
+          "@-webkit-keyframes antMoveDownIn": 1,
+          "@-webkit-keyframes antMoveDownOut": 1,
+          "@-webkit-keyframes antMoveLeftIn": 1,
+          "@-webkit-keyframes antMoveLeftOut": 1,
+          "@-webkit-keyframes antMoveRightIn": 1,
+          "@-webkit-keyframes antMoveRightOut": 1,
+          "@-webkit-keyframes antMoveUpIn": 1,
+          "@-webkit-keyframes antMoveUpOut": 1,
+          "@-webkit-keyframes loadingCircle": 1,
+          "@-webkit-keyframes waveEffect": 1,
+          "@-webkit-keyframes fadeEffect": 1,
+          "@-webkit-keyframes antSlideUpIn": 1,
+          "@-webkit-keyframes antSlideUpOut": 1,
+          "@-webkit-keyframes antSlideDownIn": 1,
+          "@-webkit-keyframes antSlideDownOut": 1,
+          "@-webkit-keyframes antSlideLeftIn": 1,
+          "@-webkit-keyframes antSlideLeftOut": 1,
+          "@-webkit-keyframes antSlideRightIn": 1,
+          "@-webkit-keyframes antSlideRightOut": 1,
+          "@-webkit-keyframes antZoomIn": 1,
+          "@-webkit-keyframes antZoomOut": 1,
+          "@-webkit-keyframes antZoomBigIn": 1,
+          "@-webkit-keyframes antZoomBigOut": 1,
+          "@-webkit-keyframes antZoomUpIn": 1,
+          "@-webkit-keyframes antZoomUpOut": 1,
+          "@-webkit-keyframes antZoomLeftIn": 1,
+          "@-webkit-keyframes antZoomLeftOut": 1,
+          "@-webkit-keyframes antZoomRightIn": 1,
+          "@-webkit-keyframes antZoomRightOut": 1,
+          "@-webkit-keyframes antZoomDownIn": 1,
+          "@-webkit-keyframes antZoomDownOut": 1,
+          "@-webkit-keyframes antStatusProcessing": 1,
+          "@-webkit-keyframes antZoomBadgeIn": 1,
+          "@-webkit-keyframes antZoomBadgeOut": 1,
+          "@-webkit-keyframes antNoWrapperZoomBadgeIn": 1,
+          "@-webkit-keyframes antNoWrapperZoomBadgeOut": 1,
+          "@-webkit-keyframes antBadgeLoadingCircle": 1,
+          "@-webkit-keyframes card-loading": 1,
+          "@-webkit-keyframes antdDrawerFadeIn": 1,
+          "@-webkit-keyframes diffZoomIn1": 1,
+          "@-webkit-keyframes diffZoomIn2": 1,
+          "@-webkit-keyframes diffZoomIn3": 1,
+          "@-webkit-keyframes MessageMoveOut": 1,
+          "@-webkit-keyframes NotificationFadeIn": 1,
+          "@-webkit-keyframes NotificationLeftFadeIn": 1,
+          "@-webkit-keyframes NotificationFadeOut": 1,
+          "@-webkit-keyframes ant-progress-active": 1,
+          "@-webkit-keyframes antRadioEffect": 1,
+          "@-webkit-keyframes ant-skeleton-loading": 1,
+          "@-webkit-keyframes ant-skeleton-loading-rtl": 1,
+          "@-webkit-keyframes antSpinMove": 1,
+          "@-webkit-keyframes antRotate": 1,
+          "@-webkit-keyframes antRotateRtl": 1,
+          "@-webkit-keyframes antCheckboxEffect": 1,
+          "@-webkit-keyframes ant-tree-node-fx-do-not-use": 1,
+          "@-webkit-keyframes uploadAnimateInlineIn": 1,
+          "@-webkit-keyframes uploadAnimateInlineOut": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.5
+      }
+    },
+    "container": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    }
+  },
+  "rules": {
+    "total": 5347,
+    "empty": {
+      "total": 0,
+      "ratio": 0
+    },
+    "selectors": {
+      "min": 1,
+      "max": 50,
+      "mean": 1.346549466990836,
+      "mode": 1,
+      "median": 1,
+      "range": 49,
+      "sum": 7200
+    },
+    "declarations": {
+      "min": 1,
+      "max": 24,
+      "mean": 2.419113521600898,
+      "mode": 1,
+      "median": 2,
+      "range": 23,
+      "sum": 12935
+    }
+  },
+  "selectors": {
+    "total": 7200,
+    "totalUnique": 6524,
+    "uniquenessRatio": 0.9061111111111111,
+    "specificity": {
+      "sum": [
+        0,
+        15213,
+        2192
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        9,
+        0
+      ],
+      "mean": [
+        0,
+        2.180762614678899,
+        0.31422018348623854
+      ],
+      "mode": [
+        0,
+        1,
+        0
+      ],
+      "median": [
+        0,
+        2,
+        0
+      ]
+    },
+    "complexity": {
+      "min": 1,
+      "max": 18,
+      "mean": 3.349053899082569,
+      "mode": 1,
+      "median": 3,
+      "range": 17,
+      "sum": 23363,
+      "total": 6976,
+      "totalUnique": 18,
+      "unique": {
+        "1": 2082,
+        "2": 1123,
+        "3": 1164,
+        "4": 732,
+        "5": 649,
+        "6": 416,
+        "7": 371,
+        "8": 220,
+        "9": 74,
+        "10": 49,
+        "11": 11,
+        "12": 12,
+        "13": 9,
+        "14": 21,
+        "15": 17,
+        "16": 14,
+        "17": 10,
+        "18": 2
+      },
+      "uniquenessRatio": 0.0025802752293577983
+    },
+    "id": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    },
+    "accessibility": {
+      "total": 13,
+      "totalUnique": 13,
+      "unique": {
+        "[role=button]": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button]": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button] .ant-steps-item-description": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button] .ant-steps-item-icon .ant-steps-icon": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button] .ant-steps-item-subtitle": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button] .ant-steps-item-title": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button]:hover .ant-steps-item-description": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button]:hover .ant-steps-item-subtitle": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active)>.ant-steps-item-container[role=button]:hover .ant-steps-item-title": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)>.ant-steps-item-container[role=button]:hover .ant-steps-item-icon": 1,
+        ".ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)>.ant-steps-item-container[role=button]:hover .ant-steps-item-icon .ant-steps-icon": 1,
+        ".ant-steps-navigation .ant-steps-item:not(.ant-steps-item-active) .ant-steps-item-container[role=button]": 1,
+        ".ant-steps-navigation .ant-steps-item:not(.ant-steps-item-active) .ant-steps-item-container[role=button]:hover": 1
+      },
+      "uniquenessRatio": 1,
+      "ratio": 0.0018055555555555555
+    },
+    "keyframes": {
+      "total": 224,
+      "totalUnique": 4,
+      "unique": {
+        "0%": 104,
+        "to": 116,
+        "50%": 2,
+        "20%": 2
+      },
+      "uniquenessRatio": 0.017857142857142856,
+      "ratio": 0.03111111111111111
+    }
+  },
+  "declarations": {
+    "total": 12936,
+    "unique": {
+      "total": 1966,
+      "ratio": 0.15197897340754485
+    },
+    "importants": {
+      "total": 123,
+      "ratio": 0.009508348794063079,
+      "inKeyframes": {
+        "total": 0,
+        "ratio": 0
+      }
+    }
+  },
+  "properties": {
+    "total": 12936,
+    "totalUnique": 172,
+    "unique": {
+      "display": 613,
+      "width": 334,
+      "height": 328,
+      "box-sizing": 81,
+      "font-family": 14,
+      "line-height": 297,
+      "-webkit-text-size-adjust": 1,
+      "-ms-text-size-adjust": 1,
+      "-ms-overflow-style": 2,
+      "-webkit-tap-highlight-color": 2,
+      "margin": 240,
+      "color": 714,
+      "font-size": 281,
+      "font-variant": 73,
+      "background-color": 254,
+      "font-feature-settings": 70,
+      "outline": 82,
+      "overflow": 89,
+      "margin-top": 54,
+      "margin-bottom": 69,
+      "font-weight": 50,
+      "text-decoration": 20,
+      "-webkit-text-decoration": 1,
+      "border-bottom": 43,
+      "cursor": 202,
+      "font-style": 11,
+      "-webkit-appearance": 10,
+      "margin-left": 539,
+      "position": 396,
+      "vertical-align": 93,
+      "bottom": 144,
+      "top": 265,
+      "transition": 209,
+      "-webkit-text-decoration-skip": 2,
+      "border-style": 9,
+      "touch-action": 5,
+      "border-collapse": 14,
+      "padding-top": 26,
+      "padding-bottom": 29,
+      "text-align": 163,
+      "caption-side": 1,
+      "text-transform": 8,
+      "padding": 329,
+      "resize": 2,
+      "min-width": 63,
+      "border": 135,
+      "max-width": 200,
+      "white-space": 67,
+      "outline-offset": 2,
+      "font": 1,
+      "background": 378,
+      "content": 184,
+      "clear": 22,
+      "text-rendering": 7,
+      "-webkit-font-smoothing": 4,
+      "-moz-osx-font-smoothing": 4,
+      "-webkit-animation": 25,
+      "animation": 25,
+      "-webkit-animation-duration": 23,
+      "animation-duration": 23,
+      "-webkit-animation-fill-mode": 29,
+      "animation-fill-mode": 29,
+      "-webkit-animation-play-state": 54,
+      "animation-play-state": 54,
+      "-webkit-animation-name": 63,
+      "animation-name": 63,
+      "pointer-events": 70,
+      "opacity": 314,
+      "-webkit-animation-timing-function": 33,
+      "animation-timing-function": 33,
+      "transform": 293,
+      "transform-origin": 117,
+      "--antd-wave-shadow-color": 1,
+      "--scroll-bar": 1,
+      "right": 800,
+      "left": 850,
+      "border-radius": 214,
+      "box-shadow": 151,
+      "z-index": 89,
+      "list-style": 85,
+      "align-items": 60,
+      "word-wrap": 9,
+      "flex": 246,
+      "margin-right": 333,
+      "max-height": 18,
+      "direction": 80,
+      "padding-right": 97,
+      "padding-left": 91,
+      "text-overflow": 54,
+      "-o-object-fit": 2,
+      "object-fit": 2,
+      "-webkit-transform-style": 1,
+      "-webkit-backface-visibility": 1,
+      "border-bottom-right-radius": 17,
+      "border-color": 281,
+      "border-bottom-left-radius": 17,
+      "float": 42,
+      "background-image": 9,
+      "-webkit-user-select": 34,
+      "-moz-user-select": 34,
+      "-ms-user-select": 43,
+      "user-select": 43,
+      "text-shadow": 24,
+      "border-right-color": 11,
+      "border-left-color": 10,
+      "justify-content": 26,
+      "shape-rendering": 1,
+      "border-top-left-radius": 16,
+      "border-top-right-radius": 17,
+      "letter-spacing": 5,
+      "visibility": 31,
+      "border-top": 32,
+      "overflow-y": 7,
+      "min-height": 37,
+      "border-right": 40,
+      "border-left": 42,
+      "background-size": 3,
+      "background-position": 13,
+      "-webkit-touch-callout": 1,
+      "text-indent": 2,
+      "flex-direction": 22,
+      "flex-wrap": 15,
+      "flex-shrink": 3,
+      "border-right-width": 64,
+      "align-self": 9,
+      "border-width": 10,
+      "table-layout": 3,
+      "word-break": 7,
+      "overflow-wrap": 3,
+      "border-top-color": 3,
+      "background-clip": 5,
+      "flex-flow": 2,
+      "flex-grow": 4,
+      "list-style-type": 6,
+      "fill": 11,
+      "fill-opacity": 1,
+      "stroke": 5,
+      "-ms-writing-mode": 1,
+      "writing-mode": 1,
+      "-webkit-margin-start": 5,
+      "margin-inline-start": 5,
+      "order": 183,
+      "background-repeat": 1,
+      "-webkit-margin-end": 3,
+      "margin-inline-end": 3,
+      "-webkit-overflow-scrolling": 2,
+      "transition-duration": 1,
+      "-webkit-padding-start": 3,
+      "padding-inline-start": 3,
+      "border-spacing": 3,
+      "-moz-appearance": 2,
+      "appearance": 3,
+      "border-left-width": 9,
+      "border-top-width": 1,
+      "overflow-x": 5,
+      "font-size-adjust": 1,
+      "font-stretch": 1,
+      "-moz-tab-size": 1,
+      "-o-tab-size": 1,
+      "tab-size": 1,
+      "list-style-position": 1,
+      "-webkit-padding-end": 1,
+      "padding-inline-end": 1,
+      "-webkit-animation-delay": 3,
+      "animation-delay": 3,
+      "transition-timing-function": 1,
+      "row-gap": 1,
+      "border-bottom-color": 1,
+      "text-decoration-skip-ink": 1,
+      "-moz-transition": 1,
+      "-webkit-line-clamp": 1,
+      "-webkit-box-orient": 1
+    },
+    "uniquenessRatio": 0.013296227581941867,
+    "prefixed": {
+      "total": 395,
+      "totalUnique": 35,
+      "unique": {
+        "-webkit-text-size-adjust": 1,
+        "-ms-text-size-adjust": 1,
+        "-ms-overflow-style": 2,
+        "-webkit-tap-highlight-color": 2,
+        "-webkit-text-decoration": 1,
+        "-webkit-appearance": 10,
+        "-webkit-text-decoration-skip": 2,
+        "-webkit-font-smoothing": 4,
+        "-moz-osx-font-smoothing": 4,
+        "-webkit-animation": 25,
+        "-webkit-animation-duration": 23,
+        "-webkit-animation-fill-mode": 29,
+        "-webkit-animation-play-state": 54,
+        "-webkit-animation-name": 63,
+        "-webkit-animation-timing-function": 33,
+        "-o-object-fit": 2,
+        "-webkit-transform-style": 1,
+        "-webkit-backface-visibility": 1,
+        "-webkit-user-select": 34,
+        "-moz-user-select": 34,
+        "-ms-user-select": 43,
+        "-webkit-touch-callout": 1,
+        "-ms-writing-mode": 1,
+        "-webkit-margin-start": 5,
+        "-webkit-margin-end": 3,
+        "-webkit-overflow-scrolling": 2,
+        "-webkit-padding-start": 3,
+        "-moz-appearance": 2,
+        "-moz-tab-size": 1,
+        "-o-tab-size": 1,
+        "-webkit-padding-end": 1,
+        "-webkit-animation-delay": 3,
+        "-moz-transition": 1,
+        "-webkit-line-clamp": 1,
+        "-webkit-box-orient": 1
+      },
+      "uniquenessRatio": 0.08860759493670886,
+      "ratio": 0.030534941249226965
+    },
+    "custom": {
+      "total": 2,
+      "totalUnique": 2,
+      "unique": {
+        "--antd-wave-shadow-color": 1,
+        "--scroll-bar": 1
+      },
+      "uniquenessRatio": 1,
+      "ratio": 0.00015460729746444033
+    },
+    "browserhacks": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    }
+  },
+  "values": {
+    "colors": {
+      "total": 1664,
+      "totalUnique": 130,
+      "unique": {
+        "rgba(0,0,0,.85)": 169,
+        "#fff": 190,
+        "#1890ff": 153,
+        "#40a9ff": 77,
+        "#096dd9": 37,
+        "rgba(0,0,0,.25)": 118,
+        "rgba(0,0,0,.45)": 64,
+        "#feffe6": 2,
+        "#f6ffed": 3,
+        "#b7eb8f": 3,
+        "#52c41a": 24,
+        "#e6f7ff": 24,
+        "#91d5ff": 6,
+        "#fffbe6": 3,
+        "#ffe58f": 4,
+        "#faad14": 27,
+        "#fff2f0": 3,
+        "#ffccc7": 2,
+        "#ff4d4f": 65,
+        "rgba(0,0,0,.75)": 7,
+        "#f0f0f0": 83,
+        "#ccc": 2,
+        "#d9d9d9": 124,
+        "#eb2f96": 9,
+        "#f5222d": 7,
+        "#fa541c": 7,
+        "#fa8c16": 7,
+        "#fadb14": 9,
+        "#13c2c2": 7,
+        "#a0d911": 7,
+        "#2f54eb": 7,
+        "#722ed1": 7,
+        "rgba(0,0,0,.015)": 1,
+        "#f5f5f5": 76,
+        "rgba(0,0,0,.12)": 18,
+        "rgba(0,0,0,.045)": 3,
+        "#ff7875": 20,
+        "#d9363e": 13,
+        "rgba(0,0,0,.018)": 2,
+        "rgba(0,0,0,.028)": 2,
+        "rgba(0,0,0,.16)": 2,
+        "rgba(0,0,0,.09)": 2,
+        "#fafafa": 24,
+        "rgba(207,216,220,.2)": 2,
+        "rgba(207,216,220,.4)": 1,
+        "#595959": 1,
+        "rgba(24,144,255,.2)": 13,
+        "#bfbfbf": 26,
+        "rgba(0,0,0,.06)": 8,
+        "rgba(0,0,0,.08)": 21,
+        "rgba(0,0,0,.05)": 17,
+        "#7ec1ff": 11,
+        "#cbe6ff": 2,
+        "rgba(0,0,0,.04)": 3,
+        "hsla(0,0%,100%,.5)": 1,
+        "rgba(230,247,255,.2)": 1,
+        "rgba(0,0,0,.03)": 5,
+        "rgba(0,0,0,.07)": 8,
+        "#001529": 6,
+        "hsla(0,0%,100%,.65)": 3,
+        "#aeb8c2": 1,
+        "#f5f5f7": 1,
+        "#dce0e6": 1,
+        "#ffc53d": 4,
+        "rgba(250,173,20,.2)": 4,
+        "rgba(255,77,79,.2)": 6,
+        "rgba(0,0,0,.5)": 2,
+        "hsla(0,0%,100%,.85)": 4,
+        "rgba(0,0,0,.1)": 3,
+        "hsla(0,0%,100%,.25)": 2,
+        "#f4f4f4": 1,
+        "#f0f2f5": 2,
+        "#002140": 1,
+        "hsla(0,0%,100%,.1)": 1,
+        "#fff1f0": 3,
+        "#000c17": 1,
+        "hsla(0,0%,100%,.35)": 3,
+        "rgba(0,0,0,.67)": 1,
+        "#000": 1,
+        "#e6e6e6": 2,
+        "hsla(0,0%,100%,.01)": 1,
+        "#f3f3f3": 1,
+        "rgba(0,0,0,.2)": 1,
+        "hsla(0,0%,74.5%,.2)": 9,
+        "hsla(0,0%,50.6%,.24)": 1,
+        "#46a6ff": 1,
+        "rgba(24,144,255,.12)": 1,
+        "#e1e1e1": 1,
+        "#69c0ff": 2,
+        "#8cc8ff": 1,
+        "rgba(0,0,0,.001)": 1,
+        "rgba(0,35,11,.2)": 1,
+        "rgba(0,0,0,.65)": 1,
+        "#dcf4ff": 2,
+        "#a6a6a6": 2,
+        "#bae7ff": 3,
+        "#fbfbfb": 1,
+        "rgba(0,0,0,.15)": 2,
+        "rgba(0,0,0,.35)": 1,
+        "rgba(0,0,0,.8)": 1,
+        "#c41d7f": 2,
+        "#fff0f6": 2,
+        "#ffadd2": 2,
+        "#cf1322": 1,
+        "#ffa39e": 1,
+        "#d4380d": 1,
+        "#fff2e8": 1,
+        "#ffbb96": 1,
+        "#d46b08": 1,
+        "#fff7e6": 1,
+        "#ffd591": 1,
+        "#d4b106": 1,
+        "#fffb8f": 1,
+        "#d48806": 1,
+        "#08979c": 1,
+        "#e6fffb": 1,
+        "#87e8de": 1,
+        "#7cb305": 1,
+        "#fcffe6": 1,
+        "#eaff8f": 1,
+        "#389e0d": 1,
+        "#1d39c4": 1,
+        "#f0f5ff": 1,
+        "#adc6ff": 1,
+        "#531dab": 1,
+        "#f9f0ff": 1,
+        "#d3adf7": 1,
+        "hsla(0,0%,58.8%,.1)": 2,
+        "hsla(0,0%,39.2%,.2)": 4,
+        "hsla(0,0%,58.8%,.06)": 1
+      },
+      "uniquenessRatio": 0.078125,
+      "itemsPerContext": {
+        "color": {
+          "total": 634,
+          "totalUnique": 47,
+          "unique": {
+            "rgba(0,0,0,.85)": 168,
+            "#1890ff": 61,
+            "#40a9ff": 25,
+            "#096dd9": 20,
+            "rgba(0,0,0,.25)": 96,
+            "rgba(0,0,0,.45)": 60,
+            "#fff": 57,
+            "#52c41a": 13,
+            "#faad14": 15,
+            "#ff4d4f": 33,
+            "rgba(0,0,0,.75)": 5,
+            "#eb2f96": 1,
+            "#f5222d": 1,
+            "#fa541c": 1,
+            "#fa8c16": 1,
+            "#fadb14": 2,
+            "#13c2c2": 1,
+            "#a0d911": 1,
+            "#2f54eb": 1,
+            "#722ed1": 1,
+            "#ff7875": 7,
+            "#d9363e": 6,
+            "#ccc": 1,
+            "#595959": 1,
+            "#bfbfbf": 25,
+            "hsla(0,0%,100%,.5)": 1,
+            "hsla(0,0%,100%,.65)": 3,
+            "hsla(0,0%,100%,.85)": 4,
+            "hsla(0,0%,100%,.25)": 2,
+            "hsla(0,0%,100%,.35)": 2,
+            "rgba(0,0,0,.67)": 1,
+            "#000": 1,
+            "#f0f0f0": 1,
+            "rgba(0,0,0,.65)": 1,
+            "#a6a6a6": 2,
+            "#c41d7f": 2,
+            "#cf1322": 1,
+            "#d4380d": 1,
+            "#d46b08": 1,
+            "#d4b106": 1,
+            "#d48806": 1,
+            "#08979c": 1,
+            "#7cb305": 1,
+            "#389e0d": 1,
+            "#1d39c4": 1,
+            "#531dab": 1,
+            "#d9d9d9": 1
+          },
+          "uniquenessRatio": 0.07413249211356467
+        },
+        "background-color": {
+          "total": 210,
+          "totalUnique": 42,
+          "unique": {
+            "#fff": 56,
+            "#feffe6": 1,
+            "#f6ffed": 1,
+            "#e6f7ff": 6,
+            "#fffbe6": 1,
+            "#fff2f0": 1,
+            "#f0f0f0": 9,
+            "rgba(0,0,0,.45)": 4,
+            "rgba(0,0,0,.85)": 1,
+            "#52c41a": 5,
+            "#1890ff": 26,
+            "#d9d9d9": 2,
+            "#ff4d4f": 5,
+            "#faad14": 3,
+            "#f5f5f5": 35,
+            "rgba(0,0,0,.25)": 6,
+            "#fafafa": 10,
+            "#fff1f0": 1,
+            "#eb2f96": 2,
+            "#f5222d": 2,
+            "#fa541c": 2,
+            "#fa8c16": 2,
+            "#fadb14": 2,
+            "#13c2c2": 2,
+            "#a0d911": 2,
+            "#2f54eb": 2,
+            "#722ed1": 2,
+            "rgba(0,0,0,.2)": 1,
+            "#40a9ff": 1,
+            "#096dd9": 2,
+            "#e6e6e6": 1,
+            "#91d5ff": 1,
+            "#e1e1e1": 1,
+            "#69c0ff": 1,
+            "rgba(0,0,0,.06)": 1,
+            "#bae7ff": 3,
+            "rgba(0,0,0,.35)": 1,
+            "rgba(0,0,0,.8)": 1,
+            "rgba(0,0,0,.75)": 2,
+            "#dcf4ff": 1,
+            "#ffe58f": 1,
+            "rgba(0,0,0,.5)": 1
+          },
+          "uniquenessRatio": 0.2
+        },
+        "background": {
+          "total": 242,
+          "totalUnique": 62,
+          "unique": {
+            "#1890ff": 17,
+            "#ccc": 1,
+            "#ff4d4f": 6,
+            "#eb2f96": 4,
+            "#f5222d": 3,
+            "#fa541c": 3,
+            "#fa8c16": 3,
+            "#fadb14": 3,
+            "#faad14": 3,
+            "#13c2c2": 3,
+            "#a0d911": 3,
+            "#52c41a": 3,
+            "#2f54eb": 3,
+            "#722ed1": 3,
+            "#fff": 52,
+            "#f5f5f5": 34,
+            "#40a9ff": 2,
+            "#096dd9": 2,
+            "#ff7875": 2,
+            "#d9363e": 2,
+            "rgba(0,0,0,.018)": 2,
+            "rgba(0,0,0,.028)": 2,
+            "#e6f7ff": 11,
+            "#fafafa": 12,
+            "rgba(207,216,220,.2)": 2,
+            "rgba(207,216,220,.4)": 1,
+            "#cbe6ff": 2,
+            "rgba(0,0,0,.04)": 3,
+            "rgba(230,247,255,.2)": 1,
+            "#001529": 5,
+            "rgba(0,0,0,.5)": 1,
+            "rgba(0,0,0,.1)": 2,
+            "#f4f4f4": 1,
+            "#f0f2f5": 2,
+            "#002140": 1,
+            "hsla(0,0%,100%,.1)": 1,
+            "#fff1f0": 2,
+            "rgba(0,0,0,.25)": 2,
+            "#000c17": 1,
+            "hsla(0,0%,100%,.35)": 1,
+            "#e6e6e6": 1,
+            "hsla(0,0%,100%,.01)": 1,
+            "#f3f3f3": 1,
+            "hsla(0,0%,74.5%,.2)": 9,
+            "hsla(0,0%,50.6%,.24)": 1,
+            "#f0f0f0": 2,
+            "rgba(0,0,0,.001)": 1,
+            "#dcf4ff": 1,
+            "#fbfbfb": 1,
+            "#fff0f6": 2,
+            "#fff2e8": 1,
+            "#fff7e6": 1,
+            "#feffe6": 1,
+            "#fffbe6": 2,
+            "#e6fffb": 1,
+            "#fcffe6": 1,
+            "#f6ffed": 2,
+            "#f0f5ff": 1,
+            "#f9f0ff": 1,
+            "#fff2f0": 1,
+            "hsla(0,0%,58.8%,.1)": 2,
+            "hsla(0,0%,58.8%,.06)": 1
+          },
+          "uniquenessRatio": 0.256198347107438
+        },
+        "--antd-wave-shadow-color": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "#1890ff": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "box-shadow": {
+          "total": 125,
+          "totalUnique": 22,
+          "unique": {
+            "#1890ff": 5,
+            "#fff": 2,
+            "rgba(0,0,0,.015)": 1,
+            "rgba(0,0,0,.045)": 3,
+            "rgba(0,0,0,.16)": 2,
+            "rgba(0,0,0,.12)": 15,
+            "rgba(0,0,0,.09)": 2,
+            "#f0f0f0": 6,
+            "rgba(24,144,255,.2)": 13,
+            "rgba(0,0,0,.06)": 3,
+            "rgba(0,0,0,.08)": 21,
+            "rgba(0,0,0,.05)": 17,
+            "rgba(0,0,0,.03)": 4,
+            "rgba(0,0,0,.07)": 8,
+            "rgba(250,173,20,.2)": 4,
+            "rgba(255,77,79,.2)": 6,
+            "#e6f7ff": 7,
+            "rgba(24,144,255,.12)": 1,
+            "rgba(0,0,0,.1)": 1,
+            "rgba(0,35,11,.2)": 1,
+            "#fafafa": 1,
+            "rgba(0,0,0,.15)": 2
+          },
+          "uniquenessRatio": 0.176
+        },
+        "border": {
+          "total": 69,
+          "totalUnique": 11,
+          "unique": {
+            "#b7eb8f": 1,
+            "#91d5ff": 2,
+            "#ffe58f": 1,
+            "#ffccc7": 1,
+            "#1890ff": 12,
+            "#fff": 9,
+            "#d9d9d9": 26,
+            "#f0f0f0": 11,
+            "rgba(0,0,0,.06)": 1,
+            "rgba(0,0,0,.25)": 2,
+            "hsla(0,0%,39.2%,.2)": 3
+          },
+          "uniquenessRatio": 0.15942028985507245
+        },
+        "border-color": {
+          "total": 253,
+          "totalUnique": 41,
+          "unique": {
+            "#40a9ff": 39,
+            "#096dd9": 13,
+            "#d9d9d9": 69,
+            "#1890ff": 28,
+            "#ff4d4f": 18,
+            "#ff7875": 11,
+            "#d9363e": 5,
+            "#fff": 8,
+            "rgba(0,0,0,.25)": 12,
+            "#f5f5f5": 4,
+            "#91d5ff": 3,
+            "#f0f0f0": 1,
+            "#faad14": 6,
+            "#ffc53d": 4,
+            "#001529": 1,
+            "#46a6ff": 1,
+            "#69c0ff": 1,
+            "#8cc8ff": 1,
+            "rgba(0,0,0,.03)": 1,
+            "#ffadd2": 2,
+            "#eb2f96": 2,
+            "#ffa39e": 1,
+            "#f5222d": 1,
+            "#ffbb96": 1,
+            "#fa541c": 1,
+            "#ffd591": 1,
+            "#fa8c16": 1,
+            "#fffb8f": 1,
+            "#fadb14": 1,
+            "#ffe58f": 2,
+            "#87e8de": 1,
+            "#13c2c2": 1,
+            "#eaff8f": 1,
+            "#a0d911": 1,
+            "#b7eb8f": 2,
+            "#52c41a": 2,
+            "#adc6ff": 1,
+            "#2f54eb": 1,
+            "#d3adf7": 1,
+            "#722ed1": 1,
+            "#ffccc7": 1
+          },
+          "uniquenessRatio": 0.16205533596837945
+        },
+        "text-shadow": {
+          "total": 4,
+          "totalUnique": 2,
+          "unique": {
+            "rgba(0,0,0,.12)": 3,
+            "#fff": 1
+          },
+          "uniquenessRatio": 0.5
+        },
+        "border-right-color": {
+          "total": 11,
+          "totalUnique": 4,
+          "unique": {
+            "#40a9ff": 6,
+            "#d9d9d9": 3,
+            "#ff4d4f": 1,
+            "#fff": 1
+          },
+          "uniquenessRatio": 0.36363636363636365
+        },
+        "border-left-color": {
+          "total": 9,
+          "totalUnique": 3,
+          "unique": {
+            "#40a9ff": 4,
+            "#d9d9d9": 4,
+            "#fff": 1
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "border-top": {
+          "total": 16,
+          "totalUnique": 4,
+          "unique": {
+            "#f0f0f0": 12,
+            "#d9d9d9": 2,
+            "#7ec1ff": 1,
+            "rgba(0,0,0,.06)": 1
+          },
+          "uniquenessRatio": 0.25
+        },
+        "border-bottom": {
+          "total": 27,
+          "totalUnique": 4,
+          "unique": {
+            "#f0f0f0": 20,
+            "#d9d9d9": 5,
+            "#7ec1ff": 1,
+            "#1890ff": 1
+          },
+          "uniquenessRatio": 0.14814814814814814
+        },
+        "border-right": {
+          "total": 22,
+          "totalUnique": 4,
+          "unique": {
+            "#f0f0f0": 10,
+            "#7ec1ff": 4,
+            "#d9d9d9": 7,
+            "#1890ff": 1
+          },
+          "uniquenessRatio": 0.18181818181818182
+        },
+        "border-left": {
+          "total": 22,
+          "totalUnique": 5,
+          "unique": {
+            "#f0f0f0": 11,
+            "#7ec1ff": 5,
+            "rgba(0,0,0,.06)": 1,
+            "#d9d9d9": 4,
+            "hsla(0,0%,39.2%,.2)": 1
+          },
+          "uniquenessRatio": 0.22727272727272727
+        },
+        "border-top-color": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "rgba(0,0,0,.06)": 1,
+            "#fff": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "fill": {
+          "total": 10,
+          "totalUnique": 9,
+          "unique": {
+            "#f5f5f5": 2,
+            "#aeb8c2": 1,
+            "#f5f5f7": 1,
+            "#dce0e6": 1,
+            "#fff": 1,
+            "#fafafa": 1,
+            "#bfbfbf": 1,
+            "#fff2f0": 1,
+            "#ff4d4f": 1
+          },
+          "uniquenessRatio": 0.9
+        },
+        "stroke": {
+          "total": 5,
+          "totalUnique": 5,
+          "unique": {
+            "#d9d9d9": 1,
+            "#f5f5f5": 1,
+            "#1890ff": 1,
+            "#ff4d4f": 1,
+            "#52c41a": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "outline": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "#fadb14": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "border-bottom-color": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "#fff": 1
+          },
+          "uniquenessRatio": 1
+        }
+      }
+    },
+    "fontFamilies": {
+      "total": 14,
+      "totalUnique": 6,
+      "unique": {
+        "sans-serif": 1,
+        "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji": 6,
+        "SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace": 1,
+        "inherit": 3,
+        "SimSun,sans-serif": 1,
+        "Arial,Helvetica,sans-serif": 2
+      },
+      "uniquenessRatio": 0.42857142857142855
+    },
+    "fontSizes": {
+      "total": 281,
+      "totalUnique": 26,
+      "unique": {
+        "0": 6,
+        "14px": 151,
+        "80%": 1,
+        "75%": 1,
+        "1em": 3,
+        "inherit": 3,
+        "1.5em": 1,
+        "12px": 25,
+        "24px": 9,
+        "16px": 44,
+        "18px": 6,
+        "10px": 11,
+        "7px": 1,
+        "22px": 1,
+        "20px": 4,
+        "1.16666667em": 1,
+        "72px": 1,
+        "32px": 1,
+        "9px": 1,
+        "11px": 1,
+        "38px": 1,
+        "30px": 2,
+        "85%": 1,
+        "90%": 1,
+        "48px": 1,
+        "26px": 3
+      },
+      "uniquenessRatio": 0.09252669039145907
+    },
+    "zindexes": {
+      "total": 85,
+      "totalUnique": 17,
+      "unique": {
+        "0": 5,
+        "1": 42,
+        "2": 5,
+        "3": 2,
+        "4": 1,
+        "10": 6,
+        "15": 1,
+        "999": 1,
+        "1000": 4,
+        "1010": 2,
+        "1030": 1,
+        "1050": 7,
+        "1060": 1,
+        "1070": 1,
+        "1080": 1,
+        "-1": 4,
+        "-9999": 1
+      },
+      "uniquenessRatio": 0.2
+    },
+    "textShadows": {
+      "total": 5,
+      "totalUnique": 3,
+      "unique": {
+        "0 -1px 0 rgba(0,0,0,.12)": 3,
+        "0 1px 2px #fff": 1,
+        "0 0 .25px currentColor": 1
+      },
+      "uniquenessRatio": 0.6
+    },
+    "boxShadows": {
+      "total": 87,
+      "totalUnique": 38,
+      "unique": {
+        "0": 1,
+        "0 0 0 0 #1890ff": 1,
+        "0 0 0 0 var(--antd-wave-shadow-color)": 1,
+        "0 0 0 #1890ff": 2,
+        "0 0 0 6px var(--antd-wave-shadow-color)": 2,
+        "0 0 0 1px #fff": 2,
+        "0 2px 0 rgba(0,0,0,.015)": 1,
+        "0 2px 0 rgba(0,0,0,.045)": 3,
+        "0 1px 2px -2px rgba(0,0,0,.16),0 3px 6px 0 rgba(0,0,0,.12),0 5px 12px 4px rgba(0,0,0,.09)": 2,
+        "1px 0 0 0 #f0f0f0,0 1px 0 0 #f0f0f0,1px 1px 0 0 #f0f0f0,inset 1px 0 0 0 #f0f0f0,inset 0 1px 0 0 #f0f0f0": 1,
+        "0 0 0 2px rgba(24,144,255,.2)": 13,
+        "2px -2px 6px rgba(0,0,0,.06)": 1,
+        "0 3px 6px -4px rgba(0,0,0,.12),0 6px 16px 0 rgba(0,0,0,.08),0 9px 28px 8px rgba(0,0,0,.05)": 13,
+        "6px 0 16px -8px rgba(0,0,0,.08),9px 0 28px 0 rgba(0,0,0,.05),12px 0 48px 16px rgba(0,0,0,.03)": 1,
+        "-6px 0 16px -8px rgba(0,0,0,.08),-9px 0 28px 0 rgba(0,0,0,.05),-12px 0 48px 16px rgba(0,0,0,.03)": 1,
+        "0 6px 16px -8px rgba(0,0,0,.08),0 9px 28px 0 rgba(0,0,0,.05),0 12px 48px 16px rgba(0,0,0,.03)": 1,
+        "0 -6px 16px -8px rgba(0,0,0,.08),0 -9px 28px 0 rgba(0,0,0,.05),0 -12px 48px 16px rgba(0,0,0,.03)": 1,
+        "3px 3px 7px rgba(0,0,0,.07)": 3,
+        "-2px -2px 5px rgba(0,0,0,.06)": 2,
+        "0 0 0 2px rgba(250,173,20,.2)": 4,
+        "0 0 0 2px rgba(255,77,79,.2)": 6,
+        "0 0 0 2px #e6f7ff": 3,
+        "-3px 3px 7px rgba(0,0,0,.07)": 2,
+        "3px -3px 7px rgba(0,0,0,.07)": 2,
+        "0 0 0 3px #e6f7ff": 4,
+        "0 0 0 5px rgba(24,144,255,.12)": 1,
+        "0 0 0 2px rgba(0,0,0,.1)": 1,
+        "0 2px 4px 0 rgba(0,35,11,.2)": 1,
+        "0 1px 0 1px #fafafa": 1,
+        "0 -1px 0 #f0f0f0": 1,
+        "inset 10px 0 8px -8px rgba(0,0,0,.15)": 1,
+        "inset -10px 0 8px -8px rgba(0,0,0,.15)": 1,
+        "inset 10px 0 8px -8px rgba(0,0,0,.08)": 1,
+        "inset -10px 0 8px -8px rgba(0,0,0,.08)": 1,
+        "inset 0 10px 8px -8px rgba(0,0,0,.08)": 1,
+        "inset 0 -10px 8px -8px rgba(0,0,0,.08)": 1,
+        "-3px -3px 7px rgba(0,0,0,.07)": 1,
+        "0 0 0 2px #1890ff": 2
+      },
+      "uniquenessRatio": 0.4367816091954023
+    },
+    "animations": {
+      "durations": {
+        "total": 372,
+        "totalUnique": 16,
+        "unique": {
+          ".2s": 47,
+          ".1s": 13,
+          ".3s": 242,
+          "0s": 19,
+          ".24s": 7,
+          "1s": 8,
+          "2s": 2,
+          ".4s": 3,
+          "1.5s": 1,
+          "1.2s": 4,
+          "1.4s": 4,
+          ".5s": 2,
+          ".36s": 10,
+          ".15s": 7,
+          "2.4s": 2,
+          ".6s": 1
+        },
+        "uniquenessRatio": 0.043010752688172046
+      },
+      "timingFunctions": {
+        "total": 197,
+        "totalUnique": 15,
+        "unique": {
+          "linear": 21,
+          "cubic-bezier(.08,.82,.17,1)": 27,
+          "cubic-bezier(.6,.04,.98,.34)": 8,
+          "cubic-bezier(.23,1,.32,1)": 16,
+          "cubic-bezier(.755,.05,.855,.06)": 8,
+          "cubic-bezier(.78,.14,.15,.86)": 22,
+          "cubic-bezier(.645,.045,.355,1)": 38,
+          "ease-out": 4,
+          "ease-in-out": 14,
+          "cubic-bezier(.12,.4,.29,1.46)": 10,
+          "cubic-bezier(.71,-.46,.88,.6)": 8,
+          "ease": 13,
+          "cubic-bezier(.215,.61,.355,1)": 6,
+          "cubic-bezier(.2,0,0,1)": 1,
+          "cubic-bezier(.18,.89,.32,1.28)": 1
+        },
+        "uniquenessRatio": 0.07614213197969544
+      }
+    },
+    "prefixes": {
+      "total": 17,
+      "totalUnique": 11,
+      "unique": {
+        "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji": 6,
+        "-ms-autohiding-scrollbar": 1,
+        "-webkit-min-content": 1,
+        "-moz-min-content": 1,
+        "5px auto -webkit-focus-ring-color": 1,
+        "-webkit-grab": 1,
+        "-webkit-grabbing": 1,
+        "-webkit-sticky": 2,
+        "-webkit-max-content": 1,
+        "-moz-max-content": 1,
+        "-webkit-box": 1
+      },
+      "uniquenessRatio": 0.6470588235294118
+    },
+    "units": {
+      "total": 3345,
+      "totalUnique": 8,
+      "unique": {
+        "px": 2813,
+        "em": 77,
+        "s": 390,
+        "turn": 4,
+        "deg": 55,
+        "ms": 1,
+        "vh": 2,
+        "vw": 3
+      },
+      "uniquenessRatio": 0.002391629297458894,
+      "itemsPerContext": {
+        "font-size": {
+          "total": 268,
+          "totalUnique": 2,
+          "unique": {
+            "px": 263,
+            "em": 5
+          },
+          "uniquenessRatio": 0.007462686567164179
+        },
+        "margin-bottom": {
+          "total": 50,
+          "totalUnique": 2,
+          "unique": {
+            "em": 14,
+            "px": 36
+          },
+          "uniquenessRatio": 0.04
+        },
+        "margin": {
+          "total": 153,
+          "totalUnique": 2,
+          "unique": {
+            "em": 6,
+            "px": 147
+          },
+          "uniquenessRatio": 0.013071895424836602
+        },
+        "bottom": {
+          "total": 33,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "px": 32
+          },
+          "uniquenessRatio": 0.06060606060606061
+        },
+        "top": {
+          "total": 71,
+          "totalUnique": 2,
+          "unique": {
+            "em": 7,
+            "px": 64
+          },
+          "uniquenessRatio": 0.028169014084507043
+        },
+        "transition": {
+          "total": 288,
+          "totalUnique": 2,
+          "unique": {
+            "s": 287,
+            "ms": 1
+          },
+          "uniquenessRatio": 0.006944444444444444
+        },
+        "padding-top": {
+          "total": 21,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "px": 20
+          },
+          "uniquenessRatio": 0.09523809523809523
+        },
+        "padding-bottom": {
+          "total": 18,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "px": 17
+          },
+          "uniquenessRatio": 0.1111111111111111
+        },
+        "outline-offset": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "px": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "padding": {
+          "total": 314,
+          "totalUnique": 2,
+          "unique": {
+            "em": 13,
+            "px": 301
+          },
+          "uniquenessRatio": 0.006369426751592357
+        },
+        "vertical-align": {
+          "total": 12,
+          "totalUnique": 2,
+          "unique": {
+            "em": 8,
+            "px": 4
+          },
+          "uniquenessRatio": 0.16666666666666666
+        },
+        "-webkit-animation": {
+          "total": 25,
+          "totalUnique": 1,
+          "unique": {
+            "s": 25
+          },
+          "uniquenessRatio": 0.04
+        },
+        "animation": {
+          "total": 25,
+          "totalUnique": 1,
+          "unique": {
+            "s": 25
+          },
+          "uniquenessRatio": 0.04
+        },
+        "-webkit-animation-duration": {
+          "total": 23,
+          "totalUnique": 1,
+          "unique": {
+            "s": 23
+          },
+          "uniquenessRatio": 0.043478260869565216
+        },
+        "animation-duration": {
+          "total": 23,
+          "totalUnique": 1,
+          "unique": {
+            "s": 23
+          },
+          "uniquenessRatio": 0.043478260869565216
+        },
+        "transform": {
+          "total": 78,
+          "totalUnique": 3,
+          "unique": {
+            "turn": 4,
+            "deg": 53,
+            "px": 21
+          },
+          "uniquenessRatio": 0.038461538461538464
+        },
+        "box-shadow": {
+          "total": 256,
+          "totalUnique": 1,
+          "unique": {
+            "px": 256
+          },
+          "uniquenessRatio": 0.00390625
+        },
+        "border-radius": {
+          "total": 204,
+          "totalUnique": 1,
+          "unique": {
+            "px": 204
+          },
+          "uniquenessRatio": 0.004901960784313725
+        },
+        "margin-right": {
+          "total": 101,
+          "totalUnique": 2,
+          "unique": {
+            "px": 98,
+            "em": 3
+          },
+          "uniquenessRatio": 0.019801980198019802
+        },
+        "line-height": {
+          "total": 120,
+          "totalUnique": 2,
+          "unique": {
+            "px": 119,
+            "em": 1
+          },
+          "uniquenessRatio": 0.016666666666666666
+        },
+        "border": {
+          "total": 70,
+          "totalUnique": 1,
+          "unique": {
+            "px": 70
+          },
+          "uniquenessRatio": 0.014285714285714285
+        },
+        "margin-left": {
+          "total": 120,
+          "totalUnique": 2,
+          "unique": {
+            "px": 118,
+            "em": 2
+          },
+          "uniquenessRatio": 0.016666666666666666
+        },
+        "padding-right": {
+          "total": 64,
+          "totalUnique": 2,
+          "unique": {
+            "px": 63,
+            "em": 1
+          },
+          "uniquenessRatio": 0.03125
+        },
+        "padding-left": {
+          "total": 63,
+          "totalUnique": 2,
+          "unique": {
+            "px": 62,
+            "em": 1
+          },
+          "uniquenessRatio": 0.031746031746031744
+        },
+        "width": {
+          "total": 163,
+          "totalUnique": 2,
+          "unique": {
+            "px": 160,
+            "em": 3
+          },
+          "uniquenessRatio": 0.012269938650306749
+        },
+        "height": {
+          "total": 219,
+          "totalUnique": 2,
+          "unique": {
+            "px": 216,
+            "em": 3
+          },
+          "uniquenessRatio": 0.0091324200913242
+        },
+        "right": {
+          "total": 87,
+          "totalUnique": 1,
+          "unique": {
+            "px": 87
+          },
+          "uniquenessRatio": 0.011494252873563218
+        },
+        "left": {
+          "total": 82,
+          "totalUnique": 1,
+          "unique": {
+            "px": 82
+          },
+          "uniquenessRatio": 0.012195121951219513
+        },
+        "min-width": {
+          "total": 44,
+          "totalUnique": 2,
+          "unique": {
+            "px": 43,
+            "em": 1
+          },
+          "uniquenessRatio": 0.045454545454545456
+        },
+        "border-bottom-right-radius": {
+          "total": 7,
+          "totalUnique": 1,
+          "unique": {
+            "px": 7
+          },
+          "uniquenessRatio": 0.14285714285714285
+        },
+        "border-bottom-left-radius": {
+          "total": 8,
+          "totalUnique": 1,
+          "unique": {
+            "px": 8
+          },
+          "uniquenessRatio": 0.125
+        },
+        "text-shadow": {
+          "total": 6,
+          "totalUnique": 1,
+          "unique": {
+            "px": 6
+          },
+          "uniquenessRatio": 0.16666666666666666
+        },
+        "border-top-left-radius": {
+          "total": 8,
+          "totalUnique": 1,
+          "unique": {
+            "px": 8
+          },
+          "uniquenessRatio": 0.125
+        },
+        "border-top-right-radius": {
+          "total": 8,
+          "totalUnique": 1,
+          "unique": {
+            "px": 8
+          },
+          "uniquenessRatio": 0.125
+        },
+        "letter-spacing": {
+          "total": 4,
+          "totalUnique": 2,
+          "unique": {
+            "em": 2,
+            "px": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "border-top": {
+          "total": 17,
+          "totalUnique": 1,
+          "unique": {
+            "px": 17
+          },
+          "uniquenessRatio": 0.058823529411764705
+        },
+        "margin-top": {
+          "total": 46,
+          "totalUnique": 2,
+          "unique": {
+            "px": 44,
+            "em": 2
+          },
+          "uniquenessRatio": 0.043478260869565216
+        },
+        "min-height": {
+          "total": 32,
+          "totalUnique": 2,
+          "unique": {
+            "px": 31,
+            "em": 1
+          },
+          "uniquenessRatio": 0.0625
+        },
+        "border-bottom": {
+          "total": 29,
+          "totalUnique": 1,
+          "unique": {
+            "px": 29
+          },
+          "uniquenessRatio": 0.034482758620689655
+        },
+        "border-right": {
+          "total": 22,
+          "totalUnique": 1,
+          "unique": {
+            "px": 22
+          },
+          "uniquenessRatio": 0.045454545454545456
+        },
+        "border-left": {
+          "total": 22,
+          "totalUnique": 1,
+          "unique": {
+            "px": 22
+          },
+          "uniquenessRatio": 0.045454545454545456
+        },
+        "background": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "deg": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "text-indent": {
+          "total": 2,
+          "totalUnique": 2,
+          "unique": {
+            "px": 1,
+            "em": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "border-right-width": {
+          "total": 57,
+          "totalUnique": 1,
+          "unique": {
+            "px": 57
+          },
+          "uniquenessRatio": 0.017543859649122806
+        },
+        "border-width": {
+          "total": 16,
+          "totalUnique": 1,
+          "unique": {
+            "px": 16
+          },
+          "uniquenessRatio": 0.0625
+        },
+        "outline": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "px": 2
+          },
+          "uniquenessRatio": 0.5
+        },
+        "-webkit-margin-start": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "margin-inline-start": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "-webkit-margin-end": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "margin-inline-end": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "transition-duration": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "s": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "-webkit-padding-start": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "padding-inline-start": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "px": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "border-left-width": {
+          "total": 8,
+          "totalUnique": 1,
+          "unique": {
+            "px": 8
+          },
+          "uniquenessRatio": 0.125
+        },
+        "max-height": {
+          "total": 14,
+          "totalUnique": 2,
+          "unique": {
+            "px": 12,
+            "vh": 2
+          },
+          "uniquenessRatio": 0.14285714285714285
+        },
+        "max-width": {
+          "total": 10,
+          "totalUnique": 2,
+          "unique": {
+            "vw": 3,
+            "px": 7
+          },
+          "uniquenessRatio": 0.2
+        },
+        "-webkit-padding-end": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "px": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "padding-inline-end": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "px": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "-webkit-animation-delay": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "s": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "animation-delay": {
+          "total": 3,
+          "totalUnique": 1,
+          "unique": {
+            "s": 3
+          },
+          "uniquenessRatio": 0.3333333333333333
+        },
+        "row-gap": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "px": 1
+          },
+          "uniquenessRatio": 1
+        }
+      }
+    }
+  },
+  "__meta__": {
+    "parseTime": 99,
+    "analyzeTime": 179,
+    "total": 279
+  }
+}

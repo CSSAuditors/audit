@@ -1,0 +1,29 @@
+{%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Errors</b></th>
+          <th class="tar"><b>Error types</b></th>
+          <th class="tar"><b>Warnings</b></th>
+          <th class="tar"><b>Warning types</b></th>
+          <th><b>URL</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in reportSorted -%}
+          <tr>
+            <td><b><a href="{{ item.site.url }}">{{ item.site.title }}</a></b></td>
+            <td class="tar">{{ item.errors_count }}</td>
+            <td class="tar">{{ item.error_types_count }}</td>
+            <td class="tar">{{ item.warnings_count }}</td>
+            <td class="tar">{{ item.warning_types_count }}</td>
+            <td><a href="https://jigsaw.w3.org/css-validator/validator?uri={{ item.site.css }}">See errors</a></td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

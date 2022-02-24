@@ -1,0 +1,36 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>CSS lines</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxLinesOfCode -%}
+          <tr>
+            <th><b>Most CSS lines</b></th>
+            <td>{{ report.maxLinesOfCode.site.title }}</td>
+            <td class="tar">{{ report.maxLinesOfCode.linesOfCode }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minLinesOfCode -%}
+          <tr>
+            <th><b>Least CSS lines</b></th>
+            <td>{{ report.minLinesOfCode.site.title }}</td>
+            <td class="tar">{{ report.minLinesOfCode.linesOfCode }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgLinesOfCode -%}
+          <tr>
+            <th><b>Average CSS lines</b></th>
+            <td>-</td>
+            <td class="tar">{{ report.avgLinesOfCode | ceil }}</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{% endif %}

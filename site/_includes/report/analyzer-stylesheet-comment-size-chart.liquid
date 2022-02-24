@@ -1,0 +1,32 @@
+{%- if report -%}
+  {% assign reportSorted = report.list | sort: 'title' %}
+  <div class="table-wrapper">
+    <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-{{ space | default: '3' }}" style="--labels-size: 10em;--cols: {{ report.list | size }};--col-height: {{ height | default: '2.5rem' }};">
+      <caption>CSS comment sizes</caption>
+      <thead>
+        <tr>
+          <th scope="col">Site</th>
+          <th scope="col">Comment size</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in reportSorted -%}
+          {%- assign maxCommentsSize = report.maxCommentsSize.comments.size -%}
+          {%- if item.comments.size -%}
+            {%- assign commentsSize = item.comments.size -%}
+            {%- assign commentsSizePercent = commentsSize | divided_by: maxCommentsSize -%}
+          {%- else -%}
+            {%- assign commentsSize = 0 -%}
+            {%- assign commentsSizePercent = 0 -%}
+          {%- endif -%}
+          <tr>
+            <th scope="row">{{ item.site.title }}</th>
+            <td style="--size:{{ commentsSizePercent }};"><span>Comment size: {{ commentsSize | fileSize }}</span></td>
+            </td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  <small>This graph is interactive. You could tap or hover over bars to see extra information.</small>
+{%- endif -%}

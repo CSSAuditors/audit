@@ -1,7 +1,7 @@
 const helpers = require('./helpers.js')
 const puppeteer = require('puppeteer')
 
-const screenshot = async (site) => {
+const screenshot = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
 
@@ -25,9 +25,13 @@ const screenshot = async (site) => {
       })
       await browser.close()
 
-      console.log(`✅ Screenshot file created in ${folder}`)
+      if(!silent) {
+        console.log(`✅ Screenshot file created in ${folder}`)
+      }
     } else {
-      console.log(`📸 Screenshot file: ${screenshotFile}`)
+      if(!silent) {
+        console.log(`📸 Screenshot file: ${screenshotFile}`)
+      }
     }
 
     resolve()

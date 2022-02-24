@@ -1,7 +1,7 @@
 const helpers = require('./helpers.js')
 const puppeteer = require('puppeteer')
 
-const coverage = async (site) => {
+const coverage = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
 
@@ -18,14 +18,19 @@ const coverage = async (site) => {
         height: 768,
         deviceScaleFactor: 1
       })
+
       const cssCoverage = await page.coverage.stopCSSCoverage()
       await browser.close()
 
       helpers.saveFile(coverageFile, cssCoverage, true)
 
-      console.log(`✅ Coverage file created in ${folder}`)
+      if(!silent) {
+        console.log(`✅ Coverage file created in ${folder}`)
+      }
     } else {
-      console.log(`🌖 Coverage file: ${coverageFile}`)
+      if(!silent) {
+        console.log(`🌖 Coverage file: ${coverageFile}`)
+      }
     }
 
     resolve()

@@ -30,7 +30,7 @@ In this report, we are going to focus on the size of CSS. The aim of the report 
 
 Sites audited in this report:
 
-{% render report/site-list, report: reports.report1 %}
+{% render report/general-site-list, report: reports.report1 %}
 
 Note that we included all sites of the Premier League plus the Premier League official site.
 
@@ -39,7 +39,7 @@ Note that we included all sites of the Premier League plus the Premier League of
 To generate this report, we used the following tools:
 
 - [wappalyzer](https://github.com/aliasio/wappalyzer)
-- [extract-css-core](https://github.com/bartveneman/extract-css-core)
+- [extract-css-core](https://github.com/projectwallace/extract-css-core)
 
 Using these tools, we extracted information about UI frameworks and the size of External CSS, Style tag CSS, and Inline CSS, where:
 
@@ -55,7 +55,7 @@ To make the text more readable, the terms “site” and “homepage” refer to
 
 ## The CSS File Sizes
 
-{% render report/file-sizes, report: report1-extractor %}
+{% render report/extractor-sizes-table, report: report1-extractor %}
 
 ### The Findings
 
@@ -67,7 +67,7 @@ According to [Web Almanac](https://almanac.httparchive.org/en/2020/css#usage), a
 
 > While JavaScript far surpasses CSS in its share of page weight, CSS has certainly grown in size over the years, with the median desktop page loading 62 KB of CSS code, and one in ten pages loading more than 240 KB of CSS code.
 
-{% render report/chart-sizes, report: report1-extractor %}
+{% render report/extractor-sizes-chart, report: report1-extractor %}
 
 ---
 
@@ -87,7 +87,7 @@ Let us compare the average size of the Premier League site to UI frameworks size
 
 ## The CSS File Counts
 
-{% render report/file-count, report: report1-extractor %}
+{% render report/extractor-count-table, report: report1-extractor %}
 
 ### The Findings
 
@@ -99,7 +99,7 @@ According to Web Almanac, 7% of all pages use a single External CSS file, while 
 
 > All these kilobytes of code are typically distributed across multiple files and `<style>` elements; only about 7% of pages concentrate all their CSS code in one remote stylesheet, as we are often taught to do. In fact, the median page contains 3 `<style>` elements and 6 remote stylesheets, with 10% of them carrying over 14 `<style>` elements and over 20 remote CSS files! While this is suboptimal on desktop, it really kills performance on mobile, where round-trip latency is more important than raw download speed.
 
-{% render report/chart-count, report: report1-extractor %}
+{% render report/extractor-count-chart, report: report1-extractor %}
 
 ---
 
@@ -140,4 +140,4 @@ Combining all CSS files in a single one, moving code from `<style>` tags and `st
 
 ## Complete Report
 
-{% render report/full-report, report: report1-extractor %}
+{% render report/extractor-list-table, report: report1-extractor %}

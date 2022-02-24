@@ -1,7 +1,7 @@
 const helpers = require('./helpers')
 const calc = require('./calc')
 
-const wappalyzerReportSync = (site) => {
+const getReport = (site) => {
   const folder = helpers.getFolder(site)
   const wappalyzerFile = `${folder}/wappalyzer.json`
 
@@ -22,7 +22,7 @@ const wappalyzerReportSync = (site) => {
   return frameworksUsed
 }
 
-const report = (sites, name) => {
+const report = (sites, name, silent) => {
   const root = helpers.getRootDirectoryBase();
   const wappalyzerFile = `${root}/site/_data/${name}-wappalyzer.json`
 
@@ -30,19 +30,29 @@ const report = (sites, name) => {
     const wappalyzerData = []
 
     for (const site of sites.list) {
-      wappalyzerData.push({
-        ...wappalyzerReportSync(site)
-      })
+      if(!site.css) {
+        wappalyzerData.push({
+          ...getReport(site)
+        })
+      }
+    }
+
+    if(!wappalyzerData.length) {
+      return false
     }
 
     const frameworksData = wappalyzerData.filter(item => item.frameworks !== 'None')
 
-    console.log(`✅ Wappalyzer data saved at ${wappalyzerFile}`)
+    if(!silent) {
+      console.log(`✅ Wappalyzer data saved at ${wappalyzerFile}`)
+    }
 
     helpers.saveFile(wappalyzerFile, frameworksData, true)
+  } else {
+    if(!silent) {
+      console.log(`✅ Wappalyzer data exists at ${wappalyzerFile}`)
+    }
   }
-
-  console.log(`✅ Wappalyzer data exists at ${wappalyzerFile}`)
 
   return true
 }

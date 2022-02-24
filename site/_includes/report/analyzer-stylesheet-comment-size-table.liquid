@@ -1,0 +1,36 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Comment size</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxCommentsSize -%}
+          <tr>
+            <th><b>Largest comment size</b></th>
+            <td>{{ report.maxCommentsSize.site.title }}</td>
+            <td class="tar">{{ report.maxCommentsSize.comments.size | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minCommentsSize -%}
+          <tr>
+            <th><b>Smallest comment size</b></th>
+            <td>{{ report.minCommentsSize.site.title }}</td>
+            <td class="tar">{{ report.minCommentsSize.comments.size | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgCommentsSize -%}
+          <tr>
+            <th><b>Average comment size</b></th>
+            <td>-</td>
+            <td class="tar">{{ report.avgCommentsSize | fileSize }}</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{% endif %}

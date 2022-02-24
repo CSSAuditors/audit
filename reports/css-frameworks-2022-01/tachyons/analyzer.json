@@ -1,0 +1,1026 @@
+{
+  "stylesheet": {
+    "sourceLinesOfCode": 4793,
+    "linesOfCode": 1,
+    "size": 73256,
+    "comments": {
+      "total": 2,
+      "size": 112
+    }
+  },
+  "atrules": {
+    "fontface": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": [],
+      "uniquenessRatio": 1
+    },
+    "import": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "media": {
+      "total": 3,
+      "totalUnique": 3,
+      "unique": {
+        "screen and (min-width:30em)": 1,
+        "screen and (min-width:30em) and (max-width:60em)": 1,
+        "screen and (min-width:60em)": 1
+      },
+      "uniquenessRatio": 1
+    },
+    "charset": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "supports": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "keyframes": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "prefixed": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      }
+    },
+    "container": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    }
+  },
+  "rules": {
+    "total": 2108,
+    "empty": {
+      "total": 0,
+      "ratio": 0
+    },
+    "selectors": {
+      "min": 1,
+      "max": 44,
+      "mean": 1.110056925996205,
+      "mode": 1,
+      "median": 1,
+      "range": 43,
+      "sum": 2340
+    },
+    "declarations": {
+      "min": 1,
+      "max": 11,
+      "mean": 1.1622390891840608,
+      "mode": 1,
+      "median": 1,
+      "range": 10,
+      "sum": 2450
+    }
+  },
+  "selectors": {
+    "total": 2340,
+    "totalUnique": 2283,
+    "uniquenessRatio": 0.9756410256410256,
+    "specificity": {
+      "sum": [
+        0,
+        2533,
+        117
+      ],
+      "min": [
+        0,
+        0,
+        1
+      ],
+      "max": [
+        0,
+        3,
+        0
+      ],
+      "mean": [
+        0,
+        1.0824786324786324,
+        0.05
+      ],
+      "mode": [
+        0,
+        1,
+        0
+      ],
+      "median": [
+        0,
+        1,
+        0
+      ]
+    },
+    "complexity": {
+      "min": 1,
+      "max": 5,
+      "mean": 1.1512820512820512,
+      "mode": 1,
+      "median": 1,
+      "range": 4,
+      "sum": 2694,
+      "total": 2340,
+      "totalUnique": 5,
+      "unique": {
+        "1": 2036,
+        "2": 263,
+        "3": 34,
+        "4": 5,
+        "5": 2
+      },
+      "uniquenessRatio": 0.002136752136752137
+    },
+    "id": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    },
+    "accessibility": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    },
+    "keyframes": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    }
+  },
+  "declarations": {
+    "total": 2450,
+    "unique": {
+      "total": 687,
+      "ratio": 0.2804081632653061
+    },
+    "importants": {
+      "total": 12,
+      "ratio": 0.004897959183673469,
+      "inKeyframes": {
+        "total": 0,
+        "ratio": 0
+      }
+    }
+  },
+  "properties": {
+    "total": 2450,
+    "totalUnique": 98,
+    "unique": {
+      "line-height": 17,
+      "-webkit-text-size-adjust": 1,
+      "margin": 63,
+      "font-size": 42,
+      "box-sizing": 4,
+      "height": 71,
+      "overflow": 24,
+      "font-family": 18,
+      "background-color": 120,
+      "border-bottom": 1,
+      "text-decoration": 16,
+      "-webkit-text-decoration": 1,
+      "font-weight": 45,
+      "position": 31,
+      "vertical-align": 18,
+      "bottom": 29,
+      "top": 30,
+      "border-style": 26,
+      "text-transform": 17,
+      "-webkit-appearance": 5,
+      "padding": 37,
+      "outline": 17,
+      "color": 114,
+      "display": 58,
+      "max-width": 59,
+      "white-space": 17,
+      "outline-offset": 1,
+      "font": 1,
+      "padding-bottom": 108,
+      "right": 28,
+      "left": 29,
+      "width": 98,
+      "z-index": 17,
+      "background-size": 8,
+      "background-position": 20,
+      "background-repeat": 12,
+      "border-width": 32,
+      "border-top-style": 4,
+      "border-top-width": 8,
+      "border-right-style": 4,
+      "border-right-width": 8,
+      "border-bottom-style": 4,
+      "border-bottom-width": 8,
+      "border-left-style": 4,
+      "border-left-width": 8,
+      "border-color": 62,
+      "border-radius": 29,
+      "border-top-left-radius": 8,
+      "border-top-right-radius": 8,
+      "border-bottom-right-radius": 8,
+      "border-bottom-left-radius": 4,
+      "box-shadow": 21,
+      "overflow-x": 17,
+      "overflow-y": 18,
+      "content": 2,
+      "clear": 17,
+      "table-layout": 4,
+      "flex": 8,
+      "min-width": 4,
+      "min-height": 12,
+      "flex-direction": 16,
+      "flex-wrap": 12,
+      "align-items": 20,
+      "align-self": 20,
+      "justify-content": 20,
+      "align-content": 24,
+      "order": 40,
+      "flex-grow": 8,
+      "flex-shrink": 8,
+      "float": 12,
+      "font-style": 8,
+      "-moz-appearance": 1,
+      "border": 1,
+      "letter-spacing": 12,
+      "transition": 17,
+      "list-style-type": 2,
+      "opacity": 21,
+      "-webkit-transform": 34,
+      "transform": 34,
+      "padding-left": 65,
+      "padding-right": 64,
+      "padding-top": 64,
+      "margin-left": 101,
+      "margin-right": 96,
+      "margin-bottom": 97,
+      "margin-top": 98,
+      "border-collapse": 1,
+      "border-spacing": 1,
+      "text-align": 16,
+      "text-indent": 5,
+      "font-variant": 4,
+      "text-overflow": 4,
+      "clip": 8,
+      "-moz-osx-font-smoothing": 2,
+      "-webkit-backface-visibility": 2,
+      "backface-visibility": 2,
+      "cursor": 1,
+      "background": 4
+    },
+    "uniquenessRatio": 0.04,
+    "prefixed": {
+      "total": 46,
+      "totalUnique": 7,
+      "unique": {
+        "-webkit-text-size-adjust": 1,
+        "-webkit-text-decoration": 1,
+        "-webkit-appearance": 5,
+        "-moz-appearance": 1,
+        "-webkit-transform": 34,
+        "-moz-osx-font-smoothing": 2,
+        "-webkit-backface-visibility": 2
+      },
+      "uniquenessRatio": 0.15217391304347827,
+      "ratio": 0.018775510204081632
+    },
+    "custom": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    },
+    "browserhacks": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
+    }
+  },
+  "values": {
+    "colors": {
+      "total": 313,
+      "totalUnique": 61,
+      "unique": {
+        "ButtonText": 1,
+        "#000": 6,
+        "#111": 5,
+        "#333": 5,
+        "#555": 5,
+        "#777": 5,
+        "#999": 5,
+        "#aaa": 6,
+        "#ccc": 6,
+        "#eee": 6,
+        "#f4f4f4": 6,
+        "#fff": 8,
+        "hsla(0,0%,100%,.9)": 5,
+        "hsla(0,0%,100%,.8)": 5,
+        "hsla(0,0%,100%,.7)": 5,
+        "hsla(0,0%,100%,.6)": 5,
+        "hsla(0,0%,100%,.5)": 5,
+        "hsla(0,0%,100%,.4)": 5,
+        "hsla(0,0%,100%,.3)": 5,
+        "hsla(0,0%,100%,.2)": 5,
+        "hsla(0,0%,100%,.1)": 6,
+        "hsla(0,0%,100%,.05)": 1,
+        "hsla(0,0%,100%,.025)": 1,
+        "hsla(0,0%,100%,.0125)": 1,
+        "rgba(0,0,0,.9)": 5,
+        "rgba(0,0,0,.8)": 5,
+        "rgba(0,0,0,.7)": 5,
+        "rgba(0,0,0,.6)": 5,
+        "rgba(0,0,0,.5)": 5,
+        "rgba(0,0,0,.4)": 5,
+        "rgba(0,0,0,.3)": 5,
+        "rgba(0,0,0,.2)": 26,
+        "rgba(0,0,0,.1)": 6,
+        "rgba(0,0,0,.05)": 3,
+        "rgba(0,0,0,.025)": 1,
+        "rgba(0,0,0,.0125)": 1,
+        "#e7040f": 5,
+        "#ff4136": 5,
+        "#ff725c": 5,
+        "#ff6300": 5,
+        "#ffb700": 5,
+        "gold": 6,
+        "#fbf1a9": 5,
+        "#5e2ca5": 5,
+        "#a463f2": 5,
+        "#d5008f": 5,
+        "#ff41b4": 5,
+        "#ff80cc": 5,
+        "#ffa3d7": 5,
+        "#137752": 5,
+        "#19a974": 5,
+        "#9eebcf": 5,
+        "#001b44": 5,
+        "#00449e": 5,
+        "#357edd": 6,
+        "#96ccff": 6,
+        "#cdecff": 5,
+        "#f6fffe": 5,
+        "#e8fdf5": 5,
+        "#fffceb": 5,
+        "#ffdfdf": 5
+      },
+      "uniquenessRatio": 0.19488817891373802,
+      "itemsPerContext": {
+        "outline": {
+          "total": 4,
+          "totalUnique": 4,
+          "unique": {
+            "ButtonText": 1,
+            "gold": 1,
+            "#fff": 1,
+            "#000": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "border-color": {
+          "total": 60,
+          "totalUnique": 60,
+          "unique": {
+            "#000": 1,
+            "#111": 1,
+            "#333": 1,
+            "#555": 1,
+            "#777": 1,
+            "#999": 1,
+            "#aaa": 1,
+            "#ccc": 1,
+            "#eee": 1,
+            "#f4f4f4": 1,
+            "#fff": 1,
+            "hsla(0,0%,100%,.9)": 1,
+            "hsla(0,0%,100%,.8)": 1,
+            "hsla(0,0%,100%,.7)": 1,
+            "hsla(0,0%,100%,.6)": 1,
+            "hsla(0,0%,100%,.5)": 1,
+            "hsla(0,0%,100%,.4)": 1,
+            "hsla(0,0%,100%,.3)": 1,
+            "hsla(0,0%,100%,.2)": 1,
+            "hsla(0,0%,100%,.1)": 1,
+            "hsla(0,0%,100%,.05)": 1,
+            "hsla(0,0%,100%,.025)": 1,
+            "hsla(0,0%,100%,.0125)": 1,
+            "rgba(0,0,0,.9)": 1,
+            "rgba(0,0,0,.8)": 1,
+            "rgba(0,0,0,.7)": 1,
+            "rgba(0,0,0,.6)": 1,
+            "rgba(0,0,0,.5)": 1,
+            "rgba(0,0,0,.4)": 1,
+            "rgba(0,0,0,.3)": 1,
+            "rgba(0,0,0,.2)": 1,
+            "rgba(0,0,0,.1)": 1,
+            "rgba(0,0,0,.05)": 1,
+            "rgba(0,0,0,.025)": 1,
+            "rgba(0,0,0,.0125)": 1,
+            "#e7040f": 1,
+            "#ff4136": 1,
+            "#ff725c": 1,
+            "#ff6300": 1,
+            "#ffb700": 1,
+            "gold": 1,
+            "#fbf1a9": 1,
+            "#5e2ca5": 1,
+            "#a463f2": 1,
+            "#d5008f": 1,
+            "#ff41b4": 1,
+            "#ff80cc": 1,
+            "#ffa3d7": 1,
+            "#137752": 1,
+            "#19a974": 1,
+            "#9eebcf": 1,
+            "#001b44": 1,
+            "#00449e": 1,
+            "#357edd": 1,
+            "#96ccff": 1,
+            "#cdecff": 1,
+            "#f6fffe": 1,
+            "#e8fdf5": 1,
+            "#fffceb": 1,
+            "#ffdfdf": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "box-shadow": {
+          "total": 21,
+          "totalUnique": 1,
+          "unique": {
+            "rgba(0,0,0,.2)": 21
+          },
+          "uniquenessRatio": 0.047619047619047616
+        },
+        "color": {
+          "total": 111,
+          "totalUnique": 55,
+          "unique": {
+            "rgba(0,0,0,.9)": 2,
+            "rgba(0,0,0,.8)": 2,
+            "rgba(0,0,0,.7)": 2,
+            "rgba(0,0,0,.6)": 2,
+            "rgba(0,0,0,.5)": 2,
+            "rgba(0,0,0,.4)": 2,
+            "rgba(0,0,0,.3)": 2,
+            "rgba(0,0,0,.2)": 2,
+            "rgba(0,0,0,.1)": 2,
+            "rgba(0,0,0,.05)": 1,
+            "hsla(0,0%,100%,.9)": 2,
+            "hsla(0,0%,100%,.8)": 2,
+            "hsla(0,0%,100%,.7)": 2,
+            "hsla(0,0%,100%,.6)": 2,
+            "hsla(0,0%,100%,.5)": 2,
+            "hsla(0,0%,100%,.4)": 2,
+            "hsla(0,0%,100%,.3)": 2,
+            "hsla(0,0%,100%,.2)": 2,
+            "hsla(0,0%,100%,.1)": 2,
+            "#000": 2,
+            "#111": 2,
+            "#333": 2,
+            "#555": 2,
+            "#777": 2,
+            "#999": 2,
+            "#aaa": 2,
+            "#ccc": 2,
+            "#eee": 2,
+            "#f4f4f4": 2,
+            "#fff": 2,
+            "#e7040f": 2,
+            "#ff4136": 2,
+            "#ff725c": 2,
+            "#ff6300": 2,
+            "#ffb700": 2,
+            "gold": 2,
+            "#fbf1a9": 2,
+            "#5e2ca5": 2,
+            "#a463f2": 2,
+            "#d5008f": 2,
+            "#ff41b4": 2,
+            "#ff80cc": 2,
+            "#ffa3d7": 2,
+            "#137752": 2,
+            "#19a974": 2,
+            "#9eebcf": 2,
+            "#001b44": 2,
+            "#00449e": 2,
+            "#357edd": 3,
+            "#96ccff": 3,
+            "#cdecff": 2,
+            "#f6fffe": 2,
+            "#e8fdf5": 2,
+            "#fffceb": 2,
+            "#ffdfdf": 2
+          },
+          "uniquenessRatio": 0.4954954954954955
+        },
+        "background-color": {
+          "total": 115,
+          "totalUnique": 55,
+          "unique": {
+            "rgba(0,0,0,.9)": 2,
+            "rgba(0,0,0,.8)": 2,
+            "rgba(0,0,0,.7)": 2,
+            "rgba(0,0,0,.6)": 2,
+            "rgba(0,0,0,.5)": 2,
+            "rgba(0,0,0,.4)": 2,
+            "rgba(0,0,0,.3)": 2,
+            "rgba(0,0,0,.2)": 2,
+            "rgba(0,0,0,.1)": 3,
+            "rgba(0,0,0,.05)": 1,
+            "hsla(0,0%,100%,.9)": 2,
+            "hsla(0,0%,100%,.8)": 2,
+            "hsla(0,0%,100%,.7)": 2,
+            "hsla(0,0%,100%,.6)": 2,
+            "hsla(0,0%,100%,.5)": 2,
+            "hsla(0,0%,100%,.4)": 2,
+            "hsla(0,0%,100%,.3)": 2,
+            "hsla(0,0%,100%,.2)": 2,
+            "hsla(0,0%,100%,.1)": 3,
+            "#000": 2,
+            "#111": 2,
+            "#333": 2,
+            "#555": 2,
+            "#777": 2,
+            "#999": 2,
+            "#aaa": 3,
+            "#ccc": 3,
+            "#eee": 3,
+            "#f4f4f4": 3,
+            "#fff": 2,
+            "#e7040f": 2,
+            "#ff4136": 2,
+            "#ff725c": 2,
+            "#ff6300": 2,
+            "#ffb700": 2,
+            "gold": 2,
+            "#fbf1a9": 2,
+            "#5e2ca5": 2,
+            "#a463f2": 2,
+            "#d5008f": 2,
+            "#ff41b4": 2,
+            "#ff80cc": 2,
+            "#ffa3d7": 2,
+            "#137752": 2,
+            "#19a974": 2,
+            "#9eebcf": 2,
+            "#001b44": 2,
+            "#00449e": 2,
+            "#357edd": 2,
+            "#96ccff": 2,
+            "#cdecff": 2,
+            "#f6fffe": 2,
+            "#e8fdf5": 2,
+            "#fffceb": 2,
+            "#ffdfdf": 2
+          },
+          "uniquenessRatio": 0.4782608695652174
+        },
+        "background": {
+          "total": 2,
+          "totalUnique": 1,
+          "unique": {
+            "#fff": 2
+          },
+          "uniquenessRatio": 0.5
+        }
+      }
+    },
+    "fontFamilies": {
+      "total": 18,
+      "totalUnique": 17,
+      "unique": {
+        "monospace,monospace": 2,
+        "inherit": 1,
+        "-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif": 1,
+        "georgia,times,serif": 1,
+        "sans-serif": 1,
+        "serif": 1,
+        "Consolas,monaco,monospace": 1,
+        "Courier Next,courier,monospace": 1,
+        "helvetica neue,helvetica,sans-serif": 1,
+        "avenir next,avenir,sans-serif": 1,
+        "athelas,georgia,serif": 1,
+        "georgia,serif": 1,
+        "times,serif": 1,
+        "Bodoni MT,serif": 1,
+        "Calisto MT,serif": 1,
+        "garamond,serif": 1,
+        "baskerville,serif": 1
+      },
+      "uniquenessRatio": 0.9444444444444444
+    },
+    "fontSizes": {
+      "total": 42,
+      "totalUnique": 14,
+      "unique": {
+        "2em": 1,
+        "1em": 2,
+        "80%": 1,
+        "75%": 1,
+        "100%": 1,
+        "6rem": 4,
+        "5rem": 4,
+        "3rem": 4,
+        "2.25rem": 4,
+        "1.5rem": 4,
+        "1.25rem": 4,
+        "1rem": 4,
+        ".875rem": 4,
+        ".75rem": 4
+      },
+      "uniquenessRatio": 0.3333333333333333
+    },
+    "zindexes": {
+      "total": 14,
+      "totalUnique": 11,
+      "unique": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "100": 4,
+        "999": 1,
+        "9999": 1,
+        "2147483647": 1,
+        "-1": 1
+      },
+      "uniquenessRatio": 0.7857142857142857
+    },
+    "textShadows": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
+    },
+    "boxShadows": {
+      "total": 21,
+      "totalUnique": 6,
+      "unique": {
+        "0 0 4px 2px rgba(0,0,0,.2)": 4,
+        "0 0 8px 2px rgba(0,0,0,.2)": 4,
+        "2px 2px 4px 2px rgba(0,0,0,.2)": 4,
+        "2px 2px 8px 0 rgba(0,0,0,.2)": 4,
+        "4px 4px 8px 0 rgba(0,0,0,.2)": 4,
+        "0 0 16px 2px rgba(0,0,0,.2)": 1
+      },
+      "uniquenessRatio": 0.2857142857142857
+    },
+    "animations": {
+      "durations": {
+        "total": 19,
+        "totalUnique": 3,
+        "unique": {
+          ".15s": 9,
+          ".25s": 8,
+          ".5s": 2
+        },
+        "uniquenessRatio": 0.15789473684210525
+      },
+      "timingFunctions": {
+        "total": 19,
+        "totalUnique": 4,
+        "unique": {
+          "ease-in": 7,
+          "ease-out": 5,
+          "ease-in-out": 5,
+          "cubic-bezier(.165,.84,.44,1)": 2
+        },
+        "uniquenessRatio": 0.21052631578947367
+      }
+    },
+    "prefixes": {
+      "total": 5,
+      "totalUnique": 5,
+      "unique": {
+        "-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif": 1,
+        "-webkit-transform .25s ease-out": 1,
+        "transform .25s ease-out,-webkit-transform .25s ease-out": 1,
+        "-webkit-transform .25s ease-in-out": 1,
+        "transform .25s ease-in-out,-webkit-transform .25s ease-in-out": 1
+      },
+      "uniquenessRatio": 1
+    },
+    "units": {
+      "total": 1118,
+      "totalUnique": 6,
+      "unique": {
+        "em": 39,
+        "px": 128,
+        "rem": 856,
+        "vh": 20,
+        "s": 19,
+        "deg": 56
+      },
+      "uniquenessRatio": 0.005366726296958855,
+      "itemsPerContext": {
+        "font-size": {
+          "total": 39,
+          "totalUnique": 2,
+          "unique": {
+            "em": 3,
+            "rem": 36
+          },
+          "uniquenessRatio": 0.05128205128205128
+        },
+        "margin": {
+          "total": 57,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "rem": 56
+          },
+          "uniquenessRatio": 0.03508771929824561
+        },
+        "bottom": {
+          "total": 17,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "rem": 16
+          },
+          "uniquenessRatio": 0.11764705882352941
+        },
+        "top": {
+          "total": 17,
+          "totalUnique": 2,
+          "unique": {
+            "em": 1,
+            "rem": 16
+          },
+          "uniquenessRatio": 0.11764705882352941
+        },
+        "outline": {
+          "total": 13,
+          "totalUnique": 1,
+          "unique": {
+            "px": 13
+          },
+          "uniquenessRatio": 0.07692307692307693
+        },
+        "padding": {
+          "total": 31,
+          "totalUnique": 2,
+          "unique": {
+            "em": 3,
+            "rem": 28
+          },
+          "uniquenessRatio": 0.06451612903225806
+        },
+        "outline-offset": {
+          "total": 1,
+          "totalUnique": 1,
+          "unique": {
+            "px": 1
+          },
+          "uniquenessRatio": 1
+        },
+        "border-width": {
+          "total": 24,
+          "totalUnique": 2,
+          "unique": {
+            "px": 4,
+            "rem": 20
+          },
+          "uniquenessRatio": 0.08333333333333333
+        },
+        "border-top-width": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "px": 4
+          },
+          "uniquenessRatio": 0.25
+        },
+        "border-right-width": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "px": 4
+          },
+          "uniquenessRatio": 0.25
+        },
+        "border-bottom-width": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "px": 4
+          },
+          "uniquenessRatio": 0.25
+        },
+        "border-left-width": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "px": 4
+          },
+          "uniquenessRatio": 0.25
+        },
+        "border-radius": {
+          "total": 20,
+          "totalUnique": 2,
+          "unique": {
+            "rem": 16,
+            "px": 4
+          },
+          "uniquenessRatio": 0.1
+        },
+        "box-shadow": {
+          "total": 58,
+          "totalUnique": 1,
+          "unique": {
+            "px": 58
+          },
+          "uniquenessRatio": 0.017241379310344827
+        },
+        "right": {
+          "total": 16,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 16
+          },
+          "uniquenessRatio": 0.0625
+        },
+        "left": {
+          "total": 16,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 16
+          },
+          "uniquenessRatio": 0.0625
+        },
+        "height": {
+          "total": 36,
+          "totalUnique": 2,
+          "unique": {
+            "rem": 20,
+            "vh": 16
+          },
+          "uniquenessRatio": 0.05555555555555555
+        },
+        "min-height": {
+          "total": 4,
+          "totalUnique": 1,
+          "unique": {
+            "vh": 4
+          },
+          "uniquenessRatio": 0.25
+        },
+        "letter-spacing": {
+          "total": 12,
+          "totalUnique": 1,
+          "unique": {
+            "em": 12
+          },
+          "uniquenessRatio": 0.08333333333333333
+        },
+        "transition": {
+          "total": 19,
+          "totalUnique": 1,
+          "unique": {
+            "s": 19
+          },
+          "uniquenessRatio": 0.05263157894736842
+        },
+        "max-width": {
+          "total": 48,
+          "totalUnique": 2,
+          "unique": {
+            "rem": 36,
+            "em": 12
+          },
+          "uniquenessRatio": 0.041666666666666664
+        },
+        "width": {
+          "total": 20,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 20
+          },
+          "uniquenessRatio": 0.05
+        },
+        "-webkit-transform": {
+          "total": 28,
+          "totalUnique": 1,
+          "unique": {
+            "deg": 28
+          },
+          "uniquenessRatio": 0.03571428571428571
+        },
+        "transform": {
+          "total": 28,
+          "totalUnique": 1,
+          "unique": {
+            "deg": 28
+          },
+          "uniquenessRatio": 0.03571428571428571
+        },
+        "padding-left": {
+          "total": 56,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 56
+          },
+          "uniquenessRatio": 0.017857142857142856
+        },
+        "padding-right": {
+          "total": 56,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 56
+          },
+          "uniquenessRatio": 0.017857142857142856
+        },
+        "padding-bottom": {
+          "total": 56,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 56
+          },
+          "uniquenessRatio": 0.017857142857142856
+        },
+        "padding-top": {
+          "total": 56,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 56
+          },
+          "uniquenessRatio": 0.017857142857142856
+        },
+        "margin-left": {
+          "total": 84,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 84
+          },
+          "uniquenessRatio": 0.011904761904761904
+        },
+        "margin-right": {
+          "total": 84,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 84
+          },
+          "uniquenessRatio": 0.011904761904761904
+        },
+        "margin-bottom": {
+          "total": 84,
+          "totalUnique": 1,
+          "unique": {
+            "rem": 84
+          },
+          "uniquenessRatio": 0.011904761904761904
+        },
+        "margin-top": {
+          "total": 85,
+          "totalUnique": 2,
+          "unique": {
+            "rem": 84,
+            "em": 1
+          },
+          "uniquenessRatio": 0.023529411764705882
+        },
+        "text-indent": {
+          "total": 5,
+          "totalUnique": 1,
+          "unique": {
+            "em": 5
+          },
+          "uniquenessRatio": 0.2
+        },
+        "clip": {
+          "total": 32,
+          "totalUnique": 1,
+          "unique": {
+            "px": 32
+          },
+          "uniquenessRatio": 0.03125
+        }
+      }
+    }
+  },
+  "__meta__": {
+    "parseTime": 21,
+    "analyzeTime": 34,
+    "total": 55
+  }
+}

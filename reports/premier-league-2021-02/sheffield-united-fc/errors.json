@@ -1,187 +1,72 @@
 {
   "noexistence-at-all": [
     {
-      "line": "24976",
+      "line": "1140",
       "errortype": "parse-error",
-      "context": ".rc-doscaptcha-footer",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
-    },
+    }
+  ],
+  "noexistence-typo": [
     {
-      "line": "38904",
+      "line": "6071",
       "errortype": "parse-error",
-      "context": ".icon[data-v-34bd2761]",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "skippedstring": "\n                                var(--body_text_color--dark-mode, #fff)\n                            ",
+      "type": "noexistence-typo",
+      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "colorfunc": [
+    {
+      "line": "8458",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ) 0,var(--base_background_color,#fafafa) 60%)\n  \n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     }
   ],
   "unrecognize": [
     {
-      "line": "25455",
+      "line": "10785",
       "errortype": "parse-error",
-      "context": ".fade-enter-active",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.5s ease 0s 1 normal none running fade-in\n                            ",
+      "skippedstring": "\n                                var(--content_spacing--small, 32px) / 4\n                            ",
       "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "message": "\n\n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     },
     {
-      "line": "25458",
+      "line": "10790",
       "errortype": "parse-error",
-      "context": ".fade-leave-active",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.5s ease 0s 1 normal none running fade-out\n                            ",
+      "skippedstring": "\n                                var(--content_spacing--large, 48px) / 4\n                            ",
       "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "message": "\n\n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     },
     {
-      "line": "25461",
+      "line": "10943",
       "errortype": "parse-error",
-      "context": ".bounce-enter-active",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.8s ease 0s 1 normal none running bounce-in\n                            ",
+      "skippedstring": "\n                                var(--content_spacing--small, 32px) / 2\n                            ",
       "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "message": "\n\n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     },
     {
-      "line": "25464",
+      "line": "10949",
       "errortype": "parse-error",
-      "context": ".bounce-leave-active",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.5s ease 0s 1 normal none running bounce-out\n                            ",
+      "skippedstring": "\n                                var(--content_spacing--large, 48px) / 2\n                            ",
       "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "31071",
-      "errortype": "parse-error",
-      "context": ".inline-loader[data-v-92c7e338]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1.1s linear 0s infinite normal none running load8-data-v-92c7e338\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "33710",
-      "errortype": "parse-error",
-      "context": ".lds-ring div[data-v-460f059f]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1.2s cubic-bezier(0.5,0,0.5,1) 0s infinite normal none running lds-ring-data-v-460f059f\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "34709",
-      "errortype": "parse-error",
-      "context": ".player-card__disabled-wrapper--animation[data-v-c2fa2b34]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2s ease-in-out 0s 1 normal none running hello-data-v-c2fa2b34\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "35305",
-      "errortype": "parse-error",
-      "context": ".row.no-background-image.is-dark + .row.is-widget-row.is-dark .row__title[data-v-98d43114], .row.no-background-image.is-light + .row.is-widget-row.is-light .row__title[data-v-98d43114]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                / 4\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "35310",
-      "errortype": "parse-error",
-      "context": ".row.no-background-image.is-dark + .row.is-widget-row.is-dark .row__title[data-v-98d43114], .row.no-background-image.is-light + .row.is-widget-row.is-light .row__title[data-v-98d43114]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                / 4\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "35463",
-      "errortype": "parse-error",
-      "context": ".quick-menu[data-v-f59ad558]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                / 2\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "35469",
-      "errortype": "parse-error",
-      "context": ".quick-menu[data-v-f59ad558]",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                / 2\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39322",
-      "errortype": "parse-error",
-      "context": "body .uwy .uai .ups",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.75s linear 0s infinite normal none running standard\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39654",
-      "errortype": "parse-error",
-      "context": "body .uwy.uac .loading::after",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.9s linear 0s infinite normal none running block_loading\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39920",
-      "errortype": "parse-error",
-      "context": ".uwy .uai .ups",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.75s linear 0s infinite normal none running standard\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "40199",
-      "errortype": "parse-error",
-      "context": ".uwy.uac .loading::after",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.9s linear 0s infinite normal none running block_loading\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "rgb": [
-    {
-      "line": "32384",
-      "errortype": "parse-error",
-      "context": ".additional-featured__inner[data-v-0f5f9140]::after",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 0,var(--base_background_color,#fafafa) 60%)\n  \n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "message": "\n\n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     }
   ]

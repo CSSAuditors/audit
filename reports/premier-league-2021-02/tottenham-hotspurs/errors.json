@@ -3,91 +3,55 @@
     {
       "line": "268",
       "errortype": "parse-error",
-      "context": "*, body, html",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                optimizeLegibility\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “text-rendering” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “text-rendering” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "4983",
       "errortype": "parse-error",
-      "context": ".slick-slide.dragging img",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10324",
-      "errortype": "parse-error",
-      "context": ".Opta .Opta-TimeControls .Opta-Dragger path, .Opta .Opta-TimeControls .Opta-TimeSpan",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                #111836\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10689",
-      "errortype": "parse-error",
-      "context": ".PlayerSeasonStats .Opta .Opta-Value",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                #111836\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "14878",
       "errortype": "parse-error",
-      "context": "#onetrust-pc-sdk [type=\"checkbox\"]:checked, #onetrust-pc-sdk [type=\"checkbox\"]:not(:checked)",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                initial\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "14883",
       "errortype": "parse-error",
-      "context": "#onetrust-pc-sdk [type=\"checkbox\"]:disabled + label, #onetrust-pc-sdk [type=\"checkbox\"]:disabled + label::after, #onetrust-pc-sdk [type=\"checkbox\"]:disabled + label::before",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16865",
-      "errortype": "parse-error",
-      "context": "#onetrust-pc-sdk #filter-btn-handler:hover #filter-icon-path",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “fill” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "17559",
       "errortype": "parse-error",
-      "context": "#onetrust-pc-sdk .category-switch-handler:checked, #onetrust-pc-sdk .category-switch-handler:not(:checked)",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                initial\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "17825",
       "errortype": "parse-error",
-      "context": "#onetrust-pc-sdk .ot-active-leg-btn",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
       "type": "noexistence-at-all",
-      "message": "\n        \n                                Property “pointer-events” doesn't exist : \n                            ",
+      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
       "error": "\n                        "
     }
   ],
@@ -95,170 +59,153 @@
     {
       "line": "521",
       "errortype": "invalidparam",
-      "context": "\n                            ",
-      "message": "\n        \n                                Unknown pseudo-element or pseudo-class “:window-inactive”\n                            ",
+      "message": "\n\n                                Unknown pseudo-element or pseudo-class “:window-inactive”\n                            ",
       "error": "\n                        "
     }
   ],
-  "rgb": [
+  "colorfunc": [
     {
       "line": "1560",
       "errortype": "parse-error",
-      "context": ".MainHero__heading--background:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "1561",
       "errortype": "parse-error",
-      "context": ".MainHero__heading--background:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "1562",
       "errortype": "parse-error",
-      "context": ".MainHero__heading--background:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 100%)\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "1563",
       "errortype": "parse-error",
-      "context": ".MainHero__heading--background:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5388",
       "errortype": "parse-error",
-      "context": ".Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )),to(hsla(0,0,100%,.8)))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5389",
       "errortype": "parse-error",
-      "context": ".Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5390",
       "errortype": "parse-error",
-      "context": ".Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8) 100%)\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5391",
       "errortype": "parse-error",
-      "context": ".Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n  \n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5421",
       "errortype": "parse-error",
-      "context": ".Quote .Quote__overlay--right + .Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )),to(hsla(0,0,100%,.8)))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5422",
       "errortype": "parse-error",
-      "context": ".Quote .Quote__overlay--right + .Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5423",
       "errortype": "parse-error",
-      "context": ".Quote .Quote__overlay--right + .Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8) 100%)\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "5424",
       "errortype": "parse-error",
-      "context": ".Quote .Quote__overlay--right + .Quote__image:before",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n  \n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "12817",
       "errortype": "parse-error",
-      "context": ".QuickLinks:after",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "12818",
       "errortype": "parse-error",
-      "context": ".QuickLinks:after",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "12819",
       "errortype": "parse-error",
-      "context": ".QuickLinks:after",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ))\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     },
     {
       "line": "12820",
       "errortype": "parse-error",
-      "context": ".QuickLinks:after",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                ))\n\n                            ",
-      "type": "rgb",
-      "message": "\n        \n                                Value Error :  background (nullcolors.html#propdef-background)\n        \n                                “0” is not a valid color 3 or 6 hexadecimals numbers\n                            ",
+      "type": "colorfunc",
+      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
       "error": "\n                        "
     }
   ],
@@ -266,31 +213,48 @@
     {
       "line": "4881",
       "errortype": "parse-error",
-      "context": ".RelatedStories__triangle--left",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                \"FlipH\"\n                            ",
       "type": "value",
-      "message": "\n        \n                                “\"FlipH\"” is not a “filter” value : \n                            ",
+      "message": "\n\n                                “\"FlipH\"” is not a “filter” value : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "4940",
       "errortype": "parse-error",
-      "context": ".slick-list.dragging",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                hand\n                            ",
       "type": "value",
-      "message": "\n        \n                                Value Error :  cursor (nullui.html#propdef-cursor)\n        \n                                “hand” is not a “cursor” value : \n                            ",
+      "message": "\n\n                                Value Error :  cursor (nullui.html#propdef-cursor)\n\n                                “hand” is not a “cursor” value : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "noexistence-typo": [
+    {
+      "line": "10324",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                #111836\n                            ",
+      "type": "noexistence-typo",
+      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
       "error": "\n                        "
     },
     {
-      "line": "7619",
+      "line": "10689",
       "errortype": "parse-error",
-      "context": ".FixturesFilter__competitions select, .FixturesFilter__seasons select",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                listbox\n                            ",
-      "type": "value",
-      "message": "\n        \n                                “listbox” is not a “appearance” value : \n                            ",
+      "skippedstring": "\n                                #111836\n                            ",
+      "type": "noexistence-typo",
+      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "16865",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
+      "type": "noexistence-typo",
+      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
       "error": "\n                        "
     }
   ],
@@ -298,113 +262,19 @@
     {
       "line": "10685",
       "errortype": "parse-error",
-      "context": ".PlayerSeasonStats .Opta .Opta-Label",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                -3\n                            ",
       "type": "zero",
-      "message": "\n        \n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
+      "message": "\n\n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
       "error": "\n                        "
     },
     {
       "line": "10691",
       "errortype": "parse-error",
-      "context": ".PlayerSeasonStats .Opta .Opta-Value",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                5\n                            ",
       "type": "zero",
-      "message": "\n        \n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "unrecognize": [
-    {
-      "line": "14377",
-      "errortype": "parse-error",
-      "context": ".ppg__fab-circle--shake .ppg__fab-light-dot",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                7s ease 0s infinite normal none running light-that-ppg\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14380",
-      "errortype": "parse-error",
-      "context": ".ppg__fab-circle--shake .ppg__fab-icon",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                7s linear 0s infinite normal none running shake-that-ppg\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14671",
-      "errortype": "parse-error",
-      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_bottom",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy_appear_from_bottom\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14674",
-      "errortype": "parse-error",
-      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_from_top",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy_appear_from_top\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14677",
-      "errortype": "parse-error",
-      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_top",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.25s ease 0s 1 normal forwards running dy_exit_top\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14680",
-      "errortype": "parse-error",
-      "context": ".dy_full_width_notifications_container .dy_full_width_notification_instance.dy_notification_instance_will_exit_bottom",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.25s ease 0s 1 normal forwards running dy_exit_bottom\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14777",
-      "errortype": "parse-error",
-      "context": ".dy-modal-container .dy-modal-wrapper .dy-modal-contents",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.25s ease 0s 1 normal none running dy-modal-enter\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18526",
-      "errortype": "parse-error",
-      "context": ".fb_animate",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0.3s ease 0s 1 normal forwards running fb_transform\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18731",
-      "errortype": "parse-error",
-      "context": "#fb_dialog_loader_spinner",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1.2s linear 0s infinite normal none running rotateSpinner\n                            ",
-      "type": "unrecognize",
-      "message": "\n        \n                                Too many values or values are not recognized : \n                            ",
+      "message": "\n\n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
       "error": "\n                        "
     }
   ]

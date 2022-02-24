@@ -3,7 +3,6 @@ layout: post
 title: The CSS File Size and Count Report for Bundesliga sites
 description: In this report, we are going to focus on the size of CSS. The aim of the report is to understand how much CSS code is needed to build a site.
 image: /gfx/the-css-file-size-and-count-report-for-bundesliga-sites.jpg
-object: sites3
 date: 2021-03-17
 tags:
   - report
@@ -27,11 +26,11 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-This report, like [the previous one](/reports/premier-league-2021-02/), will focus on the size of CSS. We are going to find out how much CSS is needed to create a site.
+This report, like [the previous one](/reports/premier-league-2021-02/), we will focus on the size of CSS. We are going to find out how much CSS is needed to create a site.
 
 Sites audited in this report:
 
-{% render report/site-list, report: reports.report2 %}
+{% render report/general-site-list, report: reports.report2 %}
 
 Note that we included the Bundesliga official site and all its clubs.
 
@@ -40,7 +39,7 @@ Note that we included the Bundesliga official site and all its clubs.
 Just like in the previous report, we used the following tools:
 
 - [wappalyzer](https://github.com/aliasio/wappalyzer)
-- [extract-css-core](https://github.com/bartveneman/extract-css-core)
+- [extract-css-core](https://github.com/projectwallace/extract-css-core)
 
 Using these tools, we extracted information about UI frameworks and the size of External CSS, Style tag CSS, and Inline CSS, where:
 
@@ -56,13 +55,13 @@ To make the text more readable, the terms “site” and “homepage” refer to
 
 ## The CSS File Sizes
 
-{% render report/file-sizes, report: report2-extractor %}
+{% render report/extractor-sizes-table, report: report2-extractor %}
 
 ### The Findings
 
 An average page of the Bundesliga site loads ~712.69KB of CSS code. Compared to the Premier League report, that is 3.30% less CSS code. ~89.66% of the CSS code comes from the External CSS file, ~10% comes from the `<style>` tags, and ~0.34% comes from the inline `style` attributes. Compared to the Premier League report, an average Bundesliga site uses ~3.56% more External CSS, ~39.76% less CSS coming from the `<style>` tags, and ~3.54% less from inline `style` attributes.
 
-{% render report/chart-sizes, report: report2-extractor %}
+{% render report/extractor-sizes-chart, report: report2-extractor %}
 
 ---
 
@@ -88,13 +87,13 @@ In comparison to four Bundesliga sites (out of 19 total) that use UI frameworks,
 
 ## The CSS File Counts
 
-{% render report/file-count, report: report2-extractor %}
+{% render report/extractor-count-table, report: report2-extractor %}
 
 ### The Findings
 
 The average Bundesliga site’s homepage loads 8 External CSS files, 5 `<style>` tags, and 30 `style` attributes.
 
-{% render report/chart-count, report: report2-extractor %}
+{% render report/extractor-count-chart, report: report2-extractor %}
 
 ---
 
@@ -135,4 +134,4 @@ The trend of loading more CSS code every year is continuing. With modern technol
 
 ## Complete Report
 
-{% render report/full-report, report: report2-extractor %}
+{% render report/extractor-list-table, report: report2-extractor %}

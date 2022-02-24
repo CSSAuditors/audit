@@ -1,14 +1,14 @@
 const helpers = require('./helpers')
-const { getMax, getMin, getAverage, getOverall } = require('./calc')
+const calc = require('./calc')
 
-const validatorReport = async (site, silent) => {
+const getReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
 
     const errorsFile = `${folder}/errors.json`
 
     if(!helpers.fileExists(errorsFile)) {
-      return false
+      resolve(false)
     }
 
     const errorsRaw = await helpers.getFile(errorsFile)
@@ -38,7 +38,7 @@ const validatorReport = async (site, silent) => {
     const warningsFile = `${folder}/warnings.json`
 
     if(!helpers.fileExists(warningsFile)) {
-      return false
+      resolve(false)
     }
 
     const warningsRaw = await helpers.getFile(warningsFile)
@@ -68,72 +68,125 @@ const validatorReport = async (site, silent) => {
     resolve({
       errors: errorsReturn,
       error_types_count: errorsReturn.length,
-      errors_count: getOverall(errorsReturn, 'value'),
+      errors_count: calc.getOverall(errorsReturn, 'value'),
       warnings: warningsReturn,
-      warnings_count: getOverall(warningsReturn, 'value'),
+      warnings_count: calc.getOverall(warningsReturn, 'value'),
       warning_types_count: warningsReturn.length,
+      site: site
     })
   })
 }
 
-const validatorsReport = async (sites) => {
-  const arr = []
+const report = async (sites, name, silent) => {
+  const root = helpers.getRootDirectoryBase();
+  const validatorFile = `${root}/site/_data/${name}-validator.json`
 
-  for(const site of sites) {
-    arr.push({...{validator: await validatorReport(site, true)}, site: site})
+  if(!helpers.fileExists(validatorFile) && sites.list) {
+    const validatorData = {
+      list: []
+    }
+
+    for(const site of sites.list) {
+      validatorData.list.push({...await getReport(site, silent)})
+    }
+
+    const flatList = validatorData.list.flat()
+
+    let errorList = []
+    let warningList = []
+
+    flatList.forEach(item => {
+      if(item.errors) {
+        item.errors.forEach(error => {
+          if(errorList.indexOf(error.key) === -1) {
+            errorList.push(error.key)
+          }
+        })
+      }
+
+      if(item.warnings) {
+        item.warnings.forEach(warning => {
+          if(warningList.indexOf(warning.key) === -1) {
+            warningList.push(warning.key)
+          }
+        })
+      }
+    })
+
+    validatorData.errorList = errorList
+    validatorData.warningList = warningList
+
+    const maxErrorTypes = calc.getMax(validatorData.list, 'errors')
+    const minErrorTypes = calc.getMin(validatorData.list, 'errors')
+    const avgErrorTypes = calc.getAverage(validatorData.list, 'error_types_count')
+    const maxErrors = calc.getMax(validatorData.list, 'errors_count')
+    const minErrors = calc.getMin(validatorData.list, 'errors_count')
+    const avgErrors = calc.getAverage(validatorData.list, 'errors_count')
+
+    validatorData.maxErrorTypes = {
+      site: maxErrorTypes.site,
+      errors: maxErrorTypes.errors
+    }
+
+    validatorData.minErrorTypes = {
+      site: minErrorTypes.site,
+      errors: minErrorTypes.errors
+    }
+    validatorData.avgErrorTypes = `${avgErrorTypes}`
+    validatorData.maxErrors = {
+      site: maxErrors.site,
+      errors_count: maxErrors.errors_count
+    }
+    validatorData.minErrors = {
+      site: minErrors.site,
+      errors_count: minErrors.errors_count
+    }
+    validatorData.avgErrors = `${avgErrors}`
+
+    const maxWarningTypes = calc.getMax(validatorData.list, 'warnings')
+    const minWarningTypes = calc.getMin(validatorData.list, 'warnings')
+    const avgWarningTypes = calc.getAverage(validatorData.list, 'warning_types_count')
+    const maxWarnings = calc.getMax(validatorData.list, 'warnings_count')
+    const minWarnings = calc.getMin(validatorData.list, 'warnings_count')
+    const avgWarnings = calc.getAverage(validatorData.list, 'warnings_count')
+
+    validatorData.maxWarningTypes = {
+      site: maxWarningTypes.site,
+      warnings: maxWarningTypes.warnings
+    }
+
+    validatorData.minWarningTypes = {
+      site: minWarningTypes.site,
+      warnings: minWarningTypes.warnings
+    }
+
+    validatorData.avgWarningTypes = `${avgWarningTypes}`
+    validatorData.maxWarnings = {
+      site: maxWarnings.site,
+      warnings_count: maxWarnings.warnings_count
+    }
+
+    validatorData.minWarnings = {
+      site: minWarnings.site,
+      warnings_count: minWarnings.warnings_count
+    }
+
+    validatorData.avgWarnings = `${avgWarnings}`
+
+    helpers.saveFile(validatorFile, validatorData, true)
+
+    if(!silent) {
+      console.log(`✅ Validator data saved at ${validatorFile}`)
+    }
+  } else {
+    if(!silent) {
+      console.log(`✅ Validator data exists at ${validatorFile}`)
+    }
   }
 
-  console.log('')
-  console.log('ERRORS')
-
-  const maxErrorTypes = getMax(arr, 'validator', 'errors')
-  const minErrorTypes = getMin(arr, 'validator', 'errors')
-  const avgErrorTypes = getAverage(arr, 'validator', 'error_types_count')
-  const maxErrors = getMax(arr, 'validator', 'errors_count')
-  const minErrors = getMin(arr, 'validator', 'errors_count')
-  const avgErrors = getAverage(arr, 'validator', 'errors_count')
-
-  console.log(`📊 Site with most error types: ${maxErrorTypes.site.title} [${maxErrorTypes['validator']['errors'].length}]`)
-  console.log(`📊 Site with least error types: ${minErrorTypes.site.title} [${minErrorTypes['validator']['errors'].length}]`)
-  console.log(`📊 Average error types count: ${avgErrorTypes}`)
-  console.log(`📊 Site with most errors: ${maxErrors.site.title} [${maxErrors['validator']['errors_count']}]`)
-  console.log(`📊 Site with least errors: ${minErrors.site.title} [${minErrors['validator']['errors_count']}]`)
-  console.log(`📊 Average errors count: ${avgErrors}`)
-
-  console.log('')
-  console.log('WARNINGS')
-
-  const maxWarningTypes = getMax(arr, 'validator', 'warnings')
-  const minWarningTypes = getMin(arr, 'validator', 'warnings')
-  const avgWarningTypes = getAverage(arr, 'validator', 'warning_types_count')
-  const maxWarnings = getMax(arr, 'validator', 'warnings_count')
-  const minWarnings = getMin(arr, 'validator', 'warnings_count')
-  const avgWarnings = getAverage(arr, 'validator', 'warnings_count')
-
-  console.log(`📊 Site with most warning types: ${maxWarningTypes.site.title} [${maxWarningTypes['validator']['warnings'].length}]`)
-  console.log(`📊 Site with least warning types: ${minWarningTypes.site.title} [${minWarningTypes['validator']['warnings'].length}]`)
-  console.log(`📊 Average warning types count: ${avgWarningTypes}`)
-  console.log(`📊 Site with most warnings: ${maxWarnings.site.title} [${maxWarnings['validator']['warnings_count']}]`)
-  console.log(`📊 Site with least warnings: ${minWarnings.site.title} [${minWarnings['validator']['warnings_count']}]`)
-  console.log(`📊 Average warnings count: ${avgWarnings}`)
-
-  return {
-    'maxErrorTypes': maxErrorTypes,
-    'minErrorTypes': minErrorTypes,
-    'avgErrorTypes': avgErrorTypes,
-    'maxErrors': maxErrors,
-    'minErrors': minErrors,
-    'avgErrors': avgErrors,
-    'maxWarningTypes': maxWarningTypes,
-    'minWarningTypes': minWarningTypes,
-    'avgWarningTypes': avgWarningTypes,
-    'maxWarnings': maxWarnings,
-    'minWarnings': minWarnings,
-    'avgWarnings': avgWarnings,
-  }
+  return true
 }
 
 module.exports = {
-  validatorReport,
-  validatorsReport
+  report
 }

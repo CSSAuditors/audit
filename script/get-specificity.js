@@ -1,21 +1,21 @@
 const helpers = require('./helpers')
-const { getMax, getMin } = require('./calc')
+const calc = require('./calc')
 
-const specificityReport = async (site, silent) => {
+const getReport = async (site, silent) => {
   return new Promise(async (resolve, reject) => {
     const folder = helpers.getFolder(site)
     const specificityFolder = `${folder}/specificity`
     const specificityFile = `${specificityFolder}/specificity.json`
 
     if(!helpers.fileExists(specificityFile)) {
-      return false
+      resolve(false)
     }
 
     const specificityRaw = await helpers.getFile(specificityFile)
     const specificityData = JSON.parse(specificityRaw)
 
-    const maxSpecificity = getMax(specificityData, 'specificity')
-    const minSpecificity = getMin(specificityData, 'specificity', false, true)
+    const maxSpecificity = calc.getMax(specificityData, 'specificity')
+    const minSpecificity = calc.getMin(specificityData, 'specificity', false, true)
 
     if(!silent) {
       console.log('')
@@ -26,31 +26,44 @@ const specificityReport = async (site, silent) => {
 
     resolve({
       maxSpecificity: maxSpecificity.specificity,
+      maxSelector: maxSpecificity.selectors,
       minSpecificity: minSpecificity.specificity,
+      minSelector: minSpecificity.selectors,
+      site: site
     })
   })
 }
 
-const specificitiesReport = async (sites) => {
-  const arr = []
+const report = async (sites, name, silent) => {
+  const root = helpers.getRootDirectoryBase();
+  const specificityFile = `${root}/site/_data/${name}-specificity.json`
 
-  for(const site of sites) {
-    arr.push({...{specificity: await specificityReport(site, true)}, site: site})
+  if(!helpers.fileExists(specificityFile) && sites.list) {
+    const specificityData = {
+      list: []
+    }
+
+    for(const site of sites.list) {
+      specificityData.list.push({...await getReport(site, silent)})
+    }
+
+    specificityData.maxSpecificity = calc.getMax(specificityData.list, 'maxSpecificity')
+    specificityData.minSpecificity = calc.getMin(specificityData.list, 'minSpecificity')
+
+    helpers.saveFile(specificityFile, specificityData, true)
+
+    if(!silent) {
+      console.log(`✅ Specificity data saved at ${specificityFile}`)
+    }
+  } else {
+    if(!silent) {
+      console.log(`✅ Specificity data exists at ${specificityFile}`)
+    }
   }
 
-  console.log('')
-  console.log('SPECIFICITIES')
-
-  const maxSpecificity = getMax(arr, 'specificity', 'maxSpecificity')
-
-  console.log(`📊 Site with highest specificity: ${maxSpecificity.site.title} [${maxSpecificity['specificity']['maxSpecificity']}]`)
-
-  return {
-    maxSpecificity: maxSpecificity
-  }
+  return true
 }
 
 module.exports = {
-  specificityReport,
-  specificitiesReport
+  report
 }
