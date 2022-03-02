@@ -26,6 +26,7 @@ blocks:
     description: |
       We are excited to share our findings with the community. We share information about us and all things related to CSS and CSS auditing process in our blog.
 
+      - [How I built and rewrote the CSS Auditors website](/blog/website-rewrite/)
       - [On CSS sizes and performance budget](/blog/the-second-css-report-about-css-file-sizes-and-file-count/)
       - [The Very First CSS Report About CSS File Sizes and File Count](/blog/the-very-first-css-report-about-css-file-sizes-and-file-count/)
   - title: |
