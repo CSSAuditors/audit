@@ -83,6 +83,16 @@ p {
   font-size: 1rem;
 }
 
+pre {
+  width: 100%;
+  overflow-x: auto;
+
+  code {
+    min-width: calc(100% - 2rem - 2px);
+    padding: 1rem;
+  }
+}
+
 code {
   display: inline-block;
   font-size: 90%;

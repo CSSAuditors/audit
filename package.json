@@ -3,6 +3,7 @@
     "eleventy-dev": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
     "eleventy-build": "env ELEVENTY_ENV=production npx @11ty/eleventy",
     "dev": "npm run eleventy-dev",
+    "gulp": "concurrently --kill-others \"gulp\" \"npm run eleventy-dev\"",
     "gulp-critical": "wait-on -d 5000 http://localhost:8080 && gulp critical",
     "critical": "concurrently --kill-others \"npm run eleventy-dev\" \"npm run gulp-critical\"",
     "preview": "env ELEVENTY_ENV=production npx @11ty/eleventy --serve --watch",
