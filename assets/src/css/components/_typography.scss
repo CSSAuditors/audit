@@ -84,21 +84,28 @@ p {
 }
 
 pre {
-  width: 100%;
+  border: 1px dashed var(--color-alpha3);
+  display: block;
+  min-width: 100%;
+  max-width: 80vw;
   overflow-x: auto;
 
   code {
+    display: block;
+    color: var(--color-alpha4);
+    background-color: var(--color-alpha2);
     min-width: calc(100% - 2rem - 2px);
     padding: 1rem;
   }
 }
 
-code {
-  display: inline-block;
-  font-size: 90%;
-  color: var(--color-alpha4);
-  background-color: var(--color-alpha2);
-  border: 1px dashed var(--color-alpha3);
+p {
+  code {
+    display: inline-block;
+    font-size: 90%;
+    background-color: var(--color-alpha2);
+    border: 1px dashed var(--color-alpha3);
+  }
 }
 
 hr {
