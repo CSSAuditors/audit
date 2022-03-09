@@ -84,6 +84,7 @@ p {
 }
 
 pre {
+  color: var(--color-alpha4);
   border: 1px dashed var(--color-alpha3);
   display: block;
   min-width: 100%;
@@ -92,8 +93,6 @@ pre {
 
   code {
     display: block;
-    color: var(--color-alpha4);
-    background-color: var(--color-alpha2);
     min-width: calc(100% - 2rem - 2px);
     padding: 1rem;
   }
