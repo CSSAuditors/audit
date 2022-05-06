@@ -8,7 +8,7 @@ const validate = async (site, silent) => {
     const errorsFile = `${folder}/errors.json`
     const warningsFile = `${folder}/warnings.json`
 
-    // if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
+    if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
       // const cssFile = `${folder}/style-clean.css`
       const cssFile = `${folder}/style-dirty.css`
 
@@ -51,12 +51,12 @@ const validate = async (site, silent) => {
           }
         })
       }
-    // } else {
+    } else {
       if(!silent) {
         console.log(`❌ Errors file: ${errorsFile}`)
         console.log(`⚠️  Warnings file: ${warningsFile}`)
       }
-    // }
+    }
 
     resolve()
   })
