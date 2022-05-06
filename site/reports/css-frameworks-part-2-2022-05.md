@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Top CSS Frameworks of 2022 Report, Part 2: Validation'
-description:
-image:
+description: In this report, I have audited top CSS frameworks of 2022, according to the State of CSS report, for errors and warnings.
+image: /gfx/css-frameworks-part-2-2022-05.jpg
 date: 2022-04-09
 tags:
   - report
