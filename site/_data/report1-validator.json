@@ -408,59 +408,6 @@
       "errors": [
         {
           "key": "value",
-          "value": 4
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 1
-        }
-      ],
-      "error_types_count": 2,
-      "errors_count": 5,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 167
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 14
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 4
-        },
-        {
-          "key": "css-hack",
-          "value": 3
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 3
-        },
-        {
-          "key": "at-rule",
-          "value": 2
-        },
-        {
-          "key": "value-unofficial",
-          "value": 1
-        }
-      ],
-      "warnings_count": 194,
-      "warning_types_count": 7,
-      "site": {
-        "title": "Leeds United",
-        "url": "https://www.leedsunited.com",
-        "category": "Premier League",
-        "year": "2021",
-        "month": "02"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "value",
           "value": 10
         },
         {
@@ -509,6 +456,59 @@
       "site": {
         "title": "Leicester City",
         "url": "https://www.lcfc.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 4
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 1
+        }
+      ],
+      "error_types_count": 2,
+      "errors_count": 5,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 167
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 14
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 4
+        },
+        {
+          "key": "css-hack",
+          "value": 3
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 3
+        },
+        {
+          "key": "at-rule",
+          "value": 2
+        },
+        {
+          "key": "value-unofficial",
+          "value": 1
+        }
+      ],
+      "warnings_count": 194,
+      "warning_types_count": 7,
+      "site": {
+        "title": "Leeds United",
+        "url": "https://www.leedsunited.com",
         "category": "Premier League",
         "year": "2021",
         "month": "02"
@@ -657,91 +657,6 @@
       "site": {
         "title": "Newcastle United",
         "url": "https://www.nufc.co.uk",
-        "category": "Premier League",
-        "year": "2021",
-        "month": "02"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 11
-        },
-        {
-          "key": "unrecognize",
-          "value": 4
-        },
-        {
-          "key": "value",
-          "value": 11
-        },
-        {
-          "key": "zero",
-          "value": 5
-        },
-        {
-          "key": "incompatible",
-          "value": 1
-        },
-        {
-          "key": "operator",
-          "value": 1
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 5
-        }
-      ],
-      "error_types_count": 7,
-      "errors_count": 38,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 3981
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 58
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 8
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "deprecated",
-          "value": 2
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 18
-        },
-        {
-          "key": "value-unofficial",
-          "value": 6
-        },
-        {
-          "key": "css-hack",
-          "value": 1
-        },
-        {
-          "key": "at-rule",
-          "value": 3
-        },
-        {
-          "key": "css-variable",
-          "value": 4
-        }
-      ],
-      "warnings_count": 4082,
-      "warning_types_count": 10,
-      "site": {
-        "title": "Premier League site",
-        "url": "https://www.premierleague.com",
         "category": "Premier League",
         "year": "2021",
         "month": "02"
@@ -1044,6 +959,91 @@
         "year": "2021",
         "month": "02"
       }
+    },
+    {
+      "errors": [
+        {
+          "key": "noexistence-at-all",
+          "value": 11
+        },
+        {
+          "key": "unrecognize",
+          "value": 4
+        },
+        {
+          "key": "value",
+          "value": 11
+        },
+        {
+          "key": "zero",
+          "value": 5
+        },
+        {
+          "key": "incompatible",
+          "value": 1
+        },
+        {
+          "key": "operator",
+          "value": 1
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 5
+        }
+      ],
+      "error_types_count": 7,
+      "errors_count": 38,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 3981
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 58
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 8
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 2
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 18
+        },
+        {
+          "key": "value-unofficial",
+          "value": 6
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "at-rule",
+          "value": 3
+        },
+        {
+          "key": "css-variable",
+          "value": 4
+        }
+      ],
+      "warnings_count": 4082,
+      "warning_types_count": 10,
+      "site": {
+        "title": "Premier League site",
+        "url": "https://www.premierleague.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
     }
   ],
   "errorList": [
@@ -1075,32 +1075,40 @@
   ],
   "maxErrorTypes": {
     "site": {
-      "title": "Wolverhampton Wanderers FC",
-      "url": "https://www.wolves.co.uk",
+      "title": "Premier League site",
+      "url": "https://www.premierleague.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
     "errors": [
       {
+        "key": "noexistence-at-all",
+        "value": 11
+      },
+      {
         "key": "unrecognize",
-        "value": 1
+        "value": 4
       },
       {
         "key": "value",
-        "value": 7
+        "value": 11
       },
       {
-        "key": "noexistence-at-all",
-        "value": 2
+        "key": "zero",
+        "value": 5
+      },
+      {
+        "key": "incompatible",
+        "value": 1
+      },
+      {
+        "key": "operator",
+        "value": 1
       },
       {
         "key": "generator.unrecognize",
-        "value": 7
-      },
-      {
-        "key": "noexistence-typo",
-        "value": 1
+        "value": 5
       }
     ]
   },
@@ -1176,8 +1184,8 @@
   "avgErrors2": "10.947368421052632",
   "maxWarningTypes": {
     "site": {
-      "title": "Wolverhampton Wanderers FC",
-      "url": "https://www.wolves.co.uk",
+      "title": "Premier League site",
+      "url": "https://www.premierleague.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
@@ -1185,39 +1193,43 @@
     "warnings": [
       {
         "key": "vendor-extension",
-        "value": 273
+        "value": 3981
       },
       {
         "key": "vendor-ext-pseudo-element",
-        "value": 24
-      },
-      {
-        "key": "vendor-ext-pseudo-class",
-        "value": 6
+        "value": 58
       },
       {
         "key": "deprecatedproperty",
-        "value": 5
+        "value": 8
       },
       {
         "key": "shape-separator",
-        "value": 2
-      },
-      {
-        "key": "at-rule",
-        "value": 15
+        "value": 1
       },
       {
         "key": "deprecated",
-        "value": 14
-      },
-      {
-        "key": "value-unofficial",
         "value": 2
       },
       {
-        "key": "no-declaration",
+        "key": "vendor-ext-pseudo-class",
+        "value": 18
+      },
+      {
+        "key": "value-unofficial",
+        "value": 6
+      },
+      {
+        "key": "css-hack",
         "value": 1
+      },
+      {
+        "key": "at-rule",
+        "value": 3
+      },
+      {
+        "key": "css-variable",
+        "value": 4
       }
     ]
   },

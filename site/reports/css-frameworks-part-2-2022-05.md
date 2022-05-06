@@ -120,9 +120,7 @@ But what would happen if the browser breaks when it finds an error in CSS? Imagi
 
 Now, go ahead and test your site against [the W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and see how many errors and warnings do you have. I was surprised that [my personal site has zero errors and warnings](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.silvestar.codes%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). And if you are wondering if this site has any errors, [it doesn’t](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.css-auditors.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-
 [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
-
 
 ## Related resources
 

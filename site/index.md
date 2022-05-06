@@ -17,6 +17,7 @@ blocks:
     description: |
       Our initiative’s essential part is to make reports that would allow everyone to analyze how CSS is written.
 
+      - [Top 2021 CSS Frameworks Report, Part 2: Validation](/reports/css-frameworks-part-2-2022-05/)
       - [Top 2021 CSS Frameworks Report, Part 1: The CSS File Sizes](/reports/css-frameworks-part-1-2022-02/)
       - [The CSS File Size and Count Report for Bundesliga sites](/reports/bundesliga-2021-03/)
       - [The CSS File Size and Count Report for Premier League sites](/reports/premier-league-2021-02/)

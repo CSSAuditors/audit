@@ -120,3 +120,9 @@ Most frameworks are not meant to be used as a whole. Every developer should cher
 Not only that, bigger CSS means more jobs for the browser. Although modern devices don't have problems with that, it affects your Core Web Vitals score and your Google score. So it makes sense to pay attention to the CSS size.
 
 So, just like in previous posts about file size in [Premier League](/reports/premier-league-2021-02/) and [Bundesliga](/reports/bundesliga-2021-03/) sites, I wanted to bring to attention the size of CSS files. So, let's make them smaller and make our users and our planet happier.
+
+[#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
+
+## Related resources
+
+- Report: [Top 2021 CSS Frameworks Report, Part 2: Validation](/reports/css-frameworks-part-2-2022-05/)

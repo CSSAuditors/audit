@@ -210,62 +210,6 @@
     {
       "errors": [
         {
-          "key": "generator.unrecognize",
-          "value": 14
-        }
-      ],
-      "error_types_count": 1,
-      "errors_count": 14,
-      "warnings": [
-        {
-          "key": "deprecated",
-          "value": 7
-        },
-        {
-          "key": "vendor-extension",
-          "value": 96
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 17
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 2
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "value-unofficial",
-          "value": 10
-        },
-        {
-          "key": "at-rule",
-          "value": 8
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 59
-        },
-        {
-          "key": "no-declaration",
-          "value": 1
-        }
-      ],
-      "warnings_count": 201,
-      "warning_types_count": 9,
-      "site": {
-        "title": "Bundesliga site",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
           "key": "value",
           "value": 66
         },
@@ -877,71 +821,6 @@
       "errors": [
         {
           "key": "generator.unrecognize",
-          "value": 10
-        },
-        {
-          "key": "value",
-          "value": 8
-        },
-        {
-          "key": "zero",
-          "value": 4
-        },
-        {
-          "key": "url",
-          "value": 1
-        }
-      ],
-      "error_types_count": 4,
-      "errors_count": 23,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 602
-        },
-        {
-          "key": "at-rule",
-          "value": 16
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 17
-        },
-        {
-          "key": "deprecated",
-          "value": 55
-        },
-        {
-          "key": "noexistence-media",
-          "value": 1
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 103
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 2
-        },
-        {
-          "key": "value-unofficial",
-          "value": 3
-        }
-      ],
-      "warnings_count": 799,
-      "warning_types_count": 8,
-      "site": {
-        "title": "SV Werder Bremen",
-        "url": "https://www.werder.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "generator.unrecognize",
           "value": 5
         },
         {
@@ -1006,6 +885,71 @@
       "site": {
         "title": "Sport-Club Freiburg",
         "url": "https://www.scfreiburg.com",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 10
+        },
+        {
+          "key": "value",
+          "value": 8
+        },
+        {
+          "key": "zero",
+          "value": 4
+        },
+        {
+          "key": "url",
+          "value": 1
+        }
+      ],
+      "error_types_count": 4,
+      "errors_count": 23,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 602
+        },
+        {
+          "key": "at-rule",
+          "value": 16
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 17
+        },
+        {
+          "key": "deprecated",
+          "value": 55
+        },
+        {
+          "key": "noexistence-media",
+          "value": 1
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 103
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
+        },
+        {
+          "key": "value-unofficial",
+          "value": 3
+        }
+      ],
+      "warnings_count": 799,
+      "warning_types_count": 8,
+      "site": {
+        "title": "SV Werder Bremen",
+        "url": "https://www.werder.de",
         "category": "Bundesliga",
         "year": "2021",
         "month": "03"
@@ -1217,6 +1161,62 @@
         "year": "2021",
         "month": "03"
       }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 14
+        }
+      ],
+      "error_types_count": 1,
+      "errors_count": 14,
+      "warnings": [
+        {
+          "key": "deprecated",
+          "value": 7
+        },
+        {
+          "key": "vendor-extension",
+          "value": 96
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 17
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 2
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "value-unofficial",
+          "value": 10
+        },
+        {
+          "key": "at-rule",
+          "value": 8
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 59
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
+        }
+      ],
+      "warnings_count": 201,
+      "warning_types_count": 9,
+      "site": {
+        "title": "Bundesliga site",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
     }
   ],
   "errorList": [
@@ -1246,9 +1246,9 @@
     "value-unofficial",
     "css-variable",
     "noexproperty",
-    "no-declaration",
     "noexistence-media",
-    "out-of-range"
+    "out-of-range",
+    "no-declaration"
   ],
   "maxErrorTypes": {
     "site": {
@@ -1291,16 +1291,15 @@
   },
   "minErrorTypes": {
     "site": {
-      "title": "FC Augsburg",
-      "url": "https://www.fcaugsburg.de",
+      "title": "Bundesliga site",
       "category": "Bundesliga",
       "year": "2021",
       "month": "03"
     },
     "errors": [
       {
-        "key": "value",
-        "value": 1
+        "key": "generator.unrecognize",
+        "value": 14
       }
     ]
   },
