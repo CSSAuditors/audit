@@ -1,0 +1,29 @@
+{%- if report -%}
+  {%- assign reportSorted = report.list | sort: 'title' -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th><b>Site</b></th>
+          <th><b>Error type</b></th>
+          <th class="tar"><b>Count</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in reportSorted -%}
+          {%- assign errorsSize = item.errors | size -%}
+          {%- if errorsSize > 0 -%}
+            {%- assign errorsSorted = item.errors | sort: 'key' -%}
+            {%- for error in errorsSorted -%}
+              <tr>
+                <td>{%- if forloop.index == 1 -%}<b><a href="{{ item.site.url }}">{{ item.site.title }}</a></b>{%- endif -%}</td>
+                <td>{{ error.key | term | upfirst }}</td>
+                <td class="tar">{{ error.value }}</td>
+              </tr>
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

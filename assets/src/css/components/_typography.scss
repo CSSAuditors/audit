@@ -88,8 +88,11 @@ pre {
   border: 1px dashed var(--color-alpha3);
   display: block;
   min-width: 100%;
-  max-width: 60ch;
-  overflow-x: auto;
+
+  .report > & {
+    max-width: 60ch;
+    overflow-x: auto;
+  }
 
   code {
     display: block;

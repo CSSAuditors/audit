@@ -6,426 +6,447 @@
       "message": "Imported style sheets are not checked in direct input and file upload modes",
       "type": "unsupported-import",
       "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "Imported style sheets are not checked in direct input and file upload modes",
+      "type": "unsupported-import",
+      "warning": "\n                        "
     }
   ],
   "vendor-extension": [
     {
-      "line": "387",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-inline-box” is a vendor extension",
+      "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "407",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-border-radius” is a vendor extension",
+      "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "408",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-border-radius” is a vendor extension",
+      "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "431",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-border-radius” is a vendor extension",
+      "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "432",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-border-radius” is a vendor extension",
+      "message": "“-ms-text-size-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "527",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-box-shadow” is a vendor extension",
+      "message": "“-webkit-text-size-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "528",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-box-shadow” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "568",
-      "level": "0",
-      "message": "“-webkit-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "569",
-      "level": "0",
-      "message": "“-moz-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "702",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "703",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "704",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "713",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "714",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "715",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "943",
-      "level": "0",
-      "message": "“-ms-high-contrast” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "951",
-      "level": "0",
-      "message": "“-ms-high-contrast” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "959",
-      "level": "0",
-      "message": "“-ms-high-contrast” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "967",
-      "level": "0",
-      "message": "“-ms-high-contrast” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "975",
-      "level": "0",
-      "message": "“-ms-high-contrast” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1019",
-      "level": "0",
-      "message": "“-moz-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1020",
-      "level": "0",
-      "message": "“-webkit-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1283",
-      "level": "0",
-      "message": "“-webkit-tap-highlight-color” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1290",
-      "level": "0",
-      "message": "“-webkit-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1291",
-      "level": "0",
-      "message": "“-moz-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1292",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1293",
-      "level": "0",
-      "message": "“-o-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1297",
-      "level": "0",
-      "message": "“-webkit-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1298",
-      "level": "0",
-      "message": "“-moz-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1299",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1300",
-      "level": "0",
-      "message": "“-o-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1332",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1333",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1334",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1355",
-      "level": "0",
-      "message": "“-webkit-user-drag” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1357",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1358",
-      "level": "0",
-      "message": "“-moz-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1725",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5641",
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-name” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-delay” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-duration” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-fill-mode” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-timing-function” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-name” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-delay” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-duration” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-fill-mode” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-animation-timing-function” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-tap-highlight-color” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5645",
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-user-drag” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5722",
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-grab” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5725",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-grabbing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8799",
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-tap-highlight-color” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8803",
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-user-drag” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8880",
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-grab” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8883",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-grabbing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-column-count” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-column-count” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-column-count” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-moz-column-count” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     }
   ],
   "at-rule": [
     {
-      "line": "1630",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1646",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1662",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1684",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "4809",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "4829",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7147",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7289",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7305",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7648",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9882",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11491",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11732",
-      "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11750",
+      "line": "1",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
@@ -434,861 +455,243 @@
   ],
   "css-variable": [
     {
-      "line": "1720",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1799",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1910",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2016",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2041",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2064",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2077",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2093",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2126",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2224",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2274",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2311",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2369",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2383",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "2482",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "4778",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "4912",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "4976",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5026",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5093",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5118",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5152",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5176",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5215",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5241",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5459",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5482",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5499",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "5566",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "6118",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "6151",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "6214",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "6235",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6328",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6961",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6978",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6999",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7379",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7400",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7441",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7497",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7541",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7551",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7590",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7713",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7789",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7962",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8074",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8155",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8182",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8336",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8405",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8504",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8515",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8687",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8947",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9161",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9205",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9363",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9462",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9475",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9542",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9666",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9828",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9925",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9938",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9987",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10007",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10038",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10048",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10075",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10118",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10137",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10151",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10397",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10412",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10481",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10505",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10520",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10563",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10693",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10800",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10965",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11084",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11100",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11190",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11294",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11409",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11438",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11536",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11646",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11711",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11805",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13289",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13360",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13423",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13494",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13535",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13558",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13768",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13781",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13842",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13862",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13928",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13941",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13958",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14061",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14080",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14198",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14311",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14425",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14504",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14513",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14581",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14662",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14723",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14730",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14740",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14805",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14868",
+      "line": "1",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     }
   ],
-  "vendor-ext-pseudo-element": [
+  "vendor-ext-pseudo-class": [
     {
-      "line": "11275",
+      "line": "1",
       "level": "0",
-      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    }
-  ],
-  "deprecatedproperty": [
-    {
-      "line": "11954",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
+      "message": "“:-webkit-autofill” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     }
   ]

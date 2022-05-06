@@ -41,7 +41,7 @@ For this report, I used the following tools:
 
 Using these tools, I extracted and analyzed CSS sizes and found some interesting things.
 
-<small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.</small>
+<small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered involuntary.</small>
 
 ## The Report
 

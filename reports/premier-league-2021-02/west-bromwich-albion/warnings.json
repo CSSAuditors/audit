@@ -1,1294 +1,1434 @@
 {
-  "deprecatedproperty": [
-    {
-      "line": "105",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "114",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10632",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "10642",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15939",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15940",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "19336",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "19337",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    }
-  ],
   "vendor-extension": [
     {
-      "line": "200",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-ms-text-size-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "201",
-      "level": "0",
-      "message": "“-moz-appearance” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "475",
-      "level": "0",
-      "message": "“-moz-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "476",
-      "level": "0",
-      "message": "“-webkit-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "479",
-      "level": "0",
-      "message": "“-moz-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "480",
-      "level": "0",
-      "message": "“-webkit-gradient(linear,left top,left bottom,color-stop(5%,#ededed),color-stop(100%,#dfdfdf))” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "481",
-      "level": "0",
-      "message": "“-webkit-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "482",
-      "level": "0",
-      "message": "“-o-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "483",
-      "level": "0",
-      "message": "“-ms-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "485",
-      "level": "0",
-      "message": "“-moz-border-radius” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "486",
-      "level": "0",
-      "message": "“-webkit-border-radius” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "497",
-      "level": "0",
-      "message": "“-moz-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "498",
-      "level": "0",
-      "message": "“-webkit-box-shadow” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "508",
-      "level": "0",
-      "message": "“-moz-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "509",
-      "level": "0",
-      "message": "“-webkit-gradient(linear,left top,left bottom,color-stop(5%,#dfdfdf),color-stop(100%,#ededed))” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "510",
-      "level": "0",
-      "message": "“-webkit-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "511",
-      "level": "0",
-      "message": "“-o-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "512",
-      "level": "0",
-      "message": "“-ms-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "702",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "703",
-      "level": "0",
-      "message": "“-webkit-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "708",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "709",
-      "level": "0",
-      "message": "“-webkit-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1186",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1191",
-      "level": "0",
-      "message": "“-webkit-tap-highlight-color” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1193",
-      "level": "0",
-      "message": "“-ms-touch-action” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1213",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1249",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1258",
-      "level": "0",
-      "message": "“-webkit-touch-callout” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1259",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1260",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1261",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1278",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1284",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1324",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1332",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1342",
-      "level": "0",
-      "message": "“-ms-transform-origin” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1345",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1346",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1347",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1359",
-      "level": "0",
-      "message": "“-webkit-grab” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1363",
-      "level": "0",
-      "message": "“-webkit-grabbing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1381",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1382",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1383",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1501",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1503",
-      "level": "0",
-      "message": "“-ms-transform-origin” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1655",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1660",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1665",
-      "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1750",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1751",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1752",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1809",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1810",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1814",
-      "level": "0",
-      "message": "“-webkit-tap-highlight-color” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1858",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1874",
-      "level": "0",
-      "message": "“-webkit-tap-highlight-color” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1923",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-text-size-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "1943",
-      "level": "0",
-      "message": "“-webkit-text-decoration” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1996",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2037",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2041",
+      "line": "1",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2044",
+      "line": "2",
+      "level": "0",
+      "message": "“min--moz-device-pixel-ratio” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“-webkit-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“-webkit-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "41",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2077",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2078",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2085",
-      "level": "0",
-      "message": "“-ms-interpolation-mode” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2106",
-      "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2107",
+      "line": "41",
       "level": "0",
       "message": "“-moz-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2165",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-moz-box-shadow” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2166",
+      "line": "51",
       "level": "0",
-      "message": "“-moz-appearance” is a vendor extension",
+      "message": "“-webkit-box-shadow” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2205",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-moz-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2206",
+      "line": "51",
       "level": "0",
-      "message": "“-moz-appearance” is a vendor extension",
+      "message": "“-webkit-gradient(linear,left top,left bottom,color-stop(5%,#ededed),color-stop(100%,#dfdfdf))” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2346",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-webkit-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2347",
+      "line": "51",
       "level": "0",
-      "message": "“-moz-appearance” is a vendor extension",
+      "message": "“-o-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7233",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "message": "“-ms-linear-gradient(top,#ededed 5%,#dfdfdf 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7234",
+      "line": "51",
       "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
+      "message": "“-moz-border-radius” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7265",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "message": "“-webkit-border-radius” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7266",
+      "line": "51",
       "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
+      "message": "“-moz-box-shadow” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7281",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "message": "“-webkit-box-shadow” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7282",
+      "line": "51",
       "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
+      "message": "“-moz-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7300",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "message": "“-webkit-gradient(linear,left top,left bottom,color-stop(5%,#dfdfdf),color-stop(100%,#ededed))” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7301",
+      "line": "51",
       "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
+      "message": "“-webkit-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7316",
+      "line": "51",
       "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "message": "“-o-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7317",
+      "line": "51",
       "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
+      "message": "“-ms-linear-gradient(top,#dfdfdf 5%,#ededed 100%)” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7335",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7336",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7351",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7352",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7370",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7371",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7386",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7387",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7404",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7405",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7420",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7421",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7438",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7439",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7454",
-      "level": "0",
-      "message": "“-webkit-overflow-scrolling” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7455",
-      "level": "0",
-      "message": "“-ms-overflow-style” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7956",
-      "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9558",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9559",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9560",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11161",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11173",
-      "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11174",
-      "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11175",
-      "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11183",
-      "level": "0",
-      "message": "“-webkit-touch-callout” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11184",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-tap-highlight-color” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11187",
+      "line": "329",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11189",
+      "line": "329",
       "level": "0",
-      "message": "“-webkit-user-drag” is a vendor extension",
+      "message": "“-ms-touch-action” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11190",
+      "line": "329",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11191",
+      "line": "329",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11195",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-touch-callout” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11196",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-user-select” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11197",
+      "line": "329",
       "level": "0",
       "message": "“-moz-user-select” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11198",
+      "line": "329",
       "level": "0",
       "message": "“-ms-user-select” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11305",
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform-origin” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-grab” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-grabbing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform-origin” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-transform” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-tap-highlight-color” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-tap-highlight-color” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-text-size-adjust” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-text-decoration” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11306",
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-interpolation-mode” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
       "level": "0",
       "message": "“-moz-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12111",
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-print-color-adjust” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-overflow-style” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-high-contrast” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-high-contrast” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-overflow-scrolling” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-tap-highlight-color” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-drag” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-touch-callout” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-ms-user-select” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
       "level": "0",
       "message": "“-webkit-sticky” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12422",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-overflow-scrolling” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12906",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-overflow-scrolling” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "13156",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "13300",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "13472",
+      "line": "329",
       "level": "0",
       "message": "“-moz-column-count” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "13474",
+      "line": "329",
       "level": "0",
       "message": "“-moz-column-gap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "14418",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-overflow-scrolling” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "14743",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15050",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15267",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15393",
-      "level": "0",
-      "message": "“-webkit-box” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15394",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-line-clamp” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15395",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-box-orient” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15402",
+      "line": "329",
+      "level": "0",
+      "message": "“-webkit-box” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
       "level": "0",
       "message": "“-webkit-line-clamp” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15482",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "15682",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "16939",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "17001",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-animation” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "17175",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "17394",
+      "line": "329",
       "level": "0",
       "message": "“-o-object-fit” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "17664",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "17734",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-sticky” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "18306",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-overflow-scrolling” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "18955",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-sticky” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "19106",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-sticky” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "19400",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "19401",
+      "line": "329",
       "level": "0",
       "message": "“-moz-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "19789",
+      "line": "329",
       "level": "0",
       "message": "“-webkit-sticky” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "20442",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     }
   ],
   "vendor-ext-pseudo-element": [
     {
-      "line": "1845",
-      "level": "0",
-      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1848",
-      "level": "0",
-      "message": "“::-webkit-scrollbar-track” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1853",
-      "level": "0",
-      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1998",
+      "line": "1",
       "level": "0",
       "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "1999",
+      "line": "1",
       "level": "0",
       "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2000",
-      "level": "0",
-      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2001",
-      "level": "0",
-      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2032",
+      "line": "1",
       "level": "0",
       "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2033",
+      "line": "1",
       "level": "0",
       "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2040",
+      "line": "1",
+      "level": "0",
+      "message": "“::-webkit-search-cancel-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“::-webkit-search-decoration” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2043",
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-track” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "“::-webkit-search-decoration” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
       "level": "0",
       "message": "“::-webkit-file-upload-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2213",
+      "line": "329",
       "level": "0",
       "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2381",
+      "line": "329",
       "level": "0",
       "message": "“::-ms-expand” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "2392",
+      "line": "329",
       "level": "0",
       "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "12922",
+      "line": "329",
       "level": "0",
       "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "14433",
+      "line": "329",
       "level": "0",
       "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "15953",
+      "line": "329",
       "level": "0",
       "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "19351",
+      "line": "329",
       "level": "0",
       "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     }
   ],
+  "deprecatedproperty": [
+    {
+      "line": "35",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "35",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "329",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    }
+  ],
   "vendor-ext-pseudo-class": [
     {
-      "line": "2005",
+      "line": "329",
       "level": "0",
       "message": "“:-moz-focusring” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "2006",
+      "line": "329",
       "level": "0",
       "message": "“:-moz-focusring” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "2007",
+      "line": "329",
       "level": "0",
       "message": "“:-moz-focusring” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "2008",
+      "line": "329",
       "level": "0",
       "message": "“:-moz-focusring” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "2216",
+      "line": "329",
       "level": "0",
       "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "2395",
+      "line": "329",
       "level": "0",
       "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "15961",
+      "line": "329",
       "level": "0",
       "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     },
     {
-      "line": "19359",
+      "line": "329",
       "level": "0",
       "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
       "type": "vendor-ext-pseudo-class",
@@ -1297,7 +1437,7 @@
   ],
   "css-hack": [
     {
-      "line": "2365",
+      "line": "329",
       "level": "0",
       "message": "“0\\0” is a CSS hack",
       "type": "css-hack",
@@ -1306,175 +1446,175 @@
   ],
   "noexistence-media": [
     {
-      "line": "11275",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "11861",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "12696",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13076",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13595",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13796",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13807",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13851",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13876",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13901",
+      "line": "329",
       "level": "0",
       "message": "Property “cursor” doesn't exist for media “print (handheld, projection, screen, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13939",
+      "line": "329",
       "level": "0",
       "message": "Property “cursor” doesn't exist for media “print (handheld, projection, screen, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13948",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "13997",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "15357",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "16060",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "16372",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "16928",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "17129",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "17165",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "17541",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "17599",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "17639",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "18362",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "18393",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
       "warning": "\n                        "
     },
     {
-      "line": "19592",
+      "line": "329",
       "level": "0",
       "message": "Property “transition” doesn't exist for media “print (braille, handheld, projection, screen, speech, tty, tv)”",
       "type": "noexistence-media",
@@ -1483,14 +1623,14 @@
   ],
   "at-rule": [
     {
-      "line": "15250",
+      "line": "329",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "16973",
+      "line": "329",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
@@ -1499,14 +1639,14 @@
   ],
   "shape-separator": [
     {
-      "line": "15939",
+      "line": "329",
       "level": "0",
       "message": "Invalid separator in shape definition. It must be a comma.",
       "type": "shape-separator",
       "warning": "\n                        "
     },
     {
-      "line": "19336",
+      "line": "329",
       "level": "0",
       "message": "Invalid separator in shape definition. It must be a comma.",
       "type": "shape-separator",

@@ -1,0 +1,47 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th><b>Site</b></th>
+          <th class="tar"><b>Count</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxWarnings -%}
+          <tr>
+            <th><b>Most warnings</b></th>
+            <td>{{ report.maxWarnings.site.title }}</td>
+            <td class="tar">{{ report.maxWarnings.warnings_count }}</td>
+          </tr>
+        {%- endif -%}
+        {%- assign minWarningsSize = report.minWarningsList | size -%}
+        {%- if minWarningsSize > 0 -%}
+          <tr>
+            <th><b>Least warnings</b></th>
+            <td>
+              {%- for minWarning in report.minWarningsList -%}
+                {{ minWarning.site.title }}{% unless forloop.last %}, {% endunless %}
+              {%- endfor -%}
+            </td>
+            <td class="tar">0</td>
+          </tr>
+        {%- elsif report.minWarnings -%}
+          <tr>
+            <th><b>Least warnings</b></th>
+            <td>{{ report.minWarnings.site.title }}</td>
+            <td class="tar">{{ report.minWarnings.warnings_count }}</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgWarnings -%}
+          <tr>
+            <th><b>Average number of warnings</b></th>
+            <td>-</td>
+            <td class="tar">{{ report.avgWarnings | ceil }}{%- if report.avgWarnings -%}<br>median {{ report.avgWarnings2 | ceil }}{%- endif -%}</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

@@ -1131,12 +1131,26 @@
       "warning": "\n                        "
     }
   ],
-  "no-declaration": [
+  "value-unofficial": [
     {
       "line": "6",
       "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
+      "level": "0",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     }
   ],

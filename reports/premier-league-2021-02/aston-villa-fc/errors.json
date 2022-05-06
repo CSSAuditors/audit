@@ -1,239 +1,68 @@
 {
-  "noexistence-at-all": [
-    {
-      "line": "975",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2100",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                optimizeLegibility\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “text-rendering” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3719",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3778",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6939",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                url(\"data:image/svg+xml,%3csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" style=\"color:green\"%3e%3cpath d=\"M15.7,4.2a.8.8,0,0,1-.4.4l-.5.5L11.3,8.6,6.9,13.1l-.6.5a.5.5,0,0,1-.7,0l-3-3.1L.5,8.3a.5.5,0,0,1,.1-.8L1.8,6.4c.3-.3.6-.3.8,0L5.1,9l.5.5a.6.6,0,0,0,.8,0l4.5-4.6,2.5-2.4c.3-.3.6-.3.8,0l1.1,1c0,.1.1.2.2.3s.1.1.2.2Z\"%3e%3c/path%3e%3c/svg%3e\")\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “mask-image” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6983",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7123",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7591",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7748",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8031",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8051",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8241",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8261",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    }
-  ],
   "generator.unrecognize": [
     {
-      "line": "2525",
+      "line": "161",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                @import url(https://fonts.googleapis.com/css?family=Barlow:700|Roboto);\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                @import are not allowed after any valid statement other than @charset and @import.\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "162",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                [not('.embed')]\n                            ",
+      "skippedstring": "\n                                article-card /deep/ a:hover,.category-menu__link:hover,.grid-card /deep/ a:hover,.header-link:hover,.news-stacker-item /deep/ a:hover,.page-card /deep/ a:hover,.tab-headers__link:hover{text-decoration:none!important}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2525",
+      "line": "162",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                [)]\n                            ",
+      "skippedstring": "\n                                news-category-listing /deep/ .article-card__title{font-size:1.125em}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2530",
+      "line": "1941",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                @import url(\"https://fonts.googleapis.com/css?family=Barlow:700|Roboto\");\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                @import are not allowed after any valid statement other than @charset and @import.\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2200",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                [not('.embed')]\n                            ",
+      "skippedstring": "\n                                article-card /deep/ a:hover, .category-menu__link:hover, .grid-card /deep/ a:hover, .header-link:hover, .news-stacker-item /deep/ a:hover, .page-card /deep/ a:hover, .tab-headers__link:hover { text-decoration: none !important; }\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2530",
+      "line": "2282",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                [)]\n                            ",
-      "type": "generator.unrecognize",
-      "message": "\n\n                                Parse Error\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12575",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                article-card /deep/ a:hover,\n.category-menu__link:hover,\n.grid-card /deep/ a:hover,\n.header-link:hover,\n.news-stacker-item /deep/ a:hover,\n.page-card /deep/ a:hover,\n.tab-headers__link:hover {\n  text-decoration: none!important\n}\n                            ",
-      "type": "generator.unrecognize",
-      "message": "\n\n                                Parse Error\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12854",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                news-category-listing /deep/ .article-card__title {\n    font-size: 1.125em\n  }\n                            ",
+      "skippedstring": "\n                                news-category-listing /deep/ .article-card__title { font-size: 1.125em; }\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     }
   ],
-  "invalidparam": [
+  "value": [
     {
-      "line": "2985",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Unknown pseudo-element or pseudo-class “:not”\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3052",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Unknown pseudo-element or pseudo-class “:not”\n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "noexistence-typo": [
-    {
-      "line": "15366",
+      "line": "179",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                var(--body_text_color--dark-mode, #fff)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "unrecognize": [
-    {
-      "line": "22171",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                var(--content_spacing--small, 32px) / 4\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n\n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22176",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                var(--content_spacing--large, 48px) / 4\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  padding-top (nullbox.html#propdef-padding-top)\n\n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22329",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                var(--content_spacing--small, 32px) / 2\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n\n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22335",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                var(--content_spacing--large, 48px) / 2\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  margin-bottom (nullbox.html#propdef-margin-bottom)\n\n                                Too many values or values are not recognized : \n                            ",
+      "skippedstring": "\n                                overlay\n                            ",
+      "type": "value",
+      "message": "\n\n                                “overlay” is not a “overflow-y” value : \n                            ",
       "error": "\n                        "
     }
   ]

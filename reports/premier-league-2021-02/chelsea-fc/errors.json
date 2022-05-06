@@ -1,1760 +1,381 @@
 {
-  "noexistence-at-all": [
+  "generator.unrecognize": [
     {
-      "line": "439",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "563",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "626",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "627",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "644",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "880",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "1907",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/2)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "1925",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[2]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "1945",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "1956",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2235",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(250, 250, 250)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2589",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(63, 81, 181)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/4)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2593",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 64, 129)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2597",
+      "line": "1",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(244, 67, 54)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3356",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[12]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3476",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[16]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3527",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3528",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3545",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3785",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "3982",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/2)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4106",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[2]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4169",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4170",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4187",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4426",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/4)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4614",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4734",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4785",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4786",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "4803",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "5043",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "5868",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/2)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "5992",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[2]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6055",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/3)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6056",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6073",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[3]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6309",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                + 1.875rem/4)\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Whitespace is required on both sides of the “+” or “-” operators\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6654",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6778",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[4]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6841",
+      "line": "3",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                :(1fr)[16]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "6842",
+      "line": "143",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6859",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7095",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7587",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7707",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7758",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7759",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7776",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7994",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8541",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8665",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8728",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8729",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8746",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8982",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9422",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9542",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9593",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9594",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9611",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9851",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10398",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10522",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10585",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10586",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10603",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10839",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13203",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13323",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13374",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13375",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13392",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13632",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14104",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14226",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14283",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14284",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14301",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14539",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14657",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14664",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14796",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15510",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15632",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15689",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15690",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15707",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15941",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16533",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16655",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16712",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16713",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16730",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16964",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17501",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17560",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17682",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17739",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17740",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17757",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17991",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18562",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18682",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18733",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18734",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18751",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18991",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19147",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19155",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                all\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19160",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19285",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19325",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19602",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19610",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19614",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19618",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19624",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19633",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19640",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19646",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19671",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19676",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19680",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19745",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19869",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19932",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19933",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19950",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20182",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20364",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20484",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20535",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20536",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20553",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20793",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21218",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21338",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21389",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21390",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21407",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21647",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21806",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21928",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                circle(50% at 50% 50%)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21985",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21986",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                2px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22003",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1px\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “stroke-width” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22237",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                unset\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “clip-path” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "23886",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                initial\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "23891",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "27018",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "noexistence-typo": [
-    {
-      "line": "630",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "633",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2232",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(250, 250, 250)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2561",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(197, 202, 233)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2570",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 128, 171)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2579",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 205, 210)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3531",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3534",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4173",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4176",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4789",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4792",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6059",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6062",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6845",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6848",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7762",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7765",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8732",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8735",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9597",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "9600",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10589",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10592",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13378",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13381",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14287",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14290",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15693",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "15696",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16716",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16719",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17743",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17746",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18737",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18740",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19936",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "19939",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20539",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20542",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21393",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21396",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21989",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 51, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "21992",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(20, 10, 71)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                google_ads_iframe_/21802168006/MH_ADS_MIDDLE_BANNER_1_0__container__ {\n\tdisplay: none;\n}\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     }
   ]

@@ -3,16 +3,8 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 12
-        },
-        {
-          "key": "invalidparam",
-          "value": 110
-        },
-        {
-          "key": "colorfunc",
-          "value": 26
+          "key": "value",
+          "value": 2
         },
         {
           "key": "generator.unrecognize",
@@ -23,8 +15,8 @@
           "value": 2
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 152,
+      "error_types_count": 3,
+      "errors_count": 6,
       "warnings": [
         {
           "key": "unsupported-import",
@@ -32,7 +24,7 @@
         },
         {
           "key": "vendor-extension",
-          "value": 1123
+          "value": 1165
         },
         {
           "key": "vendor-ext-pseudo-element",
@@ -41,6 +33,10 @@
         {
           "key": "deprecatedproperty",
           "value": 6
+        },
+        {
+          "key": "css-hack",
+          "value": 3
         },
         {
           "key": "vendor-ext-pseudo-class",
@@ -57,10 +53,14 @@
         {
           "key": "shape-separator",
           "value": 2
+        },
+        {
+          "key": "value-unofficial",
+          "value": 1
         }
       ],
-      "warnings_count": 1276,
-      "warning_types_count": 8,
+      "warnings_count": 1322,
+      "warning_types_count": 10,
       "site": {
         "title": "Bayer 04 Leverkusen",
         "url": "https://www.bayer04.de/en-us",
@@ -72,32 +72,32 @@
     {
       "errors": [
         {
+          "key": "value",
+          "value": 12
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 10
+        },
+        {
           "key": "zero",
           "value": 1
         },
         {
-          "key": "noexistence-at-all",
-          "value": 46
-        },
-        {
-          "key": "value",
-          "value": 10
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 3
-        },
-        {
           "key": "noexistence-typo",
-          "value": 43
+          "value": 2
         },
         {
           "key": "linear-gradient-missing-to",
           "value": 2
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 1
         }
       ],
       "error_types_count": 6,
-      "errors_count": 105,
+      "errors_count": 28,
       "warnings": [
         {
           "key": "vendor-ext-pseudo-class",
@@ -109,7 +109,11 @@
         },
         {
           "key": "vendor-extension",
-          "value": 638
+          "value": 695
+        },
+        {
+          "key": "value-unofficial",
+          "value": 5
         },
         {
           "key": "at-rule",
@@ -120,12 +124,16 @@
           "value": 2
         },
         {
+          "key": "css-hack",
+          "value": 3
+        },
+        {
           "key": "deprecatedproperty",
           "value": 3
         }
       ],
-      "warnings_count": 681,
-      "warning_types_count": 6,
+      "warnings_count": 746,
+      "warning_types_count": 8,
       "site": {
         "title": "Borussia Dortmund GmbH",
         "url": "https://www.bvb.de",
@@ -137,15 +145,60 @@
     {
       "errors": [
         {
-          "key": "parse-error",
+          "key": "generator.unrecognize",
+          "value": 171
+        },
+        {
+          "key": "negative-value",
           "value": 1
         }
       ],
-      "error_types_count": 1,
-      "errors_count": 1,
-      "warnings": [],
-      "warnings_count": 0,
-      "warning_types_count": 0,
+      "error_types_count": 2,
+      "errors_count": 172,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 1868
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 63
+        },
+        {
+          "key": "at-rule",
+          "value": 6
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 18
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 149
+        },
+        {
+          "key": "shape-separator",
+          "value": 61
+        },
+        {
+          "key": "css-variable",
+          "value": 76
+        },
+        {
+          "key": "value-unofficial",
+          "value": 7
+        },
+        {
+          "key": "noexproperty",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 1
+        }
+      ],
+      "warnings_count": 2250,
+      "warning_types_count": 10,
       "site": {
         "title": "Borussia Mönchengladbach",
         "url": "https://www.borussia.de/de",
@@ -157,987 +210,12 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 3
-        },
-        {
-          "key": "value",
-          "value": 4
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 3
-        },
-        {
-          "key": "java.lang.NullPointerException",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 4
-        },
-        {
-          "key": "colorfunc",
-          "value": 1
-        }
-      ],
-      "error_types_count": 6,
-      "errors_count": 16,
-      "warnings": [
-        {
-          "key": "deprecatedproperty",
-          "value": 1
-        },
-        {
-          "key": "vendor-extension",
-          "value": 111
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 1
-        },
-        {
-          "key": "deprecated",
-          "value": 2
-        }
-      ],
-      "warnings_count": 115,
-      "warning_types_count": 4,
-      "site": {
-        "title": "DSC Arminia Bielefeld",
-        "url": "https://www.arminia-bielefeld.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 336
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 198
-        },
-        {
-          "key": "value",
-          "value": 12
-        },
-        {
-          "key": "unrecognize",
-          "value": 4
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 291
-        },
-        {
-          "key": "rgb",
-          "value": 1
-        }
-      ],
-      "error_types_count": 6,
-      "errors_count": 842,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 3304
-        },
-        {
-          "key": "no-declaration",
-          "value": 21
-        },
-        {
-          "key": "at-rule",
-          "value": 55
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 14
-        },
-        {
-          "key": "deprecated",
-          "value": 5
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 42
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 4
-        },
-        {
-          "key": "shape-separator",
-          "value": 2
-        },
-        {
-          "key": "css-variable",
-          "value": 1
-        }
-      ],
-      "warnings_count": 3448,
-      "warning_types_count": 9,
-      "site": {
-        "title": "Eintracht Frankfurt",
-        "url": "https://www.eintracht.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 43
-        },
-        {
-          "key": "value",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        }
-      ],
-      "error_types_count": 3,
-      "errors_count": 45,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 875
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 32
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 10
-        },
-        {
-          "key": "at-rule",
-          "value": 20
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 20
-        },
-        {
-          "key": "noexistence-media",
-          "value": 5
-        },
-        {
-          "key": "shape-separator",
-          "value": 2
-        }
-      ],
-      "warnings_count": 964,
-      "warning_types_count": 7,
-      "site": {
-        "title": "FC Augsburg",
-        "url": "https://www.fcaugsburg.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 67
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 57
-        },
-        {
-          "key": "invalidparam",
-          "value": 6
-        },
-        {
-          "key": "value",
-          "value": 200
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 133
-        },
-        {
-          "key": "unrecognize",
-          "value": 1
-        },
-        {
-          "key": "zero",
-          "value": 5
-        }
-      ],
-      "error_types_count": 7,
-      "errors_count": 469,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 3756
-        },
-        {
-          "key": "at-rule",
-          "value": 37
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 24
-        },
-        {
-          "key": "deprecated",
-          "value": 18
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 2
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "noexproperty",
-          "value": 14
-        },
-        {
-          "key": "noexistence-media",
-          "value": 3
-        },
-        {
-          "key": "no-declaration",
-          "value": 2
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 2
-        }
-      ],
-      "warnings_count": 3859,
-      "warning_types_count": 10,
-      "site": {
-        "title": "FC Bayern München",
-        "url": "https://fcbayern.com/de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "generator.unrecognize",
-          "value": 1
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 4
-        },
-        {
-          "key": "zero",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 12
-        }
-      ],
-      "error_types_count": 4,
-      "errors_count": 18,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 107
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 14
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 2
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "deprecated",
-          "value": 3
-        }
-      ],
-      "warnings_count": 127,
-      "warning_types_count": 5,
-      "site": {
-        "title": "FC Köln",
-        "url": "https://fc.de/fc-info/startseite/",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 35
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 20
-        },
-        {
-          "key": "value",
-          "value": 4
-        },
-        {
-          "key": "rgb",
-          "value": 3
-        }
-      ],
-      "error_types_count": 4,
-      "errors_count": 62,
-      "warnings": [
-        {
-          "key": "unsupported-import",
-          "value": 1
-        },
-        {
-          "key": "vendor-extension",
-          "value": 6722
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 90
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 15
-        },
-        {
-          "key": "at-rule",
-          "value": 9
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 5
-        },
-        {
-          "key": "deprecated",
-          "value": 4
-        }
-      ],
-      "warnings_count": 6846,
-      "warning_types_count": 7,
-      "site": {
-        "title": "FC Schalke 04",
-        "url": "https://schalke04.de/",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-typo",
-          "value": 10
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 19
-        },
-        {
-          "key": "invalidparam",
-          "value": 2
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 2
-        },
-        {
-          "key": "unrecognize",
-          "value": 1
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 34,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 969
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 15
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 6
-        },
-        {
-          "key": "at-rule",
-          "value": 2
-        }
-      ],
-      "warnings_count": 992,
-      "warning_types_count": 4,
-      "site": {
-        "title": "FC Union Berlin",
-        "url": "https://www.fc-union-berlin.de/en/",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 11
-        },
-        {
-          "key": "value",
-          "value": 2
-        },
-        {
-          "key": "invalidparam",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 2
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 17,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 591
-        },
-        {
-          "key": "at-rule",
-          "value": 16
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 51
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 6
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 3
-        },
-        {
-          "key": "deprecated",
-          "value": 4
-        }
-      ],
-      "warnings_count": 671,
-      "warning_types_count": 6,
-      "site": {
-        "title": "FSV Mainz 05",
-        "url": "https://www.mainz05.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "generator.unrecognize",
-          "value": 1
-        },
-        {
-          "key": "value",
-          "value": 4
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        },
-        {
-          "key": "linear-gradient-missing-to",
-          "value": 2
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 16
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 24,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 857
-        },
-        {
-          "key": "at-rule",
-          "value": 23
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 4
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 2
-        },
-        {
-          "key": "deprecated",
-          "value": 1
-        }
-      ],
-      "warnings_count": 887,
-      "warning_types_count": 5,
-      "site": {
-        "title": "Hertha Berlin",
-        "url": "https://www.herthabsc.de/en/",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 119
-        },
-        {
-          "key": "value",
-          "value": 8
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 355
-        },
-        {
           "key": "generator.unrecognize",
           "value": 14
         }
       ],
-      "error_types_count": 4,
-      "errors_count": 496,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 2202
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 62
-        },
-        {
-          "key": "at-rule",
-          "value": 37
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 32
-        },
-        {
-          "key": "deprecated",
-          "value": 2
-        },
-        {
-          "key": "noexproperty",
-          "value": 13
-        },
-        {
-          "key": "no-declaration",
-          "value": 270
-        }
-      ],
-      "warnings_count": 2618,
-      "warning_types_count": 7,
-      "site": {
-        "title": "RB Leipzig",
-        "url": "https://www.dierotenbullen.com",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 27
-        },
-        {
-          "key": "value",
-          "value": 17
-        },
-        {
-          "key": "zero",
-          "value": 4
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 5
-        },
-        {
-          "key": "parse-error",
-          "value": 1
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 54,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 404
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 8
-        },
-        {
-          "key": "shape-separator",
-          "value": 2
-        },
-        {
-          "key": "at-rule",
-          "value": 9
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 10
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 4
-        }
-      ],
-      "warnings_count": 437,
-      "warning_types_count": 6,
-      "site": {
-        "title": "Sport-Club Freiburg",
-        "url": "https://www.scfreiburg.com",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "value",
-          "value": 9
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 46
-        },
-        {
-          "key": "linear-gradient-missing-to",
-          "value": 2
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 1
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 54
-        },
-        {
-          "key": "zero",
-          "value": 4
-        },
-        {
-          "key": "url",
-          "value": 1
-        }
-      ],
-      "error_types_count": 7,
-      "errors_count": 117,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 737
-        },
-        {
-          "key": "at-rule",
-          "value": 14
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 19
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 3
-        },
-        {
-          "key": "deprecated",
-          "value": 31
-        },
-        {
-          "key": "noexistence-media",
-          "value": 1
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 104
-        },
-        {
-          "key": "noexproperty",
-          "value": 1
-        }
-      ],
-      "warnings_count": 910,
-      "warning_types_count": 8,
-      "site": {
-        "title": "SV Werder Bremen",
-        "url": "https://www.werder.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 18
-        },
-        {
-          "key": "invalidparam",
-          "value": 5
-        },
-        {
-          "key": "value",
-          "value": 5
-        },
-        {
-          "key": "zero",
-          "value": 4
-        },
-        {
-          "key": "linear-gradient-missing-to",
-          "value": 8
-        },
-        {
-          "key": "unrecognize",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 13
-        }
-      ],
-      "error_types_count": 7,
-      "errors_count": 54,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 1340
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 37
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 7
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 5
-        },
-        {
-          "key": "at-rule",
-          "value": 9
-        },
-        {
-          "key": "noexproperty",
-          "value": 1
-        },
-        {
-          "key": "deprecated",
-          "value": 1
-        }
-      ],
-      "warnings_count": 1400,
-      "warning_types_count": 7,
-      "site": {
-        "title": "TSG Hoffenheim",
-        "url": "https://www.tsg-hoffenheim.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 22
-        },
-        {
-          "key": "value",
-          "value": 9
-        },
-        {
-          "key": "unrecognize",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 2
-        },
-        {
-          "key": "invalidparam",
-          "value": 2
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 36,
-      "warnings": [
-        {
-          "key": "unsupported-import",
-          "value": 2
-        },
-        {
-          "key": "vendor-extension",
-          "value": 1332
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 2
-        },
-        {
-          "key": "at-rule",
-          "value": 18
-        },
-        {
-          "key": "deprecated",
-          "value": 3
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 12
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 6
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        }
-      ],
-      "warnings_count": 1376,
-      "warning_types_count": 8,
-      "site": {
-        "title": "VfB Stuttgart",
-        "url": "https://www.vfb.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 51
-        },
-        {
-          "key": "value",
-          "value": 5
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 29
-        }
-      ],
-      "error_types_count": 3,
-      "errors_count": 85,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 2303
-        },
-        {
-          "key": "deprecated",
-          "value": 68
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 24
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 13
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 3
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "at-rule",
-          "value": 9
-        },
-        {
-          "key": "noexproperty",
-          "value": 3
-        }
-      ],
-      "warnings_count": 2424,
-      "warning_types_count": 8,
-      "site": {
-        "title": "VfL Wolfsburg",
-        "url": "https://www.vfl-wolfsburg.de",
-        "category": "Bundesliga",
-        "year": "2021",
-        "month": "03"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "invalidparam",
-          "value": 5
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 53
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 2
-        }
-      ],
-      "error_types_count": 4,
-      "errors_count": 61,
+      "error_types_count": 1,
+      "errors_count": 14,
       "warnings": [
         {
           "key": "deprecated",
@@ -1160,18 +238,981 @@
           "value": 1
         },
         {
+          "key": "value-unofficial",
+          "value": 10
+        },
+        {
           "key": "at-rule",
           "value": 8
         },
         {
           "key": "vendor-ext-pseudo-element",
           "value": 59
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
         }
       ],
-      "warnings_count": 190,
-      "warning_types_count": 7,
+      "warnings_count": 201,
+      "warning_types_count": 9,
       "site": {
         "title": "Bundesliga site",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 66
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 2
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 1
+        },
+        {
+          "key": "strictly-positive",
+          "value": 1
+        },
+        {
+          "key": "zero",
+          "value": 1
+        }
+      ],
+      "error_types_count": 5,
+      "errors_count": 71,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 1733
+        },
+        {
+          "key": "at-rule",
+          "value": 31
+        },
+        {
+          "key": "css-hack",
+          "value": 3
+        },
+        {
+          "key": "value-unofficial",
+          "value": 23
+        },
+        {
+          "key": "deprecated",
+          "value": 3
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 33
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
+        }
+      ],
+      "warnings_count": 1828,
+      "warning_types_count": 7,
+      "site": {
+        "title": "DSC Arminia Bielefeld",
+        "url": "https://www.arminia-bielefeld.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 6
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 302
+        },
+        {
+          "key": "rgb",
+          "value": 1
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 309,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 3009
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 43
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 4
+        },
+        {
+          "key": "shape-separator",
+          "value": 2
+        },
+        {
+          "key": "at-rule",
+          "value": 56
+        },
+        {
+          "key": "deprecated",
+          "value": 3
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 7
+        },
+        {
+          "key": "value-unofficial",
+          "value": 6
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "css-variable",
+          "value": 1
+        }
+      ],
+      "warnings_count": 3132,
+      "warning_types_count": 10,
+      "site": {
+        "title": "Eintracht Frankfurt",
+        "url": "https://www.eintracht.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 1
+        }
+      ],
+      "error_types_count": 1,
+      "errors_count": 1,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 877
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 32
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 10
+        },
+        {
+          "key": "at-rule",
+          "value": 20
+        },
+        {
+          "key": "value-unofficial",
+          "value": 7
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 20
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "noexistence-media",
+          "value": 5
+        },
+        {
+          "key": "shape-separator",
+          "value": 2
+        }
+      ],
+      "warnings_count": 974,
+      "warning_types_count": 9,
+      "site": {
+        "title": "FC Augsburg",
+        "url": "https://www.fcaugsburg.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "noexistence-at-all",
+          "value": 22
+        },
+        {
+          "key": "java.lang.NoSuchMethodException: org.w3c.css.properties.svg.CssBaselineShift.<init>()",
+          "value": 2
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 20
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 9
+        },
+        {
+          "key": "value",
+          "value": 2
+        }
+      ],
+      "error_types_count": 5,
+      "errors_count": 55,
+      "warnings": [
+        {
+          "key": "css-variable",
+          "value": 100
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 15
+        },
+        {
+          "key": "vendor-extension",
+          "value": 235
+        },
+        {
+          "key": "at-rule",
+          "value": 2
+        }
+      ],
+      "warnings_count": 352,
+      "warning_types_count": 4,
+      "site": {
+        "title": "FC Bayern München",
+        "url": "https://fcbayern.com/de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "unrecognize",
+          "value": 1
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 3
+        },
+        {
+          "key": "zero",
+          "value": 1
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 5,
+      "warnings": [
+        {
+          "key": "unsupported-import",
+          "value": 1
+        },
+        {
+          "key": "vendor-extension",
+          "value": 572
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 18
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 4
+        },
+        {
+          "key": "shape-separator",
+          "value": 2
+        },
+        {
+          "key": "deprecated",
+          "value": 11
+        }
+      ],
+      "warnings_count": 608,
+      "warning_types_count": 6,
+      "site": {
+        "title": "FC Köln",
+        "url": "https://fc.de/fc-info/startseite/",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 4
+        },
+        {
+          "key": "rgb",
+          "value": 3
+        }
+      ],
+      "error_types_count": 2,
+      "errors_count": 7,
+      "warnings": [
+        {
+          "key": "unsupported-import",
+          "value": 1
+        },
+        {
+          "key": "vendor-extension",
+          "value": 7003
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 103
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 20
+        },
+        {
+          "key": "at-rule",
+          "value": 11
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 5
+        },
+        {
+          "key": "deprecated",
+          "value": 4
+        },
+        {
+          "key": "value-unofficial",
+          "value": 1
+        }
+      ],
+      "warnings_count": 7148,
+      "warning_types_count": 8,
+      "site": {
+        "title": "FC Schalke 04",
+        "url": "https://schalke04.de/",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 10
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 1
+        },
+        {
+          "key": "unrecognize",
+          "value": 1
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 12,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 1153
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 19
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 10
+        },
+        {
+          "key": "at-rule",
+          "value": 8
+        },
+        {
+          "key": "out-of-range",
+          "value": 1
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 6
+        },
+        {
+          "key": "shape-separator",
+          "value": 4
+        }
+      ],
+      "warnings_count": 1201,
+      "warning_types_count": 7,
+      "site": {
+        "title": "FC Union Berlin",
+        "url": "https://www.fc-union-berlin.de/en/",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 1
+        },
+        {
+          "key": "value",
+          "value": 4
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 1
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 1
+        }
+      ],
+      "error_types_count": 4,
+      "errors_count": 7,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 612
+        },
+        {
+          "key": "at-rule",
+          "value": 16
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 51
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 6
+        },
+        {
+          "key": "css-hack",
+          "value": 4
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 3
+        },
+        {
+          "key": "deprecated",
+          "value": 4
+        },
+        {
+          "key": "value-unofficial",
+          "value": 1
+        }
+      ],
+      "warnings_count": 698,
+      "warning_types_count": 9,
+      "site": {
+        "title": "FSV Mainz 05",
+        "url": "https://www.mainz05.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 14
+        },
+        {
+          "key": "unrecognize",
+          "value": 4
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 1
+        },
+        {
+          "key": "value",
+          "value": 1
+        }
+      ],
+      "error_types_count": 4,
+      "errors_count": 20,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 574
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 13
+        },
+        {
+          "key": "deprecated",
+          "value": 8
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 14
+        },
+        {
+          "key": "at-rule",
+          "value": 6
+        },
+        {
+          "key": "value-unofficial",
+          "value": 4
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 3
+        },
+        {
+          "key": "shape-separator",
+          "value": 2
+        }
+      ],
+      "warnings_count": 624,
+      "warning_types_count": 8,
+      "site": {
+        "title": "Hertha Berlin",
+        "url": "https://www.herthabsc.de/en/",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 7
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 1
+        },
+        {
+          "key": "rgb",
+          "value": 1
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 9,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 838
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 25
+        },
+        {
+          "key": "at-rule",
+          "value": 10
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 3
+        },
+        {
+          "key": "value-unofficial",
+          "value": 2
+        },
+        {
+          "key": "deprecated",
+          "value": 18
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 1
+        }
+      ],
+      "warnings_count": 899,
+      "warning_types_count": 9,
+      "site": {
+        "title": "RB Leipzig",
+        "url": "https://www.dierotenbullen.com",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 10
+        },
+        {
+          "key": "value",
+          "value": 8
+        },
+        {
+          "key": "zero",
+          "value": 4
+        },
+        {
+          "key": "url",
+          "value": 1
+        }
+      ],
+      "error_types_count": 4,
+      "errors_count": 23,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 602
+        },
+        {
+          "key": "at-rule",
+          "value": 16
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 17
+        },
+        {
+          "key": "deprecated",
+          "value": 55
+        },
+        {
+          "key": "noexistence-media",
+          "value": 1
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 103
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
+        },
+        {
+          "key": "value-unofficial",
+          "value": 3
+        }
+      ],
+      "warnings_count": 799,
+      "warning_types_count": 8,
+      "site": {
+        "title": "SV Werder Bremen",
+        "url": "https://www.werder.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 5
+        },
+        {
+          "key": "value",
+          "value": 15
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 4
+        },
+        {
+          "key": "linear-gradient-missing-to",
+          "value": 2
+        },
+        {
+          "key": "zero",
+          "value": 4
+        },
+        {
+          "key": "url",
+          "value": 1
+        }
+      ],
+      "error_types_count": 6,
+      "errors_count": 31,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 738
+        },
+        {
+          "key": "at-rule",
+          "value": 29
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 18
+        },
+        {
+          "key": "deprecated",
+          "value": 49
+        },
+        {
+          "key": "noexistence-media",
+          "value": 1
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 103
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
+        },
+        {
+          "key": "value-unofficial",
+          "value": 3
+        }
+      ],
+      "warnings_count": 943,
+      "warning_types_count": 8,
+      "site": {
+        "title": "Sport-Club Freiburg",
+        "url": "https://www.scfreiburg.com",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "unrecognize",
+          "value": 3
+        },
+        {
+          "key": "zero",
+          "value": 4
+        },
+        {
+          "key": "linear-gradient-missing-to",
+          "value": 8
+        },
+        {
+          "key": "value",
+          "value": 6
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 1
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 8
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 1
+        }
+      ],
+      "error_types_count": 7,
+      "errors_count": 31,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 1436
+        },
+        {
+          "key": "css-hack",
+          "value": 2
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 37
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 7
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 5
+        },
+        {
+          "key": "at-rule",
+          "value": 10
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
+        },
+        {
+          "key": "noexproperty",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 1
+        }
+      ],
+      "warnings_count": 1500,
+      "warning_types_count": 9,
+      "site": {
+        "title": "TSG Hoffenheim",
+        "url": "https://www.tsg-hoffenheim.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "generator.unrecognize",
+          "value": 399
+        },
+        {
+          "key": "value",
+          "value": 3
+        },
+        {
+          "key": "unrecognize",
+          "value": 1
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 403,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 801
+        },
+        {
+          "key": "at-rule",
+          "value": 18
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 1
+        },
+        {
+          "key": "value-unofficial",
+          "value": 4
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 12
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 6
+        }
+      ],
+      "warnings_count": 844,
+      "warning_types_count": 8,
+      "site": {
+        "title": "VfB Stuttgart",
+        "url": "https://www.vfb.de",
+        "category": "Bundesliga",
+        "year": "2021",
+        "month": "03"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 5
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 4
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 7
+        }
+      ],
+      "error_types_count": 3,
+      "errors_count": 16,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 2305
+        },
+        {
+          "key": "deprecated",
+          "value": 81
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 29
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 13
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 4
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "at-rule",
+          "value": 9
+        },
+        {
+          "key": "noexproperty",
+          "value": 1
+        },
+        {
+          "key": "css-hack",
+          "value": 10
+        }
+      ],
+      "warnings_count": 2453,
+      "warning_types_count": 9,
+      "site": {
+        "title": "VfL Wolfsburg",
+        "url": "https://www.vfl-wolfsburg.de",
         "category": "Bundesliga",
         "year": "2021",
         "month": "03"
@@ -1179,19 +1220,17 @@
     }
   ],
   "errorList": [
-    "noexistence-at-all",
-    "invalidparam",
-    "colorfunc",
+    "value",
     "generator.unrecognize",
     "strictly-positive",
     "zero",
-    "value",
     "noexistence-typo",
     "linear-gradient-missing-to",
-    "parse-error",
-    "java.lang.NullPointerException",
-    "unrecognize",
+    "noexistence-at-all",
+    "negative-value",
     "rgb",
+    "java.lang.NoSuchMethodException: org.w3c.css.properties.svg.CssBaselineShift.<init>()",
+    "unrecognize",
     "url"
   ],
   "warningList": [
@@ -1199,14 +1238,17 @@
     "vendor-extension",
     "vendor-ext-pseudo-element",
     "deprecatedproperty",
+    "css-hack",
     "vendor-ext-pseudo-class",
     "at-rule",
     "deprecated",
     "shape-separator",
-    "no-declaration",
+    "value-unofficial",
     "css-variable",
+    "noexproperty",
+    "no-declaration",
     "noexistence-media",
-    "noexproperty"
+    "out-of-range"
   ],
   "maxErrorTypes": {
     "site": {
@@ -1218,16 +1260,8 @@
     },
     "errors": [
       {
-        "key": "noexistence-at-all",
-        "value": 18
-      },
-      {
-        "key": "invalidparam",
-        "value": 5
-      },
-      {
-        "key": "value",
-        "value": 5
+        "key": "unrecognize",
+        "value": 3
       },
       {
         "key": "zero",
@@ -1238,32 +1272,65 @@
         "value": 8
       },
       {
-        "key": "unrecognize",
+        "key": "value",
+        "value": 6
+      },
+      {
+        "key": "noexistence-at-all",
         "value": 1
       },
       {
+        "key": "generator.unrecognize",
+        "value": 8
+      },
+      {
         "key": "noexistence-typo",
-        "value": 13
+        "value": 1
       }
     ]
   },
   "minErrorTypes": {
     "site": {
-      "title": "Borussia Mönchengladbach",
-      "url": "https://www.borussia.de/de",
+      "title": "FC Augsburg",
+      "url": "https://www.fcaugsburg.de",
       "category": "Bundesliga",
       "year": "2021",
       "month": "03"
     },
     "errors": [
       {
-        "key": "parse-error",
+        "key": "value",
         "value": 1
       }
     ]
   },
-  "avgErrorTypes": "4.842105263157895",
+  "minErrorTypesList": [],
+  "avgErrorTypes": "3.5789473684210527",
+  "avgErrorTypes2": "3.5294117647058822",
   "maxErrors": {
+    "site": {
+      "title": "VfB Stuttgart",
+      "url": "https://www.vfb.de",
+      "category": "Bundesliga",
+      "year": "2021",
+      "month": "03"
+    },
+    "errors_count": 403
+  },
+  "minErrors": {
+    "site": {
+      "title": "FC Augsburg",
+      "url": "https://www.fcaugsburg.de",
+      "category": "Bundesliga",
+      "year": "2021",
+      "month": "03"
+    },
+    "errors_count": 1
+  },
+  "minErrorsList": [],
+  "avgErrors": "64.21052631578948",
+  "avgErrors2": "48",
+  "maxWarningTypes": {
     "site": {
       "title": "Eintracht Frankfurt",
       "url": "https://www.eintracht.de",
@@ -1271,20 +1338,50 @@
       "year": "2021",
       "month": "03"
     },
-    "errors_count": 842
+    "warnings": [
+      {
+        "key": "vendor-extension",
+        "value": 3009
+      },
+      {
+        "key": "vendor-ext-pseudo-element",
+        "value": 43
+      },
+      {
+        "key": "deprecatedproperty",
+        "value": 4
+      },
+      {
+        "key": "shape-separator",
+        "value": 2
+      },
+      {
+        "key": "at-rule",
+        "value": 56
+      },
+      {
+        "key": "deprecated",
+        "value": 3
+      },
+      {
+        "key": "vendor-ext-pseudo-class",
+        "value": 7
+      },
+      {
+        "key": "value-unofficial",
+        "value": 6
+      },
+      {
+        "key": "css-hack",
+        "value": 1
+      },
+      {
+        "key": "css-variable",
+        "value": 1
+      }
+    ]
   },
-  "minErrors": {
-    "site": {
-      "title": "Borussia Mönchengladbach",
-      "url": "https://www.borussia.de/de",
-      "category": "Bundesliga",
-      "year": "2021",
-      "month": "03"
-    },
-    "errors_count": 1
-  },
-  "avgErrors": "141.47368421052633",
-  "maxWarningTypes": {
+  "minWarningTypes": {
     "site": {
       "title": "FC Bayern München",
       "url": "https://fcbayern.com/de",
@@ -1294,58 +1391,26 @@
     },
     "warnings": [
       {
-        "key": "vendor-extension",
-        "value": 3756
-      },
-      {
-        "key": "at-rule",
-        "value": 37
+        "key": "css-variable",
+        "value": 100
       },
       {
         "key": "vendor-ext-pseudo-element",
-        "value": 24
+        "value": 15
       },
       {
-        "key": "deprecated",
-        "value": 18
+        "key": "vendor-extension",
+        "value": 235
       },
       {
-        "key": "deprecatedproperty",
-        "value": 2
-      },
-      {
-        "key": "shape-separator",
-        "value": 1
-      },
-      {
-        "key": "noexproperty",
-        "value": 14
-      },
-      {
-        "key": "noexistence-media",
-        "value": 3
-      },
-      {
-        "key": "no-declaration",
-        "value": 2
-      },
-      {
-        "key": "vendor-ext-pseudo-class",
+        "key": "at-rule",
         "value": 2
       }
     ]
   },
-  "minWarningTypes": {
-    "site": {
-      "title": "Borussia Mönchengladbach",
-      "url": "https://www.borussia.de/de",
-      "category": "Bundesliga",
-      "year": "2021",
-      "month": "03"
-    },
-    "warnings": []
-  },
-  "avgWarningTypes": "6.421052631578948",
+  "minWarningTypesList": [],
+  "avgWarningTypes": "8.210526315789474",
+  "avgWarningTypes2": "8.352941176470589",
   "maxWarnings": {
     "site": {
       "title": "FC Schalke 04",
@@ -1354,17 +1419,18 @@
       "year": "2021",
       "month": "03"
     },
-    "warnings_count": 6846
+    "warnings_count": 7148
   },
   "minWarnings": {
     "site": {
-      "title": "Borussia Mönchengladbach",
-      "url": "https://www.borussia.de/de",
+      "title": "Bundesliga site",
       "category": "Bundesliga",
       "year": "2021",
       "month": "03"
     },
-    "warnings_count": 0
+    "warnings_count": 201
   },
-  "avgWarnings": "1537.9473684210527"
+  "minWarningsList": [],
+  "avgWarnings": "1501.157894736842",
+  "avgWarnings2": "1245.4705882352941"
 }

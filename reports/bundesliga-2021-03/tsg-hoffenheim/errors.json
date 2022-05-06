@@ -1,250 +1,36 @@
 {
-  "noexistence-at-all": [
+  "unrecognize": [
     {
-      "line": "2482",
+      "line": "88",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                1px \\9\n                            ",
+      "type": "unrecognize",
+      "message": "\n\n                                Value Error :  margin-top (nullbox.html#propdef-margin-top)\n\n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "88",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                4px \\9\n                            ",
+      "type": "unrecognize",
+      "message": "\n\n                                Value Error :  margin-top (nullbox.html#propdef-margin-top)\n\n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2730",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3414",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5603",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7611",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7631",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                all\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8104",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                optimizeLegibility\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “text-rendering” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13703",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "13711",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14693",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16211",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17931",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "27283",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "31341",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "34633",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "42569",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “fill-opacity” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "44323",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                inherit\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "44341",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "invalidparam": [
-    {
-      "line": "3820",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Deprecated media feature “max-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20132",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Deprecated media feature “min-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20132",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Deprecated media feature “max-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22307",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Deprecated media feature “min-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "22307",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Deprecated media feature “max-device-width”. For guidance, see the Deprecated Media Features section in the current Media Queries specification.\n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "value": [
-    {
-      "line": "4918",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                hand\n                            ",
-      "type": "value",
-      "message": "\n\n                                Value Error :  cursor (nullui.html#propdef-cursor)\n\n                                “hand” is not a “cursor” value : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5016",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                scale(1.3,1.3)\n                            ",
-      "type": "value",
-      "message": "\n\n                                “scale(1.3,1.3)” is not a “transition” value : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10362",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                box\n                            ",
-      "type": "value",
-      "message": "\n\n                                Value Error :  display (nullvisuren.html#propdef-display)\n\n                                “box” is not a “display” value : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "18744",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "value",
-      "message": "\n\n                                “0” is not a “animation-delay” value : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "20255",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                #808080\n                            ",
-      "type": "value",
-      "message": "\n\n                                “#808080” is not a “filter” value : \n                            ",
+      "type": "unrecognize",
+      "message": "\n\n                                Value Error :  min-width (nullvisudet.html#propdef-min-width)\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
     }
   ],
   "zero": [
     {
-      "line": "7480",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                #1f5da6 80\n                            ",
@@ -253,7 +39,7 @@
       "error": "\n                        "
     },
     {
-      "line": "11087",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                10 auto 20px\n                            ",
@@ -262,7 +48,7 @@
       "error": "\n                        "
     },
     {
-      "line": "23625",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                103\n                            ",
@@ -271,7 +57,7 @@
       "error": "\n                        "
     },
     {
-      "line": "23637",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                105\n                            ",
@@ -282,7 +68,7 @@
   ],
   "linear-gradient-missing-to": [
     {
-      "line": "7984",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -291,7 +77,7 @@
       "error": "\n                        "
     },
     {
-      "line": "7997",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -300,7 +86,7 @@
       "error": "\n                        "
     },
     {
-      "line": "9543",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -309,7 +95,7 @@
       "error": "\n                        "
     },
     {
-      "line": "9556",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -318,16 +104,16 @@
       "error": "\n                        "
     },
     {
-      "line": "11866",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                )\n  \n                            ",
+      "skippedstring": "\n                                )\n                            ",
       "type": "linear-gradient-missing-to",
       "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                The first argument to the “linear-gradient” function should be “to top”, not “top”\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "33722",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -336,7 +122,7 @@
       "error": "\n                        "
     },
     {
-      "line": "35061",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -345,7 +131,7 @@
       "error": "\n                        "
     },
     {
-      "line": "35074",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
       "skippedstring": "\n                                )\n                            ",
@@ -354,133 +140,155 @@
       "error": "\n                        "
     }
   ],
-  "unrecognize": [
+  "value": [
     {
-      "line": "8407",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  min-width (nullvisudet.html#propdef-min-width)\n\n                                Too many values or values are not recognized : \n                            ",
+      "skippedstring": "\n                                box\n                            ",
+      "type": "value",
+      "message": "\n\n                                Value Error :  display (nullvisuren.html#propdef-display)\n\n                                “box” is not a “display” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0\n                            ",
+      "type": "value",
+      "message": "\n\n                                “0” is not a “box-shadow” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0\n                            ",
+      "type": "value",
+      "message": "\n\n                                “0” is not a “animation-delay” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                #808080\n                            ",
+      "type": "value",
+      "message": "\n\n                                “#808080” is not a “filter” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "485",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                hand\n                            ",
+      "type": "value",
+      "message": "\n\n                                Value Error :  cursor (nullui.html#propdef-cursor)\n\n                                “hand” is not a “cursor” value : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "593",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                scale(1.3,1.3)\n                            ",
+      "type": "value",
+      "message": "\n\n                                “scale(1.3,1.3)” is not a “transition” value : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "noexistence-at-all": [
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                0.5px #fff\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n\n                                Property “text-stroke” doesn't exist : \n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "generator.unrecognize": [
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(0,0,0,0), endColorstr=rgba(0,0,0,0.25), GradientType=0);\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                absolute;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                none;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                right:5%;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                top:30px;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                width:25px;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                height:195px;\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "365",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                z-index:1}\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     }
   ],
   "noexistence-typo": [
     {
-      "line": "36825",
+      "line": "365",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                0\n                            ",
       "type": "noexistence-typo",
       "message": "\n\n                                Property “marign” doesn't exist. The closest matching property name is “margin” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39114",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39465",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39468",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39471",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "39474",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "40680",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(85, 85, 85)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "41822",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(53, 61, 98)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "41981",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "41984",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "42394",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "42568",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "42602",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
       "error": "\n                        "
     }
   ]

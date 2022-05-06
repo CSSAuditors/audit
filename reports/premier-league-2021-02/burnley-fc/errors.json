@@ -1,30 +1,140 @@
 {
-  "noexistence-at-all": [
+  "value": [
     {
-      "line": "1106",
+      "line": "568",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                )\n                            ",
+      "type": "value",
+      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “undefined” is not a “color” value\n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "generator.unrecognize": [
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-right-color (nullbox.html#propdef-border-right-color)\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "1109",
+      "line": "1697",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-right-style (nullbox.html#propdef-border-right-style)\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "2272",
+      "line": "1697",
       "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-right-width (nullbox.html#propdef-border-right-width)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-bottom-color (nullbox.html#propdef-border-bottom-color)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-bottom-style (nullbox.html#propdef-border-bottom-style)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-bottom-width (nullbox.html#propdef-border-bottom-width)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-left-color (nullbox.html#propdef-border-left-color)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-left-style (nullbox.html#propdef-border-left-style)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Value Error :  border-left-width (nullbox.html#propdef-border-left-width)\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1697",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                 \n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     }
   ]

@@ -51,7 +51,7 @@ Since we stumbled upon some errors while extracting the CSS code from these site
 
 To make the text more readable, the terms “site” and “homepage” refer to the same thing: the site’s homepage.
 
-<small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered as such.</small>
+<small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered involuntary.</small>
 
 ## The CSS File Sizes
 

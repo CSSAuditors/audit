@@ -1,0 +1,102 @@
+{
+  "zero": {
+    "short": "only “0” can be a “unit”",
+    "long": "when the provided value is missing a unit"
+  },
+  "value": {
+    "short": "is not a value",
+    "long": "when the provided value is not a proper value for this property"
+  },
+  "negative-value": {
+    "short": "negative value is not allowed",
+    "long": "when the provided value cannot be a negative number"
+  },
+  "invalidparam": {
+    "short": "missing value or unknown pseudo-element or pseudo-class",
+    "long": "when the value is either missing or there are too few of them or when the pseudo-element or pseudo-class is not recognized"
+  },
+  "invalidtype": {
+    "short": "error in value",
+    "long": "when there are too many values provided"
+  },
+  "noexistence-at-all": {
+    "short": "property doesn't exist",
+    "long": "when the provided property doesn’t exist in any validation profile"
+  },
+  "noexistence": {
+    "short": "property doesn't exist in “CSS Level 3 + SVG” profile",
+    "long": "when the provided property doesn’t exist in the current validation profile"
+  },
+  "unrecognize": {
+    "short": "too many values or values are not recognized",
+    "long": "when there are too many values provided or when provided values are not recognized for the given property"
+  },
+  "generator.unrecognize": {
+    "short": "parser error",
+    "long": "general error"
+  },
+  "rgb": {
+    "short": "is not a valid RGB color",
+    "long": "when the provided value is not 3 or 6 hexadecimal number"
+  },
+  "parse-error": {
+    "short": "other error",
+    "long": "when validator recognized any other kind of error"
+  },
+  "at-rule": {
+    "short": "not-needed at-rule",
+    "long": "when the provided at-rule is prefixed and might be obsolete or outdated"
+  },
+  "css-hack": {
+    "short": "CSS hack",
+    "long": "when the provided declaration is considered as a hack"
+  },
+  "css-variable": {
+    "short": "CSS variable",
+    "long": "when a CSS variable is used"
+  },
+  "deprecated": {
+    "short": "Deprecated value",
+    "long": "when the provided value is deprecated"
+  },
+  "deprecatedproperty": {
+    "short": "Deprecated property",
+    "long": "when the provided property is deprecated"
+  },
+  "noexistence-media": {
+    "short": "Property doesn't exist for media",
+    "long": "when the provided property for the given media cannot work"
+  },
+  "out-of-range": {
+    "short": "Out of range value",
+    "long": "when the provided value is out of range for the given property"
+  },
+  "shape-separator": {
+    "short": "Invalid separator",
+    "long": "when the provided separator between values is not valid"
+  },
+  "unsupported-import": {
+    "short": "Unsupported import",
+    "long": "when an import is used"
+  },
+  "value-unofficial": {
+    "short": "Unofficial value",
+    "long": "when the provided value is not officially specified but is supported in multiple browsers"
+  },
+  "vendor-ext-pseudo-class": {
+    "short": "not-needed pseudo-class",
+    "long": "when the provided pseudo-class is prefixed and might be obsolete or outdated"
+  },
+  "vendor-ext-pseudo-element": {
+    "short": "not-needed pseudo-element",
+    "long": "when the provided pseudo-element is prefixed and might be obsolete or outdated"
+  },
+  "vendor-extension": {
+    "short": "not-needed property",
+    "long": "when the provided property is prefixed and might be obsolete or outdated"
+  },
+  "no-declaration": {
+    "short": "no declaration",
+    "long": "when there is no declarations in the rule"
+  }
+}

@@ -682,29 +682,6 @@
       "warning": "\n                        "
     }
   ],
-  "no-declaration": [
-    {
-      "line": "1",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    }
-  ],
   "vendor-ext-pseudo-class": [
     {
       "line": "1",
@@ -804,6 +781,29 @@
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    }
+  ],
+  "no-declaration": [
+    {
+      "line": "1",
+      "level": "0",
+      "message": "No declarations in the rule",
+      "type": "no-declaration",
       "warning": "\n                        "
     }
   ],

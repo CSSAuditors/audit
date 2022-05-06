@@ -1,182 +1,18 @@
 {
   "unrecognize": [
     {
-      "line": "1763",
+      "line": "13",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                border-radius 0.12s linear 0s 0.35s linear 0s\n                            ",
       "type": "unrecognize",
       "message": "\n\n                                Too many values or values are not recognized : \n                            ",
       "error": "\n                        "
-    },
-    {
-      "line": "3106",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  text-shadow (nulltext.html#propdef-text-shadow)\n\n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3145",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                0\n                            ",
-      "type": "unrecognize",
-      "message": "\n\n                                Value Error :  text-shadow (nulltext.html#propdef-text-shadow)\n\n                                Too many values or values are not recognized : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "noexistence-at-all": [
-    {
-      "line": "1807",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2036",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2521",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "2528",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3053",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3094",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3102",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3134",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3141",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "3198",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4001",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255, 0)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “tap-highlight-color” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4640",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255, 0)\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “tap-highlight-color” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8902",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10567",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12116",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12133",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                auto\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
     }
   ],
   "value": [
     {
-      "line": "3008",
+      "line": "15",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                hand\n                            ",
@@ -185,7 +21,7 @@
       "error": "\n                        "
     },
     {
-      "line": "6718",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                none\n                            ",
@@ -194,7 +30,7 @@
       "error": "\n                        "
     },
     {
-      "line": "8700",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                20%\n                            ",
@@ -203,7 +39,7 @@
       "error": "\n                        "
     },
     {
-      "line": "8720",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                20%\n                            ",
@@ -212,7 +48,7 @@
       "error": "\n                        "
     },
     {
-      "line": "8816",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                20%\n                            ",
@@ -221,7 +57,7 @@
       "error": "\n                        "
     },
     {
-      "line": "9995",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                distribute\n                            ",
@@ -230,7 +66,7 @@
       "error": "\n                        "
     },
     {
-      "line": "11742",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                auto\n                            ",
@@ -239,18 +75,38 @@
       "error": "\n                        "
     }
   ],
+  "noexistence-at-all": [
+    {
+      "line": "18",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(255, 255, 255, 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n\n                                Property “tap-highlight-color” doesn't exist : \n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "18",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                rgb(255, 255, 255, 0)\n                            ",
+      "type": "noexistence-at-all",
+      "message": "\n\n                                Property “tap-highlight-color” doesn't exist : \n                            ",
+      "error": "\n                        "
+    }
+  ],
   "generator.unrecognize": [
     {
-      "line": "8168",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                $small-desktop-breakpoint {\n  .js-videoToggle.hero--video .paywall-container {\n    width: calc(50% - 160px);\n    right: 160px;\n    top: 130px;\n    bottom: 80px\n  }\n}\n                            ",
+      "skippedstring": "\n                                $small-desktop-breakpoint{.js-videoToggle.hero--video .paywall-container{width:calc(50% - 160px);right:160px;top:130px;bottom:80px}}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "8243",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
       "skippedstring": "\n                                $midLightGrey;\n                            ",
@@ -259,25 +115,25 @@
       "error": "\n                        "
     },
     {
-      "line": "8244",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                padding: 20px 0;\n                            ",
+      "skippedstring": "\n                                padding:20px 0;\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "8246",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                overflow: hidden\n}\n                            ",
+      "skippedstring": "\n                                hidden}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "8326",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
       "skippedstring": "\n                                $midLightGrey;\n                            ",
@@ -286,19 +142,19 @@
       "error": "\n                        "
     },
     {
-      "line": "8328",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                margin-top: .5em\n}\n                            ",
+      "skippedstring": "\n                                margin-top:.5em}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     },
     {
-      "line": "8473",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                unrecognized\n                            ",
-      "skippedstring": "\n                                $midLightGrey\n}\n                            ",
+      "skippedstring": "\n                                $midLightGrey}\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
@@ -306,7 +162,7 @@
   ],
   "noexistence-typo": [
     {
-      "line": "9939",
+      "line": "18",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                0\n                            ",

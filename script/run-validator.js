@@ -8,37 +8,39 @@ const validate = async (site, silent) => {
     const errorsFile = `${folder}/errors.json`
     const warningsFile = `${folder}/warnings.json`
 
-    if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
-      const cssFile = `${folder}/style-clean.css`
-      // const cssFile = `${folder}/style-dirty.css`
+    // if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
+      // const cssFile = `${folder}/style-clean.css`
+      const cssFile = `${folder}/style-dirty.css`
 
       if(helpers.fileExists(cssFile)) {
         const cssString = await helpers.getFile(cssFile)
 
-        validator(cssString, (err, data) => {
+        validator({
+          text: cssString,
+          profile: 'css3svg'
+        }, (err, data) => {
           let errorData = {}
 
           data.errors.forEach(error => {
-            const t = error.type || error.errortype
+            if(error.type) {
+              if(!(error.type in errorData)) {
+                errorData[error.type] = []
+              }
 
-            if(!(t in errorData)) {
-              errorData[t] = []
+              errorData[error.type].push(error)
             }
-
-
-            errorData[t].push(error)
           })
 
           let warningData = {}
 
           data.warnings.forEach(warning => {
-            const t = warning.type || warning.warningtype
+            if(warning.type) {
+              if(!(warning.type in warningData)) {
+                warningData[warning.type] = []
+              }
 
-            if(!(t in warningData)) {
-              warningData[t] = []
+              warningData[warning.type].push(warning)
             }
-
-            warningData[t].push(warning)
           })
 
           helpers.saveFile(errorsFile, errorData, true)
@@ -49,12 +51,12 @@ const validate = async (site, silent) => {
           }
         })
       }
-    } else {
+    // } else {
       if(!silent) {
         console.log(`❌ Errors file: ${errorsFile}`)
         console.log(`⚠️  Warnings file: ${warningsFile}`)
       }
-    }
+    // }
 
     resolve()
   })

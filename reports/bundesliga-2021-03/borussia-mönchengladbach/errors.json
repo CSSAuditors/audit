@@ -1,9 +1,1553 @@
 {
-  "parse-error": [
+  "generator.unrecognize": [
     {
-      "line": "0",
+      "line": "1",
       "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ *]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "1",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                @charset \"UTF-8\";\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it.\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ;@namespace url('http://www.w3.org/1999/xhtml');\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ;@namespace svg url('http://www.w3.org/2000/svg');\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg + span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg + span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path[fill]]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|*]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path[fill]]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [*]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [*]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [*]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "2",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg + span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "5",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|circle]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path:first-child]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg svg|path[fill=\"#FFF\"]]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [circle]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [path]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [circle]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [g]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg + span]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg ~ *]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "21",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "29",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "29",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                [svg]\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    }
+  ],
+  "negative-value": [
+    {
+      "line": "13",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                -60%\n                            ",
+      "type": "negative-value",
+      "message": "\n\n                                Value Error :  padding-bottom (nullbox.html#propdef-padding-bottom)\n\n                                “-60%” negative values are not allowed : \n                            ",
       "error": "\n                        "
     }
   ]

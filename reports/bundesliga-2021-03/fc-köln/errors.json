@@ -1,171 +1,52 @@
 {
+  "unrecognize": [
+    {
+      "line": "9470",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                exp\n                            ",
+      "skippedstring": "\n                                14,28571428571429%\n                            ",
+      "type": "unrecognize",
+      "message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Too many values or values are not recognized : \n                            ",
+      "error": "\n                        "
+    }
+  ],
   "generator.unrecognize": [
     {
-      "line": "300",
+      "line": "15055",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                unrecognized\n                            ",
+      "skippedstring": "\n                                div.{$borderClass}\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                Parse Error\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15383",
       "errortype": "parse-error",
       "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                $borderClass div.csc-textpic-imagewrap img {\n  border: 2px solid #000;\n  padding: 0 0\n}\n                            ",
+      "skippedstring": "\n                                @charset \"UTF-8\";\n                            ",
+      "type": "generator.unrecognize",
+      "message": "\n\n                                The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it.\n                            ",
+      "error": "\n                        "
+    },
+    {
+      "line": "15383",
+      "errortype": "parse-error",
+      "errorsubtype": "\n                                skippedString\n                            ",
+      "skippedstring": "\n                                ;@import url(//hello.myfonts.net/count/2bee7b);\n                            ",
       "type": "generator.unrecognize",
       "message": "\n\n                                Parse Error\n                            ",
       "error": "\n                        "
     }
   ],
-  "noexistence-at-all": [
-    {
-      "line": "1117",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8396",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                1\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “fill-opacity” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10150",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                inherit\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10168",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    }
-  ],
   "zero": [
     {
-      "line": "4812",
+      "line": "15383",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                970\n                            ",
+      "skippedstring": "\n                                1240\n                            ",
       "type": "zero",
       "message": "\n\n                                Value Error :  max-width (nullvisudet.html#propdef-max-width)\n\n                                only “0” can be a “unit”. You must put a unit after your number : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "noexistence-typo": [
-    {
-      "line": "4941",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5292",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5295",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5298",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5301",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "6507",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(85, 85, 85)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7649",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(53, 61, 98)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7808",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(64, 146, 206)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "7811",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8221",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8395",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(0, 0, 0)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "8429",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
       "error": "\n                        "
     }
   ]

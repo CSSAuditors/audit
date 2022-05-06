@@ -1,217 +1,7 @@
 {
-  "noexistence-at-all": [
-    {
-      "line": "268",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                optimizeLegibility\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “text-rendering” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "4983",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14878",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                initial\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "14883",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17559",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                initial\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "17825",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                none\n                            ",
-      "type": "noexistence-at-all",
-      "message": "\n\n                                Property “pointer-events” doesn't exist : \n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "invalidparam": [
-    {
-      "line": "521",
-      "errortype": "invalidparam",
-      "message": "\n\n                                Unknown pseudo-element or pseudo-class “:window-inactive”\n                            ",
-      "error": "\n                        "
-    }
-  ],
-  "colorfunc": [
-    {
-      "line": "1560",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                )))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "1561",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "1562",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 100%)\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "1563",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5388",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                )),to(hsla(0,0,100%,.8)))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5389",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5390",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8) 100%)\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5391",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n  \n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5421",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                )),to(hsla(0,0,100%,.8)))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5422",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5423",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8) 100%)\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "5424",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ) 20%,hsla(0,0,100%,.8))\n  \n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background-image (nullcolors.html#propdef-background-image)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12817",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                )))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12818",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12819",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ))\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "12820",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                skippedString\n                            ",
-      "skippedstring": "\n                                ))\n\n                            ",
-      "type": "colorfunc",
-      "message": "\n\n                                Value Error :  background (nullcolors.html#propdef-background)\n\n                                “0” is not a valid HSL color\n                            ",
-      "error": "\n                        "
-    }
-  ],
   "value": [
     {
-      "line": "4881",
+      "line": "5",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                \"FlipH\"\n                            ",
@@ -220,7 +10,7 @@
       "error": "\n                        "
     },
     {
-      "line": "4940",
+      "line": "5",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                hand\n                            ",
@@ -229,38 +19,9 @@
       "error": "\n                        "
     }
   ],
-  "noexistence-typo": [
-    {
-      "line": "10324",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                #111836\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "10689",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                #111836\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    },
-    {
-      "line": "16865",
-      "errortype": "parse-error",
-      "errorsubtype": "\n                                exp\n                            ",
-      "skippedstring": "\n                                rgb(255, 255, 255)\n                            ",
-      "type": "noexistence-typo",
-      "message": "\n\n                                Property “fill” doesn't exist. The closest matching property name is “all” : \n                            ",
-      "error": "\n                        "
-    }
-  ],
   "zero": [
     {
-      "line": "10685",
+      "line": "5",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                -3\n                            ",
@@ -269,7 +30,7 @@
       "error": "\n                        "
     },
     {
-      "line": "10691",
+      "line": "5",
       "errortype": "parse-error",
       "errorsubtype": "\n                                exp\n                            ",
       "skippedstring": "\n                                5\n                            ",

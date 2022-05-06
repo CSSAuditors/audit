@@ -4,47 +4,35 @@
       "errors": [
         {
           "key": "value",
-          "value": 8
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 92
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 11
+          "value": 7
         }
       ],
-      "error_types_count": 3,
-      "errors_count": 111,
+      "error_types_count": 1,
+      "errors_count": 7,
       "warnings": [
         {
-          "key": "deprecatedproperty",
-          "value": 12
+          "key": "vendor-extension",
+          "value": 490
         },
         {
-          "key": "vendor-extension",
-          "value": 501
+          "key": "deprecatedproperty",
+          "value": 10
         },
         {
           "key": "deprecated",
-          "value": 55
-        },
-        {
-          "key": "noexproperty",
-          "value": 3
+          "value": 42
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 6
+          "value": 1
         },
         {
-          "key": "at-rule",
+          "key": "value-unofficial",
           "value": 1
         }
       ],
-      "warnings_count": 578,
-      "warning_types_count": 6,
+      "warnings_count": 544,
+      "warning_types_count": 5,
       "site": {
         "title": "Arsenal",
         "url": "https://www.arsenal.com",
@@ -56,28 +44,16 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 13
-        },
-        {
           "key": "generator.unrecognize",
           "value": 6
         },
         {
-          "key": "invalidparam",
-          "value": 2
-        },
-        {
-          "key": "noexistence-typo",
+          "key": "value",
           "value": 1
-        },
-        {
-          "key": "unrecognize",
-          "value": 4
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 26,
+      "error_types_count": 2,
+      "errors_count": 7,
       "warnings": [
         {
           "key": "unsupported-import",
@@ -85,26 +61,26 @@
         },
         {
           "key": "vendor-extension",
-          "value": 415
+          "value": 109
         },
         {
           "key": "at-rule",
-          "value": 40
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 52
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 27
+          "value": 25
         },
         {
           "key": "css-variable",
-          "value": 134
+          "value": 177
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 1
         }
       ],
-      "warnings_count": 669,
+      "warnings_count": 315,
       "warning_types_count": 6,
       "site": {
         "title": "Aston Villa FC",
@@ -117,48 +93,40 @@
     {
       "errors": [
         {
-          "key": "noexistence-typo",
-          "value": 71
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 43
-        },
-        {
           "key": "zero",
           "value": 2
         },
         {
-          "key": "colorfunc",
-          "value": 5
-        },
-        {
           "key": "value",
-          "value": 3
+          "value": 2
         },
         {
           "key": "generator.unrecognize",
           "value": 1
         }
       ],
-      "error_types_count": 6,
-      "errors_count": 125,
+      "error_types_count": 3,
+      "errors_count": 5,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 765
+          "value": 810
         },
         {
           "key": "vendor-ext-pseudo-element",
           "value": 15
         },
         {
-          "key": "noexproperty",
-          "value": 2
+          "key": "css-hack",
+          "value": 1
         },
         {
           "key": "vendor-ext-pseudo-class",
           "value": 1
+        },
+        {
+          "key": "value-unofficial",
+          "value": 8
         },
         {
           "key": "deprecatedproperty",
@@ -167,13 +135,9 @@
         {
           "key": "shape-separator",
           "value": 2
-        },
-        {
-          "key": "css-variable",
-          "value": 3
         }
       ],
-      "warnings_count": 791,
+      "warnings_count": 840,
       "warning_types_count": 7,
       "site": {
         "title": "Brighton & Hove Albion",
@@ -186,36 +150,48 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 3
+          "key": "value",
+          "value": 1
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 14
         }
       ],
-      "error_types_count": 1,
-      "errors_count": 3,
+      "error_types_count": 2,
+      "errors_count": 15,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 9
+          "value": 40
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 3
+          "value": 20
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 6
         },
         {
           "key": "css-variable",
-          "value": 102
+          "value": 252
         },
         {
-          "key": "noexproperty",
-          "value": 4
+          "key": "value-unofficial",
+          "value": 8
         },
         {
           "key": "at-rule",
-          "value": 6
+          "value": 7
+        },
+        {
+          "key": "deprecated",
+          "value": 1
         }
       ],
-      "warnings_count": 124,
-      "warning_types_count": 5,
+      "warnings_count": 334,
+      "warning_types_count": 7,
       "site": {
         "title": "Burnley FC",
         "url": "https://www.burnleyfootballclub.com",
@@ -227,44 +203,52 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 151
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 44
+          "key": "generator.unrecognize",
+          "value": 42
         }
       ],
-      "error_types_count": 2,
-      "errors_count": 195,
+      "error_types_count": 1,
+      "errors_count": 42,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 521
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 10
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 5
-        },
-        {
-          "key": "deprecated",
-          "value": 18
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 1
+          "value": 2101
         },
         {
           "key": "at-rule",
-          "value": 5
+          "value": 9
+        },
+        {
+          "key": "value-unofficial",
+          "value": 12
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 24
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 9
+        },
+        {
+          "key": "deprecated",
+          "value": 22
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 4
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
         }
       ],
-      "warnings_count": 560,
-      "warning_types_count": 6,
+      "warnings_count": 2183,
+      "warning_types_count": 9,
       "site": {
         "title": "Chelsea FC",
         "url": "https://www.chelseafc.com/en",
@@ -276,60 +260,40 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 219
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 178
-        },
-        {
-          "key": "value",
-          "value": 14
-        },
-        {
-          "key": "unrecognize",
-          "value": 5
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 5
+          "key": "zero",
+          "value": 1
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 421,
+      "error_types_count": 1,
+      "errors_count": 1,
       "warnings": [
         {
-          "key": "vendor-extension",
-          "value": 1079
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 54
+          "key": "css-variable",
+          "value": 12
         },
         {
           "key": "deprecated",
-          "value": 38
+          "value": 3
         },
         {
-          "key": "at-rule",
-          "value": 4
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 81
+          "key": "vendor-extension",
+          "value": 55
         },
         {
           "key": "deprecatedproperty",
-          "value": 8
+          "value": 2
         },
         {
           "key": "shape-separator",
           "value": 2
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 8
         }
       ],
-      "warnings_count": 1266,
-      "warning_types_count": 7,
+      "warnings_count": 82,
+      "warning_types_count": 6,
       "site": {
         "title": "Crystal Palace FC",
         "url": "https://www.cpfc.co.uk",
@@ -341,51 +305,35 @@
     {
       "errors": [
         {
-          "key": "noexistence-typo",
-          "value": 110
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 44
-        },
-        {
-          "key": "colorfunc",
-          "value": 9
-        },
-        {
           "key": "zero",
-          "value": 3
+          "value": 5
         },
         {
           "key": "value",
           "value": 3
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 169,
+      "error_types_count": 2,
+      "errors_count": 8,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 856
+          "value": 932
         },
         {
           "key": "vendor-ext-pseudo-element",
           "value": 6
         },
         {
-          "key": "noexproperty",
-          "value": 3
-        },
-        {
           "key": "vendor-ext-pseudo-class",
           "value": 2
         },
         {
-          "key": "deprecated",
-          "value": 7
+          "key": "value-unofficial",
+          "value": 9
         },
         {
-          "key": "no-declaration",
+          "key": "deprecated",
           "value": 1
         },
         {
@@ -401,8 +349,8 @@
           "value": 1
         }
       ],
-      "warnings_count": 878,
-      "warning_types_count": 9,
+      "warnings_count": 953,
+      "warning_types_count": 8,
       "site": {
         "title": "Everton FC",
         "url": "https://www.evertonfc.com/home",
@@ -414,44 +362,40 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 1
+          "key": "value",
+          "value": 6
         },
         {
           "key": "generator.unrecognize",
-          "value": 2
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 3
-        },
-        {
-          "key": "colorfunc",
-          "value": 1
+          "value": 4
         },
         {
           "key": "unrecognize",
           "value": 4
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 11,
+      "error_types_count": 3,
+      "errors_count": 14,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 52
+          "value": 107
         },
         {
           "key": "at-rule",
-          "value": 11
+          "value": 17
         },
         {
           "key": "css-variable",
-          "value": 98
+          "value": 145
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 2
         }
       ],
-      "warnings_count": 161,
-      "warning_types_count": 3,
+      "warnings_count": 271,
+      "warning_types_count": 4,
       "site": {
         "title": "Fulham FC",
         "url": "https://www.fulhamfc.com",
@@ -463,105 +407,20 @@
     {
       "errors": [
         {
-          "key": "noexistence-typo",
-          "value": 30
-        },
-        {
-          "key": "value",
-          "value": 3
-        },
-        {
-          "key": "zero",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 6
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 55
-        }
-      ],
-      "error_types_count": 5,
-      "errors_count": 95,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 1864
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 12
-        },
-        {
-          "key": "at-rule",
-          "value": 4
-        },
-        {
-          "key": "noexproperty",
-          "value": 1
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 4
-        },
-        {
-          "key": "no-declaration",
-          "value": 3
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 1
-        },
-        {
-          "key": "shape-separator",
-          "value": 1
-        }
-      ],
-      "warnings_count": 1890,
-      "warning_types_count": 8,
-      "site": {
-        "title": "Leicester City",
-        "url": "https://www.lcfc.com",
-        "category": "Premier League",
-        "year": "2021",
-        "month": "02"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 56
-        },
-        {
-          "key": "invalidparam",
-          "value": 1
-        },
-        {
           "key": "value",
           "value": 4
         },
         {
-          "key": "noexistence-typo",
-          "value": 18
-        },
-        {
-          "key": "colorfunc",
+          "key": "generator.unrecognize",
           "value": 1
-        },
-        {
-          "key": "linear-gradient-missing-to",
-          "value": 5
         }
       ],
-      "error_types_count": 6,
-      "errors_count": 85,
+      "error_types_count": 2,
+      "errors_count": 5,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 207
+          "value": 167
         },
         {
           "key": "vendor-ext-pseudo-element",
@@ -569,26 +428,26 @@
         },
         {
           "key": "deprecatedproperty",
-          "value": 5
+          "value": 4
+        },
+        {
+          "key": "css-hack",
+          "value": 3
         },
         {
           "key": "vendor-ext-pseudo-class",
-          "value": 4
+          "value": 3
         },
         {
           "key": "at-rule",
           "value": 2
         },
         {
-          "key": "css-variable",
-          "value": 1
-        },
-        {
-          "key": "shape-separator",
+          "key": "value-unofficial",
           "value": 1
         }
       ],
-      "warnings_count": 234,
+      "warnings_count": 194,
       "warning_types_count": 7,
       "site": {
         "title": "Leeds United",
@@ -601,68 +460,121 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 227
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 174
-        },
-        {
           "key": "value",
-          "value": 11
-        },
-        {
-          "key": "unrecognize",
-          "value": 4
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 5
+          "value": 10
         },
         {
           "key": "zero",
           "value": 1
         },
         {
-          "key": "media",
-          "value": 2
+          "key": "generator.unrecognize",
+          "value": 1
         }
       ],
-      "error_types_count": 7,
-      "errors_count": 424,
+      "error_types_count": 3,
+      "errors_count": 12,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 1062
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 17
-        },
-        {
-          "key": "deprecated",
-          "value": 4
+          "value": 1115
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 13
+          "value": 12
         },
         {
-          "key": "at-rule",
-          "value": 27
+          "key": "noexproperty",
+          "value": 1
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 4
+        },
+        {
+          "key": "value-unofficial",
+          "value": 1
         },
         {
           "key": "deprecatedproperty",
-          "value": 2
+          "value": 1
         },
         {
           "key": "shape-separator",
-          "value": 2
+          "value": 1
         }
       ],
-      "warnings_count": 1127,
+      "warnings_count": 1135,
       "warning_types_count": 7,
+      "site": {
+        "title": "Leicester City",
+        "url": "https://www.lcfc.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
+          "value": 3
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 1
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 11
+        },
+        {
+          "key": "java.lang.NoSuchMethodException: org.w3c.css.properties.svg.CssBaselineShift.<init>()",
+          "value": 1
+        },
+        {
+          "key": "noexistence-typo",
+          "value": 10
+        }
+      ],
+      "error_types_count": 5,
+      "errors_count": 26,
+      "warnings": [
+        {
+          "key": "vendor-extension",
+          "value": 742
+        },
+        {
+          "key": "css-variable",
+          "value": 91
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 3
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 15
+        },
+        {
+          "key": "vendor-ext-pseudo-element",
+          "value": 7
+        },
+        {
+          "key": "at-rule",
+          "value": 21
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
+        }
+      ],
+      "warnings_count": 881,
+      "warning_types_count": 8,
       "site": {
         "title": "Liverpool FC",
         "url": "https://www.liverpoolfc.com",
@@ -674,52 +586,44 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 32
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 3
-        },
-        {
           "key": "value",
           "value": 4
         },
         {
           "key": "generator.unrecognize",
-          "value": 22
-        },
-        {
-          "key": "colorfunc",
-          "value": 14
+          "value": 27
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 75,
+      "error_types_count": 2,
+      "errors_count": 31,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 3826
+          "value": 4643
+        },
+        {
+          "key": "css-hack",
+          "value": 145
         },
         {
           "key": "at-rule",
-          "value": 2
+          "value": 6
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 38
+          "value": 40
         },
         {
           "key": "vendor-ext-pseudo-class",
-          "value": 4
+          "value": 6
         },
         {
           "key": "deprecated",
-          "value": 13
+          "value": 16
         }
       ],
-      "warnings_count": 3883,
-      "warning_types_count": 5,
+      "warnings_count": 4856,
+      "warning_types_count": 6,
       "site": {
         "title": "Manchester City FC",
         "url": "https://www.mancity.com",
@@ -729,78 +633,12 @@
       }
     },
     {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 22
-        },
-        {
-          "key": "zero",
-          "value": 6
-        },
-        {
-          "key": "value",
-          "value": 8
-        },
-        {
-          "key": "unrecognize",
-          "value": 2
-        },
-        {
-          "key": "invalidparam",
-          "value": 13
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 3
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        }
-      ],
-      "error_types_count": 7,
-      "errors_count": 55,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 3167
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 8
-        },
-        {
-          "key": "shape-separator",
-          "value": 2
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 19
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 48
-        },
-        {
-          "key": "at-rule",
-          "value": 21
-        },
-        {
-          "key": "deprecated",
-          "value": 5
-        },
-        {
-          "key": "css-hack",
-          "value": 2
-        },
-        {
-          "key": "noexproperty",
-          "value": 1
-        }
-      ],
-      "warnings_count": 3273,
-      "warning_types_count": 9,
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
       "site": {
         "title": "Manchester United FC",
         "url": "https://www.manutd.com",
@@ -810,14 +648,9 @@
       }
     },
     {
-      "errors": [
-        {
-          "key": "parse-error",
-          "value": 1
-        }
-      ],
-      "error_types_count": 1,
-      "errors_count": 1,
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
       "warnings": [],
       "warnings_count": 0,
       "warning_types_count": 0,
@@ -833,51 +666,120 @@
       "errors": [
         {
           "key": "noexistence-at-all",
-          "value": 1
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 1
+          "value": 11
         },
         {
           "key": "unrecognize",
           "value": 4
-        }
-      ],
-      "error_types_count": 4,
-      "errors_count": 7,
-      "warnings": [
+        },
         {
-          "key": "unsupported-import",
+          "key": "value",
+          "value": 11
+        },
+        {
+          "key": "zero",
+          "value": 5
+        },
+        {
+          "key": "incompatible",
           "value": 1
         },
         {
+          "key": "operator",
+          "value": 1
+        },
+        {
+          "key": "generator.unrecognize",
+          "value": 5
+        }
+      ],
+      "error_types_count": 7,
+      "errors_count": 38,
+      "warnings": [
+        {
           "key": "vendor-extension",
-          "value": 46
-        },
-        {
-          "key": "at-rule",
-          "value": 14
-        },
-        {
-          "key": "css-variable",
-          "value": 120
+          "value": 3981
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 1
+          "value": 58
         },
         {
           "key": "deprecatedproperty",
+          "value": 8
+        },
+        {
+          "key": "shape-separator",
+          "value": 1
+        },
+        {
+          "key": "deprecated",
+          "value": 2
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 18
+        },
+        {
+          "key": "value-unofficial",
+          "value": 6
+        },
+        {
+          "key": "css-hack",
+          "value": 1
+        },
+        {
+          "key": "at-rule",
+          "value": 3
+        },
+        {
+          "key": "css-variable",
+          "value": 4
+        }
+      ],
+      "warnings_count": 4082,
+      "warning_types_count": 10,
+      "site": {
+        "title": "Premier League site",
+        "url": "https://www.premierleague.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
+    {
+      "errors": [
+        {
+          "key": "value",
           "value": 1
         }
       ],
-      "warnings_count": 183,
-      "warning_types_count": 6,
+      "error_types_count": 1,
+      "errors_count": 1,
+      "warnings": [
+        {
+          "key": "unsupported-import",
+          "value": 2
+        },
+        {
+          "key": "vendor-extension",
+          "value": 56
+        },
+        {
+          "key": "at-rule",
+          "value": 6
+        },
+        {
+          "key": "css-variable",
+          "value": 33
+        },
+        {
+          "key": "vendor-ext-pseudo-class",
+          "value": 1
+        }
+      ],
+      "warnings_count": 98,
+      "warning_types_count": 5,
       "site": {
         "title": "Sheffield United FC",
         "url": "https://www.sufc.co.uk",
@@ -886,124 +788,24 @@
         "month": "02"
       }
     },
+    {},
     {
       "errors": [
         {
-          "key": "noexistence-typo",
-          "value": 235
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 61
-        },
-        {
-          "key": "strictly-positive",
-          "value": 1
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 12
-        },
-        {
-          "key": "zero",
-          "value": 3
-        },
-        {
-          "key": "value",
-          "value": 16
-        },
-        {
-          "key": "invalidparam",
-          "value": 2
-        },
-        {
-          "key": "colorfunc",
-          "value": 1
-        },
-        {
-          "key": "negative-value",
-          "value": 1
-        }
-      ],
-      "error_types_count": 9,
-      "errors_count": 332,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 2510
-        },
-        {
-          "key": "deprecated",
-          "value": 14
-        },
-        {
-          "key": "noexproperty",
-          "value": 6
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 57
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 11
-        },
-        {
-          "key": "shape-separator",
-          "value": 9
-        },
-        {
-          "key": "vendor-ext-pseudo-class",
-          "value": 9
-        },
-        {
-          "key": "at-rule",
-          "value": 6
-        }
-      ],
-      "warnings_count": 2622,
-      "warning_types_count": 8,
-      "site": {
-        "title": "Southampton FC",
-        "url": "https://www.southamptonfc.com",
-        "category": "Premier League",
-        "year": "2021",
-        "month": "02"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 6
-        },
-        {
-          "key": "invalidparam",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 16
-        },
-        {
           "key": "value",
           "value": 2
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 3
         },
         {
           "key": "zero",
           "value": 2
         }
       ],
-      "error_types_count": 6,
-      "errors_count": 30,
+      "error_types_count": 2,
+      "errors_count": 4,
       "warnings": [
         {
           "key": "vendor-extension",
-          "value": 576
+          "value": 621
         },
         {
           "key": "vendor-ext-pseudo-element",
@@ -1015,7 +817,7 @@
         },
         {
           "key": "at-rule",
-          "value": 14
+          "value": 16
         },
         {
           "key": "value-unofficial",
@@ -1023,19 +825,23 @@
         },
         {
           "key": "deprecatedproperty",
-          "value": 2
+          "value": 3
         },
         {
           "key": "shape-separator",
-          "value": 1
+          "value": 2
         },
         {
           "key": "deprecated",
           "value": 14
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
         }
       ],
-      "warnings_count": 655,
-      "warning_types_count": 8,
+      "warnings_count": 705,
+      "warning_types_count": 9,
       "site": {
         "title": "Tottenham Hotspurs",
         "url": "https://www.tottenhamhotspur.com",
@@ -1047,44 +853,32 @@
     {
       "errors": [
         {
-          "key": "noexistence-at-all",
-          "value": 8
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 16
+          "key": "generator.unrecognize",
+          "value": 4
         },
         {
           "key": "value",
           "value": 4
         },
         {
-          "key": "generator.unrecognize",
-          "value": 3
-        },
-        {
-          "key": "invalidparam",
-          "value": 1
-        },
-        {
-          "key": "colorfunc",
-          "value": 1
+          "key": "unrecognize",
+          "value": 2
         }
       ],
-      "error_types_count": 6,
-      "errors_count": 33,
+      "error_types_count": 3,
+      "errors_count": 10,
       "warnings": [
         {
-          "key": "deprecatedproperty",
-          "value": 8
-        },
-        {
           "key": "vendor-extension",
-          "value": 150
+          "value": 164
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 18
+          "value": 24
+        },
+        {
+          "key": "deprecatedproperty",
+          "value": 8
         },
         {
           "key": "vendor-ext-pseudo-class",
@@ -1107,7 +901,7 @@
           "value": 2
         }
       ],
-      "warnings_count": 214,
+      "warnings_count": 234,
       "warning_types_count": 8,
       "site": {
         "title": "West Bromwich Albion",
@@ -1120,40 +914,36 @@
     {
       "errors": [
         {
+          "key": "generator.unrecognize",
+          "value": 1
+        },
+        {
           "key": "value",
           "value": 3
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 16
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 3
-        },
-        {
-          "key": "invalidparam",
-          "value": 4
         },
         {
           "key": "unrecognize",
           "value": 2
         }
       ],
-      "error_types_count": 5,
-      "errors_count": 28,
+      "error_types_count": 3,
+      "errors_count": 6,
       "warnings": [
+        {
+          "key": "css-hack",
+          "value": 2
+        },
+        {
+          "key": "vendor-extension",
+          "value": 1414
+        },
         {
           "key": "deprecatedproperty",
           "value": 7
         },
         {
-          "key": "vendor-extension",
-          "value": 1413
-        },
-        {
-          "key": "at-rule",
-          "value": 8
+          "key": "shape-separator",
+          "value": 1
         },
         {
           "key": "vendor-ext-pseudo-element",
@@ -1164,12 +954,16 @@
           "value": 5
         },
         {
-          "key": "shape-separator",
-          "value": 1
+          "key": "at-rule",
+          "value": 8
+        },
+        {
+          "key": "value-unofficial",
+          "value": 2
         }
       ],
-      "warnings_count": 1451,
-      "warning_types_count": 6,
+      "warnings_count": 1456,
+      "warning_types_count": 8,
       "site": {
         "title": "West Ham United FC",
         "url": "https://www.whufc.com",
@@ -1182,15 +976,15 @@
       "errors": [
         {
           "key": "unrecognize",
-          "value": 3
-        },
-        {
-          "key": "noexistence-at-all",
-          "value": 16
+          "value": 1
         },
         {
           "key": "value",
           "value": 7
+        },
+        {
+          "key": "noexistence-at-all",
+          "value": 2
         },
         {
           "key": "generator.unrecognize",
@@ -1202,127 +996,50 @@
         }
       ],
       "error_types_count": 5,
-      "errors_count": 34,
+      "errors_count": 18,
       "warnings": [
         {
-          "key": "deprecatedproperty",
-          "value": 4
-        },
-        {
-          "key": "shape-separator",
-          "value": 2
-        },
-        {
           "key": "vendor-extension",
-          "value": 270
+          "value": 273
         },
         {
           "key": "vendor-ext-pseudo-element",
-          "value": 19
+          "value": 24
         },
         {
           "key": "vendor-ext-pseudo-class",
           "value": 6
         },
         {
-          "key": "at-rule",
-          "value": 11
-        },
-        {
-          "key": "deprecated",
-          "value": 1
-        }
-      ],
-      "warnings_count": 313,
-      "warning_types_count": 7,
-      "site": {
-        "title": "Wolverhampton Wanderers FC",
-        "url": "https://www.wolves.co.uk",
-        "category": "Premier League",
-        "year": "2021",
-        "month": "02"
-      }
-    },
-    {
-      "errors": [
-        {
-          "key": "noexistence-at-all",
-          "value": 60
-        },
-        {
-          "key": "noexistence-typo",
-          "value": 388
-        },
-        {
-          "key": "colorfunc",
-          "value": 8
-        },
-        {
-          "key": "unrecognize",
-          "value": 4
-        },
-        {
-          "key": "value",
-          "value": 7
-        },
-        {
-          "key": "zero",
+          "key": "deprecatedproperty",
           "value": 5
         },
         {
-          "key": "incompatible",
-          "value": 1
-        },
-        {
-          "key": "operator",
-          "value": 1
-        },
-        {
-          "key": "generator.unrecognize",
-          "value": 4
-        }
-      ],
-      "error_types_count": 9,
-      "errors_count": 478,
-      "warnings": [
-        {
-          "key": "vendor-extension",
-          "value": 3801
-        },
-        {
-          "key": "vendor-ext-pseudo-element",
-          "value": 56
-        },
-        {
-          "key": "deprecatedproperty",
-          "value": 8
-        },
-        {
           "key": "shape-separator",
-          "value": 1
-        },
-        {
-          "key": "deprecated",
           "value": 2
         },
         {
-          "key": "vendor-ext-pseudo-class",
-          "value": 18
-        },
-        {
-          "key": "noexproperty",
-          "value": 53
-        },
-        {
           "key": "at-rule",
-          "value": 3
+          "value": 15
+        },
+        {
+          "key": "deprecated",
+          "value": 14
+        },
+        {
+          "key": "value-unofficial",
+          "value": 2
+        },
+        {
+          "key": "no-declaration",
+          "value": 1
         }
       ],
-      "warnings_count": 3942,
-      "warning_types_count": 8,
+      "warnings_count": 342,
+      "warning_types_count": 9,
       "site": {
-        "title": "Premier League site",
-        "url": "https://www.premierleague.com",
+        "title": "Wolverhampton Wanderers FC",
+        "url": "https://www.wolves.co.uk",
         "category": "Premier League",
         "year": "2021",
         "month": "02"
@@ -1331,125 +1048,136 @@
   ],
   "errorList": [
     "value",
-    "noexistence-at-all",
-    "noexistence-typo",
     "generator.unrecognize",
-    "invalidparam",
-    "unrecognize",
     "zero",
-    "colorfunc",
-    "linear-gradient-missing-to",
-    "media",
-    "parse-error",
-    "strictly-positive",
-    "negative-value",
+    "unrecognize",
+    "noexistence-at-all",
+    "java.lang.NoSuchMethodException: org.w3c.css.properties.svg.CssBaselineShift.<init>()",
+    "noexistence-typo",
     "incompatible",
     "operator"
   ],
   "warningList": [
-    "deprecatedproperty",
     "vendor-extension",
+    "deprecatedproperty",
     "deprecated",
-    "noexproperty",
     "vendor-ext-pseudo-element",
-    "at-rule",
+    "value-unofficial",
     "unsupported-import",
-    "vendor-ext-pseudo-class",
+    "at-rule",
     "css-variable",
+    "vendor-ext-pseudo-class",
+    "css-hack",
     "shape-separator",
     "no-declaration",
-    "css-hack",
-    "value-unofficial",
+    "noexproperty",
     "noexistence-media"
   ],
   "maxErrorTypes": {
     "site": {
-      "title": "Premier League site",
-      "url": "https://www.premierleague.com",
+      "title": "Wolverhampton Wanderers FC",
+      "url": "https://www.wolves.co.uk",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
     "errors": [
       {
-        "key": "noexistence-at-all",
-        "value": 60
-      },
-      {
-        "key": "noexistence-typo",
-        "value": 388
-      },
-      {
-        "key": "colorfunc",
-        "value": 8
-      },
-      {
         "key": "unrecognize",
-        "value": 4
+        "value": 1
       },
       {
         "key": "value",
         "value": 7
       },
       {
-        "key": "zero",
-        "value": 5
-      },
-      {
-        "key": "incompatible",
-        "value": 1
-      },
-      {
-        "key": "operator",
-        "value": 1
+        "key": "noexistence-at-all",
+        "value": 2
       },
       {
         "key": "generator.unrecognize",
-        "value": 4
+        "value": 7
+      },
+      {
+        "key": "noexistence-typo",
+        "value": 1
       }
     ]
   },
   "minErrorTypes": {
     "site": {
-      "title": "Newcastle United",
-      "url": "https://www.nufc.co.uk",
+      "title": "Tottenham Hotspurs",
+      "url": "https://www.tottenhamhotspur.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
     "errors": [
       {
-        "key": "parse-error",
-        "value": 1
+        "key": "value",
+        "value": 2
+      },
+      {
+        "key": "zero",
+        "value": 2
       }
     ]
   },
-  "avgErrorTypes": "5.095238095238095",
+  "minErrorTypesList": [
+    {}
+  ],
+  "avgErrorTypes": "2.2857142857142856",
+  "avgErrorTypes2": "2.1578947368421053",
   "maxErrors": {
     "site": {
-      "title": "Premier League site",
-      "url": "https://www.premierleague.com",
+      "title": "Chelsea FC",
+      "url": "https://www.chelseafc.com/en",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
-    "errors_count": 478
+    "errors_count": 42
   },
-  "minErrors": {
-    "site": {
-      "title": "Newcastle United",
-      "url": "https://www.nufc.co.uk",
-      "category": "Premier League",
-      "year": "2021",
-      "month": "02"
+  "minErrors": {},
+  "minErrorsList": [
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Manchester United FC",
+        "url": "https://www.manutd.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
     },
-    "errors_count": 1
-  },
-  "avgErrors": "130.38095238095238",
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Newcastle United",
+        "url": "https://www.nufc.co.uk",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
+    {}
+  ],
+  "avgErrors": "11.904761904761905",
+  "avgErrors2": "10.947368421052632",
   "maxWarningTypes": {
     "site": {
-      "title": "Manchester United FC",
-      "url": "https://www.manutd.com",
+      "title": "Wolverhampton Wanderers FC",
+      "url": "https://www.wolves.co.uk",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
@@ -1457,72 +1185,134 @@
     "warnings": [
       {
         "key": "vendor-extension",
-        "value": 3167
+        "value": 273
+      },
+      {
+        "key": "vendor-ext-pseudo-element",
+        "value": 24
+      },
+      {
+        "key": "vendor-ext-pseudo-class",
+        "value": 6
       },
       {
         "key": "deprecatedproperty",
-        "value": 8
+        "value": 5
       },
       {
         "key": "shape-separator",
         "value": 2
       },
       {
-        "key": "vendor-ext-pseudo-class",
-        "value": 19
-      },
-      {
-        "key": "vendor-ext-pseudo-element",
-        "value": 48
-      },
-      {
         "key": "at-rule",
-        "value": 21
+        "value": 15
       },
       {
         "key": "deprecated",
-        "value": 5
+        "value": 14
       },
       {
-        "key": "css-hack",
+        "key": "value-unofficial",
         "value": 2
       },
       {
-        "key": "noexproperty",
+        "key": "no-declaration",
         "value": 1
       }
     ]
   },
   "minWarningTypes": {
     "site": {
-      "title": "Newcastle United",
-      "url": "https://www.nufc.co.uk",
+      "title": "West Ham United FC",
+      "url": "https://www.whufc.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
-    "warnings": []
+    "warnings": [
+      {
+        "key": "css-hack",
+        "value": 2
+      },
+      {
+        "key": "vendor-extension",
+        "value": 1414
+      },
+      {
+        "key": "deprecatedproperty",
+        "value": 7
+      },
+      {
+        "key": "shape-separator",
+        "value": 1
+      },
+      {
+        "key": "vendor-ext-pseudo-element",
+        "value": 17
+      },
+      {
+        "key": "vendor-ext-pseudo-class",
+        "value": 5
+      },
+      {
+        "key": "at-rule",
+        "value": 8
+      },
+      {
+        "key": "value-unofficial",
+        "value": 2
+      }
+    ]
   },
-  "avgWarningTypes": "6.476190476190476",
+  "minWarningTypesList": [
+    {}
+  ],
+  "avgWarningTypes": "6.142857142857143",
+  "avgWarningTypes2": "6.2631578947368425",
   "maxWarnings": {
     "site": {
-      "title": "Premier League site",
-      "url": "https://www.premierleague.com",
+      "title": "Manchester City FC",
+      "url": "https://www.mancity.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
-    "warnings_count": 3942
+    "warnings_count": 4856
   },
-  "minWarnings": {
-    "site": {
-      "title": "Newcastle United",
-      "url": "https://www.nufc.co.uk",
-      "category": "Premier League",
-      "year": "2021",
-      "month": "02"
+  "minWarnings": {},
+  "minWarningsList": [
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Manchester United FC",
+        "url": "https://www.manutd.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
     },
-    "warnings_count": 0
-  },
-  "avgWarnings": "1181.6190476190477"
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Newcastle United",
+        "url": "https://www.nufc.co.uk",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
+    {}
+  ],
+  "avgWarnings": "928.8095238095239",
+  "avgWarnings2": "771"
 }

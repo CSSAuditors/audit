@@ -5,6 +5,7 @@ const markdownItRenderer = new markdownIt()
 
 const audit = require('./script/index')
 const reports = require('./site/_data/reports')
+const glossary = require('./site/_data/glossary')
 const env = require('./site/_data/env')
 
 module.exports = (eleventyConfig) => {
@@ -33,6 +34,12 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addLiquidFilter('extractorName', (str) => audit.getExtractorName(str))
 
   eleventyConfig.addLiquidFilter('fileSize', (str) => audit.getFileSize(str))
+
+  eleventyConfig.addLiquidFilter('term', (key) => glossary && glossary[key] && glossary[key].short ? glossary[key].short : key)
+
+  eleventyConfig.addLiquidFilter('desc', (key) => glossary && glossary[key] && glossary[key].long ? glossary[key].long : key)
+
+  eleventyConfig.addLiquidFilter('upfirst', (value) => value.charAt(0).toUpperCase() + value.slice(1))
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,

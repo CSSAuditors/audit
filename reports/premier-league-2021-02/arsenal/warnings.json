@@ -1,4059 +1,3819 @@
 {
-  "deprecatedproperty": [
-    {
-      "line": "105",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "114",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "632",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2079",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6580",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6611",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "7489",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11621",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "12710",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "12718",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "12831",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "13621",
-      "level": "0",
-      "message": "The property “clip” is deprecated",
-      "type": "deprecatedproperty",
-      "warning": "\n                        "
-    }
-  ],
   "vendor-extension": [
     {
-      "line": "200",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "201",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-appearance” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "431",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "432",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "433",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "435",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-touch-callout” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "436",
+      "line": "1",
       "level": "0",
-      "message": "“-khtml-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "437",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-touch-action” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "439",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-tap-highlight-color” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "457",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-transform” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "458",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-transform” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "459",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-transform” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "460",
+      "line": "1",
       "level": "0",
-      "message": "“-o-transform” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "538",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "539",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "540",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "594",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "595",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "596",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "696",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "697",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "698",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "705",
+      "line": "1",
       "level": "0",
-      "message": "“-webkit-user-select” is a vendor extension",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "706",
+      "line": "1",
       "level": "0",
-      "message": "“-moz-user-select” is a vendor extension",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "707",
+      "line": "1",
       "level": "0",
-      "message": "“-ms-user-select” is a vendor extension",
+      "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "740",
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-align” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
+      "level": "0",
+      "message": "“-ms-flex-wrap” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1",
       "level": "0",
       "message": "“-webkit-backface-visibility” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "882",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "883",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "885",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "886",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "902",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "903",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "905",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "906",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "922",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "923",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "925",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "926",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "942",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "943",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "945",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "946",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "962",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "963",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "965",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "966",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "982",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "983",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "985",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "986",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1211",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "1213",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1246",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1248",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1267",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1269",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1288",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1290",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1309",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1311",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1330",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1332",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1351",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1353",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1372",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1374",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1393",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1395",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1414",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1416",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1435",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1437",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1456",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1458",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1477",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1479",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1498",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1500",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1519",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1521",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1540",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1542",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1561",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1563",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1582",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1584",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1603",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1605",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1624",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1626",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1645",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1647",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1666",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1668",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1687",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1689",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1708",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1710",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1729",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1731",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1750",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1752",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1771",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1773",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1792",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1794",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1813",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1815",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1834",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1836",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1855",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1857",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1876",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1878",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1897",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1899",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1918",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1920",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1939",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1941",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1960",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1962",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1980",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1982",
-      "level": "0",
-      "message": "“-ms-flex-pack” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1984",
-      "level": "0",
-      "message": "“-ms-flex-align” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1988",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1996",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1998",
-      "level": "0",
-      "message": "“-ms-flex-wrap” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2140",
-      "level": "0",
-      "message": "“-webkit-backface-visibility” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2212",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2214",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2216",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2218",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2220",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2238",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2240",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2242",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2244",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2648",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2649",
+      "line": "2",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2703",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2705",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2707",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2726",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2728",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2730",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2732",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2742",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2743",
+      "line": "2",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2757",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2759",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2771",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2773",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2778",
+      "line": "2",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2792",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2793",
+      "line": "2",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2960",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2961",
+      "line": "2",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2986",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2987",
+      "line": "2",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3017",
+      "line": "2",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3110",
+      "line": "6",
       "level": "0",
       "message": "“-ms-inline-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3214",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3216",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3218",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3232",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3233",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3253",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3254",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3256",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3257",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3300",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3302",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3305",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3865",
+      "line": "6",
       "level": "0",
       "message": "“-moz-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3866",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3968",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3970",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "3972",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4058",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4146",
+      "line": "6",
+      "level": "0",
+      "message": "“-ms-flex-order” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4147",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4149",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4150",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4190",
+      "line": "6",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4191",
+      "line": "6",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4196",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4198",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4200",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4446",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4450",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4506",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4508",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4510",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4518",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4520",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4522",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4559",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4561",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4563",
+      "line": "6",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4885",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4950",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4954",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4956",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4969",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4970",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4972",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "4973",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5010",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5012",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5014",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5240",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5242",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5247",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5248",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5250",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5251",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5291",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5301",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5325",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-print-color-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5335",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5336",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5413",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-print-color-adjust” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5613",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5852",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "5854",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6058",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6060",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6062",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6071",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6073",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6075",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6085",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6087",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6088",
+      "line": "7",
       "level": "0",
       "message": "“-ms-grid-row-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6092",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6094",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6097",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6110",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6150",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6152",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6160",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6161",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6320",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6322",
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6324",
-      "level": "0",
-      "message": "“-ms-flex-pack” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6422",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6424",
-      "level": "0",
-      "message": "“-ms-flex-pack” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6471",
-      "level": "0",
-      "message": "“-ms-flex-order” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6484",
-      "level": "0",
-      "message": "“-ms-flex-order” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6489",
-      "level": "0",
-      "message": "“-ms-flex-order” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6721",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6723",
-      "level": "0",
-      "message": "“-ms-flex-pack” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6725",
-      "level": "0",
-      "message": "“-ms-flex-direction” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6735",
-      "level": "0",
-      "message": "“-ms-flex-direction” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6745",
-      "level": "0",
-      "message": "“-ms-flex-negative” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6783",
-      "level": "0",
-      "message": "“-ms-flexbox” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6785",
-      "level": "0",
-      "message": "“-ms-flex-negative” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6787",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6789",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6797",
-      "level": "0",
-      "message": "“-ms-flex-pack” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6799",
-      "level": "0",
-      "message": "“-ms-flex-direction” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "6851",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6853",
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-order” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-order” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-order” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-negative” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-negative” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-align” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6861",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6867",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6959",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6961",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6974",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "6975",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7093",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7097",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7099",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7101",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7103",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7105",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7114",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7121",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7123",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7125",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7127",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7132",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7143",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7145",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7221",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7223",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7225",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7233",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7235",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7237",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7568",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7570",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7572",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7641",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7643",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7645",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7680",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7682",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-flow” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7701",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7704",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7717",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7722",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7727",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7791",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7792",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7873",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7875",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7888",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7890",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7892",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7894",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-line-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7914",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7920",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7951",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "7980",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8015",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8017",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8044",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8046",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8078",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8080",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8094",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8096",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8231",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-backface-visibility” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8283",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-user-select” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8284",
+      "line": "7",
       "level": "0",
       "message": "“-ms-user-select” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8322",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8328",
+      "line": "7",
       "level": "0",
       "message": "“-ms-touch-action” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8385",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-tap-highlight-color” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8706",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8707",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8972",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8974",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "8989",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9144",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9146",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9173",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9177",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9226",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-backface-visibility” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9247",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9249",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9251",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9359",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9360",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9385",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9387",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9419",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9420",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9547",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9548",
-      "level": "0",
-      "message": "“-moz-osx-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "9605",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9607",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9609",
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-positive” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-direction” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9611",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9615",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9622",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9624",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-preferred-size” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9626",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9628",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9647",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9689",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-preferred-size” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9691",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9693",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9695",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-order” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9705",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9707",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9862",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9864",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9944",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9946",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9957",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9959",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9961",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9966",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "9968",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10056",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10058",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10063",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10131",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10197",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10203",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10205",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10227",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10229",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10289",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10291",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10296",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10298",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10303",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10305",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10331",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10333",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10336",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10390",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10392",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10426",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10474",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10476",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10482",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10484",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10486",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10488",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10493",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10495",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10497",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10499",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10510",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10511",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10519",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10521",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10532",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10534",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10540",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10542",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10544",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10601",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10603",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10605",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10607",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10609",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10612",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10665",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10666",
+      "line": "7",
       "level": "0",
       "message": "“-ms-grid-row-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10737",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10759",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10761",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10779",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "10885",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-transform-style” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11269",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11271",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11313",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11340",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11342",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11344",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11346",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11413",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11414",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11463",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11475",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11477",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11479",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11481",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11486",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11488",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-item-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11496",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11498",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11500",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11502",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-line-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11529",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11599",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11600",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11642",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11652",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11684",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "11686",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12024",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12156",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12158",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12162",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12248",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12277",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12279",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12282",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12287",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12289",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12296",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12301",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12302",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12304",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12305",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12428",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12450",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12454",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12459",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12463",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12465",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12470",
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flexbox” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "“-ms-flex-pack” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-positive” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12472",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-preferred-size” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12489",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12491",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12497",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12502",
+      "line": "7",
       "level": "0",
-      "message": "“flex-basis 0.5s ease-in-out,-ms-flex-preferred-size 0.5s ease-in-out” is a vendor extension",
+      "message": "“flex-basis 500ms ease-in-out,-ms-flex-preferred-size 500ms ease-in-out” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12505",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-preferred-size” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12507",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-negative” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12518",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12520",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-wrap” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12522",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12524",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12541",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flexbox” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12543",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-direction” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12545",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-pack” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12547",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12728",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12733",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12847",
+      "line": "7",
       "level": "0",
       "message": "“-ms-flex-align” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12877",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12878",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12900",
+      "line": "7",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "12901",
+      "line": "7",
       "level": "0",
       "message": "“-moz-osx-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "13824",
-      "level": "0",
-      "message": "“-webkit-font-smoothing” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14432",
+      "line": "23",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "23",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    }
+  ],
+  "deprecatedproperty": [
+    {
+      "line": "1",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "7",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "17",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
+      "warning": "\n                        "
+    },
+    {
+      "line": "17",
+      "level": "0",
+      "message": "The property “clip” is deprecated",
+      "type": "deprecatedproperty",
       "warning": "\n                        "
     }
   ],
   "deprecated": [
     {
-      "line": "2454",
+      "line": "2",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "2851",
+      "line": "2",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "2920",
+      "line": "2",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3136",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3428",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3479",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3546",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3588",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3637",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3672",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3707",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3745",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3798",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "3913",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "4014",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "4339",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "4613",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "4683",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "4708",
+      "line": "6",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5064",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5080",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5670",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5883",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5909",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5930",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5951",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "5979",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6005",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6026",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6047",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6245",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6397",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6453",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6502",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6667",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "6689",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "7430",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "8169",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "8791",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "8810",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "10021",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
       "warning": "\n                        "
     },
     {
-      "line": "10559",
+      "line": "7",
       "level": "0",
       "message": "The value “none” is deprecated",
       "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14698",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15252",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15621",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15770",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15798",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15810",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15871",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15921",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15939",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "16061",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "16541",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "17090",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    },
-    {
-      "line": "17128",
-      "level": "0",
-      "message": "The value “break-word” is deprecated",
-      "type": "deprecated",
-      "warning": "\n                        "
-    }
-  ],
-  "noexproperty": [
-    {
-      "line": "6279",
-      "level": "0",
-      "message": "Property “fill” does not exist",
-      "type": "noexproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "8689",
-      "level": "0",
-      "message": "Property “fill” does not exist",
-      "type": "noexproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "12514",
-      "level": "0",
-      "message": "Property “stroke-dashoffset” does not exist",
-      "type": "noexproperty",
       "warning": "\n                        "
     }
   ],
   "vendor-ext-pseudo-element": [
     {
-      "line": "8331",
+      "line": "7",
       "level": "0",
       "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
-    },
-    {
-      "line": "14636",
-      "level": "0",
-      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "14639",
-      "level": "0",
-      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15285",
-      "level": "0",
-      "message": "“::-webkit-scrollbar-track” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15288",
-      "level": "0",
-      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
-    },
-    {
-      "line": "15291",
-      "level": "0",
-      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
-      "type": "vendor-ext-pseudo-element",
-      "warning": "\n                        "
     }
   ],
-  "at-rule": [
+  "value-unofficial": [
     {
-      "line": "17172",
+      "line": "7",
       "level": "0",
-      "message": "Unrecognized at-rule “@-webkit-keyframes”",
-      "type": "at-rule",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     }
   ]

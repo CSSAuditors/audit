@@ -1,0 +1,11 @@
+{%- if report -%}
+  {%- if report.errorList -%}
+    <ul>
+      {%- assign errorsSorted = report.errorList | sort -%}
+      {%- for item in errorsSorted -%}
+        <li>{{ item | term }} - {{ item | desc }}{%- unless forloop.last -%},{%- else -%}
+          .{%- endunless -%}</li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+{%- endif -%}

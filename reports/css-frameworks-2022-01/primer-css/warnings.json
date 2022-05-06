@@ -955,36 +955,6 @@
       "warning": "\n                        "
     }
   ],
-  "no-declaration": [
-    {
-      "line": "11",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    },
-    {
-      "line": "11",
-      "level": "0",
-      "message": "No declarations in the rule",
-      "type": "no-declaration",
-      "warning": "\n                        "
-    }
-  ],
   "vendor-ext-pseudo-element": [
     {
       "line": "11",
@@ -1066,14 +1036,14 @@
     {
       "line": "11",
       "level": "0",
-      "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
+      "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
       "line": "11",
       "level": "0",
-      "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
+      "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
@@ -1179,12 +1149,12 @@
       "warning": "\n                        "
     }
   ],
-  "noexproperty": [
+  "value-unofficial": [
     {
-      "line": "21",
+      "line": "16",
       "level": "0",
-      "message": "Property “stroke-dashoffset” does not exist",
-      "type": "noexproperty",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     }
   ]

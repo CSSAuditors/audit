@@ -1,109 +1,1630 @@
 {
   "vendor-extension": [
     {
-      "line": "80",
+      "line": "23",
+      "level": "0",
+      "message": "“-moz-tab-size” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "24",
+      "level": "0",
+      "message": "“-o-tab-size” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "35",
+      "level": "0",
+      "message": "“-webkit-text-size-adjust” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "65",
+      "level": "0",
+      "message": "“system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "93",
+      "level": "0",
+      "message": "“-webkit-text-decoration” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "207",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "109",
+      "line": "267",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "113",
+      "line": "276",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "145",
-      "level": "0",
-      "message": "“-webkit-focus-ring-color auto 5px” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "158",
-      "level": "0",
-      "message": "“system-ui,-apple-system,\"Segoe UI\",Roboto,Ubuntu,Cantarell,\"Noto Sans\",sans-serif,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial,\"Noto Sans\",\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"” is a vendor extension",
-      "type": "vendor-extension",
-      "warning": "\n                        "
-    },
-    {
-      "line": "270",
+      "line": "285",
       "level": "0",
       "message": "“-webkit-appearance” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "1794",
+      "line": "355",
+      "level": "0",
+      "message": "“ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-webkit-sticky” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-webkit-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-moz-appearance” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-o-object-fit” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-o-object-fit” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-webkit-box” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-webkit-box-orient” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“-webkit-line-clamp” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "“-webkit-padding-start” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
       "level": "0",
       "message": "“roboto,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "1797",
+      "line": "569",
+      "level": "0",
+      "message": "“-webkit-text-size-adjust” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "“-moz-osx-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
       "level": "0",
       "message": "“-webkit-font-smoothing” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     },
     {
-      "line": "2601",
+      "line": "596",
       "level": "0",
-      "message": "“-webkit-appearance” is a vendor extension",
+      "message": "“-webkit-animation” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "598",
+      "level": "0",
+      "message": "“-webkit-backface-visibility” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "600",
+      "level": "0",
+      "message": "“-webkit-clip-path” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "600",
+      "level": "0",
+      "message": "“-webkit-clip-path” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "600",
+      "level": "0",
+      "message": "“-webkit-clip-path” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "702",
+      "level": "0",
+      "message": "“background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "710",
+      "level": "0",
+      "message": "“system-ui,-apple-system,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "734",
+      "level": "0",
+      "message": "“ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1155",
+      "level": "0",
+      "message": "“background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1250",
+      "level": "0",
+      "message": "“-webkit-box” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1250",
+      "level": "0",
+      "message": "“-webkit-box-orient” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1250",
+      "level": "0",
+      "message": "“-webkit-line-clamp” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1271",
+      "level": "0",
+      "message": "“roboto,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1271",
+      "level": "0",
+      "message": "“-webkit-font-smoothing” is a vendor extension",
+      "type": "vendor-extension",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1738",
+      "level": "0",
+      "message": "“background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter” is a vendor extension",
       "type": "vendor-extension",
       "warning": "\n                        "
     }
   ],
   "vendor-ext-pseudo-element": [
     {
-      "line": "104",
+      "line": "214",
+      "level": "0",
+      "message": "“::-moz-focus-inner” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "256",
       "level": "0",
       "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "105",
+      "line": "257",
       "level": "0",
       "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
       "warning": "\n                        "
     },
     {
-      "line": "112",
+      "line": "275",
       "level": "0",
       "message": "“::-webkit-search-decoration” is a vendor extended pseudo-element",
       "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "284",
+      "level": "0",
+      "message": "“::-webkit-file-upload-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "431",
+      "level": "0",
+      "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "431",
+      "level": "0",
+      "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“::-moz-placeholder” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "625",
+      "level": "0",
+      "message": "“::-webkit-calendar-picker-indicator” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "725",
+      "level": "0",
+      "message": "“::-webkit-inner-spin-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "725",
+      "level": "0",
+      "message": "“::-webkit-outer-spin-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "727",
+      "level": "0",
+      "message": "“::-webkit-search-decoration” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "728",
+      "level": "0",
+      "message": "“::-webkit-file-upload-button” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1536",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1537",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1550",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1551",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1581",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1582",
+      "level": "0",
+      "message": "“::-webkit-scrollbar-thumb” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1642",
+      "level": "0",
+      "message": "“::-webkit-scrollbar” is a vendor extended pseudo-element",
+      "type": "vendor-ext-pseudo-element",
+      "warning": "\n                        "
+    }
+  ],
+  "vendor-ext-pseudo-class": [
+    {
+      "line": "223",
+      "level": "0",
+      "message": "“:-moz-focusring” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
+      "warning": "\n                        "
+    },
+    {
+      "line": "232",
+      "level": "0",
+      "message": "“:-moz-ui-invalid” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
+      "warning": "\n                        "
+    },
+    {
+      "line": "436",
+      "level": "0",
+      "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
+      "warning": "\n                        "
+    },
+    {
+      "line": "436",
+      "level": "0",
+      "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
+      "warning": "\n                        "
+    },
+    {
+      "line": "460",
+      "level": "0",
+      "message": "“:-moz-focusring” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“:-ms-input-placeholder” is a vendor extended pseudo-class",
+      "type": "vendor-ext-pseudo-class",
       "warning": "\n                        "
     }
   ],
   "css-variable": [
     {
-      "line": "277",
+      "line": "568",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "413",
+      "line": "568",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1103",
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "568",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "569",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "591",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "591",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "592",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "592",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "592",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "596",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "701",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "923",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "924",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "925",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "926",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "927",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "928",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1033",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1034",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1146",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1147",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1148",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1149",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1150",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1151",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1152",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1153",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1154",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1162",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1163",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1164",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1165",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1166",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1167",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1168",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1169",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1170",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1171",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1172",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1173",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1174",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1175",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1175",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1176",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1177",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1178",
+      "level": "0",
+      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+      "type": "css-variable",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1179",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
@@ -117,763 +1638,716 @@
       "warning": "\n                        "
     },
     {
-      "line": "1375",
+      "line": "1181",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1471",
+      "line": "1182",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1474",
+      "line": "1183",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1477",
+      "line": "1184",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1480",
+      "line": "1185",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1483",
+      "line": "1185",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1486",
+      "line": "1186",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1489",
+      "line": "1186",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1492",
+      "line": "1187",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1495",
+      "line": "1188",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1498",
+      "line": "1189",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1501",
+      "line": "1190",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1504",
+      "line": "1191",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1507",
+      "line": "1192",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1510",
+      "line": "1192",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1511",
+      "line": "1193",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1514",
+      "line": "1194",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1517",
+      "line": "1195",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1520",
+      "line": "1196",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1523",
+      "line": "1197",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1526",
+      "line": "1198",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1529",
+      "line": "1199",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1532",
+      "line": "1199",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1535",
+      "line": "1200",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1538",
+      "line": "1201",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1541",
+      "line": "1202",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1542",
+      "line": "1203",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1545",
+      "line": "1204",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1546",
+      "line": "1204",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1549",
+      "line": "1205",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1552",
+      "line": "1206",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1555",
+      "line": "1207",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1558",
+      "line": "1207",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1562",
+      "line": "1208",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1565",
+      "line": "1208",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1568",
+      "line": "1209",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1571",
+      "line": "1210",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1574",
+      "line": "1211",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1577",
+      "line": "1212",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1580",
+      "line": "1213",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1583",
+      "line": "1214",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1584",
+      "line": "1214",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1587",
+      "line": "1215",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1590",
+      "line": "1216",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1593",
+      "line": "1217",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1597",
+      "line": "1218",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1600",
+      "line": "1219",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1603",
+      "line": "1220",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1607",
+      "line": "1221",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1610",
+      "line": "1222",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1613",
+      "line": "1223",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1614",
+      "line": "1224",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1617",
+      "line": "1225",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1620",
+      "line": "1226",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1623",
+      "line": "1227",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1626",
+      "line": "1228",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1629",
+      "line": "1229",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1632",
+      "line": "1230",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1633",
+      "line": "1231",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1636",
+      "line": "1232",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1639",
+      "line": "1233",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1642",
+      "line": "1234",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1645",
+      "line": "1235",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1648",
+      "line": "1235",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1651",
+      "line": "1236",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1654",
+      "line": "1236",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1657",
+      "line": "1237",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1660",
+      "line": "1238",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1663",
+      "line": "1239",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1666",
+      "line": "1239",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1669",
+      "line": "1240",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1672",
+      "line": "1241",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1675",
+      "line": "1242",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1678",
+      "line": "1255",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1681",
+      "line": "1257",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1684",
+      "line": "1258",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1687",
+      "line": "1259",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1690",
+      "line": "1260",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1693",
+      "line": "1261",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1694",
+      "line": "1262",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1697",
+      "line": "1393",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1700",
+      "line": "1394",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1703",
+      "line": "1462",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1704",
+      "line": "1497",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
       "warning": "\n                        "
     },
     {
-      "line": "1707",
+      "line": "1737",
       "level": "0",
       "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
       "type": "css-variable",
+      "warning": "\n                        "
+    }
+  ],
+  "value-unofficial": [
+    {
+      "line": "568",
+      "level": "0",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
+      "warning": "\n                        "
+    },
+    {
+      "line": "722",
+      "level": "0",
+      "message": "“button” is not defined by any specification as an allowed value for “appearance”, but is supported in multiple browsers",
+      "type": "value-unofficial",
+      "warning": "\n                        "
+    },
+    {
+      "line": "728",
+      "level": "0",
+      "message": "“button” is not defined by any specification as an allowed value for “appearance”, but is supported in multiple browsers",
+      "type": "value-unofficial",
+      "warning": "\n                        "
+    },
+    {
+      "line": "771",
+      "level": "0",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     },
     {
       "line": "1710",
       "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     },
     {
-      "line": "1713",
+      "line": "1715",
       "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     },
     {
-      "line": "1757",
+      "line": "1716",
       "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     },
     {
-      "line": "1760",
+      "line": "1723",
       "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1763",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1766",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1769",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1772",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2216",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2305",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2459",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2472",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2688",
-      "level": "0",
-      "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
-      "type": "css-variable",
-      "warning": "\n                        "
-    }
-  ],
-  "noexproperty": [
-    {
-      "line": "1397",
-      "level": "0",
-      "message": "Property “fill” does not exist",
-      "type": "noexproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "1397",
-      "level": "0",
-      "message": "Property “stroke” does not exist",
-      "type": "noexproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2359",
-      "level": "0",
-      "message": "Property “fill” does not exist",
-      "type": "noexproperty",
-      "warning": "\n                        "
-    },
-    {
-      "line": "2359",
-      "level": "0",
-      "message": "Property “stroke” does not exist",
-      "type": "noexproperty",
+      "message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers",
+      "type": "value-unofficial",
       "warning": "\n                        "
     }
   ],
   "at-rule": [
     {
-      "line": "1414",
+      "line": "596",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1424",
+      "line": "662",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1438",
+      "line": "668",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "1448",
+      "line": "674",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "2318",
+      "line": "680",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
       "warning": "\n                        "
     },
     {
-      "line": "2607",
+      "line": "1499",
       "level": "0",
       "message": "Unrecognized at-rule “@-webkit-keyframes”",
       "type": "at-rule",
+      "warning": "\n                        "
+    },
+    {
+      "line": "1700",
+      "level": "0",
+      "message": "Unrecognized at-rule “@-webkit-keyframes”",
+      "type": "at-rule",
+      "warning": "\n                        "
+    }
+  ],
+  "deprecated": [
+    {
+      "line": "1549",
+      "level": "0",
+      "message": "The value “break-word” is deprecated",
+      "type": "deprecated",
       "warning": "\n                        "
     }
   ]

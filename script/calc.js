@@ -69,6 +69,31 @@ const getAverage = (arr, prop1, prop2) => {
   return average / arr.length
 }
 
+const getMedian = (arr, prop1, prop2) => {
+  let average = 0
+  let items = []
+
+  arr.map((a) => {
+    let b
+
+    if(prop1) {
+      b = a && a.hasOwnProperty(prop1) ? a[prop1] : 0
+    }
+
+    if(prop2) {
+      b = b && b.hasOwnProperty(prop2) ? b[prop2] : 0
+    }
+
+    items.push(b)
+
+    average += b
+  })
+
+  average = average - Math.min(...items) - Math.max(...items)
+
+  return average / (arr.length - 2)
+}
+
 const getOverall = (arr, prop1, prop2) => {
   let count = 0
 
@@ -114,6 +139,7 @@ module.exports = {
   getMin,
   getMins,
   getAverage,
+  getMedian,
   getOverall,
   getRound,
   getPercent,
