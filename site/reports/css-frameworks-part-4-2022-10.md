@@ -1,12 +1,10 @@
 ---
 layout: post
-title: 'Top 2021 CSS Frameworks Report, Part 3: Specificity and complexity'
+title: 'Top 2021 CSS Frameworks Report, Part 4: Specificity and complexity'
 # description: In this report, I have audited top CSS frameworks of 2022, according to the State of CSS report, for errors and warnings.
 # image: /gfx/css-frameworks-part-2-2022-05.jpg
 permalink: false
 date: 2022-10-20
-tags:
-  - report
 metadata:
   authors:
     - Silvestar
