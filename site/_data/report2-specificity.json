@@ -3,8 +3,8 @@
     {
       "maxSpecificity": 233,
       "maxSelector": "#news-article-details #news div.container-fluid div.row div.col-md-24",
-      "minSpecificity": 1,
-      "minSelector": "ng\\:form",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Bayer 04 Leverkusen",
         "url": "https://www.bayer04.de/en-us",
@@ -16,8 +16,8 @@
     {
       "maxSpecificity": 133,
       "maxSelector": "html:not(.touch) #menu-main:hover > li > a:not(:hover)",
-      "minSpecificity": 1,
-      "minSelector": "%",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Borussia Dortmund GmbH",
         "url": "https://www.bvb.de",
@@ -55,8 +55,8 @@
     {
       "maxSpecificity": 140,
       "maxSelector": ".sravvpl_theme_1 .sravvpl_fullscreen-back.sravvpl_controls-button.sravvpl_isClicked #sravvpl_fs_off_arrow_04",
-      "minSpecificity": 1,
-      "minSelector": "video",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Eintracht Frankfurt",
         "url": "https://www.eintracht.de",
@@ -68,8 +68,8 @@
     {
       "maxSpecificity": 60,
       "maxSelector": ".b-player-error-screen .error-container .error-wrapper .button-wrapper .btn[disabled]",
-      "minSpecificity": 1,
-      "minSelector": "img",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FC Augsburg",
         "url": "https://www.fcaugsburg.de",
@@ -81,8 +81,8 @@
     {
       "maxSpecificity": 220,
       "maxSelector": "#smartbanner #smartbanner.no-icon .sb-info",
-      "minSpecificity": 1,
-      "minSelector": "html",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FC Bayern München",
         "url": "https://fcbayern.com/de",
@@ -94,8 +94,8 @@
     {
       "maxSpecificity": 360,
       "maxSelector": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
-      "minSpecificity": 1,
-      "minSelector": "html",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FC Köln",
         "url": "https://fc.de/fc-info/startseite/",
@@ -107,8 +107,8 @@
     {
       "maxSpecificity": 360,
       "maxSelector": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
-      "minSpecificity": 1,
-      "minSelector": "img",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FC Schalke 04",
         "url": "https://schalke04.de/",
@@ -120,8 +120,8 @@
     {
       "maxSpecificity": 120,
       "maxSelector": ".page-topic #grid-content-main .site-margin-bottom",
-      "minSpecificity": 1,
-      "minSelector": "body",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FC Union Berlin",
         "url": "https://www.fc-union-berlin.de/en/",
@@ -133,8 +133,8 @@
     {
       "maxSpecificity": 130,
       "maxSelector": "#player-slider .owl-item:not(.center) .info-box",
-      "minSpecificity": 1,
-      "minSelector": "body",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "FSV Mainz 05",
         "url": "https://www.mainz05.de",
@@ -146,8 +146,8 @@
     {
       "maxSpecificity": 228,
       "maxSelector": "#cssmenu.align-right ul li ul li:hover > ul #cssmenu2 ul li ul",
-      "minSpecificity": 1,
-      "minSelector": "select",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Hertha Berlin",
         "url": "https://www.herthabsc.de/en/",
@@ -159,8 +159,8 @@
     {
       "maxSpecificity": 111,
       "maxSelector": "body#iframe .smartbanner--custom",
-      "minSpecificity": 1,
-      "minSelector": "::-moz-placeholder",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "RB Leipzig",
         "url": "https://www.dierotenbullen.com",
@@ -172,8 +172,8 @@
     {
       "maxSpecificity": 541,
       "maxSelector": ".front section#stage #stage-ticker-container #stage-ticker-wrapper #ticker-content #game-progress .ticker-news .ticker-news-icon.none",
-      "minSpecificity": 1,
-      "minSelector": "body",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Sport-Club Freiburg",
         "url": "https://www.scfreiburg.com",
@@ -185,8 +185,8 @@
     {
       "maxSpecificity": 200,
       "maxSelector": "#cluetip-title #cluetip-close",
-      "minSpecificity": 1,
-      "minSelector": "h6",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "SV Werder Bremen",
         "url": "https://www.werder.de",
@@ -198,8 +198,8 @@
     {
       "maxSpecificity": 360,
       "maxSelector": "#usercentrics-button.layout-5 #uc-corner-modal #history .uc-inner-content .uc-timeline .uc-history-line .uc-history-timeline-dot.uc-green",
-      "minSpecificity": 1,
-      "minSelector": "p",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "TSG Hoffenheim",
         "url": "https://www.tsg-hoffenheim.de",
@@ -224,8 +224,8 @@
     {
       "maxSpecificity": 111,
       "maxSelector": "html.mm-front #mm-blocker",
-      "minSpecificity": 1,
-      "minSelector": "::-ms-expand",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "VfL Wolfsburg",
         "url": "https://www.vfl-wolfsburg.de",
@@ -237,8 +237,8 @@
     {
       "maxSpecificity": 110,
       "maxSelector": "#footer-navigation[_ngcontent-sc90]",
-      "minSpecificity": 1,
-      "minSelector": "a",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Bundesliga site",
         "category": "Bundesliga",
@@ -250,8 +250,8 @@
   "maxSpecificity": {
     "maxSpecificity": 541,
     "maxSelector": ".front section#stage #stage-ticker-container #stage-ticker-wrapper #ticker-content #game-progress .ticker-news .ticker-news-icon.none",
-    "minSpecificity": 1,
-    "minSelector": "body",
+    "minSpecificity": 0,
+    "minSelector": "*",
     "site": {
       "title": "Sport-Club Freiburg",
       "url": "https://www.scfreiburg.com",
@@ -263,8 +263,8 @@
   "minSpecificity": {
     "maxSpecificity": 110,
     "maxSelector": "#footer-navigation[_ngcontent-sc90]",
-    "minSpecificity": 1,
-    "minSelector": "a",
+    "minSpecificity": 0,
+    "minSelector": "*",
     "site": {
       "title": "Bundesliga site",
       "category": "Bundesliga",

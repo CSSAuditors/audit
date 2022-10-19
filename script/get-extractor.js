@@ -30,6 +30,8 @@ const getReport = (site) => {
 
   if(!helpers.fileExists(extractorFile)) {
     resolve(false)
+
+    return false
   }
 
   const extractorRaw = helpers.getFileSync(extractorFile)

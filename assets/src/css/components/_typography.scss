@@ -20,7 +20,7 @@ Style guide: Fonts
   background-color: var(--color-alpha3);
 }
 
-html {
+html {
   font-size: var(--fz-alpha);
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
@@ -103,12 +103,14 @@ pre {
   }
 }
 
+li,
 p {
   code {
-    display: inline-block;
     font-size: 90%;
     background-color: var(--color-alpha2);
     border: 1px dashed var(--color-alpha3);
+    padding-left: .25em;
+    padding-right: .25em;
   }
 }
 

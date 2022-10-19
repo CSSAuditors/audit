@@ -1047,12 +1047,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@projectwallace/css-analyzer@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@projectwallace/css-analyzer/-/css-analyzer-5.0.2.tgz#4b6f039c6a789cca676c2d41bb39f561b5231b51"
-  integrity sha512-ww/BqU2BztR+3nzSn9SnYAN5YyEYQTSeq8XlGpZySbXiBOHt3AAchi3nvkV8m7pHZjmcwhDqmURXEm3ZLz7F5A==
+"@projectwallace/css-analyzer@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@projectwallace/css-analyzer/-/css-analyzer-5.6.0.tgz#30045cce1799cbee0a77a442f7569d30ecda3ada"
+  integrity sha512-am4n6eQaXHFw2CNGBlsrnLOZsW+dHkBMcf8JakMP8Iq2GRRXAfXYE3vx4JRsD9t5lMlv2lWKVflizfxfQ1exaw==
   dependencies:
-    css-tree "^2.0.1"
+    css-tree "2.2.1"
 
 "@sideway/address@^4.1.3":
   version "4.1.3"
@@ -3451,6 +3451,14 @@ css-tree@1.0.0-alpha.37:
     mdn-data "2.0.4"
     source-map "^0.6.1"
 
+css-tree@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.2.1.tgz#36115d382d60afd271e377f9c5f67d02bd48c032"
+  integrity sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==
+  dependencies:
+    mdn-data "2.0.28"
+    source-map-js "^1.0.1"
+
 css-tree@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.1.3.tgz#eb4870fb6fd7707327ec95c2ff2ab09b5e8db91d"
@@ -3458,14 +3466,6 @@ css-tree@^1.1.2:
   dependencies:
     mdn-data "2.0.14"
     source-map "^0.6.1"
-
-css-tree@^2.0.1:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.0.4.tgz#be44314f17e9ac85fe894a5888941782e1123c29"
-  integrity sha512-b4IS9ZUMtGBiNjzYbcj9JhYbyei99R3ai2CSxlu8GQDnoPA/P+NU85hAm0eKDc/Zp660rpK6tFJQ2OSdacMHVg==
-  dependencies:
-    mdn-data "2.0.23"
-    source-map-js "^1.0.1"
 
 css-validator@^0.11.0:
   version "0.11.0"
@@ -7912,10 +7912,10 @@ mdn-data@2.0.14:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
   integrity sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==
 
-mdn-data@2.0.23:
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.23.tgz#dfb6c41e50a0edb808cf340973ab29321b70808e"
-  integrity sha512-IonVb7pfla2U4zW8rc7XGrtgq11BvYeCxWN8HS+KFBnLDE7XDK9AAMVhRuG6fj9BBsjc69Fqsp6WEActEdNTDQ==
+mdn-data@2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.28.tgz#5ec48e7bef120654539069e1ae4ddc81ca490eba"
+  integrity sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==
 
 mdn-data@2.0.4:
   version "2.0.4"

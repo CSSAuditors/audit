@@ -1,0 +1,66 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Selectors</b>
+          </th>
+          <th class="tar">
+            <b>Unique</b>
+          </th>
+          <th class="tar">
+            <b>Percent</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxKeyframesSelectors -%}
+          <tr>
+            <th>
+              <b>Most keyframes selectors</b>
+            </th>
+            <td>{{ report.maxKeyframesSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.maxKeyframesSelectors.keyframes.total }}
+            </td>
+            <td class="tar">{{ report.maxKeyframesSelectors.keyframes.totalUnique }}
+            </td>
+            <td class="tar">{{ report.maxKeyframesSelectors.keyframes.uniquenessRatio | times: 100 | round: 2 }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minKeyframesSelectors and report.minKeyframesSelectors.keyframes.total > 0 -%}
+          <tr>
+            <th>
+              <b>Least keyframes selectors</b>
+            </th>
+            <td>{{ report.minKeyframesSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.minKeyframesSelectors.keyframes.total }}
+            </td>
+            <td class="tar">{{ report.minKeyframesSelectors.keyframes.totalUnique }}
+            </td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgKeyframesSelectors and true == false-%}
+          <tr>
+            <th>
+              <b>Average number of keyframes selectors</b>
+            </th>
+            <td>-</td>
+            <td class="tar">{{ report.avgKeyframesSelectors | ceil }}
+            </td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

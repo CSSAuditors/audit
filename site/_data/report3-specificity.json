@@ -3,8 +3,8 @@
     {
       "maxSpecificity": 70,
       "maxSelector": ".input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback)",
-      "minSpecificity": 1,
-      "minSelector": "progress",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Bootstrap",
         "url": "https://getbootstrap.com/",
@@ -17,8 +17,8 @@
     {
       "maxSpecificity": 110,
       "maxSelector": "#spinnerContainer.cooldown",
-      "minSpecificity": 1,
-      "minSelector": "select",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Materialize",
         "url": "https://materializecss.com/",
@@ -31,8 +31,8 @@
     {
       "maxSpecificity": 90,
       "maxSelector": ".ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)>.ant-steps-item-container[role=button]:hover .ant-steps-item-icon .ant-steps-icon",
-      "minSpecificity": 1,
-      "minSelector": "html",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Ant Design",
         "url": "https://ant.design/",
@@ -45,8 +45,8 @@
     {
       "maxSpecificity": 110,
       "maxSelector": ".ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)>.container>.item:not(.right):not(.borderless):first-child",
-      "minSpecificity": 1,
-      "minSelector": "::selection",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Semantic UI",
         "url": "https://semantic-ui.com/",
@@ -59,8 +59,8 @@
     {
       "maxSpecificity": 71,
       "maxSelector": ".hero.is-danger a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current)",
-      "minSpecificity": 1,
-      "minSelector": "pre",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Bulma",
         "url": "https://bulma.io/",
@@ -73,8 +73,8 @@
     {
       "maxSpecificity": 60,
       "maxSelector": ".button-group.clear.alert .button[disabled]:hover",
-      "minSpecificity": 1,
-      "minSelector": "tfoot",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Foundation",
         "url": "https://get.foundation/",
@@ -87,8 +87,8 @@
     {
       "maxSpecificity": 70,
       "maxSelector": ".uk-tile-secondary:not(.uk-preserve-color) .uk-nav.uk-nav-divider>:not(.uk-nav-divider)+:not(.uk-nav-header,.uk-nav-divider)",
-      "minSpecificity": 1,
-      "minSelector": "h3",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "UIkit",
         "url": "https://getuikit.com/",
@@ -115,8 +115,8 @@
     {
       "maxSpecificity": 61,
       "maxSelector": ".ActionList-item.ActionList-item--hasSubItem>.ActionList-content:active+.ActionList-item .ActionList-item-label::before",
-      "minSpecificity": 1,
-      "minSelector": "label",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Primer CSS",
         "url": "https://primer.style/css/",
@@ -129,8 +129,8 @@
     {
       "maxSpecificity": 30,
       "maxSelector": ".group:hover .sm\\:group-hover\\:shadow-none",
-      "minSpecificity": 1,
-      "minSelector": "::before",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "TailwindCSS",
         "url": "https://tailwindcss.com/",
@@ -157,8 +157,8 @@
     {
       "maxSpecificity": 101,
       "maxSelector": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
-      "minSpecificity": 1,
-      "minSelector": "details *",
+      "minSpecificity": 0,
+      "minSelector": "*",
       "site": {
         "title": "Halfmoon",
         "url": "https://www.gethalfmoon.com/",
@@ -172,8 +172,8 @@
   "maxSpecificity": {
     "maxSpecificity": 110,
     "maxSelector": ".ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)>.container>.item:not(.right):not(.borderless):first-child",
-    "minSpecificity": 1,
-    "minSelector": "::selection",
+    "minSpecificity": 0,
+    "minSelector": "*",
     "site": {
       "title": "Semantic UI",
       "url": "https://semantic-ui.com/",
@@ -186,8 +186,8 @@
   "minSpecificity": {
     "maxSpecificity": 101,
     "maxSelector": ".dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.toggle-on-hover:hover .dropdown-menu:not(.dropdown-menu-center):not(.dropdown-menu-right)::before",
-    "minSpecificity": 1,
-    "minSelector": "details *",
+    "minSpecificity": 0,
+    "minSelector": "*",
     "site": {
       "title": "Halfmoon",
       "url": "https://www.gethalfmoon.com/",

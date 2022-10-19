@@ -8,6 +8,7 @@ const validate = async (site, silent) => {
     const errorsFile = `${folder}/errors.json`
     const warningsFile = `${folder}/warnings.json`
 
+
     if(!helpers.fileExists(errorsFile) || !helpers.fileExists(warningsFile)) {
       // const cssFile = `${folder}/style-clean.css`
       const cssFile = `${folder}/style-dirty.css`
@@ -21,27 +22,32 @@ const validate = async (site, silent) => {
         }, (err, data) => {
           let errorData = {}
 
-          data.errors.forEach(error => {
-            if(error.type) {
-              if(!(error.type in errorData)) {
-                errorData[error.type] = []
-              }
+          if(data && "errors" in data) {
+            data.errors.forEach(error => {
+              if(error.type) {
+                console.log(error.type);
+                if(!(error.type in errorData)) {
+                  errorData[error.type] = []
+                }
 
-              errorData[error.type].push(error)
-            }
-          })
+                errorData[error.type].push(error)
+              }
+            })
+          }
 
           let warningData = {}
 
-          data.warnings.forEach(warning => {
-            if(warning.type) {
-              if(!(warning.type in warningData)) {
-                warningData[warning.type] = []
-              }
+          if(data && "warnings" in data) {
+            data.warnings.forEach(warning => {
+              if(warning.type) {
+                if(!(warning.type in warningData)) {
+                  warningData[warning.type] = []
+                }
 
-              warningData[warning.type].push(warning)
-            }
-          })
+                warningData[warning.type].push(warning)
+              }
+            })
+          }
 
           helpers.saveFile(errorsFile, errorData, true)
           helpers.saveFile(warningsFile, warningData, true)

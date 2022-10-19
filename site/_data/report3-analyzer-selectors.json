@@ -174,6 +174,126 @@
       }
     },
     {
+      "total": 2181,
+      "totalUnique": 1900,
+      "uniquenessRatio": 0.871160018340211,
+      "specificity": {
+        "sum": [
+          6,
+          4575,
+          1262
+        ],
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          1,
+          1,
+          0
+        ],
+        "mean": [
+          0.0028749401054144704,
+          2.192141830378534,
+          0.6046957355055103
+        ],
+        "mode": [
+          0,
+          2,
+          0
+        ],
+        "median": [
+          0,
+          2,
+          0
+        ]
+      },
+      "complexity": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.757546717776713,
+        "mode": 2,
+        "median": 3,
+        "range": 15,
+        "sum": 7842,
+        "total": 2087,
+        "totalUnique": 15,
+        "unique": {
+          "1": 375,
+          "2": 612,
+          "3": 161,
+          "4": 342,
+          "5": 111,
+          "6": 125,
+          "7": 97,
+          "8": 86,
+          "9": 93,
+          "10": 68,
+          "11": 9,
+          "12": 5,
+          "13": 1,
+          "15": 1,
+          "16": 1
+        },
+        "uniquenessRatio": 0.007187350263536177
+      },
+      "id": {
+        "total": 6,
+        "totalUnique": 3,
+        "unique": {
+          "#toast-container": 4,
+          "#materialbox-overlay": 1,
+          "#spinnerContainer.cooldown": 1
+        },
+        "uniquenessRatio": 0.5,
+        "ratio": 0.002751031636863824
+      },
+      "accessibility": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "keyframes": {
+        "total": 94,
+        "totalUnique": 20,
+        "unique": {
+          "0%": 6,
+          "60%": 4,
+          "100%": 10,
+          "to": 10,
+          "12.5%": 2,
+          "25%": 6,
+          "37.5%": 2,
+          "50%": 12,
+          "62.5%": 2,
+          "75%": 6,
+          "87.5%": 2,
+          "from": 14,
+          "26%": 2,
+          "89%": 2,
+          "90%": 4,
+          "15%": 2,
+          "51%": 2,
+          "40%": 2,
+          "76%": 2,
+          "65%": 2
+        },
+        "uniquenessRatio": 0.2127659574468085,
+        "ratio": 0.04309949564419991
+      },
+      "site": {
+        "title": "Materialize",
+        "url": "https://materializecss.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
       "total": 9111,
       "totalUnique": 8141,
       "uniquenessRatio": 0.8935352870156953,
@@ -1119,6 +1239,99 @@
         "title": "UIkit",
         "url": "https://getuikit.com/",
         "css": "https://cdnjs.cloudflare.com/ajax/libs/uikit/3.10.1/css/uikit.min.css",
+        "category": "CSS Frameworks",
+        "year": "2022",
+        "month": "01"
+      }
+    },
+    {
+      "total": 39213,
+      "totalUnique": 39081,
+      "uniquenessRatio": 0.9966337694132048,
+      "specificity": {
+        "sum": [
+          0,
+          60838,
+          1286
+        ],
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          0,
+          3,
+          0
+        ],
+        "mean": [
+          0,
+          1.551752282813855,
+          0.032801101872162425
+        ],
+        "mode": [
+          0,
+          1,
+          0
+        ],
+        "median": [
+          0,
+          1,
+          0
+        ]
+      },
+      "complexity": {
+        "min": 1,
+        "max": 7,
+        "mean": 1.7921746671427843,
+        "mode": 1,
+        "median": 1,
+        "range": 6,
+        "sum": 70264,
+        "total": 39206,
+        "totalUnique": 5,
+        "unique": {
+          "1": 20358,
+          "2": 14768,
+          "3": 594,
+          "4": 1938,
+          "7": 1548
+        },
+        "uniquenessRatio": 0.0001275315002805693
+      },
+      "id": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0,
+        "ratio": 0
+      },
+      "accessibility": {
+        "total": 1,
+        "totalUnique": 1,
+        "unique": {
+          "[role=button]": 1
+        },
+        "uniquenessRatio": 1,
+        "ratio": 0.00002550174686966057
+      },
+      "keyframes": {
+        "total": 7,
+        "totalUnique": 5,
+        "unique": {
+          "to": 1,
+          "100%": 2,
+          "75%": 1,
+          "50%": 2,
+          "0%": 1
+        },
+        "uniquenessRatio": 0.7142857142857143,
+        "ratio": 0.000178512228087624
+      },
+      "site": {
+        "title": "TailwindCSS",
+        "url": "https://tailwindcss.com/",
+        "css": "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css",
         "category": "CSS Frameworks",
         "year": "2022",
         "month": "01"
@@ -2151,29 +2364,29 @@
     }
   },
   "minComplexity": {
-    "total": 3390,
-    "totalUnique": 2960,
-    "uniquenessRatio": 0.8731563421828908,
+    "total": 2340,
+    "totalUnique": 2283,
+    "uniquenessRatio": 0.9756410256410256,
     "specificity": {
       "sum": [
         0,
-        7833,
-        1020
+        2533,
+        117
       ],
       "min": [
         0,
         0,
-        0
+        1
       ],
       "max": [
         0,
-        10,
-        1
+        3,
+        0
       ],
       "mean": [
         0,
-        2.3113012688108587,
-        0.30097373856594867
+        1.0824786324786324,
+        0.05
       ],
       "mode": [
         0,
@@ -2182,41 +2395,28 @@
       ],
       "median": [
         0,
-        2,
+        1,
         0
       ]
     },
     "complexity": {
       "min": 1,
-      "max": 18,
-      "mean": 3.574505753909708,
+      "max": 5,
+      "mean": 1.1512820512820512,
       "mode": 1,
-      "median": 3,
-      "range": 17,
-      "sum": 12114,
-      "total": 3389,
-      "totalUnique": 18,
+      "median": 1,
+      "range": 4,
+      "sum": 2694,
+      "total": 2340,
+      "totalUnique": 5,
       "unique": {
-        "1": 1609,
-        "2": 83,
-        "3": 333,
-        "4": 204,
-        "5": 389,
-        "6": 171,
-        "7": 183,
-        "8": 146,
-        "9": 59,
-        "10": 59,
-        "11": 43,
-        "12": 35,
-        "13": 25,
-        "14": 19,
-        "15": 11,
-        "16": 10,
-        "17": 6,
-        "18": 4
+        "1": 2036,
+        "2": 263,
+        "3": 34,
+        "4": 5,
+        "5": 2
       },
-      "uniquenessRatio": 0.005311301268810859
+      "uniquenessRatio": 0.002136752136752137
     },
     "id": {
       "total": 0,
@@ -2233,18 +2433,16 @@
       "ratio": 0
     },
     "keyframes": {
-      "total": 1,
-      "totalUnique": 1,
-      "unique": {
-        "to": 1
-      },
-      "uniquenessRatio": 1,
-      "ratio": 0.0002949852507374631
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "ratio": 0
     },
     "site": {
-      "title": "Halfmoon",
-      "url": "https://www.gethalfmoon.com/",
-      "css": "https://cdnjs.cloudflare.com/ajax/libs/Halfmoon/1.1.1/css/halfmoon.min.css",
+      "title": "Tachyons",
+      "url": "https://tachyons.io/",
+      "css": "https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css",
       "category": "CSS Frameworks",
       "year": "2022",
       "month": "01"

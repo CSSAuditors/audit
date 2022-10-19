@@ -1,6 +1,13 @@
 .table-wrapper {
   max-width: 90vw;
   overflow-x: auto;
+
+  & + small {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
 }
 
 table {

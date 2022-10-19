@@ -1,0 +1,51 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Complexity</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxComplexity -%}
+          <tr>
+            <th>
+              <b>Max complexity</b>
+            </th>
+            <td>{{ report.maxComplexity.site.title }}
+            </td>
+            <td class="tar">{{ report.maxComplexity.complexity.max }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minComplexity -%}
+          <tr>
+            <th>
+              <b>Min complexity</b>
+            </th>
+            <td>{{ report.minComplexity.site.title }}
+            </td>
+            <td class="tar">{{ report.minComplexity.complexity.max }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgComplexity -%}
+          <tr>
+            <th>
+              <b>Average number of selectors</b>
+            </th>
+            <td>-</td>
+            <td class="tar">{{ report.avgComplexity | ceil }}
+            </td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

@@ -1,0 +1,39 @@
+{%- if report -%}
+  {%- assign reportSorted = report.list | sort: 'total' -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Selectors</b>
+          </th>
+          <th class="tar">
+            <b>Unique</b>
+          </th>
+          <th class="tar">
+            <b>Percent</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if reportSorted -%}
+          {%- for item in reportSorted -%}
+            <tr>
+              <td>{{ item.site.title }}
+              </td>
+              <td class="tar">{{ item.total }}
+              </td>
+              <td class="tar">{{ item.totalUnique }}
+              </td>
+              <td class="tar">{{ item.uniquenessRatio | times: 100 | round: 2 }}
+              </td>
+            </tr>
+          {%- endfor -%}
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

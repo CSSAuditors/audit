@@ -6,6 +6,18 @@
     "comments": {
       "total": 0,
       "size": 0
+    },
+    "embeddedContent": {
+      "total": 1,
+      "totalUnique": 1,
+      "unique": {
+        "data:image/svg+xml, <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 30\"><path fill=\"rgba(233,29,18,0.99)\" d=\"M15 21.4L0 6.1h30L15 21.4z\"/></svg>": 1
+      },
+      "uniquenessRatio": 1,
+      "size": {
+        "total": 152,
+        "ratio": 0.0007478548374399748
+      }
     }
   },
   "atrules": {
@@ -122,7 +134,13 @@
         "screen and (max-width:1023px) and (max-width:1023px)": 2,
         "screen and (min-width:1024px) and (min-width:1024px)": 4
       },
-      "uniquenessRatio": 0.021400778210116732
+      "uniquenessRatio": 0.021400778210116732,
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
     },
     "charset": {
       "total": 0,
@@ -134,7 +152,13 @@
       "total": 0,
       "totalUnique": 0,
       "unique": {},
-      "uniquenessRatio": 0
+      "uniquenessRatio": 0,
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
     },
     "keyframes": {
       "total": 3,
@@ -157,6 +181,12 @@
       "totalUnique": 0,
       "unique": {},
       "uniquenessRatio": 0
+    },
+    "layer": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
     }
   },
   "rules": {
@@ -165,6 +195,35 @@
       "total": 0,
       "ratio": 0
     },
+    "sizes": {
+      "min": 2,
+      "max": 20,
+      "mean": 3.696796338672769,
+      "mode": 2,
+      "median": 3,
+      "range": 18,
+      "sum": 6462,
+      "unique": {
+        "2": 778,
+        "3": 314,
+        "4": 241,
+        "5": 118,
+        "6": 96,
+        "7": 61,
+        "8": 43,
+        "9": 30,
+        "10": 24,
+        "11": 10,
+        "12": 18,
+        "13": 4,
+        "14": 6,
+        "16": 2,
+        "19": 1,
+        "20": 2
+      },
+      "totalUnique": 16,
+      "uniquenessRatio": 0.009153318077803204
+    },
     "selectors": {
       "min": 1,
       "max": 18,
@@ -172,7 +231,22 @@
       "mode": 1,
       "median": 1,
       "range": 17,
-      "sum": 2084
+      "sum": 2084,
+      "unique": {
+        "1": 1593,
+        "2": 81,
+        "3": 45,
+        "4": 10,
+        "5": 4,
+        "6": 4,
+        "7": 2,
+        "8": 2,
+        "9": 2,
+        "11": 4,
+        "18": 1
+      },
+      "totalUnique": 11,
+      "uniquenessRatio": 0.006292906178489702
     },
     "declarations": {
       "min": 1,
@@ -181,19 +255,33 @@
       "mode": 1,
       "median": 2,
       "range": 18,
-      "sum": 4378
+      "sum": 4378,
+      "unique": {
+        "1": 870,
+        "2": 305,
+        "3": 196,
+        "4": 101,
+        "5": 96,
+        "6": 59,
+        "7": 40,
+        "8": 26,
+        "9": 23,
+        "10": 8,
+        "11": 14,
+        "12": 3,
+        "13": 3,
+        "15": 2,
+        "19": 2
+      },
+      "totalUnique": 15,
+      "uniquenessRatio": 0.008581235697940504
     }
   },
   "selectors": {
-    "total": 2084,
+    "total": 2079,
     "totalUnique": 1354,
-    "uniquenessRatio": 0.6497120921305183,
+    "uniquenessRatio": 0.6512746512746512,
     "specificity": {
-      "sum": [
-        2,
-        3831,
-        586
-      ],
       "min": [
         0,
         0,
@@ -203,6 +291,11 @@
         1,
         0,
         0
+      ],
+      "sum": [
+        2,
+        3831,
+        586
       ],
       "mean": [
         0.000962000962000962,
@@ -218,22 +311,46 @@
         0,
         1,
         0
-      ]
+      ],
+      "unique": {
+        "0,1,0": 845,
+        "0,2,0": 336,
+        "0,3,0": 266,
+        "0,1,1": 149,
+        "0,2,1": 95,
+        "0,1,2": 39,
+        "0,1,3": 27,
+        "0,2,4": 4,
+        "0,2,2": 3,
+        "0,2,3": 14,
+        "0,5,0": 70,
+        "0,3,1": 14,
+        "0,4,0": 140,
+        "0,6,0": 1,
+        "0,4,1": 15,
+        "0,3,2": 1,
+        "0,3,3": 16,
+        "0,0,1": 40,
+        "0,0,0": 2,
+        "1,0,0": 2
+      },
+      "totalUnique": 20,
+      "uniquenessRatio": 0.00962000962000962
     },
     "complexity": {
       "min": 1,
       "max": 11,
-      "mean": 2.7724867724867726,
+      "mean": 2.7763347763347763,
       "mode": 1,
       "median": 2,
       "range": 10,
-      "sum": 5764,
+      "sum": 5772,
       "total": 2079,
       "totalUnique": 11,
       "unique": {
         "1": 899,
-        "2": 220,
-        "3": 282,
+        "2": 212,
+        "3": 290,
         "4": 276,
         "5": 202,
         "6": 58,
@@ -252,7 +369,7 @@
         "#__next": 2
       },
       "uniquenessRatio": 0.5,
-      "ratio": 0.0009596928982725527
+      "ratio": 0.000962000962000962
     },
     "accessibility": {
       "total": 0,
@@ -268,12 +385,13 @@
         "0%": 2,
         "to": 3
       },
-      "uniquenessRatio": 0.4,
-      "ratio": 0.0023992322456813818
+      "uniquenessRatio": 0.4
     }
   },
   "declarations": {
     "total": 4438,
+    "totalUnique": 1349,
+    "uniquenessRatio": 0.30396575033799006,
     "unique": {
       "total": 1349,
       "ratio": 0.30396575033799006
@@ -465,6 +583,15 @@
       "unique": {},
       "uniquenessRatio": 0,
       "ratio": 0
+    },
+    "complexity": {
+      "min": 1,
+      "max": 2,
+      "mean": 1.0126182965299684,
+      "mode": 1,
+      "median": 1,
+      "range": 1,
+      "sum": 4494
     }
   },
   "values": {
@@ -759,22 +886,21 @@
       }
     },
     "fontFamilies": {
-      "total": 83,
-      "totalUnique": 7,
+      "total": 66,
+      "totalUnique": 6,
       "unique": {
         "Barlow,arial,sans‑serif": 16,
         "Palace Main,Impact,arial,sans‑serif": 36,
-        "inherit": 17,
         "Palace Arthur,Impact,arial,sans‑serif": 2,
         "Barlow": 8,
         "Palace Arthur": 2,
         "Palace Main": 2
       },
-      "uniquenessRatio": 0.08433734939759036
+      "uniquenessRatio": 0.09090909090909091
     },
     "fontSizes": {
-      "total": 235,
-      "totalUnique": 30,
+      "total": 232,
+      "totalUnique": 29,
       "unique": {
         "0": 1,
         "18px": 25,
@@ -788,7 +914,6 @@
         "26px": 4,
         "32px": 12,
         "24px": 10,
-        "inherit": 3,
         "22px": 2,
         "90px": 1,
         "14px": 26,
@@ -807,7 +932,7 @@
         "38px": 1,
         "63px": 1
       },
-      "uniquenessRatio": 0.1276595744680851
+      "uniquenessRatio": 0.125
     },
     "zindexes": {
       "total": 59,
@@ -859,11 +984,11 @@
         "total": 50,
         "totalUnique": 7,
         "unique": {
-          ".1s": 9,
-          ".15s": 1,
           ".3s": 33,
           ".4s": 1,
           ".2s": 1,
+          ".1s": 9,
+          ".15s": 1,
           ".35s": 4,
           ".6s": 1
         },
@@ -873,11 +998,11 @@
         "total": 49,
         "totalUnique": 5,
         "unique": {
-          "cubic-bezier(.215,.61,.355,1)": 2,
-          "cubic-bezier(.55,.055,.675,.19)": 2,
           "ease": 22,
           "linear": 19,
-          "ease-out": 4
+          "ease-out": 4,
+          "cubic-bezier(.215,.61,.355,1)": 2,
+          "cubic-bezier(.55,.055,.675,.19)": 2
         },
         "uniquenessRatio": 0.10204081632653061
       }
@@ -898,6 +1023,12 @@
         "repeat(2,-webkit-min-content)": 2
       },
       "uniquenessRatio": 0.35714285714285715
+    },
+    "browserhacks": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
     },
     "units": {
       "total": 1927,
@@ -1339,8 +1470,8 @@
     }
   },
   "__meta__": {
-    "parseTime": 62,
-    "analyzeTime": 58,
-    "total": 120
+    "parseTime": 28,
+    "analyzeTime": 24,
+    "total": 52
   }
 }

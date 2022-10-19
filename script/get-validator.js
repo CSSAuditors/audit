@@ -9,6 +9,8 @@ const getReport = async (site, silent) => {
 
     if(!helpers.fileExists(errorsFile)) {
       resolve(false)
+
+      return false
     }
 
     const errorsRaw = await helpers.getFile(errorsFile)
@@ -39,6 +41,8 @@ const getReport = async (site, silent) => {
 
     if(!helpers.fileExists(warningsFile)) {
       resolve(false)
+
+      return false
     }
 
     const warningsRaw = await helpers.getFile(warningsFile)

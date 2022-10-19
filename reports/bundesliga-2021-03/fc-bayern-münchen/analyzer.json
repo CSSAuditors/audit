@@ -6,6 +6,16 @@
     "comments": {
       "total": 0,
       "size": 0
+    },
+    "embeddedContent": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0,
+      "size": {
+        "total": 0,
+        "ratio": 0
+      }
     }
   },
   "atrules": {
@@ -67,7 +77,13 @@
         "(min-width:312px)": 3,
         "(prefers-color-scheme:dark)": 1
       },
-      "uniquenessRatio": 0.07738095238095238
+      "uniquenessRatio": 0.07738095238095238,
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
     },
     "charset": {
       "total": 0,
@@ -82,7 +98,13 @@
         "(-moz-appearance:none)": 2,
         "(-ms-ime-align:auto)": 7
       },
-      "uniquenessRatio": 0.2222222222222222
+      "uniquenessRatio": 0.2222222222222222,
+      "browserhacks": {
+        "total": 0,
+        "totalUnique": 0,
+        "unique": {},
+        "uniquenessRatio": 0
+      }
     },
     "keyframes": {
       "total": 4,
@@ -110,6 +132,12 @@
       "totalUnique": 0,
       "unique": {},
       "uniquenessRatio": 0
+    },
+    "layer": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
     }
   },
   "rules": {
@@ -118,6 +146,41 @@
       "total": 0,
       "ratio": 0
     },
+    "sizes": {
+      "min": 2,
+      "max": 236,
+      "mean": 6.329758713136729,
+      "mode": 2,
+      "median": 4,
+      "range": 234,
+      "sum": 4722,
+      "unique": {
+        "2": 216,
+        "3": 111,
+        "4": 95,
+        "5": 44,
+        "6": 67,
+        "7": 47,
+        "8": 25,
+        "9": 28,
+        "10": 53,
+        "11": 18,
+        "12": 10,
+        "13": 8,
+        "14": 2,
+        "15": 3,
+        "16": 1,
+        "17": 4,
+        "18": 4,
+        "19": 1,
+        "20": 1,
+        "21": 2,
+        "110": 4,
+        "236": 2
+      },
+      "totalUnique": 22,
+      "uniquenessRatio": 0.029490616621983913
+    },
     "selectors": {
       "min": 1,
       "max": 4,
@@ -125,7 +188,15 @@
       "mode": 1,
       "median": 1,
       "range": 3,
-      "sum": 776
+      "sum": 776,
+      "unique": {
+        "1": 728,
+        "2": 9,
+        "3": 6,
+        "4": 3
+      },
+      "totalUnique": 4,
+      "uniquenessRatio": 0.005361930294906166
     },
     "declarations": {
       "min": 1,
@@ -134,19 +205,40 @@
       "mode": 1,
       "median": 3,
       "range": 234,
-      "sum": 3946
+      "sum": 3946,
+      "unique": {
+        "1": 219,
+        "2": 114,
+        "3": 90,
+        "4": 54,
+        "5": 63,
+        "6": 42,
+        "7": 23,
+        "8": 28,
+        "9": 53,
+        "10": 18,
+        "11": 10,
+        "12": 8,
+        "13": 2,
+        "14": 3,
+        "15": 1,
+        "16": 4,
+        "17": 4,
+        "18": 1,
+        "19": 1,
+        "20": 2,
+        "109": 4,
+        "235": 2
+      },
+      "totalUnique": 22,
+      "uniquenessRatio": 0.029490616621983913
     }
   },
   "selectors": {
-    "total": 776,
+    "total": 766,
     "totalUnique": 594,
-    "uniquenessRatio": 0.7654639175257731,
+    "uniquenessRatio": 0.7754569190600522,
     "specificity": {
-      "sum": [
-        0,
-        881,
-        140
-      ],
       "min": [
         0,
         0,
@@ -156,6 +248,11 @@
         0,
         4,
         1
+      ],
+      "sum": [
+        0,
+        881,
+        140
       ],
       "mean": [
         0,
@@ -171,25 +268,41 @@
         0,
         1,
         0
-      ]
+      ],
+      "unique": {
+        "0,1,0": 564,
+        "0,2,0": 62,
+        "0,3,0": 6,
+        "0,0,1": 5,
+        "0,0,0": 2,
+        "0,1,2": 4,
+        "0,1,1": 96,
+        "0,2,1": 11,
+        "0,4,0": 1,
+        "0,3,1": 6,
+        "0,4,1": 4,
+        "0,3,2": 5
+      },
+      "totalUnique": 12,
+      "uniquenessRatio": 0.015665796344647518
     },
     "complexity": {
       "min": 1,
       "max": 7,
-      "mean": 1.4060052219321149,
+      "mean": 1.4255874673629243,
       "mode": 1,
       "median": 1,
       "range": 6,
-      "sum": 1077,
+      "sum": 1092,
       "total": 766,
       "totalUnique": 7,
       "unique": {
         "1": 567,
-        "2": 135,
-        "3": 41,
-        "4": 10,
-        "5": 6,
-        "6": 2,
+        "2": 133,
+        "3": 42,
+        "4": 3,
+        "5": 10,
+        "6": 6,
         "7": 5
       },
       "uniquenessRatio": 0.009138381201044387
@@ -216,12 +329,13 @@
         "60%": 2,
         "100%": 4
       },
-      "uniquenessRatio": 0.3,
-      "ratio": 0.01288659793814433
+      "uniquenessRatio": 0.3
     }
   },
   "declarations": {
     "total": 3965,
+    "totalUnique": 1121,
+    "uniquenessRatio": 0.28272383354350566,
     "unique": {
       "total": 1121,
       "ratio": 0.28272383354350566
@@ -806,6 +920,15 @@
       "unique": {},
       "uniquenessRatio": 0,
       "ratio": 0
+    },
+    "complexity": {
+      "min": 1,
+      "max": 2,
+      "mean": 1.1651954602774275,
+      "mode": 1,
+      "median": 1,
+      "range": 1,
+      "sum": 4620
     }
   },
   "values": {
@@ -1859,31 +1982,29 @@
       }
     },
     "fontFamilies": {
-      "total": 61,
-      "totalUnique": 4,
+      "total": 58,
+      "totalUnique": 3,
       "unique": {
         "FCBayernSans": 4,
         "FCBayernSans,Arial,Helvetica,sans-serif": 1,
-        "FCBayernSans,\"Helvetica Neue\",Arial,sans-serif": 53,
-        "inherit": 3
+        "FCBayernSans,\"Helvetica Neue\",Arial,sans-serif": 53
       },
-      "uniquenessRatio": 0.06557377049180328
+      "uniquenessRatio": 0.05172413793103448
     },
     "fontSizes": {
-      "total": 58,
-      "totalUnique": 9,
+      "total": 55,
+      "totalUnique": 8,
       "unique": {
         "20px": 5,
         "16px": 24,
         "14px": 11,
         "12px": 6,
-        "inherit": 3,
         "24px": 6,
         "28px": 1,
         "10px": 1,
         "32px": 1
       },
-      "uniquenessRatio": 0.15517241379310345
+      "uniquenessRatio": 0.14545454545454545
     },
     "zindexes": {
       "total": 54,
@@ -1932,14 +2053,14 @@
         "total": 42,
         "totalUnique": 11,
         "unique": {
-          ".5s": 3,
-          "0s": 2,
-          ".1s": 5,
           ".2s": 5,
           "2.1s": 1,
           ".75s": 2,
+          "0s": 2,
           ".25s": 3,
+          ".1s": 5,
           ".15s": 1,
+          ".5s": 3,
           "250ms": 2,
           "2.2s": 10,
           ".3s": 8
@@ -1950,10 +2071,10 @@
         "total": 41,
         "totalUnique": 6,
         "unique": {
-          "ease": 22,
           "linear": 1,
           "cubic-bezier(.65,.815,.735,.395)": 1,
           "ease-out": 2,
+          "ease": 22,
           "ease-in-out": 14,
           "ease-in": 1
         },
@@ -1967,6 +2088,12 @@
         "-webkit-box": 5
       },
       "uniquenessRatio": 0.2
+    },
+    "browserhacks": {
+      "total": 0,
+      "totalUnique": 0,
+      "unique": {},
+      "uniquenessRatio": 0
     },
     "units": {
       "total": 1039,
@@ -2452,8 +2579,8 @@
     }
   },
   "__meta__": {
-    "parseTime": 30,
-    "analyzeTime": 33,
-    "total": 63
+    "parseTime": 8,
+    "analyzeTime": 16,
+    "total": 24
   }
 }

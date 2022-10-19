@@ -9,6 +9,8 @@ const getReport = async (site, silent) => {
 
     if(!helpers.fileExists(specificityFile)) {
       resolve(false)
+
+      return false
     }
 
     const specificityRaw = await helpers.getFile(specificityFile)

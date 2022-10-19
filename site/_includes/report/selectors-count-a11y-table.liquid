@@ -1,0 +1,65 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Selectors</b>
+          </th>
+          <th class="tar">
+            <b>Unique</b>
+          </th>
+          <th class="tar">
+            <b>Percent</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxA11ySelectors -%}
+          <tr>
+            <th>
+              <b>Most a11y selectors</b>
+            </th>
+            <td>{{ report.maxA11ySelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.maxA11ySelectors.accessibility.total }}
+            </td>
+            <td class="tar">{{ report.maxA11ySelectors.accessibility.totalUnique }}
+            </td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minA11ySelectors and report.minA11ySelectors.accessibility.total > 0 -%}
+          <tr>
+            <th>
+              <b>Least a11y selectors</b>
+            </th>
+            <td>{{ report.minA11ySelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.minA11ySelectors.accessibility.total }}
+            </td>
+            <td class="tar">{{ report.minA11ySelectors.accessibility.totalUnique }}
+            </td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgA11ySelectors and true == false -%}
+          <tr>
+            <th>
+              <b>Average number of a11y selectors</b>
+            </th>
+            <td>-</td>
+            <td class="tar">{{ report.avgA11ySelectors | ceil }}
+            </td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

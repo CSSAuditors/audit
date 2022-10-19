@@ -1,0 +1,41 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Specificity</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.list -%}
+          <tr>
+            <th>
+              <b>Max specificity</b>
+            </th>
+            <td>{{ report.maxSpecificity.site.title }}
+            </td>
+            <td class="tar">{{ report.maxSpecificity.specificity.max }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minSpecificity -%}
+          <tr>
+            <th>
+              <b>Min of max specificity</b>
+            </th>
+            <td>{{ report.minSpecificity.site.title }}
+            </td>
+            <td class="tar">{{ report.minSpecificity.specificity.max }}
+            </td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

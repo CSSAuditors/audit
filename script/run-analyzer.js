@@ -15,8 +15,11 @@ const analyzer = async (site, silent) => {
       if(!helpers.fileExists(analyzerFile)) {
         const result = analyze(`${cssString}`)
 
+        console.log(result);
+
         delete result.rules.selectors.items
         delete result.rules.declarations.items
+        delete result.rules.sizes.items
         delete result.selectors.specificity.items
         delete result.selectors.complexity.items
 

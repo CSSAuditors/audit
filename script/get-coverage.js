@@ -9,6 +9,8 @@ const getReport = async (site, silent) => {
 
     if(!helpers.fileExists(coverageFile)) {
       resolve(false)
+
+      return false
     }
 
     const coverageRaw = await helpers.getFile(coverageFile)

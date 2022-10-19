@@ -23,12 +23,12 @@ Style guide: Grid
   }
 
   > section {
-    &:not(.slim) {
+    &:not(.slim) {
       padding-top: 6rem;
       padding-bottom: 6rem;
     }
 
-    &.slim {
+    &.slim {
       padding-top: 3rem;
       padding-bottom: 3rem;
     }

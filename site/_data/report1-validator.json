@@ -703,7 +703,21 @@
         "month": "02"
       }
     },
-    {},
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Southampton FC",
+        "url": "https://www.southamptonfc.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    },
     {
       "errors": [
         {
@@ -1114,26 +1128,15 @@
   },
   "minErrorTypes": {
     "site": {
-      "title": "Tottenham Hotspurs",
-      "url": "https://www.tottenhamhotspur.com",
+      "title": "Southampton FC",
+      "url": "https://www.southamptonfc.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
-    "errors": [
-      {
-        "key": "value",
-        "value": 2
-      },
-      {
-        "key": "zero",
-        "value": 2
-      }
-    ]
+    "errors": []
   },
-  "minErrorTypesList": [
-    {}
-  ],
+  "minErrorTypesList": [],
   "avgErrorTypes": "2.2857142857142856",
   "avgErrorTypes2": "2.1578947368421053",
   "maxErrors": {
@@ -1146,7 +1149,16 @@
     },
     "errors_count": 42
   },
-  "minErrors": {},
+  "minErrors": {
+    "site": {
+      "title": "Southampton FC",
+      "url": "https://www.southamptonfc.com",
+      "category": "Premier League",
+      "year": "2021",
+      "month": "02"
+    },
+    "errors_count": 0
+  },
   "minErrorsList": [
     {
       "errors": [],
@@ -1178,7 +1190,21 @@
         "month": "02"
       }
     },
-    {}
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Southampton FC",
+        "url": "https://www.southamptonfc.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    }
   ],
   "avgErrors": "11.904761904761905",
   "avgErrors2": "10.947368421052632",
@@ -1235,50 +1261,15 @@
   },
   "minWarningTypes": {
     "site": {
-      "title": "West Ham United FC",
-      "url": "https://www.whufc.com",
+      "title": "Southampton FC",
+      "url": "https://www.southamptonfc.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"
     },
-    "warnings": [
-      {
-        "key": "css-hack",
-        "value": 2
-      },
-      {
-        "key": "vendor-extension",
-        "value": 1414
-      },
-      {
-        "key": "deprecatedproperty",
-        "value": 7
-      },
-      {
-        "key": "shape-separator",
-        "value": 1
-      },
-      {
-        "key": "vendor-ext-pseudo-element",
-        "value": 17
-      },
-      {
-        "key": "vendor-ext-pseudo-class",
-        "value": 5
-      },
-      {
-        "key": "at-rule",
-        "value": 8
-      },
-      {
-        "key": "value-unofficial",
-        "value": 2
-      }
-    ]
+    "warnings": []
   },
-  "minWarningTypesList": [
-    {}
-  ],
+  "minWarningTypesList": [],
   "avgWarningTypes": "6.142857142857143",
   "avgWarningTypes2": "6.2631578947368425",
   "maxWarnings": {
@@ -1291,7 +1282,16 @@
     },
     "warnings_count": 4856
   },
-  "minWarnings": {},
+  "minWarnings": {
+    "site": {
+      "title": "Southampton FC",
+      "url": "https://www.southamptonfc.com",
+      "category": "Premier League",
+      "year": "2021",
+      "month": "02"
+    },
+    "warnings_count": 0
+  },
   "minWarningsList": [
     {
       "errors": [],
@@ -1323,7 +1323,21 @@
         "month": "02"
       }
     },
-    {}
+    {
+      "errors": [],
+      "error_types_count": 0,
+      "errors_count": 0,
+      "warnings": [],
+      "warnings_count": 0,
+      "warning_types_count": 0,
+      "site": {
+        "title": "Southampton FC",
+        "url": "https://www.southamptonfc.com",
+        "category": "Premier League",
+        "year": "2021",
+        "month": "02"
+      }
+    }
   ],
   "avgWarnings": "928.8095238095239",
   "avgWarnings2": "771"

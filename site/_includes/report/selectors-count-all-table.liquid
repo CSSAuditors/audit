@@ -1,0 +1,67 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Selectors</b>
+          </th>
+          <th class="tar">
+            <b>Unique</b>
+          </th>
+          <th class="tar">
+            <b>Percent</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxTotalSelectors -%}
+          <tr>
+            <th>
+              <b>Most selectors</b>
+            </th>
+            <td>{{ report.maxTotalSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.maxTotalSelectors.total }}
+            </td>
+            <td class="tar">{{ report.maxTotalSelectors.totalUnique }}
+            </td>
+            <td class="tar">{{ report.maxTotalSelectors.uniquenessRatio | times: 100 | round: 2 }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minTotalSelectors -%}
+          <tr>
+            <th>
+              <b>Least selectors</b>
+            </th>
+            <td>{{ report.minTotalSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.minTotalSelectors.total }}
+            </td>
+            <td class="tar">{{ report.minTotalSelectors.totalUnique }}
+            </td>
+            <td class="tar">{{ report.minTotalSelectors.uniquenessRatio | times: 100 | round: 2 }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgTotalSelectors and true == false -%}
+          <tr>
+            <th>
+              <b>Average number of selectors</b>
+            </th>
+            <td>-</td>
+            <td class="tar">{{ report.avgTotalSelectors | ceil }}
+            </td>
+            <td class="tar">-</td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

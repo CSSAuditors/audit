@@ -10462,14 +10462,14 @@
     }
   },
   "minComplexity": {
-    "total": 31177,
-    "totalUnique": 22190,
-    "uniquenessRatio": 0.7117426307855149,
+    "total": 2057,
+    "totalUnique": 1065,
+    "uniquenessRatio": 0.5177442877977637,
     "specificity": {
       "sum": [
-        29,
-        76973,
-        7435
+        8,
+        2258,
+        334
       ],
       "min": [
         0,
@@ -10478,119 +10478,89 @@
       ],
       "max": [
         1,
-        3,
-        0
+        1,
+        1
       ],
       "mean": [
-        0.000932026353848626,
-        2.473822914992769,
-        0.23895227382291498
+        0.003942828979793002,
+        1.1128634795465746,
+        0.1646131099063578
       ],
       "mode": [
         0,
-        2,
+        1,
         0
       ],
       "median": [
         0,
-        2,
+        1,
         0
       ]
     },
     "complexity": {
       "min": 1,
-      "max": 19,
-      "mean": 3.7688896030853285,
-      "mode": 2,
-      "median": 3,
-      "range": 18,
-      "sum": 117269,
-      "total": 31115,
-      "totalUnique": 16,
+      "max": 9,
+      "mean": 1.4041399704287827,
+      "mode": 1,
+      "median": 1,
+      "range": 8,
+      "sum": 2849,
+      "total": 2029,
+      "totalUnique": 8,
       "unique": {
-        "1": 3198,
-        "2": 10454,
-        "3": 4166,
-        "4": 3610,
-        "5": 3616,
-        "6": 1748,
-        "7": 1578,
-        "8": 724,
-        "9": 577,
-        "10": 682,
-        "11": 390,
-        "12": 341,
-        "13": 23,
-        "15": 6,
-        "16": 1,
-        "19": 1
+        "1": 1589,
+        "2": 234,
+        "3": 115,
+        "4": 48,
+        "5": 22,
+        "6": 6,
+        "7": 13,
+        "9": 2
       },
-      "uniquenessRatio": 0.0005142214366061385
+      "uniquenessRatio": 0.003942828979793002
     },
     "id": {
-      "total": 29,
-      "totalUnique": 22,
+      "total": 8,
+      "totalUnique": 8,
       "unique": {
-        "#mainContent:focus": 1,
-        "#mainContent": 2,
-        "#mainContent:before": 1,
-        "#mainContent:after": 1,
-        "#mainContent .subNav": 1,
-        "#videoPlayer": 1,
-        "#videoPlayer .modalContentWrapper": 1,
-        "#videoPlayer .socialShareHover": 1,
-        "#videoPlayer .socialShareHover:before": 1,
-        "#videoPlayer .socialShareHover:after": 1,
-        "#videoPlayer .socialShareHover .socialShareBtn": 1,
-        "#videoPlayer .socialShareHover .socialOptions": 1,
-        "#videoPlayer .socialShareHover .socialOptions li": 1,
-        "#videoPlayer .socialShareHover .socialOptions:after": 1,
-        "#videoPlayer .socialShareHover.open .socialOptions": 1,
-        "#mainContent>.notificationPromo": 2,
-        "#videoPlayerWrapModal.pl-modal": 3,
-        "#videoPlayerWrapModal.pl-modal.open": 1,
-        "#videoPlayerWrapModal.pl-modal .close": 2,
-        "#videoPlayerWrapModal .pl-modal__content": 3,
-        "#root": 1,
-        "#root.overlay": 1
+        "#fff-app": 1,
+        "#fff-app label": 1,
+        "#fff-app input": 1,
+        "#fff-app select": 1,
+        "#fff-app textarea": 1,
+        "#fff-app input:focus": 1,
+        "#fff-app select:focus": 1,
+        "#fff-app textarea:focus": 1
       },
-      "uniquenessRatio": 0.7586206896551724,
-      "ratio": 0.0009301728838566893
+      "uniquenessRatio": 1,
+      "ratio": 0.003889158969372873
     },
     "accessibility": {
-      "total": 0,
-      "totalUnique": 0,
-      "unique": {},
-      "uniquenessRatio": 0,
-      "ratio": 0
+      "total": 2,
+      "totalUnique": 1,
+      "unique": {
+        "[role=button]": 2
+      },
+      "uniquenessRatio": 0.5,
+      "ratio": 0.0009722897423432182
     },
     "keyframes": {
-      "total": 62,
-      "totalUnique": 16,
+      "total": 28,
+      "totalUnique": 6,
       "unique": {
-        "0%": 18,
-        "to": 17,
-        "33%": 1,
-        "66%": 1,
-        "70%": 1,
-        "50%": 3,
-        "1%": 1,
-        "5%": 1,
-        "20%": 3,
-        "80%": 1,
-        "95%": 1,
-        "99%": 1,
-        "60%": 4,
-        "from": 1,
-        "100%": 6,
-        "35%": 2
+        "0%": 6,
+        "25%": 4,
+        "to": 2,
+        "100%": 10,
+        "75%": 2,
+        "50%": 4
       },
-      "uniquenessRatio": 0.25806451612903225,
-      "ratio": 0.0019886454758315424
+      "uniquenessRatio": 0.21428571428571427,
+      "ratio": 0.013612056392805057
     },
     "site": {
-      "title": "Premier League site",
-      "url": "https://www.premierleague.com",
+      "title": "Burnley FC",
+      "url": "https://www.burnleyfootballclub.com",
       "category": "Premier League",
       "year": "2021",
       "month": "02"

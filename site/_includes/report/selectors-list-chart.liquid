@@ -1,0 +1,37 @@
+{%- if report -%}
+  {%- assign reportSorted = report.list | sort: 'total' -%}
+  <div class="table-wrapper">
+    <table class="small charts-css bar multiple show-heading show-labels show-primary-axis show-data-axes data-spacing-{{ space | default: '3' }}" style="--labels-size: 10em;--cols: {{ report.list | size }};--col-height: {{ height | default: '2.5rem' }};">
+      <caption>CSS selectors</caption>
+      <thead>
+        <tr>
+          <th scope="col">Site</th>
+          <th scope="col">Selectors</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxTotalSelectors -%}
+          {%- assign maxTotalSelectors = report.maxTotalSelectors.total -%}
+        {%- endif -%}
+        {%- for item in reportSorted -%}
+          {%- if maxTotalSelectors -%}
+            {%- assign selectorsPercent = item.total | divided_by: maxTotalSelectors -%}
+            <tr>
+              <th scope="row">{{ item.site.title }}
+              </th>
+              <td style="--size:{{ selectorsPercent }};">
+                <span>Selectors:
+                  {{ item.total }}
+                  <br>Unique:
+                  {{ item.totalUnique }}
+                  {{ item.uniquenessRatio | times: 100 | round: 2 | append: '%)' | prepend: '(' }}
+                </span>
+              </td>
+            </tr>
+          {%- endif -%}
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  <small>This graph is interactive. You could tap or hover over bars to see extra information.</small>
+{%- endif -%}

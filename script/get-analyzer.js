@@ -9,6 +9,8 @@ const getStylesheetReport = async (site, silent) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -38,6 +40,8 @@ const rulesReport = async (site) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -63,6 +67,8 @@ const atRulesReport = async (site) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -126,6 +132,8 @@ const getSelectorsReport = async (site, silent) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -168,6 +176,8 @@ const declarationsReport = async (site) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -195,6 +205,8 @@ const propertiesReport = async (site) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -228,6 +240,8 @@ const valuesReport = async (site) => {
 
     if(!helpers.fileExists(analyzerFile)) {
       resolve(false)
+
+      return false
     }
 
     const analyzerRaw = await helpers.getFile(analyzerFile)
@@ -378,15 +392,19 @@ const selectorsReports = async (sites, name, silent) => {
     selectorsData.minKeyframesSelectors = calc.getMin(selectorsData.list, 'keyframes', 'total')
     selectorsData.avgKeyframesSelectors = calc.getAverage(selectorsData.list, 'keyframes', 'total')
 
+
     selectorsData.maxComplexity = calc.getMax(selectorsData.list, 'complexity', 'max')
-    selectorsData.minComplexity = calc.getMin(selectorsData.list, 'complexity', 'min')
+    selectorsData.minComplexity = calc.getMin(selectorsData.list, 'complexity', 'max')
     selectorsData.avgComplexity = calc.getAverage(selectorsData.list, 'complexity', 'mean')
 
-    const maxSpecificities = selectorsData.list.sort((a, b) => compareSpecificity(a.specificity.max, b.specificity.max))
-    selectorsData.maxSpecificity = maxSpecificities.shift()
+    const selectorsList1 = selectorsData.list
+    const selectorsList2 = selectorsData.list
 
-    const minSpecificities = selectorsData.list.sort((a, b) => compareSpecificity(a.specificity.min, b.specificity.min))
-    selectorsData.minSpecificity = minSpecificities.pop()
+    const maxSpecificities = selectorsList1.sort((a, b) => compareSpecificity(a.specificity.max, b.specificity.max))
+    selectorsData.maxSpecificity = maxSpecificities[0]
+
+    const minSpecificities = selectorsList2.sort((a, b) => compareSpecificity(a.specificity.min, b.specificity.min))
+    selectorsData.minSpecificity = minSpecificities[minSpecificities.length - 1]
 
     helpers.saveFile(selectorsFile, selectorsData, true)
 

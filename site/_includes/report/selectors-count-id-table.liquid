@@ -1,0 +1,59 @@
+{%- if report -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th></th>
+          <th>
+            <b>Site</b>
+          </th>
+          <th class="tar">
+            <b>Selectors</b>
+          </th>
+          <th class="tar">
+            <b>Unique</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- if report.maxIdSelectors -%}
+          <tr>
+            <th>
+              <b>Most ID selectors</b>
+            </th>
+            <td>{{ report.maxIdSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.maxIdSelectors.id.total }}
+            </td>
+            <td class="tar">{{ report.maxIdSelectors.id.totalUnique }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.minIdSelectors and report.minIdSelectors.id.total > 0 -%}
+          <tr>
+            <th>
+              <b>Least ID selectors</b>
+            </th>
+            <td>{{ report.minIdSelectors.site.title }}
+            </td>
+            <td class="tar">{{ report.minIdSelectors.id.total }}
+            </td>
+            <td class="tar">{{ report.minIdSelectors.id.totalUnique }}
+            </td>
+          </tr>
+        {%- endif -%}
+        {%- if report.avgIdSelectors and true == false -%}
+          <tr>
+            <th>
+              <b>Average number of ID selectors</b>
+            </th>
+            <td>-</td>
+            <td class="tar">{{ report.avgIdSelectors | ceil }}
+            </td>
+            <td class="tar">-</td>
+          </tr>
+        {%- endif -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}
