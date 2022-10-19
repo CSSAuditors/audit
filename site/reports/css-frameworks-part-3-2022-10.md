@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Top 2021 CSS Frameworks Report, Part 3: Selectors'
-description: In this report, I have audited top CSS frameworks of 2022, according to the State of CSS report, against selectors.
+description: In this report, I have audited top CSS frameworks of 2022 (according to the State of CSS report) against selectors.
 image: /gfx/css-frameworks-part-3-2022-10.jpg
 date: 2022-10-19
 tags:
