@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Top 2021 CSS Frameworks Report, Part 2: Validation'
-description: In this report, I have audited top CSS frameworks of 2022 (according to the State of CSS report) for errors and warnings.
+description: In this report, I have audited Top CSS Frameworks of 2021 (according to the State of CSS report) for errors and warnings.
 image: /gfx/css-frameworks-part-2-2022-05.jpg
 date: 2022-05-06
 tags:
@@ -26,7 +26,7 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-This is the second part of the **Top CSS Frameworks of 2022** report. [Here’s the first part of the report about the file sizes](/reports/css-frameworks-part-1-2022-02/).
+This is the second part of the **Top CSS Frameworks of 2021** report. [Here’s the first part of the report about the file sizes](/reports/css-frameworks-part-1-2022-02/).
 
 In this report, I have audited top CSS frameworks ([according to the State of CSS report](https://2021.stateofcss.com/en-US/technologies/css-frameworks)) for errors and warnings. Here’s the complete list of audited frameworks:
 

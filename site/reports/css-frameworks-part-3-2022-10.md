@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Top 2021 CSS Frameworks Report, Part 3: Selectors'
-description: In this report, I have audited top CSS frameworks of 2022 (according to the State of CSS report) against selectors.
+description: In this report, I have audited Top CSS Frameworks of 2021 (according to the State of CSS report) against selectors.
 image: /gfx/css-frameworks-part-3-2022-10.jpg
 date: 2022-10-19
 tags:
@@ -26,7 +26,7 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-This is the third part of the **Top CSS Frameworks of 2022** report. Read the previous reports about [the file sizes](/reports/css-frameworks-part-1-2022-02/) and [errors and warnings](/reports/css-frameworks-part-2-2022-05/).
+This is the third part of the **Top CSS Frameworks of 2021** report. Read the previous reports about [the file sizes](/reports/css-frameworks-part-1-2022-02/) and [errors and warnings](/reports/css-frameworks-part-2-2022-05/).
 
 In this report, I have audited top CSS frameworks ([according to the State of CSS report](https://2021.stateofcss.com/en-US/technologies/css-frameworks)) against selectors. Here’s the complete list of audited frameworks:
 

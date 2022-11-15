@@ -1,3 +1,5 @@
+"use strict";
+
 const { series, parallel } = require('gulp');
 
 const { helpers } = require('./helpers');

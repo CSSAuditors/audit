@@ -1,0 +1,32 @@
+{%- if report -%}
+  {%- assign reportSorted = report.list | sort: 'title' -%}
+  <div class="table-wrapper">
+    <table class="small">
+      <thead>
+        <tr>
+          <th>
+            <b>Site</b>
+          </th>
+          <th>
+            <b>Avg complexity</b>
+          </th>
+          <th>
+            <b>Max complexity</b>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for item in reportSorted -%}
+          <tr>
+            <td>{{ item.site.title }}
+            </td>
+            <td>{{ item.complexity.median }}
+            </td>
+            <td>{{ item.complexity.max }}
+            </td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+{%- endif -%}

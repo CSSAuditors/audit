@@ -1,4 +1,4 @@
-<section class="slim"{% if block.title %} id="{{ block.title | strip | downcase | replace: ' ', '-' | replace: '#', '' }}"{% endif %}>
+<section class="slim" {% if block.title %} id="{{ block.title | strip | downcase | replace: ' ', '-' | replace: '#', '' }}"{% endif %}>
   <article class="report">
     <div class="section__row">
       {% if block.icon %}
@@ -25,7 +25,11 @@
                   {% assign author_label = "Author" %}
                 {% endif %}
                 <span>
-                  {{ author_label }}: {% for author in metadata.authors %}{% if forloop.index > 1 %}, {% endif %}{{ author | authorize: "full_name" }}{% endfor %}
+                  {{ author_label }}:
+                  {% for author in metadata.authors %}
+                    {% if forloop.index > 1 %},
+                    {% endif %}
+                    {{ author | authorize: "full_name" }}{% endfor %}
                 </span><br>
               {% endif %}
               <span>Date: {{ date | date: "%Y-%m-%d" }}</span>
@@ -43,7 +47,9 @@
                     <div class="nav nav--alpha">
                       <ul>
                         {% for link in thisAuthor.links %}
-                          <li><a class="plain" href="{{ link.href }}">{{ link.name }}</a></li>
+                          <li>
+                            <a class="plain" href="{{ link.href }}">{{ link.name }}</a>
+                          </li>
                         {% endfor %}
                       </ul>
                     </div>
@@ -53,18 +59,21 @@
             {% endfor %}
             <div class="section__piece">
               <div>
-                <p class="small">If you would like to write, analyze and audit more sites with us, <a href="mailto:css.auditors@gmail.com">contact us</a>.</p>
+                <p class="small">If you would like to write, analyze and audit more sites with us,
+                  <a href="mailto:css.auditors@gmail.com">contact us</a>.</p>
               </div>
             </div>
           {% endif %}
           {% if block.social %}
-            {% assign twitterLink = "https://twitter.com/intent/tweet?url=" | append: site.url | append: page.url | append: "&text=" | append: title | append: "&via=" | append: site.twitter %}
-            {% assign facebookLink = "https://facebook.com/sharer.php?u=" | append: site.url | append: page.url %}
-            {% assign redditLink = "https://www.reddit.com/submit?url=" | append: site.url | append: page.url + "&title=" + title %}
+            {% assign titleEncoded = title | strip_html | strip | url_encode %}
+            {% assign titleEscaped = titleEncoded | replace: '+', '%20' %}
+            {% assign twitterLink = "https://twitter.com/intent/tweet?text=" | append: titleEncoded | append: "&url=" | append: site.url | append: page.url %}
+            {% assign mastodonLink = "https://sharetomastodon.github.io/?title=" | append: titleEscaped | append: "&url=" | append: site.url | append: page.url %}
+            {% assign redditLink = "https://www.reddit.com/submit?title=" | append: titleEncoded | append: "&url=" | append: site.url | append: page.url %}
             <div class="nav nav--alpha">
               <ul>
                 <li><a class="plain" href="{{ twitterLink }}" target="_blank">Twitter</a></li>
-                <li><a class="plain" href="{{ facebookLink }}" target="_blank">Facebook</a></li>
+                <li><a class="plain" href="{{ mastodonLink }}" target="_blank">Mastodon</a></li>
                 <li><a class="plain" href="{{ redditLink }}" target="_blank">Reddit</a></li>
               </ul>
             </div>
@@ -88,7 +97,9 @@
                 {% if elem.chart.item %}
                   {{ elem.chart.item | chartize: object, elem.chart.type }}
                   {% if elem.chart.info %}
-                    <p><small>{{ elem.chart.info }}</small></p>
+                    <p>
+                      <small>{{ elem.chart.info }}</small>
+                    </p>
                   {% endif %}
                 {% endif %}
               {% endif %}
@@ -98,7 +109,7 @@
         {% if block.cta %}
           <div>
             {% for cta in block.cta %}
-              <a class="button" href="{{ cta.href }}"{% if cta.download %} download{% endif %}>{{ cta.title }}</a>
+              <a class="button" href="{{ cta.href }}" {% if cta.download %} download{% endif %}>{{ cta.title }}</a>
             {% endfor %}
           </div>
         {% endif %}

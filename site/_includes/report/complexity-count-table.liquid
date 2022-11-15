@@ -27,7 +27,7 @@
         {%- if report.minComplexity -%}
           <tr>
             <th>
-              <b>Min complexity</b>
+              <b>Min of max complexity</b>
             </th>
             <td>{{ report.minComplexity.site.title }}
             </td>
@@ -38,10 +38,10 @@
         {%- if report.avgComplexity -%}
           <tr>
             <th>
-              <b>Average number of selectors</b>
+              <b>Average complexity</b>
             </th>
             <td>-</td>
-            <td class="tar">{{ report.avgComplexity | ceil }}
+            <td class="tar">{{ report.avgComplexity | round: 2 }}
             </td>
           </tr>
         {%- endif -%}

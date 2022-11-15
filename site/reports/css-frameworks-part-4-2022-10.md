@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 'Top 2021 CSS Frameworks Report, Part 4: Specificity and complexity'
-# description: In this report, I have audited top CSS frameworks of 2022, according to the State of CSS report, for errors and warnings.
+description: In this report, I have audited Top CSS Frameworks of 2021, according to the State of CSS report, for specificity and complexity.
 # image: /gfx/css-frameworks-part-2-2022-05.jpg
-permalink: false
-date: 2022-10-20
+date: 2022-11-15
+tags:
+  - report
 metadata:
   authors:
     - Silvestar
@@ -25,9 +26,9 @@ blocks:
           If you would like to get recent reports in your inbox, subscribe here!
 ---
 
-This is the third part of the **Top CSS Frameworks of 2022** report. Read the previous reports about [about the file sizes](/reports/css-frameworks-part-1-2022-02/) and [errors and warning](/reports/css-frameworks-part-2-2022-05/).
+This is the fourth part of the **Top CSS Frameworks of 2021** report. Read the previous reports about [the file sizes](/reports/css-frameworks-part-1-2022-02/), [errors and warning](/reports/css-frameworks-part-2-2022-05/), and [selectors](/reports/css-frameworks-part-3-2022-10/).
 
-In this report, I have audited top CSS frameworks ([according to the State of CSS report](https://2021.stateofcss.com/en-US/technologies/css-frameworks)) ... Here’s the complete list of audited frameworks:
+In this report, I have audited top CSS frameworks ([according to the State of CSS report](https://2021.stateofcss.com/en-US/technologies/css-frameworks)) for specificity and complexity. Here’s the complete list of audited frameworks:
 
 {% render report/general-site-list, report: reports.report3 %}
 
@@ -44,38 +45,48 @@ Using this tool, I have been able to gather information about selectors, specifi
 <small>⚠️ Any errors in the report that might be caused by invalid software are not deliberate and should be considered involuntary.</small>
 
 ## The Report
-
-### Selectors
-
-CSS selectors are used to define which elements should the rules be aplied to. Let's see which CSS frameworks have the most and which ones have the least number of selectors:
-
-{% render report/selectors-count-all-table, report: report3-analyzer-selectors %}
-
-As expected, TailwindCSS has the most selectors. TailwindCSS is the utility-first CSS framework which means that every class serves as a single purpose. On the other hand, PureCSS has the least selectors.
-
-
-{% render report/selectors-list-chart, report: report3-analyzer-selectors %}
-
-We could consider these two frameworks as extremes. Every other framework have between ~2k and ~9k selectors.
-
 ### Specificity
 
 CSS specificity is the algorithm which browsers use to determine the “weight” of the selector. It is believed that “lighter” selectors are easier to maintain and comprehend.
 
 {% render report/specificity-count-table, report: report3-analyzer-selectors %}
 
-As we see, Materialize has the highest specificity selector and Tachyons has the lower highest specificity. Materialize is the only CSS framework which uses ID selectors, which I find very odd.
+As we see, Materialize has the highest specificity selector and Tachyons has the lowest high specificity. Materialize is the only CSS framework which uses ID selectors, which I find very odd.
+
+TailwindCSS has the lowest maximum specificity, which is expected with it being the utility class framework.
 
 {% render report/specificity-count-list, report: report3-analyzer-selectors %}
 
 Almost every frameworks' max specificity depend mostly on classes. That doesn't surprise, since classes are the most common way to style HTML elements these days.
 
-Here are the final numbers about complexity:
+### Complexity
+
+CSS specificity tells us how “heavy” our selectors are. As [Bart Veneman explained in his article](https://www.projectwallace.com/blog/css-complexity), specificity could be handled with the new `:where()` and `:is()` selectors which lowers the specificity, but adds to complexity which leads to more problems.
+
+> Some recent additions to CSS have made it easier to deal with specificity issues, like :where() and :is(). But they can make selectors more **complex**.
+>
+> — [Bart Veneman](https://www.projectwallace.com/blog/css-complexity)
+
+In case of CSS complexity, the biggest problems are usually related to debugging. Now that we know what CSS complexity is, let's see the maximum complexity for each framework:
+
+{% render report/complexity-count-list, report: report3-analyzer-selectors %}
+
+
+CSS complexity is defined as a whole number. The higher the number, the higher the complexity.
+
+We could see that the two thirds of CSS frameworks have the maximum complexity in double-digits. That doesn't sound ideal, far from it. On the other hand, an average complexity is usually 1, 3, or 5. That sounds much more optimistic.
 
 {% render report/complexity-count-table, report: report3-analyzer-selectors %}
 
+Semantic UI has the highest complexity selector of 19, while Tachyons has the lowest, just 5. Average complexity is quite good overall, just 3.15.
 
-...
+## Conclusion
+
+CSS specificity is a long know metric, which is usually ignored by most developers. Now we have another CSS metric that might be ignored, CSS complexity.
+
+While CSS specificity and complexity are just numbers, they could help us understand the quality of the framework. If you are going to use CSS framework as a base for your project and you think you will need to overwrite its selectors, these numbers might be quite helpful.
+
+So, do your part and share these findings to bring the attention to CSS code quality.
 
 [#RespectCSS](https://twitter.com/search?q=%23RespectCSS&src=typed_query)
 
@@ -83,3 +94,4 @@ Here are the final numbers about complexity:
 
 - Report: [Top 2021 CSS Frameworks Report, Part 1: The CSS File Sizes](/reports/css-frameworks-part-1-2022-02/)
 - Report: [Top 2021 CSS Frameworks Report, Part 2: Validation](/reports/css-frameworks-part-2-2022-05/)
+- Report: [Top 2021 CSS Frameworks Report, Part 3: Selectors](/reports/css-frameworks-part-3-2022-10/)
