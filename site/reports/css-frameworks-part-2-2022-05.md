@@ -32,7 +32,7 @@ In this report, I have audited top CSS frameworks ([according to the State of CS
 
 {% render report/general-site-list, report: reports.report3 %}
 
-<small>⚠️ It is worth noting that I had to use the previous version of the TailwindCSS since I could not download the latest one in full.</small>
+<small>⚠️ It is worth noting that I had to use the previous version of the TailwindCSS since I could not fully download the latest one.</small>
 
 ## The Tooling
 

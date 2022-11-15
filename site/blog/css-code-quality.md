@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Find out the quality of your CSS code
-description:
+description: Writing good CSS is hard. At least now we could get a sense of how good or bad we are at it. Check CSS Code Quality tool.
 image: /gfx/css-code-quality.jpg
 date: 2022-10-15
 tags:

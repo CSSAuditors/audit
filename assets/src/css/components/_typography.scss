@@ -6,16 +6,6 @@ Markup: typography.html
 Style guide: Fonts
 */
 
-@font-face {
-  font-family: var(--ff-alpha);
-  src: local('Barlow Medium'), local('Barlow-Medium'),
-    url('Barlow-Medium.woff2') format('woff2'),
-    url('Barlow-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
 ::selection {
   background-color: var(--color-alpha3);
 }
@@ -31,8 +21,7 @@ html {
 }
 
 body {
-  font-family: var(--ff-alpha);
-  font-weight: 500;
+  font-family: var(--system-font);
   line-height: 1.6;
   letter-spacing: .02em;
   color: var(--color-beta);

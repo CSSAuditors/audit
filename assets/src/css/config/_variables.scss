@@ -2,7 +2,9 @@ $mq-alpha: 750px;
 $mq-beta: 751px;
 
 :root {
-  --ff-alpha: 'Barlow', sans-serif;
+  --system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
   --fz-alpha: 18px;
   --fz-beta: 15px;
   --color-alpha: hsl(222, 88%, 55%);
