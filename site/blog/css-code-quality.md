@@ -2,7 +2,7 @@
 layout: post
 title: Find out the quality of your CSS code
 description:
-# image: /gfx/
+image: /gfx/css-code-quality.jpg
 date: 2022-10-15
 tags:
   - blog
