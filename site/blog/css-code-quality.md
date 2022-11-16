@@ -52,7 +52,7 @@ _I wouldn’t mind seeing a legend telling you that 100 points are the maximum, 
 
 For every test that fails, your score gets lower. You can see the results for each test in the score breakdown.
 
-There are twenty different tests at the time of writing, from checking the usage of @import in your code to checking the number of declarations in a single ruleset.
+There are twenty different tests at the time of writing, from checking the usage of `@import` in your code to checking the number of declarations in a single ruleset.
 
 If your code passes the test, the test will be marked green. Otherwise, if your code didn’t pass the test, the test will be marked orange or red, depending on how badly the code broke the test.
 
