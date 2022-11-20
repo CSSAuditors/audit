@@ -14,7 +14,7 @@
       <ul>
         {% for item in footer.menu %}
           <li>
-            <a href="{{ item.href }}">
+            <a href="{{ item.href }}" {% if item.rel %}rel="{{ item.rel }}"{% endif %}>
               {{ item.title }}
             </a>
           </li>
